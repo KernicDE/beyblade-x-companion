@@ -6002,47 +6002,48 @@
   {
     "id": "shark-gill-hasbro",
     "category": "blade",
-    "name": "Shark Gill",
+    "name": "Gill Shark",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeSharkGill.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/BladeSharkGill.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Shark Gill Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of SharkGill. A right-spin Stamina Type Basic Line Blade with two large blades as main contact points.",
+      "de": "Die Hasbro-Version von SharkGill. Ein Right-Spin-Stamina-Type-Basic-Line-Blade mit zwei großen Klingen als Hauptkontaktpunkten."
     },
     "assessment": {
-      "en": "Shark Gill is a right-spin Balance Type Blade. Weight: 29.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Gill Shark performs identically to the Takara Tomy release. It is a lightweight stamina-oriented Blade best suited for stamina combinations.",
+      "de": "Hasbros Gill Shark spielt identisch zur Takara-Tomy-Version. Er ist ein leichter stamina-orientierter Blade, der am besten für Stamina-Kombinationen geeignet ist."
     },
     "officialStats": {
-      "weightGrams": 29.7,
-      "spinDirection": "right"
+      "weightGrams": 29.6,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 2,
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "knight-mail-hasbro",
     "category": "blade",
     "name": "Knight Mail",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8b/BladeKnightMail.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Knight Mail Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of KnightMail. A right-spin Defense Type Unique Line Blade with an armored, mail-like outer circumference.",
+      "de": "Die Hasbro-Version von KnightMail. Ein Right-Spin-Defense-Type-Unique-Line-Blade mit einer gepanzerten, kettenhemd-ähnlichen Außenkante."
     },
     "assessment": {
-      "en": "Knight Mail is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 35. Weight: 36.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Knight Mail performs identically to the Takara Tomy release. Its heavy, armored shape offers strong Defense, though its Stamina is modest.",
+      "de": "Hasbros Knight Mail spielt identisch zur Takara-Tomy-Version. Seine schwere, gepanzerte Form bietet starke Defense, obwohl seine Stamina bescheiden ist."
     },
     "officialStats": {
       "weightGrams": 36.7,
@@ -6050,29 +6051,29 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 4.6,
-      "stamina": 2.2,
-      "balance": 2.5
+      "attack": 1,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "dranzer-spiral-hasbro",
     "category": "blade",
     "name": "Dranzer Spiral",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ce/BladeDranzerSpiral.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BladeDranzerSpiral.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Dranzer Spiral Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of DranzerSpiral. A Balance Type X-Over Blade adapted from the original Dranzer.",
+      "de": "Die Hasbro-Version von DranzerSpiral. Ein Balance-Type-X-Over-Blade, adaptiert vom originalen Dranzer."
     },
     "assessment": {
-      "en": "Dranzer Spiral is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 30 / Stamina 35. Weight: 27.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Dranzer Spiral performs identically to the Takara Tomy release. It is too light to compete in Attack, Defense, or Stamina roles.",
+      "de": "Hasbros Dranzer Spiral spielt identisch zur Takara-Tomy-Version. Er ist zu leicht, um in Attack-, Defense- oder Stamina-Rollen zu konkurrieren."
     },
     "officialStats": {
       "weightGrams": 27.7,
@@ -6080,10 +6081,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.1,
-      "stamina": 2.2,
-      "balance": 2.2
+      "attack": 2,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6093,16 +6094,16 @@
     "category": "blade",
     "name": "Driger Slash",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c5/BladeDrigerSlash.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/86/BladeDrigerSlash.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Driger Slash Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of DrigerSlash. A Balance Type X-Over Blade adapted from the original Driger.",
+      "de": "Die Hasbro-Version von DrigerSlash. Ein Balance-Type-X-Over-Blade, adaptiert vom originalen Driger."
     },
     "assessment": {
-      "en": "Driger Slash is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 35 / Stamina 25. Weight: 28.6g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Driger Slash performs identically to the Takara Tomy release. It offers a balanced profile but is lighter than modern specialized Blades.",
+      "de": "Hasbros Driger Slash spielt identisch zur Takara-Tomy-Version. Er bietet ein ausgewogenes Profil, ist aber leichter als moderne spezialisierte Blades."
     },
     "officialStats": {
       "weightGrams": 28.6,
@@ -6110,29 +6111,29 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.5,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "draciel-shield-hasbro",
     "category": "blade",
     "name": "Draciel Shield",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeDracielShield.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Draciel Shield Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of DracielShield. A right-spin Defense Type X-Over Blade adapted from the original Draciel.",
+      "de": "Die Hasbro-Version von DracielShield. Ein Right-Spin-Defense-Type-X-Over-Blade, adaptiert vom originalen Draciel."
     },
     "assessment": {
-      "en": "Draciel Shield is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 50 / Stamina 20. Weight: 28g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Draciel Shield performs identically to the Takara Tomy release. Its shield-like shape is built for defense, though its low weight limits top-tier competitiveness.",
+      "de": "Hasbros Draciel Shield spielt identisch zur Takara-Tomy-Version. Seine schildartige Form ist auf Defense ausgelegt, obwohl das geringe Gewicht die Top-Kompetitivität limitiert."
     },
     "officialStats": {
       "weightGrams": 28,
@@ -6140,29 +6141,29 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 3.6,
-      "stamina": 1.3,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "grogu",
     "category": "blade",
     "name": "Grogu",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6c/BladeGrogu.png/revision/latest",
-    "releaseDate": "2026-04-01",
-    "releaseWave": "G3061",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6e/Grogu_3-85E.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX-00",
     "description": {
-      "en": "Grogu Blade from the Star Wars collaboration Multipack Set.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Star Wars collaboration. It features a Grogu-themed Gear Chip and a rounded shape with small protrusions.",
+      "de": "Ein Right-Spin-Defense-Type-Blade aus der Star-Wars-Kollaboration. Er zeigt einen Grogu-thematisierten Gear Chip und eine runde Form mit kleinen Vorsprüngen."
     },
     "assessment": {
-      "en": "Grogu is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 50 / Stamina 29. Weight: 33.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Grogu is a defensive Star Wars collaboration Blade. Its moderate weight and round shape provide decent stability, but it is outclassed by dedicated Defense Blades.",
+      "de": "Grogu ist ein defensiver Star-Wars-Kollaborations-Blade. Sein mittleres Gewicht und die runde Form bieten solide Stabilität, aber er wird von dedizierten Defense-Blades übertroffen."
     },
     "officialStats": {
       "weightGrams": 33.5,
@@ -6170,29 +6171,29 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 3.6,
-      "stamina": 1.8,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 3.5,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "grogu-hasbro",
     "category": "blade",
     "name": "Grogu",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6c/BladeGrogu.png/revision/latest",
-    "releaseDate": "2026-04-01",
-    "releaseWave": "G3061",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6e/Grogu_3-85E.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX-00",
     "description": {
-      "en": "Grogu Blade from the Star Wars collaboration Multipack Set.",
-      "de": ""
+      "en": "The Hasbro Grogu Blade from the Star Wars collaboration Multipack Set. A right-spin Defense Type Blade.",
+      "de": "Der Hasbro-Grogu-Blade aus dem Star-Wars-Kollaborations-Multipack Set. Ein Right-Spin-Defense-Type-Blade."
     },
     "assessment": {
-      "en": "Grogu is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 50 / Stamina 29. Weight: 33.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "This entry duplicates the earlier Grogu release. It is a defensive Star Wars collaboration Blade with moderate stability.",
+      "de": "Dieser Eintrag dupliziert die frühere Grogu-Veröffentlichung. Er ist ein defensiver Star-Wars-Kollaborations-Blade mit mittlerer Stabilität."
     },
     "officialStats": {
       "weightGrams": 33.5,
@@ -6200,97 +6201,103 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 3.6,
-      "stamina": 1.8,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 3.5,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "snowtrooper",
     "category": "blade",
     "name": "Snowtrooper",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeSnowtrooper.png/revision/latest",
-    "releaseDate": "2026-04-01",
-    "releaseWave": "G3061",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/84/Snowtrooper_7-60O.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX-00",
     "description": {
-      "en": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Star Wars collaboration. It is the same Blade as Stormtrooper, released under the Snowtrooper name in the Grogu and Snowtrooper Multipack Set.",
+      "de": "Ein Right-Spin-Defense-Type-Blade aus der Star-Wars-Kollaboration. Es ist derselbe Blade wie Stormtrooper, veröffentlicht unter dem Namen Snowtrooper im Grogu and Snowtrooper Multipack Set."
     },
     "assessment": {
-      "en": "Snowtrooper is a right-spin Balance Type Blade. Weight: 33.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Snowtrooper performs identically to Stormtrooper. It is a Defense-oriented Star Wars collaboration Blade with a rugged perimeter for absorbing hits.",
+      "de": "Snowtrooper spielt identisch zu Stormtrooper. Er ist ein Defense-orientierter Star-Wars-Kollaborations-Blade mit robuster Außenkante zum Absorbieren von Treffern."
     },
     "officialStats": {
       "weightGrams": 33.3,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "snowtrooper-hasbro",
     "category": "blade",
     "name": "Snowtrooper",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeSnowtrooper.png/revision/latest",
-    "releaseDate": "2026-04-01",
-    "releaseWave": "G3061",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/84/Snowtrooper_7-60O.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX-00",
     "description": {
-      "en": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
-      "de": ""
+      "en": "The Hasbro Snowtrooper Blade from the Star Wars collaboration Multipack Set. A right-spin Defense Type Blade identical to Stormtrooper.",
+      "de": "Der Hasbro-Snowtrooper-Blade aus dem Star-Wars-Kollaborations-Multipack Set. Ein Right-Spin-Defense-Type-Blade, identisch mit Stormtrooper."
     },
     "assessment": {
-      "en": "Snowtrooper is a right-spin Balance Type Blade. Weight: 33.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "This entry duplicates the earlier Snowtrooper release. It performs identically to Stormtrooper as a Defense-oriented Blade.",
+      "de": "Dieser Eintrag dupliziert die frühere Snowtrooper-Veröffentlichung. Er spielt identisch zu Stormtrooper als Defense-orientierter Blade."
     },
     "officialStats": {
       "weightGrams": 33.3,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "the-mandalorian-hasbro",
     "category": "blade",
     "name": "The Mandalorian",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
-    "releaseDate": "",
-    "releaseWave": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4e/The_Mandalorian_3-60N.png/revision/latest",
+    "releaseDate": "2024-01-01",
+    "releaseWave": "BX",
     "description": {
-      "en": "The Mandalorian Blade.",
-      "de": ""
+      "en": "The Hasbro version of The Mandalorian. A right-spin Attack Type Blade from the Star Wars collaboration with a Mandalorian-themed Gear Chip.",
+      "de": "Die Hasbro-Version von The Mandalorian. Ein Right-Spin-Attack-Type-Blade aus der Star-Wars-Kollaboration mit mandalorianisch-thematisiertem Gear Chip."
     },
     "assessment": {
-      "en": "The Mandalorian is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's The Mandalorian performs identically to the Takara Tomy release. It is a light Attack Blade that can deliver some aggression but is outclassed by heavier Attack options.",
+      "de": "Hasbros The Mandalorian spielt identisch zur Takara-Tomy-Version. Er ist ein leichter Attack-Blade, der etwas Aggression liefern kann, aber von schwereren Attack-Optionen übertroffen wird."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 30.3,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "moff-gideon-hasbro",
