@@ -1,6 +1,6 @@
 [
   {
-    "id": "dran-sword3-60f",
+    "id": "dran-sword3-60f-bx-01",
     "name": "Dran Sword 3-60F",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/09/DranSword_3-60F.png/revision/latest",
@@ -12,7 +12,7 @@
     "assessment": "Dran Sword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-01. Released on 15.07.2023. Parts: Dran Sword / 3-60 / Flat."
   },
   {
-    "id": "hells-scythe4-60t",
+    "id": "hells-scythe4-60t-bx-02",
     "name": "Hells Scythe 4-60T",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/HellsScythe_4-60T.jpeg/revision/latest",
@@ -24,7 +24,7 @@
     "assessment": "Hells Scythe 4-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-02. Released on 15.07.2023. Parts: Hells Scythe / 4-60 / Taper."
   },
   {
-    "id": "knight-shield3-80n",
+    "id": "knight-shield3-80n-bx-03",
     "name": "Knight Shield 3-80N",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/KnightShield_3-80N.jpeg/revision/latest",
@@ -36,7 +36,7 @@
     "assessment": "Knight Shield 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-03. Released on 15.07.2023. Parts: Knight Shield / 3-80 / Needle."
   },
   {
-    "id": "wizard-arrow4-80b",
+    "id": "wizard-arrow4-80b-bx-04",
     "name": "Wizard Arrow 4-80B",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/WizardArrow_4-80B.jpeg/revision/latest",
@@ -48,19 +48,19 @@
     "assessment": "Wizard Arrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-04. Released on 15.07.2023. Parts: Wizard Arrow / 4-80 / Ball."
   },
   {
-    "id": "knight-lance4-80hn",
+    "id": "knight-lance4-80hn-bx-13",
     "name": "Knight Lance 4-80HN",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/KnightLance_4-80HN.jpeg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-05",
+    "releaseDate": "2023-08-10",
+    "releaseWave": "BX-13",
     "bladeId": "knight-lance",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-needle",
-    "assessment": "Knight Lance 4-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-05. Released on 15.07.2023. Parts: Knight Lance / 4-80 / High Needle."
+    "assessment": "Knight Lance 4-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-13. Released on 10.08.2023. Parts: Knight Lance / 4-80 / High Needle."
   },
   {
-    "id": "shark-edge3-60lf",
+    "id": "shark-edge3-60lf-bx-06",
     "name": "Shark Edge 3-60LF",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/SharkEdge_3-60LF.png/revision/latest",
@@ -72,19 +72,19 @@
     "assessment": "Shark Edge 3-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-06. Released on 15.07.2023. Parts: Shark Edge / 3-60 / Low Flat."
   },
   {
-    "id": "leon-claw5-60p",
+    "id": "leon-claw5-60p-bx-15",
     "name": "LeonClaw 5-60P",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f4/LeonClaw_5-60P.jpeg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-07",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX-15",
     "bladeId": "leon-claw",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-point",
-    "assessment": "LeonClaw 5-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-07. Released on 15.07.2023. Parts: Leon Claw / 5-60 / Point."
+    "assessment": "LeonClaw 5-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-15. Released on 07.10.2023. Parts: Leon Claw / 5-60 / Point."
   },
   {
-    "id": "viper-tail5-80o-bx08",
+    "id": "viper-tail5-80o-bx-08",
     "name": "ViperTail 5-80O",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/09/ViperTail_5-80O.jpeg/revision/latest",
@@ -96,91 +96,91 @@
     "assessment": "ViperTail 5-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Released on 15.07.2023. Parts: Viper Tail / 5-80 / Orb."
   },
   {
-    "id": "dran-dagger4-60r",
+    "id": "dran-dagger4-60r-bx-20",
     "name": "DranDagger 4-60R",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/DranDagger_4-60R.jpeg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-09",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX-20",
     "bladeId": "dran-dagger",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-rush",
-    "assessment": "DranDagger 4-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-09. Released on 15.07.2023. Parts: Dran Dagger / 4-60 / Rush."
+    "assessment": "DranDagger 4-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-20. Released on 02.11.2023. Parts: Dran Dagger / 4-60 / Rush."
   },
   {
-    "id": "hells-chain5-60ht",
+    "id": "hells-chain5-60ht-bx-21",
     "name": "HellsChain 5-60HT",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d1/HellsChain_5-60HT.jpeg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-10",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX-21",
     "bladeId": "hells-chain",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-high-taper",
-    "assessment": "HellsChain 5-60HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-10. Released on 15.07.2023. Parts: Hells Chain / 5-60 / High Taper."
+    "assessment": "HellsChain 5-60HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-21. Released on 02.11.2023. Parts: Hells Chain / 5-60 / High Taper."
   },
   {
-    "id": "rhino-horn3-80s",
+    "id": "rhino-horn3-80s-bx-19",
     "name": "RhinoHorn 3-80S",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/RhinoHorn_3-80S.jpeg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-11",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX-19",
     "bladeId": "rhino-horn",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-spike",
-    "assessment": "RhinoHorn 3-80S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-11. Released on 15.07.2023. Parts: Rhino Horn / 3-80 / Spike."
+    "assessment": "RhinoHorn 3-80S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-19. Released on 02.11.2023. Parts: Rhino Horn / 3-80 / Spike."
   },
   {
-    "id": "phoenix-feather3-60f",
+    "id": "phoenix-feather3-60f-bx-00",
     "name": "PhoenixFeather 3-60F",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d3/PhoenixFeather_3-60F.jpg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-12",
+    "releaseDate": "2025-06-15",
+    "releaseWave": "BX-00",
     "bladeId": "phoenix-feather",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "PhoenixFeather 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-12. Released on 15.07.2023. Parts: Phoenix Feather / 3-60 / Flat."
+    "assessment": "PhoenixFeather 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Released on 15.06.2025. Parts: Phoenix Feather / 3-60 / Flat."
   },
   {
-    "id": "wyvern-gale2-60s",
+    "id": "wyvern-gale2-60s-bx-14",
     "name": "WyvernGale 2-60S",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/WyvernGale_2-60S.jpeg/revision/latest",
-    "releaseDate": "2023-08-10",
-    "releaseWave": "BX-13",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-spike",
-    "assessment": "WyvernGale 2-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-13. Released on 10.08.2023. Parts: Wyvern Gale / 2-60 / Spike."
+    "assessment": "WyvernGale 2-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Released on 09.09.2023. Parts: Wyvern Gale / 2-60 / Spike."
   },
   {
-    "id": "unicorn-sting5-60gp",
+    "id": "unicorn-sting5-60gp-bx-26",
     "name": "UnicornSting 5-60GP",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cc/UnicornSting_5-60GP.jpg/revision/latest",
-    "releaseDate": "2023-09-09",
-    "releaseWave": "BX-14",
+    "releaseDate": "2024-01-27",
+    "releaseWave": "BX-26",
     "bladeId": "unicorn-sting",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-gear-point",
-    "assessment": "UnicornSting 5-60GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Released on 09.09.2023. Parts: Unicorn Sting / 5-60 / Gear Point."
+    "assessment": "UnicornSting 5-60GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-26. Released on 27.01.2024. Parts: Unicorn Sting / 5-60 / Gear Point."
   },
   {
-    "id": "sphinx-cowl4-80ht",
+    "id": "sphinx-cowl4-80ht-bx-27",
     "name": "SphinxCowl 4-80HT",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/SphinxCowl_4-80HT.jpeg/revision/latest",
-    "releaseDate": "2023-10-07",
-    "releaseWave": "BX-15",
+    "releaseDate": "2024-02-22",
+    "releaseWave": "BX-27",
     "bladeId": "sphinx-cowl",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-taper",
-    "assessment": "SphinxCowl 4-80HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-15. Released on 07.10.2023. Parts: Sphinx Cowl / 4-80 / High Taper."
+    "assessment": "SphinxCowl 4-80HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-27. Released on 22.02.2024. Parts: Sphinx Cowl / 4-80 / High Taper."
   },
   {
-    "id": "viper-tail5-80o-bx16",
+    "id": "viper-tail5-80o-bx-16",
     "name": "ViperTail 5-80O",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/09/ViperTail_5-80O.jpeg/revision/latest",
@@ -192,7 +192,7 @@
     "assessment": "ViperTail 5-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Released on 07.10.2023. Parts: Viper Tail / 5-80 / Orb."
   },
   {
-    "id": "sword-dran3-60f",
+    "id": "sword-dran3-60f-f9580",
     "name": "Sword Dran 3-60F",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/09/DranSword_3-60F.png/revision/latest",
@@ -204,7 +204,7 @@
     "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9580. Parts: Dran Sword / 3-60 / Flat."
   },
   {
-    "id": "helm-knight3-80n",
+    "id": "helm-knight3-80n-f9581",
     "name": "Helm Knight 3-80N",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/KnightShield_3-80N.jpeg/revision/latest",
@@ -216,7 +216,7 @@
     "assessment": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9581. Parts: Knight Shield / 3-80 / Needle."
   },
   {
-    "id": "arrow-wizard4-80b",
+    "id": "arrow-wizard4-80b-f9582",
     "name": "Arrow Wizard 4-80B",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/WizardArrow_4-80B.jpeg/revision/latest",
@@ -228,7 +228,7 @@
     "assessment": "Arrow Wizard 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as F9582. Parts: Wizard Arrow / 4-80 / Ball."
   },
   {
-    "id": "scythe-incendio4-60t",
+    "id": "scythe-incendio4-60t-f9583",
     "name": "Scythe Incendio 4-60T",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/HellsScythe_4-60T.jpeg/revision/latest",
@@ -240,7 +240,7 @@
     "assessment": "Scythe Incendio 4-60T is a right-spin factory-combined Beyblade from Hasbro, released as F9583. Parts: Hells Scythe / 4-60 / Taper."
   },
   {
-    "id": "steel-samurai4-80t",
+    "id": "steel-samurai4-80t-g0188",
     "name": "Steel Samurai 4-80T",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fb/Steel_Samurai_4-80T.jpeg/revision/latest",
@@ -252,7 +252,7 @@
     "assessment": "Steel Samurai 4-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0188. Parts: Samurai Steel / 4-80 / Taper."
   },
   {
-    "id": "horn-rhino3-80s",
+    "id": "horn-rhino3-80s-g0192",
     "name": "Horn Rhino 3-80S",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/RhinoHorn_3-80S.jpeg/revision/latest",
@@ -264,7 +264,7 @@
     "assessment": "Horn Rhino 3-80S is a right-spin factory-combined Beyblade from Hasbro, released as G0192. Parts: Rhino Horn / 3-80 / Spike."
   },
   {
-    "id": "keel-shark3-60lf",
+    "id": "keel-shark3-60lf-g0194",
     "name": "Keel Shark 3-60LF",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/SharkEdge_3-60LF.png/revision/latest",
@@ -276,7 +276,7 @@
     "assessment": "Keel Shark 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0194. Parts: Shark Edge / 3-60 / Low Flat."
   },
   {
-    "id": "talon-ptera3-80b",
+    "id": "talon-ptera3-80b-g0195",
     "name": "Talon Ptera 3-80B",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f8/Talon_Ptera_3-80B.jpeg/revision/latest",
