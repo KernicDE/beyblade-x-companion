@@ -780,60 +780,62 @@
   {
     "id": "ptera-swing",
     "category": "blade",
-    "name": "Ptera Swing",
+    "name": "PteraSwing",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-11-02",
+    "releaseWave": "UX-10",
     "description": {
-      "en": "A round Stamina-oriented Blade with pteranodon-wing contact points. Known as Talon Ptera in western releases.",
-      "de": "Ein runder, Stamina-orientierter Blade mit Flügelkontaktpunkten eines Pteranodons. In westlichen Releases als Talon Ptera bekannt."
+      "en": "A round Stamina Type Basic Line Blade with six pteranodon-wing contact points. Known as Talon Ptera in Hasbro western releases and PteraSwing in Takara Tomy releases.",
+      "de": "Ein runder Stamina-Type-Basic-Line-Blade mit sechs Pteranodon-Flügel-Kontaktpunkten. Bekannt als Talon Ptera in westlichen Hasbro-Veröffentlichungen und als PteraSwing in Takara-Tomy-Veröffentlichungen."
     },
     "assessment": {
-      "en": "Ptera Swing is a solid Stamina option with its round, low-friction shape. (Estimated ratings based on type, weight and shape.)",
-      "de": "Ptera Swing ist eine solide Stamina-Option durch seine runde, reibungsarme Form. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "PteraSwing is a solid Stamina Blade with a round, low-friction shape. It is a viable Stamina option, though later releases offer higher endurance.",
+      "de": "PteraSwing ist ein solider Stamina-Blade mit runder, reibungsarmer Form. Er ist eine brauchbare Stamina-Option, auch wenn spätere Veröffentlichungen mehr Ausdauer bieten."
     },
     "officialStats": {
-      "weightGrams": 34.25,
-      "spinDirection": "right"
+      "weightGrams": 34.3,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 2,
-      "stamina": 4,
+      "attack": 1.5,
+      "defense": 1.5,
+      "stamina": 2.5,
       "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "samurai-steel",
     "category": "blade",
-    "name": "Samurai Steel",
+    "name": "SamuraiSteel",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/SamuraiSteel_5-70GF.jpg/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2025-05-15",
+    "releaseWave": "BX-00",
     "description": {
-      "en": "A Balance Type Blade with samurai-themed blades and a metallic finish. Hasbro-exclusive release.",
-      "de": "Ein Balance-Type-Blade mit samurai-thematisierten Klingen und metallischem Finish. Hasbro-exklusiver Release."
+      "en": "A five-sided Balance Type Basic Line Blade with katana sword contact points and a samurai Gear Chip. Released by Hasbro as Steel Samurai and later by Takara Tomy as SamuraiSteel.",
+      "de": "Ein fünfseitiger Balance-Type-Basic-Line-Blade mit Katana-Schwert-Kontaktpunkten und einem Samurai-Gear-Chip. Von Hasbro als Steel Samurai und später von Takara Tomy als SamuraiSteel veröffentlicht."
     },
     "assessment": {
-      "en": "Samurai Steel offers a balanced mix of offense and defense for casual play. (Estimated ratings based on type, weight and shape.)",
-      "de": "Samurai Steel bietet eine ausgewogene Mischung aus Offensive und Defense für Casual-Spiel. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "SamuraiSteel has greater Smash Attack than LeonClaw thanks to its bumpier perimeter, but it is still too light to compete with heavier Attack Blades. The second mold is about 1 gram heavier and slightly more viable.",
+      "de": "SamuraiSteel hat dank seiner unebeneren Außenkante mehr Smash-Attack als LeonClaw, ist aber immer noch zu leicht, um mit schwereren Attack-Blades zu konkurrieren. Der zweite Guss ist etwa 1 Gramm schwerer und etwas brauchbarer."
     },
     "officialStats": {
-      "weightGrams": 31.08,
-      "spinDirection": "right"
+      "weightGrams": 31.2,
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 3
+      "attack": 2,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "weiss-tiger",
@@ -3900,30 +3902,30 @@
     "category": "blade",
     "name": "Gust Bat",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/Bat.png/revision/latest?cb=20240101213145",
-    "releaseDate": "2026-04-01",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/Gust_Bat_3-85GP.png/revision/latest",
+    "releaseDate": "2026-04-28",
     "releaseWave": "G2733",
     "description": {
-      "en": "Gust Bat Blade from the Hasbro Basic Line.",
-      "de": ""
+      "en": "A Hasbro Basic Line Balance Type Blade with a five-sided bat-wing design. It is a retool of WhaleWave with identical plastic components and a retooled metal component.",
+      "de": "Ein Hasbro-Basic-Line-Balance-Type-Blade mit fünfseitigem Fledermaus-Flügel-Design. Er ist ein Retool von WhaleWave mit identischen Plastikkomponenten und modifizierter Metallkomponente."
     },
     "assessment": {
-      "en": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
-      "de": ""
+      "en": "Gust Bat performs similarly to WhaleWave due to the shared contact points. Its Balance typing makes it a fun novelty, but it is not a competitive staple.",
+      "de": "Gust Bat spielt aufgrund der gemeinsamen Kontaktpunkte ähnlich wie WhaleWave. Seine Balance-Ausrichtung macht ihn zu einer spaßigen Neuheit, aber er ist kein kompetitiver Standard."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 36.2,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "dran-sword-hasbro",
@@ -3931,15 +3933,15 @@
     "name": "Dran Sword",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
-    "releaseDate": "2023-07-15",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Dran Sword Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Dran Sword. A three-sided Attack Type Blade with upward-slanting blades and a Seiryū-themed Gear Chip.",
+      "de": "Die Hasbro-Version von Dran Sword. Ein dreiseitiger Attack-Type-Blade mit nach oben geneigten Klingen und einem Seiryū-Gear-Chip."
     },
     "assessment": {
-      "en": "Dran Sword is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 25 / Stamina 20. Weight: 34.6g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Dran Sword performs identically to the Takara Tomy release. It was strong at launch but has been outclassed by heavier Attack Blades and is no longer recommended for competitive WBO X format play.",
+      "de": "Hasbros Dran Sword spielt identisch zur Takara-Tomy-Version. Er war zum Launch stark, wurde aber von schwereren Attack-Blades übertroffen und wird für das kompetitive WBO-X-Format nicht mehr empfohlen."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -3947,10 +3949,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.7,
-      "defense": 1.8,
-      "stamina": 1.3,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 1.5,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3960,16 +3962,16 @@
     "category": "blade",
     "name": "Knight Shield",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/BladeKnightShield.png/revision/latest",
-    "releaseDate": "2023-07-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8a/BladeKnightShield.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Knight Shield Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Knight Shield. A round Defense Type Blade with six main contact points designed to absorb impacts.",
+      "de": "Die Hasbro-Version von Knight Shield. Ein runder Defense-Type-Blade mit sechs Hauptkontaktpunkten zum Absorbieren von Treffern."
     },
     "assessment": {
-      "en": "Knight Shield is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 55 / Stamina 25. Weight: 32.4g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Knight Shield performs identically to the Takara Tomy release. It was competitive early on, but heavier Defense and Stamina Blades have surpassed it.",
+      "de": "Hasbros Knight Shield spielt identisch zur Takara-Tomy-Version. Er war anfangs kompetitiv, wurde aber von schwereren Defense- und Stamina-Blades übertroffen."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -3977,10 +3979,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.3,
-      "defense": 3.9,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3990,16 +3992,16 @@
     "category": "blade",
     "name": "Wizard Arrow",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/44/BladeWizardArrow.png/revision/latest",
-    "releaseDate": "2023-07-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BladeWizardArrow.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Wizard Arrow Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Wizard Arrow. A round Stamina Type Blade with two large blades that create strong centrifugal force.",
+      "de": "Die Hasbro-Version von Wizard Arrow. Ein runder Stamina-Type-Blade mit zwei großen Klingen, die starke Fliehkraft erzeugen."
     },
     "assessment": {
-      "en": "Wizard Arrow is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 55. Weight: 31.8g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Wizard Arrow performs identically to the Takara Tomy release. It offers solid Stamina for early-game combos and remains a decent budget option.",
+      "de": "Hasbros Wizard Arrow spielt identisch zur Takara-Tomy-Version. Er bietet solide Stamina für frühe Combos und bleibt eine gute Budget-Option."
     },
     "officialStats": {
       "weightGrams": 31.8,
@@ -4008,9 +4010,9 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 2.1,
-      "stamina": 3.4,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 3,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4020,16 +4022,16 @@
     "category": "blade",
     "name": "Hells Scythe",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e4/BladeHellsScythe.png/revision/latest",
-    "releaseDate": "2023-07-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/12/BladeHellsScythe.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Hells Scythe Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Hells Scythe. A round, four-sided Balance Type Blade with four smashing blades and a flaming-skull Gear Chip.",
+      "de": "Die Hasbro-Version von Hells Scythe. Ein runder, vierseitiger Balance-Type-Blade mit vier Schlagklingen und einem Flammen-Totenkopf-Gear-Chip."
     },
     "assessment": {
-      "en": "Hells Scythe is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 35 / Stamina 35. Weight: 32.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Hells Scythe performs identically to the Takara Tomy release. It was a top-tier Stamina Blade early in the line but has been outclassed by WizardRod and SilverWolf.",
+      "de": "Hasbros Hells Scythe spielt identisch zur Takara-Tomy-Version. Er war anfangs ein Top-Stamina-Blade der Reihe, wurde aber von WizardRod und SilverWolf übertroffen."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -4038,9 +4040,9 @@
     },
     "ratings": {
       "attack": 2,
-      "defense": 2.5,
-      "stamina": 2.2,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 2.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4048,28 +4050,29 @@
   {
     "id": "samurai-steel-hasbro",
     "category": "blade",
-    "name": "Samurai Steel",
+    "name": "Steel Samurai",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/SamuraiSteel_5-70GF.jpg/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e8/Steel_Samurai_4-80T.jpeg/revision/latest",
+    "releaseDate": "2024-06-01",
+    "releaseWave": "G0188",
     "description": {
-      "en": "Samurai Steel Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of SamuraiSteel. A five-sided Balance Type Blade with katana sword contact points and a samurai Gear Chip. Retool of LeonClaw.",
+      "de": "Die Hasbro-Version von SamuraiSteel. Ein fünfseitiger Balance-Type-Blade mit Katana-Schwert-Kontaktpunkten und einem Samurai-Gear-Chip. Retool von LeonClaw."
     },
     "assessment": {
-      "en": "Samurai Steel is a right-spin Balance Type Blade. Weight: 31.08g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Steel Samurai has greater Smash Attack than LeonClaw due to its bumpier perimeter, but it is still too light to compete with heavier Attack Blades. Not recommended for the current WBO X format.",
+      "de": "Steel Samurai hat dank seiner unebeneren Außenkante mehr Smash-Attack als LeonClaw, ist aber immer noch zu leicht, um mit schwereren Attack-Blades zu konkurrieren. Für das aktuelle WBO-X-Format nicht empfohlen."
     },
     "officialStats": {
-      "weightGrams": 31.08,
-      "spinDirection": "right"
+      "weightGrams": 31.2,
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4079,16 +4082,16 @@
     "category": "blade",
     "name": "Rhino Horn",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/41/BladeRhinoHorn.png/revision/latest",
-    "releaseDate": "2023-11-02",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeRhinoHorn.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Rhino Horn Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Rhino Horn. A compact Defense Type Blade with an inward center of gravity for stability.",
+      "de": "Die Hasbro-Version von Rhino Horn. Ein kompakter Defense-Type-Blade mit einem nach innen gerichteten Schwerpunkt für Stabilität."
     },
     "assessment": {
-      "en": "Rhino Horn is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 50 / Stamina 30. Weight: 32.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Rhino Horn performs identically to the Takara Tomy release. Its compact shape makes it a reliable defensive choice, though it offers limited Attack potential.",
+      "de": "Hasbros Rhino Horn spielt identisch zur Takara-Tomy-Version. Seine kompakte Form macht ihn zu einer verlässlichen defensiven Wahl, obwohl er begrenztes Attack-Potenzial bietet."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -4096,10 +4099,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.3,
-      "defense": 3.6,
-      "stamina": 1.9,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4109,16 +4112,16 @@
     "category": "blade",
     "name": "Shark Edge",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeSharkEdge.png/revision/latest",
-    "releaseDate": "2023-07-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeSharkEdge.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Shark Edge Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Shark Edge. An Attack Type Blade with two large, aggressive blades that produce massive Smash Attack and upward-sloping Upper Attack.",
+      "de": "Die Hasbro-Version von Shark Edge. Ein Attack-Type-Blade mit zwei großen, aggressiven Klingen, die massiven Smash-Attack und nach oben geneigten Upper-Attack erzeugen."
     },
     "assessment": {
-      "en": "Shark Edge is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 34.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Shark Edge performs identically to the Takara Tomy release. It is a staple Attack Blade and considered a must-have for the WBO X format.",
+      "de": "Hasbros Shark Edge spielt identisch zur Takara-Tomy-Version. Er ist ein Standard-Attack-Blade und gilt als Must-Have für das WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 34.5,
@@ -4127,9 +4130,9 @@
     },
     "ratings": {
       "attack": 4,
-      "defense": 1.8,
-      "stamina": 0.9,
-      "balance": 2.2
+      "defense": 1.5,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4137,28 +4140,29 @@
   {
     "id": "ptera-swing-hasbro",
     "category": "blade",
-    "name": "Ptera Swing",
+    "name": "Talon Ptera",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/Talon_Ptera_3-80B.png/revision/latest",
+    "releaseDate": "2024-05-01",
+    "releaseWave": "G0195",
     "description": {
-      "en": "Ptera Swing Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of PteraSwing. A round Stamina Type Basic Line Blade with six pteranodon-wing contact points.",
+      "de": "Die Hasbro-Version von PteraSwing. Ein runder Stamina-Type-Basic-Line-Blade mit sechs Pteranodon-Flügel-Kontaktpunkten."
     },
     "assessment": {
-      "en": "Ptera Swing is a right-spin Balance Type Blade. Weight: 34.25g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Talon Ptera performs identically to Takara Tomy's PteraSwing. Its round, low-friction shape makes it a viable Stamina option, though later releases offer higher endurance.",
+      "de": "Talon Ptera spielt identisch zu Takara Tomys PteraSwing. Seine runde, reibungsarme Form macht ihn zu einer brauchbaren Stamina-Option, auch wenn spätere Veröffentlichungen mehr Ausdauer bieten."
     },
     "officialStats": {
-      "weightGrams": 34.25,
-      "spinDirection": "right"
+      "weightGrams": 34.3,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1.5,
+      "stamina": 2.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4168,16 +4172,16 @@
     "category": "blade",
     "name": "Knight Lance",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/BladeKnightLance.png/revision/latest",
-    "releaseDate": "2023-08-10",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeKnightLance.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Knight Lance Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of Knight Lance. A Defense Type Blade featuring an elongated lance-like shape for repelling opponents.",
+      "de": "Die Hasbro-Version von Knight Lance. Ein Defense-Type-Blade mit einer länglichen lanzengleichen Form zum Abwehren von Gegnern."
     },
     "assessment": {
-      "en": "Knight Lance is a right-spin Defense Type Blade. Official stats: Attack 25 / Defense 60 / Stamina 15. Weight: 32.9g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Knight Lance performs identically to the Takara Tomy release. It provides high Defense thanks to its weight and shape, but its Stamina is low.",
+      "de": "Hasbros Knight Lance spielt identisch zur Takara-Tomy-Version. Er bietet hohe Defense dank Gewicht und Form, aber seine Stamina ist gering."
     },
     "officialStats": {
       "weightGrams": 32.9,
@@ -4185,10 +4189,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.7,
-      "defense": 4.3,
-      "stamina": 0.9,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 3.5,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
