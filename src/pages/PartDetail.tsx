@@ -73,7 +73,7 @@ export function PartDetail() {
   const part = getPartById(database, id ?? '', category as PartCategory);
   if (!part) return <p className="text-red-600">{t('partDetail.partNotFound')}</p>;
 
-  const typeScores = buildTypeScores(database);
+  const typeScores = buildTypeScores(database).part;
   const tier = calculateTier(part.ratings, part.officialStats.typeTag, typeScores);
 
   return (

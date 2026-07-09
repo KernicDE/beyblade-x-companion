@@ -72,7 +72,7 @@ export function PartsDatabase() {
     );
   };
 
-  const typeScores = useMemo(() => (database ? buildTypeScores(database) : {}), [database]);
+  const typeScores = useMemo(() => (database ? buildTypeScores(database).part : {}), [database]);
 
   const allTypes = useMemo(() => {
     if (!database) return [];

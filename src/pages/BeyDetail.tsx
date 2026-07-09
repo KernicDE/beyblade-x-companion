@@ -32,7 +32,7 @@ export function BeyDetail() {
   const bey = database.beys.find((b) => b.id === id);
   if (!bey) return <p className="text-red-600">{t('beyDetail.beyNotFound')}</p>;
 
-  const typeScores = buildTypeScores(database);
+  const typeScores = buildTypeScores(database).bey;
   const parts = getBeyParts(bey);
   const blade = getPartById(database, parts.bladeId, 'blade');
   const assistBlade = parts.assistBladeId

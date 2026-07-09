@@ -37,7 +37,7 @@ export function BeyDatabase() {
 
   const q = query.trim().toLowerCase();
 
-  const typeScores = useMemo(() => (database ? buildTypeScores(database) : {}), [database]);
+  const typeScores = useMemo(() => (database ? buildTypeScores(database).bey : {}), [database]);
 
   const allTypes = useMemo(() => {
     if (!database) return [];

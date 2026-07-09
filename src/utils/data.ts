@@ -141,29 +141,39 @@ function getTypeScore(ratings: Ratings, typeTag?: string): number {
   }
 }
 
-export function buildTypeScores(database: Database): Record<string, number[]> {
-  const scores: Record<string, number[]> = {};
+export interface TypeScores {
+  bey: Record<string, number[]>;
+  part: Record<string, number[]>;
+}
 
-  const addScore = (typeTag: string | undefined, ratings: Ratings) => {
+export function buildTypeScores(database: Database): TypeScores {
+  const beyScores: Record<string, number[]> = {};
+  const partScores: Record<string, number[]> = {};
+
+  const addScore = (
+    target: Record<string, number[]>,
+    typeTag: string | undefined,
+    ratings: Ratings
+  ) => {
     if (!typeTag) return;
     const score = getTypeScore(ratings, typeTag);
-    if (!scores[typeTag]) scores[typeTag] = [];
-    scores[typeTag].push(score);
+    if (!target[typeTag]) target[typeTag] = [];
+    target[typeTag].push(score);
   };
 
   database.beys.forEach((bey) => {
     const blade = database.blades.find((b) => b.id === bey.bladeId);
     const ratings = calculateComboRatings(database, getBeyParts(bey));
-    addScore(blade?.officialStats.typeTag, ratings);
+    addScore(beyScores, blade?.officialStats.typeTag, ratings);
   });
 
   [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach(
     (part) => {
-      addScore(part.officialStats.typeTag, part.ratings);
+      addScore(partScores, part.officialStats.typeTag, part.ratings);
     }
   );
 
-  return scores;
+  return { bey: beyScores, part: partScores };
 }
 
 export function calculateTier(
