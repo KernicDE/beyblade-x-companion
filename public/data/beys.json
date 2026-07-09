@@ -1333,5 +1333,70 @@
     "ratchetId": "ratchet-integrated",
     "bitId": "bit-low-flat",
     "assessment": "GloryValkyrie LF is a right-spin Attack type Unique Line Starter and an homage to the Valkyrie motif. Its Ratchet-Integrated Blade features a spring-loaded bound mechanism, paired with the Low Flat Bit for aggressive movement."
+  },
+  {
+    "id": "dran-brave-s6-60v-cx-01",
+    "name": "DranBrave S6-60V",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-01",
+    "bladeId": "dran-brave",
+    "assistBladeId": "slash",
+    "ratchetId": "ratchet-6-60",
+    "bitId": "bit-vortex",
+    "assessment": "DranBrave S6-60V is a right-spin Attack type Custom Line Starter. It combines the Dran Lock Chip, Brave Main Blade, Slash Assist Blade, 6-60 Ratchet and Vortex Bit for aggressive, high-speed attacks."
+  },
+  {
+    "id": "wizard-arc-r4-55lo-cx-02",
+    "name": "WizardArc R4-55LO",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-02",
+    "bladeId": "wizard-arc",
+    "assistBladeId": "round",
+    "ratchetId": "ratchet-4-55",
+    "bitId": "bit-low-orb",
+    "assessment": "WizardArc R4-55LO is a right-spin Stamina type Custom Line Starter. It combines the Wizard Lock Chip, Arc Main Blade, Round Assist Blade, 4-55 Ratchet and Low Orb Bit for long spin times."
+  },
+  {
+    "id": "perseus-dark-b6-80w-cx-03",
+    "name": "PerseusDark B6-80W",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-03",
+    "bladeId": "perseus-dark",
+    "assistBladeId": "bumper",
+    "ratchetId": "ratchet-6-80",
+    "bitId": "bit-wedge",
+    "assessment": "PerseusDark B6-80W is a right-spin Defense type Custom Line Booster. It combines the Perseus Lock Chip, Dark Main Blade, Bumper Assist Blade, 6-80 Ratchet and Wedge Bit for stability and counter-attacks."
+  },
+  {
+    "id": "dran-brave-s6-60v-cx-04",
+    "name": "DranBrave S6-60V (Special Ver.)",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-04",
+    "bladeId": "dran-brave",
+    "assistBladeId": "slash",
+    "ratchetId": "ratchet-6-60",
+    "bitId": "bit-vortex",
+    "assessment": "DranBrave S6-60V (Special Ver.) is the color variant included in the Battle Entry Set C, using the same parts as the CX-01 release."
+  },
+  {
+    "id": "perseus-dark-b6-80w-cx-04",
+    "name": "PerseusDark B6-80W (Special Ver.)",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-04",
+    "bladeId": "perseus-dark",
+    "assistBladeId": "bumper",
+    "ratchetId": "ratchet-6-80",
+    "bitId": "bit-wedge",
+    "assessment": "PerseusDark B6-80W (Special Ver.) is the color variant included in the Battle Entry Set C, using the same parts as the CX-03 release."
   }
 ]
