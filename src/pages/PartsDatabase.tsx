@@ -49,7 +49,15 @@ export function PartsDatabase() {
                 >
                   <div className="flex items-start gap-4">
                     {part.imageUrl ? (
-                      <img src={part.imageUrl} alt="" className="h-14 w-14 rounded-lg object-contain" />
+                      <img
+                        src={part.imageUrl}
+                        alt=""
+                        className={
+                          part.category === 'bit'
+                            ? 'h-16 w-12 rounded-lg object-contain'
+                            : 'h-14 w-14 rounded-lg object-contain'
+                        }
+                      />
                     ) : (
                       <PartIcon category={part.category} size={56} />
                     )}

@@ -68,7 +68,15 @@ export function PartDetail() {
         <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="flex items-center gap-4">
             {part.imageUrl ? (
-              <img src={part.imageUrl} alt="" className="h-24 w-24 rounded-xl object-contain" />
+              <img
+                src={part.imageUrl}
+                alt=""
+                className={
+                  part.category === 'bit'
+                    ? 'h-32 w-20 rounded-xl object-contain'
+                    : 'h-24 w-24 rounded-xl object-contain'
+                }
+              />
             ) : (
               <PartIcon category={part.category} size={96} />
             )}
