@@ -2066,5 +2066,166 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "tyranno-roar",
+    "category": "blade",
+    "name": "TyrannoRoar",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "description": "TyrannoRoar Blade from the UX system.",
+    "assessment": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "clock-mirage",
+    "category": "blade",
+    "name": "ClockMirage",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-10-11",
+    "releaseWave": "UX-16",
+    "description": "ClockMirage Blade from the UX system.",
+    "assessment": "ClockMirage is a right-spin Stamina type Blade from the Beyblade X Unique Line. Its circular shape with 60 edges references Twisted Tempo. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "pegasus-brush",
+    "category": "blade",
+    "name": "PegasusBrush",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "description": "PegasusBrush Blade from the UX system.",
+    "assessment": "PegasusBrush is a right-spin Stamina type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "sol-brave",
+    "category": "blade",
+    "name": "SolBrave",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "description": "SolBrave Blade from the UX system.",
+    "assessment": "SolBrave is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-brave",
+    "category": "blade",
+    "name": "HellsBrave",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "description": "HellsBrave Blade from the UX system.",
+    "assessment": "HellsBrave is a right-spin Attack type Blade from the Beyblade X Unique Line / Custom Line. Debuted in the SharkScale Deck Set with the Jaggy Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bullet-griffon",
+    "category": "blade",
+    "name": "BulletGriffon",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-04-25",
+    "releaseWave": "UX-19",
+    "description": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
+    "assessment": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 60.6,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "glory-valkyrie",
+    "category": "blade",
+    "name": "GloryValkyrie",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-07-11",
+    "releaseWave": "UX-20",
+    "description": "GloryValkyrie Ratchet-Integrated Blade from the UX system.",
+    "assessment": "GloryValkyrie is a right-spin Attack type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It features a spring-loaded bound mechanism for impact recoil. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

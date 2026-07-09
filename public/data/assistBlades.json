@@ -416,5 +416,49 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "massive",
+    "category": "assistBlade",
+    "name": "Massive",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "description": "The Massive Assist Blade.",
+    "assessment": "Massive is an Assist Blade from the Beyblade X Custom Line. Debuted with PegasusBrush M3-85W in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "charge",
+    "category": "assistBlade",
+    "name": "Charge",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "description": "The Charge Assist Blade.",
+    "assessment": "Charge is an Assist Blade from the Beyblade X Custom Line. Debuted with SolBrave C9-70TP in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

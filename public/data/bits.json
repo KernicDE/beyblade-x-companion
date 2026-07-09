@@ -1063,5 +1063,26 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-under-flat",
+    "category": "bit",
+    "name": "Under Flat",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "description": "The Under Flat Bit.",
+    "assessment": "Under Flat is a Bit from the Beyblade X Unique Line. Debuted with SharkScale 4-50UF. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 2
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
