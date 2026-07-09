@@ -1,3 +1,4 @@
+import { useTranslation } from '../i18n';
 import type { Part, PartCategory } from '../types';
 
 interface PartPickerProps {
@@ -9,11 +10,11 @@ interface PartPickerProps {
   allowNone?: boolean;
 }
 
-const CATEGORY_LABELS: Record<PartCategory, string> = {
-  blade: 'Blade',
-  assistBlade: 'Assist Blade',
-  ratchet: 'Ratchet',
-  bit: 'Bit',
+const CATEGORY_KEYS: Record<PartCategory, string> = {
+  blade: 'beyDetail.blade',
+  assistBlade: 'beyDetail.assistBlade',
+  ratchet: 'beyDetail.ratchet',
+  bit: 'beyDetail.bit',
 };
 
 export function PartPicker({
@@ -24,9 +25,11 @@ export function PartPicker({
   onSelect,
   allowNone = false,
 }: PartPickerProps) {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col gap-2">
-      <label htmlFor={`picker-${category}`} className="text-sm font-medium text-gray-700">
+      <label htmlFor={`picker-${category}`} className="text-sm font-medium text-[var(--muted)]">
         {label}
       </label>
       <select
@@ -36,10 +39,10 @@ export function PartPicker({
           const value = e.target.value;
           onSelect(value === '' ? undefined : value);
         }}
-        className="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm focus:border-blue-500 focus:outline-none"
+        className="rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
       >
         {allowNone && (
-          <option value="">No {CATEGORY_LABELS[category]}</option>
+          <option value="">{t('partDetail.no')} {t(CATEGORY_KEYS[category])}</option>
         )}
         {parts.map((part) => (
           <option key={part.id} value={part.id}>

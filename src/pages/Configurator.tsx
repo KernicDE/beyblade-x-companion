@@ -6,8 +6,10 @@ import { RadarChart } from '../components/RadarChart';
 import { useConfiguratorStore } from '../stores/configurator';
 import { useProfileStore } from '../stores/profile';
 import { calculateComboRatings } from '../utils/data';
+import { useTranslation } from '../i18n';
 
 export function Configurator() {
+  const { t } = useTranslation();
   const [searchParams, setSearchParams] = useSearchParams();
   const { database, loading, error } = useData();
   const {
@@ -43,8 +45,8 @@ export function Configurator() {
     }
   }, [editingId, creations, loadCombo]);
 
-  if (loading) return <p className="text-gray-600">Loading database…</p>;
-  if (error || !database) return <p className="text-red-600">Failed to load database.</p>;
+  if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
+  if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
   const combo = { bladeId, assistBladeId, ratchetId, bitId };
   const ratings = calculateComboRatings(database, combo);
@@ -62,11 +64,11 @@ export function Configurator() {
 
     if (editingId) {
       updateCreation(editingId, data);
-      setSavedMessage('Creation updated.');
+      setSavedMessage(t('configurator.creationUpdated'));
     } else {
       const creation = addCreation(data);
       setSearchParams({ edit: creation.id });
-      setSavedMessage('Creation saved.');
+      setSavedMessage(t('configurator.creationSaved'));
     }
 
     setTimeout(() => setSavedMessage(''), 3000);
@@ -74,19 +76,19 @@ export function Configurator() {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-2xl font-bold">Configurator</h1>
+      <h1 className="text-2xl font-bold">{t('configurator.title')}</h1>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         <PartPicker
           category="blade"
-          label="Blade"
+          label={t('beyDetail.blade')}
           parts={database.blades}
           selectedId={bladeId}
           onSelect={(id) => id && setBlade(id)}
         />
         <PartPicker
           category="assistBlade"
-          label="Assist Blade"
+          label={t('beyDetail.assistBlade')}
           parts={database.assistBlades}
           selectedId={assistBladeId}
           onSelect={setAssistBlade}
@@ -94,14 +96,14 @@ export function Configurator() {
         />
         <PartPicker
           category="ratchet"
-          label="Ratchet"
+          label={t('beyDetail.ratchet')}
           parts={database.ratchets}
           selectedId={ratchetId}
           onSelect={(id) => id && setRatchet(id)}
         />
         <PartPicker
           category="bit"
-          label="Bit"
+          label={t('beyDetail.bit')}
           parts={database.bits}
           selectedId={bitId}
           onSelect={(id) => id && setBit(id)}
@@ -109,27 +111,27 @@ export function Configurator() {
       </div>
 
       <div className="grid gap-8 lg:grid-cols-2">
-        <div className="rounded-xl bg-white p-6 shadow-sm">
-          <h2 className="mb-4 text-lg font-semibold">Resulting Ratings</h2>
+        <div className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+          <h2 className="mb-4 text-lg font-semibold">{t('configurator.resultingRatings')}</h2>
           <RadarChart ratings={ratings} size={320} />
-          <p className="mt-4 text-sm text-gray-500">
-            Attack {ratings.attack} · Defense {ratings.defense} · Stamina {ratings.stamina} · Balance {ratings.balance}
+          <p className="mt-4 text-sm text-[var(--muted)]">
+            {t('partDetail.attack')} {ratings.attack} · {t('partDetail.defense')} {ratings.defense} · {t('partDetail.stamina')} {ratings.stamina} · {t('partDetail.balance')} {ratings.balance}
           </p>
         </div>
 
-        <div className="space-y-4 rounded-xl bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold">Save Creation</h2>
+        <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+          <h2 className="text-lg font-semibold">{t('configurator.saveCreation')}</h2>
           <div className="flex flex-col gap-2">
-            <label htmlFor="creation-name" className="text-sm font-medium text-gray-700">
-              Name
+            <label htmlFor="creation-name" className="text-sm font-medium text-[var(--muted)]">
+              {t('configurator.name')}
             </label>
             <input
               id="creation-name"
               type="text"
               value={saveName}
               onChange={(e) => setSaveName(e.target.value)}
-              placeholder="My custom combo"
-              className="rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none"
+              placeholder={t('configurator.placeholder')}
+              className="rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
             />
           </div>
           <button
@@ -138,7 +140,7 @@ export function Configurator() {
             disabled={!canSave}
             className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-400"
           >
-            {editingId ? 'Update Creation' : 'Save Creation'}
+            {editingId ? t('configurator.updateCreation') : t('configurator.saveCreation')}
           </button>
           {savedMessage && (
             <p className="text-sm text-green-600">{savedMessage}</p>

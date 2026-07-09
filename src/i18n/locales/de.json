@@ -1,0 +1,124 @@
+{
+  "app": {
+    "title": "Beyblade X Companion"
+  },
+  "nav": {
+    "home": "Startseite",
+    "beys": "Beys",
+    "parts": "Teile",
+    "configurator": "Konfigurator",
+    "profile": "Mein Profil"
+  },
+  "theme": {
+    "auto": "Auto",
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "filter": {
+    "all": "Alle"
+  },
+  "home": {
+    "tagline": "Durchsuche offizielle Beys und Teile, baue eigene Kombinationen und teile deine Kreationen — alles offline im Browser.",
+    "browseBeys": "Beys durchsuchen",
+    "openConfigurator": "Konfigurator öffnen",
+    "cards": {
+      "beyDatabase": "Bey-Datenbank",
+      "beyDatabaseDesc": "Offizielle Factory-Combos",
+      "partsDatabase": "Teile-Datenbank",
+      "partsDatabaseDesc": "Blades, Ratchets, Bits, Launcher",
+      "configurator": "Konfigurator",
+      "configuratorDesc": "Teile kombinieren",
+      "myProfile": "Mein Profil",
+      "myProfileDesc": "Gespeicherte Kreationen"
+    }
+  },
+  "beyDatabase": {
+    "title": "Bey-Datenbank"
+  },
+  "partsDatabase": {
+    "title": "Teile-Datenbank",
+    "blades": "Blades",
+    "assistBlades": "Assist Blades",
+    "ratchets": "Ratchets",
+    "bits": "Bits",
+    "launchers": "Launcher",
+    "spin": "Spin"
+  },
+  "partDetail": {
+    "loading": "Laden…",
+    "invalidCategory": "Ungültige Teilkategorie.",
+    "launcherNotFound": "Launcher nicht gefunden.",
+    "partNotFound": "Teil nicht gefunden.",
+    "communityRatings": "Community-Bewertungen",
+    "ratingsDisclaimer": "Diese Bewertungen sind Community-Schätzungen, keine offiziellen Werte.",
+    "weight": "Gewicht",
+    "height": "Höhe",
+    "spinDirection": "Drehrichtung",
+    "type": "Typ",
+    "spinCapability": "Spin-Fähigkeit",
+    "attack": "Attack",
+    "defense": "Defense",
+    "stamina": "Stamina",
+    "balance": "Balance"
+  },
+  "beyDetail": {
+    "beyNotFound": "Bey nicht gefunden.",
+    "parts": "Teile",
+    "blade": "Blade",
+    "assistBlade": "Assist Blade",
+    "ratchet": "Ratchet",
+    "bit": "Bit",
+    "communityRatings": "Community-Bewertungen"
+  },
+  "configurator": {
+    "title": "Konfigurator",
+    "resultingRatings": "Ergebnis-Bewertungen",
+    "saveCreation": "Kreation speichern",
+    "name": "Name",
+    "placeholder": "Meine Custom-Combo",
+    "updateCreation": "Kreation aktualisieren",
+    "creationSaved": "Kreation gespeichert.",
+    "creationUpdated": "Kreation aktualisiert."
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "exportProfile": "Profil exportieren",
+    "exportCopied": "Profil-Export-Link in die Zwischenablage kopiert.",
+    "shareCopied": "Teilen-Link in die Zwischenablage kopiert.",
+    "noCreations": "Noch keine gespeicherten Kreationen. Baue eine im Konfigurator.",
+    "edit": "Bearbeiten",
+    "duplicate": "Duplizieren",
+    "share": "Teilen",
+    "delete": "Löschen",
+    "deleteConfirm": "\"{{name}}\" löschen?",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen"
+  },
+  "import": {
+    "invalidLink": "Ungültiger Import-Link",
+    "decodeError": "Der Link konnte nicht dekodiert werden.",
+    "imported": "Profil importiert",
+    "importedDesc": "Deine gespeicherten Kreationen wurden aktualisiert.",
+    "goToProfile": "Zum Profil",
+    "title": "Profil importieren",
+    "replaceDesc": "Dies ersetzt deine {{local}} lokal gespeicherte Kreation{{localS}} durch {{incoming}} Kreation{{incomingS}} aus dem Link.",
+    "cannotUndo": "Das kann nicht rückgängig gemacht werden. Exportiere dein aktuelles Profil, wenn du es behalten möchtest.",
+    "replaceAndImport": "Ersetzen und importieren",
+    "decoding": "Link wird dekodiert…"
+  },
+  "view": {
+    "loading": "Laden…",
+    "invalidLink": "Ungültiger oder beschädigter Teilen-Link.",
+    "parts": "Teile",
+    "blade": "Blade",
+    "assistBlade": "Assist Blade",
+    "ratchet": "Ratchet",
+    "bit": "Bit",
+    "communityRatings": "Community-Bewertungen"
+  },
+  "errors": {
+    "loadingDatabase": "Datenbank wird geladen…",
+    "failedDatabase": "Datenbank konnte nicht geladen werden."
+  },
+  "footer": "Die angezeigten Bewertungen sind Community-Schätzungen, keine offiziellen Takara Tomy-Werte."
+}

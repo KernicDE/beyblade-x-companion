@@ -56,7 +56,7 @@ export function RadarChart({
             key={level}
             d={d}
             fill="none"
-            stroke="#e5e7eb"
+            className="stroke-gray-200 dark:stroke-gray-700"
             strokeWidth={1}
           />
         );
@@ -72,7 +72,7 @@ export function RadarChart({
               y1={center}
               x2={end.x}
               y2={end.y}
-              stroke="#e5e7eb"
+              className="stroke-gray-200 dark:stroke-gray-700"
               strokeWidth={1}
             />
             <text
@@ -80,7 +80,7 @@ export function RadarChart({
               y={label.y}
               textAnchor="middle"
               dominantBaseline="middle"
-              className="text-xs fill-gray-600"
+              className="text-xs fill-gray-600 dark:fill-gray-400"
             >
               {axis.label}
             </text>

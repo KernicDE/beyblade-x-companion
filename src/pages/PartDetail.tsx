@@ -4,6 +4,7 @@ import { getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
+import { useTranslation } from '../i18n';
 import type { PartCategory } from '../types';
 
 const VALID_CATEGORIES: Array<PartCategory | 'launcher'> = [
@@ -15,23 +16,24 @@ const VALID_CATEGORIES: Array<PartCategory | 'launcher'> = [
 ];
 
 export function PartDetail() {
+  const { t } = useTranslation();
   const { category, id } = useParams<{ category: string; id: string }>();
   const { database, loading, error } = useData();
 
-  if (loading) return <p className="text-gray-600">Loading…</p>;
-  if (error || !database) return <p className="text-red-600">Failed to load database.</p>;
+  if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
+  if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
   if (!category || !VALID_CATEGORIES.includes(category as PartCategory | 'launcher')) {
-    return <p className="text-red-600">Invalid part category.</p>;
+    return <p className="text-red-600">{t('partDetail.invalidCategory')}</p>;
   }
 
   if (category === 'launcher') {
     const launcher = database.launchers.find((l) => l.id === id);
-    if (!launcher) return <p className="text-red-600">Launcher not found.</p>;
+    if (!launcher) return <p className="text-red-600">{t('partDetail.launcherNotFound')}</p>;
 
     return (
       <div className="space-y-6">
-        <div className="rounded-xl bg-white p-6 shadow-sm">
+        <div className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="flex items-center gap-4">
             {launcher.imageUrl ? (
               <img src={launcher.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
@@ -41,15 +43,15 @@ export function PartDetail() {
             <div>
               <h1 className="text-2xl font-bold">{launcher.name}</h1>
               {launcher.releaseDate && (
-                <p className="text-sm text-gray-500">{launcher.releaseDate}</p>
+                <p className="text-sm text-[var(--muted)]">{launcher.releaseDate}</p>
               )}
             </div>
           </div>
-          <p className="mt-4 text-gray-700">{launcher.assessment}</p>
+          <p className="mt-4 text-[var(--text)]">{launcher.assessment}</p>
           <div className="mt-4 flex items-center gap-2 text-sm">
             <ManufacturerBadge manufacturer={launcher.manufacturer} size="md" />
-            <span>·</span>
-            <span className="font-medium">Spin capability:{` `}</span>
+            <span className="text-[var(--muted)]">·</span>
+            <span className="font-medium text-[var(--muted)]">{t('partDetail.spinCapability')}:{` `}</span>
             {launcher.spinCapability}
           </div>
         </div>
@@ -58,12 +60,12 @@ export function PartDetail() {
   }
 
   const part = getPartById(database, id ?? '', category as PartCategory);
-  if (!part) return <p className="text-red-600">Part not found.</p>;
+  if (!part) return <p className="text-red-600">{t('partDetail.partNotFound')}</p>;
 
   return (
     <div className="space-y-6">
       <div className="grid gap-8 lg:grid-cols-2">
-        <div className="space-y-4 rounded-xl bg-white p-6 shadow-sm">
+        <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="flex items-center gap-4">
             {part.imageUrl ? (
               <img src={part.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
@@ -73,7 +75,7 @@ export function PartDetail() {
             <div>
               <h1 className="text-2xl font-bold">{part.name}</h1>
               {part.releaseWave && (
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-[var(--muted)]">
                   {part.releaseWave}
                   {part.releaseDate && ` · ${part.releaseDate}`}
                 </p>
@@ -81,30 +83,30 @@ export function PartDetail() {
             </div>
           </div>
 
-          <p className="text-gray-700">{part.assessment}</p>
+          <p className="text-[var(--text)]">{part.assessment}</p>
 
           <div className="space-y-2 text-sm">
             <p><ManufacturerBadge manufacturer={part.manufacturer} size="md" /></p>
             {part.officialStats.weightGrams && (
-              <p>Weight: {part.officialStats.weightGrams}g</p>
+              <p className="text-[var(--muted)]">{t('partDetail.weight')}: {part.officialStats.weightGrams}g</p>
             )}
             {part.officialStats.heightMm && (
-              <p>Height: {part.officialStats.heightMm}mm</p>
+              <p className="text-[var(--muted)]">{t('partDetail.height')}: {part.officialStats.heightMm}mm</p>
             )}
             {part.officialStats.spinDirection && (
-              <p>Spin direction: {part.officialStats.spinDirection}</p>
+              <p className="text-[var(--muted)]">{t('partDetail.spinDirection')}: {part.officialStats.spinDirection}</p>
             )}
             {part.officialStats.typeTag && (
-              <p>Type: {part.officialStats.typeTag}</p>
+              <p className="text-[var(--muted)]">{t('partDetail.type')}: {part.officialStats.typeTag}</p>
             )}
           </div>
         </div>
 
-        <div className="flex flex-col items-center rounded-xl bg-white p-6 shadow-sm">
-          <h2 className="mb-4 text-lg font-semibold">Community Ratings</h2>
+        <div className="flex flex-col items-center rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+          <h2 className="mb-4 text-lg font-semibold">{t('partDetail.communityRatings')}</h2>
           <RadarChart ratings={part.ratings} size={280} />
-          <p className="mt-4 text-xs text-gray-500">
-            These ratings are community estimates, not official stats.
+          <p className="mt-4 text-xs text-[var(--muted)]">
+            {t('partDetail.ratingsDisclaimer')}
           </p>
         </div>
       </div>

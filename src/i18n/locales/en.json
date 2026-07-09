@@ -1,0 +1,124 @@
+{
+  "app": {
+    "title": "Beyblade X Companion"
+  },
+  "nav": {
+    "home": "Home",
+    "beys": "Beys",
+    "parts": "Parts",
+    "configurator": "Configurator",
+    "profile": "My Profile"
+  },
+  "theme": {
+    "auto": "Auto",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "filter": {
+    "all": "All"
+  },
+  "home": {
+    "tagline": "Browse official Beys and parts, build custom combinations, and share your creations — all offline in your browser.",
+    "browseBeys": "Browse Beys",
+    "openConfigurator": "Open Configurator",
+    "cards": {
+      "beyDatabase": "Bey Database",
+      "beyDatabaseDesc": "Official factory combos",
+      "partsDatabase": "Parts Database",
+      "partsDatabaseDesc": "Blades, ratchets, bits, launchers",
+      "configurator": "Configurator",
+      "configuratorDesc": "Mix & match parts",
+      "myProfile": "My Profile",
+      "myProfileDesc": "Saved creations"
+    }
+  },
+  "beyDatabase": {
+    "title": "Bey Database"
+  },
+  "partsDatabase": {
+    "title": "Parts Database",
+    "blades": "Blades",
+    "assistBlades": "Assist Blades",
+    "ratchets": "Ratchets",
+    "bits": "Bits",
+    "launchers": "Launchers",
+    "spin": "spin"
+  },
+  "partDetail": {
+    "loading": "Loading…",
+    "invalidCategory": "Invalid part category.",
+    "launcherNotFound": "Launcher not found.",
+    "partNotFound": "Part not found.",
+    "communityRatings": "Community Ratings",
+    "ratingsDisclaimer": "These ratings are community estimates, not official stats.",
+    "weight": "Weight",
+    "height": "Height",
+    "spinDirection": "Spin direction",
+    "type": "Type",
+    "spinCapability": "Spin capability",
+    "attack": "Attack",
+    "defense": "Defense",
+    "stamina": "Stamina",
+    "balance": "Balance"
+  },
+  "beyDetail": {
+    "beyNotFound": "Bey not found.",
+    "parts": "Parts",
+    "blade": "Blade",
+    "assistBlade": "Assist Blade",
+    "ratchet": "Ratchet",
+    "bit": "Bit",
+    "communityRatings": "Community Ratings"
+  },
+  "configurator": {
+    "title": "Configurator",
+    "resultingRatings": "Resulting Ratings",
+    "saveCreation": "Save Creation",
+    "name": "Name",
+    "placeholder": "My custom combo",
+    "updateCreation": "Update Creation",
+    "creationSaved": "Creation saved.",
+    "creationUpdated": "Creation updated."
+  },
+  "profile": {
+    "title": "My Profile",
+    "exportProfile": "Export Profile",
+    "exportCopied": "Profile export link copied to clipboard.",
+    "shareCopied": "Share link copied to clipboard.",
+    "noCreations": "No saved creations yet. Build one in the configurator.",
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "share": "Share",
+    "delete": "Delete",
+    "deleteConfirm": "Delete \"{{name}}\"?",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "import": {
+    "invalidLink": "Invalid import link",
+    "decodeError": "The link could not be decoded.",
+    "imported": "Profile imported",
+    "importedDesc": "Your saved creations have been updated.",
+    "goToProfile": "Go to Profile",
+    "title": "Import Profile",
+    "replaceDesc": "This will replace your {{local}} locally saved creation{{localS}} with {{incoming}} creation{{incomingS}} from the link.",
+    "cannotUndo": "This cannot be undone. Make sure you have exported your current profile if you want to keep it.",
+    "replaceAndImport": "Replace and Import",
+    "decoding": "Decoding link…"
+  },
+  "view": {
+    "loading": "Loading…",
+    "invalidLink": "Invalid or corrupted share link.",
+    "parts": "Parts",
+    "blade": "Blade",
+    "assistBlade": "Assist Blade",
+    "ratchet": "Ratchet",
+    "bit": "Bit",
+    "communityRatings": "Community Ratings"
+  },
+  "errors": {
+    "loadingDatabase": "Loading database…",
+    "failedDatabase": "Failed to load database."
+  },
+  "footer": "Ratings shown are community estimates, not official Takara Tomy stats."
+}

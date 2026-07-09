@@ -19,16 +19,16 @@ export function RatingBars({ ratings, size = 'sm' }: RatingBarsProps) {
         const value = ratings[key];
         return (
           <div key={key} className="flex items-center gap-2">
-            <span className={`text-gray-600 ${size === 'sm' ? 'text-[10px] w-12' : 'text-xs w-14'}`}>
+            <span className={`text-gray-600 dark:text-gray-400 ${size === 'sm' ? 'text-[10px] w-12' : 'text-xs w-14'}`}>
               {label}
             </span>
-            <div className={`rounded-full bg-gray-200 ${size === 'sm' ? 'h-1.5 flex-1' : 'h-2 flex-1'}`}>
+            <div className={`rounded-full bg-gray-200 dark:bg-gray-700 ${size === 'sm' ? 'h-1.5 flex-1' : 'h-2 flex-1'}`}>
               <div
                 className={`h-full rounded-full ${color}`}
                 style={{ width: `${(value / 5) * 100}%` }}
               />
             </div>
-            <span className={`text-gray-700 tabular-nums ${size === 'sm' ? 'text-[10px] w-4' : 'text-xs w-5'}`}>
+            <span className={`text-gray-700 dark:text-gray-300 tabular-nums ${size === 'sm' ? 'text-[10px] w-4' : 'text-xs w-5'}`}>
               {value.toFixed(1)}
             </span>
           </div>

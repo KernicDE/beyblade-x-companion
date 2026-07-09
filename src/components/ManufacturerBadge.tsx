@@ -18,8 +18,8 @@ export function ManufacturerBadge({ manufacturer, size = 'sm' }: ManufacturerBad
     <span
       className={`inline-flex items-center gap-1 rounded-full font-medium ${
         isTakara
-          ? 'bg-red-100 text-red-800'
-          : 'bg-blue-100 text-blue-800'
+          ? 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
+          : 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300'
       } ${size === 'sm' ? 'px-2 py-0.5 text-[10px]' : 'px-2.5 py-1 text-xs'}`}
       title={manufacturer}
     >

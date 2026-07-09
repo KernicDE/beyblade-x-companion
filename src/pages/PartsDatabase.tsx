@@ -1,94 +1,107 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import type { Part } from '../types';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
+import { ManufacturerFilter } from '../components/ManufacturerFilter';
+import { useTranslation } from '../i18n';
 
-const CATEGORY_TITLES: Record<Part['category'], string> = {
-  blade: 'Blades',
-  assistBlade: 'Assist Blades',
-  ratchet: 'Ratchets',
-  bit: 'Bits',
-};
+const MANUFACTURERS = ['Takara Tomy', 'Hasbro'] as const;
 
 export function PartsDatabase() {
+  const { t } = useTranslation();
   const { database, loading, error } = useData();
+  const [selectedMf, setSelectedMf] = useState<string[]>([...MANUFACTURERS]);
 
-  if (loading) return <p className="text-gray-600">Loading database…</p>;
-  if (error || !database) return <p className="text-red-600">Failed to load database.</p>;
+  if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
+  if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
-  const groups: { category: Part['category']; parts: Part[] }[] = [
-    { category: 'blade', parts: database.blades },
-    { category: 'assistBlade', parts: database.assistBlades },
-    { category: 'ratchet', parts: database.ratchets },
-    { category: 'bit', parts: database.bits },
+  const filteredLaunchers = database.launchers.filter((l) => selectedMf.includes(l.manufacturer));
+
+  const groups: { category: Part['category']; titleKey: string; parts: Part[] }[] = [
+    { category: 'blade', titleKey: 'partsDatabase.blades', parts: database.blades },
+    { category: 'assistBlade', titleKey: 'partsDatabase.assistBlades', parts: database.assistBlades },
+    { category: 'ratchet', titleKey: 'partsDatabase.ratchets', parts: database.ratchets },
+    { category: 'bit', titleKey: 'partsDatabase.bits', parts: database.bits },
   ];
 
   return (
     <div className="space-y-8">
-      <h1 className="text-2xl font-bold">Parts Database</h1>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <h1 className="text-2xl font-bold">{t('partsDatabase.title')}</h1>
+        <ManufacturerFilter selected={selectedMf} onChange={setSelectedMf} />
+      </div>
 
-      {groups.map((group) => (
-        <section key={group.category}>
-          <h2 className="mb-4 text-xl font-semibold">{CATEGORY_TITLES[group.category]}</h2>
+      {groups.map((group) => {
+        const filtered = group.parts.filter((p) => selectedMf.includes(p.manufacturer));
+        if (filtered.length === 0) return null;
+        return (
+          <section key={group.category}>
+            <h2 className="mb-4 text-xl font-semibold">{t(group.titleKey)}</h2>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {filtered.map((part) => (
+                <Link
+                  key={part.id}
+                  to={`/parts/${part.category}/${part.id}`}
+                  className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md"
+                >
+                  <div className="flex items-start gap-4">
+                    {part.imageUrl ? (
+                      <img src={part.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
+                    ) : (
+                      <PartIcon category={part.category} size={56} />
+                    )}
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-start justify-between gap-2">
+                        <h3 className="font-semibold text-[var(--text)]">{part.name}</h3>
+                        <ManufacturerBadge manufacturer={part.manufacturer} />
+                      </div>
+                      <p className="text-sm text-[var(--muted)]">{part.releaseWave}</p>
+                      <div className="mt-2">
+                        <RatingBars ratings={part.ratings} />
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        );
+      })}
+
+      {filteredLaunchers.length > 0 && (
+        <section>
+          <h2 className="mb-4 text-xl font-semibold">{t('partsDatabase.launchers')}</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {group.parts.map((part) => (
+            {filteredLaunchers.map((launcher) => (
               <Link
-                key={part.id}
-                to={`/parts/${part.category}/${part.id}`}
-                className="rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
+                key={launcher.id}
+                to={`/parts/launcher/${launcher.id}`}
+                className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md"
               >
-                <div className="flex items-start gap-4">
-                  {part.imageUrl ? (
-                    <img src={part.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
+                <div className="flex items-center gap-4">
+                  {launcher.imageUrl ? (
+                    <img src={launcher.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
                   ) : (
-                    <PartIcon category={part.category} size={56} />
+                    <PartIcon category="launcher" size={56} />
                   )}
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-start justify-between gap-2">
-                      <h3 className="font-semibold text-gray-900">{part.name}</h3>
-                      <ManufacturerBadge manufacturer={part.manufacturer} />
+                  <div>
+                    <div className="flex items-start gap-2">
+                      <h3 className="font-semibold text-[var(--text)]">{launcher.name}</h3>
+                      <ManufacturerBadge manufacturer={launcher.manufacturer} />
                     </div>
-                    <p className="text-sm text-gray-500">{part.releaseWave}</p>
-                    <div className="mt-2">
-                      <RatingBars ratings={part.ratings} />
-                    </div>
+                    <p className="text-sm text-[var(--muted)]">
+                      {launcher.spinCapability} {t('partsDatabase.spin')}
+                    </p>
                   </div>
                 </div>
               </Link>
             ))}
           </div>
         </section>
-      ))}
-
-      <section>
-        <h2 className="mb-4 text-xl font-semibold">Launchers</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {database.launchers.map((launcher) => (
-            <Link
-              key={launcher.id}
-              to={`/parts/launcher/${launcher.id}`}
-              className="rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
-            >
-              <div className="flex items-center gap-4">
-                {launcher.imageUrl ? (
-                  <img src={launcher.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
-                ) : (
-                  <PartIcon category="launcher" size={56} />
-                )}
-                <div>
-                  <div className="flex items-start gap-2">
-                    <h3 className="font-semibold text-gray-900">{launcher.name}</h3>
-                    <ManufacturerBadge manufacturer={launcher.manufacturer} />
-                  </div>
-                  <p className="text-sm text-gray-500">{launcher.spinCapability} spin</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+      )}
     </div>
   );
 }
