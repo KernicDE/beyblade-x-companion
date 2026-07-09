@@ -881,15 +881,15 @@
     "name": "Black Shell",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-07-13",
     "releaseWave": "BX",
     "description": {
-      "en": "Black Shell Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Team Pendragon line, referencing Draciel from the Bakuten Shoot generation. Its compact shell shape and small size are designed to absorb impacts.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Team-Pendragon-Linie, angelehnt an Draciel aus der Bakuten-Shoot-Generation. Seine kompakte Schalenform und geringe Größe sollen Aufprall absorbieren."
     },
     "assessment": {
-      "en": "Black Shell is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 25. Weight: 32.4g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Black Shell is very light for a Defense Blade, giving it poor knock-out resistance and higher burst risk. Its unique Dot Bit pairing creates erratic movement, but it is not competitive in the WBO X format.",
+      "de": "Black Shell ist für einen Defense-Blade sehr leicht, was ihm schlechte Knock-Out-Resistenz und ein höheres Burst-Risiko gibt. Das einzigartige Dot-Bit-Paarung erzeugt erratische Bewegungen, aber es ist nicht konkurrenzfähig im WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -897,40 +897,43 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 4.6,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "optimus-prime",
     "category": "blade",
-    "name": "Optimus  Prime",
+    "name": "Optimus Prime",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BladeOptimusPrime.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
-      "en": "Optimus  Prime Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Balance Type Blade from the Transformers collaboration. It uses the same plastic components as KnightShield, with a metal component based on the Optimus Prime character design.",
+      "de": "Ein rechtsspinnender Balance-Type-Blade aus der Transformers-Kollaboration. Er nutzt dieselben Plastikkomponenten wie KnightShield, mit einer Metallkomponente im Optimus-Prime-Charakterdesign."
     },
     "assessment": {
-      "en": "Optimus  Prime is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.75g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Optimus Prime performs like a lighter, balanced variant of KnightShield. It is usable for casual play but outclassed by dedicated Defense and Stamina Blades in competitive settings.",
+      "de": "Optimus Prime spielt wie eine leichtere, ausgewogene Variante von KnightShield. Für Casual-Spiel brauchbar, aber von dedizierten Defense- und Stamina-Blades im kompetitiven Bereich übertroffen."
     },
     "officialStats": {
-      "weightGrams": 31.75,
-      "spinDirection": "right"
+      "weightGrams": 32.5,
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "starscream",
@@ -938,15 +941,15 @@
     "name": "Starscream",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeStarscream.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
-      "en": "Starscream Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade from the Transformers collaboration. It reuses the plastic components of WizardArrow with an asymmetrical redesign and a Starscream-themed Gear Chip.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade aus der Transformers-Kollaboration. Er nutzt die Plastikkomponenten von WizardArrow mit einem asymmetrischen Redesign und einem Starscream-Gear-Chip."
     },
     "assessment": {
-      "en": "Starscream is a right-spin Stamina Type Blade. Official stats: Attack 18 / Defense 27 / Stamina 55. Weight: 29.5g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Starscream is the lightest non-X-Over Basic Line Blade and has poor weight distribution. It is a strictly inferior version of WizardArrow and is not recommended for competitive play.",
+      "de": "Starscream ist der leichteste nicht-X-Over-Basic-Line-Blade und hat eine schlechte Gewichtsverteilung. Er ist eine strikt schlechtere Version von WizardArrow und wird für kompetitives Spiel nicht empfohlen."
     },
     "officialStats": {
       "weightGrams": 29.5,
@@ -954,40 +957,43 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 1.2,
-      "defense": 1.9,
-      "stamina": 3.4,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 1
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "optimus-primal",
     "category": "blade",
-    "name": "Optimus  Primal",
+    "name": "Optimus Primal",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d4/BladeOptimusPrimal.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
-      "en": "Optimus  Primal Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Attack Type Blade from the Transformers collaboration. It is a retool of SharkEdge with two large blades producing Smash and Upper Attack, featuring an Optimus Primal Gear Chip.",
+      "de": "Ein rechtsspinnender Attack-Type-Blade aus der Transformers-Kollaboration. Er ist ein Retool von SharkEdge mit zwei großen Klingen für Smash- und Upper-Attack und einem Optimus-Primal-Gear-Chip."
     },
     "assessment": {
-      "en": "Optimus  Primal is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.43g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Optimus Primal offers strong Attack potential similar to SharkEdge, though its blade tips are slightly rounded, reducing raw aggression. It is a viable Attack option for casual and collection play.",
+      "de": "Optimus Primal bietet ein starkes Attack-Potenzial ähnlich wie SharkEdge, obwohl seine Klingenspitzen leicht abgerundet sind und die rohe Aggression verringern. Eine brauchbare Attack-Option für Casual- und Sammlerspiel."
     },
     "officialStats": {
-      "weightGrams": 32.43,
-      "spinDirection": "right"
+      "weightGrams": 34.5,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "megatron",
@@ -995,15 +1001,15 @@
     "name": "Megatron",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BladeMegatron.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
-      "en": "Megatron Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Balance Type Blade from the Transformers collaboration. It features a Megatron-themed Gear Chip and a rounded shape intended to blend offense and defense.",
+      "de": "Ein rechtsspinnender Balance-Type-Blade aus der Transformers-Kollaboration. Er zeigt einen Megatron-Gear-Chip und eine runde Form, die Offensive und Defense verbinden soll."
     },
     "assessment": {
-      "en": "Megatron is a right-spin Balance Type Blade. Official stats: Attack 27 / Defense 35 / Stamina 38. Weight: 31.1g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Megatron is a balanced all-rounder without standout strengths. Its moderate weight and rounded profile make it usable for beginners, but it is outclassed by specialized Blades in every role.",
+      "de": "Megatron ist ein ausgewogener Allrounder ohne herausragende Stärken. Sein mittleres Gewicht und das runde Profil machen ihn für Einsteiger brauchbar, aber er wird in jeder Rolle von spezialisierten Blades übertroffen."
     },
     "officialStats": {
       "weightGrams": 31.1,
@@ -1011,12 +1017,13 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 1.8,
-      "defense": 2.5,
-      "stamina": 2.4,
-      "balance": 2.2
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "aero-pegasus",
@@ -1024,15 +1031,15 @@
     "name": "Aero Pegasus",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeAeroPegasus.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-07-30",
     "releaseWave": "UX",
     "description": {
-      "en": "Aero Pegasus Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Attack Type Unique Line Blade with three curved upward-slanting contact points. It features air-duct holes for reduced drag, resin Launcher Hooks for increased Outward Weight Distribution, and a Pegasus-themed Gear Chip.",
+      "de": "Ein rechtsspinnender Attack-Type-Unique-Line-Blade mit drei gekrümmten, nach oben geneigten Kontaktpunkten. Er verfügt über Luftkanal-Löcher zur Reduktion des Luftwiderstands, Harz-Launcher-Hooks für erhöhte Außenverteilung und einen Pegasus-Gear-Chip."
     },
     "assessment": {
-      "en": "Aero Pegasus is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 30. Weight: 38.2g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Aero Pegasus was the heaviest Blade at release and remains a staple Attack part in competitive play. Its shape and weight give it excellent Smash and Upper Attack, and it pairs well with flat Bits like Low Flat, Low Rush and Level.",
+      "de": "Aero Pegasus war zum Release der schwerste Blade und bleibt ein wichtiger Attack-Part im kompetitiven Spiel. Seine Form und sein Gewicht ermöglichen exzellenten Smash- und Upper-Attack, und er harmoniert gut mit flachen Bits wie Low Flat, Low Rush und Level."
     },
     "officialStats": {
       "weightGrams": 38.2,
@@ -1040,12 +1047,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 1.8,
-      "stamina": 1.9,
-      "balance": 2.6
+      "attack": 5,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "leon-crest",
@@ -1053,15 +1061,15 @@
     "name": "Leon Crest",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-07-30",
     "releaseWave": "UX",
     "description": {
-      "en": "Leon Crest Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Defense Type Unique Line Blade with thick outer wings and a low center of gravity. The Gear Chip features a lion crest design.",
+      "de": "Ein rechtsspinnender Defense-Type-Unique-Line-Blade mit dicken Außenflügeln und einem niedrigen Schwerpunkt. Der Gear-Chip zeigt ein Löwenwappen-Design."
     },
     "assessment": {
-      "en": "Leon Crest is a right-spin Defense Type Blade. Official stats: Attack 15 / Defense 70 / Stamina 15. Weight: 35g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Leon Crest is regarded as one of the best Defense Blades in the meta. Its thick wings and grounded profile let it wall many top-tier Attack Beys, making it a strong choice for defensive combinations.",
+      "de": "Leon Crest gilt als einer der besten Defense-Blades im Meta. Seine dicken Flügel und das bodennahe Profil erlauben es ihm, viele Top-Attack-Beys abzuwehren, was ihn zu einer starken Wahl für defensive Kombinationen macht."
     },
     "officialStats": {
       "weightGrams": 35,
@@ -1071,10 +1079,11 @@
     "ratings": {
       "attack": 1,
       "defense": 5,
-      "stamina": 0.9,
-      "balance": 2.3
+      "stamina": 1,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-rudder",
@@ -1082,15 +1091,15 @@
     "name": "Phoenix Rudder",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-04-26",
     "releaseWave": "UX",
     "description": {
-      "en": "Phoenix Rudder Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Stamina Type Unique Line Blade with a rounded, low-friction shape. The Gear Chip features a phoenix design, and the Blade is intended for long spin times.",
+      "de": "Ein rechtsspinnender Stamina-Type-Unique-Line-Blade mit einer runden, reibungsarmen Form. Der Gear-Chip zeigt ein Phönix-Design, und der Blade ist für lange Drehzeiten ausgelegt."
     },
     "assessment": {
-      "en": "Phoenix Rudder is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 35 / Stamina 55. Weight: 34.5g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Phoenix Rudder offers decent Stamina but feels tuned to a pre-UX power level. It is outclassed by newer Stamina Blades and is best used for collection or casual Stamina combinations.",
+      "de": "Phoenix Rudder bietet ordentliche Stamina, wirkt aber auf ein Pre-UX-Powerlevel abgestimmt. Er wird von neueren Stamina-Blades übertroffen und eignet sich am besten für Sammlung oder Casual-Stamina-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 34.5,
@@ -1098,12 +1107,13 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 2.5,
-      "stamina": 3.4,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "croco-crunch",
@@ -1111,55 +1121,59 @@
     "name": "Croco Crunch",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a4/CrocoCrunch_2-60Q.jpg/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-03-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Croco Crunch Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Attack Type Blade with crocodile-themed contact points. It is the western release name for CrocCrunch, available as a mail-order Booster and in Hasbro product codes.",
+      "de": "Ein rechtsspinnender Attack-Type-Blade mit krokodil-thematisierten Kontaktpunkten. Er ist der westliche Releasename für CrocCrunch, erhältlich als Mail-Order-Booster und in Hasbro-Produktcodes."
     },
     "assessment": {
-      "en": "Croco Crunch is a right-spin Balance Type Blade. Weight: 34.05g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Croco Crunch delivers solid Attack power with its aggressive contact points. It is a decent Attack option, though dedicated Attack Blades like SharkEdge and AeroPegasus generally outperform it.",
+      "de": "Croco Crunch liefert solide Attack-Power mit seinen aggressiven Kontaktpunkten. Er ist eine brauchbare Attack-Option, obwohl dedizierte Attack-Blades wie SharkEdge und AeroPegasus ihn in der Regel übertreffen."
     },
     "officialStats": {
-      "weightGrams": 34.05,
-      "spinDirection": "right"
+      "weightGrams": 34,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "yell-kong",
     "category": "blade",
-    "name": "Yell  Kong",
+    "name": "Yell Kong",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/03/Yell_Kong_3-60GB.jpeg/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-03-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Yell  Kong Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade with a smooth, rounded profile designed to minimize friction and extend spin time. The Gear Chip features a gorilla-themed design.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade mit einem glatten, runden Profil, das Reibung minimieren und die Drehzeit verlängern soll. Der Gear-Chip zeigt ein Gorilla-Design."
     },
     "assessment": {
-      "en": "Yell  Kong is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.24g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Yell Kong offers reliable Stamina for Basic Line combinations. It is not top-tier compared to Unique Line Stamina Blades, but it works well as an affordable Stamina option.",
+      "de": "Yell Kong bietet zuverlässige Stamina für Basic-Line-Kombinationen. Im Vergleich zu Unique-Line-Stamina-Blades ist er nicht top-tier, aber er funktioniert gut als günstige Stamina-Option."
     },
     "officialStats": {
-      "weightGrams": 31.24,
-      "spinDirection": "right"
+      "weightGrams": 31.1,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "iron-man",
