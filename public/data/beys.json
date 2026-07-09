@@ -1150,5 +1150,90 @@
     "ratchetId": "ratchet-0-70",
     "bitId": "bit-zap",
     "assessment": "ScorpioSpear 0-70Z is a right-spin Balance type Starter. Its large, transformable Blade shifts between a defensive round shape and an attacking spear shape, while the Zap Bit offers versatile behavior depending on launch angle."
+  },
+  {
+    "id": "shark-scale4-50uf-ux-15",
+    "name": "SharkScale 4-50UF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "bladeId": "shark-scale",
+    "ratchetId": "ratchet-4-50",
+    "bitId": "bit-under-flat",
+    "assessment": "SharkScale 4-50UF is a right-spin Attack type included in the SharkScale Deck Set. Its two large contact points and the low 4-50 Ratchet pair with the new Under Flat Bit for aggressive low-height attacks."
+  },
+  {
+    "id": "tyranno-roar1-70l-ux-15",
+    "name": "TyrannoRoar 1-70L",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "bladeId": "tyranno-roar",
+    "ratchetId": "ratchet-1-70",
+    "bitId": "bit-level",
+    "assessment": "TyrannoRoar 1-70L is a right-spin Balance type included in the SharkScale Deck Set. The 1-70 Ratchet and Level Bit support a versatile mix of offense and stability."
+  },
+  {
+    "id": "hells-brave-j3-60gf-ux-15",
+    "name": "HellsBrave J3-60GF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "bladeId": "hells-brave",
+    "assistBladeId": "jaggy",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-gear-flat",
+    "assessment": "HellsBrave J3-60GF is a right-spin Attack type included in the SharkScale Deck Set. It uses the Custom Line format with the Jaggy Assist Blade, 3-60 Ratchet and Gear Flat Bit for aggressive movement."
+  },
+  {
+    "id": "clock-mirage9-65b-ux-16-01",
+    "name": "ClockMirage 9-65B (Prize)",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-10-11",
+    "releaseWave": "UX-16",
+    "bladeId": "clock-mirage",
+    "ratchetId": "ratchet-9-65",
+    "bitId": "bit-ball",
+    "assessment": "ClockMirage 9-65B is a right-spin Stamina type and the prize Bey of Random Booster ClockMirage Select. Its 60-edge circular Blade, 9-65 Ratchet and Ball Bit maximize spin time."
+  },
+  {
+    "id": "clock-mirage9-65b-ux-16-02",
+    "name": "ClockMirage 9-65B (Gray/White Ver.)",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-10-11",
+    "releaseWave": "UX-16",
+    "bladeId": "clock-mirage",
+    "ratchetId": "ratchet-9-65",
+    "bitId": "bit-ball",
+    "assessment": "A color variant of ClockMirage 9-65B from Random Booster ClockMirage Select, using the same Stamina-focused parts."
+  },
+  {
+    "id": "clock-mirage9-65b-ux-16-03",
+    "name": "ClockMirage 9-65B (Pink/Yellow Ver.)",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-10-11",
+    "releaseWave": "UX-16",
+    "bladeId": "clock-mirage",
+    "ratchetId": "ratchet-9-65",
+    "bitId": "bit-ball",
+    "assessment": "A color variant of ClockMirage 9-65B from Random Booster ClockMirage Select, using the same Stamina-focused parts."
+  },
+  {
+    "id": "meteor-dragoon3-70j-ux-17",
+    "name": "MeteorDragoon 3-70J",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-05-17",
+    "releaseWave": "UX-17",
+    "bladeId": "meteor-dragoon",
+    "ratchetId": "ratchet-3-70",
+    "bitId": "bit-jolt",
+    "assessment": "MeteorDragoon 3-70J is a right-spin Attack type Unique Line Starter. Its design emphasizes powerful strikes, using the 3-70 Ratchet and Jolt Bit for high mobility."
   }
 ]
