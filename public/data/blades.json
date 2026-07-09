@@ -2698,28 +2698,29 @@
   {
     "id": "tricera-spikey",
     "category": "blade",
-    "name": "Tricera  Spikey",
+    "name": "TriceraSpiky",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeTriceraSpiky.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "BX-00",
     "description": {
-      "en": "Tricera  Spikey Blade from the BX system.",
-      "de": ""
+      "en": "A Defense Type Basic Line Blade with nine rugged protrusions. It is a retool of SphinxCowl and debuted in the T. Rex and Mosasaurus Multipack Set.",
+      "de": "Ein Defense-Type-Basic-Line-Blade mit neun robusten Vorsprüngen. Es ist ein Retool von SphinxCowl und erschien im T. Rex and Mosasaurus Multipack Set."
     },
     "assessment": {
-      "en": "Tricera  Spikey is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.98g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "TriceraSpiky offers a solid Defense shape but is lighter than SphinxCowl, giving it no real advantage. Use SphinxCowl instead for competitive Defense combos.",
+      "de": "TriceraSpiky bietet eine solide Defense-Form, ist aber leichter als SphinxCowl und hat daher keinen echten Vorteil. Für kompetitive Defense-Combos ist SphinxCowl vorzuziehen."
     },
     "officialStats": {
-      "weightGrams": 29.98,
-      "spinDirection": "right"
+      "weightGrams": 29.9,
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -2727,47 +2728,48 @@
   {
     "id": "hack-viking",
     "category": "blade",
-    "name": "Hack  Viking",
+    "name": "VikingHack",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2026-01-30",
     "releaseWave": "UX",
     "description": {
-      "en": "Hack  Viking Blade from the UX system.",
-      "de": ""
+      "en": "A Balance Type Unique Line Blade that is a retool of HellsHammer. Released by Hasbro as Hack Viking in the Circle Ghost and Hack Viking Dual Pack.",
+      "de": "Ein Balance-Type-Unique-Line-Blade, ein Retool von HellsHammer. Von Hasbro als Hack Viking im Circle Ghost and Hack Viking Dual Pack veröffentlicht."
     },
     "assessment": {
-      "en": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "VikingHack inherits the HellsHammer shape with a modified metal component. Early impressions suggest middle-of-the-road Balance performance; concrete competitive results are still limited.",
+      "de": "VikingHack übernimmt die HellsHammer-Form mit modifizierter Metall-Komponente. Erste Eindrücke deuten auf durchschnittliche Balance-Leistung hin; konkrete kompetitive Ergebnisse sind noch rar."
     },
     "officialStats": {
       "weightGrams": 32.7,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "dran-strike",
     "category": "blade",
-    "name": "Dran Strike",
+    "name": "DranStrike",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeDranStrike.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2026-05-16",
+    "releaseWave": "BX-49",
     "description": {
-      "en": "Dran Strike Blade from the BX system.",
-      "de": ""
+      "en": "An Attack Type Expand Blade with a six-sided design and two sets of three wings. The metal extends beyond the launcher hooks for increased Smash Attack. It was the heaviest Basic Line Blade at release.",
+      "de": "Ein Attack-Type-Expand-Blade mit sechsseitigem Design und zwei Sätzen von drei Flügeln. Das Metall ragt über die Launcher-Hooks hinaus für stärkeren Smash-Attack. Zum Release war er der schwerste Basic-Line-Blade."
     },
     "assessment": {
-      "en": "Dran Strike is a right-spin Attack Type Blade. Official stats: Attack 58 / Defense 25 / Stamina 17. Weight: 41.4g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "DranStrike is one of the heaviest Attack Blades in the Basic Line and a top-tier Attack option. Its high weight and aggressive contact points make it a staple for Smash Attack combos.",
+      "de": "DranStrike ist einer der schwersten Attack-Blades der Basic Line und eine Top-Attack-Option. Sein hohes Gewicht und aggressive Kontaktpunkte machen ihn zum Standard für Smash-Attack-Combos."
     },
     "officialStats": {
       "weightGrams": 41.4,
@@ -2775,10 +2777,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.9,
-      "defense": 1.8,
-      "stamina": 1.1,
-      "balance": 2.3
+      "attack": 4,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -2786,28 +2788,29 @@
   {
     "id": "ring-aether",
     "category": "blade",
-    "name": "Ring  Aether",
+    "name": "HeavensRing",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2026-07-11",
+    "releaseWave": "BX-50",
     "description": {
-      "en": "Ring  Aether Blade from the BX system.",
-      "de": ""
+      "en": "A Defense Type Expand Blade with a circular shape and an angel halo/wings Gear Chip. The expanded metal beyond the launcher hooks creates a notable imbalance.",
+      "de": "Ein Defense-Type-Expand-Blade mit runder Form und einem Gear-Chip mit Engels-Heiligenschein/Flügeln. Das erweiterte Metall jenseits der Launcher-Hooks verursacht ein deutliches Ungleichgewicht."
     },
     "assessment": {
-      "en": "Ring  Aether is a right-spin Blade from the Beyblade X BX line. Documented weight: 37.14g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "HeavensRing has a round Defense-oriented profile, but the expanded metal distribution causes wobbling and tilting that hurts both Defense and Stamina. It is generally outclassed by more stable Defense Blades.",
+      "de": "HeavensRing hat ein rundes Defense-orientiertes Profil, aber die erweiterte Metallverteilung führt zu Wackeln und Kippen, was Defense und Stamina schadet. Er wird in der Regel von stabileren Defense-Blades übertroffen."
     },
     "officialStats": {
-      "weightGrams": 37.14,
-      "spinDirection": "right"
+      "weightGrams": 37.4,
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 3,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -2821,23 +2824,23 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
-      "en": "TyrannoRoar Blade from the UX system.",
-      "de": ""
+      "en": "A three-sided Attack Type Blade and retool of PhoenixWing. It features a Tyrannosaurus rex Gear Chip and a smoother shape than PhoenixWing.",
+      "de": "Ein dreiseitiger Attack-Type-Blade und Retool von PhoenixWing. Er zeigt einen Tyrannosaurus-rex-Gear-Chip und eine glattere Form als PhoenixWing."
     },
     "assessment": {
-      "en": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "TyrannoRoar is considered a must-have Attack Blade and a strong alternative to PhoenixWing. Its smoother shape reduces self-destructive recoil, making it especially good for Stationary Attack combos with Bits like Hexa or High Needle.",
+      "de": "TyrannoRoar gilt als Must-Have-Attack-Blade und starke Alternative zu PhoenixWing. Seine glattere Form reduziert selbstzerstörerischen Rückstoß, wodurch er besonders für Stationary-Attack-Combos mit Bits wie Hexa oder High Needle geeignet ist."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 36.0,
       "spinDirection": "right",
-      "typeTag": "Balance"
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -2851,26 +2854,26 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
-      "en": "PegasusBrush Blade from the UX system.",
-      "de": ""
+      "en": "The Brush Main Blade from the Custom Line, featured in PegasusBrush M3-85W from Random Booster Vol. 8. A right-spin Attack Type Blade.",
+      "de": "Der Brush-Main-Blade aus der Custom Line, enthalten in PegasusBrush M3-85W aus Random Booster Vol. 8. Ein Right-Spin-Attack-Type-Blade."
     },
     "assessment": {
-      "en": "PegasusBrush is a right-spin Stamina type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Brush is a lightweight Attack Blade. Its competitive niche is still being evaluated, but its low weight limits raw knockout power compared to heavier Attack options.",
+      "de": "Brush ist ein leichter Attack-Blade. Seine kompetitive Nische wird noch evaluiert, aber sein geringes Gewicht limitiert die reine Knockout-Kraft im Vergleich zu schwereren Attack-Optionen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.3,
       "spinDirection": "right",
-      "typeTag": "Stamina"
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "sol-brave",
@@ -2881,26 +2884,26 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
-      "en": "SolBrave Blade from the UX system.",
-      "de": ""
+      "en": "The Brave Main Blade from the Custom Line, featured in SolBrave C9-70TP from Random Booster Vol. 8. A right-spin Attack Type Blade with smooth upward-sloping blades.",
+      "de": "Der Brave-Main-Blade aus der Custom Line, enthalten in SolBrave C9-70TP aus Random Booster Vol. 8. Ein Right-Spin-Attack-Type-Blade mit glatt nach oben geneigten Klingen."
     },
     "assessment": {
-      "en": "SolBrave is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Brave's smooth blades create Upper Attack, but the shape is less aggressive than top Attack Blades like DranStrike. It works best in Attack setups that value control and stamina trade-offs.",
+      "de": "Brave's glatte Klingen erzeugen Upper Attack, aber die Form ist weniger aggressiv als Top-Attack-Blades wie DranStrike. Am besten funktioniert er in Attack-Setups, die Kontrolle und Stamina-Kompromisse bevorzugen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 31.2,
       "spinDirection": "right",
-      "typeTag": "Balance"
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "hells-brave",
@@ -2911,26 +2914,26 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
-      "en": "HellsBrave Blade from the UX system.",
-      "de": ""
+      "en": "The Brave Main Blade from the Custom Line, featured in HellsBrave J3-60GF from the SharkScale Deck Set. A right-spin Attack Type Blade.",
+      "de": "Der Brave-Main-Blade aus der Custom Line, enthalten in HellsBrave J3-60GF aus dem SharkScale Deck Set. Ein Right-Spin-Attack-Type-Blade."
     },
     "assessment": {
-      "en": "HellsBrave is a right-spin Attack type Blade from the Beyblade X Unique Line / Custom Line. Debuted in the SharkScale Deck Set with the Jaggy Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "HellsBrave pairs the Brave Blade with the aggressive Jaggy Assist Blade. The combination emphasizes Upper Attack and Xtreme Dash activation, though the smooth Brave blades limit pure Smash output.",
+      "de": "HellsBrave kombiniert den Brave-Blade mit dem aggressiven Jaggy-Assist-Blade. Die Kombination betont Upper Attack und Xtreme-Dash-Aktivierung, obwohl die glatten Brave-Klingen den reinen Smash-Output limitieren."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 31.2,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "bullet-griffon",
@@ -2941,12 +2944,12 @@
     "releaseDate": "2026-04-25",
     "releaseWave": "UX-19",
     "description": {
-      "en": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
-      "de": ""
+      "en": "A Balance Type Ratchet-Integrated Expand Blade from the Unique Line. It splits into an upper Bullet (Attack) and lower Griffon (Defense) during battle.",
+      "de": "Ein Balance-Type-Ratchet-Integrated-Expand-Blade aus der Unique Line. Er teilt sich im Kampf in einen oberen Bullet-(Attack-) und einen unteren Griffon-(Defense-)Teil."
     },
     "assessment": {
-      "en": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "BulletGriffon's split gimmick creates unique rulings and can disrupt opponents, but the dependency on gimmick activation makes it inconsistent for serious competitive play. Treat it as a fun gimmick option rather than a meta staple.",
+      "de": "BulletGriffons Split-Gimmick sorgt für einzigartige Regeln und kann Gegner verwirren, aber die Abhängigkeit von der Gimmick-Aktivierung macht ihn für ernsthaftes kompetitives Spiel inkonsistent. Eher eine spaßige Gimmick-Option als Meta-Standard."
     },
     "officialStats": {
       "weightGrams": 60.6,
@@ -2954,13 +2957,13 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "glory-valkyrie",
@@ -2971,12 +2974,12 @@
     "releaseDate": "2026-07-11",
     "releaseWave": "UX-20",
     "description": {
-      "en": "GloryValkyrie Ratchet-Integrated Blade from the UX system.",
-      "de": ""
+      "en": "An Attack Type Ratchet-Integrated Expand Blade from the Unique Line. It features a spring-loaded bound mechanism that lets parts expand on impact.",
+      "de": "Ein Attack-Type-Ratchet-Integrated-Expand-Blade aus der Unique Line. Er verfügt über einen federbelasteten Bound-Mechanismus, der Teile bei Aufprall ausdehnen lässt."
     },
     "assessment": {
-      "en": "GloryValkyrie is a right-spin Attack type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It features a spring-loaded bound mechanism for impact recoil. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "GloryValkyrie is a new release with high official Attack stats and a unique bound gimmick. Real competitive performance is still being tested; early expectations are high for aggressive Attack combos.",
+      "de": "GloryValkyrie ist eine neue Veröffentlichung mit hohen offiziellen Attack-Werten und einem einzigartigen Bound-Gimmick. Die echte kompetitive Leistung wird noch getestet; erste Erwartungen für aggressive Attack-Combos sind hoch."
     },
     "officialStats": {
       "weightGrams": 0,
@@ -2984,13 +2987,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "dran-brave",
