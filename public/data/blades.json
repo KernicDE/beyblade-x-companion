@@ -1478,30 +1478,32 @@
   {
     "id": "l-drago-rapid-hit",
     "category": "blade",
-    "name": "L- Drago: Rapid  Hit",
+    "name": "L-Drago: Rapid Hit",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5b/BladeLightningL-Drago(Rapid-HitType).png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
-      "en": "L- Drago: Rapid  Hit Blade from the BX system.",
-      "de": ""
+      "en": "A left-spin Attack Type X-Over Blade adapted from the Metal Fight Lightning L-Drago. The Rapid-Hit Type focuses on multiple small contact points for repeated strikes.",
+      "de": "Ein linksspinnender Attack-Type-X-Over-Blade, angelehnt an den Metal-Fight-Lightning-L-Drago. Der Rapid-Hit Type fokussiert auf mehrere kleine Kontaktpunkte für wiederholte Schläge."
     },
     "assessment": {
-      "en": "L- Drago: Rapid  Hit is a left-spin Blade from the Beyblade X BX line. Documented weight: 33.22g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "L-Drago: Rapid Hit offers aggressive left-spin Attack with its rapid-hit design, but like the Upper Type it is very imbalanced. It is a niche pick for collectors and left-spin Attack enthusiasts.",
+      "de": "L-Drago: Rapid Hit bietet aggressiven Linksspinn-Attack mit seinem Rapid-Hit-Design, ist aber wie der Upper Type sehr unausgewogen. Eine Nischenwahl für Sammler und Linksspinn-Attack-Enthusiasten."
     },
     "officialStats": {
       "weightGrams": 33.22,
-      "spinDirection": "left"
+      "spinDirection": "left",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 1
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bear-scratch",
@@ -1509,55 +1511,59 @@
     "name": "Bear Scratch",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/BearScratch_(BX-37).png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-10-12",
     "releaseWave": "BX",
     "description": {
-      "en": "Bear Scratch Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade with a compact, bear-claw-inspired shape. It is designed to absorb impacts and counter opposing attacks.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade mit einer kompakten, bärenkralen-inspirierten Form. Er ist darauf ausgelegt, Aufprall zu absorbieren und gegnerische Angriffe zu kontern."
     },
     "assessment": {
-      "en": "Bear Scratch is a right-spin Balance Type Blade. Weight: 29.74g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Bear Scratch is a light Defense Blade. Its low weight limits raw Defense potential, but the compact shape provides decent stability for casual play.",
+      "de": "Bear Scratch ist ein leichter Defense-Blade. Sein geringes Gewicht limitiert das rohe Defense-Potenzial, aber die kompakte Form bietet für Casual-Spiel anständige Stabilität."
     },
     "officialStats": {
       "weightGrams": 29.74,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "roar-tyranno",
     "category": "blade",
-    "name": "Roar  Tyranno",
+    "name": "Roar Tyranno",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeRoar.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Roar  Tyranno Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Attack Type Blade with three Tyrannosaurus-themed contact points. It is a retool of PhoenixWing with a smoother shape and slightly lower weight.",
+      "de": "Ein rechtsspinnender Attack-Type-Blade mit drei Tyrannosaurus-Kontaktpunkten. Er ist ein Retool von PhoenixWing mit einer glatteren Form und etwas geringerem Gewicht."
     },
     "assessment": {
-      "en": "Roar  Tyranno is a right-spin Blade from the Beyblade X BX line. Documented weight: 35.97g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Roar Tyranno delivers strong Attack performance similar to PhoenixWing. Its aggressive shape and solid weight make it a competitive Attack option.",
+      "de": "Roar Tyranno liefert starke Attack-Performance ähnlich wie PhoenixWing. Seine aggressive Form und das solide Gewicht machen ihn zu einer kompetitiven Attack-Option."
     },
     "officialStats": {
       "weightGrams": 35.97,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "silver-wolf",
@@ -1565,15 +1571,15 @@
     "name": "Silver Wolf",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-10-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Silver Wolf Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Stamina Type Unique Line Blade with a smooth, rounded shape for minimal friction. It features resin Launcher Hooks for increased Outward Weight Distribution.",
+      "de": "Ein rechtsspinnender Stamina-Type-Unique-Line-Blade mit einer glatten, runden Form für minimale Reibung. Er verfügt über Harz-Launcher-Hooks für erhöhte Außenverteilung."
     },
     "assessment": {
-      "en": "Silver Wolf is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 65. Weight: 36.8g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Silver Wolf is a top-tier Stamina Blade with excellent endurance. Its weight and low-friction design make it a staple for competitive Stamina combinations.",
+      "de": "Silver Wolf ist ein Top-Stamina-Blade mit exzellenter Ausdauer. Sein Gewicht und das reibungsarme Design machen ihn zu einem festen Bestandteil kompetitiver Stamina-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 36.8,
@@ -1582,11 +1588,12 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 2.1,
-      "stamina": 4.1,
-      "balance": 2.4
+      "defense": 2,
+      "stamina": 5,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "crimson-garuda",
@@ -1594,15 +1601,15 @@
     "name": "Crimson Garuda",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "Crimson Garuda Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Balance Type Blade with a five-sided, bird-inspired shape. It is designed to blend Attack, Defense and Stamina traits.",
+      "de": "Ein rechtsspinnender Balance-Type-Blade mit einer fünfseitigen, vogel-inspirierten Form. Er ist darauf ausgelegt, Attack-, Defense- und Stamina-Eigenschaften zu verbinden."
     },
     "assessment": {
-      "en": "Crimson Garuda is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 25 / Stamina 30. Weight: 35g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Crimson Garuda is a versatile all-rounder with decent Attack and solid weight. It does not dominate any single role but works well in hybrid casual combinations.",
+      "de": "Crimson Garuda ist ein vielseitiger Allrounder mit anständigem Attack und solidem Gewicht. Er dominiert keine einzelne Rolle, funktioniert aber gut in hybriden Casual-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 35,
@@ -1611,11 +1618,12 @@
     },
     "ratings": {
       "attack": 3,
-      "defense": 1.8,
-      "stamina": 1.9,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "samurai-saber",
@@ -1623,15 +1631,15 @@
     "name": "Samurai Saber",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/de/BladeSamuraiSaber.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-11-02",
     "releaseWave": "UX",
     "description": {
-      "en": "Samurai Saber Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Attack Type Unique Line Blade with a samurai-themed Gear Chip. It features two hidden protrusions that extend at higher spin speeds for surprise attack angles.",
+      "de": "Ein rechtsspinnender Attack-Type-Unique-Line-Blade mit samurai-thematisiertem Gear-Chip. Er verfügt über zwei versteckte Protrusionen, die bei höheren Drehzahlen ausfahren und Überraschungsangriffswinkel ermöglichen."
     },
     "assessment": {
-      "en": "Samurai Saber is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 20 / Stamina 25. Weight: 36.5g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Samurai Saber is a heavy, hard-hitting Attack Blade. The extending protrusions add unpredictability, and its weight gives it strong Knock-Out potential in competitive Attack combinations.",
+      "de": "Samurai Saber ist ein schwerer, hart schlagender Attack-Blade. Die ausfahrenden Protrusionen sorgen für Unberechenbarkeit, und sein Gewicht verleiht ihm starkes Knock-Out-Potenzial in kompetitiven Attack-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 36.5,
@@ -1639,12 +1647,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.3,
-      "defense": 1.4,
-      "stamina": 1.6,
-      "balance": 2.4
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "knight-mail",
@@ -1652,15 +1661,15 @@
     "name": "Knight Mail",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-11-02",
     "releaseWave": "UX",
     "description": {
-      "en": "Knight Mail Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Defense Type Unique Line Blade with an armored, mail-like outer circumference. It is designed to deflect hits and maintain stability under pressure.",
+      "de": "Ein rechtsspinnender Defense-Type-Unique-Line-Blade mit einem gepanzerten, kettenhemd-ähnlichen Außenumfang. Er ist darauf ausgelegt, Treffer abzulenken und unter Druck stabil zu bleiben."
     },
     "assessment": {
-      "en": "Knight Mail is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 35. Weight: 36.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Knight Mail offers strong Defense with its heavy, armored shape. It is a reliable choice for defensive combinations, though its Stamina is modest.",
+      "de": "Knight Mail bietet starke Defense durch seine schwere, gepanzerte Form. Er ist eine zuverlässige Wahl für defensive Kombinationen, obwohl seine Stamina bescheiden ist."
     },
     "officialStats": {
       "weightGrams": 36.7,
@@ -1668,12 +1677,13 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 4.6,
-      "stamina": 2.2,
-      "balance": 2.5
+      "attack": 1,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "draciel-shield",
@@ -1681,15 +1691,15 @@
     "name": "Draciel Shield",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-10-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Draciel Shield Blade from the BX system.",
-      "de": ""
+      "en": "A right-spin Defense Type X-Over Blade adapted from the original Draciel. It features an uneven outer circumference designed for counter-defense and impact deflection.",
+      "de": "Ein rechtsspinnender Defense-Type-X-Over-Blade, angelehnt an den originalen Draciel. Er verfügt über einen ungleichmäßigen Außenumfang, der auf Counter-Defense und Aufprall-Ablenkung ausgelegt ist."
     },
     "assessment": {
-      "en": "Draciel Shield is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 50 / Stamina 20. Weight: 28g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Draciel Shield is built for defense with its shield-like shape and thick vertical ratchet pairing. Its relatively low weight limits top-tier competitiveness, but it is a fun X-Over collectible.",
+      "de": "Draciel Shield ist für Defense mit seiner schildähnlichen Form und dem dicken vertikalen Ratchet-Paarung ausgelegt. Sein relativ geringes Gewicht limitiert die Top-Tier-Konkurrenzfähigkeit, aber er ist ein lustiges X-Over-Sammlerstück."
     },
     "officialStats": {
       "weightGrams": 28,
@@ -1697,12 +1707,13 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 3.6,
-      "stamina": 1.3,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "impact-drake",
@@ -1710,15 +1721,15 @@
     "name": "Impact Drake",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/BladeImpactDrake.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-04-27",
     "releaseWave": "UX",
     "description": {
-      "en": "Impact Drake Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Attack Type Unique Line Blade with four blades and rubber contact points. It is designed to repel opponents and enhance attack impact.",
+      "de": "Ein rechtsspinnender Attack-Type-Unique-Line-Blade mit vier Klingen und Gummi-Kontaktpunkten. Er ist darauf ausgelegt, Gegner abzustoßen und den Attack-Impact zu verstärken."
     },
     "assessment": {
-      "en": "Impact Drake is a right-spin Attack Type Blade. Official stats: Attack 75 / Defense 25 / Stamina 10. Weight: 39g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Impact Drake is a heavy Attack Blade with excellent Smash Attack potential. Its weight and rubber contact points make it a strong choice for competitive Attack combos.",
+      "de": "Impact Drake ist ein schwerer Attack-Blade mit exzellentem Smash-Attack-Potenzial. Sein Gewicht und die Gummi-Kontaktpunkte machen ihn zu einer starken Wahl für kompetitive Attack-Combos."
     },
     "officialStats": {
       "weightGrams": 39,
@@ -1727,11 +1738,12 @@
     },
     "ratings": {
       "attack": 5,
-      "defense": 1.8,
-      "stamina": 0.6,
-      "balance": 2.5
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "ghost-circle",
@@ -1739,15 +1751,15 @@
     "name": "Ghost Circle",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-12-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Ghost Circle Blade from the UX system.",
-      "de": ""
+      "en": "A right-spin Stamina Type Unique Line Blade with a lightweight, circular shape. Its smooth profile is designed to minimize friction and extend spin time.",
+      "de": "Ein rechtsspinnender Stamina-Type-Unique-Line-Blade mit einer leichten, kreisförmigen Form. Sein glattes Profil soll Reibung minimieren und die Drehzeit verlängern."
     },
     "assessment": {
-      "en": "Ghost Circle is a right-spin Stamina Type Blade. Official stats: Attack 5 / Defense 40 / Stamina 55. Weight: 26.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Ghost Circle is extremely light, which makes it easy to repel and limits its competitive use. It can work in niche Stamina setups but is generally outclassed by heavier Stamina Blades.",
+      "de": "Ghost Circle ist extrem leicht, was ihn leicht abprallen lässt und seinen kompetitiven Nutzen einschränkt. Er kann in Nischen-Stamina-Setups funktionieren, wird aber im Allgemeinen von schwereren Stamina-Blades übertroffen."
     },
     "officialStats": {
       "weightGrams": 26.7,
@@ -1755,12 +1767,13 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0.3,
-      "defense": 2.9,
-      "stamina": 3.4,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 1,
+      "stamina": 4,
+      "balance": 1
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "golem-rock",
