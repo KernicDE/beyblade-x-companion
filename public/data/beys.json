@@ -3348,5 +3348,53 @@
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-dot-hasbro",
     "assessment": "Draciel Shield 7-60D is the Hasbro X-Over Project remake of Max original Draciel S. It is a right-spin Defense type combining the thick 7-60 Ratchet with the Dot Bit for all-around defensive stability."
+  },
+  {
+    "id": "sword-dran-3-60f-red-g0197",
+    "name": "Sword Dran 3-60F (Red Ver.)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-05-30",
+    "releaseWave": "G0197",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
+    "assessment": "Sword Dran 3-60F (Red Ver.) is included in the Tail Viper and Sword Dran Dual Pack. It is a red recolor of the original Dran Sword 3-60F Attack type starter."
+  },
+  {
+    "id": "helm-knight-5-80t-g0198",
+    "name": "Helm Knight 5-80T",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0198",
+    "bladeId": "knight-shield-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-taper-hasbro",
+    "assessment": "Helm Knight 5-80T is included in the Yell Kong and Helm Knight Dual Pack. It uses the Knight Shield Blade, 5-80 Ratchet and Taper Bit."
+  },
+  {
+    "id": "bite-croc-3-60lf-g0199",
+    "name": "Bite Croc 3-60LF",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0199",
+    "bladeId": "croco-crunch-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-low-flat-hasbro",
+    "assessment": "Bite Croc 3-60LF is included in the Bite Croc and Sting Unicorn Dual Pack. It uses the Croco Crunch Blade, 3-60 Ratchet and Low Flat Bit."
+  },
+  {
+    "id": "sting-unicorn-4-60p-g0199",
+    "name": "Sting Unicorn 4-60P",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0199",
+    "bladeId": "unicorn-sting-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-point-hasbro",
+    "assessment": "Sting Unicorn 4-60P is included in the Bite Croc and Sting Unicorn Dual Pack. It uses the Unicorn Sting Blade, 4-60 Ratchet and Point Bit."
   }
 ]
