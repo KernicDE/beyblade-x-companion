@@ -722,22 +722,23 @@
   {
     "id": "mammoth-tusk",
     "category": "blade",
-    "name": "Mammoth Tusk",
+    "name": "MammothTusk",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/MammothTusk_2-80E.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "A round, compact Blade with mammoth-tusk-shaped contact points. Known as Tusk Mammoth in western releases.",
-      "de": "Ein runder, kompakter Blade mit mammutzahnförmigen Kontaktpunkten. In westlichen Releases als Tusk Mammoth bekannt."
+      "en": "A round, compact Balance Type Blade with mammoth-tusk-shaped contact points. Known as Tusk Mammoth in Hasbro western releases.",
+      "de": "Ein runder, kompakter Balance-Type-Blade mit mammutstoßzahn-förmigen Kontaktpunkten. Bekannt als Tusk Mammoth in westlichen Hasbro-Veröffentlichungen."
     },
     "assessment": {
-      "en": "Mammoth Tusk leans toward Defense with its compact shape and moderate weight. (Estimated ratings based on type, weight and shape.)",
-      "de": "Mammoth Tusk tendiert durch seine kompakte Form und das mittlere Gewicht zur Defense. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "MammothTusk is a compact Balance Blade. Its moderate weight and round shape give it decent stability, but it does not excel in any single role.",
+      "de": "MammothTusk ist ein kompakter Balance-Blade. Sein mittleres Gewicht und die runde Form bieten solide Stabilität, aber er zeichnet sich in keiner einzelnen Rolle aus."
     },
     "officialStats": {
-      "weightGrams": 32.1,
-      "spinDirection": "right"
+      "weightGrams": 32.3,
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
       "attack": 2,
@@ -5102,16 +5103,16 @@
     "category": "blade",
     "name": "Unicorn Sting",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeUnicornSting.png/revision/latest",
-    "releaseDate": "2024-01-27",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8f/BladeUnicornSting.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Unicorn Sting Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of UnicornSting. An asymmetrical Balance Type Blade with both Attack and Defense blades.",
+      "de": "Die Hasbro-Version von UnicornSting. Ein asymmetrischer Balance-Type-Blade mit sowohl Attack- als auch Defense-Klingen."
     },
     "assessment": {
-      "en": "Unicorn Sting is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 35 / Stamina 30. Weight: 33.4g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Unicorn Sting performs identically to the Takara Tomy release. It rewards skillful launching with versatile performance, switching between offensive and defensive behavior.",
+      "de": "Hasbros Unicorn Sting spielt identisch zur Takara-Tomy-Version. Er belohnt geschicktes Launching mit vielseitiger Performance und wechselt zwischen offensivem und defensivem Verhalten."
     },
     "officialStats": {
       "weightGrams": 33.4,
@@ -5119,10 +5120,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.5,
-      "stamina": 1.9,
-      "balance": 2.2
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5130,29 +5131,29 @@
   {
     "id": "tyranno-roar-hasbro",
     "category": "blade",
-    "name": "TyrannoRoar",
+    "name": "Roar Tyranno",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeTyrannoRoar.png/revision/latest",
-    "releaseDate": "2025-08-09",
-    "releaseWave": "UX-15",
+    "releaseDate": "2024-07-27",
+    "releaseWave": "G0284",
     "description": {
-      "en": "TyrannoRoar Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of TyrannoRoar. A three-sided Attack Type Blade and retool of PhoenixWing with a Tyrannosaurus rex Gear Chip.",
+      "de": "Die Hasbro-Version von TyrannoRoar. Ein dreiseitiger Attack-Type-Blade und Retool von PhoenixWing mit einem Tyrannosaurus-rex-Gear-Chip."
     },
     "assessment": {
-      "en": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's Roar Tyranno performs identically to Takara Tomy's TyrannoRoar. Its smoother shape reduces self-destructive recoil, making it a strong alternative to PhoenixWing for Stationary Attack combos.",
+      "de": "Hasbros Roar Tyranno spielt identisch zu Takara Tomys TyrannoRoar. Seine glattere Form reduziert selbstzerstörerischen Rückstoß, wodurch er eine starke Alternative zu PhoenixWing für Stationary-Attack-Combos ist."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 36.0,
       "spinDirection": "right",
-      "typeTag": "Balance"
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5162,45 +5163,46 @@
     "category": "blade",
     "name": "Bear Scratch",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/BearScratch_(BX-37).png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeBearScratch.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Bear Scratch Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of BearScratch. A right-spin Defense Type Blade with a compact, bear-claw-inspired shape.",
+      "de": "Die Hasbro-Version von BearScratch. Ein Right-Spin-Defense-Type-Blade mit einer kompakten, bärenkralle-inspirierten Form."
     },
     "assessment": {
-      "en": "Bear Scratch is a right-spin Balance Type Blade. Weight: 29.74g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Bear Scratch performs identically to the Takara Tomy release. Its low weight limits raw Defense potential, but the compact shape provides decent stability for casual play.",
+      "de": "Hasbros Bear Scratch spielt identisch zur Takara-Tomy-Version. Sein geringes Gewicht limitiert das reine Defense-Potenzial, aber die kompakte Form bietet solide Stabilität für Casual-Spiel."
     },
     "officialStats": {
       "weightGrams": 29.74,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "sphinx-cowl-hasbro",
     "category": "blade",
     "name": "Sphinx Cowl",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/31/BladeSphinxCowl.png/revision/latest",
-    "releaseDate": "2024-02-22",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeSphinxCowl.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Sphinx Cowl Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of SphinxCowl. A round Defense Type Blade with nine barrage blades arranged in a circle to repel attacks.",
+      "de": "Die Hasbro-Version von SphinxCowl. Ein runder Defense-Type-Blade mit neun Barrage-Klingen, die im Kreis angeordnet sind, um Angriffe abzuwehren."
     },
     "assessment": {
-      "en": "Sphinx Cowl is a right-spin Defense Type Blade. Official stats: Attack 35 / Defense 55 / Stamina 10. Weight: 32.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Sphinx Cowl performs identically to the Takara Tomy release. Its rugged perimeter makes it a strong defensive option against attacks from multiple directions.",
+      "de": "Hasbros Sphinx Cowl spielt identisch zur Takara-Tomy-Version. Seine robuste Außenkante macht ihn zu einer starken defensiven Option gegen Angriffe aus verschiedenen Richtungen."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -5208,10 +5210,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 3.9,
-      "stamina": 0.6,
-      "balance": 2.3
+      "attack": 2,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5221,16 +5223,16 @@
     "category": "blade",
     "name": "Black Shell",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeBlackShell.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Black Shell Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of BlackShell. A right-spin Defense Type Blade from the Team Pendragon line with a compact shell shape referencing Draciel.",
+      "de": "Die Hasbro-Version von BlackShell. Ein Right-Spin-Defense-Type-Blade aus der Team-Pendragon-Reihe mit kompakter Schalenform, die an Draciel erinnert."
     },
     "assessment": {
-      "en": "Black Shell is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 25. Weight: 32.4g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Black Shell performs identically to the Takara Tomy release. It is very light for a Defense Blade, giving it poor knock-out resistance and higher burst risk.",
+      "de": "Hasbros Black Shell spielt identisch zur Takara-Tomy-Version. Er ist sehr leicht für einen Defense-Blade, was ihm schlechte Knockout-Resistenz und ein höheres Burst-Risiko gibt."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -5238,29 +5240,29 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 4.6,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "whale-wave-hasbro",
     "category": "blade",
     "name": "Whale Wave",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeWhaleWave.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4d/BladeWhaleWave.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Whale Wave Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of WhaleWave. A right-spin Balance Type Blade with a wide, five-sided shape inspired by whale waves.",
+      "de": "Die Hasbro-Version von WhaleWave. Ein Right-Spin-Balance-Type-Blade mit einer breiten, fünfseitigen Form, inspiriert von Walwellen."
     },
     "assessment": {
-      "en": "Whale Wave is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 35 / Stamina 20. Weight: 38.2g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Whale Wave performs identically to the Takara Tomy release. Its wide shape and weight make it a solid choice for hybrid Attack-Defense combinations.",
+      "de": "Hasbros Whale Wave spielt identisch zur Takara-Tomy-Version. Seine breite Form und sein Gewicht machen ihn zu einer soliden Wahl für hybride Attack-Defense-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 38.2,
@@ -5269,9 +5271,9 @@
     },
     "ratings": {
       "attack": 3,
-      "defense": 2.5,
-      "stamina": 1.3,
-      "balance": 2.3
+      "defense": 2,
+      "stamina": 1,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5281,16 +5283,16 @@
     "category": "blade",
     "name": "Dran Dagger",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c8/BladeDranDagger.png/revision/latest",
-    "releaseDate": "2023-11-02",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranDagger.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Dran Dagger Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of DranDagger. An Attack Type Blade with six small blades and a Seiryū-themed Gear Chip.",
+      "de": "Die Hasbro-Version von DranDagger. Ein Attack-Type-Blade mit sechs kleinen Klingen und einem Seiryū-Gear-Chip."
     },
     "assessment": {
-      "en": "Dran Dagger is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 34.8g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Dran Dagger performs identically to the Takara Tomy release. It offers consistent Attack power and is a solid upgrade over Dran Sword for aggressive combos.",
+      "de": "Hasbros Dran Dagger spielt identisch zur Takara-Tomy-Version. Er bietet konsistente Attack-Power und ist ein solides Upgrade über Dran Sword für aggressive Combos."
     },
     "officialStats": {
       "weightGrams": 34.8,
@@ -5298,10 +5300,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 1.8,
-      "stamina": 1.6,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5309,47 +5311,48 @@
   {
     "id": "mammoth-tusk-hasbro",
     "category": "blade",
-    "name": "Mammoth Tusk",
+    "name": "Tusk Mammoth",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/MammothTusk_2-80E.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/22/Tusk_Mammoth_3-80T.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Mammoth Tusk Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of MammothTusk. A round, compact Balance Type Blade with mammoth-tusk-shaped contact points.",
+      "de": "Die Hasbro-Version von MammothTusk. Ein runder, kompakter Balance-Type-Blade mit mammutstoßzahn-förmigen Kontaktpunkten."
     },
     "assessment": {
-      "en": "Mammoth Tusk is a right-spin Balance Type Blade. Weight: 32.1g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Tusk Mammoth performs identically to the Takara Tomy release. Its moderate weight and round shape give it decent stability, but it does not excel in any single role.",
+      "de": "Hasbros Tusk Mammoth spielt identisch zur Takara-Tomy-Version. Sein mittleres Gewicht und die runde Form bieten solide Stabilität, aber er zeichnet sich in keiner einzelnen Rolle aus."
     },
     "officialStats": {
-      "weightGrams": 32.1,
-      "spinDirection": "right"
+      "weightGrams": 32.3,
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "phoenix-wing-hasbro",
     "category": "blade",
     "name": "Phoenix Wing",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladePhoenixWing.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladePhoenixWing.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Phoenix Wing Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of PhoenixWing. A heavy, three-sided Attack Type Blade with excellent Attack capabilities.",
+      "de": "Die Hasbro-Version von PhoenixWing. Ein schwerer, dreiseitiger Attack-Type-Blade mit exzellenten Attack-Fähigkeiten."
     },
     "assessment": {
-      "en": "Phoenix Wing is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 38g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Phoenix Wing performs identically to the Takara Tomy release. It is a staple Attack Blade due to its heavy weight and strong Attack, considered a must-have for the WBO X format.",
+      "de": "Hasbros Phoenix Wing spielt identisch zur Takara-Tomy-Version. Er ist ein Standard-Attack-Blade aufgrund seines hohen Gewichts und starken Attacks und gilt als Must-Have für das WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 38,
@@ -5357,10 +5360,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 1.8,
-      "stamina": 0.9,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5368,18 +5371,18 @@
   {
     "id": "shark-scale-hasbro",
     "category": "blade",
-    "name": "Shark Scale",
+    "name": "Scale Shark",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e0/BladeSharkScale.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8d/BladeSharkScale.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Shark Scale Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of SharkScale. A right-spin Attack Type Unique Line Blade with two large main contact points. Known as Scale Shark by Hasbro.",
+      "de": "Die Hasbro-Version von SharkScale. Ein Right-Spin-Attack-Type-Unique-Line-Blade mit zwei großen Hauptkontaktpunkten. Von Hasbro als Scale Shark bekannt."
     },
     "assessment": {
-      "en": "Shark Scale is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 15 / Stamina 15. Weight: 37.6g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Scale Shark performs identically to Takara Tomy's SharkScale. It is a heavy, hard-hitting Attack Blade with devastating smash power, though low stamina and high recoil require careful combo building.",
+      "de": "Hasbros Scale Shark spielt identisch zu Takara Tomys SharkScale. Er ist ein schwerer, hart schlagender Attack-Blade mit verheerender Smash-Power, wobei niedrige Stamina und hoher Rückstoß sorgfältiges Combo-Building erfordern."
     },
     "officialStats": {
       "weightGrams": 37.6,
@@ -5387,10 +5390,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.7,
-      "defense": 1.1,
-      "stamina": 0.9,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1.5,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
