@@ -30,6 +30,10 @@ export function BeyDatabase() {
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
   const [selectedTiers, setSelectedTiers] = useState<string[]>([]);
   const [selectedSpins, setSelectedSpins] = useState<string[]>([]);
+  const [filtersExpanded, setFiltersExpanded] = useState(false);
+
+  const activeFilterCount =
+    selectedTypes.length + selectedBatches.length + selectedTiers.length + selectedSpins.length;
 
   const q = query.trim().toLowerCase();
 
@@ -58,12 +62,13 @@ export function BeyDatabase() {
   const allTiers = useMemo(() => {
     if (!database) return [];
     const set = new Set<string>();
+    const tierOrder = ['S', 'A', 'B', 'C', 'F'];
     database.beys.forEach((b) => {
       const blade = database.blades.find((blade) => blade.id === b.bladeId);
       const ratings = calculateComboRatings(database, getBeyParts(b));
       set.add(calculateTier(ratings, blade?.officialStats.typeTag, typeScores));
     });
-    return Array.from(set).sort();
+    return Array.from(set).sort((a, b) => tierOrder.indexOf(a) - tierOrder.indexOf(b));
   }, [database, typeScores]);
 
   const allSpins = useMemo(() => {
@@ -139,35 +144,52 @@ export function BeyDatabase() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <SearchInput value={query} onChange={setQuery} />
           <SortSelect value={sortBy} onChange={setSortBy} />
+          <button
+            type="button"
+            onClick={() => setFiltersExpanded((e) => !e)}
+            className="inline-flex items-center justify-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)] hover:bg-[var(--muted)]/10"
+          >
+            {t('search.filters')}
+            {activeFilterCount > 0 && (
+              <span className="rounded-full bg-blue-500 px-1.5 py-0.5 text-xs text-white">
+                {activeFilterCount}
+              </span>
+            )}
+            <span className="text-xs">{filtersExpanded ? '▲' : '▼'}</span>
+          </button>
         </div>
-        <FilterChips
-          options={allTypes}
-          selected={selectedTypes}
-          onChange={setSelectedTypes}
-          label={`${t('sort.type')}:`}
-        />
-        <FilterChips
-          options={allBatches}
-          selected={selectedBatches}
-          onChange={setSelectedBatches}
-          label={`${t('sort.batch')}:`}
-        />
-        <FilterChips
-          options={allTiers}
-          selected={selectedTiers}
-          onChange={setSelectedTiers}
-          label="Tier:"
-        />
-        <FilterChips
-          options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-          selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-          onChange={(selected) =>
-            setSelectedSpins(
-              selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
-            )
-          }
-          label={`${t('partsDatabase.spin')}:`}
-        />
+        {filtersExpanded && (
+          <div className="flex flex-col gap-3">
+            <FilterChips
+              options={allTypes}
+              selected={selectedTypes}
+              onChange={setSelectedTypes}
+              label={`${t('sort.type')}:`}
+            />
+            <FilterChips
+              options={allBatches}
+              selected={selectedBatches}
+              onChange={setSelectedBatches}
+              label={`${t('sort.batch')}:`}
+            />
+            <FilterChips
+              options={allTiers}
+              selected={selectedTiers}
+              onChange={setSelectedTiers}
+              label="Tier:"
+            />
+            <FilterChips
+              options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+              selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+              onChange={(selected) =>
+                setSelectedSpins(
+                  selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
+                )
+              }
+              label={`${t('partsDatabase.spin')}:`}
+            />
+          </div>
+        )}
       </div>
 
       {filteredBeys.length === 0 && (

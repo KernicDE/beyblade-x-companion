@@ -17,7 +17,9 @@
   "search": {
     "placeholder": "Search…",
     "clear": "Clear search",
-    "noResults": "No results."
+    "noResults": "No results.",
+    "filters": "Filters",
+    "activeFilters": "Active filters"
   },
   "sort": {
     "name": "Name",

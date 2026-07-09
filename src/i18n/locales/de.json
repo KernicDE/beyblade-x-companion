@@ -17,7 +17,9 @@
   "search": {
     "placeholder": "Suchen…",
     "clear": "Suche löschen",
-    "noResults": "Keine Treffer."
+    "noResults": "Keine Treffer.",
+    "filters": "Filter",
+    "activeFilters": "Aktive Filter"
   },
   "sort": {
     "name": "Name",
