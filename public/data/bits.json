@@ -1052,6 +1052,36 @@
     "ratingsDisclaimer": true
   },
   {
+    "id": "bit-wedge-hasbro",
+    "category": "bit",
+    "name": "Wedge",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/BitWedge.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Wedge Bit.",
+      "de": "Der Wedge-Bit."
+    },
+    "assessment": {
+      "en": "Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 30. Weight: 1.8g. Height: 2mm. Manufactured by Hasbro.",
+      "de": "Wedge ist ein rechtsdrehender Defense-Typ Bit. Offizielle Werte: Angriff 5 / Verteidigung 55 / Ausdauer 30. Gewicht: 1,8 g. Höhe: 2 mm. Hergestellt von Hasbro."
+    },
+    "officialStats": {
+      "heightMm": 2,
+      "weightGrams": 1.8,
+      "typeTag": "Defense",
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0.5,
+      "defense": 4.6,
+      "stamina": 2.3,
+      "balance": 2.5
+    },
+    "ratingsDisclaimer": true
+  },
+  {
     "id": "bit-kick",
     "category": "bit",
     "name": "Kick",
