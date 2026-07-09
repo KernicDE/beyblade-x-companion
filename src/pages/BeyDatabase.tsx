@@ -38,7 +38,7 @@ export function BeyDatabase() {
             >
               <div className="flex items-start gap-4">
                 {bey.imageUrl ? (
-                  <img src={bey.imageUrl} alt="" className="h-16 w-16 rounded-lg object-cover" />
+                  <img src={bey.imageUrl} alt="" className="h-16 w-16 rounded-lg object-contain" />
                 ) : (
                   <PartIcon category="bey" size={64} />
                 )}

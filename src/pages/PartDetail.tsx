@@ -36,7 +36,7 @@ export function PartDetail() {
         <div className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="flex items-center gap-4">
             {launcher.imageUrl ? (
-              <img src={launcher.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
+              <img src={launcher.imageUrl} alt="" className="h-24 w-24 rounded-xl object-contain" />
             ) : (
               <PartIcon category="launcher" size={96} />
             )}
@@ -68,7 +68,7 @@ export function PartDetail() {
         <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="flex items-center gap-4">
             {part.imageUrl ? (
-              <img src={part.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
+              <img src={part.imageUrl} alt="" className="h-24 w-24 rounded-xl object-contain" />
             ) : (
               <PartIcon category={part.category} size={96} />
             )}

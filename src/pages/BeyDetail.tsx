@@ -45,7 +45,7 @@ export function BeyDetail() {
         <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="flex items-center gap-4">
             {bey.imageUrl ? (
-              <img src={bey.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
+              <img src={bey.imageUrl} alt="" className="h-24 w-24 rounded-xl object-contain" />
             ) : (
               <PartIcon category="bey" size={96} />
             )}

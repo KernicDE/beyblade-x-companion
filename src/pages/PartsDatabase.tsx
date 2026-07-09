@@ -49,7 +49,7 @@ export function PartsDatabase() {
                 >
                   <div className="flex items-start gap-4">
                     {part.imageUrl ? (
-                      <img src={part.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
+                      <img src={part.imageUrl} alt="" className="h-14 w-14 rounded-lg object-contain" />
                     ) : (
                       <PartIcon category={part.category} size={56} />
                     )}
@@ -83,7 +83,7 @@ export function PartsDatabase() {
               >
                 <div className="flex items-center gap-4">
                   {launcher.imageUrl ? (
-                    <img src={launcher.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
+                    <img src={launcher.imageUrl} alt="" className="h-14 w-14 rounded-lg object-contain" />
                   ) : (
                     <PartIcon category="launcher" size={56} />
                   )}
