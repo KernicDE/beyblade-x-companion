@@ -5704,16 +5704,16 @@
     "category": "blade",
     "name": "Weiss Tiger",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BladeWeissTiger.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladeWeissTiger.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Weiss Tiger Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of WeissTiger. A Balance Type Blade combining Upper, Damper and Smash blades for versatile performance.",
+      "de": "Die Hasbro-Version von WeissTiger. Ein Balance-Type-Blade, der Upper-, Damper- und Smash-Klingen für vielseitige Performance kombiniert."
     },
     "assessment": {
-      "en": "Weiss Tiger is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 30 / Stamina 25. Weight: 34.6g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Weiss Tiger performs identically to the Takara Tomy release. It provides versatile performance across Attack, Defense and Stamina without dominating any single area.",
+      "de": "Hasbros Weiss Tiger spielt identisch zur Takara-Tomy-Version. Er bietet vielseitige Performance über Attack, Defense und Stamina, ohne einen einzelnen Bereich zu dominieren."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -5722,28 +5722,28 @@
     },
     "ratings": {
       "attack": 3,
-      "defense": 2.1,
-      "stamina": 1.6,
-      "balance": 2.2
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "ghost-circle-hasbro",
     "category": "blade",
     "name": "Ghost Circle",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1c/BladeGhostCircle.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Ghost Circle Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of GhostCircle. A right-spin Stamina Type Unique Line Blade with a lightweight, circular shape.",
+      "de": "Die Hasbro-Version von GhostCircle. Ein rechtsspinnender Stamina-Type-Unique-Line-Blade mit einer leichten, kreisförmigen Form."
     },
     "assessment": {
-      "en": "Ghost Circle is a right-spin Stamina Type Blade. Official stats: Attack 5 / Defense 40 / Stamina 55. Weight: 26.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Ghost Circle performs identically to the Takara Tomy release. Its extreme lightness makes it easy to repel and limits competitive use to niche Stamina setups.",
+      "de": "Hasbros Ghost Circle spielt identisch zur Takara-Tomy-Version. Seine extreme Leichtigkeit macht ihn leicht abzustoßen und limitiert den kompetitiven Einsatz auf Nischen-Stamina-Setups."
     },
     "officialStats": {
       "weightGrams": 26.7,
@@ -5751,58 +5751,59 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0.3,
-      "defense": 2.9,
-      "stamina": 3.4,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 1,
+      "stamina": 4,
+      "balance": 1
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "goat-tackle-hasbro",
     "category": "blade",
     "name": "Goat Tackle",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladeGoatTackle.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/BladeGoatTackle.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Goat Tackle Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of GoatTackle. A right-spin Defense Type Basic Line Blade with a diamond shape and eight protrusions, retool of Obsidian Shell.",
+      "de": "Die Hasbro-Version von GoatTackle. Ein Right-Spin-Defense-Type-Basic-Line-Blade mit diamantförmiger Form und acht Vorsprüngen, Retool von Obsidian Shell."
     },
     "assessment": {
-      "en": "Goat Tackle is a right-spin Balance Type Blade. Weight: 31.46g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Goat Tackle performs identically to the Takara Tomy release. It trades some aggression for better stamina and stability than Obsidian Shell.",
+      "de": "Hasbros Goat Tackle spielt identisch zur Takara-Tomy-Version. Er tauscht etwas Aggression gegen bessere Stamina und Stabilität als Obsidian Shell ein."
     },
     "officialStats": {
-      "weightGrams": 31.46,
-      "spinDirection": "right"
+      "weightGrams": 31.5,
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "samurai-calibur-hasbro",
     "category": "blade",
-    "name": "Samurai Calibur",
+    "name": "Calibur Samurai",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeSamuraiCalibur.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeSamuraiCalibur.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Samurai Calibur Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of SamuraiCalibur. A right-spin Balance Type Basic Line Blade with a compact, dual-sided design.",
+      "de": "Die Hasbro-Version von SamuraiCalibur. Ein Right-Spin-Balance-Type-Basic-Line-Blade mit kompaktem, zweiseitigem Design."
     },
     "assessment": {
-      "en": "Samurai Calibur is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 30 / Stamina 30. Weight: 36g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Calibur Samurai performs identically to the Takara Tomy release. Its dual-sided shape can deliver surprising attacks, but stamina is below average.",
+      "de": "Hasbros Calibur Samurai spielt identisch zur Takara-Tomy-Version. Seine zweiseitige Form kann überraschende Angriffe liefern, aber die Stamina ist unterdurchschnittlich."
     },
     "officialStats": {
       "weightGrams": 36,
@@ -5810,58 +5811,59 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.1,
-      "stamina": 1.9,
-      "balance": 2.2
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "hack-viking-hasbro",
     "category": "blade",
-    "name": "Hack  Viking",
+    "name": "Hack Viking",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "UX",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2755",
     "description": {
-      "en": "Hack  Viking Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of VikingHack. A Balance Type Unique Line Blade that is a retool of HellsHammer.",
+      "de": "Die Hasbro-Version von VikingHack. Ein Balance-Type-Unique-Line-Blade, ein Retool von HellsHammer."
     },
     "assessment": {
-      "en": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's Hack Viking performs identically to the earlier Hasbro/Takara release. It inherits the HellsHammer shape with a modified metal component and middle-of-the-road Balance performance.",
+      "de": "Hasbros Hack Viking spielt identisch zur früheren Hasbro-/Takara-Veröffentlichung. Er übernimmt die HellsHammer-Form mit modifizierter Metallkomponente und durchschnittlicher Balance-Leistung."
     },
     "officialStats": {
       "weightGrams": 32.7,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "scorpio-spear-hasbro",
     "category": "blade",
     "name": "Scorpio Spear",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/03/BladeScorpioSpear.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Scorpio Spear Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of ScorpioSpear. A right-spin Balance Type Unique Line Blade with a mode-change gimmick.",
+      "de": "Die Hasbro-Version von ScorpioSpear. Ein Right-Spin-Balance-Type-Unique-Line-Blade mit Moduswechsel-Gimmick."
     },
     "assessment": {
-      "en": "Scorpio Spear is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 55 / Stamina 30. Weight: 39.6g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Scorpio Spear performs identically to the Takara Tomy release. Its mode change creates high recoil and randomness, but also the ability to knock out top-tier combos.",
+      "de": "Hasbros Scorpio Spear spielt identisch zur Takara-Tomy-Version. Sein Moduswechsel erzeugt hohen Rückstoß und Zufälligkeit, aber auch die Fähigkeit, Top-Combos auszuklopfen."
     },
     "officialStats": {
       "weightGrams": 39.6,
@@ -5869,29 +5871,29 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 1.7,
-      "defense": 3.9,
-      "stamina": 1.9,
-      "balance": 2.5
+      "attack": 3.5,
+      "defense": 2.5,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "dragoon-storm-hasbro",
     "category": "blade",
     "name": "Dragoon Storm",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c4/BladeDragoonStorm.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2a/BladeDragoonStorm.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Dragoon Storm Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of DragoonStorm. A left-spin Attack Type Basic Line Blade and X-Over Project adaptation of the original Dragoon S.",
+      "de": "Die Hasbro-Version von DragoonStorm. Ein Left-Spin-Attack-Type-Basic-Line-Blade und X-Over-Project-Adaption des originalen Dragoon S."
     },
     "assessment": {
-      "en": "Dragoon Storm is a left-spin Attack Type Blade. Official stats: Attack 55 / Defense 30 / Stamina 15. Weight: 25.1g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Dragoon Storm performs identically to the Takara Tomy release. Its wide shape produces strong smash attack, but low weight makes it vulnerable to heavier opponents.",
+      "de": "Hasbros Dragoon Storm spielt identisch zur Takara-Tomy-Version. Seine breite Form erzeugt starken Smash-Attack, aber das geringe Gewicht macht ihn gegen schwerere Gegner verwundbar."
     },
     "officialStats": {
       "weightGrams": 25.1,
@@ -5899,10 +5901,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.7,
-      "defense": 2.1,
-      "stamina": 0.9,
-      "balance": 2.2
+      "attack": 4.5,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5912,16 +5914,16 @@
     "category": "blade",
     "name": "Storm Pegasis",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/43/BladeStormPegasis.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeStormPegasis.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Storm Pegasis Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of StormPegasis. A right-spin Attack Type Basic Line Blade and X-Over Project adaptation of the original Storm Pegasis.",
+      "de": "Die Hasbro-Version von StormPegasis. Ein Right-Spin-Attack-Type-Basic-Line-Blade und X-Over-Project-Adaption des originalen Storm Pegasis."
     },
     "assessment": {
-      "en": "Storm Pegasis is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 15 / Stamina 30. Weight: 31g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Storm Pegasis performs identically to the Takara Tomy release. It delivers aggressive smash attack but sacrifices stamina and defense.",
+      "de": "Hasbros Storm Pegasis spielt identisch zur Takara-Tomy-Version. Er liefert aggressiven Smash-Attack, opfert aber Stamina und Defense."
     },
     "officialStats": {
       "weightGrams": 31,
@@ -5929,10 +5931,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.7,
-      "defense": 1.1,
-      "stamina": 1.9,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1.5,
+      "stamina": 3,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5942,16 +5944,16 @@
     "category": "blade",
     "name": "Victory Valkyrie",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fe/BladeVictoryValkyrie.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7d/BladeVictoryValkyrie.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Victory Valkyrie Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of VictoryValkyrie. A right-spin Attack Type Basic Line Blade and X-Over Project adaptation of the Burst Victory Valkyrie Layer.",
+      "de": "Die Hasbro-Version von VictoryValkyrie. Ein Right-Spin-Attack-Type-Basic-Line-Blade und X-Over-Project-Adaption des Burst-Victory-Valkyrie-Layers."
     },
     "assessment": {
-      "en": "Victory Valkyrie is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 20 / Stamina 25. Weight: 33.2g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Victory Valkyrie performs identically to the Takara Tomy release. Its contact points generate strong upper attack, but the shape creates recoil.",
+      "de": "Hasbros Victory Valkyrie spielt identisch zur Takara-Tomy-Version. Seine Kontaktpunkte erzeugen starken Upper-Attack, aber die Form erzeugt Rückstoß."
     },
     "officialStats": {
       "weightGrams": 33.2,
@@ -5959,10 +5961,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.7,
-      "defense": 1.4,
-      "stamina": 1.6,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 2,
+      "stamina": 2.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5972,30 +5974,30 @@
     "category": "blade",
     "name": "EmperorMight",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeEmperorMightH_(Metal_Coat_Black).png/revision/latest",
-    "releaseDate": "2025-11-01",
-    "releaseWave": "CX-11",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5d/EmperorMight_HOp.png/revision/latest",
+    "releaseDate": "2026-06-20",
+    "releaseWave": "G3028",
     "description": {
-      "en": "EmperorMight Blade from the CX system.",
-      "de": ""
+      "en": "The Hasbro version of EmperorMight. The Might Main Blade from the Custom Line, a right-spin Balance Type Blade with an eight-sided round design.",
+      "de": "Die Hasbro-Version von EmperorMight. Der Might-Main-Blade aus der Custom Line, ein Right-Spin-Balance-Type-Blade mit achtseitigem rundem Design."
     },
     "assessment": {
-      "en": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's EmperorMight performs identically to the Takara Tomy release. Its even stat spread makes it a jack-of-all-trades without a clear competitive edge.",
+      "de": "Hasbros EmperorMight spielt identisch zur Takara-Tomy-Version. Seine ausgeglichene Werteverteilung macht ihn zum Allrounder ohne klaren kompetitiven Vorteil."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 33.1,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1.5,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "shark-gill-hasbro",
