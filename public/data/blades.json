@@ -6605,25 +6605,29 @@
     "name": "Green Goblin",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/95/Green_Goblin_9-80HT.jpeg/revision/latest?cb=20250903053921",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025-09",
+    "releaseWave": "BX",
     "description": {
-      "en": "Green Goblin Blade.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade from the Basic Line, released by Hasbro as part of the Marvel Collab. It comes in the Miles Morales 1-60GN vs. Green Goblin 9-80HT Multipack.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade aus der Basic Line, von Hasbro als Teil der Marvel-Collab veröffentlicht. Er ist im Miles-Morales-1-60GN-vs.-Green-Goblin-9-80HT-Multipack enthalten."
     },
     "assessment": {
-      "en": "Green Goblin is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Green Goblin (Hasbro) is a stamina-focused Marvel Collab Blade with a slightly more aggressive shape than its pack-mate Miles Morales. Weight: 31.7g. Ratings estimated from type, weight and shape.",
+      "de": "Green Goblin (Hasbro) ist ein stamina-fokussierter Marvel-Collab-Blade mit einer etwas aggressiveren Form als sein Pack-Partner Miles Morales. Gewicht: 31,7 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 31.7,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 1.5,
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "bumblebee-hasbro",
@@ -6631,26 +6635,26 @@
     "name": "Bumblebee",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/Bumblebee_3-60GP.jpeg/revision/latest?cb=20250821194720",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025-09",
+    "releaseWave": "BX",
     "description": {
-      "en": "Bumblebee Blade.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Basic Line, released by Hasbro as part of the Transformers Collab. It comes in the Bumblebee vs. Shockwave Multipack.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Basic Line, von Hasbro als Teil der Transformers-Collab veröffentlicht. Er ist im Bumblebee-vs.-Shockwave-Multipack enthalten."
     },
     "assessment": {
-      "en": "Bumblebee is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Bumblebee (Hasbro) is a defensive Transformers Collab Blade with good defensive stats but limited stamina. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Ratings based on community data.",
+      "de": "Bumblebee (Hasbro) ist ein defensiver Transformers-Collab-Blade mit guten Verteidigungswerten aber limitierter Stamina. Offizielle Werte: Angriff 21 / Verteidigung 55 / Stamina 24. Gewicht: 31,8 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31.8,
-      "typeTag": "Defense",
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 3.9,
-      "stamina": 1.5,
-      "balance": 2.3
+      "attack": 2,
+      "defense": 5,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6661,26 +6665,26 @@
     "name": "Shockwave",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Shockwave_5-80O.jpeg/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025-09",
+    "releaseWave": "BX",
     "description": {
-      "en": "Shockwave Blade.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade from the Basic Line, released by Hasbro as part of the Transformers Collab. It comes in the Bumblebee vs. Shockwave Multipack.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade aus der Basic Line, von Hasbro als Teil der Transformers-Collab veröffentlicht. Er ist im Bumblebee-vs.-Shockwave-Multipack enthalten."
     },
     "assessment": {
-      "en": "Shockwave is a right-spin Stamina Type Blade. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Shockwave (Hasbro) is a stamina-focused Transformers Collab Blade with above-average spin endurance. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Ratings based on community data.",
+      "de": "Shockwave (Hasbro) ist ein stamina-fokussierter Transformers-Collab-Blade mit überdurchschnittlicher Spin-Ausdauer. Offizielle Werte: Angriff 32 / Verteidigung 18 / Stamina 50. Gewicht: 32,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 32.3,
-      "typeTag": "Stamina",
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 2.1,
-      "defense": 1.3,
-      "stamina": 3.1,
-      "balance": 2.2
+      "attack": 3,
+      "defense": 1.5,
+      "stamina": 5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6691,25 +6695,29 @@
     "name": "Obi Wan Kenobi",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/ba/Obi-Wan_Kenobi_4-60P.jpeg/revision/latest?cb=20250618035030",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Obi Wan Kenobi Blade.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Basic Line, released by Hasbro as part of the Star Wars Collab. It is a retool of KnightLance (Lance Knight) with identical plastic components and a nearly identical metal component, themed after Obi-Wan Kenobi.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Basic Line, von Hasbro als Teil der Star-Wars-Collab veröffentlicht. Er ist ein Retool von KnightLance (Lance Knight) mit identischen Kunststoffkomponenten und einer nahezu identischen Metallkomponente, thematisch angelehnt an Obi-Wan Kenobi."
     },
     "assessment": {
-      "en": "Obi Wan Kenobi is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Obi-Wan Kenobi (Hasbro) is a defensive retool that favors stability and burst resistance over raw attack. Weight: 30.6g. Ratings estimated from type, weight and shape.",
+      "de": "Obi-Wan Kenobi (Hasbro) ist ein defensiver Retool, der Stabilität und Burst-Resistenz gegenüber purem Angriff bevorzugt. Gewicht: 30,6 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 30.6,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "general-grievous-hasbro",
@@ -6717,25 +6725,29 @@
     "name": "General Grievous",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/General_Grievous_3-80HN.jpeg/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "General Grievous Blade.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Basic Line, released by Hasbro as part of the Star Wars Collab. It is themed after General Grievous and built for defensive stability.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Basic Line, von Hasbro als Teil der Star-Wars-Collab veröffentlicht. Er ist thematisch angelehnt an General Grievous und auf defensive Stabilität ausgelegt."
     },
     "assessment": {
-      "en": "General Grievous is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "General Grievous (Hasbro) offers a solid defensive profile with enough weight to withstand lighter attackers. Weight: 31g. Ratings estimated from type, weight and shape.",
+      "de": "General Grievous (Hasbro) bietet ein solides defensives Profil mit genügend Gewicht, um leichtere Angreifer zu widerstehen. Gewicht: 31 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 31,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 4,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "chewbacca-hasbro",
@@ -6743,26 +6755,26 @@
     "name": "Chewbacca",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/Chewbacca_4-80LF.jpeg/revision/latest?cb=20250903053227",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Chewbacca Blade.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade from the Basic Line, released by Hasbro as part of the Star Wars Collab. It comes in the Chewbacca 4-80LF vs. Stormtrooper 5-70B Multipack.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade aus der Basic Line, von Hasbro als Teil der Star-Wars-Collab veröffentlicht. Er ist im Chewbacca-4-80LF-vs.-Stormtrooper-5-70B-Multipack enthalten."
     },
     "assessment": {
-      "en": "Chewbacca is a right-spin Stamina Type Blade. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Chewbacca (Hasbro) is a Star Wars Collab Stamina Blade with solid spin endurance. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Ratings based on community data.",
+      "de": "Chewbacca (Hasbro) ist ein Star-Wars-Collab-Stamina-Blade mit solider Spin-Ausdauer. Offizielle Werte: Angriff 22 / Verteidigung 23 / Stamina 55. Gewicht: 31,8 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31.8,
-      "typeTag": "Stamina",
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 1.5,
-      "defense": 1.6,
-      "stamina": 3.4,
-      "balance": 2.2
+      "attack": 2,
+      "defense": 2,
+      "stamina": 5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6773,26 +6785,26 @@
     "name": "Stormtrooper",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Stormtrooper_5-70B.jpeg/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Stormtrooper Blade.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Basic Line, released by Hasbro as part of the Star Wars Collab. It comes in the Chewbacca 4-80LF vs. Stormtrooper 5-70B Multipack.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Basic Line, von Hasbro als Teil der Star-Wars-Collab veröffentlicht. Er ist im Chewbacca-4-80LF-vs.-Stormtrooper-5-70B-Multipack enthalten."
     },
     "assessment": {
-      "en": "Stormtrooper is a right-spin Defense Type Blade. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Stormtrooper (Hasbro) is a defensive Star Wars Collab Blade with good stamina for its type. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Ratings based on community data.",
+      "de": "Stormtrooper (Hasbro) ist ein defensiver Star-Wars-Collab-Blade mit guter Stamina für seinen Typ. Offizielle Werte: Angriff 18 / Verteidigung 50 / Stamina 32. Gewicht: 33,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 33.3,
-      "typeTag": "Defense",
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.2,
-      "defense": 3.6,
-      "stamina": 2,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 5,
+      "stamina": 3,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6803,22 +6815,26 @@
     "name": "T Rex",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "T Rex Blade.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade released by Hasbro in western countries. It is a retool of TyrannoBeat with identical plastic components and a modified metal component, labeled as T. Rex.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade, von Hasbro in westlichen Ländern veröffentlicht. Er ist ein Retool von TyrannoBeat mit identischen Plastikkomponenten und modifizierter Metallkomponente, beschriftet als T. Rex."
     },
     "assessment": {
-      "en": "T Rex is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "T. Rex (Hasbro) performs similarly to TyrannoBeat. It is a viable Attack Blade, though collectors mainly value it for the Jurassic World branding. Weight: 37.0g. Ratings based on community data.",
+      "de": "T. Rex (Hasbro) spielt ähnlich wie TyrannoBeat. Er ist ein brauchbarer Attack-Blade, auch wenn Sammler ihn hauptsächlich wegen des Jurassic-World-Brands schätzen. Gewicht: 37,0 g. Bewertungen basieren auf Community-Daten."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 37.0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.5,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6829,24 +6845,26 @@
     "name": "Mosasaurus",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/Mosasaurus_9-60U.png/revision/latest?cb=20250308034736",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Mosasaurus Blade.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade released by Hasbro in western countries. It is a retool of TriceraSpiky with identical plastic components and a modified metal component, labeled as Mosasaurus.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade, von Hasbro in westlichen Ländern veröffentlicht. Er ist ein Retool von TriceraSpiky mit identischen Plastikkomponenten und modifizierter Metallkomponente, beschriftet als Mosasaurus."
     },
     "assessment": {
-      "en": "Mosasaurus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Mosasaurus (Hasbro) performs similarly to TriceraSpiky. It is lighter than SphinxCowl and offers no competitive advantage beyond the Jurassic World theme. Weight: 29.9g. Ratings based on community data.",
+      "de": "Mosasaurus (Hasbro) spielt ähnlich wie TriceraSpiky. Er ist leichter als SphinxCowl und bietet keinen kompetitiven Vorteil jenseits des Jurassic-World-Themas. Gewicht: 29,9 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
-      "spinDirection": "right"
+      "weightGrams": 29.9,
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6857,24 +6875,26 @@
     "name": "Spinosaurus",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/62/Spinosaurus_3-85A.png/revision/latest?cb=20250322040356",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Spinosaurus Blade.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade released by Hasbro in western countries. It is a retool of TyrannoRoar with identical plastic components and a modified metal component, labeled as Spinosaurus.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade, von Hasbro in westlichen Ländern veröffentlicht. Er ist ein Retool von TyrannoRoar mit identischen Plastikkomponenten und modifizierter Metallkomponente, beschriftet als Spinosaurus."
     },
     "assessment": {
-      "en": "Spinosaurus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Spinosaurus (Hasbro) performs similarly to TyrannoRoar. Its smoother Attack shape makes it a fun Jurassic World variant, but it is generally outclassed by the original PhoenixWing and TyrannoRoar. Weight: 36.0g. Ratings based on community data.",
+      "de": "Spinosaurus (Hasbro) spielt ähnlich wie TyrannoRoar. Seine glattere Attack-Form macht ihn zu einer spaßigen Jurassic-World-Variante, aber er wird in der Regel vom originalen PhoenixWing und TyrannoRoar übertroffen. Gewicht: 36,0 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
-      "spinDirection": "right"
+      "weightGrams": 36.0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6885,24 +6905,26 @@
     "name": "Quetzalcoatlus",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/Quetzalcoatlus_4-55D.png/revision/latest?cb=20250808060150",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Quetzalcoatlus Blade.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade released by Hasbro in western countries. It is a retool of Talon Ptera (PteraSwing) with nearly identical plastic and metal components, labeled as Quetzalcoatlus.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade, von Hasbro in westlichen Ländern veröffentlicht. Er ist ein Retool von Talon Ptera (PteraSwing) mit nahezu identischen Plastik- und Metallkomponenten, beschriftet als Quetzalcoatlus."
     },
     "assessment": {
-      "en": "Quetzalcoatlus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Quetzalcoatlus (Hasbro) performs similarly to Talon Ptera. Its round Stamina shape is decent, but it is mainly a collector's Jurassic World variant. Weight: 34.3g. Ratings based on community data.",
+      "de": "Quetzalcoatlus (Hasbro) spielt ähnlich wie Talon Ptera. Seine runde Stamina-Form ist solide, aber er ist hauptsächlich eine Sammler-Jurassic-World-Variante. Gewicht: 34,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
-      "spinDirection": "right"
+      "weightGrams": 34.3,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1.5,
+      "stamina": 2.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
