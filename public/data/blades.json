@@ -2962,5 +2962,1653 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "dran-sword-hasbro",
+    "category": "blade",
+    "name": "Dran Sword",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "Dran Sword Blade from the BX system.",
+    "assessment": "Dran Sword is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.97g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.97,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knight-shield-hasbro",
+    "category": "blade",
+    "name": "Knight Shield",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/BladeKnightShield.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "Knight Shield Blade from the BX system.",
+    "assessment": "Knight Shield is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.7g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.7,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wizard-arrow-hasbro",
+    "category": "blade",
+    "name": "Wizard Arrow",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/44/BladeWizardArrow.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "Wizard Arrow Blade from the BX system.",
+    "assessment": "Wizard Arrow is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.86g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 31.86,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-scythe-hasbro",
+    "category": "blade",
+    "name": "Hells Scythe",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e4/BladeHellsScythe.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "Hells Scythe Blade from the BX system.",
+    "assessment": "Hells Scythe is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.94g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.94,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "samurai-steel-hasbro",
+    "category": "blade",
+    "name": "Samurai Steel",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/SamuraiSteel_5-70GF.jpg/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Samurai Steel Blade from the BX system.",
+    "assessment": "Samurai Steel is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.08g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 31.08,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "rhino-horn-hasbro",
+    "category": "blade",
+    "name": "Rhino Horn",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/41/BladeRhinoHorn.png/revision/latest",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX",
+    "description": "Rhino Horn Blade from the BX system.",
+    "assessment": "Rhino Horn is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.82g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.82,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "shark-edge-hasbro",
+    "category": "blade",
+    "name": "Shark Edge",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeSharkEdge.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "Shark Edge Blade from the BX system.",
+    "assessment": "Shark Edge is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.6g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.6,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ptera-swing-hasbro",
+    "category": "blade",
+    "name": "Ptera Swing",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Ptera Swing Blade from the BX system.",
+    "assessment": "Ptera Swing is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.25g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.25,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knight-lance-hasbro",
+    "category": "blade",
+    "name": "Knight Lance",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/BladeKnightLance.png/revision/latest",
+    "releaseDate": "2023-08-10",
+    "releaseWave": "BX",
+    "description": "Knight Lance Blade from the BX system.",
+    "assessment": "Knight Lance is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.25g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 33.25,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "leon-claw-hasbro",
+    "category": "blade",
+    "name": "Leon Claw",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/93/BladeLeonClaw.png/revision/latest",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX",
+    "description": "Leon Claw Blade from the BX system.",
+    "assessment": "Leon Claw is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.4g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 31.4,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dran-buster-hasbro",
+    "category": "blade",
+    "name": "Dran Buster",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Dran Buster Blade from the UX system.",
+    "assessment": "Dran Buster is a right-spin Blade from the Beyblade X UX line. Documented weight: 36.32g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 36.32,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wizard-rod-hasbro",
+    "category": "blade",
+    "name": "Wizard Rod",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a3/BladeWizardRod.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Wizard Rod Blade from the UX system.",
+    "assessment": "Wizard Rod is a right-spin Blade from the Beyblade X UX line. Documented weight: 35.35g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 35.35,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "shinobi-shadow-hasbro",
+    "category": "blade",
+    "name": "Shinobi Shadow",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeShinobiShadow.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Shinobi Shadow Blade from the UX system.",
+    "assessment": "Shinobi Shadow is a right-spin Blade from the Beyblade X UX line. Documented weight: 28.23g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 28.23,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "crimson-garuda-hasbro",
+    "category": "blade",
+    "name": "Crimson Garuda",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Crimson Garuda Blade from the BX system.",
+    "assessment": "Crimson Garuda is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.9g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.9,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "silver-wolf-hasbro",
+    "category": "blade",
+    "name": "Silver Wolf",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Silver Wolf Blade from the UX system.",
+    "assessment": "Silver Wolf is a right-spin Blade from the Beyblade X UX line. Documented weight: 36.83g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 36.83,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "shelter-drake-hasbro",
+    "category": "blade",
+    "name": "Shelter Drake",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeShelterDrake.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Shelter Drake Blade from the BX system.",
+    "assessment": "Shelter Drake is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.65g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.65,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "golem-rock-hasbro",
+    "category": "blade",
+    "name": "Golem Rock",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/BladeGolemRock.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Golem Rock Blade from the UX system.",
+    "assessment": "Golem Rock is a right-spin Blade from the Beyblade X UX line. Documented weight: 34g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-hammer-hasbro",
+    "category": "blade",
+    "name": "Hells Hammer",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Hells Hammer Blade from the UX system.",
+    "assessment": "Hells Hammer is a right-spin Blade from the Beyblade X UX line. Documented weight: 33.2g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 33.2,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "stun-medusa-hasbro",
+    "category": "blade",
+    "name": "Stun  Medusa",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dd/Stun_Medusa_9-60GB.jpeg/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Stun  Medusa Blade from the BX system.",
+    "assessment": "Stun  Medusa is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.32g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 27.32,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "phoenix-rudder-hasbro",
+    "category": "blade",
+    "name": "Phoenix Rudder",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Phoenix Rudder Blade from the UX system.",
+    "assessment": "Phoenix Rudder is a right-spin Blade from the Beyblade X UX line. Documented weight: 34.68g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.68,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "phoenix-feather-hasbro",
+    "category": "blade",
+    "name": "Phoenix Feather",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/BladePhoenixFeather.png/revision/latest",
+    "releaseDate": "2025-06-15",
+    "releaseWave": "BX",
+    "description": "Phoenix Feather Blade from the BX system.",
+    "assessment": "Phoenix Feather is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.33g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 33.33,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dran-brave-hasbro",
+    "category": "blade",
+    "name": "DranBrave",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-01",
+    "description": "DranBrave Blade from the CX system.",
+    "assessment": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-reaper-hasbro",
+    "category": "blade",
+    "name": "HellsReaper",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
+    "description": "HellsReaper Blade from the CX system.",
+    "assessment": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wizard-arc-hasbro",
+    "category": "blade",
+    "name": "WizardArc",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-02",
+    "description": "WizardArc Blade from the CX system.",
+    "assessment": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "perseus-dark-hasbro",
+    "category": "blade",
+    "name": "PerseusDark",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-03",
+    "description": "PerseusDark Blade from the CX system.",
+    "assessment": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "fox-brush-hasbro",
+    "category": "blade",
+    "name": "FoxBrush",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-05-17",
+    "releaseWave": "CX-06",
+    "description": "FoxBrush Blade from the CX system.",
+    "assessment": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "fort-hornet-hasbro",
+    "category": "blade",
+    "name": "Fort Hornet",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1682",
+    "description": "Fort Hornet Blade from the Hasbro Custom Line.",
+    "assessment": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wriggle-kraken-hasbro",
+    "category": "blade",
+    "name": "Wriggle Kraken",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1683",
+    "description": "Wriggle Kraken Blade from the Hasbro Custom Line.",
+    "assessment": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "antler-stag-hasbro",
+    "category": "blade",
+    "name": "Antler Stag",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1684",
+    "description": "Antler Stag Blade from the Hasbro Custom Line.",
+    "assessment": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "rhino-reaper-hasbro",
+    "category": "blade",
+    "name": "RhinoReaper",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
+    "description": "RhinoReaper Blade from the CX system.",
+    "assessment": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "cerberus-flame-hasbro",
+    "category": "blade",
+    "name": "CerberusFlame",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-08",
+    "description": "CerberusFlame Blade from the CX system.",
+    "assessment": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "fang-hasbro",
+    "category": "blade",
+    "name": "Fang",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2748",
+    "description": "Fang Blade from the Hasbro Custom Line.",
+    "assessment": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "strike-dran-hasbro",
+    "category": "blade",
+    "name": "Strike Dran",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-07-15",
+    "releaseWave": "G2742",
+    "description": "Strike Dran Blade from the Hasbro Infinity Line.",
+    "assessment": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "valor-bison-hasbro",
+    "category": "blade",
+    "name": "Valor Bison",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-07-15",
+    "releaseWave": "G3497",
+    "description": "Valor Bison Blade from the Hasbro Infinity Line.",
+    "assessment": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bullet-griffon-hasbro",
+    "category": "blade",
+    "name": "BulletGriffon",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-25",
+    "releaseWave": "UX-19",
+    "description": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
+    "assessment": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 60.6,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ragna-rage-hasbro",
+    "category": "blade",
+    "name": "RagnaRage",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-03-28",
+    "releaseWave": "CX-15",
+    "description": "RagnaRage Blade from the CX system.",
+    "assessment": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knight-fortress-hasbro",
+    "category": "blade",
+    "name": "KnightFortress",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-03-28",
+    "releaseWave": "CX-14",
+    "description": "KnightFortress Blade from the CX system.",
+    "assessment": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ring-aether-hasbro",
+    "category": "blade",
+    "name": "Ring  Aether",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Ring  Aether Blade from the BX system.",
+    "assessment": "Ring  Aether is a right-spin Blade from the Beyblade X BX line. Documented weight: 37.14g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 37.14,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bahamut-blitz-hasbro",
+    "category": "blade",
+    "name": "BahamutBlitz",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-03-28",
+    "releaseWave": "CX-13",
+    "description": "BahamutBlitz Blade from the CX system.",
+    "assessment": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "unicorn-sting-hasbro",
+    "category": "blade",
+    "name": "Unicorn Sting",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeUnicornSting.png/revision/latest",
+    "releaseDate": "2024-01-27",
+    "releaseWave": "BX",
+    "description": "Unicorn Sting Blade from the BX system.",
+    "assessment": "Unicorn Sting is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.38g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 33.38,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "tyranno-roar-hasbro",
+    "category": "blade",
+    "name": "TyrannoRoar",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "description": "TyrannoRoar Blade from the UX system.",
+    "assessment": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bear-scratch-hasbro",
+    "category": "blade",
+    "name": "Bear Scratch",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/BearScratch_(BX-37).png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Bear Scratch Blade from the BX system.",
+    "assessment": "Bear Scratch is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.74g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 29.74,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "sphinx-cowl-hasbro",
+    "category": "blade",
+    "name": "Sphinx Cowl",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/31/BladeSphinxCowl.png/revision/latest",
+    "releaseDate": "2024-02-22",
+    "releaseWave": "BX",
+    "description": "Sphinx Cowl Blade from the BX system.",
+    "assessment": "Sphinx Cowl is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.8g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.8,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "black-shell-hasbro",
+    "category": "blade",
+    "name": "Black Shell",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Black Shell Blade from the BX system.",
+    "assessment": "Black Shell is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.43g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.43,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "whale-wave-hasbro",
+    "category": "blade",
+    "name": "Whale Wave",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeWhaleWave.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Whale Wave Blade from the BX system.",
+    "assessment": "Whale Wave is a right-spin Blade from the Beyblade X BX line. Documented weight: 38.15g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 38.15,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dran-dagger-hasbro",
+    "category": "blade",
+    "name": "Dran Dagger",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c8/BladeDranDagger.png/revision/latest",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX",
+    "description": "Dran Dagger Blade from the BX system.",
+    "assessment": "Dran Dagger is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.91g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.91,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "mammoth-tusk-hasbro",
+    "category": "blade",
+    "name": "Mammoth Tusk",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/MammothTusk_2-80E.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Mammoth Tusk Blade from the BX system.",
+    "assessment": "Mammoth Tusk is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.1g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.1,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "phoenix-wing-hasbro",
+    "category": "blade",
+    "name": "Phoenix Wing",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladePhoenixWing.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Phoenix Wing Blade from the BX system.",
+    "assessment": "Phoenix Wing is a right-spin Blade from the Beyblade X BX line. Documented weight: 38g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 38,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "shark-scale-hasbro",
+    "category": "blade",
+    "name": "Shark Scale",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e0/BladeSharkScale.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Shark Scale Blade from the UX system.",
+    "assessment": "Shark Scale is a right-spin Blade from the Beyblade X UX line. Documented weight: 37.6g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 37.6,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "gust-bat-hasbro",
+    "category": "blade",
+    "name": "Gust Bat",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-01",
+    "releaseWave": "G2733",
+    "description": "Gust Bat Blade from the Hasbro Basic Line.",
+    "assessment": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "mummy-curse-hasbro",
+    "category": "blade",
+    "name": "Mummy Curse",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeMummyCurse.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Mummy Curse Blade from the UX system.",
+    "assessment": "Mummy Curse is a right-spin Blade from the Beyblade X UX line. Documented weight: 37.32g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 37.32,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "tricera-press-hasbro",
+    "category": "blade",
+    "name": "Tricera Press",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeTriceraPress.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Tricera Press Blade from the BX system.",
+    "assessment": "Tricera Press is a right-spin Blade from the Beyblade X BX line. Documented weight: 36.65g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 36.65,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "shinobi-knife-hasbro",
+    "category": "blade",
+    "name": "Shinobi Knife",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/BladeKnifeShinobi.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Shinobi Knife Blade from the BX system.",
+    "assessment": "Shinobi Knife is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.9g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 30.9,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-chain-hasbro",
+    "category": "blade",
+    "name": "Hells Chain",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeHellsChain.png/revision/latest",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX",
+    "description": "Hells Chain Blade from the BX system.",
+    "assessment": "Hells Chain is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.33g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 33.33,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "viper-tail-hasbro",
+    "category": "blade",
+    "name": "Viper Tail",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeViperTail.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "Viper Tail Blade from the BX system.",
+    "assessment": "Viper Tail is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.55g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.55,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "croco-crunch-hasbro",
+    "category": "blade",
+    "name": "Croco Crunch",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a4/CrocoCrunch_2-60Q.jpg/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Croco Crunch Blade from the BX system.",
+    "assessment": "Croco Crunch is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.05g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.05,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wyvern-gale-hasbro",
+    "category": "blade",
+    "name": "Wyvern Gale",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/BladeWyvernGale.png/revision/latest",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX",
+    "description": "Wyvern Gale Blade from the BX system.",
+    "assessment": "Wyvern Gale is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.1g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.1,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "tyranno-beat-hasbro",
+    "category": "blade",
+    "name": "Tyranno Beat",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/BladeTyrannoBeat.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Tyranno Beat Blade from the BX system.",
+    "assessment": "Tyranno Beat is a right-spin Blade from the Beyblade X BX line. Documented weight: 36.9g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 36.9,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "leon-crest-hasbro",
+    "category": "blade",
+    "name": "Leon Crest",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Leon Crest Blade from the UX system.",
+    "assessment": "Leon Crest is a right-spin Blade from the Beyblade X UX line. Documented weight: 34.82g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.82,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "weiss-tiger-hasbro",
+    "category": "blade",
+    "name": "Weiss Tiger",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BladeWeissTiger.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Weiss Tiger Blade from the BX system.",
+    "assessment": "Weiss Tiger is a right-spin Blade from the Beyblade X BX line. Documented weight: 34.83g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 34.83,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ghost-circle-hasbro",
+    "category": "blade",
+    "name": "Ghost Circle",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Ghost Circle Blade from the UX system.",
+    "assessment": "Ghost Circle is a right-spin Blade from the Beyblade X UX line. Documented weight: 26.71g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 26.71,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "goat-tackle-hasbro",
+    "category": "blade",
+    "name": "Goat Tackle",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladeGoatTackle.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Goat Tackle Blade from the BX system.",
+    "assessment": "Goat Tackle is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.46g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 31.46,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "samurai-calibur-hasbro",
+    "category": "blade",
+    "name": "Samurai Calibur",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeSamuraiCalibur.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Samurai Calibur Blade from the BX system.",
+    "assessment": "Samurai Calibur is a right-spin Blade from the Beyblade X BX line. Documented weight: 36g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 36,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hack-viking-hasbro",
+    "category": "blade",
+    "name": "Hack  Viking",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Hack  Viking Blade from the UX system.",
+    "assessment": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 32.7,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "scorpio-spear-hasbro",
+    "category": "blade",
+    "name": "Scorpio Spear",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Scorpio Spear Blade from the UX system.",
+    "assessment": "Scorpio Spear is a right-spin Blade from the Beyblade X UX line. Documented weight: 39.6g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 39.6,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dragoon-storm-hasbro",
+    "category": "blade",
+    "name": "Dragoon Storm",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c4/BladeDragoonStorm.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Dragoon Storm Blade from the BX system.",
+    "assessment": "Dragoon Storm is a left-spin Blade from the Beyblade X BX line. Documented weight: 25.35g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 25.35,
+      "spinDirection": "left"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "storm-pegasis-hasbro",
+    "category": "blade",
+    "name": "Storm Pegasis",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/43/BladeStormPegasis.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Storm Pegasis Blade from the BX system.",
+    "assessment": "Storm Pegasis is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.75g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 30.75,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "victory-valkyrie-hasbro",
+    "category": "blade",
+    "name": "Victory Valkyrie",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fe/BladeVictoryValkyrie.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Victory Valkyrie Blade from the BX system.",
+    "assessment": "Victory Valkyrie is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.05g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 33.05,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "emperor-might-hasbro",
+    "category": "blade",
+    "name": "EmperorMight",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-11-01",
+    "releaseWave": "CX-11",
+    "description": "EmperorMight Blade from the CX system.",
+    "assessment": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "shark-gill-hasbro",
+    "category": "blade",
+    "name": "Shark Gill",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeSharkGill.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Shark Gill Blade from the BX system.",
+    "assessment": "Shark Gill is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.7g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 29.7,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knight-mail-hasbro",
+    "category": "blade",
+    "name": "Knight Mail",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Knight Mail Blade from the UX system.",
+    "assessment": "Knight Mail is a right-spin Blade from the Beyblade X UX line. Documented weight: 36.61g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 36.61,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dranzer-spiral-hasbro",
+    "category": "blade",
+    "name": "Dranzer Spiral",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ce/BladeDranzerSpiral.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Dranzer Spiral Blade from the BX system.",
+    "assessment": "Dranzer Spiral is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.82g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 27.82,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "driger-slash-hasbro",
+    "category": "blade",
+    "name": "Driger Slash",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c5/BladeDrigerSlash.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Driger Slash Blade from the BX system.",
+    "assessment": "Driger Slash is a right-spin Blade from the Beyblade X BX line. Documented weight: 28.5g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 28.5,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "draciel-shield-hasbro",
+    "category": "blade",
+    "name": "Draciel Shield",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "Draciel Shield Blade from the BX system.",
+    "assessment": "Draciel Shield is a right-spin Blade from the Beyblade X BX line. Documented weight: 28.15g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 28.15,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
