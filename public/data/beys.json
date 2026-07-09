@@ -3552,5 +3552,101 @@
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-low-orb-hasbro",
     "assessment": "Tail Viper 3-85LO is included in the Spear Scorpio and Tail Viper Dual Pack. It uses the Viper Tail Blade, 3-85 Ratchet and Low Orb Bit."
+  },
+  {
+    "id": "the-mandalorian-3-60f-f9589",
+    "name": "The Mandalorian 3-60F",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "F9589",
+    "bladeId": "the-mandalorian-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
+    "assessment": "The Mandalorian 3-60F is included in The Mandalorian and Moff Gideon Multipack Set. It uses The Mandalorian Blade, 3-60 Ratchet and Flat Bit."
+  },
+  {
+    "id": "moff-gideon-3-80n-f9589",
+    "name": "Moff Gideon 3-80N",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "F9589",
+    "bladeId": "moff-gideon-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-needle-hasbro",
+    "assessment": "Moff Gideon 3-80N is included in The Mandalorian and Moff Gideon Multipack Set. It uses the Moff Gideon Blade, 3-80 Ratchet and Needle Bit."
+  },
+  {
+    "id": "iron-man-4-80b-g0287",
+    "name": "Iron Man 4-80B",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-07-01",
+    "releaseWave": "G0287",
+    "bladeId": "iron-man-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-ball-hasbro",
+    "assessment": "Iron Man 4-80B is included in the Iron Man and Thanos Multipack Set. It uses the Iron Man Blade, 4-80 Ratchet and Ball Bit."
+  },
+  {
+    "id": "thanos-4-60p-g0287",
+    "name": "Thanos 4-60P",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-07-01",
+    "releaseWave": "G0287",
+    "bladeId": "thanos-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-point-hasbro",
+    "assessment": "Thanos 4-60P is included in the Iron Man and Thanos Multipack Set. It uses the Thanos Blade, 4-60 Ratchet and Point Bit."
+  },
+  {
+    "id": "spider-man-3-60f-g0288",
+    "name": "Spider-Man 3-60F",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-07-01",
+    "releaseWave": "G0288",
+    "bladeId": "spider-man-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
+    "assessment": "Spider-Man 3-60F is included in the Spider-Man and Venom Multipack Set. It uses the Spider-Man Blade, 3-60 Ratchet and Flat Bit."
+  },
+  {
+    "id": "venom-3-80n-g0288",
+    "name": "Venom 3-80N",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-07-01",
+    "releaseWave": "G0288",
+    "bladeId": "venom-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-needle-hasbro",
+    "assessment": "Venom 3-80N is included in the Spider-Man and Venom Multipack Set. It uses the Venom Blade, 3-80 Ratchet and Needle Bit."
+  },
+  {
+    "id": "luke-skywalker-4-80b-g0290",
+    "name": "Luke Skywalker 4-80B",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0290",
+    "bladeId": "luke-skywalker-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-ball-hasbro",
+    "assessment": "Luke Skywalker 4-80B is included in the Luke Skywalker and Darth Vader Multipack Set. It uses the Luke Skywalker Blade, 4-80 Ratchet and Ball Bit."
+  },
+  {
+    "id": "darth-vader-4-60p-g0290",
+    "name": "Darth Vader 4-60P",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0290",
+    "bladeId": "darth-vader-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-point-hasbro",
+    "assessment": "Darth Vader 4-60P is included in the Luke Skywalker and Darth Vader Multipack Set. It uses the Darth Vader Blade, 4-60 Ratchet and Point Bit."
   }
 ]
