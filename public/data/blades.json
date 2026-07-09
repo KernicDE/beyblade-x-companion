@@ -8,12 +8,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Cobalt Drake Blade from the BX system.",
-      "de": ""
+      "en": "A four-sided Attack Type Blade with four upward-slanting dragon blades. The aggressive shape delivers strong Smash and Upper Attack, but also creates high recoil.",
+      "de": "Ein vierseitiger Attack-Type-Blade mit vier nach oben geneigten Drachenklingen. Die aggressive Form erzeugt starken Smash- und Upper-Attack, führt aber auch zu hohem Rückstoß."
     },
     "assessment": {
-      "en": "Cobalt Drake is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 20. Weight: 38g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Cobalt Drake is a hard-hitting Attack Blade with excellent offensive power. Its recoil makes it risky in same-spin matchups, but it remains a viable attack option.",
+      "de": "Cobalt Drake ist ein harter Attack-Blade mit exzellenter Offensivkraft. Der Rückstoß macht ihn in Same-Spin-Duellen riskant, aber er bleibt eine brauchbare Attack-Option."
     },
     "officialStats": {
       "weightGrams": 38,
@@ -21,10 +21,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.3,
-      "defense": 2.1,
-      "stamina": 1.3,
-      "balance": 2.6
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -37,12 +37,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Dran Sword Blade from the BX system.",
-      "de": ""
+      "en": "A three-sided Attack Type Blade with upward-slanting blades and a Seiryū-themed Gear Chip. One of the first four Blades in the Basic Line.",
+      "de": "Ein dreiseitiger Attack-Type-Blade mit nach oben geneigten Klingen und einem Seiryū-Gear-Chip. Einer der ersten vier Blades der Basic Line."
     },
     "assessment": {
-      "en": "Dran Sword is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 25 / Stamina 20. Weight: 34.6g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dran Sword was strong at launch but has been outclassed by heavier Attack Blades. It is no longer recommended for competitive WBO X format play.",
+      "de": "Dran Sword war zum Launch stark, wurde aber von schwereren Attack-Blades überholt. Für das kompetitive WBO-X-Format wird er nicht mehr empfohlen."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -50,10 +50,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.7,
-      "defense": 1.8,
-      "stamina": 1.3,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -66,12 +66,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Hells Scythe Blade from the BX system.",
-      "de": ""
+      "en": "A round, four-sided Balance Type Blade with four smashing blades and a flaming-skull Gear Chip. Initially served as both a Balance and Stamina option.",
+      "de": "Ein runder, vierseitiger Balance-Type-Blade mit vier Schlagklingen und einem Totenkopf-Gear-Chip. Diente anfangs als Balance- und Stamina-Option."
     },
     "assessment": {
-      "en": "Hells Scythe is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 35 / Stamina 35. Weight: 32.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Hells Scythe was a top-tier Stamina Blade early in the line, but it has been outclassed by WizardRod and SilverWolf. Not recommended for current competitive play.",
+      "de": "Hells Scythe war anfangs ein Top-Stamina-Blade, wurde aber von WizardRod und SilverWolf überholt. Für aktuelles kompetitives Spiel nicht empfohlen."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -80,9 +80,9 @@
     },
     "ratings": {
       "attack": 2,
-      "defense": 2.5,
-      "stamina": 2.2,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 3,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -95,12 +95,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Knight Shield Blade from the BX system.",
-      "de": ""
+      "en": "A round Defense Type Blade with six main contact points designed to absorb impacts. Features a knight-in-helm Gear Chip.",
+      "de": "Ein runder Defense-Type-Blade mit sechs Hauptkontaktpunkten, die Aufprall absorbieren sollen. Zeigt einen Ritter mit Helm als Gear Chip."
     },
     "assessment": {
-      "en": "Knight Shield is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 55 / Stamina 25. Weight: 32.4g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Knight Shield was competitive early on, but heavier Defense and Stamina Blades have surpassed it. It is not recommended for the current WBO X format.",
+      "de": "Knight Shield war anfangs konkurrenzfähig, wurde aber von schwereren Defense- und Stamina-Blades übertroffen. Für das aktuelle WBO-X-Format nicht empfohlen."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -108,10 +108,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.3,
-      "defense": 3.9,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -124,12 +124,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Wizard Arrow Blade from the BX system.",
-      "de": ""
+      "en": "A round Stamina Type Blade with two large blades that create strong centrifugal force. Features a wizard-themed Gear Chip.",
+      "de": "Ein runder Stamina-Type-Blade mit zwei großen Klingen, die starke Fliehkraft erzeugen. Zeigt einen Zauberer als Gear Chip."
     },
     "assessment": {
-      "en": "Wizard Arrow is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 55. Weight: 31.8g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Wizard Arrow offers solid Stamina for early-game combos. While later releases offer more Stamina, it remains a decent budget option.",
+      "de": "Wizard Arrow bietet solide Stamina für Einsteiger-Combos. Spätere Releases haben mehr Stamina, aber er bleibt eine brauchbare Budget-Option."
     },
     "officialStats": {
       "weightGrams": 31.8,
@@ -138,9 +138,9 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 2.1,
-      "stamina": 3.4,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -153,12 +153,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Dranzer Spiral Blade from the BX system.",
-      "de": ""
+      "en": "A Balance Type X-Over Blade adapted from the original Dranzer. Designed with two horizontal blades for striking power and Stamina.",
+      "de": "Ein Balance-Type-X-Over-Blade, angelehnt an den originalen Dranzer. Mit zwei horizontalen Klingen für Schlagkraft und Stamina."
     },
     "assessment": {
-      "en": "Dranzer Spiral is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 30 / Stamina 35. Weight: 27.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dranzer Spiral is too light to compete in Attack, Defense, or Stamina roles. It is not recommended for the WBO X format.",
+      "de": "Dranzer Spiral ist zu leicht, um in Attack, Defense oder Stamina zu bestehen. Für das WBO-X-Format nicht empfohlen."
     },
     "officialStats": {
       "weightGrams": 27.7,
@@ -166,10 +166,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.1,
-      "stamina": 2.2,
-      "balance": 2.2
+      "attack": 2,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -182,12 +182,12 @@
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
-      "en": "Knight Lance Blade from the BX system.",
-      "de": ""
+      "en": "A Defense Type Blade featuring an elongated lance-like shape for repelling opponents.",
+      "de": "Ein Defense-Type-Blade mit länglicher lanzenförmiger Form, um Gegner abzuwehren."
     },
     "assessment": {
-      "en": "Knight Lance is a right-spin Defense Type Blade. Official stats: Attack 25 / Defense 60 / Stamina 15. Weight: 32.9g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Knight Lance provides high Defense thanks to its weight and shape, but its Stamina is low. It works best in defensive combinations against Attack types.",
+      "de": "Knight Lance bietet dank Gewicht und Form hohe Defense, aber seine Stamina ist gering. Am besten in defensiven Kombinationen gegen Attack-Typen."
     },
     "officialStats": {
       "weightGrams": 32.9,
@@ -195,10 +195,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.7,
-      "defense": 4.3,
-      "stamina": 0.9,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -211,12 +211,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Shark Edge Blade from the BX system.",
-      "de": ""
+      "en": "An Attack Type Blade with two large, aggressive blades that produce massive Smash Attack and upward-sloping Upper Attack. Features a shark-head Gear Chip.",
+      "de": "Ein Attack-Type-Blade mit zwei großen, aggressiven Klingen, die massiven Smash-Attack und nach oben geneigten Upper-Attack erzeugen. Zeigt einen Haikopf als Gear Chip."
     },
     "assessment": {
-      "en": "Shark Edge is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 34.5g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Shark Edge is a staple Attack Blade with excellent Attack capabilities. It is considered a must-have for the WBO X format.",
+      "de": "Shark Edge ist ein klassischer Attack-Blade mit exzellenten Attack-Werten. Er gilt als Must-Have für das WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 34.5,
@@ -224,10 +224,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 1.8,
-      "stamina": 0.9,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -240,12 +240,12 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "Leon Claw Blade from the BX system.",
-      "de": ""
+      "en": "A Balance Type Blade with four main contact points and a lion-themed Gear Chip.",
+      "de": "Ein Balance-Type-Blade mit vier Hauptkontaktpunkten und einem löwen-thematisierten Gear Chip."
     },
     "assessment": {
-      "en": "Leon Claw is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 40 / Stamina 20. Weight: 31.4g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Leon Claw offers a balanced stat spread without excelling in any one area. It is usable for casual play but outclassed by specialized Blades.",
+      "de": "Leon Claw bietet eine ausgewogene Stat-Verteilung, ohne in einem Bereich herauszuragen. Für Casual-Spiel brauchbar, von spezialisierten Blades aber übertroffen."
     },
     "officialStats": {
       "weightGrams": 31.4,
@@ -253,10 +253,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.9,
-      "stamina": 1.3,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -269,12 +269,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Viper Tail Blade from the BX system.",
-      "de": ""
+      "en": "A Stamina Type Blade with a round shape and smooth contact points for minimal friction. Features a viper-themed Gear Chip.",
+      "de": "Ein Stamina-Type-Blade mit runder Form und glatten Kontaktpunkten für minimale Reibung. Zeigt eine Viper als Gear Chip."
     },
     "assessment": {
-      "en": "Viper Tail is a right-spin Stamina Type Blade. Official stats: Attack 30 / Defense 20 / Stamina 50. Weight: 34.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Viper Tail provides good Stamina and is a reliable early-line option. It lacks the raw Stamina of later releases like WizardRod.",
+      "de": "Viper Tail bietet gute Stamina und ist eine zuverlässige Early-Line-Option. Die rohe Stamina späterer Releases wie WizardRod fehlt ihm."
     },
     "officialStats": {
       "weightGrams": 34.7,
@@ -283,9 +283,9 @@
     },
     "ratings": {
       "attack": 2,
-      "defense": 1.4,
-      "stamina": 3.1,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
