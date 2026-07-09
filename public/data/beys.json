@@ -186,9 +186,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/09/DranSword_3-60F.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "F9580",
-    "bladeId": "dran-sword",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-flat",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9580. Parts: Dran Sword / 3-60 / Flat."
   },
   {
@@ -198,9 +198,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/KnightShield_3-80N.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "F9581",
-    "bladeId": "knight-shield",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-needle",
+    "bladeId": "knight-shield-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-needle-hasbro",
     "assessment": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9581. Parts: Knight Shield / 3-80 / Needle."
   },
   {
@@ -210,9 +210,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/WizardArrow_4-80B.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "F9582",
-    "bladeId": "wizard-arrow",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-ball",
+    "bladeId": "wizard-arrow-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-ball-hasbro",
     "assessment": "Arrow Wizard 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as F9582. Parts: Wizard Arrow / 4-80 / Ball."
   },
   {
@@ -222,9 +222,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/HellsScythe_4-60T.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "F9583",
-    "bladeId": "hells-scythe",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-taper",
+    "bladeId": "hells-scythe-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Scythe Incendio 4-60T is a right-spin factory-combined Beyblade from Hasbro, released as F9583. Parts: Hells Scythe / 4-60 / Taper."
   },
   {
@@ -234,9 +234,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fb/Steel_Samurai_4-80T.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "G0188",
-    "bladeId": "samurai-steel",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-taper",
+    "bladeId": "samurai-steel-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Steel Samurai 4-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0188. Parts: Samurai Steel / 4-80 / Taper."
   },
   {
@@ -246,9 +246,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/RhinoHorn_3-80S.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "G0192",
-    "bladeId": "rhino-horn",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-spike",
+    "bladeId": "rhino-horn-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-spike-hasbro",
     "assessment": "Horn Rhino 3-80S is a right-spin factory-combined Beyblade from Hasbro, released as G0192. Parts: Rhino Horn / 3-80 / Spike."
   },
   {
@@ -258,9 +258,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/SharkEdge_3-60LF.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "G0194",
-    "bladeId": "shark-edge",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-low-flat",
+    "bladeId": "shark-edge-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-low-flat-hasbro",
     "assessment": "Keel Shark 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0194. Parts: Shark Edge / 3-60 / Low Flat."
   },
   {
@@ -270,9 +270,9 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f8/Talon_Ptera_3-80B.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "G0195",
-    "bladeId": "ptera-swing",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-ball",
+    "bladeId": "ptera-swing-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-ball-hasbro",
     "assessment": "Talon Ptera 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0195. Parts: Ptera Swing / 3-80 / Ball."
   },
   {
@@ -2045,9 +2045,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "F9580",
-    "bladeId": "dran-sword",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-flat",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Sword Dran 3-60F is the Hasbro Basic Line release of the iconic Dran Sword starter. It uses the same Dran Sword Blade, 3-60 Ratchet and Flat Bit as the Takara Tomy BX-01 release, renamed for western markets."
   },
   {
@@ -2057,9 +2057,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "F9581",
-    "bladeId": "knight-shield",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-needle",
+    "bladeId": "knight-shield-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-needle-hasbro",
     "assessment": "Helm Knight 3-80N is the Hasbro Basic Line release of Knight Shield 3-80N. It uses the Knight Shield Blade, 3-80 Ratchet and Needle Bit under the western naming convention."
   },
   {
@@ -2069,9 +2069,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "F9582",
-    "bladeId": "wizard-arrow",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-ball",
+    "bladeId": "wizard-arrow-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-ball-hasbro",
     "assessment": "Arrow Wizard 4-80B is the Hasbro Basic Line release of Wizard Arrow 4-80B. It uses the Wizard Arrow Blade, 4-80 Ratchet and Ball Bit, renamed for western markets."
   },
   {
@@ -2081,9 +2081,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "F9583",
-    "bladeId": "hells-scythe",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-taper",
+    "bladeId": "hells-scythe-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Scythe Incendio 4-60T is the Hasbro Basic Line release of Hells Scythe 4-60T. It uses the Hells Scythe Blade, 4-60 Ratchet and Taper Bit under the western naming convention."
   },
   {
@@ -2093,9 +2093,9 @@
     "imageUrl": "",
     "releaseDate": "2024-07-01",
     "releaseWave": "G0184",
-    "bladeId": "knight-lance",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-high-needle",
+    "bladeId": "knight-lance-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-high-needle-hasbro",
     "assessment": "Lance Knight 4-80HN is the Hasbro Basic Line release of Knight Lance 4-80HN. It combines the Knight Lance Blade with the 4-80 Ratchet and High Needle Bit."
   },
   {
@@ -2105,9 +2105,9 @@
     "imageUrl": "",
     "releaseDate": "2024-07-01",
     "releaseWave": "G0193",
-    "bladeId": "leon-claw",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-point",
+    "bladeId": "leon-claw-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-point-hasbro",
     "assessment": "Claw Leon 5-60P is the Hasbro Basic Line release of LeonClaw 5-60P. It uses the Leon Claw Blade, 5-60 Ratchet and Point Bit, renamed for western markets."
   },
   {
@@ -2117,9 +2117,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1536",
-    "bladeId": "dran-buster",
-    "ratchetId": "ratchet-1-60",
-    "bitId": "bit-accel",
+    "bladeId": "dran-buster-hasbro",
+    "ratchetId": "ratchet-1-60-hasbro",
+    "bitId": "bit-accel-hasbro",
     "assessment": "Buster Dran 1-60A is the Hasbro Unique Line release of DranBuster 1-60A. It uses the Dran Buster Blade, 1-60 Ratchet and Accel Bit under the western naming convention."
   },
   {
@@ -2129,9 +2129,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1537",
-    "bladeId": "wizard-rod",
-    "ratchetId": "ratchet-5-70",
-    "bitId": "bit-disk-ball",
+    "bladeId": "wizard-rod-hasbro",
+    "ratchetId": "ratchet-5-70-hasbro",
+    "bitId": "bit-disk-ball-hasbro",
     "assessment": "Wand Wizard 5-70DB is a Hasbro Unique Line Starter. It pairs the Wizard Rod Blade with the 5-70 Ratchet and Disk Ball Bit for a stamina-oriented combo."
   },
   {
@@ -2141,9 +2141,9 @@
     "imageUrl": "",
     "releaseDate": "2025-03-07",
     "releaseWave": "G1538",
-    "bladeId": "wizard-rod",
-    "ratchetId": "ratchet-1-60",
-    "bitId": "bit-rush",
+    "bladeId": "wizard-rod-hasbro",
+    "ratchetId": "ratchet-1-60-hasbro",
+    "bitId": "bit-rush-hasbro",
     "assessment": "Wand Wizard 1-60R is a Hasbro Unique Line Starter variant. It uses the Wizard Rod Blade with the aggressive 1-60 Ratchet and Rush Bit."
   },
   {
@@ -2153,9 +2153,9 @@
     "imageUrl": "",
     "releaseDate": "2025-03-07",
     "releaseWave": "G1539",
-    "bladeId": "shinobi-shadow",
-    "ratchetId": "ratchet-1-80",
-    "bitId": "bit-metal-needle",
+    "bladeId": "shinobi-shadow-hasbro",
+    "ratchetId": "ratchet-1-80-hasbro",
+    "bitId": "bit-metal-needle-hasbro",
     "assessment": "Shadow Shinobi 1-80MN is the Hasbro Unique Line release of ShinobiShadow 1-80MN. It uses the Shinobi Shadow Blade, 1-80 Ratchet and Metal Needle Bit."
   },
   {
@@ -2165,9 +2165,9 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1673",
-    "bladeId": "crimson-garuda",
-    "ratchetId": "ratchet-4-70",
-    "bitId": "bit-taper",
+    "bladeId": "crimson-garuda-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Scarlet Garuda 4-70TP is the Hasbro Basic Line release of CrimsonGaruda 4-70TP. It uses the Crimson Garuda Blade, 4-70 Ratchet and Taper Bit under the western naming convention."
   },
   {
@@ -2177,9 +2177,9 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1674",
-    "bladeId": "silver-wolf",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-free-ball",
+    "bladeId": "silver-wolf-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-free-ball-hasbro",
     "assessment": "Sterling Wolf 3-80FB is the Hasbro Basic Line release of SilverWolf 3-80FB. It uses the Silver Wolf Blade, 3-80 Ratchet and Free Ball Bit."
   },
   {
@@ -2189,9 +2189,9 @@
     "imageUrl": "",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1675",
-    "bladeId": "shelter-drake",
-    "ratchetId": "ratchet-7-80",
-    "bitId": "bit-gear-point",
+    "bladeId": "shelter-drake-hasbro",
+    "ratchetId": "ratchet-7-80-hasbro",
+    "bitId": "bit-gear-point-hasbro",
     "assessment": "Shelter Drake 7-80GP is the Hasbro Basic Line release of ShelterDrake 7-80GP. It uses the Shelter Drake Blade, 7-80 Ratchet and Gear Point Bit."
   },
   {
@@ -2201,9 +2201,9 @@
     "imageUrl": "",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1676",
-    "bladeId": "golem-rock",
-    "ratchetId": "ratchet-1-60",
-    "bitId": "bit-under-needle",
+    "bladeId": "golem-rock-hasbro",
+    "ratchetId": "ratchet-1-60-hasbro",
+    "bitId": "bit-under-needle-hasbro",
     "assessment": "Rock Golem 1-60UN is the Hasbro Basic Line release of GolemRock 1-60UN. It uses the Golem Rock Blade, 1-60 Ratchet and Under Needle Bit under the western naming convention."
   },
   {
@@ -2213,9 +2213,9 @@
     "imageUrl": "",
     "releaseDate": "2025-03-07",
     "releaseWave": "G1751",
-    "bladeId": "dran-buster",
-    "ratchetId": "ratchet-5-70",
-    "bitId": "bit-disk-ball",
+    "bladeId": "dran-buster-hasbro",
+    "ratchetId": "ratchet-5-70-hasbro",
+    "bitId": "bit-disk-ball-hasbro",
     "assessment": "Buster Dran 5-70DB is a Hasbro Unique Line Starter variant. It pairs the Dran Buster Blade with the 5-70 Ratchet and Disk Ball Bit for a stamina-focused build."
   },
   {
@@ -2225,9 +2225,9 @@
     "imageUrl": "",
     "releaseDate": "2025-03-07",
     "releaseWave": "G1752",
-    "bladeId": "hells-hammer",
-    "ratchetId": "ratchet-3-70",
-    "bitId": "bit-hexa",
+    "bladeId": "hells-hammer-hasbro",
+    "ratchetId": "ratchet-3-70-hasbro",
+    "bitId": "bit-hexa-hasbro",
     "assessment": "Hammer Incendio 3-70H is the Hasbro Unique Line release of HellsHammer 3-70H. It uses the Hells Hammer Blade, 3-70 Ratchet and Hexa Bit."
   },
   {
@@ -2238,8 +2238,8 @@
     "releaseDate": "2026-01-30",
     "releaseWave": "G2738",
     "bladeId": "stun-medusa",
-    "ratchetId": "ratchet-9-60",
-    "bitId": "bit-gear-ball",
+    "ratchetId": "ratchet-9-60-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
     "assessment": "Stun Medusa 9-60GB is a Hasbro Basic Line Starter. It pairs the Stun Medusa Blade with the 9-60 Ratchet and Gear Ball Bit."
   },
   {
@@ -2249,9 +2249,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2739",
-    "bladeId": "phoenix-rudder",
-    "ratchetId": "ratchet-4-70",
-    "bitId": "bit-low-flat",
+    "bladeId": "phoenix-rudder-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-low-flat-hasbro",
     "assessment": "Rudder Phoenix 4-70LF is the Hasbro Basic Line release of PhoenixRudder 4-70LF. It uses the Phoenix Rudder Blade, 4-70 Ratchet and Low Flat Bit."
   },
   {
@@ -2261,9 +2261,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2740",
-    "bladeId": "phoenix-feather",
-    "ratchetId": "ratchet-2-60",
-    "bitId": "bit-needle",
+    "bladeId": "phoenix-feather-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-needle-hasbro",
     "assessment": "Feather Phoenix 2-60N is the Hasbro Basic Line release of PhoenixFeather 2-60N. It uses the Phoenix Feather Blade, 2-60 Ratchet and Needle Bit."
   },
   {
@@ -2273,10 +2273,10 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1677",
-    "bladeId": "dran-brave",
-    "assistBladeId": "slash",
-    "ratchetId": "ratchet-6-60",
-    "bitId": "bit-vortex",
+    "bladeId": "dran-brave-hasbro",
+    "assistBladeId": "slash-hasbro",
+    "ratchetId": "ratchet-6-60-hasbro",
+    "bitId": "bit-vortex-hasbro",
     "assessment": "Courage Dran S 6-60V is the Hasbro Custom Line release of DranBrave S6-60V. It uses the DranBrave Blade, Slash Assist Blade, 6-60 Ratchet and Vortex Bit under the western naming convention."
   },
   {
@@ -2286,10 +2286,10 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1678",
-    "bladeId": "hells-reaper",
-    "assistBladeId": "turn-a",
-    "ratchetId": "ratchet-4-70",
-    "bitId": "bit-kick",
+    "bladeId": "hells-reaper-hasbro",
+    "assistBladeId": "turn-a-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-kick-hasbro",
     "assessment": "Reaper Incendio T 4-70K is the Hasbro Custom Line release of HellsReaper T4-70K. It uses the HellsReaper Blade, Turn-A Assist Blade, 4-70 Ratchet and Kick Bit."
   },
   {
@@ -2299,10 +2299,10 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1679",
-    "bladeId": "wizard-arc",
-    "assistBladeId": "round",
-    "ratchetId": "ratchet-4-55",
-    "bitId": "bit-low-orbital",
+    "bladeId": "wizard-arc-hasbro",
+    "assistBladeId": "round-hasbro",
+    "ratchetId": "ratchet-4-55-hasbro",
+    "bitId": "bit-low-orbital-hasbro",
     "assessment": "Arc Wizard R 4-55LO is the Hasbro Custom Line release of WizardArc R4-55LO. It uses the WizardArc Blade, Round Assist Blade, 4-55 Ratchet and Low Orbital Bit."
   },
   {
@@ -2312,10 +2312,10 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1680",
-    "bladeId": "perseus-dark",
-    "assistBladeId": "bumper",
-    "ratchetId": "ratchet-6-80",
-    "bitId": "bit-wall",
+    "bladeId": "perseus-dark-hasbro",
+    "assistBladeId": "bumper-hasbro",
+    "ratchetId": "ratchet-6-80-hasbro",
+    "bitId": "bit-wall-hasbro",
     "assessment": "Dark Perseus B 6-80W is the Hasbro Custom Line release of PerseusDark B6-80W. It uses the PerseusDark Blade, Bumper Assist Blade, 6-80 Ratchet and Wall Bit."
   },
   {
@@ -2325,10 +2325,10 @@
     "imageUrl": "",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1681",
-    "bladeId": "fox-brush",
-    "assistBladeId": "jaggy",
-    "ratchetId": "ratchet-9-70",
-    "bitId": "bit-gear-rush",
+    "bladeId": "fox-brush-hasbro",
+    "assistBladeId": "jaggy-hasbro",
+    "ratchetId": "ratchet-9-70-hasbro",
+    "bitId": "bit-gear-rush-hasbro",
     "assessment": "Brush Fox J 9-70GR is the Hasbro Custom Line release of FoxBrush J9-70GR. It uses the FoxBrush Blade, Jaggy Assist Blade, 9-70 Ratchet and Gear Rush Bit."
   },
   {
@@ -2339,9 +2339,9 @@
     "releaseDate": "2025-08-01",
     "releaseWave": "G1682",
     "bladeId": "fort-hornet",
-    "assistBladeId": "round",
-    "ratchetId": "ratchet-7-60",
-    "bitId": "bit-taper",
+    "assistBladeId": "round-hasbro",
+    "ratchetId": "ratchet-7-60-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Fort Hornet R 7-60T is a Hasbro Custom Line Starter. It combines the Hornet Lock Chip, Fort Main Blade, Round Assist Blade, 7-60 Ratchet and Taper Bit."
   },
   {
@@ -2352,9 +2352,9 @@
     "releaseDate": "2025-08-01",
     "releaseWave": "G1683",
     "bladeId": "wriggle-kraken",
-    "assistBladeId": "slash",
-    "ratchetId": "ratchet-3-85",
-    "bitId": "bit-orb",
+    "assistBladeId": "slash-hasbro",
+    "ratchetId": "ratchet-3-85-hasbro",
+    "bitId": "bit-orb-hasbro",
     "assessment": "Wriggle Kraken S 3-85O is a Hasbro Custom Line Starter. It combines the Kraken Lock Chip, Wriggle Main Blade, Slash Assist Blade, 3-85 Ratchet and Orb Bit for stamina-focused performance."
   },
   {
@@ -2365,9 +2365,9 @@
     "releaseDate": "2025-08-01",
     "releaseWave": "G1684",
     "bladeId": "antler-stag",
-    "assistBladeId": "bumper",
-    "ratchetId": "ratchet-2-60",
-    "bitId": "bit-high-needle",
+    "assistBladeId": "bumper-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-high-needle-hasbro",
     "assessment": "Antler Stag B 2-60HN is a Hasbro Custom Line Starter. It combines the Stag Lock Chip, Antler Main Blade, Bumper Assist Blade, 2-60 Ratchet and High Needle Bit."
   },
   {
@@ -2377,10 +2377,10 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2746",
-    "bladeId": "rhino-reaper",
-    "assistBladeId": "charge",
-    "ratchetId": "ratchet-4-55",
-    "bitId": "bit-dot",
+    "bladeId": "rhino-reaper-hasbro",
+    "assistBladeId": "charge-hasbro",
+    "ratchetId": "ratchet-4-55-hasbro",
+    "bitId": "bit-dot-hasbro",
     "assessment": "Reaper Rhino C 4-55D is the Hasbro Custom Line release of RhinoReaper C4-55D. It uses the RhinoReaper Blade, Charge Assist Blade, 4-55 Ratchet and Dot Bit."
   },
   {
@@ -2390,10 +2390,10 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2747",
-    "bladeId": "cerberus-flame",
-    "assistBladeId": "wheel",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-wall-ball",
+    "bladeId": "cerberus-flame-hasbro",
+    "assistBladeId": "wheel-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-wall-ball-hasbro",
     "assessment": "Flame Cerberus W 5-80WB is the Hasbro Custom Line release of CerberusFlame W5-80WB. It uses the CerberusFlame Blade, Wheel Assist Blade, 5-80 Ratchet and Wall Ball Bit."
   },
   {
@@ -2404,9 +2404,9 @@
     "releaseDate": "2026-01-30",
     "releaseWave": "G2748",
     "bladeId": "fang",
-    "assistBladeId": "turn-a",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-unite",
+    "assistBladeId": "turn-a-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-unite-hasbro",
     "assessment": "Fang Leon T 4-60U is a Hasbro Custom Line Starter. It combines the Fang Main Blade, Turn-A Assist Blade, 4-60 Ratchet and Unite Bit."
   },
   {
@@ -2417,8 +2417,8 @@
     "releaseDate": "2026-07-15",
     "releaseWave": "G2742",
     "bladeId": "strike-dran",
-    "ratchetId": "ratchet-4-50",
-    "bitId": "bit-flat",
+    "ratchetId": "ratchet-4-50-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Strike Dran 4-50FF is a Hasbro Infinity Line Starter. It uses the Strike Dran Expand Blade, 4-50 Ratchet and a Flat-family Bit."
   },
   {
@@ -2429,8 +2429,8 @@
     "releaseDate": "2026-07-15",
     "releaseWave": "G3497",
     "bladeId": "valor-bison",
-    "ratchetId": "ratchet-integrated",
-    "bitId": "bit-free-ball",
+    "ratchetId": "ratchet-integrated-hasbro",
+    "bitId": "bit-free-ball-hasbro",
     "assessment": "Valor Bison FB is a Hasbro Infinity Line Starter. It uses the Valor Bison Expand Blade with an integrated Ratchet mechanism and Free Ball Bit."
   },
   {
@@ -2440,9 +2440,9 @@
     "imageUrl": "",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4561",
-    "bladeId": "bullet-griffon",
-    "ratchetId": "ratchet-integrated",
-    "bitId": "bit-hexa",
+    "bladeId": "bullet-griffon-hasbro",
+    "ratchetId": "ratchet-integrated-hasbro",
+    "bitId": "bit-hexa-hasbro",
     "assessment": "Rocket Griffon H is the Hasbro Infinity Line release of BulletGriffon H. It uses the BulletGriffon Expand Blade with integrated Ratchet and Hexa Bit under the western naming convention."
   },
   {
@@ -2452,10 +2452,10 @@
     "imageUrl": "",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4562",
-    "bladeId": "ragna-rage",
-    "assistBladeId": "erase",
-    "ratchetId": "ratchet-4-55",
-    "bitId": "bit-yielding",
+    "bladeId": "ragna-rage-hasbro",
+    "assistBladeId": "erase-hasbro",
+    "ratchetId": "ratchet-4-55-hasbro",
+    "bitId": "bit-yielding-hasbro",
     "assessment": "Rage Ragna FE 4-55Y is the Hasbro Infinity Line release of RagnaRage FE4-55Y. It uses the RagnaRage Expand Blade, Erase Assist Blade, 4-55 Ratchet and Yielding Bit."
   },
   {
@@ -2465,10 +2465,10 @@
     "imageUrl": "",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4563",
-    "bladeId": "knight-fortress",
-    "assistBladeId": "vertical",
-    "ratchetId": "ratchet-8-70",
-    "bitId": "bit-under-needle",
+    "bladeId": "knight-fortress-hasbro",
+    "assistBladeId": "vertical-hasbro",
+    "ratchetId": "ratchet-8-70-hasbro",
+    "bitId": "bit-under-needle-hasbro",
     "assessment": "Armor Knight GV 8-70UN is the Hasbro Infinity Line release of KnightFortress GV8-70UN. It uses the KnightFortress Expand Blade, Vertical Assist Blade, 8-70 Ratchet and Under Needle Bit under the western naming convention."
   },
   {
@@ -2478,9 +2478,9 @@
     "imageUrl": "",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4571",
-    "bladeId": "ring-aether",
-    "ratchetId": "ratchet-0-80",
-    "bitId": "bit-dot",
+    "bladeId": "ring-aether-hasbro",
+    "ratchetId": "ratchet-0-80-hasbro",
+    "bitId": "bit-dot-hasbro",
     "assessment": "Ring Aether 0-80DS is a Hasbro Infinity Line Starter. It pairs the Ring Aether Blade with the 0-80 Ratchet and Defense Bit."
   },
   {
@@ -2490,10 +2490,10 @@
     "imageUrl": "",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4572",
-    "bladeId": "bahamut-blitz",
-    "assistBladeId": "knuckle",
-    "ratchetId": "ratchet-1-50",
-    "bitId": "bit-ignition",
+    "bladeId": "bahamut-blitz-hasbro",
+    "assistBladeId": "knuckle-hasbro",
+    "ratchetId": "ratchet-1-50-hasbro",
+    "bitId": "bit-ignition-hasbro",
     "assessment": "Blitz Bahamut BK 1-50I is the Hasbro Infinity Line release of BahamutBlitz BK1-50I. It uses the BahamutBlitz Expand Blade, Knuckle Assist Blade, 1-50 Ratchet and Ignition Bit under the western naming convention."
   },
   {
@@ -2503,9 +2503,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0188",
-    "bladeId": "samurai-steel",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-taper",
+    "bladeId": "samurai-steel-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Steel Samurai 4-80T is the Hasbro Basic Line Booster release of SamuraiSteel 4-80T. It uses the Samurai Steel Blade, 4-80 Ratchet and Taper Bit."
   },
   {
@@ -2515,9 +2515,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0192",
-    "bladeId": "rhino-horn",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-spike",
+    "bladeId": "rhino-horn-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-spike-hasbro",
     "assessment": "Horn Rhino 3-80S is the Hasbro Basic Line Booster release of RhinoHorn 3-80S. It uses the Rhino Horn Blade, 3-80 Ratchet and Spike Bit."
   },
   {
@@ -2527,9 +2527,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0194",
-    "bladeId": "shark-edge",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-low-flat",
+    "bladeId": "shark-edge-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-low-flat-hasbro",
     "assessment": "Keel Shark 3-60LF is the Hasbro Basic Line Booster release of SharkEdge 3-60LF. It uses the Shark Edge Blade, 3-60 Ratchet and Low Flat Bit."
   },
   {
@@ -2539,9 +2539,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0195",
-    "bladeId": "ptera-swing",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-ball",
+    "bladeId": "ptera-swing-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-ball-hasbro",
     "assessment": "Talon Ptera 3-80B is the Hasbro Basic Line Booster release of PteraSwing 3-80B. It uses the Ptera Swing Blade, 3-80 Ratchet and Ball Bit."
   },
   {
@@ -2551,9 +2551,9 @@
     "imageUrl": "",
     "releaseDate": "2024-07-01",
     "releaseWave": "G0283",
-    "bladeId": "unicorn-sting",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-gear-point",
+    "bladeId": "unicorn-sting-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-gear-point-hasbro",
     "assessment": "Sting Unicorn 5-60GP is the Hasbro Basic Line Booster release of UnicornSting 5-60GP. It uses the Unicorn Sting Blade, 5-60 Ratchet and Gear Point Bit."
   },
   {
@@ -2563,9 +2563,9 @@
     "imageUrl": "",
     "releaseDate": "2024-07-01",
     "releaseWave": "G0284",
-    "bladeId": "tyranno-roar",
-    "ratchetId": "ratchet-9-60",
-    "bitId": "bit-gear-flat",
+    "bladeId": "tyranno-roar-hasbro",
+    "ratchetId": "ratchet-9-60-hasbro",
+    "bitId": "bit-gear-flat-hasbro",
     "assessment": "Roar Tyranno 9-60GF is the Hasbro Basic Line Booster release of TyrannoRoar 9-60GF. It uses the TyrannoRoar Blade, 9-60 Ratchet and Gear Flat Bit."
   },
   {
@@ -2575,9 +2575,9 @@
     "imageUrl": "",
     "releaseDate": "2024-07-01",
     "releaseWave": "G0285",
-    "bladeId": "hells-scythe",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-ball",
+    "bladeId": "hells-scythe-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-ball-hasbro",
     "assessment": "Scythe Incendio 3-80B is a Hasbro Basic Line Booster variant. It pairs the Hells Scythe Blade with the 3-80 Ratchet and Ball Bit."
   },
   {
@@ -2587,9 +2587,9 @@
     "imageUrl": "",
     "releaseDate": "2024-07-01",
     "releaseWave": "G0286",
-    "bladeId": "bear-scratch",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-spike",
+    "bladeId": "bear-scratch-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-spike-hasbro",
     "assessment": "Savage Bear 3-60S is the Hasbro Basic Line Booster release of BearScratch 3-60S. It uses the Bear Scratch Blade, 3-60 Ratchet and Spike Bit."
   },
   {
@@ -2599,9 +2599,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1530",
-    "bladeId": "sphinx-cowl",
-    "ratchetId": "ratchet-9-80",
-    "bitId": "bit-gear-needle",
+    "bladeId": "sphinx-cowl-hasbro",
+    "ratchetId": "ratchet-9-80-hasbro",
+    "bitId": "bit-gear-needle-hasbro",
     "assessment": "Cowl Sphinx 9-80GN is the Hasbro Basic Line Booster release of SphinxCowl 9-80GN. It uses the Sphinx Cowl Blade, 9-80 Ratchet and Gear Needle Bit."
   },
   {
@@ -2611,9 +2611,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1531",
-    "bladeId": "wizard-arrow",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-gear-ball",
+    "bladeId": "wizard-arrow-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
     "assessment": "Arrow Wizard 4-80GB is a Hasbro Basic Line Booster variant. It pairs the Wizard Arrow Blade with the 4-80 Ratchet and Gear Ball Bit."
   },
   {
@@ -2623,9 +2623,9 @@
     "imageUrl": "",
     "releaseDate": "2025-03-07",
     "releaseWave": "G1533",
-    "bladeId": "black-shell",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-dot",
+    "bladeId": "black-shell-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-dot-hasbro",
     "assessment": "Obsidian Shell 4-60D is the Hasbro Basic Line Booster release of BlackShell 4-60D. It uses the Black Shell Blade, 4-60 Ratchet and Dot Bit."
   },
   {
@@ -2635,9 +2635,9 @@
     "imageUrl": "",
     "releaseDate": "2025-02-01",
     "releaseWave": "G1534",
-    "bladeId": "shark-edge",
-    "ratchetId": "ratchet-1-60",
-    "bitId": "bit-quake",
+    "bladeId": "shark-edge-hasbro",
+    "ratchetId": "ratchet-1-60-hasbro",
+    "bitId": "bit-quake-hasbro",
     "assessment": "Keel Shark 1-60Q is a Hasbro Basic Line Booster variant. It pairs the Shark Edge Blade with the aggressive 1-60 Ratchet and Quake Bit."
   },
   {
@@ -2647,9 +2647,9 @@
     "imageUrl": "",
     "releaseDate": "2025-05-01",
     "releaseWave": "G1669",
-    "bladeId": "whale-wave",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-elevate",
+    "bladeId": "whale-wave-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-elevate-hasbro",
     "assessment": "Tide Whale 5-80E is the Hasbro Basic Line Booster release of WhaleWave 5-80E. It uses the Whale Wave Blade, 5-80 Ratchet and Elevate Bit."
   },
   {
@@ -2659,9 +2659,9 @@
     "imageUrl": "",
     "releaseDate": "2025-05-01",
     "releaseWave": "G1670",
-    "bladeId": "dran-dagger",
-    "ratchetId": "ratchet-4-70",
-    "bitId": "bit-quake",
+    "bladeId": "dran-dagger-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-quake-hasbro",
     "assessment": "Dagger Dran 4-70Q is the Hasbro Basic Line Booster release of DranDagger 4-70Q. It uses the Dran Dagger Blade, 4-70 Ratchet and Quake Bit."
   },
   {
@@ -2671,9 +2671,9 @@
     "imageUrl": "",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1671",
-    "bladeId": "knight-lance",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-low-flat",
+    "bladeId": "knight-lance-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-low-flat-hasbro",
     "assessment": "Lance Knight 3-60LF is a Hasbro Basic Line Booster variant. It pairs the Knight Lance Blade with the 3-60 Ratchet and Low Flat Bit."
   },
   {
@@ -2683,9 +2683,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G1754",
-    "bladeId": "mammoth-tusk",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-gear-ball",
+    "bladeId": "mammoth-tusk-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
     "assessment": "Yell Kong 3-60GB is the Hasbro Basic Line Booster release of MammothTusk 3-60GB. It uses the Mammoth Tusk Blade, 3-60 Ratchet and Gear Ball Bit."
   },
   {
@@ -2695,9 +2695,9 @@
     "imageUrl": "",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1755",
-    "bladeId": "wizard-arrow",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-orb",
+    "bladeId": "wizard-arrow-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-orb-hasbro",
     "assessment": "Arrow Wizard 4-80O is a Hasbro Basic Line Booster variant. It pairs the Wizard Arrow Blade with the 4-80 Ratchet and Orb Bit."
   },
   {
@@ -2707,9 +2707,9 @@
     "imageUrl": "",
     "releaseDate": "2025-03-07",
     "releaseWave": "G1756",
-    "bladeId": "phoenix-wing",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-hexa",
+    "bladeId": "phoenix-wing-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-hexa-hasbro",
     "assessment": "Soar Phoenix 5-80H is the Hasbro Basic Line Booster release of PhoenixWing 5-80H. It uses the Phoenix Wing Blade, 5-80 Ratchet and Hexa Bit."
   },
   {
@@ -2719,9 +2719,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2731",
-    "bladeId": "shark-scale",
-    "ratchetId": "ratchet-4-50",
-    "bitId": "bit-under-flat",
+    "bladeId": "shark-scale-hasbro",
+    "ratchetId": "ratchet-4-50-hasbro",
+    "bitId": "bit-under-flat-hasbro",
     "assessment": "Scale Shark 4-50UF is the Hasbro Basic Line Booster release of SharkScale 4-50UF. It uses the Shark Scale Blade, 4-50 Ratchet and Under Flat Bit."
   },
   {
@@ -2731,9 +2731,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2732",
-    "bladeId": "shelter-drake",
-    "ratchetId": "ratchet-5-70",
-    "bitId": "bit-orb",
+    "bladeId": "shelter-drake-hasbro",
+    "ratchetId": "ratchet-5-70-hasbro",
+    "bitId": "bit-orb-hasbro",
     "assessment": "Shelter Drake 5-70O is a Hasbro Basic Line Booster variant. It pairs the Shelter Drake Blade with the 5-70 Ratchet and Orb Bit."
   },
   {
@@ -2744,8 +2744,8 @@
     "releaseDate": "2026-04-01",
     "releaseWave": "G2733",
     "bladeId": "gust-bat",
-    "ratchetId": "ratchet-3-85",
-    "bitId": "bit-gear-point",
+    "ratchetId": "ratchet-3-85-hasbro",
+    "bitId": "bit-gear-point-hasbro",
     "assessment": "Gust Bat 3-85GP is a Hasbro Basic Line Booster. It pairs the Gust Bat Blade with the 3-85 Ratchet and Gear Point Bit."
   },
   {
@@ -2755,9 +2755,9 @@
     "imageUrl": "",
     "releaseDate": "2026-04-01",
     "releaseWave": "G2734",
-    "bladeId": "mummy-curse",
-    "ratchetId": "ratchet-7-55",
-    "bitId": "bit-wall",
+    "bladeId": "mummy-curse-hasbro",
+    "ratchetId": "ratchet-7-55-hasbro",
+    "bitId": "bit-wall-hasbro",
     "assessment": "Curse Mummy 7-55W is the Hasbro Basic Line Booster release of MummyCurse 7-55W. It uses the Mummy Curse Blade, 7-55 Ratchet and Wall Bit."
   },
   {
@@ -2767,9 +2767,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G3392",
-    "bladeId": "tricera-press",
-    "ratchetId": "ratchet-9-80",
-    "bitId": "bit-gear-needle",
+    "bladeId": "tricera-press-hasbro",
+    "ratchetId": "ratchet-9-80-hasbro",
+    "bitId": "bit-gear-needle-hasbro",
     "assessment": "Ridge Triceratops 9-80GN is the Hasbro Basic Line Booster release of TriceraPress 9-80GN. It uses the Tricera Press Blade, 9-80 Ratchet and Gear Needle Bit."
   },
   {
@@ -2779,9 +2779,9 @@
     "imageUrl": "",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3611",
-    "bladeId": "dran-buster",
-    "ratchetId": "ratchet-5-70",
-    "bitId": "bit-disk-ball",
+    "bladeId": "dran-buster-hasbro",
+    "ratchetId": "ratchet-5-70-hasbro",
+    "bitId": "bit-disk-ball-hasbro",
     "assessment": "Buster Dran 5-70DB is a Hasbro Basic Line Booster variant. It pairs the Dran Buster Blade with the 5-70 Ratchet and Disk Ball Bit."
   },
   {
@@ -2791,9 +2791,9 @@
     "imageUrl": "",
     "releaseDate": "2026-04-01",
     "releaseWave": "G2735",
-    "bladeId": "bear-scratch",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-flat",
+    "bladeId": "bear-scratch-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Savage Bear 5-60F is a Hasbro Basic Line Booster variant. It pairs the Bear Scratch Blade with the 5-60 Ratchet and Flat Bit."
   },
   {
@@ -2803,9 +2803,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0190",
-    "bladeId": "shinobi-knife",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-high-needle",
+    "bladeId": "shinobi-knife-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-high-needle-hasbro",
     "assessment": "Knife Shinobi 4-80HN is the Hasbro Basic Line release of ShinobiKnife 4-80LF, included in the Knife Shinobi and Keel Shark Dual Pack. It uses the Shinobi Knife Blade, 4-80 Ratchet and High Needle Bit."
   },
   {
@@ -2815,9 +2815,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0190",
-    "bladeId": "shark-edge",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-flat",
+    "bladeId": "shark-edge-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Keel Shark 3-80F is a Hasbro Basic Line variant included in the Knife Shinobi and Keel Shark Dual Pack. It pairs the Shark Edge Blade with the 3-80 Ratchet and Flat Bit."
   },
   {
@@ -2827,9 +2827,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0196",
-    "bladeId": "hells-chain",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-high-taper",
+    "bladeId": "hells-chain-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-high-taper-hasbro",
     "assessment": "Chain Incendio 5-60HT is the Hasbro Basic Line release of HellsChain 5-60HT, included in the Chain Incendio and Arrow Wizard Dual Pack. It uses the Hells Chain Blade, 5-60 Ratchet and High Taper Bit."
   },
   {
@@ -2839,9 +2839,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0196",
-    "bladeId": "wizard-arrow",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-needle",
+    "bladeId": "wizard-arrow-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-needle-hasbro",
     "assessment": "Arrow Wizard 4-60N is a Hasbro Basic Line variant included in the Chain Incendio and Arrow Wizard Dual Pack. It pairs the Wizard Arrow Blade with the 4-60 Ratchet and Needle Bit."
   },
   {
@@ -2851,9 +2851,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0197",
-    "bladeId": "viper-tail",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-orb",
+    "bladeId": "viper-tail-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-orb-hasbro",
     "assessment": "Tail Viper 5-80O is the Hasbro Basic Line release of ViperTail 5-80O, included in the Tail Viper and Sword Dran Dual Pack. It uses the Viper Tail Blade, 5-80 Ratchet and Orb Bit."
   },
   {
@@ -2863,9 +2863,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0197",
-    "bladeId": "dran-sword",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-flat",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Sword Dran 3-60F is a Hasbro Basic Line variant included in the Tail Viper and Sword Dran Dual Pack. It pairs the Dran Sword Blade with the 3-60 Ratchet and Flat Bit."
   },
   {
@@ -2875,9 +2875,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G0198",
-    "bladeId": "mammoth-tusk",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-gear-ball",
+    "bladeId": "mammoth-tusk-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
     "assessment": "Yell Kong 3-60GB is the Hasbro Basic Line release of MammothTusk 3-60GB, included in the Yell Kong and Helm Knight Dual Pack."
   },
   {
@@ -2887,9 +2887,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G0198",
-    "bladeId": "knight-shield",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-needle",
+    "bladeId": "knight-shield-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-needle-hasbro",
     "assessment": "Helm Knight 3-80N is a Hasbro Basic Line variant included in the Yell Kong and Helm Knight Dual Pack. It pairs the Knight Shield Blade with the 3-80 Ratchet and Needle Bit."
   },
   {
@@ -2899,9 +2899,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G0199",
-    "bladeId": "croco-crunch",
-    "ratchetId": "ratchet-2-60",
-    "bitId": "bit-quake",
+    "bladeId": "croco-crunch-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-quake-hasbro",
     "assessment": "Bite Croc 2-60Q is the Hasbro Basic Line release of CrocoCrunch 2-60Q, included in the Bite Croc and Sting Unicorn Dual Pack. It uses the Croco Crunch Blade, 2-60 Ratchet and Quake Bit."
   },
   {
@@ -2911,9 +2911,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G0199",
-    "bladeId": "unicorn-sting",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-gear-point",
+    "bladeId": "unicorn-sting-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-gear-point-hasbro",
     "assessment": "Sting Unicorn 5-60GP is a Hasbro Basic Line variant included in the Bite Croc and Sting Unicorn Dual Pack. It pairs the Unicorn Sting Blade with the 5-60 Ratchet and Gear Point Bit."
   },
   {
@@ -2923,9 +2923,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G0282",
-    "bladeId": "wyvern-gale",
-    "ratchetId": "ratchet-2-60",
-    "bitId": "bit-spike",
+    "bladeId": "wyvern-gale-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-spike-hasbro",
     "assessment": "Gale Wyvern 2-60S is the Hasbro Basic Line release of WyvernGale 2-60S, included in the Gale Wyvern and Tail Viper Dual Pack. It uses the Wyvern Gale Blade, 2-60 Ratchet and Spike Bit."
   },
   {
@@ -2935,9 +2935,9 @@
     "imageUrl": "",
     "releaseDate": "2024-08-01",
     "releaseWave": "G0282",
-    "bladeId": "viper-tail",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-orb",
+    "bladeId": "viper-tail-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-orb-hasbro",
     "assessment": "Tail Viper 5-80O is a Hasbro Basic Line variant included in the Gale Wyvern and Tail Viper Dual Pack. It pairs the Viper Tail Blade with the 5-80 Ratchet and Orb Bit."
   },
   {
@@ -2947,9 +2947,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1542",
-    "bladeId": "tyranno-beat",
-    "ratchetId": "ratchet-4-70",
-    "bitId": "bit-quake",
+    "bladeId": "tyranno-beat-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-quake-hasbro",
     "assessment": "Beat Tyranno 4-70Q is the Hasbro Basic Line release of TyrannoBeat 4-70Q, included in the Beat Tyranno and Knife Shinobi Dual Pack. It uses the Tyranno Beat Blade, 4-70 Ratchet and Quake Bit."
   },
   {
@@ -2959,9 +2959,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1542",
-    "bladeId": "shinobi-knife",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-high-needle",
+    "bladeId": "shinobi-knife-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-high-needle-hasbro",
     "assessment": "Knife Shinobi 4-80HN is a Hasbro Basic Line variant included in the Beat Tyranno and Knife Shinobi Dual Pack. It pairs the Shinobi Knife Blade with the 4-80 Ratchet and High Needle Bit."
   },
   {
@@ -2971,9 +2971,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1543",
-    "bladeId": "wyvern-gale",
-    "ratchetId": "ratchet-2-60",
-    "bitId": "bit-spike",
+    "bladeId": "wyvern-gale-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-spike-hasbro",
     "assessment": "Gale Wyvern 2-60S is a Hasbro Basic Line variant included in the Gale Wyvern and Sword Dran Dual Pack."
   },
   {
@@ -2983,9 +2983,9 @@
     "imageUrl": "",
     "releaseDate": "2024-12-01",
     "releaseWave": "G1543",
-    "bladeId": "dran-sword",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-flat",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Sword Dran 3-60F is a Hasbro Basic Line variant included in the Gale Wyvern and Sword Dran Dual Pack."
   },
   {
@@ -2995,9 +2995,9 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1685",
-    "bladeId": "sphinx-cowl",
-    "ratchetId": "ratchet-9-80",
-    "bitId": "bit-gear-needle",
+    "bladeId": "sphinx-cowl-hasbro",
+    "ratchetId": "ratchet-9-80-hasbro",
+    "bitId": "bit-gear-needle-hasbro",
     "assessment": "Cowl Sphinx 9-80GN is a Hasbro Basic Line variant included in the Cowl Sphinx and Crest Leon Dual Pack. It pairs the Sphinx Cowl Blade with the 9-80 Ratchet and Gear Needle Bit."
   },
   {
@@ -3007,9 +3007,9 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1685",
-    "bladeId": "leon-crest",
-    "ratchetId": "ratchet-7-60",
-    "bitId": "bit-gear-needle",
+    "bladeId": "leon-crest-hasbro",
+    "ratchetId": "ratchet-7-60-hasbro",
+    "bitId": "bit-gear-needle-hasbro",
     "assessment": "Crest Leon 7-60GN is the Hasbro Basic Line release of LeonCrest 7-60GN, included in the Cowl Sphinx and Crest Leon Dual Pack. It uses the Leon Crest Blade, 7-60 Ratchet and Gear Needle Bit."
   },
   {
@@ -3019,9 +3019,9 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1686",
-    "bladeId": "weiss-tiger",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-low-rush",
+    "bladeId": "weiss-tiger-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-low-rush-hasbro",
     "assessment": "Pearl Tiger 4-80LR is the Hasbro Basic Line release of WeissTiger 4-80LR, included in the Pearl Tiger and Gill Shark Dual Pack. It uses the Weiss Tiger Blade, 4-80 Ratchet and Low Rush Bit."
   },
   {
@@ -3031,9 +3031,9 @@
     "imageUrl": "",
     "releaseDate": "2025-06-01",
     "releaseWave": "G1686",
-    "bladeId": "shark-edge",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-flat",
+    "bladeId": "shark-edge-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Gill Shark 3-80F is a Hasbro Basic Line variant included in the Pearl Tiger and Gill Shark Dual Pack. It pairs the Shark Edge Blade with the 3-80 Ratchet and Flat Bit."
   },
   {
@@ -3043,9 +3043,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-01",
     "releaseWave": "G1687",
-    "bladeId": "ghost-circle",
-    "ratchetId": "ratchet-0-80",
-    "bitId": "bit-gear-ball",
+    "bladeId": "ghost-circle-hasbro",
+    "ratchetId": "ratchet-0-80-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
     "assessment": "Circle Ghost 0-80GB is the Hasbro Basic Line release of GhostCircle 0-80GB, included in the Circle Ghost and Chain Incendio Dual Pack. It uses the Ghost Circle Blade, 0-80 Ratchet and Gear Ball Bit."
   },
   {
@@ -3055,9 +3055,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-01",
     "releaseWave": "G1687",
-    "bladeId": "hells-chain",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-high-taper",
+    "bladeId": "hells-chain-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-high-taper-hasbro",
     "assessment": "Chain Incendio 5-60HT is a Hasbro Basic Line variant included in the Circle Ghost and Chain Incendio Dual Pack."
   },
   {
@@ -3067,9 +3067,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-01",
     "releaseWave": "G1688",
-    "bladeId": "goat-tackle",
-    "ratchetId": "ratchet-7-70",
-    "bitId": "bit-taper",
+    "bladeId": "goat-tackle-hasbro",
+    "ratchetId": "ratchet-7-70-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Tackle Goat 7-70T is the Hasbro Basic Line release of GoatTackle 7-70T, included in the Tackle Goat and Sword Dran Dual Pack. It uses the Goat Tackle Blade, 7-70 Ratchet and Taper Bit."
   },
   {
@@ -3079,9 +3079,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-01",
     "releaseWave": "G1688",
-    "bladeId": "dran-sword",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-flat",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Sword Dran 3-60F is a Hasbro Basic Line variant included in the Tackle Goat and Sword Dran Dual Pack."
   },
   {
@@ -3091,9 +3091,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2754",
-    "bladeId": "samurai-calibur",
-    "ratchetId": "ratchet-6-70",
-    "bitId": "bit-merge",
+    "bladeId": "samurai-calibur-hasbro",
+    "ratchetId": "ratchet-6-70-hasbro",
+    "bitId": "bit-merge-hasbro",
     "assessment": "Calibur Samurai 6-70M is the Hasbro Basic Line release of SamuraiCalibur 6-70M, included in the Calibur Samurai and Obsidian Shell Dual Pack. It uses the Samurai Calibur Blade, 6-70 Ratchet and Merge Bit."
   },
   {
@@ -3103,9 +3103,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2754",
-    "bladeId": "black-shell",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-dot",
+    "bladeId": "black-shell-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-dot-hasbro",
     "assessment": "Obsidian Shell 4-60D is a Hasbro Basic Line variant included in the Calibur Samurai and Obsidian Shell Dual Pack. It pairs the Black Shell Blade with the 4-60 Ratchet and Dot Bit."
   },
   {
@@ -3115,9 +3115,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2755",
-    "bladeId": "ghost-circle",
-    "ratchetId": "ratchet-0-80",
-    "bitId": "bit-gear-ball",
+    "bladeId": "ghost-circle-hasbro",
+    "ratchetId": "ratchet-0-80-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
     "assessment": "Circle Ghost 0-80GB is a Hasbro Basic Line variant included in the Circle Ghost and Hack Viking Dual Pack."
   },
   {
@@ -3127,9 +3127,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2755",
-    "bladeId": "hack-viking",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-point",
+    "bladeId": "hack-viking-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-point-hasbro",
     "assessment": "Hack Viking 4-80P is a Hasbro Basic Line Bey included in the Circle Ghost and Hack Viking Dual Pack. It pairs the Hack Viking Blade with the 4-80 Ratchet and Point Bit."
   },
   {
@@ -3139,9 +3139,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2758",
-    "bladeId": "scorpio-spear",
-    "ratchetId": "ratchet-0-70",
-    "bitId": "bit-zap",
+    "bladeId": "scorpio-spear-hasbro",
+    "ratchetId": "ratchet-0-70-hasbro",
+    "bitId": "bit-zap-hasbro",
     "assessment": "Spear Scorpio 0-70Z is the Hasbro Basic Line release of ScorpioSpear 0-70Z, included in the Spear Scorpio and Tail Viper Dual Pack. It uses the Scorpio Spear Blade, 0-70 Ratchet and Zap Bit."
   },
   {
@@ -3151,9 +3151,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2758",
-    "bladeId": "viper-tail",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-orb",
+    "bladeId": "viper-tail-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-orb-hasbro",
     "assessment": "Tail Viper 5-80O is a Hasbro Basic Line variant included in the Spear Scorpio and Tail Viper Dual Pack."
   },
   {
@@ -3163,9 +3163,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-24",
     "releaseWave": "G1844",
-    "bladeId": "dragoon-storm",
-    "ratchetId": "ratchet-4-60",
-    "bitId": "bit-rubber-accel",
+    "bladeId": "dragoon-storm-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-rubber-accel-hasbro",
     "assessment": "Dragoon Storm 4-60RA is the Hasbro release of the Beyblade 25th Anniversary Set. It is a left-spin Attack type X-Over Project remake of Tysons original Dragoon Storm, using the Rubber Accel Bit for extreme speed."
   },
   {
@@ -3175,9 +3175,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-24",
     "releaseWave": "G1844",
-    "bladeId": "storm-pegasis",
-    "ratchetId": "ratchet-3-70",
-    "bitId": "bit-rubber-accel",
+    "bladeId": "storm-pegasis-hasbro",
+    "ratchetId": "ratchet-3-70-hasbro",
+    "bitId": "bit-rubber-accel-hasbro",
     "assessment": "Storm Pegasis 3-70RA is the Hasbro release of the Beyblade 25th Anniversary Set. It remakes the Metal Fight Storm Pegasis with three aggressive wings and the Rubber Accel Bit for high-speed Xtreme Dash attacks."
   },
   {
@@ -3187,9 +3187,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-24",
     "releaseWave": "G1844",
-    "bladeId": "victory-valkyrie",
-    "ratchetId": "ratchet-2-60",
-    "bitId": "bit-rubber-accel",
+    "bladeId": "victory-valkyrie-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-rubber-accel-hasbro",
     "assessment": "Victory Valkyrie 2-60RA is the Hasbro release of the Beyblade 25th Anniversary Set. It brings the Burst-era Victory Valkyrie into the X Series with its iconic winged shape and the Rubber Accel Bit for aggressive movement."
   },
   {
@@ -3199,9 +3199,9 @@
     "imageUrl": "",
     "releaseDate": "2025-07-24",
     "releaseWave": "G1844",
-    "bladeId": "dran-sword",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-flat",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
     "assessment": "Dran Sword 3-60F (Holo Sticker Ver.) is the Hasbro release of the Beyblade 25th Anniversary Set. It is a holo-sticker variant of the original DranSword 3-60F Attack type starter."
   },
   {
@@ -3211,10 +3211,10 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3028",
-    "bladeId": "emperor-might",
-    "assistBladeId": "heavy",
-    "ratchetId": "ratchet-integrated",
-    "bitId": "bit-operate",
+    "bladeId": "emperor-might-hasbro",
+    "assistBladeId": "heavy-hasbro",
+    "ratchetId": "ratchet-integrated-hasbro",
+    "bitId": "bit-operate-hasbro",
     "assessment": "Might Emperor HOp is the Hasbro Custom Line headline Bey of the X-treme Battlers Pack. It combines the Emperor Metal Lock Chip, Might Main Blade, Heavy Assist Blade and the Operate Ratchet-Integrated Bit, which can switch between Attack and Defense modes."
   },
   {
@@ -3224,9 +3224,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3028",
-    "bladeId": "golem-rock",
-    "ratchetId": "ratchet-m-85",
-    "bitId": "bit-high-needle",
+    "bladeId": "golem-rock-hasbro",
+    "ratchetId": "ratchet-m-85-hasbro",
+    "bitId": "bit-high-needle-hasbro",
     "assessment": "Rock Golem M-85HN is the Hasbro Custom Line Defense type from the X-treme Battlers Pack. It pairs the heavy Golem Rock Blade with the metal-reinforced M-85 Ratchet and High Needle Bit."
   },
   {
@@ -3236,9 +3236,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3028",
-    "bladeId": "shark-gill",
-    "ratchetId": "ratchet-5-60",
-    "bitId": "bit-free-ball",
+    "bladeId": "shark-gill-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-free-ball-hasbro",
     "assessment": "Keel Shark 5-60FB is the Hasbro Custom Line Stamina type from the X-treme Battlers Pack. Its smooth circular Blade and Free Ball Bit keep the combo stable in the center of the stadium. Note: early Hasbro packaging labeled this as Keel Shark, but it uses the Gill Shark / Shark Gill Blade mold."
   },
   {
@@ -3248,9 +3248,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3195",
-    "bladeId": "knight-mail",
-    "ratchetId": "ratchet-3-85",
-    "bitId": "bit-bound-spike",
+    "bladeId": "knight-mail-hasbro",
+    "ratchetId": "ratchet-3-85-hasbro",
+    "bitId": "bit-bound-spike-hasbro",
     "assessment": "Mail Knight 3-85BS is the Hasbro Unique Line Defense type included in the X-treme Expansion Pack. Its tall 3-85 Ratchet and Bound Spike Bit are built around absorbing impacts and recovering stability."
   },
   {
@@ -3260,9 +3260,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3195",
-    "bladeId": "hells-hammer",
-    "ratchetId": "ratchet-3-70",
-    "bitId": "bit-hexa",
+    "bladeId": "hells-hammer-hasbro",
+    "ratchetId": "ratchet-3-70-hasbro",
+    "bitId": "bit-hexa-hasbro",
     "assessment": "Hammer Incendio 3-70H (Anodized) is the Hasbro Unique Line release in the X-treme Expansion Pack. It uses the Hells Hammer Blade with an anodized metal finish, the 3-70 Ratchet and Hexa Bit."
   },
   {
@@ -3272,9 +3272,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3393",
-    "bladeId": "phoenix-rudder",
-    "ratchetId": "ratchet-9-70",
-    "bitId": "bit-glide",
+    "bladeId": "phoenix-rudder-hasbro",
+    "ratchetId": "ratchet-9-70-hasbro",
+    "bitId": "bit-glide-hasbro",
     "assessment": "Rudder Phoenix 9-70G is the Hasbro Unique Line release in the Yggdrasil Team Pack. It pairs the Phoenix Rudder Blade with the 9-70 Ratchet and Glide Bit for high spin retention and stability."
   },
   {
@@ -3284,9 +3284,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G3393",
-    "bladeId": "sphinx-cowl",
-    "ratchetId": "ratchet-9-80",
-    "bitId": "bit-gear-needle",
+    "bladeId": "sphinx-cowl-hasbro",
+    "ratchetId": "ratchet-9-80-hasbro",
+    "bitId": "bit-gear-needle-hasbro",
     "assessment": "Cowl Sphinx 9-80GN is the Hasbro Unique Line release in the Yggdrasil Team Pack. It pairs the Sphinx Cowl Blade with the 9-80 Ratchet and Gear Needle Bit for a grounded, counter-heavy combo."
   },
   {
@@ -3296,9 +3296,9 @@
     "imageUrl": "",
     "releaseDate": "2024-05-30",
     "releaseWave": "F9584",
-    "bladeId": "dranzer-spiral",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-taper",
+    "bladeId": "dranzer-spiral-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Dranzer Spiral 3-80T (Red Ver.) is the Hasbro X-Over Project remake of the original Dranzer S. Its two long blades enable Upper Attack, but the Blade is notably light. The Taper Bit and 3-80 Ratchet give it mobile balance characteristics."
   },
   {
@@ -3308,9 +3308,9 @@
     "imageUrl": "",
     "releaseDate": "2024-06-10",
     "releaseWave": "F9585",
-    "bladeId": "dranzer-spiral",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-taper",
+    "bladeId": "dranzer-spiral-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Dranzer Spiral 3-80T (Green Ver.) is the Hasbro X-Over Project remake of the original Dranzer S in green. Its two long blades enable Upper Attack, but the Blade is notably light. The Taper Bit and 3-80 Ratchet give it mobile balance characteristics."
   },
   {
@@ -3320,9 +3320,9 @@
     "imageUrl": "",
     "releaseDate": "2025-05-01",
     "releaseWave": "G1842",
-    "bladeId": "dranzer-spiral",
-    "ratchetId": "ratchet-3-80",
-    "bitId": "bit-taper",
+    "bladeId": "dranzer-spiral-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-taper-hasbro",
     "assessment": "Dranzer Spiral 3-80T is the Hasbro X-Over Project re-release of the original Dranzer S. Its two long blades enable Upper Attack, but the Blade is notably light. The Taper Bit and 3-80 Ratchet give it mobile balance characteristics."
   },
   {
@@ -3332,9 +3332,9 @@
     "imageUrl": "",
     "releaseDate": "2025-05-01",
     "releaseWave": "G1843",
-    "bladeId": "driger-slash",
-    "ratchetId": "ratchet-4-80",
-    "bitId": "bit-point",
+    "bladeId": "driger-slash-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-point-hasbro",
     "assessment": "Driger Slash 4-80P is the Hasbro X-Over Project remake of the original Driger S. It is a right-spin Balance type with a Point Bit and 4-80 Ratchet, offering consistent contact and stable movement."
   },
   {
@@ -3344,9 +3344,9 @@
     "imageUrl": "",
     "releaseDate": "2026-01-01",
     "releaseWave": "G2218",
-    "bladeId": "draciel-shield",
-    "ratchetId": "ratchet-7-60",
-    "bitId": "bit-dot",
+    "bladeId": "draciel-shield-hasbro",
+    "ratchetId": "ratchet-7-60-hasbro",
+    "bitId": "bit-dot-hasbro",
     "assessment": "Draciel Shield 7-60D is the Hasbro X-Over Project remake of Max original Draciel S. It is a right-spin Defense type combining the thick 7-60 Ratchet with the Dot Bit for all-around defensive stability."
   }
 ]
