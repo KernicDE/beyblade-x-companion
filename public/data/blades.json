@@ -4610,5 +4610,93 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "grogu",
+    "category": "blade",
+    "name": "Grogu",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-01",
+    "releaseWave": "G3061",
+    "description": "Grogu Blade from the Star Wars collaboration Multipack Set.",
+    "assessment": "Grogu is a right-spin Defense type Blade from the Hasbro Star Wars collaboration. Documented weight: 33.5g. It features a rounded, defensive shape inspired by the character.",
+    "officialStats": {
+      "weightGrams": 33.5,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "grogu-hasbro",
+    "category": "blade",
+    "name": "Grogu",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-01",
+    "releaseWave": "G3061",
+    "description": "Grogu Blade from the Star Wars collaboration Multipack Set.",
+    "assessment": "Grogu is a right-spin Defense type Blade from the Hasbro Star Wars collaboration. Documented weight: 33.5g. It features a rounded, defensive shape inspired by the character.",
+    "officialStats": {
+      "weightGrams": 33.5,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "snowtrooper",
+    "category": "blade",
+    "name": "Snowtrooper",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-01",
+    "releaseWave": "G3061",
+    "description": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
+    "assessment": "Snowtrooper is a right-spin Blade from the Hasbro Star Wars collaboration. Documented weight: 33.3g. It draws its design from the Imperial cold-weather troopers.",
+    "officialStats": {
+      "weightGrams": 33.3,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "snowtrooper-hasbro",
+    "category": "blade",
+    "name": "Snowtrooper",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-01",
+    "releaseWave": "G3061",
+    "description": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
+    "assessment": "Snowtrooper is a right-spin Blade from the Hasbro Star Wars collaboration. Documented weight: 33.3g. It draws its design from the Imperial cold-weather troopers.",
+    "officialStats": {
+      "weightGrams": 33.3,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
