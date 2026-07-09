@@ -550,5 +550,101 @@
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-gear-ball",
     "assessment": "A recolor from Random Booster Vol. 2. The Gear Ball Bit gives WizardArrow improved stamina and KO resistance compared to the standard Ball Bit, making this one of the better stamina variants of the Blade."
+  },
+  {
+    "id": "tyranno-beat4-70q-bx-31",
+    "name": "TyrannoBeat 4-70Q",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/60495a875b973920d895bd982cfa70b5",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
+    "bladeId": "tyranno-beat",
+    "ratchetId": "ratchet-4-70",
+    "bitId": "bit-quake",
+    "assessment": "The prize Bey of Random Booster Vol. 3. TyrannoBeat 4-70Q is a right-spin Attack type built around the heavy Tyranno Beat Blade and the erratic Quake Bit. The 4-70 Ratchet keeps the combo at medium height, while Quake's elliptical tip produces unpredictable jumps that can catch opponents off guard. A high-risk, high-reward aggressive combo."
+  },
+  {
+    "id": "tyranno-beat3-60s-bx-31",
+    "name": "TyrannoBeat 3-60S",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/85dea58823aa3782269d656bdfc1a5c9",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
+    "bladeId": "tyranno-beat",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-spike",
+    "assessment": "A secondary pull from Random Booster Vol. 3. TyrannoBeat 3-60S swaps the Quake Bit for Spike, giving the aggressive Blade more controlled endurance. The 3-60 Ratchet sits lower than 4-70, creating a stamina-leaning Attack combo that can still deliver strong hits."
+  },
+  {
+    "id": "hells-chain9-80o-bx-31",
+    "name": "HellsChain 9-80O",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/e7a1a588731c89eaa216fcaa7cf840fa",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
+    "bladeId": "hells-chain",
+    "ratchetId": "ratchet-9-80",
+    "bitId": "bit-orb",
+    "assessment": "A stamina-oriented pull from Random Booster Vol. 3. HellsChain 9-80O pairs the chain-shaped Blade with the tall 9-80 Ratchet and Orb Bit, emphasizing spin retention and stability in the center of the stadium. Less aggressive than other Vol. 3 combos, but more consistent in longer battles."
+  },
+  {
+    "id": "dran-dagger4-70p-bx-31",
+    "name": "DranDagger 4-70P",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/c3a882131118e72f181b018a2ef3439d",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
+    "bladeId": "dran-dagger",
+    "ratchetId": "ratchet-4-70",
+    "bitId": "bit-point",
+    "assessment": "An Attack pull from Random Booster Vol. 3. DranDagger 4-70P combines the six-bladed Dran Dagger Blade with the versatile Point Bit. Depending on launch angle it can either rush the X-Line aggressively or camp the center for stamina, giving it a balance-attack hybrid playstyle."
+  },
+  {
+    "id": "shark-edge1-60q-bx-31",
+    "name": "SharkEdge 1-60Q",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/f050a79891d3d12b4cad9d3750365cc2",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
+    "bladeId": "shark-edge",
+    "ratchetId": "ratchet-1-60",
+    "bitId": "bit-quake",
+    "assessment": "An aggressive pull from Random Booster Vol. 3. SharkEdge 1-60Q uses the imbalanced 1-60 Ratchet together with the Quake Bit, creating an extremely mobile and unpredictable attacker. The heavy Shark Edge Blade provides Smash and Upper Attack, but the combo burns stamina quickly."
+  },
+  {
+    "id": "rhino-horn5-80q-bx-31",
+    "name": "RhinoHorn 5-80Q",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/5674c49faee20343df7cf344370fedc2",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
+    "bladeId": "rhino-horn",
+    "ratchetId": "ratchet-5-80",
+    "bitId": "bit-quake",
+    "assessment": "A bulky pull from Random Booster Vol. 3. RhinoHorn 5-80Q pairs the wide Rhino Horn Blade with the tall 5-80 Ratchet and Quake Bit. The result is a heavier, less agile attacker that relies on inertia and surprise jumps rather than pure speed."
+  },
+  {
+    "id": "weiss-tiger3-60u-bx-33",
+    "name": "WeissTiger 3-60U",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/a904e36e3b9fd0d94c8fed7bb9761e1b",
+    "releaseDate": "2024-06-15",
+    "releaseWave": "BX-33",
+    "bladeId": "weiss-tiger",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-unite",
+    "assessment": "WeissTiger 3-60U is a right-spin Balance type released as a Booster in mid-2024. Its Blade mixes Upper, Damper, and Smash blades, while the Unite Bit behaves similarly to Taper with a wider ball shape. A versatile Team Pendragon release that can shift between aggression and stability depending on launch."
+  },
+  {
+    "id": "cobalt-dragoon2-60c-bx-34",
+    "name": "CobaltDragoon 2-60C",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/1dd276e450d31179f67e496198969729",
+    "releaseDate": "2024-07-13",
+    "releaseWave": "BX-34",
+    "bladeId": "cobalt-dragoon",
+    "ratchetId": "ratchet-2-60",
+    "bitId": "bit-cyclone",
+    "assessment": "CobaltDragoon 2-60C is the first left-spin Beyblade in the Beyblade X series and a direct homage to the original Dragoon. The four upward-slanting blades generate powerful Attack, while the Cyclone Bit enables fast, aggressive movement. A landmark release for left-spin Attack decks."
   }
 ]
