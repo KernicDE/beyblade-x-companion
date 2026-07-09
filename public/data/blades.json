@@ -26,7 +26,8 @@
       "stamina": 1,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-sword",
@@ -55,7 +56,8 @@
       "stamina": 1,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-scythe",
@@ -84,7 +86,8 @@
       "stamina": 3,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-shield",
@@ -113,7 +116,8 @@
       "stamina": 2,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wizard-arrow",
@@ -142,7 +146,8 @@
       "stamina": 4,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dranzer-spiral",
@@ -171,7 +176,8 @@
       "stamina": 2,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-lance",
@@ -200,7 +206,8 @@
       "stamina": 1,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shark-edge",
@@ -229,7 +236,8 @@
       "stamina": 1,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "leon-claw",
@@ -258,7 +266,8 @@
       "stamina": 2,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "viper-tail",
@@ -287,7 +296,8 @@
       "stamina": 4,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-dagger",
@@ -316,7 +326,8 @@
       "stamina": 2,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-chain",
@@ -345,7 +356,8 @@
       "stamina": 2,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "rhino-horn",
@@ -374,7 +386,8 @@
       "stamina": 2,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-feather",
@@ -403,7 +416,8 @@
       "stamina": 2,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-wing",
@@ -432,7 +446,8 @@
       "stamina": 1,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wyvern-gale",
@@ -461,7 +476,8 @@
       "stamina": 4,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "unicorn-sting",
@@ -490,7 +506,8 @@
       "stamina": 2,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "sphinx-cowl",
@@ -519,7 +536,8 @@
       "stamina": 1,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-buster",
@@ -548,7 +566,8 @@
       "stamina": 1,
       "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-hammer",
@@ -577,7 +596,8 @@
       "stamina": 2,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wizard-rod",
@@ -1802,7 +1822,8 @@
       "stamina": 0.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shelter-drake",
@@ -1831,7 +1852,8 @@
       "stamina": 2.2,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dragoon-storm",
@@ -1860,7 +1882,8 @@
       "stamina": 0.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "storm-pegasis",
@@ -1889,7 +1912,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "victory-valkyrie",
@@ -1918,7 +1942,8 @@
       "stamina": 1.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "xeno-xcalibur",
@@ -1947,7 +1972,8 @@
       "stamina": 0.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "scorpio-spear",
@@ -1976,7 +2002,8 @@
       "stamina": 1.9,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hover-wyvern",
@@ -2004,7 +2031,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shark-gill",
@@ -2032,7 +2060,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "tricera-press",
@@ -2061,7 +2090,8 @@
       "stamina": 0.9,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "rock-leone",
@@ -2089,7 +2119,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "samurai-calibur",
@@ -2118,7 +2149,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shark-scale",
@@ -2147,7 +2179,8 @@
       "stamina": 0.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "goat-tackle",
@@ -2175,7 +2208,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "captain-america",
@@ -2203,7 +2237,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "red-hulk",
@@ -2231,7 +2266,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "obi-wan-kenobi",
@@ -2259,7 +2295,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "general-grievous",
@@ -2287,7 +2324,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bumblebee",
@@ -2316,7 +2354,8 @@
       "stamina": 1.5,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shockwave",
@@ -2345,7 +2384,8 @@
       "stamina": 3.1,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "miles-morales",
@@ -2373,7 +2413,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "green-goblin",
@@ -2401,7 +2442,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "clock-mirage",
@@ -2430,7 +2472,8 @@
       "stamina": 5,
       "balance": 2.1
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "chewbacca",
@@ -2459,7 +2502,8 @@
       "stamina": 3.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "stormtrooper",
@@ -2488,7 +2532,8 @@
       "stamina": 2,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "stun-medusa",
@@ -2516,7 +2561,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "meteor-dragoon",
@@ -2545,7 +2591,8 @@
       "stamina": 2.2,
       "balance": 2.8
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "mummy-curse",
@@ -2574,7 +2621,8 @@
       "stamina": 1.3,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "orochi-cluster",
@@ -2603,7 +2651,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "storm-spriggan",
@@ -2632,7 +2681,8 @@
       "stamina": 1.9,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "tricera-spikey",
@@ -2660,7 +2710,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hack-viking",
@@ -2688,7 +2739,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-strike",
@@ -2717,7 +2769,8 @@
       "stamina": 1.1,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ring-aether",
@@ -2745,7 +2798,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "tyranno-roar",
@@ -2774,7 +2828,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "pegasus-brush",
@@ -2803,7 +2858,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "sol-brave",
@@ -2832,7 +2888,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-brave",
@@ -2861,7 +2918,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bullet-griffon",
@@ -2890,7 +2948,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "glory-valkyrie",
@@ -2919,7 +2978,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-brave",
@@ -2948,7 +3008,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wizard-arc",
@@ -2977,7 +3038,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "perseus-dark",
@@ -3006,7 +3068,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-reaper",
@@ -3035,7 +3098,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "rhino-reaper",
@@ -3064,7 +3128,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-arc",
@@ -3093,7 +3158,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "fox-brush",
@@ -3122,7 +3188,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "pegasus-blast",
@@ -3151,7 +3218,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "cerberus-flame",
@@ -3180,7 +3248,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "whale-flame",
@@ -3209,7 +3278,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "cerberus-dark",
@@ -3238,7 +3308,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wolf-hunt",
@@ -3267,7 +3338,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "sol-eclipse",
@@ -3296,7 +3368,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "emperor-might",
@@ -3325,7 +3398,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-flare",
@@ -3354,7 +3428,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bahamut-blitz",
@@ -3383,7 +3458,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-fortress",
@@ -3412,7 +3488,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ragna-rage",
@@ -3441,7 +3518,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "unicorn-delta",
@@ -3470,7 +3548,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "brachio-whip",
@@ -3499,7 +3578,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "t-rex",
@@ -3528,7 +3608,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "mosasaurus",
@@ -3557,7 +3638,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "spinosaurus",
@@ -3586,7 +3668,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "quetzalcoatlus",
@@ -3615,7 +3698,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "fort-hornet",
@@ -3644,7 +3728,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wriggle-kraken",
@@ -3673,7 +3758,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "antler-stag",
@@ -3702,7 +3788,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "fang",
@@ -3731,7 +3818,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "strike-dran",
@@ -3760,7 +3848,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "valor-bison",
@@ -3789,7 +3878,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "gust-bat",
@@ -3818,7 +3908,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-sword-hasbro",
@@ -3847,7 +3938,8 @@
       "stamina": 1.3,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-shield-hasbro",
@@ -3876,7 +3968,8 @@
       "stamina": 1.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wizard-arrow-hasbro",
@@ -3905,7 +3998,8 @@
       "stamina": 3.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-scythe-hasbro",
@@ -3934,7 +4028,8 @@
       "stamina": 2.2,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "samurai-steel-hasbro",
@@ -3962,7 +4057,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "rhino-horn-hasbro",
@@ -3991,7 +4087,8 @@
       "stamina": 1.9,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shark-edge-hasbro",
@@ -4020,7 +4117,8 @@
       "stamina": 0.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ptera-swing-hasbro",
@@ -4048,7 +4146,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-lance-hasbro",
@@ -4077,7 +4176,8 @@
       "stamina": 0.9,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "leon-claw-hasbro",
@@ -4106,7 +4206,8 @@
       "stamina": 1.3,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-buster-hasbro",
@@ -4135,7 +4236,8 @@
       "stamina": 0.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wizard-rod-hasbro",
@@ -4164,7 +4266,8 @@
       "stamina": 3.8,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shinobi-shadow-hasbro",
@@ -4193,7 +4296,8 @@
       "stamina": 1.3,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "crimson-garuda-hasbro",
@@ -4222,7 +4326,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "silver-wolf-hasbro",
@@ -4251,7 +4356,8 @@
       "stamina": 4.1,
       "balance": 2.4
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shelter-drake-hasbro",
@@ -4280,7 +4386,8 @@
       "stamina": 2.2,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "golem-rock-hasbro",
@@ -4309,7 +4416,8 @@
       "stamina": 0.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-hammer-hasbro",
@@ -4338,7 +4446,8 @@
       "stamina": 1.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "stun-medusa-hasbro",
@@ -4366,7 +4475,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-rudder-hasbro",
@@ -4395,7 +4505,8 @@
       "stamina": 3.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-feather-hasbro",
@@ -4424,7 +4535,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-brave-hasbro",
@@ -4453,7 +4565,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-reaper-hasbro",
@@ -4482,7 +4595,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wizard-arc-hasbro",
@@ -4511,7 +4625,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "perseus-dark-hasbro",
@@ -4540,7 +4655,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "fox-brush-hasbro",
@@ -4569,7 +4685,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "fort-hornet-hasbro",
@@ -4598,7 +4715,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wriggle-kraken-hasbro",
@@ -4627,7 +4745,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "antler-stag-hasbro",
@@ -4656,7 +4775,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "rhino-reaper-hasbro",
@@ -4685,7 +4805,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "cerberus-flame-hasbro",
@@ -4714,7 +4835,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "fang-hasbro",
@@ -4743,7 +4865,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "strike-dran-hasbro",
@@ -4772,7 +4895,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "valor-bison-hasbro",
@@ -4801,7 +4925,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bullet-griffon-hasbro",
@@ -4830,7 +4955,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ragna-rage-hasbro",
@@ -4859,7 +4985,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-fortress-hasbro",
@@ -4888,7 +5015,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ring-aether-hasbro",
@@ -4916,7 +5044,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bahamut-blitz-hasbro",
@@ -4945,7 +5074,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "unicorn-sting-hasbro",
@@ -4974,7 +5104,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "tyranno-roar-hasbro",
@@ -5003,7 +5134,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bear-scratch-hasbro",
@@ -5031,7 +5163,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "sphinx-cowl-hasbro",
@@ -5060,7 +5193,8 @@
       "stamina": 0.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "black-shell-hasbro",
@@ -5089,7 +5223,8 @@
       "stamina": 1.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "whale-wave-hasbro",
@@ -5118,7 +5253,8 @@
       "stamina": 1.3,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dran-dagger-hasbro",
@@ -5147,7 +5283,8 @@
       "stamina": 1.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "mammoth-tusk-hasbro",
@@ -5175,7 +5312,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "phoenix-wing-hasbro",
@@ -5204,7 +5342,8 @@
       "stamina": 0.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shark-scale-hasbro",
@@ -5233,7 +5372,8 @@
       "stamina": 0.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "gust-bat-hasbro",
@@ -5262,7 +5402,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "mummy-curse-hasbro",
@@ -5291,7 +5432,8 @@
       "stamina": 1.3,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "tricera-press-hasbro",
@@ -5320,7 +5462,8 @@
       "stamina": 0.9,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shinobi-knife-hasbro",
@@ -5348,7 +5491,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hells-chain-hasbro",
@@ -5377,7 +5521,8 @@
       "stamina": 1.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "viper-tail-hasbro",
@@ -5406,7 +5551,8 @@
       "stamina": 3.1,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "croco-crunch-hasbro",
@@ -5434,7 +5580,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "wyvern-gale-hasbro",
@@ -5463,7 +5610,8 @@
       "stamina": 3.1,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "tyranno-beat-hasbro",
@@ -5492,7 +5640,8 @@
       "stamina": 0.3,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "leon-crest-hasbro",
@@ -5521,7 +5670,8 @@
       "stamina": 0.9,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "weiss-tiger-hasbro",
@@ -5550,7 +5700,8 @@
       "stamina": 1.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ghost-circle-hasbro",
@@ -5579,7 +5730,8 @@
       "stamina": 3.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "goat-tackle-hasbro",
@@ -5607,7 +5759,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "samurai-calibur-hasbro",
@@ -5636,7 +5789,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "hack-viking-hasbro",
@@ -5664,7 +5818,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "scorpio-spear-hasbro",
@@ -5693,7 +5848,8 @@
       "stamina": 1.9,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dragoon-storm-hasbro",
@@ -5722,7 +5878,8 @@
       "stamina": 0.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "storm-pegasis-hasbro",
@@ -5751,7 +5908,8 @@
       "stamina": 1.9,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "victory-valkyrie-hasbro",
@@ -5780,7 +5938,8 @@
       "stamina": 1.6,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "emperor-might-hasbro",
@@ -5809,7 +5968,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shark-gill-hasbro",
@@ -5837,7 +5997,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "knight-mail-hasbro",
@@ -5866,7 +6027,8 @@
       "stamina": 2.2,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "dranzer-spiral-hasbro",
@@ -5895,7 +6057,8 @@
       "stamina": 2.2,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "driger-slash-hasbro",
@@ -5924,7 +6087,8 @@
       "stamina": 1.6,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "draciel-shield-hasbro",
@@ -5953,7 +6117,8 @@
       "stamina": 1.3,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "grogu",
@@ -5982,7 +6147,8 @@
       "stamina": 1.8,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "grogu-hasbro",
@@ -6011,7 +6177,8 @@
       "stamina": 1.8,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "snowtrooper",
@@ -6039,7 +6206,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "snowtrooper-hasbro",
@@ -6067,7 +6235,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "the-mandalorian-hasbro",
@@ -6092,7 +6261,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "moff-gideon-hasbro",
@@ -6117,7 +6287,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "iron-man-hasbro",
@@ -6142,7 +6313,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "thanos-hasbro",
@@ -6171,7 +6343,8 @@
       "stamina": 1.1,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "spider-man-hasbro",
@@ -6196,7 +6369,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "venom-hasbro",
@@ -6225,7 +6399,8 @@
       "stamina": 1.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "luke-skywalker-hasbro",
@@ -6250,7 +6425,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "darth-vader-hasbro",
@@ -6275,7 +6451,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "captain-america-hasbro",
@@ -6300,7 +6477,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "red-hulk-hasbro",
@@ -6325,7 +6503,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "miles-morales-hasbro",
@@ -6350,7 +6529,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "green-goblin-hasbro",
@@ -6375,7 +6555,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bumblebee-hasbro",
@@ -6404,7 +6585,8 @@
       "stamina": 1.5,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "shockwave-hasbro",
@@ -6433,7 +6615,8 @@
       "stamina": 3.1,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "obi-wan-kenobi-hasbro",
@@ -6458,7 +6641,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "general-grievous-hasbro",
@@ -6483,7 +6667,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "chewbacca-hasbro",
@@ -6512,7 +6697,8 @@
       "stamina": 3.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "stormtrooper-hasbro",
@@ -6541,7 +6727,8 @@
       "stamina": 2,
       "balance": 2.3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "t-rex-hasbro",
@@ -6566,7 +6753,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "mosasaurus-hasbro",
@@ -6593,7 +6781,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "spinosaurus-hasbro",
@@ -6620,7 +6809,8 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "quetzalcoatlus-hasbro",
@@ -6647,6 +6837,7 @@
       "stamina": 0,
       "balance": 0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   }
 ]
