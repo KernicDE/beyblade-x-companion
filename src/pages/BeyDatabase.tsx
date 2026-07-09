@@ -3,6 +3,7 @@ import { useData } from '../hooks/useData';
 import { calculateComboRatings, getBeyParts } from '../utils/data';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
+import { ManufacturerBadge } from '../components/ManufacturerBadge';
 
 export function BeyDatabase() {
   const { database, loading, error } = useData();
@@ -29,7 +30,10 @@ export function BeyDatabase() {
                   <PartIcon category="bey" size={64} />
                 )}
                 <div className="min-w-0 flex-1">
-                  <h2 className="font-semibold text-gray-900">{bey.name}</h2>
+                  <div className="flex items-start justify-between gap-2">
+                    <h2 className="font-semibold text-gray-900">{bey.name}</h2>
+                    <ManufacturerBadge manufacturer={bey.manufacturer} />
+                  </div>
                   <p className="text-sm text-gray-500">{bey.releaseWave}</p>
                   <div className="mt-3">
                     <RatingBars ratings={ratings} />

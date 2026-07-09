@@ -7,17 +7,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8c/BitBall.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Ball Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Ball is a defense-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.1g.",
+    "description": "The Ball Bit.",
+    "assessment": "Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.1g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Defense"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -29,17 +28,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BitFlat.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Flat Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Flat is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.28g.",
+    "description": "The Flat Bit.",
+    "assessment": "Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.28g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -51,17 +49,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/26/BitNeedle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Needle Bit is a stamina-type tip that controls movement and rail interaction.",
-    "assessment": "Needle is a stamina-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.03g.",
+    "description": "The Needle Bit.",
+    "assessment": "Needle is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.03g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Stamina"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -73,17 +70,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/BitTaper.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Taper Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Taper is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.19g.",
+    "description": "The Taper Bit.",
+    "assessment": "Taper is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.19g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -95,17 +91,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BitHighNeedle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The High Needle Bit is a stamina-type tip that controls movement and rail interaction.",
-    "assessment": "High  Needle is a stamina-type Bit. Height: 3mm. It influences movement patterns and rail interaction. Weighs approximately 2.17g.",
+    "description": "The High Needle Bit.",
+    "assessment": "High  Needle is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.17g.",
     "officialStats": {
-      "heightMm": 3,
-      "typeTag": "Stamina"
+      "heightMm": 3
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -117,17 +112,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Low Flat Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Low  Flat is a attack-type Bit. Height: 1mm. It influences movement patterns and rail interaction. Weighs approximately 2.15g.",
+    "description": "The Low Flat Bit.",
+    "assessment": "Low  Flat is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.15g.",
     "officialStats": {
-      "heightMm": 1,
-      "typeTag": "Attack"
+      "heightMm": 1
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -139,17 +133,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bf/BitPoint.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Point Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Point is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.2g.",
+    "description": "The Point Bit.",
+    "assessment": "Point is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -161,17 +154,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/17/BitOrb.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Orb Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Orb is a defense-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.02g.",
+    "description": "The Orb Bit.",
+    "assessment": "Orb is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Defense"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -183,17 +175,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e1/BitRush.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Rush Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Rush is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.02g.",
+    "description": "The Rush Bit.",
+    "assessment": "Rush is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -205,17 +196,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b5/BitHighTaper.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The High Taper Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "High  Taper is a balance-type Bit. Height: 3mm. It influences movement patterns and rail interaction. Weighs approximately 2.22g.",
+    "description": "The High Taper Bit.",
+    "assessment": "High  Taper is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.22g.",
     "officialStats": {
-      "heightMm": 3,
-      "typeTag": "Balance"
+      "heightMm": 3
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -227,17 +217,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7d/BitSpike.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Spike Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Spike is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.02g.",
+    "description": "The Spike Bit.",
+    "assessment": "Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -249,17 +238,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bd/BitGearFlat.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Gear Flat Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Gear  Flat is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.28g.",
+    "description": "The Gear Flat Bit.",
+    "assessment": "Gear  Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.28g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -271,17 +259,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/97/BitGearBall.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Gear Ball Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Gear  Ball is a defense-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.08g.",
+    "description": "The Gear Ball Bit.",
+    "assessment": "Gear  Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.08g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Defense"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -293,17 +280,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/36/BitGearPoint.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Gear Point Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Gear  Point is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.25g.",
+    "description": "The Gear Point Bit.",
+    "assessment": "Gear  Point is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.25g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -315,17 +301,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BitGearNeedle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Gear Needle Bit is a stamina-type tip that controls movement and rail interaction.",
-    "assessment": "Gear  Needle is a stamina-type Bit. Height: 1.5mm. It influences movement patterns and rail interaction. Weighs approximately 2g.",
+    "description": "The Gear Needle Bit.",
+    "assessment": "Gear  Needle is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2g.",
     "officialStats": {
-      "heightMm": 1.5,
-      "typeTag": "Stamina"
+      "heightMm": 1.5
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -337,17 +322,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BitAccel.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Accel Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Accel is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.58g.",
+    "description": "The Accel Bit.",
+    "assessment": "Accel is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.58g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -359,17 +343,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8c/BitHexa.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Hexa Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Hexa is a balance-type Bit. Height: 1.5mm. It influences movement patterns and rail interaction. Weighs approximately 2.58g.",
+    "description": "The Hexa Bit.",
+    "assessment": "Hexa is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.58g.",
     "officialStats": {
-      "heightMm": 1.5,
-      "typeTag": "Balance"
+      "heightMm": 1.5
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -381,17 +364,16 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Disc Ball Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Disc  Ball is a defense-type Bit. Height: 4mm. It influences movement patterns and rail interaction. Weighs approximately 3.23g.",
+    "description": "The Disc Ball Bit.",
+    "assessment": "Disc  Ball is a Bit from the Beyblade X toyline. Documented height: 4mm. Documented weight: 3.23g.",
     "officialStats": {
-      "heightMm": 4,
-      "typeTag": "Defense"
+      "heightMm": 4
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -403,17 +385,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/BitQuake.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Quake Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Quake is a attack-type Bit. Height: 2.5mm. It influences movement patterns and rail interaction. Weighs approximately 2.17g.",
+    "description": "The Quake Bit.",
+    "assessment": "Quake is a Bit from the Beyblade X toyline. Documented height: 2.5mm. Documented weight: 2.17g.",
     "officialStats": {
-      "heightMm": 2.5,
-      "typeTag": "Attack"
+      "heightMm": 2.5
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -425,17 +406,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitMetalNeedle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Metal Needle Bit is a stamina-type tip that controls movement and rail interaction.",
-    "assessment": "Metal  Needle is a stamina-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.75g.",
+    "description": "The Metal Needle Bit.",
+    "assessment": "Metal  Needle is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.75g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Stamina"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -447,17 +427,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a0/BitUnite.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Unite Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Unite is a balance-type Bit. Height: 1.5mm. It influences movement patterns and rail interaction. Weighs approximately 2.12g.",
+    "description": "The Unite Bit.",
+    "assessment": "Unite is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.12g.",
     "officialStats": {
-      "heightMm": 1.5,
-      "typeTag": "Balance"
+      "heightMm": 1.5
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -469,17 +448,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fb/BitCyclone.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Cyclone Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Cyclone is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.12g.",
+    "description": "The Cyclone Bit.",
+    "assessment": "Cyclone is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.12g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -491,17 +469,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/BitDot.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Dot Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Dot is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2g.",
+    "description": "The Dot Bit.",
+    "assessment": "Dot is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -513,17 +490,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d5/BitGlide.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Glide Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Glide is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.52g.",
+    "description": "The Glide Bit.",
+    "assessment": "Glide is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.52g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -535,17 +511,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitElevate.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Elevate Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Elevate is a balance-type Bit. Height: 1.5mm. It influences movement patterns and rail interaction. Weighs approximately 3.23g.",
+    "description": "The Elevate Bit.",
+    "assessment": "Elevate is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 3.23g.",
     "officialStats": {
-      "heightMm": 1.5,
-      "typeTag": "Balance"
+      "heightMm": 1.5
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -557,17 +532,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BitFreeBall.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Free Ball Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Free  Ball is a defense-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 1.94g.",
+    "description": "The Free Ball Bit.",
+    "assessment": "Free  Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.94g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Defense"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -579,17 +553,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BitTransPoint.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Trans Point Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Trans  Point is a attack-type Bit. Height: 1mm. It influences movement patterns and rail interaction. Weighs approximately 2.21g.",
+    "description": "The Trans Point Bit.",
+    "assessment": "Trans  Point is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.21g.",
     "officialStats": {
-      "heightMm": 1,
-      "typeTag": "Attack"
+      "heightMm": 1
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -601,17 +574,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/56/BitLevel.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Level Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Level is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.65g.",
+    "description": "The Level Bit.",
+    "assessment": "Level is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.65g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -623,17 +595,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/88/BitBoundSpike.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Bound Spike Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Bound  Spike is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2g.",
+    "description": "The Bound Spike Bit.",
+    "assessment": "Bound  Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -645,17 +616,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5a/BitRubberAccel.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Rubber Accel Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Rubber  Accel is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 3.1g.",
+    "description": "The Rubber Accel Bit.",
+    "assessment": "Rubber  Accel is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 3.1g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -667,17 +637,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/36/BitLowRush.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Low Rush Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Low  Rush is a attack-type Bit. Height: 1mm. It influences movement patterns and rail interaction. Weighs approximately 1.93g.",
+    "description": "The Low Rush Bit.",
+    "assessment": "Low  Rush is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 1.93g.",
     "officialStats": {
-      "heightMm": 1,
-      "typeTag": "Attack"
+      "heightMm": 1
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -689,16 +658,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/BitUnderNeedle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Under Needle Bit is a stamina-type tip that controls movement and rail interaction.",
-    "assessment": "Under  Needle is a stamina-type Bit. It influences movement patterns and rail interaction. Weighs approximately 1.88g.",
-    "officialStats": {
-      "typeTag": "Stamina"
-    },
+    "description": "The Under Needle Bit.",
+    "assessment": "Under  Needle is a Bit from the Beyblade X toyline. Documented weight: 1.88g.",
+    "officialStats": {},
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -710,17 +677,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f9/BitVortex.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Vortex Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Vortex is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.15g.",
+    "description": "The Vortex Bit.",
+    "assessment": "Vortex is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.15g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -732,17 +698,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f4/BitLowOrb.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Low Orb Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Low  Orb is a defense-type Bit. Height: 1mm. It influences movement patterns and rail interaction. Weighs approximately 1.85g.",
+    "description": "The Low Orb Bit.",
+    "assessment": "Low  Orb is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 1.85g.",
     "officialStats": {
-      "heightMm": 1,
-      "typeTag": "Defense"
+      "heightMm": 1
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -754,17 +719,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/BitWedge.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Wedge Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Wedge is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 1.83g.",
+    "description": "The Wedge Bit.",
+    "assessment": "Wedge is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.83g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -776,17 +740,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitKick.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Kick Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Kick is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.2g.",
+    "description": "The Kick Bit.",
+    "assessment": "Kick is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -798,17 +761,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/BitZap.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Zap Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Zap is a attack-type Bit. Height: 1mm. It influences movement patterns and rail interaction. Weighs approximately 2.49g.",
+    "description": "The Zap Bit.",
+    "assessment": "Zap is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.49g.",
     "officialStats": {
-      "heightMm": 1,
-      "typeTag": "Attack"
+      "heightMm": 1
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -820,17 +782,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BitGearRush.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Gear Rush Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Gear  Rush is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.1g.",
+    "description": "The Gear Rush Bit.",
+    "assessment": "Gear  Rush is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.1g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -842,17 +803,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Wall Ball Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Wall  Ball is a defense-type Bit. Height: 3mm. It influences movement patterns and rail interaction. Weighs approximately 2.43g.",
+    "description": "The Wall Ball Bit.",
+    "assessment": "Wall  Ball is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.43g.",
     "officialStats": {
-      "heightMm": 3,
-      "typeTag": "Defense"
+      "heightMm": 3
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -864,17 +824,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/BitMerge.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Merge Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Merge is a balance-type Bit. Height: 6mm. It influences movement patterns and rail interaction. Weighs approximately 3.39g.",
+    "description": "The Merge Bit.",
+    "assessment": "Merge is a Bit from the Beyblade X toyline. Documented height: 6mm. Documented weight: 3.39g.",
     "officialStats": {
-      "heightMm": 6,
-      "typeTag": "Balance"
+      "heightMm": 6
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -886,16 +845,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/55/BitUnderFlat.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Under Flat Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Under  Flat is a attack-type Bit. It influences movement patterns and rail interaction. Weighs approximately 2.05g.",
-    "officialStats": {
-      "typeTag": "Attack"
-    },
+    "description": "The Under Flat Bit.",
+    "assessment": "Under  Flat is a Bit from the Beyblade X toyline. Documented weight: 2.05g.",
+    "officialStats": {},
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -907,17 +864,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5d/BitTransKick.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Trans Kick Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Trans  Kick is a attack-type Bit. Height: 1.5mm. It influences movement patterns and rail interaction. Weighs approximately 2.28g.",
+    "description": "The Trans Kick Bit.",
+    "assessment": "Trans  Kick is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.28g.",
     "officialStats": {
-      "heightMm": 1.5,
-      "typeTag": "Attack"
+      "heightMm": 1.5
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -929,17 +885,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/10/BitJolt.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Jolt Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Jolt is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.54g.",
+    "description": "The Jolt Bit.",
+    "assessment": "Jolt is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.54g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -951,17 +906,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/BitWallWedge.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Wall Wedge Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Wall  Wedge is a defense-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.43g.",
+    "description": "The Wall Wedge Bit.",
+    "assessment": "Wall  Wedge is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.43g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Defense"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -973,16 +927,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BitIgnition.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Ignition Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Ignition is a balance-type Bit. It influences movement patterns and rail interaction. Weighs approximately 2.4g.",
-    "officialStats": {
-      "typeTag": "Balance"
-    },
+    "description": "The Ignition Bit.",
+    "assessment": "Ignition is a Bit from the Beyblade X toyline. Documented weight: 2.4g.",
+    "officialStats": {},
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -994,17 +946,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BitYielding.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Yielding Bit is a defense-type tip that controls movement and rail interaction.",
-    "assessment": "Yielding is a defense-type Bit. Height: 4mm. It influences movement patterns and rail interaction. Weighs approximately 4.22g.",
+    "description": "The Yielding Bit.",
+    "assessment": "Yielding is a Bit from the Beyblade X toyline. Documented height: 4mm. Documented weight: 4.22g.",
     "officialStats": {
-      "heightMm": 4,
-      "typeTag": "Defense"
+      "heightMm": 4
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1016,17 +967,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/33/BitGearUnite.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Gear Unite Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Gear  Unite is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.25g.",
+    "description": "The Gear Unite Bit.",
+    "assessment": "Gear  Unite is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.25g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1038,17 +988,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b4/BitFreeFlat.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Free Flat Bit is a attack-type tip that controls movement and rail interaction.",
-    "assessment": "Free  Flat is a attack-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 2.2g.",
+    "description": "The Free Flat Bit.",
+    "assessment": "Free  Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Attack"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1060,17 +1009,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitDiskSpike.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Disk Spike Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Disk  Spike is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 3.09g.",
+    "description": "The Disk Spike Bit.",
+    "assessment": "Disk  Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 3.09g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1082,17 +1030,16 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d6/BitNarrow.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The Narrow Bit is a balance-type tip that controls movement and rail interaction.",
-    "assessment": "Narrow is a balance-type Bit. Height: 2mm. It influences movement patterns and rail interaction. Weighs approximately 1.88g.",
+    "description": "The Narrow Bit.",
+    "assessment": "Narrow is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.88g.",
     "officialStats": {
-      "heightMm": 2,
-      "typeTag": "Balance"
+      "heightMm": 2
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   }

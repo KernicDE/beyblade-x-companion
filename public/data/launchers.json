@@ -6,8 +6,18 @@
     "imageUrl": "",
     "releaseDate": "2023-07-15",
     "description": "A compact ripcord-style launcher included with starter sets.",
-    "assessment": "The standard Winder Launcher provides reliable right-spin launches and is ideal for beginners.",
+    "assessment": "Standard right-spin winder launcher included with most BX starters.",
     "spinCapability": "right"
+  },
+  {
+    "id": "winder-launcher-l",
+    "name": "Winder Launcher L",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "description": "A left-spin variant of the Winder Launcher.",
+    "assessment": "Left-spin variant of the standard winder launcher for left-spin Beys.",
+    "spinCapability": "left"
   },
   {
     "id": "string-launcher",
@@ -15,9 +25,19 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "",
     "releaseDate": "2023-09-09",
-    "description": "A string-pull launcher for strong, consistent right- and left-spin launches.",
-    "assessment": "The String Launcher delivers more power and supports both spin directions, making it a popular upgrade.",
-    "spinCapability": "both"
+    "description": "A string-pull launcher for strong, consistent launches.",
+    "assessment": "Powerful string launcher compatible with right-spin Beys.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "string-launcher-l",
+    "name": "String Launcher L",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-09-09",
+    "description": "A left-spin string-pull launcher.",
+    "assessment": "Left-spin variant of the string launcher for left-spin Beys.",
+    "spinCapability": "left"
   },
   {
     "id": "custom-launcher",
@@ -26,7 +46,7 @@
     "imageUrl": "",
     "releaseDate": "2024-01-01",
     "description": "A modular launcher used with the Custom Line system.",
-    "assessment": "The Custom Launcher is designed for the CX system and allows interchangeable components.",
+    "assessment": "Modular launcher for the CX Custom Line system.",
     "spinCapability": "right"
   }
 ]

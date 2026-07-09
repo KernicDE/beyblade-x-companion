@@ -7,18 +7,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BladeCobaltDrake.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Cobalt Drake is a balance-type Blade released in the BX system.",
-    "assessment": "Cobalt Drake is a right-spin balance-type Blade. Weighs approximately 36.8g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Cobalt Drake Blade from the BX system.",
+    "assessment": "Cobalt Drake is a Blade from the Beyblade X toyline. Documented weight: 36.8g.",
     "officialStats": {
       "weightGrams": 36.8,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -30,18 +29,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Dran Sword is a attack-type Blade released in the BX system.",
-    "assessment": "Dran Sword is a right-spin attack-type Blade. Weighs approximately 34.97g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Dran Sword Blade from the BX system.",
+    "assessment": "Dran Sword is a Blade from the Beyblade X toyline. Documented weight: 34.97g.",
     "officialStats": {
       "weightGrams": 34.97,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -53,18 +51,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e4/BladeHellsScythe.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Hells Scythe is a balance-type Blade released in the BX system.",
-    "assessment": "Hells Scythe is a right-spin balance-type Blade. Weighs approximately 32.94g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Hells Scythe Blade from the BX system.",
+    "assessment": "Hells Scythe is a Blade from the Beyblade X toyline. Documented weight: 32.94g.",
     "officialStats": {
       "weightGrams": 32.94,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -76,18 +73,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/BladeKnightShield.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Knight Shield is a defense-type Blade released in the BX system.",
-    "assessment": "Knight Shield is a right-spin defense-type Blade. Weighs approximately 32.7g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Knight Shield Blade from the BX system.",
+    "assessment": "Knight Shield is a Blade from the Beyblade X toyline. Documented weight: 32.7g.",
     "officialStats": {
       "weightGrams": 32.7,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -99,18 +95,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/44/BladeWizardArrow.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Wizard Arrow is a stamina-type Blade released in the BX system.",
-    "assessment": "Wizard Arrow is a right-spin stamina-type Blade. Weighs approximately 31.86g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Wizard Arrow Blade from the BX system.",
+    "assessment": "Wizard Arrow is a Blade from the Beyblade X toyline. Documented weight: 31.86g.",
     "officialStats": {
       "weightGrams": 31.86,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -122,18 +117,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ce/BladeDranzerSpiral.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Dranzer Spiral is a attack-type Blade released in the BX system.",
-    "assessment": "Dranzer Spiral is a right-spin attack-type Blade. Weighs approximately 27.82g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Dranzer Spiral Blade from the BX system.",
+    "assessment": "Dranzer Spiral is a Blade from the Beyblade X toyline. Documented weight: 27.82g.",
     "officialStats": {
       "weightGrams": 27.82,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -145,18 +139,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/BladeKnightLance.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Knight Lance is a attack-type Blade released in the BX system.",
-    "assessment": "Knight Lance is a right-spin attack-type Blade. Weighs approximately 33.25g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Knight Lance Blade from the BX system.",
+    "assessment": "Knight Lance is a Blade from the Beyblade X toyline. Documented weight: 33.25g.",
     "officialStats": {
       "weightGrams": 33.25,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -168,18 +161,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeSharkEdge.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Shark Edge is a attack-type Blade released in the BX system.",
-    "assessment": "Shark Edge is a right-spin attack-type Blade. Weighs approximately 34.6g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Shark Edge Blade from the BX system.",
+    "assessment": "Shark Edge is a Blade from the Beyblade X toyline. Documented weight: 34.6g.",
     "officialStats": {
       "weightGrams": 34.6,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -191,18 +183,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/93/BladeLeonClaw.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Leon Claw is a attack-type Blade released in the BX system.",
-    "assessment": "Leon Claw is a right-spin attack-type Blade. Weighs approximately 31.4g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Leon Claw Blade from the BX system.",
+    "assessment": "Leon Claw is a Blade from the Beyblade X toyline. Documented weight: 31.4g.",
     "officialStats": {
       "weightGrams": 31.4,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -214,18 +205,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeViperTail.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Viper Tail is a attack-type Blade released in the BX system.",
-    "assessment": "Viper Tail is a right-spin attack-type Blade. Weighs approximately 34.55g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Viper Tail Blade from the BX system.",
+    "assessment": "Viper Tail is a Blade from the Beyblade X toyline. Documented weight: 34.55g.",
     "officialStats": {
       "weightGrams": 34.55,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -237,18 +227,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c8/BladeDranDagger.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Dran Dagger is a attack-type Blade released in the BX system.",
-    "assessment": "Dran Dagger is a right-spin attack-type Blade. Weighs approximately 34.91g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Dran Dagger Blade from the BX system.",
+    "assessment": "Dran Dagger is a Blade from the Beyblade X toyline. Documented weight: 34.91g.",
     "officialStats": {
       "weightGrams": 34.91,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -260,18 +249,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeHellsChain.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Hells Chain is a balance-type Blade released in the BX system.",
-    "assessment": "Hells Chain is a right-spin balance-type Blade. Weighs approximately 33.33g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Hells Chain Blade from the BX system.",
+    "assessment": "Hells Chain is a Blade from the Beyblade X toyline. Documented weight: 33.33g.",
     "officialStats": {
       "weightGrams": 33.33,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -283,18 +271,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/41/BladeRhinoHorn.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Rhino Horn is a attack-type Blade released in the BX system.",
-    "assessment": "Rhino Horn is a right-spin attack-type Blade. Weighs approximately 32.82g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Rhino Horn Blade from the BX system.",
+    "assessment": "Rhino Horn is a Blade from the Beyblade X toyline. Documented weight: 32.82g.",
     "officialStats": {
       "weightGrams": 32.82,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -306,18 +293,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/BladePhoenixFeather.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Phoenix Feather is a stamina-type Blade released in the BX system.",
-    "assessment": "Phoenix Feather is a right-spin stamina-type Blade. Weighs approximately 33.33g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Phoenix Feather Blade from the BX system.",
+    "assessment": "Phoenix Feather is a Blade from the Beyblade X toyline. Documented weight: 33.33g.",
     "officialStats": {
       "weightGrams": 33.33,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -329,18 +315,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladePhoenixWing.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Phoenix Wing is a stamina-type Blade released in the BX system.",
-    "assessment": "Phoenix Wing is a right-spin stamina-type Blade. Weighs approximately 38g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Phoenix Wing Blade from the BX system.",
+    "assessment": "Phoenix Wing is a Blade from the Beyblade X toyline. Documented weight: 38g.",
     "officialStats": {
       "weightGrams": 38,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -352,18 +337,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/BladeWyvernGale.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Wyvern Gale is a stamina-type Blade released in the BX system.",
-    "assessment": "Wyvern Gale is a right-spin stamina-type Blade. Weighs approximately 32.1g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Wyvern Gale Blade from the BX system.",
+    "assessment": "Wyvern Gale is a Blade from the Beyblade X toyline. Documented weight: 32.1g.",
     "officialStats": {
       "weightGrams": 32.1,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -375,18 +359,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeUnicornSting.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Unicorn Sting is a attack-type Blade released in the BX system.",
-    "assessment": "Unicorn Sting is a right-spin attack-type Blade. Weighs approximately 33.38g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Unicorn Sting Blade from the BX system.",
+    "assessment": "Unicorn Sting is a Blade from the Beyblade X toyline. Documented weight: 33.38g.",
     "officialStats": {
       "weightGrams": 33.38,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -398,18 +381,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/31/BladeSphinxCowl.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Sphinx Cowl is a stamina-type Blade released in the BX system.",
-    "assessment": "Sphinx Cowl is a right-spin stamina-type Blade. Weighs approximately 32.8g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Sphinx Cowl Blade from the BX system.",
+    "assessment": "Sphinx Cowl is a Blade from the Beyblade X toyline. Documented weight: 32.8g.",
     "officialStats": {
       "weightGrams": 32.8,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -421,18 +403,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Dran Buster is a attack-type Blade released in the UX system.",
-    "assessment": "Dran Buster is a right-spin attack-type Blade. Weighs approximately 36.32g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Dran Buster Blade from the UX system.",
+    "assessment": "Dran Buster is a Blade from the Beyblade X toyline. Documented weight: 36.32g.",
     "officialStats": {
       "weightGrams": 36.32,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -444,18 +425,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Hells Hammer is a balance-type Blade released in the UX system.",
-    "assessment": "Hells Hammer is a right-spin balance-type Blade. Weighs approximately 33.2g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Hells Hammer Blade from the UX system.",
+    "assessment": "Hells Hammer is a Blade from the Beyblade X toyline. Documented weight: 33.2g.",
     "officialStats": {
       "weightGrams": 33.2,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -467,18 +447,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a3/BladeWizardRod.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Wizard Rod is a stamina-type Blade released in the UX system.",
-    "assessment": "Wizard Rod is a right-spin stamina-type Blade. Weighs approximately 35.35g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Wizard Rod Blade from the UX system.",
+    "assessment": "Wizard Rod is a Blade from the Beyblade X toyline. Documented weight: 35.35g.",
     "officialStats": {
       "weightGrams": 35.35,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -490,18 +469,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c5/BladeDrigerSlash.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Driger Slash is a attack-type Blade released in the BX system.",
-    "assessment": "Driger Slash is a right-spin attack-type Blade. Weighs approximately 28.5g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Driger Slash Blade from the BX system.",
+    "assessment": "Driger Slash is a Blade from the Beyblade X toyline. Documented weight: 28.5g.",
     "officialStats": {
       "weightGrams": 28.5,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -513,18 +491,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/BladeTyrannoBeat.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Tyranno Beat is a attack-type Blade released in the BX system.",
-    "assessment": "Tyranno Beat is a right-spin attack-type Blade. Weighs approximately 36.9g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Tyranno Beat Blade from the BX system.",
+    "assessment": "Tyranno Beat is a Blade from the Beyblade X toyline. Documented weight: 36.9g.",
     "officialStats": {
       "weightGrams": 36.9,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -536,18 +513,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeShinobiShadow.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Shinobi Shadow is a balance-type Blade released in the UX system.",
-    "assessment": "Shinobi Shadow is a right-spin balance-type Blade. Weighs approximately 28.23g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Shinobi Shadow Blade from the UX system.",
+    "assessment": "Shinobi Shadow is a Blade from the Beyblade X toyline. Documented weight: 28.23g.",
     "officialStats": {
       "weightGrams": 28.23,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -559,18 +535,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Mammoth Tusk is a balance-type Blade released in the BX system.",
-    "assessment": "Mammoth Tusk is a right-spin balance-type Blade. Weighs approximately 32.1g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Mammoth Tusk Blade from the BX system.",
+    "assessment": "Mammoth Tusk is a Blade from the Beyblade X toyline. Documented weight: 32.1g.",
     "officialStats": {
       "weightGrams": 32.1,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -582,18 +557,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Shinobi Knife is a balance-type Blade released in the BX system.",
-    "assessment": "Shinobi Knife is a right-spin balance-type Blade. Weighs approximately 30.9g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Shinobi Knife Blade from the BX system.",
+    "assessment": "Shinobi Knife is a Blade from the Beyblade X toyline. Documented weight: 30.9g.",
     "officialStats": {
       "weightGrams": 30.9,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -605,18 +579,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Ptera Swing is a stamina-type Blade released in the BX system.",
-    "assessment": "Ptera Swing is a right-spin stamina-type Blade. Weighs approximately 34.25g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Ptera Swing Blade from the BX system.",
+    "assessment": "Ptera Swing is a Blade from the Beyblade X toyline. Documented weight: 34.25g.",
     "officialStats": {
       "weightGrams": 34.25,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -628,18 +601,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Samurai Steel is a balance-type Blade released in the BX system.",
-    "assessment": "Samurai Steel is a right-spin balance-type Blade. Weighs approximately 31.08g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Samurai Steel Blade from the BX system.",
+    "assessment": "Samurai Steel is a Blade from the Beyblade X toyline. Documented weight: 31.08g.",
     "officialStats": {
       "weightGrams": 31.08,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -651,18 +623,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BladeWeissTiger.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Weiss Tiger is a balance-type Blade released in the BX system.",
-    "assessment": "Weiss Tiger is a right-spin balance-type Blade. Weighs approximately 34.83g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Weiss Tiger Blade from the BX system.",
+    "assessment": "Weiss Tiger is a Blade from the Beyblade X toyline. Documented weight: 34.83g.",
     "officialStats": {
       "weightGrams": 34.83,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -674,18 +645,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/BladeCobaltDragoon.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Cobalt Dragoon is a balance-type Blade released in the BX system.",
-    "assessment": "Cobalt Dragoon is a left-spin balance-type Blade. Weighs approximately 37.8g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Cobalt Dragoon Blade from the BX system.",
+    "assessment": "Cobalt Dragoon is a Blade from the Beyblade X toyline. Documented weight: 37.8g.",
     "officialStats": {
       "weightGrams": 37.8,
-      "spinDirection": "left",
-      "typeTag": "Balance"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -697,18 +667,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Black Shell is a defense-type Blade released in the BX system.",
-    "assessment": "Black Shell is a right-spin defense-type Blade. Weighs approximately 32.43g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Black Shell Blade from the BX system.",
+    "assessment": "Black Shell is a Blade from the Beyblade X toyline. Documented weight: 32.43g.",
     "officialStats": {
       "weightGrams": 32.43,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -720,18 +689,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BladeOptimusPrime.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Optimus  Prime is a balance-type Blade released in the BX system.",
-    "assessment": "Optimus  Prime is a right-spin balance-type Blade. Weighs approximately 31.75g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Optimus  Prime Blade from the BX system.",
+    "assessment": "Optimus  Prime is a Blade from the Beyblade X toyline. Documented weight: 31.75g.",
     "officialStats": {
       "weightGrams": 31.75,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -743,18 +711,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeStarscream.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Starscream is a balance-type Blade released in the BX system.",
-    "assessment": "Starscream is a right-spin balance-type Blade. Weighs approximately 29.81g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Starscream Blade from the BX system.",
+    "assessment": "Starscream is a Blade from the Beyblade X toyline. Documented weight: 29.81g.",
     "officialStats": {
       "weightGrams": 29.81,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -766,18 +733,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d4/BladeOptimusPrimal.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Optimus  Primal is a balance-type Blade released in the BX system.",
-    "assessment": "Optimus  Primal is a right-spin balance-type Blade. Weighs approximately 32.43g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Optimus  Primal Blade from the BX system.",
+    "assessment": "Optimus  Primal is a Blade from the Beyblade X toyline. Documented weight: 32.43g.",
     "officialStats": {
       "weightGrams": 32.43,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -789,18 +755,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BladeMegatron.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Megatron is a balance-type Blade released in the BX system.",
-    "assessment": "Megatron is a right-spin balance-type Blade. Weighs approximately 31.5g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Megatron Blade from the BX system.",
+    "assessment": "Megatron is a Blade from the Beyblade X toyline. Documented weight: 31.5g.",
     "officialStats": {
       "weightGrams": 31.5,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -812,18 +777,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeAeroPegasus.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Aero Pegasus is a stamina-type Blade released in the UX system.",
-    "assessment": "Aero Pegasus is a right-spin stamina-type Blade. Weighs approximately 38g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Aero Pegasus Blade from the UX system.",
+    "assessment": "Aero Pegasus is a Blade from the Beyblade X toyline. Documented weight: 38g.",
     "officialStats": {
       "weightGrams": 38,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -835,18 +799,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Leon Crest is a defense-type Blade released in the UX system.",
-    "assessment": "Leon Crest is a right-spin defense-type Blade. Weighs approximately 34.82g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Leon Crest Blade from the UX system.",
+    "assessment": "Leon Crest is a Blade from the Beyblade X toyline. Documented weight: 34.82g.",
     "officialStats": {
       "weightGrams": 34.82,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -858,18 +821,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Phoenix Rudder is a stamina-type Blade released in the UX system.",
-    "assessment": "Phoenix Rudder is a right-spin stamina-type Blade. Weighs approximately 34.68g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Phoenix Rudder Blade from the UX system.",
+    "assessment": "Phoenix Rudder is a Blade from the Beyblade X toyline. Documented weight: 34.68g.",
     "officialStats": {
       "weightGrams": 34.68,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -881,18 +843,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Croco Crunch is a balance-type Blade released in the BX system.",
-    "assessment": "Croco Crunch is a right-spin balance-type Blade. Weighs approximately 34.05g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Croco Crunch Blade from the BX system.",
+    "assessment": "Croco Crunch is a Blade from the Beyblade X toyline. Documented weight: 34.05g.",
     "officialStats": {
       "weightGrams": 34.05,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -904,18 +865,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Yell  Kong is a balance-type Blade released in the BX system.",
-    "assessment": "Yell  Kong is a right-spin balance-type Blade. Weighs approximately 31.24g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Yell  Kong Blade from the BX system.",
+    "assessment": "Yell  Kong is a Blade from the Beyblade X toyline. Documented weight: 31.24g.",
     "officialStats": {
       "weightGrams": 31.24,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -927,18 +887,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeIronMan.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Iron  Man is a balance-type Blade released in the BX system.",
-    "assessment": "Iron  Man is a right-spin balance-type Blade. Weighs approximately 32.07g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Iron  Man Blade from the BX system.",
+    "assessment": "Iron  Man is a Blade from the Beyblade X toyline. Documented weight: 32.07g.",
     "officialStats": {
       "weightGrams": 32.07,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -950,18 +909,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ef/BladeThanos.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Thanos is a balance-type Blade released in the BX system.",
-    "assessment": "Thanos is a right-spin balance-type Blade. Weighs approximately 29.32g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Thanos Blade from the BX system.",
+    "assessment": "Thanos is a Blade from the Beyblade X toyline. Documented weight: 29.32g.",
     "officialStats": {
       "weightGrams": 29.32,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -973,18 +931,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Spider-man is a balance-type Blade released in the BX system.",
-    "assessment": "Spider-man is a right-spin balance-type Blade. Weighs approximately 33.06g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Spider-man Blade from the BX system.",
+    "assessment": "Spider-man is a Blade from the Beyblade X toyline. Documented weight: 33.06g.",
     "officialStats": {
       "weightGrams": 33.06,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -996,18 +953,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/BladeVenom.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Venom is a balance-type Blade released in the BX system.",
-    "assessment": "Venom is a right-spin balance-type Blade. Weighs approximately 34.56g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Venom Blade from the BX system.",
+    "assessment": "Venom is a Blade from the Beyblade X toyline. Documented weight: 34.56g.",
     "officialStats": {
       "weightGrams": 34.56,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1019,18 +975,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/71/BladeLukeSkywalker.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Luke  Skywalker is a balance-type Blade released in the BX system.",
-    "assessment": "Luke  Skywalker is a right-spin balance-type Blade. Weighs approximately 30.19g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Luke  Skywalker Blade from the BX system.",
+    "assessment": "Luke  Skywalker is a Blade from the Beyblade X toyline. Documented weight: 30.19g.",
     "officialStats": {
       "weightGrams": 30.19,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1042,18 +997,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeDarthVader.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Darth  Vader is a balance-type Blade released in the BX system.",
-    "assessment": "Darth  Vader is a right-spin balance-type Blade. Weighs approximately 30.4g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Darth  Vader Blade from the BX system.",
+    "assessment": "Darth  Vader is a Blade from the Beyblade X toyline. Documented weight: 30.4g.",
     "officialStats": {
       "weightGrams": 30.4,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1065,18 +1019,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b6/BladeMoffGideon.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Moff  Gideon is a balance-type Blade released in the BX system.",
-    "assessment": "Moff  Gideon is a right-spin balance-type Blade. Weighs approximately 30.59g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Moff  Gideon Blade from the BX system.",
+    "assessment": "Moff  Gideon is a Blade from the Beyblade X toyline. Documented weight: 30.59g.",
     "officialStats": {
       "weightGrams": 30.59,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1088,18 +1041,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "The  Mandalorian is a balance-type Blade released in the BX system.",
-    "assessment": "The  Mandalorian is a right-spin balance-type Blade. Weighs approximately 30.88g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "The  Mandalorian Blade from the BX system.",
+    "assessment": "The  Mandalorian is a Blade from the Beyblade X toyline. Documented weight: 30.88g.",
     "officialStats": {
       "weightGrams": 30.88,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1111,18 +1063,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeWhaleWave.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Whale Wave is a stamina-type Blade released in the BX system.",
-    "assessment": "Whale Wave is a right-spin stamina-type Blade. Weighs approximately 38.15g. Its shape and weight distribution suit stamina-oriented custom combinations.",
+    "description": "Whale Wave Blade from the BX system.",
+    "assessment": "Whale Wave is a Blade from the Beyblade X toyline. Documented weight: 38.15g.",
     "officialStats": {
       "weightGrams": 38.15,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
-      "stamina": 4,
-      "balance": 4
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1134,18 +1085,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "L- Drago: Upper is a balance-type Blade released in the BX system.",
-    "assessment": "L- Drago: Upper is a left-spin balance-type Blade. Weighs approximately 33.85g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "L- Drago: Upper Blade from the BX system.",
+    "assessment": "L- Drago: Upper is a Blade from the Beyblade X toyline. Documented weight: 33.85g.",
     "officialStats": {
       "weightGrams": 33.85,
-      "spinDirection": "left",
-      "typeTag": "Balance"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1157,18 +1107,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "L- Drago: Rapid  Hit is a balance-type Blade released in the BX system.",
-    "assessment": "L- Drago: Rapid  Hit is a left-spin balance-type Blade. Weighs approximately 33.22g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "L- Drago: Rapid  Hit Blade from the BX system.",
+    "assessment": "L- Drago: Rapid  Hit is a Blade from the Beyblade X toyline. Documented weight: 33.22g.",
     "officialStats": {
       "weightGrams": 33.22,
-      "spinDirection": "left",
-      "typeTag": "Balance"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1180,18 +1129,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Bear Scratch is a balance-type Blade released in the BX system.",
-    "assessment": "Bear Scratch is a right-spin balance-type Blade. Weighs approximately 29.74g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Bear Scratch Blade from the BX system.",
+    "assessment": "Bear Scratch is a Blade from the Beyblade X toyline. Documented weight: 29.74g.",
     "officialStats": {
       "weightGrams": 29.74,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1203,18 +1151,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Roar  Tyranno is a attack-type Blade released in the BX system.",
-    "assessment": "Roar  Tyranno is a right-spin attack-type Blade. Weighs approximately 35.97g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Roar  Tyranno Blade from the BX system.",
+    "assessment": "Roar  Tyranno is a Blade from the Beyblade X toyline. Documented weight: 35.97g.",
     "officialStats": {
       "weightGrams": 35.97,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1226,18 +1173,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Silver Wolf is a balance-type Blade released in the UX system.",
-    "assessment": "Silver Wolf is a right-spin balance-type Blade. Weighs approximately 36.83g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Silver Wolf Blade from the UX system.",
+    "assessment": "Silver Wolf is a Blade from the Beyblade X toyline. Documented weight: 36.83g.",
     "officialStats": {
       "weightGrams": 36.83,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1249,18 +1195,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Crimson Garuda is a balance-type Blade released in the BX system.",
-    "assessment": "Crimson Garuda is a right-spin balance-type Blade. Weighs approximately 34.9g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Crimson Garuda Blade from the BX system.",
+    "assessment": "Crimson Garuda is a Blade from the Beyblade X toyline. Documented weight: 34.9g.",
     "officialStats": {
       "weightGrams": 34.9,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1272,18 +1217,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/de/BladeSamuraiSaber.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Samurai Saber is a balance-type Blade released in the UX system.",
-    "assessment": "Samurai Saber is a right-spin balance-type Blade. Weighs approximately 36.41g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Samurai Saber Blade from the UX system.",
+    "assessment": "Samurai Saber is a Blade from the Beyblade X toyline. Documented weight: 36.41g.",
     "officialStats": {
       "weightGrams": 36.41,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1295,18 +1239,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Knight Mail is a defense-type Blade released in the UX system.",
-    "assessment": "Knight Mail is a right-spin defense-type Blade. Weighs approximately 36.61g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Knight Mail Blade from the UX system.",
+    "assessment": "Knight Mail is a Blade from the Beyblade X toyline. Documented weight: 36.61g.",
     "officialStats": {
       "weightGrams": 36.61,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1318,18 +1261,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Draciel Shield is a defense-type Blade released in the BX system.",
-    "assessment": "Draciel Shield is a right-spin defense-type Blade. Weighs approximately 28.15g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Draciel Shield Blade from the BX system.",
+    "assessment": "Draciel Shield is a Blade from the Beyblade X toyline. Documented weight: 28.15g.",
     "officialStats": {
       "weightGrams": 28.15,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1341,18 +1283,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/BladeImpactDrake.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Impact Drake is a balance-type Blade released in the UX system.",
-    "assessment": "Impact Drake is a right-spin balance-type Blade. Weighs approximately 38.85g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Impact Drake Blade from the UX system.",
+    "assessment": "Impact Drake is a Blade from the Beyblade X toyline. Documented weight: 38.85g.",
     "officialStats": {
       "weightGrams": 38.85,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1364,18 +1305,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Ghost Circle is a balance-type Blade released in the UX system.",
-    "assessment": "Ghost Circle is a right-spin balance-type Blade. Weighs approximately 26.71g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Ghost Circle Blade from the UX system.",
+    "assessment": "Ghost Circle is a Blade from the Beyblade X toyline. Documented weight: 26.71g.",
     "officialStats": {
       "weightGrams": 26.71,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1387,18 +1327,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/BladeGolemRock.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Golem Rock is a defense-type Blade released in the UX system.",
-    "assessment": "Golem Rock is a right-spin defense-type Blade. Weighs approximately 34g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Golem Rock Blade from the UX system.",
+    "assessment": "Golem Rock is a Blade from the Beyblade X toyline. Documented weight: 34g.",
     "officialStats": {
       "weightGrams": 34,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1410,18 +1349,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeShelterDrake.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Shelter Drake is a balance-type Blade released in the BX system.",
-    "assessment": "Shelter Drake is a right-spin balance-type Blade. Weighs approximately 32.65g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Shelter Drake Blade from the BX system.",
+    "assessment": "Shelter Drake is a Blade from the Beyblade X toyline. Documented weight: 32.65g.",
     "officialStats": {
       "weightGrams": 32.65,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1433,18 +1371,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c4/BladeDragoonStorm.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Dragoon Storm is a balance-type Blade released in the BX system.",
-    "assessment": "Dragoon Storm is a left-spin balance-type Blade. Weighs approximately 25.35g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Dragoon Storm Blade from the BX system.",
+    "assessment": "Dragoon Storm is a Blade from the Beyblade X toyline. Documented weight: 25.35g.",
     "officialStats": {
       "weightGrams": 25.35,
-      "spinDirection": "left",
-      "typeTag": "Balance"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1456,18 +1393,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/43/BladeStormPegasis.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Storm Pegasis is a balance-type Blade released in the BX system.",
-    "assessment": "Storm Pegasis is a right-spin balance-type Blade. Weighs approximately 30.75g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Storm Pegasis Blade from the BX system.",
+    "assessment": "Storm Pegasis is a Blade from the Beyblade X toyline. Documented weight: 30.75g.",
     "officialStats": {
       "weightGrams": 30.75,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1479,18 +1415,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Victory Valkyrie is a balance-type Blade released in the BX system.",
-    "assessment": "Victory Valkyrie is a right-spin balance-type Blade. Weighs approximately 33.05g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Victory Valkyrie Blade from the BX system.",
+    "assessment": "Victory Valkyrie is a Blade from the Beyblade X toyline. Documented weight: 33.05g.",
     "officialStats": {
       "weightGrams": 33.05,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1502,18 +1437,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bb/BladeXenoXcalibur.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Xeno Xcalibur is a balance-type Blade released in the BX system.",
-    "assessment": "Xeno Xcalibur is a right-spin balance-type Blade. Weighs approximately 30.95g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Xeno Xcalibur Blade from the BX system.",
+    "assessment": "Xeno Xcalibur is a Blade from the Beyblade X toyline. Documented weight: 30.95g.",
     "officialStats": {
       "weightGrams": 30.95,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1525,18 +1459,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Scorpio Spear is a attack-type Blade released in the UX system.",
-    "assessment": "Scorpio Spear is a right-spin attack-type Blade. Weighs approximately 39.6g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Scorpio Spear Blade from the UX system.",
+    "assessment": "Scorpio Spear is a Blade from the Beyblade X toyline. Documented weight: 39.6g.",
     "officialStats": {
       "weightGrams": 39.6,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1548,18 +1481,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Hover  Wyvern is a balance-type Blade released in the UX system.",
-    "assessment": "Hover  Wyvern is a right-spin balance-type Blade. Weighs approximately 35g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Hover  Wyvern Blade from the UX system.",
+    "assessment": "Hover  Wyvern is a Blade from the Beyblade X toyline. Documented weight: 35g.",
     "officialStats": {
       "weightGrams": 35,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1571,18 +1503,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeSharkGill.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Shark Gill is a attack-type Blade released in the BX system.",
-    "assessment": "Shark Gill is a right-spin attack-type Blade. Weighs approximately 29.7g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Shark Gill Blade from the BX system.",
+    "assessment": "Shark Gill is a Blade from the Beyblade X toyline. Documented weight: 29.7g.",
     "officialStats": {
       "weightGrams": 29.7,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1594,18 +1525,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeTriceraPress.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Tricera Press is a balance-type Blade released in the BX system.",
-    "assessment": "Tricera Press is a right-spin balance-type Blade. Weighs approximately 36.65g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Tricera Press Blade from the BX system.",
+    "assessment": "Tricera Press is a Blade from the Beyblade X toyline. Documented weight: 36.65g.",
     "officialStats": {
       "weightGrams": 36.65,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1617,18 +1547,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a2/BladeRockLeone.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Rock Leone is a defense-type Blade released in the BX system.",
-    "assessment": "Rock Leone is a right-spin defense-type Blade. Weighs approximately 29.88g. Its shape and weight distribution suit defense-oriented custom combinations.",
+    "description": "Rock Leone Blade from the BX system.",
+    "assessment": "Rock Leone is a Blade from the Beyblade X toyline. Documented weight: 29.88g.",
     "officialStats": {
       "weightGrams": 29.88,
-      "spinDirection": "right",
-      "typeTag": "Defense"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1640,18 +1569,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeSamuraiCalibur.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Samurai Calibur is a balance-type Blade released in the BX system.",
-    "assessment": "Samurai Calibur is a right-spin balance-type Blade. Weighs approximately 36g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Samurai Calibur Blade from the BX system.",
+    "assessment": "Samurai Calibur is a Blade from the Beyblade X toyline. Documented weight: 36g.",
     "officialStats": {
       "weightGrams": 36,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1663,18 +1591,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e0/BladeSharkScale.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Shark Scale is a attack-type Blade released in the UX system.",
-    "assessment": "Shark Scale is a right-spin attack-type Blade. Weighs approximately 37.6g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Shark Scale Blade from the UX system.",
+    "assessment": "Shark Scale is a Blade from the Beyblade X toyline. Documented weight: 37.6g.",
     "officialStats": {
       "weightGrams": 37.6,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1686,18 +1613,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladeGoatTackle.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Goat Tackle is a balance-type Blade released in the BX system.",
-    "assessment": "Goat Tackle is a right-spin balance-type Blade. Weighs approximately 31.46g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Goat Tackle Blade from the BX system.",
+    "assessment": "Goat Tackle is a Blade from the Beyblade X toyline. Documented weight: 31.46g.",
     "officialStats": {
       "weightGrams": 31.46,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1709,18 +1635,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Captain  America is a balance-type Blade released in the BX system.",
-    "assessment": "Captain  America is a right-spin balance-type Blade. Weighs approximately 32.53g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Captain  America Blade from the BX system.",
+    "assessment": "Captain  America is a Blade from the Beyblade X toyline. Documented weight: 32.53g.",
     "officialStats": {
       "weightGrams": 32.53,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1732,18 +1657,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Red  Hulk is a balance-type Blade released in the BX system.",
-    "assessment": "Red  Hulk is a right-spin balance-type Blade. Weighs approximately 36.18g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Red  Hulk Blade from the BX system.",
+    "assessment": "Red  Hulk is a Blade from the Beyblade X toyline. Documented weight: 36.18g.",
     "officialStats": {
       "weightGrams": 36.18,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1755,18 +1679,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Obi- Wan  Kenobi is a balance-type Blade released in the BX system.",
-    "assessment": "Obi- Wan  Kenobi is a right-spin balance-type Blade. Weighs approximately 30.38g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Obi- Wan  Kenobi Blade from the BX system.",
+    "assessment": "Obi- Wan  Kenobi is a Blade from the Beyblade X toyline. Documented weight: 30.38g.",
     "officialStats": {
       "weightGrams": 30.38,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1778,18 +1701,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "General  Grievous is a balance-type Blade released in the BX system.",
-    "assessment": "General  Grievous is a right-spin balance-type Blade. Weighs approximately 31.03g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "General  Grievous Blade from the BX system.",
+    "assessment": "General  Grievous is a Blade from the Beyblade X toyline. Documented weight: 31.03g.",
     "officialStats": {
       "weightGrams": 31.03,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1801,18 +1723,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Bumblebee is a balance-type Blade released in the BX system.",
-    "assessment": "Bumblebee is a right-spin balance-type Blade. Weighs approximately 31.85g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Bumblebee Blade from the BX system.",
+    "assessment": "Bumblebee is a Blade from the Beyblade X toyline. Documented weight: 31.85g.",
     "officialStats": {
       "weightGrams": 31.85,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1824,18 +1745,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Shockwave is a balance-type Blade released in the BX system.",
-    "assessment": "Shockwave is a right-spin balance-type Blade. Weighs approximately 32.26g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Shockwave Blade from the BX system.",
+    "assessment": "Shockwave is a Blade from the Beyblade X toyline. Documented weight: 32.26g.",
     "officialStats": {
       "weightGrams": 32.26,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1847,18 +1767,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Miles  Morales is a balance-type Blade released in the BX system.",
-    "assessment": "Miles  Morales is a right-spin balance-type Blade. Weighs approximately 31.72g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Miles  Morales Blade from the BX system.",
+    "assessment": "Miles  Morales is a Blade from the Beyblade X toyline. Documented weight: 31.72g.",
     "officialStats": {
       "weightGrams": 31.72,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1870,18 +1789,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Green  Goblin is a balance-type Blade released in the BX system.",
-    "assessment": "Green  Goblin is a right-spin balance-type Blade. Weighs approximately 31.84g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Green  Goblin Blade from the BX system.",
+    "assessment": "Green  Goblin is a Blade from the Beyblade X toyline. Documented weight: 31.84g.",
     "officialStats": {
       "weightGrams": 31.84,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1893,18 +1811,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeClockMirage.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Clock Mirage is a balance-type Blade released in the UX system.",
-    "assessment": "Clock Mirage is a right-spin balance-type Blade. Weighs approximately 37.7g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Clock Mirage Blade from the UX system.",
+    "assessment": "Clock Mirage is a Blade from the Beyblade X toyline. Documented weight: 37.7g.",
     "officialStats": {
       "weightGrams": 37.7,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1916,18 +1833,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Chewbacca is a balance-type Blade released in the BX system.",
-    "assessment": "Chewbacca is a right-spin balance-type Blade. Weighs approximately 31.81g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Chewbacca Blade from the BX system.",
+    "assessment": "Chewbacca is a Blade from the Beyblade X toyline. Documented weight: 31.81g.",
     "officialStats": {
       "weightGrams": 31.81,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1939,18 +1855,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Stormtrooper is a balance-type Blade released in the BX system.",
-    "assessment": "Stormtrooper is a right-spin balance-type Blade. Weighs approximately 33.12g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Stormtrooper Blade from the BX system.",
+    "assessment": "Stormtrooper is a Blade from the Beyblade X toyline. Documented weight: 33.12g.",
     "officialStats": {
       "weightGrams": 33.12,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1962,18 +1877,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Stun  Medusa is a balance-type Blade released in the BX system.",
-    "assessment": "Stun  Medusa is a right-spin balance-type Blade. Weighs approximately 27.32g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Stun  Medusa Blade from the BX system.",
+    "assessment": "Stun  Medusa is a Blade from the Beyblade X toyline. Documented weight: 27.32g.",
     "officialStats": {
       "weightGrams": 27.32,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -1985,18 +1899,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b7/BladeMeteorDragoon.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Meteor Dragoon is a balance-type Blade released in the UX system.",
-    "assessment": "Meteor Dragoon is a left-spin balance-type Blade. Weighs approximately 39.04g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Meteor Dragoon Blade from the UX system.",
+    "assessment": "Meteor Dragoon is a Blade from the Beyblade X toyline. Documented weight: 39.04g.",
     "officialStats": {
       "weightGrams": 39.04,
-      "spinDirection": "left",
-      "typeTag": "Balance"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2008,18 +1921,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeMummyCurse.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Mummy Curse is a balance-type Blade released in the UX system.",
-    "assessment": "Mummy Curse is a right-spin balance-type Blade. Weighs approximately 37.32g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Mummy Curse Blade from the UX system.",
+    "assessment": "Mummy Curse is a Blade from the Beyblade X toyline. Documented weight: 37.32g.",
     "officialStats": {
       "weightGrams": 37.32,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2031,18 +1943,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeOrochiCluster.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Orochi Cluster is a balance-type Blade released in the BX system.",
-    "assessment": "Orochi Cluster is a right-spin balance-type Blade. Weighs approximately 36.36g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Orochi Cluster Blade from the BX system.",
+    "assessment": "Orochi Cluster is a Blade from the Beyblade X toyline. Documented weight: 36.36g.",
     "officialStats": {
       "weightGrams": 36.36,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2054,18 +1965,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladeStormSpriggan.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Storm Spriggan is a balance-type Blade released in the BX system.",
-    "assessment": "Storm Spriggan is a right-spin balance-type Blade. Weighs approximately 31g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Storm Spriggan Blade from the BX system.",
+    "assessment": "Storm Spriggan is a Blade from the Beyblade X toyline. Documented weight: 31g.",
     "officialStats": {
       "weightGrams": 31,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2077,18 +1987,17 @@
     "imageUrl": "",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Tricera  Spikey is a balance-type Blade released in the BX system.",
-    "assessment": "Tricera  Spikey is a right-spin balance-type Blade. Weighs approximately 29.98g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Tricera  Spikey Blade from the BX system.",
+    "assessment": "Tricera  Spikey is a Blade from the Beyblade X toyline. Documented weight: 29.98g.",
     "officialStats": {
       "weightGrams": 29.98,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2100,18 +2009,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "UX",
-    "description": "Hack  Viking is a balance-type Blade released in the UX system.",
-    "assessment": "Hack  Viking is a right-spin balance-type Blade. Weighs approximately 32.7g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Hack  Viking Blade from the UX system.",
+    "assessment": "Hack  Viking is a Blade from the Beyblade X toyline. Documented weight: 32.7g.",
     "officialStats": {
       "weightGrams": 32.7,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2123,18 +2031,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeDranStrike.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Dran Strike is a attack-type Blade released in the BX system.",
-    "assessment": "Dran Strike is a right-spin attack-type Blade. Weighs approximately 41.28g. Its shape and weight distribution suit attack-oriented custom combinations.",
+    "description": "Dran Strike Blade from the BX system.",
+    "assessment": "Dran Strike is a Blade from the Beyblade X toyline. Documented weight: 41.28g.",
     "officialStats": {
       "weightGrams": 41.28,
-      "spinDirection": "right",
-      "typeTag": "Attack"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   },
@@ -2146,18 +2053,17 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
     "releaseDate": "2026-07-09",
     "releaseWave": "BX",
-    "description": "Ring  Aether is a balance-type Blade released in the BX system.",
-    "assessment": "Ring  Aether is a right-spin balance-type Blade. Weighs approximately 37.14g. Its shape and weight distribution suit balance-oriented custom combinations.",
+    "description": "Ring  Aether Blade from the BX system.",
+    "assessment": "Ring  Aether is a Blade from the Beyblade X toyline. Documented weight: 37.14g.",
     "officialStats": {
       "weightGrams": 37.14,
-      "spinDirection": "right",
-      "typeTag": "Balance"
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 3,
-      "balance": 3
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
     },
     "ratingsDisclaimer": true
   }

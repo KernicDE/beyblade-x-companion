@@ -3,6 +3,7 @@ import { useData } from '../hooks/useData';
 import type { Part } from '../types';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
+import { ManufacturerBadge } from '../components/ManufacturerBadge';
 
 const CATEGORY_TITLES: Record<Part['category'], string> = {
   blade: 'Blades',
@@ -45,7 +46,10 @@ export function PartsDatabase() {
                     <PartIcon category={part.category} size={56} />
                   )}
                   <div className="min-w-0 flex-1">
-                    <h3 className="font-semibold text-gray-900">{part.name}</h3>
+                    <div className="flex items-start justify-between gap-2">
+                      <h3 className="font-semibold text-gray-900">{part.name}</h3>
+                      <ManufacturerBadge manufacturer={part.manufacturer} />
+                    </div>
                     <p className="text-sm text-gray-500">{part.releaseWave}</p>
                     <div className="mt-2">
                       <RatingBars ratings={part.ratings} />
@@ -74,7 +78,10 @@ export function PartsDatabase() {
                   <PartIcon category="launcher" size={56} />
                 )}
                 <div>
-                  <h3 className="font-semibold text-gray-900">{launcher.name}</h3>
+                  <div className="flex items-start gap-2">
+                    <h3 className="font-semibold text-gray-900">{launcher.name}</h3>
+                    <ManufacturerBadge manufacturer={launcher.manufacturer} />
+                  </div>
                   <p className="text-sm text-gray-500">{launcher.spinCapability} spin</p>
                 </div>
               </div>

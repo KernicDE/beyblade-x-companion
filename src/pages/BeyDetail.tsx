@@ -3,6 +3,7 @@ import { useData } from '../hooks/useData';
 import { calculateComboRatings, getBeyParts, getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { PartIcon } from '../components/PartIcon';
+import { ManufacturerBadge } from '../components/ManufacturerBadge';
 
 export function BeyDetail() {
   const { id } = useParams<{ id: string }>();
@@ -42,7 +43,7 @@ export function BeyDetail() {
           <p className="text-gray-700">{bey.assessment}</p>
 
           <div className="space-y-2 text-sm">
-            <p>Manufacturer: {bey.manufacturer}</p>
+            <p><ManufacturerBadge manufacturer={bey.manufacturer} size="md" /></p>
             <h2 className="font-semibold">Parts</h2>
             <ul className="space-y-1">
               <li>Blade: {blade?.name ?? 'Unknown'}</li>

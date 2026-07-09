@@ -3,6 +3,7 @@ import { useData } from '../hooks/useData';
 import { getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { PartIcon } from '../components/PartIcon';
+import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import type { PartCategory } from '../types';
 
 const VALID_CATEGORIES: Array<PartCategory | 'launcher'> = [
@@ -42,8 +43,10 @@ export function PartDetail() {
               <p className="text-sm text-gray-500">{launcher.releaseDate}</p>
             </div>
           </div>
-          <p className="mt-4 text-gray-700">{launcher.description}</p>
-          <div className="mt-4 text-sm">
+          <p className="mt-4 text-gray-700">{launcher.assessment}</p>
+          <div className="mt-4 flex items-center gap-2 text-sm">
+            <ManufacturerBadge manufacturer={launcher.manufacturer} size="md" />
+            <span>·</span>
             <span className="font-medium">Spin capability:{` `}</span>
             {launcher.spinCapability}
           </div>
@@ -76,7 +79,7 @@ export function PartDetail() {
           <p className="text-gray-700">{part.assessment}</p>
 
           <div className="space-y-2 text-sm">
-            <p>Manufacturer: {part.manufacturer}</p>
+            <p><ManufacturerBadge manufacturer={part.manufacturer} size="md" /></p>
             {part.officialStats.weightGrams && (
               <p>Weight: {part.officialStats.weightGrams}g</p>
             )}
