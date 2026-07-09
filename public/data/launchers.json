@@ -48,5 +48,115 @@
     "description": "A modular launcher used with the Custom Line system.",
     "assessment": "Custom Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
     "spinCapability": "right"
+  },
+  {
+    "id": "winder-launcher-hasbro",
+    "name": "Winder Launcher (Hasbro)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/Beyblade_X_Winder_Launcher_%28Hasbro%29.jpeg/revision/latest",
+    "releaseDate": "2024-05-30",
+    "description": "A compact ripcord-style launcher included with Hasbro starter sets.",
+    "assessment": "The Hasbro Winder Launcher is the western release of the compact ripcord launcher. It launches right-spin Beys.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "winder-launcher-l-hasbro",
+    "name": "Winder Launcher L (Hasbro)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-07-24",
+    "description": "A left-spin variant of the Hasbro Winder Launcher.",
+    "assessment": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher, included in sets such as the 25th Anniversary Set.",
+    "spinCapability": "left"
+  },
+  {
+    "id": "string-launcher-hasbro",
+    "name": "String Launcher (Hasbro)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-05-30",
+    "description": "A string-pull launcher for strong, consistent launches.",
+    "assessment": "The Hasbro String Launcher is the western release of the string-pull launcher. It launches right-spin Beys.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "string-launcher-l-hasbro",
+    "name": "String Launcher L (Hasbro)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-07-24",
+    "description": "A left-spin string-pull launcher.",
+    "assessment": "The Hasbro String Launcher L is the western left-spin string launcher, included in sets such as the 25th Anniversary Set.",
+    "spinCapability": "left"
+  },
+  {
+    "id": "custom-launcher-hasbro",
+    "name": "Custom Launcher (Hasbro)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "description": "A modular launcher used with the Custom Line system.",
+    "assessment": "The Hasbro Custom Launcher is the western release of the modular Custom Line launcher. It launches right-spin Beys.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "soar-phoenix-deluxe-string-launcher-set",
+    "name": "Soar Phoenix Deluxe String Launcher Set",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-05-30",
+    "description": "A deluxe string launcher set featuring Soar Phoenix colors.",
+    "assessment": "The Soar Phoenix Deluxe String Launcher Set includes a right-spin string launcher with a Phoenix-themed design and grip accessories.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "cobalt-dragoon-deluxe-left-spin-string-launcher-set",
+    "name": "Cobalt Dragoon Deluxe Left-Spin String Launcher Set",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-02-15",
+    "description": "A deluxe left-spin string launcher set featuring Cobalt Dragoon colors.",
+    "assessment": "The Cobalt Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
+    "spinCapability": "left"
+  },
+  {
+    "id": "victory-grip-launcher-set",
+    "name": "Victory Grip Launcher Set",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "description": "A launcher set featuring a custom grip for improved handling.",
+    "assessment": "The Victory Grip Launcher Set is a Hasbro launcher accessory pack designed to improve launch stability with an ergonomic grip.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "clip-and-rip-launcher-set",
+    "name": "Clip & Rip Launcher Set",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-07-15",
+    "description": "A launcher set featuring a clip-on ripcord mechanism.",
+    "assessment": "The Clip & Rip Launcher Set is a Hasbro launcher accessory pack with a clip-on ripcord design for quick launching.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "bite-croc-deluxe-string-launcher-set",
+    "name": "Bite Croc Deluxe String Launcher & Custom Grip Set",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-03-01",
+    "description": "A deluxe string launcher and custom grip set featuring Bite Croc colors.",
+    "assessment": "The Bite Croc Deluxe String Launcher & Custom Grip Set includes a right-spin string launcher with a Croc-themed design and a custom grip accessory.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "meteoroid-dragoon-deluxe-left-spin-string-launcher-set",
+    "name": "Meteoroid Dragoon Deluxe Left-Spin String Launcher Set",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-07-15",
+    "description": "A deluxe left-spin string launcher set featuring Meteoroid Dragoon colors.",
+    "assessment": "The Meteoroid Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
+    "spinCapability": "left"
   }
 ]
