@@ -1084,5 +1084,26 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-turbo",
+    "category": "bit",
+    "name": "Turbo",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-07",
+    "description": "The Turbo Ratchet-Integrated Bit.",
+    "assessment": "Turbo is a Ratchet-Integrated Bit from the Beyblade X Custom Line. Debuted with PegasusBlast ATr. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

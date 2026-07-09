@@ -460,5 +460,27 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "assault",
+    "category": "assistBlade",
+    "name": "Assault",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-07",
+    "description": "The Assault Assist Blade.",
+    "assessment": "Assault is an Assist Blade from the Beyblade X Custom Line. Debuted with PegasusBlast ATr. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

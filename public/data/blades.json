@@ -2227,5 +2227,281 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "dran-brave",
+    "category": "blade",
+    "name": "DranBrave",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-01",
+    "description": "DranBrave Blade from the CX system.",
+    "assessment": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wizard-arc",
+    "category": "blade",
+    "name": "WizardArc",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-02",
+    "description": "WizardArc Blade from the CX system.",
+    "assessment": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "perseus-dark",
+    "category": "blade",
+    "name": "PerseusDark",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-03",
+    "description": "PerseusDark Blade from the CX system.",
+    "assessment": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-reaper",
+    "category": "blade",
+    "name": "HellsReaper",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
+    "description": "HellsReaper Blade from the CX system.",
+    "assessment": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "rhino-reaper",
+    "category": "blade",
+    "name": "RhinoReaper",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
+    "description": "RhinoReaper Blade from the CX system.",
+    "assessment": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-arc",
+    "category": "blade",
+    "name": "HellsArc",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
+    "description": "HellsArc Blade from the CX system.",
+    "assessment": "HellsArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Arc Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "fox-brush",
+    "category": "blade",
+    "name": "FoxBrush",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-05-17",
+    "releaseWave": "CX-06",
+    "description": "FoxBrush Blade from the CX system.",
+    "assessment": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "pegasus-blast",
+    "category": "blade",
+    "name": "PegasusBlast",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-07",
+    "description": "PegasusBlast Blade from the CX system.",
+    "assessment": "PegasusBlast is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Pegasus Lock Chip, Blast Main Blade and Assault Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "cerberus-flame",
+    "category": "blade",
+    "name": "CerberusFlame",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-08",
+    "description": "CerberusFlame Blade from the CX system.",
+    "assessment": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "whale-flame",
+    "category": "blade",
+    "name": "WhaleFlame",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-08",
+    "description": "WhaleFlame Blade from the CX system.",
+    "assessment": "WhaleFlame is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Whale Lock Chip, Flame Main Blade and Massive Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "cerberus-dark",
+    "category": "blade",
+    "name": "CerberusDark",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-08",
+    "description": "CerberusDark Blade from the CX system.",
+    "assessment": "CerberusDark is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Dark Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wolf-hunt",
+    "category": "blade",
+    "name": "WolfHunt",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-09-27",
+    "releaseWave": "CX-10",
+    "description": "WolfHunt Blade from the CX system.",
+    "assessment": "WolfHunt is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wolf Lock Chip, Hunt Main Blade and Free Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
