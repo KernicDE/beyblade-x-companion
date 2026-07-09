@@ -1235,5 +1235,103 @@
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-jolt",
     "assessment": "MeteorDragoon 3-70J is a right-spin Attack type Unique Line Starter. Its design emphasizes powerful strikes, using the 3-70 Ratchet and Jolt Bit for high mobility."
+  },
+  {
+    "id": "mummy-curse7-55w-ux-18-01",
+    "name": "MummyCurse 7-55W",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "bladeId": "mummy-curse",
+    "ratchetId": "ratchet-7-55",
+    "bitId": "bit-wedge",
+    "assessment": "MummyCurse 7-55W is a right-spin Defense type and the prize Bey of Random Booster Vol. 8. Its bandage-wrapped Blade is built to absorb impacts, while the 7-55 Ratchet and Wedge Bit provide a low, stable center of gravity."
+  },
+  {
+    "id": "mummy-curse4-60c-ux-18-02",
+    "name": "MummyCurse 4-60C",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "bladeId": "mummy-curse",
+    "ratchetId": "ratchet-4-60",
+    "bitId": "bit-cyclone",
+    "assessment": "MummyCurse 4-60C is a right-spin Attack type variant from Random Booster Vol. 8. The 4-60 Ratchet and Cyclone Bit add more movement compared to the prize version."
+  },
+  {
+    "id": "pegasus-brush-m3-85w-ux-18-03",
+    "name": "PegasusBrush M3-85W",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "bladeId": "pegasus-brush",
+    "assistBladeId": "massive",
+    "ratchetId": "ratchet-3-85",
+    "bitId": "bit-wedge",
+    "assessment": "PegasusBrush M3-85W is a right-spin Stamina type from Random Booster Vol. 8. It uses the Custom Line format with the Massive Assist Blade, 3-85 Ratchet and Wedge Bit for height and survivability."
+  },
+  {
+    "id": "sol-brave-c9-70tp-ux-18-04",
+    "name": "SolBrave C9-70TP",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "bladeId": "sol-brave",
+    "assistBladeId": "charge",
+    "ratchetId": "ratchet-9-70",
+    "bitId": "bit-trans-point",
+    "assessment": "SolBrave C9-70TP is a right-spin Balance type from Random Booster Vol. 8. It uses the Custom Line format with the Charge Assist Blade, 9-70 Ratchet and Trans Point Bit for versatile movement."
+  },
+  {
+    "id": "dran-dagger7-55g-ux-18-05",
+    "name": "DranDagger 7-55G",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "bladeId": "dran-dagger",
+    "ratchetId": "ratchet-7-55",
+    "bitId": "bit-glide",
+    "assessment": "DranDagger 7-55G is a right-spin Attack type from Random Booster Vol. 8. The 7-55 Ratchet and Glide Bit create a low, aggressive combo."
+  },
+  {
+    "id": "weiss-tiger4-80lr-ux-18-06",
+    "name": "WeissTiger 4-80LR",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "bladeId": "weiss-tiger",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-low-rush",
+    "assessment": "WeissTiger 4-80LR is a right-spin Balance type from Random Booster Vol. 8. The 4-80 Ratchet and Low Rush Bit offer a mix of speed and stability."
+  },
+  {
+    "id": "bullet-griffon-h-ux-19",
+    "name": "BulletGriffon H",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-04-25",
+    "releaseWave": "UX-19",
+    "bladeId": "bullet-griffon",
+    "ratchetId": "ratchet-integrated",
+    "bitId": "bit-hexa",
+    "assessment": "BulletGriffon H is a right-spin Balance type Unique Line Starter and the first Expand Blade (Infinity) release. Its Ratchet-Integrated Blade splits into an upper Bullet piece and lower Griffon body during battle, using the Hexa Bit."
+  },
+  {
+    "id": "glory-valkyrie-lf-ux-20",
+    "name": "GloryValkyrie LF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-07-11",
+    "releaseWave": "UX-20",
+    "bladeId": "glory-valkyrie",
+    "ratchetId": "ratchet-integrated",
+    "bitId": "bit-low-flat",
+    "assessment": "GloryValkyrie LF is a right-spin Attack type Unique Line Starter and an homage to the Valkyrie motif. Its Ratchet-Integrated Blade features a spring-loaded bound mechanism, paired with the Low Flat Bit for aggressive movement."
   }
 ]
