@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const DATA_DIR = path.join(__dirname, '../public/data');
 const CACHE_FILE = path.join(__dirname, '../.tmp/image-cache-v2.json');
@@ -26,6 +27,15 @@ function loadCache() {
 function saveCache(cache) {
   fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
   fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+}
+
+function md5(str) {
+  return crypto.createHash('md5').update(str).digest('hex');
+}
+
+function fandomUrl(filename) {
+  const hash = md5(filename);
+  return `https://static.wikia.nocookie.net/beyblade/images/${hash[0]}/${hash.slice(0, 2)}/${filename}/revision/latest`;
 }
 
 function sleep(ms) {
@@ -55,7 +65,21 @@ async function fetchImages(prefix) {
     .map((img) => ({ name: img.name, url: img.url }));
 }
 
-const JUNK_WORDS = ["'s", 'battles', 'flashback', 'crash', 'centralized', 'prototype', 'packaging', 'qr_code', 'info', 'angled', 'manga', 'anime', 'box', 'render'];
+async function fetchPageImages(title) {
+  const url = `https://beyblade.fandom.com/api.php?action=parse&page=${encodeURIComponent(title)}&prop=images&format=json`;
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': 'beyblade-x-companion/1.0' } });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.parse?.images || [])
+      .filter((name) => /\.(png|jpe?g)$/i.test(name))
+      .map((name) => ({ name }));
+  } catch {
+    return [];
+  }
+}
+
+const JUNK_WORDS = ['battles', 'flashback', 'crash', 'centralized', 'prototype', 'packaging', 'qr_code', 'info', 'angled', 'manga', 'anime', 'box', 'render'];
 function isJunk(name) {
   const c = name.toLowerCase().replace(/[^a-z0-9]/g, '');
   return JUNK_WORDS.some((j) => c.includes(j.replace(/[^a-z0-9]/g, '')));
@@ -80,12 +104,17 @@ function score(itemName, candidateName, manufacturer, expectedPrefix) {
   return s;
 }
 
-async function findBest(itemName, manufacturer, prefixes, expectedPrefix) {
+async function findBest(itemName, manufacturer, prefixes, expectedPrefix, pageTitles = []) {
   const cacheKey = `${manufacturer}:${itemName}`;
   const cache = loadCache();
   if (cache[cacheKey] !== undefined) return cache[cacheKey];
 
   const all = [];
+  for (const title of pageTitles) {
+    const imgs = await fetchPageImages(title);
+    all.push(...imgs);
+    await sleep(80);
+  }
   for (const prefix of prefixes) {
     const imgs = await fetchImages(prefix);
     all.push(...imgs);
@@ -103,9 +132,9 @@ async function findBest(itemName, manufacturer, prefixes, expectedPrefix) {
   }
   candidates.sort((a, b) => score(itemName, b.name, manufacturer, expectedPrefix) - score(itemName, a.name, manufacturer, expectedPrefix));
   const best = candidates[0];
-  cache[cacheKey] = best.url;
+  cache[cacheKey] = best.url || fandomUrl(best.name);
   saveCache(cache);
-  return best.url;
+  return cache[cacheKey];
 }
 
 function partPrefixes(category, name, manufacturer) {
@@ -133,8 +162,15 @@ async function fillParts() {
     if (b.imageUrl) continue;
     const displayName = b.name === 'Disc Ball' ? 'Disk Ball' : b.name;
     const prefixes = partPrefixes('blade', displayName, b.manufacturer);
-    const url = await findBest(displayName, b.manufacturer, prefixes, 'Blade');
+    const url = await findBest(displayName, b.manufacturer, prefixes, 'Blade', [`Blade - ${displayName}`]);
     if (url) b.imageUrl = url;
+  }
+  // Fallback: Hasbro blades without image use Takara blade image if same name exists
+  for (const b of blades) {
+    if (b.imageUrl || b.manufacturer !== 'Hasbro') continue;
+    const baseName = b.name;
+    const match = blades.find((x) => x.manufacturer === 'Takara Tomy' && x.name === baseName && x.imageUrl);
+    if (match) b.imageUrl = match.imageUrl;
   }
   saveJson('blades', blades);
 
@@ -142,7 +178,7 @@ async function fillParts() {
   for (const b of assistBlades) {
     if (b.imageUrl) continue;
     const prefixes = partPrefixes('assistBlade', b.name, b.manufacturer);
-    const url = await findBest(b.name, b.manufacturer, prefixes, 'AssistBlade');
+    const url = await findBest(b.name, b.manufacturer, prefixes, 'AssistBlade', [`Assist Blade - ${b.name}`]);
     if (url) b.imageUrl = url;
   }
   saveJson('assistBlades', assistBlades);
@@ -151,7 +187,7 @@ async function fillParts() {
   for (const r of ratchets) {
     if (r.imageUrl) continue;
     const prefixes = partPrefixes('ratchet', r.name, r.manufacturer);
-    const url = await findBest(r.name, r.manufacturer, prefixes, 'Ratchet');
+    const url = await findBest(r.name, r.manufacturer, prefixes, 'Ratchet', [`Ratchet - ${r.name}`]);
     if (url) r.imageUrl = url;
   }
   saveJson('ratchets', ratchets);
@@ -160,7 +196,7 @@ async function fillParts() {
   for (const b of bits) {
     if (b.imageUrl) continue;
     const prefixes = partPrefixes('bit', b.name, b.manufacturer);
-    const url = await findBest(b.name, b.manufacturer, prefixes, 'Bit');
+    const url = await findBest(b.name, b.manufacturer, prefixes, 'Bit', [`Bit - ${b.name}`]);
     if (url) b.imageUrl = url;
   }
   saveJson('bits', bits);

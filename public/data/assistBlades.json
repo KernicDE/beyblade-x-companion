@@ -488,7 +488,7 @@
     "category": "assistBlade",
     "name": "Dual",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/AssistBladeDual_(Upper_Mode).png/revision/latest",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": "The Dual Assist Blade.",
@@ -761,6 +761,25 @@
       "weightGrams": 7.94,
       "spinDirection": "right"
     },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "turn",
+    "category": "assistBlade",
+    "name": "Turn",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/Turn_%28B-142%29.png/revision/latest?cb=20210917205249",
+    "releaseDate": "",
+    "releaseWave": "",
+    "description": "Turn Assist Blade.",
+    "assessment": "Turn is an Assist Blade from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "officialStats": {},
     "ratings": {
       "attack": 0,
       "defense": 0,

@@ -2025,5 +2025,24 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-low-orb-hasbro",
+    "category": "bit",
+    "name": "Low Orb",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f4/BitLowOrb.png/revision/latest?cb=20250215050618",
+    "releaseDate": "",
+    "releaseWave": "",
+    "description": "The Low Orb Bit.",
+    "assessment": "Low Orb is a Bit from the Beyblade X toyline. Manufactured by Hasbro.",
+    "officialStats": {},
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
