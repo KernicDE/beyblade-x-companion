@@ -73,9 +73,10 @@ export function PartDetail() {
             </div>
           </div>
 
-          <p className="text-gray-700">{part.description}</p>
+          <p className="text-gray-700">{part.assessment}</p>
 
           <div className="space-y-2 text-sm">
+            <p>Manufacturer: {part.manufacturer}</p>
             {part.officialStats.weightGrams && (
               <p>Weight: {part.officialStats.weightGrams}g</p>
             )}

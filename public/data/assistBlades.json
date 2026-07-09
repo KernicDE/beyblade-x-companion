@@ -1,39 +1,417 @@
 [
   {
-    "id": "dran-dagger",
+    "id": "slash",
     "category": "assistBlade",
-    "name": "Dran Dagger",
-    "imageUrl": "",
-    "releaseDate": "2023-10-07",
-    "releaseWave": "BX-07",
-    "description": "A small assist blade that adds extra attack points when combined with compatible blades.",
+    "name": "Slash",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/AssistBladeSlash.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Slash Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Slash is an Assist Blade that alters contact points and weight distribution. Weighs approximately 4.71g. Commonly used to tune a combo's behavior.",
     "officialStats": {
-      "weightGrams": 5.2,
+      "weightGrams": 4.71,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
+      "attack": 4,
       "defense": 2,
-      "stamina": 1,
-      "balance": 2
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
   {
-    "id": "aero-keel",
+    "id": "round",
     "category": "assistBlade",
-    "name": "Aero Keel",
-    "imageUrl": "",
-    "releaseDate": "2023-11-18",
-    "releaseWave": "BX-12",
-    "description": "An aerodynamic assist blade that improves stamina and stability during battle.",
+    "name": "Round",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/AssistBladeRound.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Round Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Round is an Assist Blade that alters contact points and weight distribution. Weighs approximately 4.64g. Commonly used to tune a combo's behavior.",
     "officialStats": {
-      "weightGrams": 4.8,
+      "weightGrams": 4.64,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 2,
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bumper",
+    "category": "assistBlade",
+    "name": "Bumper",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/AssistBladeBumper.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Bumper Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Bumper is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.31g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.31,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "turn-a",
+    "category": "assistBlade",
+    "name": "Turn-A",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Turn-A Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Turn- A is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.85g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.85,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "turn-d",
+    "category": "assistBlade",
+    "name": "Turn-D",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Turn-D Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Turn- D is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.85g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.85,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "charge",
+    "category": "assistBlade",
+    "name": "Charge",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/AssistBladeCharge.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Charge Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Charge is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.05g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.05,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "jaggy",
+    "category": "assistBlade",
+    "name": "Jaggy",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/AssistBladeJaggy.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Jaggy Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Jaggy is an Assist Blade that alters contact points and weight distribution. Weighs approximately 4.82g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 4.82,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "assault",
+    "category": "assistBlade",
+    "name": "Assault",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/24/AssistBladeAssault.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Assault Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Assault is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wheel",
+    "category": "assistBlade",
+    "name": "Wheel",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/AssistBladeWheel.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Wheel Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Wheel is an Assist Blade that alters contact points and weight distribution. Weighs approximately 7.26g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 7.26,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "massive",
+    "category": "assistBlade",
+    "name": "Massive",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/23/AssistBladeMassive.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Massive Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Massive is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.32g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.32,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dual-u",
+    "category": "assistBlade",
+    "name": "Dual-U",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Dual-U Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Dual- U is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.63g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.63,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "dual-s",
+    "category": "assistBlade",
+    "name": "Dual-S",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Dual-S Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Dual- S is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.63g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.63,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "free",
+    "category": "assistBlade",
+    "name": "Free",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/be/AssistBladeFree.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Free Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Free is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.82g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.82,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "heavy",
+    "category": "assistBlade",
+    "name": "Heavy",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0b/AssistBladeHeavy.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Heavy Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Heavy is an Assist Blade that alters contact points and weight distribution. Weighs approximately 7.94g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 7.94,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "zillion",
+    "category": "assistBlade",
+    "name": "Zillion",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/AssistBladeZillion.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Zillion Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Zillion is an Assist Blade that alters contact points and weight distribution. Weighs approximately 6.66g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 6.66,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knuckle",
+    "category": "assistBlade",
+    "name": "Knuckle",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/11/AssistBladeKnuckle.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Knuckle Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Knuckle is an Assist Blade that alters contact points and weight distribution. Weighs approximately 4.89g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 4.89,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "vertical",
+    "category": "assistBlade",
+    "name": "Vertical",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/65/AssistBladeVertical.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Vertical Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Vertical is an Assist Blade that alters contact points and weight distribution. Weighs approximately 5.47g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 5.47,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "erase",
+    "category": "assistBlade",
+    "name": "Erase",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0c/AssistBladeErase.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Erase Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Erase is an Assist Blade that alters contact points and weight distribution. Weighs approximately 6.1g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 6.1,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "odd",
+    "category": "assistBlade",
+    "name": "Odd",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/85/AssistBladeOdd.png/revision/latest",
+    "releaseDate": "2026-07-09",
+    "releaseWave": "CX",
+    "description": "The Odd Assist Blade modifies a combo's contact points and weight distribution.",
+    "assessment": "Odd is an Assist Blade that alters contact points and weight distribution. Weighs approximately 4.46g. Commonly used to tune a combo's behavior.",
+    "officialStats": {
+      "weightGrams": 4.46,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
       "stamina": 3,
       "balance": 3
     },

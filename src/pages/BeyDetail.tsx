@@ -39,9 +39,12 @@ export function BeyDetail() {
             </div>
           </div>
 
-          <div className="space-y-2">
+          <p className="text-gray-700">{bey.assessment}</p>
+
+          <div className="space-y-2 text-sm">
+            <p>Manufacturer: {bey.manufacturer}</p>
             <h2 className="font-semibold">Parts</h2>
-            <ul className="space-y-1 text-sm">
+            <ul className="space-y-1">
               <li>Blade: {blade?.name ?? 'Unknown'}</li>
               {assistBlade && <li>Assist Blade: {assistBlade.name}</li>}
               <li>Ratchet: {ratchet?.name ?? 'Unknown'}</li>

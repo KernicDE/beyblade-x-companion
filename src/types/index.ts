@@ -18,10 +18,12 @@ export interface Part {
   id: string;
   category: PartCategory;
   name: string;
+  manufacturer: 'Takara Tomy' | 'Hasbro';
   imageUrl: string;
   releaseDate: string;
   releaseWave: string;
   description: string;
+  assessment: string;
   officialStats: OfficialStats;
   ratings: Ratings;
   ratingsDisclaimer: true;
@@ -35,15 +37,18 @@ export type Bit = Part & { category: 'bit' };
 export interface Launcher {
   id: string;
   name: string;
+  manufacturer: 'Takara Tomy' | 'Hasbro';
   imageUrl: string;
   releaseDate: string;
   description: string;
+  assessment: string;
   spinCapability: 'right' | 'left' | 'both';
 }
 
 export interface Bey {
   id: string;
   name: string;
+  manufacturer: 'Takara Tomy' | 'Hasbro';
   imageUrl: string;
   releaseDate: string;
   releaseWave: string;
@@ -51,6 +56,7 @@ export interface Bey {
   assistBladeId?: string;
   ratchetId: string;
   bitId: string;
+  assessment: string;
 }
 
 export interface Creation {
