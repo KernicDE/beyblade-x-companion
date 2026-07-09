@@ -3600,27 +3600,27 @@
     "category": "blade",
     "name": "T. Rex",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
-    "releaseDate": "2025-03-01",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/T._Rex_1-80GB.png/revision/latest",
+    "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
-      "en": "T. Rex Blade from the Jurassic World collaboration.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade. It is a retool of TyrannoBeat with identical plastic components and a modified metal component, labeled as T. Rex.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade. Er ist ein Retool von TyrannoBeat mit identischen Plastikkomponenten und modifizierter Metallkomponente, beschriftet als T. Rex."
     },
     "assessment": {
-      "en": "T. Rex is a right-spin Stamina type Blade from the Beyblade X Jurassic World collaboration. Paired with the 1-80 Ratchet and Gear Ball Bit in its stock combo. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "T. Rex performs similarly to TyrannoBeat. It is a viable Attack Blade, though collectors mainly value it for the Jurassic World branding.",
+      "de": "T. Rex spielt ähnlich wie TyrannoBeat. Er ist ein brauchbarer Attack-Blade, auch wenn Sammler ihn hauptsächlich wegen des Jurassic-World-Brands schätzen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 37.0,
       "spinDirection": "right",
-      "typeTag": "Stamina"
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.5,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3630,27 +3630,27 @@
     "category": "blade",
     "name": "Mosasaurus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/Mosasaurus_9-60U.png/revision/latest?cb=20250308034736",
-    "releaseDate": "2025-03-01",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/Mosasaurus_9-60U.png/revision/latest",
+    "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
-      "en": "Mosasaurus Blade from the Jurassic World collaboration.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade. It is a retool of TriceraSpiky with identical plastic components and a modified metal component, labeled as Mosasaurus.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade. Er ist ein Retool von TriceraSpiky mit identischen Plastikkomponenten und modifizierter Metallkomponente, beschriftet als Mosasaurus."
     },
     "assessment": {
-      "en": "Mosasaurus is a right-spin Defense Type Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Mosasaurus performs similarly to TriceraSpiky. It is lighter than SphinxCowl and offers no competitive advantage beyond the Jurassic World theme.",
+      "de": "Mosasaurus spielt ähnlich wie TriceraSpiky. Er ist leichter als SphinxCowl und bietet keinen kompetitiven Vorteil jenseits des Jurassic-World-Themas."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.9,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3660,27 +3660,27 @@
     "category": "blade",
     "name": "Spinosaurus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/62/Spinosaurus_3-85A.png/revision/latest?cb=20250322040356",
-    "releaseDate": "2025-09-01",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/Spinosaurus_3-85A.png/revision/latest",
+    "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
-      "en": "Spinosaurus Blade from the Jurassic World collaboration.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade. It is a retool of TyrannoRoar with identical plastic components and a modified metal component, labeled as Spinosaurus.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade. Er ist ein Retool von TyrannoRoar mit identischen Plastikkomponenten und modifizierter Metallkomponente, beschriftet als Spinosaurus."
     },
     "assessment": {
-      "en": "Spinosaurus is a right-spin Attack Type Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Spinosaurus performs similarly to TyrannoRoar. Its smoother Attack shape makes it a fun Jurassic World variant, but it is generally outclassed by the original PhoenixWing and TyrannoRoar.",
+      "de": "Spinosaurus spielt ähnlich wie TyrannoRoar. Seine glattere Attack-Form macht ihn zu einer spaßigen Jurassic-World-Variante, aber er wird in der Regel vom originalen PhoenixWing und TyrannoRoar übertroffen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 36.0,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3690,27 +3690,27 @@
     "category": "blade",
     "name": "Quetzalcoatlus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/Quetzalcoatlus_4-55D.png/revision/latest?cb=20250808060150",
-    "releaseDate": "2025-09-01",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/84/Quetzalcoatlus_4-55D.png/revision/latest",
+    "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
-      "en": "Quetzalcoatlus Blade from the Jurassic World collaboration.",
-      "de": ""
+      "en": "A Jurassic World collaboration Blade. It is a retool of Talon Ptera (PteraSwing) with nearly identical plastic and metal components, labeled as Quetzalcoatlus.",
+      "de": "Ein Jurassic-World-Kollaborations-Blade. Er ist ein Retool von Talon Ptera (PteraSwing) mit nahezu identischen Plastik- und Metallkomponenten, beschriftet als Quetzalcoatlus."
     },
     "assessment": {
-      "en": "Quetzalcoatlus is a right-spin Defense Type Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Quetzalcoatlus performs similarly to Talon Ptera. Its round Stamina shape is decent, but it is mainly a collector's Jurassic World variant.",
+      "de": "Quetzalcoatlus spielt ähnlich wie Talon Ptera. Seine runde Stamina-Form ist solide, aber er ist hauptsächlich eine Sammler-Jurassic-World-Variante."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 34.3,
       "spinDirection": "right",
-      "typeTag": "Defense"
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1.5,
+      "stamina": 2.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3720,147 +3720,147 @@
     "category": "blade",
     "name": "Fort Hornet",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d1/Fort_Hornet_R_7-60T.jpeg/revision/latest?cb=20250820152203",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/Fort_Hornet_R_7-60T.png/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1682",
     "description": {
-      "en": "Fort Hornet Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Fort Main Blade from the Hasbro Custom Line, featured in Fort Hornet R 7-60T. A right-spin Balance Type Blade and retool of Reaper.",
+      "de": "Der Fort-Main-Blade aus der Hasbro Custom Line, enthalten in Fort Hornet R 7-60T. Ein Right-Spin-Balance-Type-Blade und Retool von Reaper."
     },
     "assessment": {
-      "en": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
-      "de": ""
+      "en": "Fort shares the same metal components as Reaper with a new plastic component. The performance difference is minor; it is a decent Balance Blade for Hasbro Custom Line starters.",
+      "de": "Fort teilt sich dieselben Metallkomponenten wie Reaper mit einer neuen Plastikkomponente. Der Leistungsunterschied ist gering; er ist ein solider Balance-Blade für Hasbro-Custom-Line-Starter."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.0,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "wriggle-kraken",
     "category": "blade",
     "name": "Wriggle Kraken",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/Kraken_K4_Code_%28Blue%29.png/revision/latest?cb=20190115015855",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/24/Wriggle_Kraken_S_3-85O.png/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1683",
     "description": {
-      "en": "Wriggle Kraken Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Wriggle Main Blade from the Hasbro Custom Line, featured in Wriggle Kraken S 3-85O. A right-spin Stamina Type Blade.",
+      "de": "Der Wriggle-Main-Blade aus der Hasbro Custom Line, enthalten in Wriggle Kraken S 3-85O. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
-      "de": ""
+      "en": "Wriggle is a lightweight Hasbro-exclusive Stamina Blade. Its Stamina is serviceable for early Custom Line play but it is outclassed by heavier Stamina options.",
+      "de": "Wriggle ist ein leichter Hasbro-exklusiver Stamina-Blade. Seine Stamina ist für frühes Custom-Line-Spiel brauchbar, aber er wird von schwereren Stamina-Optionen übertroffen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.3,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "antler-stag",
     "category": "blade",
     "name": "Antler Stag",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c1/Antler_Stag_B_2-60HN.jpeg/revision/latest?cb=20250819172937",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Antler_Stag_B_2-60HN.png/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1684",
     "description": {
-      "en": "Antler Stag Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Antler Main Blade from the Hasbro Custom Line, featured in Antler Stag B 2-60HN. A right-spin Stamina Type Blade and retool of Flame.",
+      "de": "Der Antler-Main-Blade aus der Hasbro Custom Line, enthalten in Antler Stag B 2-60HN. Ein Right-Spin-Stamina-Type-Blade und Retool von Flame."
     },
     "assessment": {
-      "en": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
-      "de": ""
+      "en": "Antler is a retool of Flame with a filled-in plastic component, making it slightly heavier. It is a solid Hasbro Stamina option, though still niche compared to top-tier Stamina Blades.",
+      "de": "Antler ist ein Retool von Flame mit einer ausgefüllten Plastikkomponente, wodurch er etwas schwerer wird. Er ist eine solide Hasbro-Stamina-Option, bleibt aber Nische gegenüber Top-Stamina-Blades."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.1,
       "spinDirection": "right",
-      "typeTag": "Defense"
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1.5,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "fang",
     "category": "blade",
     "name": "Fang",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4d/FangLeoneMetalWheelProbNoChange.PNG/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e2/Fang_Leon_T_4-60U.png/revision/latest",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2748",
     "description": {
-      "en": "Fang Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Fang Main Blade from the Hasbro Custom Line, featured in Fang Leon T 4-60U. A right-spin Attack Type Blade with four jagged downward-pointing blades.",
+      "de": "Der Fang-Main-Blade aus der Hasbro Custom Line, enthalten in Fang Leon T 4-60U. Ein Right-Spin-Attack-Type-Blade mit vier zackigen, nach unten zeigenden Klingen."
     },
     "assessment": {
-      "en": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
-      "de": ""
+      "en": "Fang is a four-sided Attack Blade designed to reduce opponent Stamina with consecutive attacks. It is a decent mid-tier Attack option but lacks the knockout power of heavier Attack Blades.",
+      "de": "Fang ist ein vierseitiger Attack-Blade, der darauf ausgelegt ist, die gegnerische Stamina mit aufeinanderfolgenden Angriffen zu reduzieren. Er ist eine solide mittelklassige Attack-Option, aber ihm fehlt die Knockout-Power schwererer Attack-Blades."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.4,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "strike-dran",
     "category": "blade",
     "name": "Strike Dran",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/34/DranDagger_%28BX-00%29.png/revision/latest?cb=20240527053606",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/Strike_Dran_4-50FF.png/revision/latest",
     "releaseDate": "2026-07-15",
     "releaseWave": "G2742",
     "description": {
-      "en": "Strike Dran Blade from the Hasbro Infinity Line.",
-      "de": ""
+      "en": "The Hasbro Infinity version of DranStrike. A right-spin Attack Type Expand Blade with six wings and metal extending beyond the launcher hooks.",
+      "de": "Die Hasbro-Infinity-Version von DranStrike. Ein Right-Spin-Attack-Type-Expand-Blade mit sechs Flügeln und Metall, das über die Launcher-Hooks hinausragt."
     },
     "assessment": {
-      "en": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
-      "de": ""
+      "en": "Strike Dran performs identically to Takara Tomy's DranStrike. It is a top-tier Basic Line Attack Blade with excellent Smash Attack potential.",
+      "de": "Strike Dran spielt identisch zu Takara Tomys DranStrike. Er ist ein Top-Basic-Line-Attack-Blade mit exzellentem Smash-Attack-Potenzial."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 41.4,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3870,30 +3870,30 @@
     "category": "blade",
     "name": "Valor Bison",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/Valor_Bison_FB.jpeg/revision/latest?cb=20260616002639",
-    "releaseDate": "2026-07-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1c/Valor_Bison_FB.png/revision/latest",
+    "releaseDate": "2026-05-12",
     "releaseWave": "G3497",
     "description": {
-      "en": "Valor Bison Blade from the Hasbro Infinity Line.",
-      "de": ""
+      "en": "A Hasbro Unique Line Ratchet-Integrated Expand Blade. It features three free-spinning rollers between its contact points for deflecting attacks.",
+      "de": "Ein Hasbro-Unique-Line-Ratchet-Integrated-Expand-Blade. Er verfügt über drei frei drehende Rollen zwischen den Kontaktpunkten zum Ablenken von Angriffen."
     },
     "assessment": {
-      "en": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
-      "de": ""
+      "en": "Valor Bison is labeled Stamina but has Defense-oriented stats. The roller gimmick is functionally limited, making it a novelty rather than a reliable competitive option.",
+      "de": "Valor Bison ist als Stamina ausgewiesen, hat aber Defense-orientierte Werte. Das Rollen-Gimmick ist funktional limitiert und macht ihn eher zu einer Neuheit als einer verlässlichen kompetitiven Option."
     },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
-      "typeTag": "Defense"
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "gust-bat",
