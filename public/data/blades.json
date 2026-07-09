@@ -2153,29 +2153,6 @@
     "ratingsDisclaimer": true
   },
   {
-    "id": "clock-mirage",
-    "category": "blade",
-    "name": "ClockMirage",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeClockMirage.png/revision/latest",
-    "releaseDate": "2025-10-11",
-    "releaseWave": "UX-16",
-    "description": "ClockMirage Blade from the UX system.",
-    "assessment": "ClockMirage is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 10 / Stamina 80. Weight: 37.7g. Manufactured by Takara Tomy.",
-    "officialStats": {
-      "weightGrams": 37.7,
-      "spinDirection": "right",
-      "typeTag": "Stamina"
-    },
-    "ratings": {
-      "attack": 0.7,
-      "defense": 0.7,
-      "stamina": 5,
-      "balance": 2.1
-    },
-    "ratingsDisclaimer": true
-  },
-  {
     "id": "pegasus-brush",
     "category": "blade",
     "name": "PegasusBrush",
@@ -2833,28 +2810,6 @@
       "weightGrams": 0,
       "spinDirection": "right",
       "typeTag": "Defense"
-    },
-    "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
-    },
-    "ratingsDisclaimer": true
-  },
-  {
-    "id": "stun-medusa",
-    "category": "blade",
-    "name": "Stun Medusa",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dd/Stun_Medusa_9-60GB.jpeg/revision/latest",
-    "releaseDate": "2026-01-30",
-    "releaseWave": "G2738",
-    "description": "Stun Medusa Blade from the Hasbro Basic Line.",
-    "assessment": "Stun Medusa is a right-spin Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 9-60 Ratchet and Gear Ball Bit in its stock combo.",
-    "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,

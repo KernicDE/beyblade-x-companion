@@ -14,8 +14,10 @@
     "light": "Hell",
     "dark": "Dunkel"
   },
-  "filter": {
-    "all": "Alle"
+  "search": {
+    "placeholder": "Suchen…",
+    "clear": "Suche löschen",
+    "noResults": "Keine Treffer."
   },
   "home": {
     "tagline": "Durchsuche offizielle Beys und Teile, baue eigene Kombinationen und teile deine Kreationen — alles offline im Browser.",

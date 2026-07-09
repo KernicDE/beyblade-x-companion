@@ -6,6 +6,7 @@ import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { ManufacturerFilter } from '../components/ManufacturerFilter';
+import { SearchInput } from '../components/SearchInput';
 import { useTranslation } from '../i18n';
 
 const MANUFACTURERS = ['Takara Tomy', 'Hasbro'] as const;
@@ -14,11 +15,24 @@ export function PartsDatabase() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
   const [selectedMf, setSelectedMf] = useState<string[]>([...MANUFACTURERS]);
+  const [query, setQuery] = useState('');
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
-  const filteredLaunchers = database.launchers.filter((l) => selectedMf.includes(l.manufacturer));
+  const q = query.trim().toLowerCase();
+  const matches = (p: { name: string; id: string; releaseWave?: string; manufacturer: string; category?: string }) => {
+    if (!q) return true;
+    return (
+      p.name.toLowerCase().includes(q) ||
+      p.id.toLowerCase().includes(q) ||
+      (p.releaseWave?.toLowerCase().includes(q) ?? false) ||
+      p.manufacturer.toLowerCase().includes(q) ||
+      (p.category?.toLowerCase().includes(q) ?? false)
+    );
+  };
+
+  const filteredLaunchers = database.launchers.filter((l) => selectedMf.includes(l.manufacturer) && matches(l));
 
   const groups: { category: Part['category']; titleKey: string; parts: Part[] }[] = [
     { category: 'blade', titleKey: 'partsDatabase.blades', parts: database.blades },
@@ -33,9 +47,10 @@ export function PartsDatabase() {
         <h1 className="text-2xl font-bold">{t('partsDatabase.title')}</h1>
         <ManufacturerFilter selected={selectedMf} onChange={setSelectedMf} />
       </div>
+      <SearchInput value={query} onChange={setQuery} />
 
       {groups.map((group) => {
-        const filtered = group.parts.filter((p) => selectedMf.includes(p.manufacturer));
+        const filtered = group.parts.filter((p) => selectedMf.includes(p.manufacturer) && matches(p));
         if (filtered.length === 0) return null;
         return (
           <section key={group.category}>

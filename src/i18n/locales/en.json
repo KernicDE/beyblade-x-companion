@@ -14,8 +14,10 @@
     "light": "Light",
     "dark": "Dark"
   },
-  "filter": {
-    "all": "All"
+  "search": {
+    "placeholder": "Search…",
+    "clear": "Clear search",
+    "noResults": "No results."
   },
   "home": {
     "tagline": "Browse official Beys and parts, build custom combinations, and share your creations — all offline in your browser.",

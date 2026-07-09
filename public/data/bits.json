@@ -1195,54 +1195,6 @@
     "ratingsDisclaimer": true
   },
   {
-    "id": "bit-elevate",
-    "category": "bit",
-    "name": "Elevate",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitElevate.png/revision/latest",
-    "releaseDate": "2024-12-28",
-    "releaseWave": "UX-12",
-    "description": "The Elevate Bit.",
-    "assessment": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 2mm. Manufactured by Takara Tomy.",
-    "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 3.2,
-      "typeTag": "Balance",
-      "spinDirection": "right"
-    },
-    "ratings": {
-      "attack": 2.7,
-      "defense": 1.3,
-      "stamina": 1.5,
-      "balance": 1.8
-    },
-    "ratingsDisclaimer": true
-  },
-  {
-    "id": "bit-under-flat",
-    "category": "bit",
-    "name": "Under Flat",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/55/BitUnderFlat.png/revision/latest",
-    "releaseDate": "2025-08-09",
-    "releaseWave": "UX-15",
-    "description": "The Under Flat Bit.",
-    "assessment": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-    "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 2,
-      "typeTag": "Attack",
-      "spinDirection": "right"
-    },
-    "ratings": {
-      "attack": 5,
-      "defense": 0.4,
-      "stamina": 0.4,
-      "balance": 1.9
-    },
-    "ratingsDisclaimer": true
-  },
-  {
     "id": "bit-turbo",
     "category": "bit",
     "name": "Turbo",

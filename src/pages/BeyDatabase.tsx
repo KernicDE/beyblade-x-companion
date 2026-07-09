@@ -6,6 +6,7 @@ import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { ManufacturerFilter } from '../components/ManufacturerFilter';
+import { SearchInput } from '../components/SearchInput';
 import { useTranslation } from '../i18n';
 
 const MANUFACTURERS = ['Takara Tomy', 'Hasbro'] as const;
@@ -14,11 +15,22 @@ export function BeyDatabase() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
   const [selectedMf, setSelectedMf] = useState<string[]>([...MANUFACTURERS]);
+  const [query, setQuery] = useState('');
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
-  const filteredBeys = database.beys.filter((b) => selectedMf.includes(b.manufacturer));
+  const q = query.trim().toLowerCase();
+  const filteredBeys = database.beys.filter((b) => {
+    if (!selectedMf.includes(b.manufacturer)) return false;
+    if (!q) return true;
+    return (
+      b.name.toLowerCase().includes(q) ||
+      b.id.toLowerCase().includes(q) ||
+      b.releaseWave.toLowerCase().includes(q) ||
+      b.manufacturer.toLowerCase().includes(q)
+    );
+  });
 
   return (
     <div className="space-y-6">
@@ -26,6 +38,11 @@ export function BeyDatabase() {
         <h1 className="text-2xl font-bold">{t('beyDatabase.title')}</h1>
         <ManufacturerFilter selected={selectedMf} onChange={setSelectedMf} />
       </div>
+      <SearchInput value={query} onChange={setQuery} />
+
+      {filteredBeys.length === 0 && (
+        <p className="text-[var(--muted)]">{t('search.noResults')}</p>
+      )}
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {filteredBeys.map((bey) => {
