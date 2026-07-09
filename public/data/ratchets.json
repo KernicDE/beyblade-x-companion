@@ -768,5 +768,27 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-0-80",
+    "category": "ratchet",
+    "name": "0-80",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "description": "The 0-80 Ratchet.",
+    "assessment": "0-80 is a Ratchet from the Beyblade X Unique Line. It features 0 protrusions at an 8.0 millimeter height. Documented weight: 7.6g. Debuted in Random Booster Vol. 5. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7.6
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

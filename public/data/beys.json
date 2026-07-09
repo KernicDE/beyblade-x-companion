@@ -1042,5 +1042,113 @@
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-bound-spike",
     "assessment": "KnightMail 3-85BS is a right-spin Defense type included in the Customize Set U. Its tall 3-85 Ratchet and Bound Spike Bit are built around absorbing impacts and recovering stability, continuing the Knight lineage in the Unique Line."
+  },
+  {
+    "id": "impact-drake9-60lr-ux-11",
+    "name": "ImpactDrake 9-60LR",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-11",
+    "bladeId": "impact-drake",
+    "ratchetId": "ratchet-9-60",
+    "bitId": "bit-low-rush",
+    "assessment": "ImpactDrake 9-60LR is a right-spin Attack type Unique Line Starter. It marks the return of rubber contact points to the Unique Line, combining the 9-60 Ratchet with the fast Low Rush Bit for hard-hitting, mobile attacks."
+  },
+  {
+    "id": "ghost-circle0-80gb-ux-12-01",
+    "name": "GhostCircle 0-80GB",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "bladeId": "ghost-circle",
+    "ratchetId": "ratchet-0-80",
+    "bitId": "bit-gear-ball",
+    "assessment": "GhostCircle 0-80GB is a right-spin Stamina type and the prize Bey of Random Booster Vol. 5. Its 0-80 Ratchet has no protrusions, prioritizing low burst risk and high spin retention, while the Gear Ball Bit keeps the combo centered."
+  },
+  {
+    "id": "ghost-circle4-60h-ux-12-02",
+    "name": "GhostCircle 4-60H",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "bladeId": "ghost-circle",
+    "ratchetId": "ratchet-4-60",
+    "bitId": "bit-hexa",
+    "assessment": "GhostCircle 4-60H is a right-spin Balance type variant from Random Booster Vol. 5. It pairs the GhostCircle Blade with the 4-60 Ratchet and Hexa Bit for a lower, more mobile setup than the prize version."
+  },
+  {
+    "id": "shinobi-shadow3-80f-ux-12-03",
+    "name": "ShinobiShadow 3-80F",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "bladeId": "shinobi-shadow",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-flat",
+    "assessment": "ShinobiShadow 3-80F is a right-spin Attack type variant from Random Booster Vol. 5. The taller 3-80 Ratchet and Flat Bit make it more aggressive and mobile than the original 9-60LF release."
+  },
+  {
+    "id": "leon-claw0-80e-ux-12-04",
+    "name": "LeonClaw 0-80E",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "bladeId": "leon-claw",
+    "ratchetId": "ratchet-0-80",
+    "bitId": "bit-elevate",
+    "assessment": "LeonClaw 0-80E is a right-spin Balance type from Random Booster Vol. 5. The 0-80 Ratchet and new Elevate Bit give it a unique tilted-attack behavior."
+  },
+  {
+    "id": "phoenix-feather2-60n-ux-12-05",
+    "name": "PhoenixFeather 2-60N",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "bladeId": "phoenix-feather",
+    "ratchetId": "ratchet-2-60",
+    "bitId": "bit-needle",
+    "assessment": "PhoenixFeather 2-60N is a right-spin Stamina type from Random Booster Vol. 5. It uses the 2-60 Ratchet and Needle Bit to stay centered and outlast opponents."
+  },
+  {
+    "id": "wyvern-gale0-80c-ux-12-06",
+    "name": "WyvernGale 0-80C",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "bladeId": "wyvern-gale",
+    "ratchetId": "ratchet-0-80",
+    "bitId": "bit-cyclone",
+    "assessment": "WyvernGale 0-80C is a right-spin Attack type from Random Booster Vol. 5. The 0-80 Ratchet and Cyclone Bit create an aggressive, wide-movement combo."
+  },
+  {
+    "id": "golem-rock1-60un-ux-13",
+    "name": "GolemRock 1-60UN",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-01-25",
+    "releaseWave": "UX-13",
+    "bladeId": "golem-rock",
+    "ratchetId": "ratchet-1-60",
+    "bitId": "bit-unite",
+    "assessment": "GolemRock 1-60UN is a right-spin Defense type Unique Line Booster. Its bulky Blade and Unite Bit provide a stable, grounded presence."
+  },
+  {
+    "id": "scorpio-spear0-70z-ux-14",
+    "name": "ScorpioSpear 0-70Z",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-02-22",
+    "releaseWave": "UX-14",
+    "bladeId": "scorpio-spear",
+    "ratchetId": "ratchet-0-70",
+    "bitId": "bit-zap",
+    "assessment": "ScorpioSpear 0-70Z is a right-spin Balance type Starter. Its large, transformable Blade shifts between a defensive round shape and an attacking spear shape, while the Zap Bit offers versatile behavior depending on launch angle."
   }
 ]

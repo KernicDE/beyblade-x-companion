@@ -1042,5 +1042,26 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-elevate",
+    "category": "bit",
+    "name": "Elevate",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "description": "The Elevate Bit.",
+    "assessment": "Elevate is a Bit from the Beyblade X Unique Line. Documented height: 2mm. Debuted with LeonClaw 0-80E in Random Booster Vol. 5. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 2
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
