@@ -5,8 +5,11 @@ import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
+import { SpinBadge } from '../components/SpinBadge';
+import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import type { PartCategory, LocalizedString } from '../types';
+import { calculateTier } from '../utils/data';
 
 function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
@@ -46,7 +49,10 @@ export function PartDetail() {
               <PartIcon category="launcher" size={96} />
             )}
             <div>
-              <h1 className="text-2xl font-bold">{launcher.name}</h1>
+              <div className="flex items-center gap-2">
+                <h1 className="text-2xl font-bold">{launcher.name}</h1>
+                <SpinBadge spin={launcher.spinCapability === 'both' ? 'both' : launcher.spinCapability} size="md" />
+              </div>
               {launcher.releaseDate && (
                 <p className="text-sm text-[var(--muted)]">{launcher.releaseDate}</p>
               )}
@@ -57,7 +63,7 @@ export function PartDetail() {
             <ManufacturerBadge manufacturer={launcher.manufacturer} size="md" />
             <span className="text-[var(--muted)]">·</span>
             <span className="font-medium text-[var(--muted)]">{t('partDetail.spinCapability')}:{` `}</span>
-            {launcher.spinCapability}
+            {launcher.spinCapability === 'both' ? `${t('partDetail.right')} + ${t('partDetail.left')}` : t(`partDetail.${launcher.spinCapability}`)}
           </div>
         </div>
       </div>
@@ -66,6 +72,8 @@ export function PartDetail() {
 
   const part = getPartById(database, id ?? '', category as PartCategory);
   if (!part) return <p className="text-red-600">{t('partDetail.partNotFound')}</p>;
+
+  const tier = calculateTier(part.ratings);
 
   return (
     <div className="space-y-6">
@@ -86,9 +94,13 @@ export function PartDetail() {
               <PartIcon category={part.category} size={96} />
             )}
             <div>
-              <h1 className="text-2xl font-bold">{part.name}</h1>
+              <div className="flex items-center gap-2">
+                <h1 className="text-2xl font-bold">{part.name}</h1>
+                <TierBadge tier={tier} size="md" />
+              </div>
               {part.releaseWave && (
                 <p className="text-sm text-[var(--muted)]">
+                  {part.officialStats.typeTag ? `${part.officialStats.typeTag} · ` : ''}
                   {part.releaseWave}
                   {part.releaseDate && ` · ${part.releaseDate}`}
                 </p>
@@ -100,27 +112,31 @@ export function PartDetail() {
 
           <div className="space-y-2 text-sm">
             <p><ManufacturerBadge manufacturer={part.manufacturer} size="md" /></p>
+            <div className="flex items-center gap-2">
+              <span className="text-[var(--muted)]">{t('partDetail.spinDirection')}:</span>
+              {part.officialStats.spinDirection ? <SpinBadge spin={part.officialStats.spinDirection} size="md" /> : <span className="text-[var(--muted)]">-</span>}
+            </div>
             {part.officialStats.weightGrams && (
               <p className="text-[var(--muted)]">{t('partDetail.weight')}: {part.officialStats.weightGrams}g</p>
             )}
             {part.officialStats.heightMm && (
               <p className="text-[var(--muted)]">{t('partDetail.height')}: {part.officialStats.heightMm}mm</p>
             )}
-            {part.officialStats.spinDirection && (
-              <p className="text-[var(--muted)]">{t('partDetail.spinDirection')}: {part.officialStats.spinDirection}</p>
-            )}
             {part.officialStats.typeTag && (
-              <p className="text-[var(--muted)]">{t('partDetail.type')}: {part.officialStats.typeTag}</p>
+              <p className="text-[var(--muted)]">{t('partDetail.type')}: {t(`partDetail.${part.officialStats.typeTag.toLowerCase()}`)}</p>
             )}
           </div>
         </div>
 
         <div className="flex flex-col items-center rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
-          <h2 className="mb-4 text-lg font-semibold">
-            {part.ratingsSource === 'estimated'
-              ? t('partDetail.estimatedRatings')
-              : t('partDetail.communityRatings')}
-          </h2>
+          <div className="mb-4 flex items-center gap-2">
+            <h2 className="text-lg font-semibold">
+              {part.ratingsSource === 'estimated'
+                ? t('partDetail.estimatedRatings')
+                : t('partDetail.communityRatings')}
+            </h2>
+            <TierBadge tier={tier} />
+          </div>
           <div className="w-full max-w-[280px]">
             <RadarChart ratings={part.ratings} size={280} />
           </div>

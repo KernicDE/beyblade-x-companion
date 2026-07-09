@@ -3,15 +3,15 @@
     "id": "winder-launcher",
     "name": "Winder Launcher",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/Beyblade_X_Winder_Launcher.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/winder-launcher.png",
     "releaseDate": "2023-07-15",
     "description": {
       "en": "A compact ripcord-style launcher included with starter sets.",
       "de": "Ein kompakter Zugseil-Launcher, der Starter-Sets beiliegt."
     },
     "assessment": {
-      "en": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": "Der Winder Launcher ist ein rechtsdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er wird über einen kurzen Rippcord angetrieben und ist ideal für Einsteiger. Hergestellt von Takara Tomy."
+      "en": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. It launches right-spin Beys using a short ripcord mechanism.",
+      "de": "Der Winder Launcher ist ein rechtsdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er startet rechtsdrehende Beys über einen kurzen Rippcord-Mechanismus."
     },
     "spinCapability": "right"
   },
@@ -19,15 +19,15 @@
     "id": "winder-launcher-l",
     "name": "Winder Launcher L",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/Beyblade_X_Winder_Launcher_L.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/winder-launcher-l.png",
     "releaseDate": "2025-03-29",
     "description": {
       "en": "A left-spin variant of the Winder Launcher.",
       "de": "Eine linksdrehende Variante des Winder Launchers."
     },
     "assessment": {
-      "en": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": "Der Winder Launcher L ist ein linksdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er ermöglicht den Einsatz von linksspinnenden Beys. Hergestellt von Takara Tomy."
+      "en": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. It enables the use of left-spin Beys.",
+      "de": "Der Winder Launcher L ist ein linksdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er ermöglicht den Einsatz von linksspinnenden Beys."
     },
     "spinCapability": "left"
   },
@@ -35,15 +35,15 @@
     "id": "string-launcher",
     "name": "String Launcher",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/Beyblade_X_String_Launcher.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/string-launcher.png",
     "releaseDate": "2023-10-07",
     "description": {
       "en": "A string-pull launcher for strong, consistent launches.",
       "de": "Ein Schnurzug-Launcher für starke, gleichmäßige Starts."
     },
     "assessment": {
-      "en": "String Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": "Der String Launcher ist ein rechtsdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er erzeugt mehr Kraft und Drehmoment als ein Rippcord-Launcher. Hergestellt von Takara Tomy."
+      "en": "String Launcher is a right-spin launcher from the Beyblade X toyline. It produces more power and torque than a ripcord launcher.",
+      "de": "Der String Launcher ist ein rechtsdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er erzeugt mehr Kraft und Drehmoment als ein Rippcord-Launcher."
     },
     "spinCapability": "right"
   },
@@ -51,15 +51,15 @@
     "id": "string-launcher-l",
     "name": "String Launcher L",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/Beyblade_X_String_Launcher_L.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/string-launcher-l.png",
     "releaseDate": "2025-10-11",
     "description": {
       "en": "A left-spin string-pull launcher.",
       "de": "Ein linksdrehender Schnurzug-Launcher."
     },
     "assessment": {
-      "en": "String Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": "Der String Launcher L ist ein linksdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er bietet die gleiche Leistung wie die rechte Version für linksspinnende Beys. Hergestellt von Takara Tomy."
+      "en": "String Launcher L is a left-spin launcher from the Beyblade X toyline. It offers the same performance as the right-spin version for left-spin Beys.",
+      "de": "Der String Launcher L ist ein linksdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er bietet die gleiche Leistung wie die rechte Version für linksspinnende Beys."
     },
     "spinCapability": "left"
   },
@@ -67,23 +67,23 @@
     "id": "custom-launcher",
     "name": "Custom Launcher",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Custom_BeyLauncher_LR.jpg/revision/latest",
+    "imageUrl": "/images/launchers/custom-launcher.png",
     "releaseDate": "",
     "description": {
       "en": "A modular launcher used with the Custom Line system.",
       "de": "Ein modularer Launcher für das Custom-Line-System."
     },
     "assessment": {
-      "en": "Custom Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": "Der Custom Launcher ist ein modularer rechtsdrehender Launcher für die Beyblade X Custom Line. Er lässt sich mit Griffen und anderen Zubehörteilen erweitern. Hergestellt von Takara Tomy."
+      "en": "Custom Launcher is a modular right-spin launcher for the Beyblade X Custom Line. It can be extended with grips and other accessories.",
+      "de": "Der Custom Launcher ist ein modularer rechtsdrehender Launcher für die Beyblade X Custom Line. Er lässt sich mit Griffen und anderen Zubehörteilen erweitern."
     },
     "spinCapability": "right"
   },
   {
     "id": "winder-launcher-hasbro",
-    "name": "Winder Launcher (Hasbro)",
+    "name": "Winder Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/Beyblade_X_Winder_Launcher_%28Hasbro%29.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/winder-launcher-hasbro.png",
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A compact ripcord-style launcher included with Hasbro starter sets.",
@@ -91,31 +91,31 @@
     },
     "assessment": {
       "en": "The Hasbro Winder Launcher is the western release of the compact ripcord launcher. It launches right-spin Beys.",
-      "de": "Der Hasbro Winder Launcher ist die westliche Version des kompakten Rippcord-Launchers. Er startet rechtsdrehende Beys. Hergestellt von Hasbro."
+      "de": "Der Hasbro Winder Launcher ist die westliche Version des kompakten Rippcord-Launchers. Er startet rechtsdrehende Beys."
     },
     "spinCapability": "right"
   },
   {
     "id": "winder-launcher-l-hasbro",
-    "name": "Winder Launcher L (Hasbro)",
+    "name": "Winder Launcher L",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/Beyblade_X_Winder_Launcher_L.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/winder-launcher-l-hasbro.png",
     "releaseDate": "2025-07-24",
     "description": {
       "en": "A left-spin variant of the Hasbro Winder Launcher.",
       "de": "Eine linksdrehende Variante des Hasbro Winder Launchers."
     },
     "assessment": {
-      "en": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher, included in sets such as the 25th Anniversary Set.",
-      "de": "Der Hasbro Winder Launcher L ist der westliche linksdrehende Rippcord-Launcher, der unter anderem im 25th Anniversary Set enthalten ist. Hergestellt von Hasbro."
+      "en": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher for left-spin Beys.",
+      "de": "Der Hasbro Winder Launcher L ist der westliche linksdrehende Rippcord-Launcher für linksspinnende Beys."
     },
     "spinCapability": "left"
   },
   {
     "id": "string-launcher-hasbro",
-    "name": "String Launcher (Hasbro)",
+    "name": "String Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/Beyblade_X_String_Launcher.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/string-launcher-hasbro.png",
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A string-pull launcher for strong, consistent launches.",
@@ -123,31 +123,31 @@
     },
     "assessment": {
       "en": "The Hasbro String Launcher is the western release of the string-pull launcher. It launches right-spin Beys.",
-      "de": "Der Hasbro String Launcher ist die westliche Version des Schnurzug-Launchers. Er startet rechtsdrehende Beys. Hergestellt von Hasbro."
+      "de": "Der Hasbro String Launcher ist die westliche Version des Schnurzug-Launchers. Er startet rechtsdrehende Beys."
     },
     "spinCapability": "right"
   },
   {
     "id": "string-launcher-l-hasbro",
-    "name": "String Launcher L (Hasbro)",
+    "name": "String Launcher L",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/Beyblade_X_String_Launcher_L.jpeg/revision/latest",
+    "imageUrl": "/images/launchers/string-launcher-l-hasbro.png",
     "releaseDate": "2025-07-24",
     "description": {
       "en": "A left-spin string-pull launcher.",
       "de": "Ein linksdrehender Schnurzug-Launcher."
     },
     "assessment": {
-      "en": "The Hasbro String Launcher L is the western left-spin string launcher, included in sets such as the 25th Anniversary Set.",
-      "de": "Der Hasbro String Launcher L ist der westliche linksdrehende Schnurzug-Launcher, der unter anderem im 25th Anniversary Set enthalten ist. Hergestellt von Hasbro."
+      "en": "The Hasbro String Launcher L is the western left-spin string launcher for left-spin Beys.",
+      "de": "Der Hasbro String Launcher L ist der westliche linksdrehende Schnurzug-Launcher für linksspinnende Beys."
     },
     "spinCapability": "left"
   },
   {
     "id": "custom-launcher-hasbro",
-    "name": "Custom Launcher (Hasbro)",
+    "name": "Custom Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Custom_BeyLauncher_LR.jpg/revision/latest",
+    "imageUrl": "/images/launchers/custom-launcher-hasbro.png",
     "releaseDate": "2025-06-01",
     "description": {
       "en": "A modular launcher used with the Custom Line system.",
@@ -155,104 +155,8 @@
     },
     "assessment": {
       "en": "The Hasbro Custom Launcher is the western release of the modular Custom Line launcher. It launches right-spin Beys.",
-      "de": "Der Hasbro Custom Launcher ist die westliche Version des modularen Custom-Line-Launchers. Er startet rechtsdrehende Beys. Hergestellt von Hasbro."
+      "de": "Der Hasbro Custom Launcher ist die westliche Version des modularen Custom-Line-Launchers. Er startet rechtsdrehende Beys."
     },
     "spinCapability": "right"
-  },
-  {
-    "id": "soar-phoenix-deluxe-string-launcher-set",
-    "name": "Soar Phoenix Deluxe String Launcher Set",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/PhoenixWing_5-80H.jpeg/revision/latest?cb=20240624191632",
-    "releaseDate": "2024-05-30",
-    "description": {
-      "en": "A deluxe string launcher set featuring Soar Phoenix colors.",
-      "de": "Ein Deluxe-Schnurzug-Launcher-Set im Soar Phoenix Design."
-    },
-    "assessment": {
-      "en": "The Soar Phoenix Deluxe String Launcher Set includes a right-spin string launcher with a Phoenix-themed design and grip accessories.",
-      "de": "Das Soar Phoenix Deluxe String Launcher Set enthält einen rechtsdrehenden Schnurzug-Launcher im Phoenix-Design sowie Griffzubehör. Hergestellt von Hasbro."
-    },
-    "spinCapability": "right"
-  },
-  {
-    "id": "cobalt-dragoon-deluxe-left-spin-string-launcher-set",
-    "name": "Cobalt Dragoon Deluxe Left-Spin String Launcher Set",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/1dd276e450d31179f67e496198969729",
-    "releaseDate": "2025-02-15",
-    "description": {
-      "en": "A deluxe left-spin string launcher set featuring Cobalt Dragoon colors.",
-      "de": "Ein Deluxe-Links-Schnurzug-Launcher-Set im Cobalt Dragoon Design."
-    },
-    "assessment": {
-      "en": "The Cobalt Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
-      "de": "Das Cobalt Dragoon Deluxe Left-Spin String Launcher Set enthält einen linksdrehenden Schnurzug-Launcher im Dragoon-Design sowie Griffzubehör. Hergestellt von Hasbro."
-    },
-    "spinCapability": "left"
-  },
-  {
-    "id": "victory-grip-launcher-set",
-    "name": "Victory Grip Launcher Set",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/VictoryValkyrie_2-60RA.jpeg/revision/latest?cb=20240717033721",
-    "releaseDate": "2025-08-01",
-    "description": {
-      "en": "A launcher set featuring a custom grip for improved handling.",
-      "de": "Ein Launcher-Set mit angepasstem Griff für bessere Handhabung."
-    },
-    "assessment": {
-      "en": "The Victory Grip Launcher Set is a Hasbro launcher accessory pack designed to improve launch stability with an ergonomic grip.",
-      "de": "Das Victory Grip Launcher Set ist ein Hasbro-Zubehörpaket mit ergonomischem Griff, das die Stabilität beim Start verbessert. Hergestellt von Hasbro."
-    },
-    "spinCapability": "right"
-  },
-  {
-    "id": "clip-and-rip-launcher-set",
-    "name": "Clip & Rip Launcher Set",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Clip_&_Rip_Launcher.jpg/revision/latest",
-    "releaseDate": "2026-07-15",
-    "description": {
-      "en": "A launcher set featuring a clip-on ripcord mechanism.",
-      "de": "Ein Launcher-Set mit anklappbarem Zugseil-Mechanismus."
-    },
-    "assessment": {
-      "en": "The Clip & Rip Launcher Set is a Hasbro launcher accessory pack with a clip-on ripcord design for quick launching.",
-      "de": "Das Clip & Rip Launcher Set ist ein Hasbro-Zubehörpaket mit anklappbarem Rippcord-Design für schnelles Starten. Hergestellt von Hasbro."
-    },
-    "spinCapability": "right"
-  },
-  {
-    "id": "bite-croc-deluxe-string-launcher-set",
-    "name": "Bite Croc Deluxe String Launcher & Custom Grip Set",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/CrocCrunch_2-60Q.jpg/revision/latest",
-    "releaseDate": "2026-03-01",
-    "description": {
-      "en": "A deluxe string launcher and custom grip set featuring Bite Croc colors.",
-      "de": "Ein Deluxe-Schnurzug-Launcher- und Griff-Set im Bite Croc Design."
-    },
-    "assessment": {
-      "en": "The Bite Croc Deluxe String Launcher & Custom Grip Set includes a right-spin string launcher with a Croc-themed design and a custom grip accessory.",
-      "de": "Das Bite Croc Deluxe String Launcher & Custom Grip Set enthält einen rechtsdrehenden Schnurzug-Launcher im Krokodil-Design und einen angepassten Griff. Hergestellt von Hasbro."
-    },
-    "spinCapability": "right"
-  },
-  {
-    "id": "meteoroid-dragoon-deluxe-left-spin-string-launcher-set",
-    "name": "Meteoroid Dragoon Deluxe Left-Spin String Launcher Set",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b9/MeteorDragoon_3-70J.jpeg/revision/latest",
-    "releaseDate": "2026-07-15",
-    "description": {
-      "en": "A deluxe left-spin string launcher set featuring Meteoroid Dragoon colors.",
-      "de": "Ein Deluxe-Links-Schnurzug-Launcher-Set im Meteoroid Dragoon Design."
-    },
-    "assessment": {
-      "en": "The Meteoroid Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
-      "de": "Das Meteoroid Dragoon Deluxe Left-Spin String Launcher Set enthält einen linksdrehenden Schnurzug-Launcher im Dragoon-Design sowie Griffzubehör. Hergestellt von Hasbro."
-    },
-    "spinCapability": "left"
   }
 ]

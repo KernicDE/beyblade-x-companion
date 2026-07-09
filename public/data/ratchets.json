@@ -4,7 +4,7 @@
     "category": "ratchet",
     "name": "3-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1b/Ratchet3-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-60.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -12,8 +12,8 @@
       "de": "Das 3-60-Ratchet."
     },
     "assessment": {
-      "en": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Takara Tomy.",
-      "de": "3-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 15 / Verteidigung 9 / Ausdauer 6. Gewicht: 6.4g. Höhe: 6mm. Hergestellt von Takara Tomy."
+      "en": "3-60 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": "3-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 6mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 6,
@@ -33,7 +33,7 @@
     "category": "ratchet",
     "name": "3-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Ratchet3-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-80.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -41,8 +41,8 @@
       "de": "Das 3-80-Ratchet."
     },
     "assessment": {
-      "en": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "3-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 15 / Verteidigung 7 / Ausdauer 8. Gewicht: 7.1g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "3-80 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "3-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.1g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 80,
@@ -62,7 +62,7 @@
     "category": "ratchet",
     "name": "4-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet4-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-60.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -70,8 +70,8 @@
       "de": "Das 4-60-Ratchet."
     },
     "assessment": {
-      "en": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "4-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 11 / Verteidigung 13 / Ausdauer 6. Gewicht: 6.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "4-60 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "4-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 60,
@@ -91,7 +91,7 @@
     "category": "ratchet",
     "name": "4-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ae/Ratchet4-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-80.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -99,8 +99,8 @@
       "de": "Das 4-80-Ratchet."
     },
     "assessment": {
-      "en": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "4-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 11 / Verteidigung 11 / Ausdauer 8. Gewicht: 7g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "4-80 is a right-spin Balance Type Ratchet. Weight: 7g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "4-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 80,
@@ -120,7 +120,7 @@
     "category": "ratchet",
     "name": "5-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f7/Ratchet5-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-5-60.png",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
@@ -128,8 +128,8 @@
       "de": "Das 5-60-Ratchet."
     },
     "assessment": {
-      "en": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "5-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 9 / Ausdauer 9. Gewicht: 6.6g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "5-60 is a right-spin Balance Type Ratchet. Weight: 6.6g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "5-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.6g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 60,
@@ -149,7 +149,7 @@
     "category": "ratchet",
     "name": "5-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Ratchet5-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-5-80.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -157,8 +157,8 @@
       "de": "Das 5-80-Ratchet."
     },
     "assessment": {
-      "en": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "5-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 8 / Ausdauer 10. Gewicht: 7.3g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "5-80 is a right-spin Balance Type Ratchet. Weight: 7.3g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "5-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.3g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 80,
@@ -178,7 +178,7 @@
     "category": "ratchet",
     "name": "9-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet9-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-60.png",
     "releaseDate": "2023-12-10",
     "releaseWave": "BX-23",
     "description": {
@@ -186,8 +186,8 @@
       "de": "Ein rechtsdrehender Balance-Typ-Ratchet aus der Basic Line. Er verfügt über nine blades, six of which barely protrude to increase burst resistance, while three larger blades can align with Blade contact points for attack potential."
     },
     "assessment": {
-      "en": "9-60 is a versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.1g. Ratings based on community data.",
-      "de": "9-60 ist ein versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 6.1g. Ratings based on community data."
+      "en": "9-60 is a versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Weight: 6.1g. Ratings based on community data.",
+      "de": "9-60 ist ein versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Gewicht: 6.1g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 6,
@@ -208,7 +208,7 @@
     "category": "ratchet",
     "name": "9-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/Ratchet9-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-80.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -216,8 +216,8 @@
       "de": "Das 9-80-Ratchet."
     },
     "assessment": {
-      "en": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "9-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 6.9g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "9-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "9-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 80,
@@ -237,7 +237,7 @@
     "category": "ratchet",
     "name": "1-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/Ratchet1-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-60.png",
     "releaseDate": "2024-03-30",
     "releaseWave": "UX-01",
     "description": {
@@ -245,12 +245,12 @@
       "de": "Ein rechtsdrehender Attack-Typ-Ratchet aus der Unique Line. Er verfügt über a single large protrusion that acts as a secondary contact point, making it a popular choice for attack combinations."
     },
     "assessment": {
-      "en": "1-60 is the preferred Attack Ratchet for many aggressive combos thanks to its large single protrusion. Official stats: Attack 17 / Defense 9 / Stamina 4. Weight: 6.0g. Ratings based on community data.",
-      "de": "1-60 is the preferred Angriff Ratchet for many aggressive combos thanks to its large single protrusion. Offizielle Werte: Angriff 17 / Verteidigung 9 / Ausdauer 4. Gewicht: 6.0g. Ratings based on community data."
+      "en": "1-60 is the preferred Attack Ratchet for many aggressive combos thanks to its large single protrusion. Weight: 6.0g. Ratings based on community data.",
+      "de": "1-60 is the preferred Angriff Ratchet for many aggressive combos thanks to its large single protrusion. Gewicht: 6.0g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.0,
+      "weightGrams": 6,
       "spinDirection": "right"
     },
     "ratings": {
@@ -267,7 +267,7 @@
     "category": "ratchet",
     "name": "3-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/Ratchet3-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -275,8 +275,8 @@
       "de": "Das 3-70-Ratchet."
     },
     "assessment": {
-      "en": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Takara Tomy.",
-      "de": "3-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 15 / Verteidigung 8 / Ausdauer 7. Gewicht: 6.4g. Höhe: 7mm. Hergestellt von Takara Tomy."
+      "en": "3-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": "3-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 7mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 7,
@@ -296,7 +296,7 @@
     "category": "ratchet",
     "name": "5-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cc/Ratchet5-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-5-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -304,8 +304,8 @@
       "de": "Das 5-70-Ratchet."
     },
     "assessment": {
-      "en": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Takara Tomy.",
-      "de": "5-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 8 / Ausdauer 10. Gewicht: 6.7g. Höhe: 7mm. Hergestellt von Takara Tomy."
+      "en": "5-70 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": "5-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.7g. Höhe: 7mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 7,
@@ -325,7 +325,7 @@
     "category": "ratchet",
     "name": "4-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/Ratchet4-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-70.png",
     "releaseDate": "2024-04-27",
     "releaseWave": "BX-27",
     "description": {
@@ -333,8 +333,8 @@
       "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line mit einer mittleren 7-mm-Höhe. Its four blades provide a balanced mix of attack, defense and stamina."
     },
     "assessment": {
-      "en": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Official stats: Attack 11 / Defense 12 / Stamina 7. Weight: 6.5g. Ratings based on community data.",
-      "de": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Offizielle Werte: Angriff 11 / Verteidigung 12 / Ausdauer 7. Gewicht: 6.5g. Ratings based on community data."
+      "en": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Weight: 6.5g. Ratings based on community data.",
+      "de": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Gewicht: 6.5g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 7,
@@ -355,7 +355,7 @@
     "category": "ratchet",
     "name": "1-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet1-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-80.png",
     "releaseDate": "2024-05-18",
     "releaseWave": "UX-05",
     "description": {
@@ -363,12 +363,12 @@
       "de": "Ein rechtsdrehender Attack-Typ Ratchet from the Unique Line mit einer hohen 8-mm-Höhe. Er verfügt über a single large protrusion for attack potential but is more exposed to strikes from below."
     },
     "assessment": {
-      "en": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Official stats: Attack 17 / Defense 4 / Stamina 9. Weight: 6.0g. Ratings based on community data.",
-      "de": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Offizielle Werte: Angriff 17 / Verteidigung 4 / Ausdauer 9. Gewicht: 6.0g. Ratings based on community data."
+      "en": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Weight: 6.0g. Ratings based on community data.",
+      "de": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Gewicht: 6.0g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.0,
+      "weightGrams": 6,
       "spinDirection": "right"
     },
     "ratings": {
@@ -385,7 +385,7 @@
     "category": "ratchet",
     "name": "2-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a6/Ratchet2-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-2-60.png",
     "releaseDate": "2024-07-13",
     "releaseWave": "BX-34",
     "description": {
@@ -393,8 +393,8 @@
       "de": "Ein rechtsdrehender Attack-Typ-Ratchet aus der Basic Line. Er verfügt über two protrusions and debuted with Cobalt Dragoon 2-60C."
     },
     "assessment": {
-      "en": "2-60 is an aggressive Ratchet with two contact points that complement attack Blades. Official stats: Attack 16 / Defense 8 / Stamina 6. Weight: 6.2g. Ratings based on community data.",
-      "de": "2-60 ist einn aggressive Ratchet with two contact points that complement attack Blades. Offizielle Werte: Angriff 16 / Verteidigung 8 / Ausdauer 6. Gewicht: 6.2g. Ratings based on community data."
+      "en": "2-60 is an aggressive Ratchet with two contact points that complement attack Blades. Weight: 6.2g. Ratings based on community data.",
+      "de": "2-60 ist einn aggressive Ratchet with two contact points that complement attack Blades. Gewicht: 6.2g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 6,
@@ -415,7 +415,7 @@
     "category": "ratchet",
     "name": "2-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dc/Ratchet2-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-2-80.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -423,8 +423,8 @@
       "de": "Das 2-80-Ratchet."
     },
     "assessment": {
-      "en": "2-80 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 11 / Stamina 9. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
-      "de": "2-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 10 / Verteidigung 11 / Ausdauer 9. Gewicht: 6.9g. Höhe: 8mm. Hergestellt von Takara Tomy."
+      "en": "2-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": "2-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 8mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 8,
@@ -444,7 +444,7 @@
     "category": "ratchet",
     "name": "7-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/39/Ratchet7-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-60.png",
     "releaseDate": "2024-08-10",
     "releaseWave": "UX-06",
     "description": {
@@ -452,8 +452,8 @@
       "de": "Ein rechtsdrehender Defense-Typ-Ratchet aus der Unique Line. Er verfügt über seven blades with only one large protrusion, was ihm ein schweres, rundes Profil verleiht, das sich für Defense und Stamina eignet."
     },
     "assessment": {
-      "en": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Official stats: Attack 8 / Defense 14 / Stamina 8. Weight: 7.1g. Ratings based on community data.",
-      "de": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Offizielle Werte: Angriff 8 / Verteidigung 14 / Ausdauer 8. Gewicht: 7.1g. Ratings based on community data."
+      "en": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Weight: 7.1g. Ratings based on community data.",
+      "de": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Gewicht: 7.1g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 6,
@@ -474,7 +474,7 @@
     "category": "ratchet",
     "name": "9-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/86/Ratchet9-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-70.png",
     "releaseDate": "2024-08-10",
     "releaseWave": "UX-07",
     "description": {
@@ -482,8 +482,8 @@
       "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line mit einer mittleren 7-mm-Höhe. Like 9-60, most of its nine blades are recessed for burst resistance."
     },
     "assessment": {
-      "en": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.3g. Ratings based on community data.",
-      "de": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 6.3g. Ratings based on community data."
+      "en": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Weight: 6.3g. Ratings based on community data.",
+      "de": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Gewicht: 6.3g. Ratings based on community data."
     },
     "officialStats": {
       "heightMm": 7,
@@ -504,7 +504,7 @@
     "category": "ratchet",
     "name": "2-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/Ratchet2-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-2-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -512,8 +512,8 @@
       "de": "Das 2-70-Ratchet."
     },
     "assessment": {
-      "en": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
-      "de": "2-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 10 / Verteidigung 12 / Ausdauer 8. Gewicht: 6.3g. Höhe: 7mm. Hergestellt von Takara Tomy."
+      "en": "2-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": "2-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 7mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 7,
@@ -533,7 +533,7 @@
     "category": "ratchet",
     "name": "3-85",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/Ratchet3-85.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-85.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -541,8 +541,8 @@
       "de": "Das 3-85-Ratchet."
     },
     "assessment": {
-      "en": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Takara Tomy.",
-      "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 5 / Verteidigung 15 / Ausdauer 10. Gewicht: 4.7g. Höhe: 85mm. Hergestellt von Takara Tomy."
+      "en": "3-85 is a right-spin Balance Type Ratchet. Weight: 4.7g. Height: 85mm. Manufactured by Takara Tomy.",
+      "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.7g. Höhe: 85mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 85,
@@ -562,7 +562,7 @@
     "category": "ratchet",
     "name": "7-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/Ratchet7-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -570,8 +570,8 @@
       "de": "Das 7-70-Ratchet."
     },
     "assessment": {
-      "en": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "7-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 8 / Verteidigung 12 / Ausdauer 10. Gewicht: 7.3g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "7-70 is a right-spin Balance Type Ratchet. Weight: 7.3g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": "7-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.3g. Höhe: 70mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 70,
@@ -591,7 +591,7 @@
     "category": "ratchet",
     "name": "0-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/Ratchet0-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-0-80.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -599,8 +599,8 @@
       "de": "Das 0-80-Ratchet."
     },
     "assessment": {
-      "en": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "0-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 3 / Verteidigung 12 / Ausdauer 15. Gewicht: 7.6g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "0-80 is a right-spin Balance Type Ratchet. Weight: 7.6g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "0-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.6g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 80,
@@ -620,7 +620,7 @@
     "category": "ratchet",
     "name": "7-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Ratchet7-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-80.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -628,8 +628,8 @@
       "de": "Das 7-80-Ratchet."
     },
     "assessment": {
-      "en": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Takara Tomy.",
-      "de": "7-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 7 / Verteidigung 14 / Ausdauer 9. Gewicht: 7.8g. Höhe: 8mm. Hergestellt von Takara Tomy."
+      "en": "7-80 is a right-spin Balance Type Ratchet. Weight: 7.8g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": "7-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.8g. Höhe: 8mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 8,
@@ -649,7 +649,7 @@
     "category": "ratchet",
     "name": "6-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-6-60.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -657,8 +657,8 @@
       "de": "Das 6-60-Ratchet."
     },
     "assessment": {
-      "en": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Takara Tomy.",
-      "de": "6-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 14 / Verteidigung 8 / Ausdauer 8. Gewicht: 6.1g. Höhe: 6mm. Hergestellt von Takara Tomy."
+      "en": "6-60 is a right-spin Balance Type Ratchet. Weight: 6.1g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": "6-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.1g. Höhe: 6mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 6,
@@ -678,7 +678,7 @@
     "category": "ratchet",
     "name": "6-80",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-6-80.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -686,8 +686,8 @@
       "de": "Das 6-80-Ratchet."
     },
     "assessment": {
-      "en": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
-      "de": "6-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 14 / Verteidigung 6 / Ausdauer 10. Gewicht: 6.9g. Höhe: 8mm. Hergestellt von Takara Tomy."
+      "en": "6-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": "6-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 8mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 8,
@@ -707,7 +707,7 @@
     "category": "ratchet",
     "name": "4-55",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-55.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -715,8 +715,8 @@
       "de": "Das 4-55-Ratchet."
     },
     "assessment": {
-      "en": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Takara Tomy.",
-      "de": "4-55 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 7 / Verteidigung 11 / Ausdauer 12. Gewicht: 4.8g. Höhe: 5.5mm. Hergestellt von Takara Tomy."
+      "en": "4-55 is a right-spin Balance Type Ratchet. Weight: 4.8g. Height: 5.5mm. Manufactured by Takara Tomy.",
+      "de": "4-55 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.8g. Höhe: 5.5mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 5.5,
@@ -736,7 +736,7 @@
     "category": "ratchet",
     "name": "0-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-0-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -744,8 +744,8 @@
       "de": "Das 0-70-Ratchet."
     },
     "assessment": {
-      "en": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "0-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 3 / Ausdauer 14. Gewicht: 7g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "0-70 is a right-spin Balance Type Ratchet. Weight: 7g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": "0-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7g. Höhe: 70mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 70,
@@ -765,7 +765,7 @@
     "category": "ratchet",
     "name": "M-85",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/RatchetM-85.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-m-85.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -773,8 +773,8 @@
       "de": "Das M-85-Ratchet."
     },
     "assessment": {
-      "en": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Takara Tomy.",
-      "de": "M-85 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 8 / Verteidigung 19 / Ausdauer 13. Gewicht: 10.6g. Höhe: 8.5mm. Hergestellt von Takara Tomy."
+      "en": "M-85 is a right-spin Balance Type Ratchet. Weight: 10.6g. Height: 8.5mm. Manufactured by Takara Tomy.",
+      "de": "M-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 10.6g. Höhe: 8.5mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 8.5,
@@ -794,7 +794,7 @@
     "category": "ratchet",
     "name": "6-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Ratchet6-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-6-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -802,8 +802,8 @@
       "de": "Das 6-70-Ratchet."
     },
     "assessment": {
-      "en": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "6-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 14 / Verteidigung 7 / Ausdauer 9. Gewicht: 6.3g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "6-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": "6-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 70mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 70,
@@ -823,7 +823,7 @@
     "category": "ratchet",
     "name": "4-50",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2a/Ratchet4-50.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-50.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -831,8 +831,8 @@
       "de": "Das 4-50-Ratchet."
     },
     "assessment": {
-      "en": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "4-50 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 13 / Ausdauer 5. Gewicht: 5.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "4-50 is a right-spin Balance Type Ratchet. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "4-50 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 50,
@@ -852,7 +852,7 @@
     "category": "ratchet",
     "name": "1-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/Ratchet1-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -860,8 +860,8 @@
       "de": "Das 1-70-Ratchet."
     },
     "assessment": {
-      "en": "1-70 is a right-spin Balance Type Ratchet. Official stats: Attack 17 / Defense 6 / Stamina 7. Weight: 6.1g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "1-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 17 / Verteidigung 6 / Ausdauer 7. Gewicht: 6.1g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "1-70 is a right-spin Balance Type Ratchet. Weight: 6.1g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": "1-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.1g. Höhe: 70mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 70,
@@ -881,7 +881,7 @@
     "category": "ratchet",
     "name": "9-65",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/Ratchet9-65.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-65.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -889,8 +889,8 @@
       "de": "Das 9-65-Ratchet."
     },
     "assessment": {
-      "en": "9-65 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 4.5g. Height: 65mm. Manufactured by Takara Tomy.",
-      "de": "9-65 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 4.5g. Höhe: 65mm. Hergestellt von Takara Tomy."
+      "en": "9-65 is a right-spin Balance Type Ratchet. Weight: 4.5g. Height: 65mm. Manufactured by Takara Tomy.",
+      "de": "9-65 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.5g. Höhe: 65mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 65,
@@ -910,7 +910,7 @@
     "category": "ratchet",
     "name": "0-60",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/20/Ratchet0-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-0-60.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -918,8 +918,8 @@
       "de": "Das 0-60-Ratchet."
     },
     "assessment": {
-      "en": "0-60 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 14 / Stamina 13. Weight: 6.8g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "0-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 3 / Verteidigung 14 / Ausdauer 13. Gewicht: 6.8g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "0-60 is a right-spin Balance Type Ratchet. Weight: 6.8g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "0-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.8g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 60,
@@ -939,7 +939,7 @@
     "category": "ratchet",
     "name": "7-55",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet7-55.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-55.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -947,8 +947,8 @@
       "de": "Das 7-55-Ratchet."
     },
     "assessment": {
-      "en": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
-      "de": "7-55 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 6 / Verteidigung 14 / Ausdauer 10. Gewicht: 5.2g. Höhe: 55mm. Hergestellt von Takara Tomy."
+      "en": "7-55 is a right-spin Balance Type Ratchet. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
+      "de": "7-55 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.2g. Höhe: 55mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 55,
@@ -968,7 +968,7 @@
     "category": "ratchet",
     "name": "1-50",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/Ratchet1-50.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-50.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -976,8 +976,8 @@
       "de": "Das 1-50-Ratchet."
     },
     "assessment": {
-      "en": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "1-50 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 18 / Verteidigung 9 / Ausdauer 3. Gewicht: 5.7g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "1-50 is a right-spin Balance Type Ratchet. Weight: 5.7g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "1-50 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.7g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 50,
@@ -997,7 +997,7 @@
     "category": "ratchet",
     "name": "8-70",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Ratchet8-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-8-70.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1005,8 +1005,8 @@
       "de": "Das 8-70-Ratchet."
     },
     "assessment": {
-      "en": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "8-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 8 / Verteidigung 10 / Ausdauer 12. Gewicht: 7.7g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "8-70 is a right-spin Balance Type Ratchet. Weight: 7.7g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": "8-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.7g. Höhe: 70mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 70,
@@ -1055,7 +1055,7 @@
     "category": "ratchet",
     "name": "3-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1b/Ratchet3-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-60-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1063,8 +1063,8 @@
       "de": "Das 3-60-Ratchet."
     },
     "assessment": {
-      "en": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Hasbro.",
-      "de": "3-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 15 / Verteidigung 9 / Ausdauer 6. Gewicht: 6.4g. Höhe: 6mm. Hergestellt von Hasbro."
+      "en": "3-60 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 6mm. Manufactured by Hasbro.",
+      "de": "3-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 6mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 6,
@@ -1084,7 +1084,7 @@
     "category": "ratchet",
     "name": "3-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Ratchet3-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-80-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1092,8 +1092,8 @@
       "de": "Das 3-80-Ratchet."
     },
     "assessment": {
-      "en": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "3-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 15 / Verteidigung 7 / Ausdauer 8. Gewicht: 7.1g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "3-80 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 80mm. Manufactured by Hasbro.",
+      "de": "3-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.1g. Höhe: 80mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 80,
@@ -1113,7 +1113,7 @@
     "category": "ratchet",
     "name": "4-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ae/Ratchet4-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-80-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1121,8 +1121,8 @@
       "de": "Das 4-80-Ratchet."
     },
     "assessment": {
-      "en": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "4-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 11 / Verteidigung 11 / Ausdauer 8. Gewicht: 7g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "4-80 is a right-spin Balance Type Ratchet. Weight: 7g. Height: 80mm. Manufactured by Hasbro.",
+      "de": "4-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7g. Höhe: 80mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 80,
@@ -1142,7 +1142,7 @@
     "category": "ratchet",
     "name": "4-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet4-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-60-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1150,8 +1150,8 @@
       "de": "Das 4-60-Ratchet."
     },
     "assessment": {
-      "en": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "4-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 11 / Verteidigung 13 / Ausdauer 6. Gewicht: 6.3g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "4-60 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 60mm. Manufactured by Hasbro.",
+      "de": "4-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 60mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 60,
@@ -1171,7 +1171,7 @@
     "category": "ratchet",
     "name": "5-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f7/Ratchet5-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-5-60-hasbro.png",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
@@ -1179,8 +1179,8 @@
       "de": "Das 5-60-Ratchet."
     },
     "assessment": {
-      "en": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "5-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 9 / Ausdauer 9. Gewicht: 6.6g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "5-60 is a right-spin Balance Type Ratchet. Weight: 6.6g. Height: 60mm. Manufactured by Hasbro.",
+      "de": "5-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.6g. Höhe: 60mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 60,
@@ -1200,7 +1200,7 @@
     "category": "ratchet",
     "name": "1-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/Ratchet1-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-60-hasbro.png",
     "releaseDate": "",
     "releaseWave": "UX-01",
     "description": {
@@ -1208,12 +1208,12 @@
       "de": "Ein rechtsdrehender Attack-Typ Ratchet from the Unique Line, von Hasbro in westlichen Ländern veröffentlicht. Er verfügt über a single large protrusion that acts as a secondary contact point, making it a popular choice for attack combinations."
     },
     "assessment": {
-      "en": "1-60 is the preferred Attack Ratchet for many aggressive combos thanks to its large single protrusion. Official stats: Attack 17 / Defense 9 / Stamina 4. Weight: 6.0g. Ratings based on community data. (Hasbro release)",
-      "de": "1-60 is the preferred Angriff Ratchet for many aggressive combos thanks to its large single protrusion. Offizielle Werte: Angriff 17 / Verteidigung 9 / Ausdauer 4. Gewicht: 6.0g. Ratings based on community data. (Hasbro release)"
+      "en": "1-60 is the preferred Attack Ratchet for many aggressive combos thanks to its large single protrusion. Weight: 6.0g. Ratings based on community data. (Hasbro release)",
+      "de": "1-60 is the preferred Angriff Ratchet for many aggressive combos thanks to its large single protrusion. Gewicht: 6.0g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.0,
+      "weightGrams": 6,
       "spinDirection": "right"
     },
     "ratings": {
@@ -1230,7 +1230,7 @@
     "category": "ratchet",
     "name": "5-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cc/Ratchet5-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-5-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1238,8 +1238,8 @@
       "de": "Das 5-70-Ratchet."
     },
     "assessment": {
-      "en": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Hasbro.",
-      "de": "5-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 8 / Ausdauer 10. Gewicht: 6.7g. Höhe: 7mm. Hergestellt von Hasbro."
+      "en": "5-70 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 7mm. Manufactured by Hasbro.",
+      "de": "5-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.7g. Höhe: 7mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 7,
@@ -1259,7 +1259,7 @@
     "category": "ratchet",
     "name": "1-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet1-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-80-hasbro.png",
     "releaseDate": "",
     "releaseWave": "UX-05",
     "description": {
@@ -1267,12 +1267,12 @@
       "de": "Ein rechtsdrehender Attack-Typ Ratchet from the Unique Line, von Hasbro in westlichen Ländern veröffentlicht mit einer hohen 8-mm-Höhe. Er verfügt über a single large protrusion for attack potential but is more exposed to strikes from below."
     },
     "assessment": {
-      "en": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Official stats: Attack 17 / Defense 4 / Stamina 9. Weight: 6.0g. Ratings based on community data. (Hasbro release)",
-      "de": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Offizielle Werte: Angriff 17 / Verteidigung 4 / Ausdauer 9. Gewicht: 6.0g. Ratings based on community data. (Hasbro release)"
+      "en": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Weight: 6.0g. Ratings based on community data. (Hasbro release)",
+      "de": "1-80 trades the low profile of 1-60 for stronger locks and more stamina, making it useful in tall attack or balance combos. Gewicht: 6.0g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.0,
+      "weightGrams": 6,
       "spinDirection": "right"
     },
     "ratings": {
@@ -1289,7 +1289,7 @@
     "category": "ratchet",
     "name": "4-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/Ratchet4-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX-27",
     "description": {
@@ -1297,8 +1297,8 @@
       "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht mit einer mittleren 7-mm-Höhe. Its four blades provide a balanced mix of attack, defense and stamina."
     },
     "assessment": {
-      "en": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Official stats: Attack 11 / Defense 12 / Stamina 7. Weight: 6.5g. Ratings based on community data. (Hasbro release)",
-      "de": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Offizielle Werte: Angriff 11 / Verteidigung 12 / Ausdauer 7. Gewicht: 6.5g. Ratings based on community data. (Hasbro release)"
+      "en": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Weight: 6.5g. Ratings based on community data. (Hasbro release)",
+      "de": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Gewicht: 6.5g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 7,
@@ -1319,7 +1319,7 @@
     "category": "ratchet",
     "name": "7-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Ratchet7-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-80-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1327,8 +1327,8 @@
       "de": "Das 7-80-Ratchet."
     },
     "assessment": {
-      "en": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Hasbro.",
-      "de": "7-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 7 / Verteidigung 14 / Ausdauer 9. Gewicht: 7.8g. Höhe: 8mm. Hergestellt von Hasbro."
+      "en": "7-80 is a right-spin Balance Type Ratchet. Weight: 7.8g. Height: 8mm. Manufactured by Hasbro.",
+      "de": "7-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.8g. Höhe: 8mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 8,
@@ -1348,7 +1348,7 @@
     "category": "ratchet",
     "name": "3-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/Ratchet3-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1356,8 +1356,8 @@
       "de": "Das 3-70-Ratchet."
     },
     "assessment": {
-      "en": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Hasbro.",
-      "de": "3-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 15 / Verteidigung 8 / Ausdauer 7. Gewicht: 6.4g. Höhe: 7mm. Hergestellt von Hasbro."
+      "en": "3-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 7mm. Manufactured by Hasbro.",
+      "de": "3-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 7mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 7,
@@ -1377,7 +1377,7 @@
     "category": "ratchet",
     "name": "9-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet9-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-60-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX-23",
     "description": {
@@ -1385,8 +1385,8 @@
       "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht. Er verfügt über nine blades, six of which barely protrude to increase burst resistance, while three larger blades can align with Blade contact points for attack potential."
     },
     "assessment": {
-      "en": "9-60 is a versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.1g. Ratings based on community data. (Hasbro release)",
-      "de": "9-60 ist ein versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 6.1g. Ratings based on community data. (Hasbro release)"
+      "en": "9-60 is a versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Weight: 6.1g. Ratings based on community data. (Hasbro release)",
+      "de": "9-60 ist ein versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Gewicht: 6.1g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 6,
@@ -1407,7 +1407,7 @@
     "category": "ratchet",
     "name": "2-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a6/Ratchet2-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-2-60-hasbro.png",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX-34",
     "description": {
@@ -1415,8 +1415,8 @@
       "de": "Ein rechtsdrehender Attack-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht. Er verfügt über two protrusions and debuted with Cobalt Dragoon 2-60C."
     },
     "assessment": {
-      "en": "2-60 is an aggressive Ratchet with two contact points that complement attack Blades. Official stats: Attack 16 / Defense 8 / Stamina 6. Weight: 6.2g. Ratings based on community data. (Hasbro release)",
-      "de": "2-60 ist einn aggressive Ratchet with two contact points that complement attack Blades. Offizielle Werte: Angriff 16 / Verteidigung 8 / Ausdauer 6. Gewicht: 6.2g. Ratings based on community data. (Hasbro release)"
+      "en": "2-60 is an aggressive Ratchet with two contact points that complement attack Blades. Weight: 6.2g. Ratings based on community data. (Hasbro release)",
+      "de": "2-60 ist einn aggressive Ratchet with two contact points that complement attack Blades. Gewicht: 6.2g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 6,
@@ -1437,7 +1437,7 @@
     "category": "ratchet",
     "name": "6-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-6-60-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1445,8 +1445,8 @@
       "de": "Das 6-60-Ratchet."
     },
     "assessment": {
-      "en": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Hasbro.",
-      "de": "6-60 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 14 / Verteidigung 8 / Ausdauer 8. Gewicht: 6.1g. Höhe: 6mm. Hergestellt von Hasbro."
+      "en": "6-60 is a right-spin Balance Type Ratchet. Weight: 6.1g. Height: 6mm. Manufactured by Hasbro.",
+      "de": "6-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.1g. Höhe: 6mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 6,
@@ -1466,7 +1466,7 @@
     "category": "ratchet",
     "name": "4-55",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-55-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1474,8 +1474,8 @@
       "de": "Das 4-55-Ratchet."
     },
     "assessment": {
-      "en": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Hasbro.",
-      "de": "4-55 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 7 / Verteidigung 11 / Ausdauer 12. Gewicht: 4.8g. Höhe: 5.5mm. Hergestellt von Hasbro."
+      "en": "4-55 is a right-spin Balance Type Ratchet. Weight: 4.8g. Height: 5.5mm. Manufactured by Hasbro.",
+      "de": "4-55 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.8g. Höhe: 5.5mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 5.5,
@@ -1495,7 +1495,7 @@
     "category": "ratchet",
     "name": "6-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-6-80-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1503,8 +1503,8 @@
       "de": "Das 6-80-Ratchet."
     },
     "assessment": {
-      "en": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Hasbro.",
-      "de": "6-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 14 / Verteidigung 6 / Ausdauer 10. Gewicht: 6.9g. Höhe: 8mm. Hergestellt von Hasbro."
+      "en": "6-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 8mm. Manufactured by Hasbro.",
+      "de": "6-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 8mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 8,
@@ -1524,7 +1524,7 @@
     "category": "ratchet",
     "name": "9-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/86/Ratchet9-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "UX-07",
     "description": {
@@ -1532,8 +1532,8 @@
       "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht mit einer mittleren 7-mm-Höhe. Like 9-60, most of its nine blades are recessed for burst resistance."
     },
     "assessment": {
-      "en": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.3g. Ratings based on community data. (Hasbro release)",
-      "de": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 6.3g. Ratings based on community data. (Hasbro release)"
+      "en": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Weight: 6.3g. Ratings based on community data. (Hasbro release)",
+      "de": "9-70 offers similar burst resistance to 9-60 in a taller 7mm height, trading some safety for a slightly different contact profile. Gewicht: 6.3g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 7,
@@ -1554,7 +1554,7 @@
     "category": "ratchet",
     "name": "7-60",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/39/Ratchet7-60.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-60-hasbro.png",
     "releaseDate": "",
     "releaseWave": "UX-06",
     "description": {
@@ -1562,8 +1562,8 @@
       "de": "Ein rechtsdrehender Defense-Typ Ratchet from the Unique Line, von Hasbro in westlichen Ländern veröffentlicht. Er verfügt über seven blades with only one large protrusion, was ihm ein schweres, rundes Profil verleiht, das sich für Defense und Stamina eignet."
     },
     "assessment": {
-      "en": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Official stats: Attack 8 / Defense 14 / Stamina 8. Weight: 7.1g. Ratings based on community data. (Hasbro release)",
-      "de": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Offizielle Werte: Angriff 8 / Verteidigung 14 / Ausdauer 8. Gewicht: 7.1g. Ratings based on community data. (Hasbro release)"
+      "en": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Weight: 7.1g. Ratings based on community data. (Hasbro release)",
+      "de": "7-60 is the heaviest standard-height Ratchet and a top choice for defense combos that need extra weight without added height. Gewicht: 7.1g. Ratings based on community data. (Hasbro release)"
     },
     "officialStats": {
       "heightMm": 6,
@@ -1584,7 +1584,7 @@
     "category": "ratchet",
     "name": "3-85",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/Ratchet3-85.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-3-85-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1592,8 +1592,8 @@
       "de": "Das 3-85-Ratchet."
     },
     "assessment": {
-      "en": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Hasbro.",
-      "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 5 / Verteidigung 15 / Ausdauer 10. Gewicht: 4.7g. Höhe: 85mm. Hergestellt von Hasbro."
+      "en": "3-85 is a right-spin Balance Type Ratchet. Weight: 4.7g. Height: 85mm. Manufactured by Hasbro.",
+      "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.7g. Höhe: 85mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 85,
@@ -1613,7 +1613,7 @@
     "category": "ratchet",
     "name": "5-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Ratchet5-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-5-80-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1621,8 +1621,8 @@
       "de": "Das 5-80-Ratchet."
     },
     "assessment": {
-      "en": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "5-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 8 / Ausdauer 10. Gewicht: 7.3g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "5-80 is a right-spin Balance Type Ratchet. Weight: 7.3g. Height: 80mm. Manufactured by Hasbro.",
+      "de": "5-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.3g. Höhe: 80mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 80,
@@ -1642,7 +1642,7 @@
     "category": "ratchet",
     "name": "4-50",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2a/Ratchet4-50.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-4-50-hasbro.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
@@ -1650,8 +1650,8 @@
       "de": "Das 4-50-Ratchet."
     },
     "assessment": {
-      "en": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Hasbro.",
-      "de": "4-50 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 12 / Verteidigung 13 / Ausdauer 5. Gewicht: 5.9g. Höhe: 50mm. Hergestellt von Hasbro."
+      "en": "4-50 is a right-spin Balance Type Ratchet. Weight: 5.9g. Height: 50mm. Manufactured by Hasbro.",
+      "de": "4-50 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.9g. Höhe: 50mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 50,
@@ -1700,7 +1700,7 @@
     "category": "ratchet",
     "name": "8-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Ratchet8-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-8-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1708,8 +1708,8 @@
       "de": "Das 8-70-Ratchet."
     },
     "assessment": {
-      "en": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Hasbro.",
-      "de": "8-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 8 / Verteidigung 10 / Ausdauer 12. Gewicht: 7.7g. Höhe: 70mm. Hergestellt von Hasbro."
+      "en": "8-70 is a right-spin Balance Type Ratchet. Weight: 7.7g. Height: 70mm. Manufactured by Hasbro.",
+      "de": "8-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.7g. Höhe: 70mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 70,
@@ -1729,7 +1729,7 @@
     "category": "ratchet",
     "name": "0-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/Ratchet0-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-0-80-hasbro.png",
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
     "description": {
@@ -1737,8 +1737,8 @@
       "de": "Das 0-80-Ratchet."
     },
     "assessment": {
-      "en": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "0-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 3 / Verteidigung 12 / Ausdauer 15. Gewicht: 7.6g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "0-80 is a right-spin Balance Type Ratchet. Weight: 7.6g. Height: 80mm. Manufactured by Hasbro.",
+      "de": "0-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.6g. Höhe: 80mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 80,
@@ -1758,7 +1758,7 @@
     "category": "ratchet",
     "name": "1-50",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/Ratchet1-50.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-1-50-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1766,8 +1766,8 @@
       "de": "Das 1-50-Ratchet."
     },
     "assessment": {
-      "en": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Hasbro.",
-      "de": "1-50 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 18 / Verteidigung 9 / Ausdauer 3. Gewicht: 5.7g. Höhe: 50mm. Hergestellt von Hasbro."
+      "en": "1-50 is a right-spin Balance Type Ratchet. Weight: 5.7g. Height: 50mm. Manufactured by Hasbro.",
+      "de": "1-50 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.7g. Höhe: 50mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 50,
@@ -1787,7 +1787,7 @@
     "category": "ratchet",
     "name": "9-80",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/Ratchet9-80.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-9-80-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1795,8 +1795,8 @@
       "de": "Das 9-80-Ratchet."
     },
     "assessment": {
-      "en": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "9-80 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 13 / Verteidigung 10 / Ausdauer 7. Gewicht: 6.9g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "9-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 80mm. Manufactured by Hasbro.",
+      "de": "9-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 80mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 80,
@@ -1816,7 +1816,7 @@
     "category": "ratchet",
     "name": "7-55",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet7-55.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-55-hasbro.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -1824,8 +1824,8 @@
       "de": "Das 7-55-Ratchet."
     },
     "assessment": {
-      "en": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Hasbro.",
-      "de": "7-55 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 6 / Verteidigung 14 / Ausdauer 10. Gewicht: 5.2g. Höhe: 55mm. Hergestellt von Hasbro."
+      "en": "7-55 is a right-spin Balance Type Ratchet. Weight: 5.2g. Height: 55mm. Manufactured by Hasbro.",
+      "de": "7-55 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.2g. Höhe: 55mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 55,
@@ -1845,7 +1845,7 @@
     "category": "ratchet",
     "name": "7-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/Ratchet7-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-7-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1853,8 +1853,8 @@
       "de": "Das 7-70-Ratchet."
     },
     "assessment": {
-      "en": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Hasbro.",
-      "de": "7-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 8 / Verteidigung 12 / Ausdauer 10. Gewicht: 7.3g. Höhe: 70mm. Hergestellt von Hasbro."
+      "en": "7-70 is a right-spin Balance Type Ratchet. Weight: 7.3g. Height: 70mm. Manufactured by Hasbro.",
+      "de": "7-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.3g. Höhe: 70mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 70,
@@ -1874,7 +1874,7 @@
     "category": "ratchet",
     "name": "6-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Ratchet6-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-6-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1882,8 +1882,8 @@
       "de": "Das 6-70-Ratchet."
     },
     "assessment": {
-      "en": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Hasbro.",
-      "de": "6-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 14 / Verteidigung 7 / Ausdauer 9. Gewicht: 6.3g. Höhe: 70mm. Hergestellt von Hasbro."
+      "en": "6-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 70mm. Manufactured by Hasbro.",
+      "de": "6-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 70mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 70,
@@ -1903,7 +1903,7 @@
     "category": "ratchet",
     "name": "0-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-0-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1911,8 +1911,8 @@
       "de": "Das 0-70-Ratchet."
     },
     "assessment": {
-      "en": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Hasbro.",
-      "de": "0-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 3 / Ausdauer 14. Gewicht: 7g. Höhe: 70mm. Hergestellt von Hasbro."
+      "en": "0-70 is a right-spin Balance Type Ratchet. Weight: 7g. Height: 70mm. Manufactured by Hasbro.",
+      "de": "0-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7g. Höhe: 70mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 70,
@@ -1932,7 +1932,7 @@
     "category": "ratchet",
     "name": "M-85",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/RatchetM-85.png/revision/latest",
+    "imageUrl": "/images/ratchets/ratchet-m-85-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1940,8 +1940,8 @@
       "de": "Das M-85-Ratchet."
     },
     "assessment": {
-      "en": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Hasbro.",
-      "de": "M-85 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 8 / Verteidigung 19 / Ausdauer 13. Gewicht: 10.6g. Höhe: 8.5mm. Hergestellt von Hasbro."
+      "en": "M-85 is a right-spin Balance Type Ratchet. Weight: 10.6g. Height: 8.5mm. Manufactured by Hasbro.",
+      "de": "M-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 10.6g. Höhe: 8.5mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 8.5,
@@ -1961,7 +1961,7 @@
     "category": "ratchet",
     "name": "m-85",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/M-85_%28CX-11%29.png/revision/latest?cb=20251015212445",
+    "imageUrl": "/images/ratchets/ratchet-m-85.png",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
     "description": {
@@ -1991,7 +1991,7 @@
     "category": "ratchet",
     "name": "2-70",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/Ratchet2-70.png/revision/latest?cb=20241015033717",
+    "imageUrl": "/images/ratchets/ratchet-2-70-hasbro.png",
     "releaseDate": "",
     "releaseWave": "",
     "description": {
@@ -1999,8 +1999,8 @@
       "de": "Das 2-70-Ratchet."
     },
     "assessment": {
-      "en": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Manufactured by Hasbro.",
-      "de": "2-70 ist ein rechtsdrehender Balance-Typ Ratchet. Offizielle Werte: Angriff 10 / Verteidigung 12 / Ausdauer 8. Gewicht: 6.3g. Hergestellt von Hasbro."
+      "en": "2-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Manufactured by Hasbro.",
+      "de": "2-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 6.3,

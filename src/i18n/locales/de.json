@@ -19,6 +19,16 @@
     "clear": "Suche löschen",
     "noResults": "Keine Treffer."
   },
+  "sort": {
+    "name": "Name",
+    "releaseDate": "Release",
+    "type": "Typ",
+    "batch": "Batch",
+    "attack": "Angriff",
+    "defense": "Verteidigung",
+    "stamina": "Ausdauer",
+    "balance": "Balance"
+  },
   "home": {
     "tagline": "Durchsuche offizielle Beys und Teile, baue eigene Kombinationen und teile deine Kreationen — alles offline im Browser.",
     "browseBeys": "Beys durchsuchen",
@@ -53,18 +63,27 @@
     "partNotFound": "Teil nicht gefunden.",
     "communityRatings": "Community-Bewertungen",
     "estimatedRatings": "Geschätzte Bewertungen",
-    "estimatedRatings": "Geschätzte Bewertungen",
-    "ratingsDisclaimer": "Diese Bewertungen sind Community-Schätzungen, keine offiziellen Werte.",
+    "ratingsDisclaimer": "Diese Bewertungen sind Community- und KI-Schätzungen, keine offiziellen Werte.",
     "estimatedRatingsDisclaimer": "Diese Bewertungen werden bei fehlenden Community-Daten anhand von Typ, Gewicht und Form geschätzt.",
     "weight": "Gewicht",
     "height": "Höhe",
     "spinDirection": "Drehrichtung",
     "type": "Typ",
     "spinCapability": "Spin-Fähigkeit",
-    "attack": "Attack",
-    "defense": "Defense",
-    "stamina": "Stamina",
-    "balance": "Balance"
+    "attack": "Angriff",
+    "defense": "Verteidigung",
+    "stamina": "Ausdauer",
+    "balance": "Balance",
+    "right": "rechts",
+    "left": "links",
+    "both": "beide",
+    "noAssistBlade": "Kein Assist Blade"
+  },
+  "radar": {
+    "attack": "A",
+    "defense": "D",
+    "stamina": "S",
+    "balance": "B"
   },
   "beyDetail": {
     "beyNotFound": "Bey nicht gefunden.",
@@ -125,5 +144,5 @@
     "loadingDatabase": "Datenbank wird geladen…",
     "failedDatabase": "Datenbank konnte nicht geladen werden."
   },
-  "footer": "Die angezeigten Bewertungen sind Community-Schätzungen, keine offiziellen Takara Tomy-Werte."
+  "footer": "Die angezeigten Bewertungen sind Community- und KI-Schätzungen, keine offiziellen Takara Tomy-Werte."
 }

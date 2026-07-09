@@ -4,7 +4,7 @@
     "category": "blade",
     "name": "Cobalt Drake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BladeCobaltDrake.png/revision/latest",
+    "imageUrl": "/images/blades/cobalt-drake.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -34,7 +34,7 @@
     "category": "blade",
     "name": "Dran Sword",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
+    "imageUrl": "/images/blades/dran-sword.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -64,7 +64,7 @@
     "category": "blade",
     "name": "Hells Scythe",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e4/BladeHellsScythe.png/revision/latest",
+    "imageUrl": "/images/blades/hells-scythe.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -94,7 +94,7 @@
     "category": "blade",
     "name": "Knight Shield",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/BladeKnightShield.png/revision/latest",
+    "imageUrl": "/images/blades/knight-shield.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -124,7 +124,7 @@
     "category": "blade",
     "name": "Wizard Arrow",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/44/BladeWizardArrow.png/revision/latest",
+    "imageUrl": "/images/blades/wizard-arrow.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -154,7 +154,7 @@
     "category": "blade",
     "name": "Dranzer Spiral",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ce/BladeDranzerSpiral.png/revision/latest",
+    "imageUrl": "/images/blades/dranzer-spiral.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -184,7 +184,7 @@
     "category": "blade",
     "name": "Knight Lance",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/BladeKnightLance.png/revision/latest",
+    "imageUrl": "/images/blades/knight-lance.png",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
@@ -214,7 +214,7 @@
     "category": "blade",
     "name": "Shark Edge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeSharkEdge.png/revision/latest",
+    "imageUrl": "/images/blades/shark-edge.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -244,7 +244,7 @@
     "category": "blade",
     "name": "Leon Claw",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/93/BladeLeonClaw.png/revision/latest",
+    "imageUrl": "/images/blades/leon-claw.png",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
@@ -274,7 +274,7 @@
     "category": "blade",
     "name": "Viper Tail",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeViperTail.png/revision/latest",
+    "imageUrl": "/images/blades/viper-tail.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -304,7 +304,7 @@
     "category": "blade",
     "name": "Dran Dagger",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c8/BladeDranDagger.png/revision/latest",
+    "imageUrl": "/images/blades/dran-dagger.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -334,7 +334,7 @@
     "category": "blade",
     "name": "Hells Chain",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeHellsChain.png/revision/latest",
+    "imageUrl": "/images/blades/hells-chain.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -364,7 +364,7 @@
     "category": "blade",
     "name": "Rhino Horn",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/41/BladeRhinoHorn.png/revision/latest",
+    "imageUrl": "/images/blades/rhino-horn.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -394,7 +394,7 @@
     "category": "blade",
     "name": "Phoenix Feather",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/BladePhoenixFeather.png/revision/latest",
+    "imageUrl": "/images/blades/phoenix-feather.png",
     "releaseDate": "2025-06-15",
     "releaseWave": "BX",
     "description": {
@@ -424,7 +424,7 @@
     "category": "blade",
     "name": "Phoenix Wing",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladePhoenixWing.png/revision/latest",
+    "imageUrl": "/images/blades/phoenix-wing.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -454,7 +454,7 @@
     "category": "blade",
     "name": "Wyvern Gale",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/BladeWyvernGale.png/revision/latest",
+    "imageUrl": "/images/blades/wyvern-gale.png",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": {
@@ -484,7 +484,7 @@
     "category": "blade",
     "name": "Unicorn Sting",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeUnicornSting.png/revision/latest",
+    "imageUrl": "/images/blades/unicorn-sting.png",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": {
@@ -514,7 +514,7 @@
     "category": "blade",
     "name": "Sphinx Cowl",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/31/BladeSphinxCowl.png/revision/latest",
+    "imageUrl": "/images/blades/sphinx-cowl.png",
     "releaseDate": "2024-02-22",
     "releaseWave": "BX",
     "description": {
@@ -544,7 +544,7 @@
     "category": "blade",
     "name": "Dran Buster",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
+    "imageUrl": "/images/blades/dran-buster.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -574,7 +574,7 @@
     "category": "blade",
     "name": "Hells Hammer",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
+    "imageUrl": "/images/blades/hells-hammer.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -604,7 +604,7 @@
     "category": "blade",
     "name": "Wizard Rod",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a3/BladeWizardRod.png/revision/latest",
+    "imageUrl": "/images/blades/wizard-rod.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -634,7 +634,7 @@
     "category": "blade",
     "name": "Driger Slash",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c5/BladeDrigerSlash.png/revision/latest",
+    "imageUrl": "/images/blades/driger-slash.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -664,7 +664,7 @@
     "category": "blade",
     "name": "Tyranno Beat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/BladeTyrannoBeat.png/revision/latest",
+    "imageUrl": "/images/blades/tyranno-beat.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -694,7 +694,7 @@
     "category": "blade",
     "name": "Shinobi Shadow",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeShinobiShadow.png/revision/latest",
+    "imageUrl": "/images/blades/shinobi-shadow.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -724,7 +724,7 @@
     "category": "blade",
     "name": "MammothTusk",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/MammothTusk_2-80E.png/revision/latest",
+    "imageUrl": "/images/blades/mammoth-tusk.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -754,7 +754,7 @@
     "category": "blade",
     "name": "ShinobiKnife",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/BladeKnifeShinobi.png/revision/latest",
+    "imageUrl": "/images/blades/shinobi-knife.png",
     "releaseDate": "2025-02-26",
     "releaseWave": "BX",
     "description": {
@@ -784,7 +784,7 @@
     "category": "blade",
     "name": "PteraSwing",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
+    "imageUrl": "/images/blades/ptera-swing.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "UX-10",
     "description": {
@@ -814,7 +814,7 @@
     "category": "blade",
     "name": "SamuraiSteel",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/SamuraiSteel_5-70GF.jpg/revision/latest",
+    "imageUrl": "/images/blades/samurai-steel.png",
     "releaseDate": "2025-05-15",
     "releaseWave": "BX-00",
     "description": {
@@ -844,7 +844,7 @@
     "category": "blade",
     "name": "Weiss Tiger",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BladeWeissTiger.png/revision/latest",
+    "imageUrl": "/images/blades/weiss-tiger.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -874,7 +874,7 @@
     "category": "blade",
     "name": "Cobalt Dragoon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/BladeCobaltDragoon.png/revision/latest",
+    "imageUrl": "/images/blades/cobalt-dragoon.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -904,7 +904,7 @@
     "category": "blade",
     "name": "Black Shell",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
+    "imageUrl": "/images/blades/black-shell.png",
     "releaseDate": "2024-07-13",
     "releaseWave": "BX",
     "description": {
@@ -934,7 +934,7 @@
     "category": "blade",
     "name": "Optimus Prime",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BladeOptimusPrime.png/revision/latest",
+    "imageUrl": "/images/blades/optimus-prime.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -964,7 +964,7 @@
     "category": "blade",
     "name": "Starscream",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeStarscream.png/revision/latest",
+    "imageUrl": "/images/blades/starscream.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -994,7 +994,7 @@
     "category": "blade",
     "name": "Optimus Primal",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d4/BladeOptimusPrimal.png/revision/latest",
+    "imageUrl": "/images/blades/optimus-primal.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1024,7 +1024,7 @@
     "category": "blade",
     "name": "Megatron",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BladeMegatron.png/revision/latest",
+    "imageUrl": "/images/blades/megatron.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1054,7 +1054,7 @@
     "category": "blade",
     "name": "Aero Pegasus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeAeroPegasus.png/revision/latest",
+    "imageUrl": "/images/blades/aero-pegasus.png",
     "releaseDate": "2024-07-30",
     "releaseWave": "UX",
     "description": {
@@ -1084,7 +1084,7 @@
     "category": "blade",
     "name": "Leon Crest",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
+    "imageUrl": "/images/blades/leon-crest.png",
     "releaseDate": "2024-07-30",
     "releaseWave": "UX",
     "description": {
@@ -1114,7 +1114,7 @@
     "category": "blade",
     "name": "Phoenix Rudder",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
+    "imageUrl": "/images/blades/phoenix-rudder.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "UX",
     "description": {
@@ -1144,7 +1144,7 @@
     "category": "blade",
     "name": "Croco Crunch",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a4/CrocoCrunch_2-60Q.jpg/revision/latest",
+    "imageUrl": "/images/blades/croco-crunch.png",
     "releaseDate": "2025-03-15",
     "releaseWave": "BX",
     "description": {
@@ -1174,7 +1174,7 @@
     "category": "blade",
     "name": "Yell Kong",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/03/Yell_Kong_3-60GB.jpeg/revision/latest",
+    "imageUrl": "/images/blades/yell-kong.png",
     "releaseDate": "2025-03-15",
     "releaseWave": "BX",
     "description": {
@@ -1204,7 +1204,7 @@
     "category": "blade",
     "name": "Iron Man",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeIronMan.png/revision/latest",
+    "imageUrl": "/images/blades/iron-man.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1234,7 +1234,7 @@
     "category": "blade",
     "name": "Thanos",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ef/BladeThanos.png/revision/latest",
+    "imageUrl": "/images/blades/thanos.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1264,7 +1264,7 @@
     "category": "blade",
     "name": "Spider-Man",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a5/BladeSpiderMan.png/revision/latest",
+    "imageUrl": "/images/blades/spider-man.png",
     "releaseDate": "2024-08-01",
     "releaseWave": "BX",
     "description": {
@@ -1294,7 +1294,7 @@
     "category": "blade",
     "name": "Venom",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/BladeVenom.png/revision/latest",
+    "imageUrl": "/images/blades/venom.png",
     "releaseDate": "2024-08-01",
     "releaseWave": "BX",
     "description": {
@@ -1324,7 +1324,7 @@
     "category": "blade",
     "name": "Luke Skywalker",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/71/BladeLukeSkywalker.png/revision/latest",
+    "imageUrl": "/images/blades/luke-skywalker.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1354,7 +1354,7 @@
     "category": "blade",
     "name": "Darth Vader",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeDarthVader.png/revision/latest",
+    "imageUrl": "/images/blades/darth-vader.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1384,7 +1384,7 @@
     "category": "blade",
     "name": "Moff Gideon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b6/BladeMoffGideon.png/revision/latest",
+    "imageUrl": "/images/blades/moff-gideon.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1414,7 +1414,7 @@
     "category": "blade",
     "name": "The Mandalorian",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest",
+    "imageUrl": "/images/blades/the-mandalorian.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1444,7 +1444,7 @@
     "category": "blade",
     "name": "Whale Wave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeWhaleWave.png/revision/latest",
+    "imageUrl": "/images/blades/whale-wave.png",
     "releaseDate": "2024-08-10",
     "releaseWave": "BX",
     "description": {
@@ -1474,7 +1474,7 @@
     "category": "blade",
     "name": "L-Drago: Upper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeLightningL-Drago(UpperType).png/revision/latest",
+    "imageUrl": "/images/blades/l-drago-upper.png",
     "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
@@ -1504,7 +1504,7 @@
     "category": "blade",
     "name": "L-Drago: Rapid Hit",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5b/BladeLightningL-Drago(Rapid-HitType).png/revision/latest",
+    "imageUrl": "/images/blades/l-drago-rapid-hit.png",
     "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
@@ -1534,7 +1534,7 @@
     "category": "blade",
     "name": "Bear Scratch",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/BearScratch_(BX-37).png/revision/latest",
+    "imageUrl": "/images/blades/bear-scratch.png",
     "releaseDate": "2024-10-12",
     "releaseWave": "BX",
     "description": {
@@ -1564,7 +1564,7 @@
     "category": "blade",
     "name": "Roar Tyranno",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeRoar.png/revision/latest",
+    "imageUrl": "/images/blades/roar-tyranno.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1594,7 +1594,7 @@
     "category": "blade",
     "name": "Silver Wolf",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
+    "imageUrl": "/images/blades/silver-wolf.png",
     "releaseDate": "2024-10-01",
     "releaseWave": "UX",
     "description": {
@@ -1624,7 +1624,7 @@
     "category": "blade",
     "name": "Crimson Garuda",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
+    "imageUrl": "/images/blades/crimson-garuda.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "BX",
     "description": {
@@ -1654,7 +1654,7 @@
     "category": "blade",
     "name": "Samurai Saber",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/de/BladeSamuraiSaber.png/revision/latest",
+    "imageUrl": "/images/blades/samurai-saber.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "UX",
     "description": {
@@ -1684,7 +1684,7 @@
     "category": "blade",
     "name": "Knight Mail",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
+    "imageUrl": "/images/blades/knight-mail.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "UX",
     "description": {
@@ -1714,7 +1714,7 @@
     "category": "blade",
     "name": "Draciel Shield",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
+    "imageUrl": "/images/blades/draciel-shield.png",
     "releaseDate": "2024-10-01",
     "releaseWave": "BX",
     "description": {
@@ -1744,7 +1744,7 @@
     "category": "blade",
     "name": "Impact Drake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/BladeImpactDrake.png/revision/latest",
+    "imageUrl": "/images/blades/impact-drake.png",
     "releaseDate": "2024-04-27",
     "releaseWave": "UX",
     "description": {
@@ -1774,7 +1774,7 @@
     "category": "blade",
     "name": "Ghost Circle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
+    "imageUrl": "/images/blades/ghost-circle.png",
     "releaseDate": "2024-12-01",
     "releaseWave": "UX",
     "description": {
@@ -1804,7 +1804,7 @@
     "category": "blade",
     "name": "Golem Rock",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/BladeGolemRock.png/revision/latest",
+    "imageUrl": "/images/blades/golem-rock.png",
     "releaseDate": "2025-01-25",
     "releaseWave": "UX",
     "description": {
@@ -1812,8 +1812,8 @@
       "de": "Ein rechtsschwingender Defense-Type-Blade aus der Unique Line mit sechs Hauptkontaktpunkten und einer dicken, stoßabsorbierenden Struktur. Die verbesserte Außenlastverteilung verleiht ihm für einen Defense-Teil überraschend viel Stamina und Gegenangriffspotenzial."
     },
     "assessment": {
-      "en": "Golem Rock is a bulky defensive Blade that absorbs impacts well and can outlast lighter attackers. Official stats: Attack 30 / Defense 60 / Stamina 10. Weight: 34g. Ratings based on community data.",
-      "de": "Golem Rock ist ein klobiger Defensiv-Blade, der Stöße gut absorbiert und leichtere Angreifer überdauern kann. Offizielle Werte: Angriff 30 / Verteidigung 60 / Stamina 10. Gewicht: 34 g. Bewertungen basieren auf Community-Daten."
+      "en": "Golem Rock is a bulky defensive Blade that absorbs impacts well and can outlast lighter attackers. Weight: 34g. Ratings based on community data.",
+      "de": "Golem Rock ist ein klobiger Defensiv-Blade, der Stöße gut absorbiert und leichtere Angreifer überdauern kann. Gewicht: 34 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 34,
@@ -1834,7 +1834,7 @@
     "category": "blade",
     "name": "Shelter Drake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeShelterDrake.png/revision/latest",
+    "imageUrl": "/images/blades/shelter-drake.png",
     "releaseDate": "2025-02-15",
     "releaseWave": "BX",
     "description": {
@@ -1842,8 +1842,8 @@
       "de": "Ein rechtsschwingender Balance-Type-Blade aus der Basic Line mit einer markanten ovalen Form. Er ist eine X-Over-Project-Hommage an Ultimate Dragoon und kann für einen Balance-Teil überraschend starke Smash-Angriffe liefern."
     },
     "assessment": {
-      "en": "Shelter Drake offers a mix of evasion, defense and decent stamina. Its oval profile creates random but exciting knockout potential. Official stats: Attack 25 / Defense 40 / Stamina 35. Weight: 32.6g. Ratings based on community data.",
-      "de": "Shelter Drake bietet eine Mischung aus Ausweichmanövern, Verteidigung und ordentlicher Stamina. Das ovale Profil sorgt für zufälliges, aber aufregendes Knockout-Potenzial. Offizielle Werte: Angriff 25 / Verteidigung 40 / Stamina 35. Gewicht: 32,6 g. Bewertungen basieren auf Community-Daten."
+      "en": "Shelter Drake offers a mix of evasion, defense and decent stamina. Its oval profile creates random but exciting knockout potential. Weight: 32.6g. Ratings based on community data.",
+      "de": "Shelter Drake bietet eine Mischung aus Ausweichmanövern, Verteidigung und ordentlicher Stamina. Das ovale Profil sorgt für zufälliges, aber aufregendes Knockout-Potenzial. Gewicht: 32,6 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 32.6,
@@ -1864,7 +1864,7 @@
     "category": "blade",
     "name": "Dragoon Storm",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c4/BladeDragoonStorm.png/revision/latest",
+    "imageUrl": "/images/blades/dragoon-storm.png",
     "releaseDate": "2025-03-21",
     "releaseWave": "BX",
     "description": {
@@ -1872,8 +1872,8 @@
       "de": "Ein linksschwingender Attack-Type-Blade aus der Basic Line und eine X-Over-Project-Adaption des originalen Dragoon S. Er behält die quadratische Form mit vier Drachenköpfen und zusätzlichen Kontaktpunkten, die vom Eight-Wide-Weight-Disk inspiriert sind."
     },
     "assessment": {
-      "en": "Dragoon Storm is a light but aggressive left-spin Attack Blade. Its wide shape produces strong smash attack, but low weight makes it vulnerable to heavier opponents. Official stats: Attack 55 / Defense 30 / Stamina 15. Weight: 25.1g. Ratings based on community data.",
-      "de": "Dragoon Storm ist ein leichter, aber aggressiver linksschwingender Attack-Blade. Die breite Form erzeugt starke Smash-Angriffe, aber das geringe Gewicht macht ihn gegen schwerere Gegner verwundbar. Offizielle Werte: Angriff 55 / Verteidigung 30 / Stamina 15. Gewicht: 25,1 g. Bewertungen basieren auf Community-Daten."
+      "en": "Dragoon Storm is a light but aggressive left-spin Attack Blade. Its wide shape produces strong smash attack, but low weight makes it vulnerable to heavier opponents. Weight: 25.1g. Ratings based on community data.",
+      "de": "Dragoon Storm ist ein leichter, aber aggressiver linksschwingender Attack-Blade. Die breite Form erzeugt starke Smash-Angriffe, aber das geringe Gewicht macht ihn gegen schwerere Gegner verwundbar. Gewicht: 25,1 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 25.1,
@@ -1894,7 +1894,7 @@
     "category": "blade",
     "name": "Storm Pegasis",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/43/BladeStormPegasis.png/revision/latest",
+    "imageUrl": "/images/blades/storm-pegasis.png",
     "releaseDate": "2025-03-21",
     "releaseWave": "BX",
     "description": {
@@ -1902,8 +1902,8 @@
       "de": "Ein rechtsschwingender Attack-Type-Blade aus der Basic Line und eine X-Over-Project-Adaption des originalen Storm Pegasis. Er kombiniert das Pegasis-I-Motiv mit einem dreiflügeligen Design für starke Smash-Angriffe."
     },
     "assessment": {
-      "en": "Storm Pegasis delivers aggressive smash attack but sacrifices stamina and defense. Official stats: Attack 55 / Defense 15 / Stamina 30. Weight: 31g. Ratings based on community data.",
-      "de": "Storm Pegasis liefert aggressiven Smash-Angriff, opfert aber Stamina und Verteidigung. Offizielle Werte: Angriff 55 / Verteidigung 15 / Stamina 30. Gewicht: 31 g. Bewertungen basieren auf Community-Daten."
+      "en": "Storm Pegasis delivers aggressive smash attack but sacrifices stamina and defense. Weight: 31g. Ratings based on community data.",
+      "de": "Storm Pegasis liefert aggressiven Smash-Angriff, opfert aber Stamina und Verteidigung. Gewicht: 31 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31,
@@ -1932,8 +1932,8 @@
       "de": "Ein rechtsschwingender Attack-Type-Blade aus der Basic Line und eine X-Over-Project-Adaption des Burst-Victory-Valkyrie-Layers. Er verfügt über drei flügelartige Klingen, die für aggressive Upper- und Smash-Angriffe ausgelegt sind."
     },
     "assessment": {
-      "en": "Victory Valkyrie is a fast, hard-hitting Attack Blade. Its contact points generate strong upper attack, but the shape creates recoil. Official stats: Attack 55 / Defense 20 / Stamina 25. Weight: 33.2g. Ratings based on community data.",
-      "de": "Victory Valkyrie ist ein schneller, hart zuschlagender Attack-Blade. Die Kontaktpunkte erzeugen starke Upper-Attacks, aber die Form erzeugt Rückstoß. Offizielle Werte: Angriff 55 / Verteidigung 20 / Stamina 25. Gewicht: 33,2 g. Bewertungen basieren auf Community-Daten."
+      "en": "Victory Valkyrie is a fast, hard-hitting Attack Blade. Its contact points generate strong upper attack, but the shape creates recoil. Weight: 33.2g. Ratings based on community data.",
+      "de": "Victory Valkyrie ist ein schneller, hart zuschlagender Attack-Blade. Die Kontaktpunkte erzeugen starke Upper-Attacks, aber die Form erzeugt Rückstoß. Gewicht: 33,2 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 33.2,
@@ -1954,7 +1954,7 @@
     "category": "blade",
     "name": "Xeno Xcalibur",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bb/BladeXenoXcalibur.png/revision/latest",
+    "imageUrl": "/images/blades/xeno-xcalibur.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "BX",
     "description": {
@@ -1962,8 +1962,8 @@
       "de": "Ein rechtsschwingender Attack-Type-Blade aus der Basic Line und eine X-Over-Project-Adaption des Burst-Xeno-Xcalibur. Der schwertförmige Hauptkontaktpunkt ist für harte Treffer ausgelegt."
     },
     "assessment": {
-      "en": "Xeno Xcalibur focuses almost entirely on attack power. The large sword contact point can deliver devastating blows, but low stamina and high recoil limit its consistency. Official stats: Attack 65 / Defense 25 / Stamina 10. Weight: 31g. Ratings based on community data.",
-      "de": "Xeno Xcalibur konzentriert sich fast ausschließlich auf Angriffskraft. Der große Schwert-Kontaktpunkt kann verheerende Schläge austeilen, aber geringe Stamina und hoher Rückstoß begrenzen seine Konstanz. Offizielle Werte: Angriff 65 / Verteidigung 25 / Stamina 10. Gewicht: 31 g. Bewertungen basieren auf Community-Daten."
+      "en": "Xeno Xcalibur focuses almost entirely on attack power. The large sword contact point can deliver devastating blows, but low stamina and high recoil limit its consistency. Weight: 31g. Ratings based on community data.",
+      "de": "Xeno Xcalibur konzentriert sich fast ausschließlich auf Angriffskraft. Der große Schwert-Kontaktpunkt kann verheerende Schläge austeilen, aber geringe Stamina und hoher Rückstoß begrenzen seine Konstanz. Gewicht: 31 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31,
@@ -1984,7 +1984,7 @@
     "category": "blade",
     "name": "Scorpio Spear",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest",
+    "imageUrl": "/images/blades/scorpio-spear.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "UX",
     "description": {
@@ -2014,7 +2014,7 @@
     "category": "blade",
     "name": "Hover Wyvern",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/WyvernHover_2-80GN_Metal_Coat_Violet.png/revision/latest",
+    "imageUrl": "/images/blades/hover-wyvern.png",
     "releaseDate": "2025-10-24",
     "releaseWave": "UX",
     "description": {
@@ -2022,8 +2022,8 @@
       "de": "Ein rechtsschwingender Defense-Type-Blade aus der Unique Line mit ovaler Form und 'Top-Down-Control'-Kontaktpunkten. Ursprünglich von Hasbro als Hover Wyvern veröffentlicht, dann von Takara Tomy als WyvernHover. Die aggressive ovale Form macht ihn auch für Attack-Combos brauchbar."
     },
     "assessment": {
-      "en": "Hover Wyvern is officially labeled Defense, but its oval, smash-friendly profile is often used in attack combinations. Official stats: Attack 13 / Defense 60 / Stamina 27. Weight: ~35g. Ratings based on community data.",
-      "de": "Hover Wyvern ist offiziell als Defense eingestuft, aber sein ovaler, smash-freundlicher Profil wird oft in Attack-Kombinationen verwendet. Offizielle Werte: Angriff 13 / Verteidigung 60 / Stamina 27. Gewicht: ~35 g. Bewertungen basieren auf Community-Daten."
+      "en": "Hover Wyvern is officially labeled Defense, but its oval, smash-friendly profile is often used in attack combinations. Weight: ~35g. Ratings based on community data.",
+      "de": "Hover Wyvern ist offiziell als Defense eingestuft, aber sein ovaler, smash-freundlicher Profil wird oft in Attack-Kombinationen verwendet. Gewicht: ~35 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 35,
@@ -2044,7 +2044,7 @@
     "category": "blade",
     "name": "Shark Gill",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeSharkGill.png/revision/latest",
+    "imageUrl": "/images/blades/shark-gill.png",
     "releaseDate": "2025-06",
     "releaseWave": "BX",
     "description": {
@@ -2074,7 +2074,7 @@
     "category": "blade",
     "name": "Tricera Press",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeTriceraPress.png/revision/latest",
+    "imageUrl": "/images/blades/tricera-press.png",
     "releaseDate": "2025-06-28",
     "releaseWave": "BX",
     "description": {
@@ -2104,7 +2104,7 @@
     "category": "blade",
     "name": "Rock Leone",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a2/BladeRockLeone.png/revision/latest",
+    "imageUrl": "/images/blades/rock-leone.png",
     "releaseDate": "2025-07-23",
     "releaseWave": "BX",
     "description": {
@@ -2134,7 +2134,7 @@
     "category": "blade",
     "name": "Samurai Calibur",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeSamuraiCalibur.png/revision/latest",
+    "imageUrl": "/images/blades/samurai-calibur.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "BX",
     "description": {
@@ -2164,7 +2164,7 @@
     "category": "blade",
     "name": "Shark Scale",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e0/BladeSharkScale.png/revision/latest",
+    "imageUrl": "/images/blades/shark-scale.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX",
     "description": {
@@ -2172,8 +2172,8 @@
       "de": "Ein rechtsschwingender Attack-Type-Blade aus der Unique Line mit zwei großen Hauptkontaktpunkten. Das aggressive Design liefert hohes Knockout- und Burst-Attack-Potenzial und ist ein Top-Teil in Infinity-Stadium-Stamina-Attack-Hybrids. Hasbro-Release: Scale Shark."
     },
     "assessment": {
-      "en": "Shark Scale is a heavy, hard-hitting Attack Blade with devastating smash power. Low stamina and high recoil require careful combo building. Official stats: Attack 70 / Defense 15 / Stamina 15. Weight: 37.6g. Ratings based on community data.",
-      "de": "Shark Scale ist ein schwerer, hart zuschlagender Attack-Blade mit verheerender Smash-Kraft. Geringe Stamina und hoher Rückstoß erfordern sorgfältiges Combo-Building. Offizielle Werte: Angriff 70 / Verteidigung 15 / Stamina 15. Gewicht: 37,6 g. Bewertungen basieren auf Community-Daten."
+      "en": "Shark Scale is a heavy, hard-hitting Attack Blade with devastating smash power. Low stamina and high recoil require careful combo building. Weight: 37.6g. Ratings based on community data.",
+      "de": "Shark Scale ist ein schwerer, hart zuschlagender Attack-Blade mit verheerender Smash-Kraft. Geringe Stamina und hoher Rückstoß erfordern sorgfältiges Combo-Building. Gewicht: 37,6 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 37.6,
@@ -2194,7 +2194,7 @@
     "category": "blade",
     "name": "Goat Tackle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladeGoatTackle.png/revision/latest",
+    "imageUrl": "/images/blades/goat-tackle.png",
     "releaseDate": "2025-10-11",
     "releaseWave": "BX",
     "description": {
@@ -2224,7 +2224,7 @@
     "category": "blade",
     "name": "Captain America",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8d/Captain_America_4-70GB.jpeg/revision/latest",
+    "imageUrl": "/images/blades/captain-america.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2254,7 +2254,7 @@
     "category": "blade",
     "name": "Red Hulk",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/Red_Hulk_1-80R.jpeg/revision/latest",
+    "imageUrl": "/images/blades/red-hulk.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2284,7 +2284,7 @@
     "category": "blade",
     "name": "Obi-Wan Kenobi",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/ba/Obi-Wan_Kenobi_4-60P.jpeg/revision/latest",
+    "imageUrl": "/images/blades/obi-wan-kenobi.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2314,7 +2314,7 @@
     "category": "blade",
     "name": "General Grievous",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/General_Grievous_3-80HN.jpeg/revision/latest",
+    "imageUrl": "/images/blades/general-grievous.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2344,7 +2344,7 @@
     "category": "blade",
     "name": "Bumblebee",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/Bumblebee_3-60GP.jpeg/revision/latest",
+    "imageUrl": "/images/blades/bumblebee.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2352,8 +2352,8 @@
       "de": "Ein rechtsschwingender Defense-Type-Blade aus der Basic Line, von Hasbro als Teil der Transformers-Collab veröffentlicht. Er ist im Bumblebee-vs.-Shockwave-Multipack enthalten."
     },
     "assessment": {
-      "en": "Bumblebee is a defensive Transformers Collab Blade with good defensive stats but limited stamina. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Ratings based on community data.",
-      "de": "Bumblebee ist ein defensiver Transformers-Collab-Blade mit guten Verteidigungswerten aber limitierter Stamina. Offizielle Werte: Angriff 21 / Verteidigung 55 / Stamina 24. Gewicht: 31,8 g. Bewertungen basieren auf Community-Daten."
+      "en": "Bumblebee is a defensive Transformers Collab Blade with good defensive stats but limited stamina. Weight: 31.8g. Ratings based on community data.",
+      "de": "Bumblebee ist ein defensiver Transformers-Collab-Blade mit guten Verteidigungswerten aber limitierter Stamina. Gewicht: 31,8 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31.8,
@@ -2374,7 +2374,7 @@
     "category": "blade",
     "name": "Shockwave",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Shockwave_5-80O.jpeg/revision/latest",
+    "imageUrl": "/images/blades/shockwave.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2382,8 +2382,8 @@
       "de": "Ein rechtsschwingender Stamina-Type-Blade aus der Basic Line, von Hasbro als Teil der Transformers-Collab veröffentlicht. Er ist im Bumblebee-vs.-Shockwave-Multipack enthalten."
     },
     "assessment": {
-      "en": "Shockwave is a stamina-focused Transformers Collab Blade with above-average spin endurance. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Ratings based on community data.",
-      "de": "Shockwave ist ein stamina-fokussierter Transformers-Collab-Blade mit überdurchschnittlicher Spin-Ausdauer. Offizielle Werte: Angriff 32 / Verteidigung 18 / Stamina 50. Gewicht: 32,3 g. Bewertungen basieren auf Community-Daten."
+      "en": "Shockwave is a stamina-focused Transformers Collab Blade with above-average spin endurance. Weight: 32.3g. Ratings based on community data.",
+      "de": "Shockwave ist ein stamina-fokussierter Transformers-Collab-Blade mit überdurchschnittlicher Spin-Ausdauer. Gewicht: 32,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 32.3,
@@ -2404,7 +2404,7 @@
     "category": "blade",
     "name": "Miles Morales",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Miles_Morales_1-60GN.jpeg/revision/latest",
+    "imageUrl": "/images/blades/miles-morales.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2434,7 +2434,7 @@
     "category": "blade",
     "name": "Green Goblin",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/95/Green_Goblin_9-80HT.jpeg/revision/latest",
+    "imageUrl": "/images/blades/green-goblin.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2464,7 +2464,7 @@
     "category": "blade",
     "name": "Clock Mirage",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeClockMirage.png/revision/latest",
+    "imageUrl": "/images/blades/clock-mirage.png",
     "releaseDate": "2025-10-11",
     "releaseWave": "UX",
     "description": {
@@ -2472,8 +2472,8 @@
       "de": "Ein rechtsschwingender Stamina-Type-Blade aus der Unique Line mit einem uhrenartigen Design. Er bietet außergewöhnliches Stamina-Potenzial, aber auch ausgeprägte Stärken und Schwächen, die ihn zu einem spezialisierten kompetitiven Pick machen."
     },
     "assessment": {
-      "en": "Clock Mirage is a stamina monster with minimal attack and defense. Its extreme stat spread makes it a high-risk, high-reward choice. Official stats: Attack 10 / Defense 10 / Stamina 80. Weight: 37.7g. Ratings based on community data.",
-      "de": "Clock Mirage ist ein Stamina-Monster mit minimalem Angriff und Verteidigung. Die extreme Stat-Verteilung macht ihn zu einer riskanten, aber lohnenden Wahl. Offizielle Werte: Angriff 10 / Verteidigung 10 / Stamina 80. Gewicht: 37,7 g. Bewertungen basieren auf Community-Daten."
+      "en": "Clock Mirage is a stamina monster with minimal attack and defense. Its extreme stat spread makes it a high-risk, high-reward choice. Weight: 37.7g. Ratings based on community data.",
+      "de": "Clock Mirage ist ein Stamina-Monster mit minimalem Angriff und Verteidigung. Die extreme Stat-Verteilung macht ihn zu einer riskanten, aber lohnenden Wahl. Gewicht: 37,7 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 37.7,
@@ -2494,7 +2494,7 @@
     "category": "blade",
     "name": "Chewbacca",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/Chewbacca_4-80LF.jpeg/revision/latest",
+    "imageUrl": "/images/blades/chewbacca.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2502,8 +2502,8 @@
       "de": "Ein rechtsschwingender Stamina-Type-Blade aus der Basic Line, von Hasbro als Teil der Star-Wars-Collab veröffentlicht. Er ist im Chewbacca-4-80LF-vs.-Stormtrooper-5-70B-Multipack enthalten."
     },
     "assessment": {
-      "en": "Chewbacca is a Star Wars Collab Stamina Blade with solid spin endurance. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Ratings based on community data.",
-      "de": "Chewbacca ist ein Star-Wars-Collab-Stamina-Blade mit solider Spin-Ausdauer. Offizielle Werte: Angriff 22 / Verteidigung 23 / Stamina 55. Gewicht: 31,8 g. Bewertungen basieren auf Community-Daten."
+      "en": "Chewbacca is a Star Wars Collab Stamina Blade with solid spin endurance. Weight: 31.8g. Ratings based on community data.",
+      "de": "Chewbacca ist ein Star-Wars-Collab-Stamina-Blade mit solider Spin-Ausdauer. Gewicht: 31,8 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31.8,
@@ -2524,7 +2524,7 @@
     "category": "blade",
     "name": "Stormtrooper",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Stormtrooper_5-70B.jpeg/revision/latest",
+    "imageUrl": "/images/blades/stormtrooper.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2532,8 +2532,8 @@
       "de": "Ein rechtsschwingender Defense-Type-Blade aus der Basic Line, von Hasbro als Teil der Star-Wars-Collab veröffentlicht. Er ist im Chewbacca-4-80LF-vs.-Stormtrooper-5-70B-Multipack enthalten."
     },
     "assessment": {
-      "en": "Stormtrooper is a defensive Star Wars Collab Blade with good stamina for its type. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Ratings based on community data.",
-      "de": "Stormtrooper ist ein defensiver Star-Wars-Collab-Blade mit guter Stamina für seinen Typ. Offizielle Werte: Angriff 18 / Verteidigung 50 / Stamina 32. Gewicht: 33,3 g. Bewertungen basieren auf Community-Daten."
+      "en": "Stormtrooper is a defensive Star Wars Collab Blade with good stamina for its type. Weight: 33.3g. Ratings based on community data.",
+      "de": "Stormtrooper ist ein defensiver Star-Wars-Collab-Blade mit guter Stamina für seinen Typ. Gewicht: 33,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 33.3,
@@ -2554,7 +2554,7 @@
     "category": "blade",
     "name": "Stun Medusa",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dd/Stun_Medusa_9-60GB.jpeg/revision/latest",
+    "imageUrl": "/images/blades/stun-medusa.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2584,7 +2584,7 @@
     "category": "blade",
     "name": "Meteor Dragoon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b7/BladeMeteorDragoon.png/revision/latest",
+    "imageUrl": "/images/blades/meteor-dragoon.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX",
     "description": {
@@ -2592,8 +2592,8 @@
       "de": "Ein linksschwingender Attack-Type-Blade aus der Unique Line und der zweite Dragoon-Blade nach Cobalt Dragoon. Er verfügt über drei unterschiedlich geformte Klingen mit einem großen Gummivorsprung für Spin-Stealing und mächtige One-Hit-Kill-Angriffe. Hasbro-Release: Meteoroid Dragoon."
     },
     "assessment": {
-      "en": "Meteor Dragoon is a heavy left-spin attacker with devastating power. The rubber jaw absorbs spin and the large contact point can deliver knockout blows, but the unbalanced design can be inconsistent. Official stats: Attack 75 / Defense 15 / Stamina 35. Weight: 39g. Ratings based on community data.",
-      "de": "Meteor Dragoon ist ein schwerer linksschwingender Angreifer mit verheerender Kraft. Der Gummikiefer absorbiert Spin und der große Kontaktpunkt kann Knockout-Schäge austeilen, aber das unausgewogene Design kann inkonsistent sein. Offizielle Werte: Angriff 75 / Verteidigung 15 / Stamina 35. Gewicht: 39 g. Bewertungen basieren auf Community-Daten."
+      "en": "Meteor Dragoon is a heavy left-spin attacker with devastating power. The rubber jaw absorbs spin and the large contact point can deliver knockout blows, but the unbalanced design can be inconsistent. Weight: 39g. Ratings based on community data.",
+      "de": "Meteor Dragoon ist ein schwerer linksschwingender Angreifer mit verheerender Kraft. Der Gummikiefer absorbiert Spin und der große Kontaktpunkt kann Knockout-Schäge austeilen, aber das unausgewogene Design kann inkonsistent sein. Gewicht: 39 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 39,
@@ -2614,7 +2614,7 @@
     "category": "blade",
     "name": "Mummy Curse",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeMummyCurse.png/revision/latest",
+    "imageUrl": "/images/blades/mummy-curse.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX",
     "description": {
@@ -2622,8 +2622,8 @@
       "de": "Ein rechtsschwingender Defense-Type-Blade aus der Unique Line mit einer vierseitigen Form und einem Counter-Form-/Guard-Form-Gimmick. Bei hoher Spin-Geschwindigkeit fährt die Counter-Klinge für Gegenangriffe aus; bei niedrigerer Geschwindigkeit zieht sie sich für reine Verteidigung zurück. Hasbro-Release: Curse Mummy."
     },
     "assessment": {
-      "en": "Mummy Curse is a versatile defensive Blade with a unique mode-change gimmick. Its Counter Form can surprise aggressive opponents, while Guard Form provides stability. Official stats: Attack 30 / Defense 60 / Stamina 20. Weight: 37.5g. Ratings based on community data.",
-      "de": "Mummy Curse ist ein vielseitiger Defensiv-Blade mit einem einzigartigen Moduswechsel-Gimmick. Die Counter-Form kann aggressive Gegner überraschen, während die Guard-Form Stabilität bietet. Offizielle Werte: Angriff 30 / Verteidigung 60 / Stamina 20. Gewicht: 37,5 g. Bewertungen basieren auf Community-Daten."
+      "en": "Mummy Curse is a versatile defensive Blade with a unique mode-change gimmick. Its Counter Form can surprise aggressive opponents, while Guard Form provides stability. Weight: 37.5g. Ratings based on community data.",
+      "de": "Mummy Curse ist ein vielseitiger Defensiv-Blade mit einem einzigartigen Moduswechsel-Gimmick. Die Counter-Form kann aggressive Gegner überraschen, während die Guard-Form Stabilität bietet. Gewicht: 37,5 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 37.5,
@@ -2644,7 +2644,7 @@
     "category": "blade",
     "name": "Orochi Cluster",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeOrochiCluster.png/revision/latest",
+    "imageUrl": "/images/blades/orochi-cluster.png",
     "releaseDate": "2025",
     "releaseWave": "UX",
     "description": {
@@ -2674,7 +2674,7 @@
     "category": "blade",
     "name": "Storm Spriggan",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladeStormSpriggan.png/revision/latest",
+    "imageUrl": "/images/blades/storm-spriggan.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "BX",
     "description": {
@@ -2682,8 +2682,8 @@
       "de": "Ein rechtsschwingender Balance-Type-Blade aus der Basic Line und ein X-Over-Project-Remake des Burst-Storm-Spriggan-Layers. Er kombiniert zwei obere Attack-Klingen und zwei untere Defense-Klingen für ein ausgewogenes offensives und defensives Profil."
     },
     "assessment": {
-      "en": "Storm Spriggan offers a balanced mix of attack and defense, but its moderate weight limits top-tier competitiveness. Official stats: Attack 30 / Defense 40 / Stamina 30. Weight: 31g. Ratings based on community data.",
-      "de": "Storm Spriggan bietet eine ausgewogene Mischung aus Angriff und Verteidigung, aber sein moderates Gewicht limitiert die Top-Tier-Konkurrenzfähigkeit. Offizielle Werte: Angriff 30 / Verteidigung 40 / Stamina 30. Gewicht: 31 g. Bewertungen basieren auf Community-Daten."
+      "en": "Storm Spriggan offers a balanced mix of attack and defense, but its moderate weight limits top-tier competitiveness. Weight: 31g. Ratings based on community data.",
+      "de": "Storm Spriggan bietet eine ausgewogene Mischung aus Angriff und Verteidigung, aber sein moderates Gewicht limitiert die Top-Tier-Konkurrenzfähigkeit. Gewicht: 31 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 31,
@@ -2704,7 +2704,7 @@
     "category": "blade",
     "name": "TriceraSpiky",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeTriceraSpiky.png/revision/latest",
+    "imageUrl": "/images/blades/tricera-spikey.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
@@ -2734,7 +2734,7 @@
     "category": "blade",
     "name": "VikingHack",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
+    "imageUrl": "/images/blades/hack-viking.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "UX",
     "description": {
@@ -2764,7 +2764,7 @@
     "category": "blade",
     "name": "DranStrike",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeDranStrike.png/revision/latest",
+    "imageUrl": "/images/blades/dran-strike.png",
     "releaseDate": "2026-05-16",
     "releaseWave": "BX-49",
     "description": {
@@ -2794,7 +2794,7 @@
     "category": "blade",
     "name": "HeavensRing",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
+    "imageUrl": "/images/blades/ring-aether.png",
     "releaseDate": "2026-07-11",
     "releaseWave": "BX-50",
     "description": {
@@ -2824,7 +2824,7 @@
     "category": "blade",
     "name": "TyrannoRoar",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeTyrannoRoar.png/revision/latest",
+    "imageUrl": "/images/blades/tyranno-roar.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
@@ -2836,7 +2836,7 @@
       "de": "TyrannoRoar gilt als Must-Have-Attack-Blade und starke Alternative zu PhoenixWing. Seine glattere Form reduziert selbstzerstörerischen Rückstoß, wodurch er besonders für Stationary-Attack-Combos mit Bits wie Hexa oder High Needle geeignet ist."
     },
     "officialStats": {
-      "weightGrams": 36.0,
+      "weightGrams": 36,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -2854,7 +2854,7 @@
     "category": "blade",
     "name": "PegasusBrush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/PegasusBrush_M3-85W.png/revision/latest?cb=20251114044829",
+    "imageUrl": "/images/blades/pegasus-brush.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -2884,7 +2884,7 @@
     "category": "blade",
     "name": "SolBrave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/94/SolBrave_C9-70TP.png/revision/latest?cb=20251114044843",
+    "imageUrl": "/images/blades/sol-brave.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -2914,7 +2914,7 @@
     "category": "blade",
     "name": "HellsBrave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/12/HellsBrave_J3-60GF.png/revision/latest?cb=20250715030419",
+    "imageUrl": "/images/blades/hells-brave.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
@@ -2944,7 +2944,7 @@
     "category": "blade",
     "name": "BulletGriffon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/BulletGriffon_H.png/revision/latest",
+    "imageUrl": "/images/blades/bullet-griffon.png",
     "releaseDate": "2026-04-25",
     "releaseWave": "UX-19",
     "description": {
@@ -2974,7 +2974,7 @@
     "category": "blade",
     "name": "GloryValkyrie",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4b/GloryValkyrie_LF.png/revision/latest",
+    "imageUrl": "/images/blades/glory-valkyrie.png",
     "releaseDate": "2026-07-11",
     "releaseWave": "UX-20",
     "description": {
@@ -3004,7 +3004,7 @@
     "category": "blade",
     "name": "DranBrave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/BladeDranBraveS.png/revision/latest?cb=20250305054628",
+    "imageUrl": "/images/blades/dran-brave.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-01",
     "description": {
@@ -3106,7 +3106,7 @@
       "de": "Reaper nutzt vier Klingen, um Gegner mit schnellen Schlägen zu destabilisieren. Er ist ein Nischen-Balance-Blade mit gemischten offensiven und Stamina-Eigenschaften, aber ohne dominante kompetitive Rolle."
     },
     "officialStats": {
-      "weightGrams": 29.0,
+      "weightGrams": 29,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
@@ -3136,7 +3136,7 @@
       "de": "RhinoReaper verwendet denselben Reaper-Blade wie HellsReaper mit dem Charge-Assist-Blade. Die Kombination behält Reapers destabilisierenden Stil bei, bleibt aber eine Nischen-Balance-Option."
     },
     "officialStats": {
-      "weightGrams": 29.0,
+      "weightGrams": 29,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
@@ -3616,7 +3616,7 @@
       "de": "T. Rex spielt ähnlich wie TyrannoBeat. Er ist ein brauchbarer Attack-Blade, auch wenn Sammler ihn hauptsächlich wegen des Jurassic-World-Brands schätzen."
     },
     "officialStats": {
-      "weightGrams": 37.0,
+      "weightGrams": 37,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -3676,7 +3676,7 @@
       "de": "Spinosaurus spielt ähnlich wie TyrannoRoar. Seine glattere Attack-Form macht ihn zu einer spaßigen Jurassic-World-Variante, aber er wird in der Regel vom originalen PhoenixWing und TyrannoRoar übertroffen."
     },
     "officialStats": {
-      "weightGrams": 36.0,
+      "weightGrams": 36,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -3736,7 +3736,7 @@
       "de": "Fort teilt sich dieselben Metallkomponenten wie Reaper mit einer neuen Plastikkomponente. Der Leistungsunterschied ist gering; er ist ein solider Balance-Blade für Hasbro-Custom-Line-Starter."
     },
     "officialStats": {
-      "weightGrams": 29.0,
+      "weightGrams": 29,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
@@ -3934,7 +3934,7 @@
     "category": "blade",
     "name": "Dran Sword",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
+    "imageUrl": "/images/blades/dran-sword-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4234,7 +4234,7 @@
     "category": "blade",
     "name": "Dran Buster",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
+    "imageUrl": "/images/blades/dran-buster-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4444,7 +4444,7 @@
     "category": "blade",
     "name": "Hells Hammer",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
+    "imageUrl": "/images/blades/hells-hammer-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4564,7 +4564,7 @@
     "category": "blade",
     "name": "DranBrave",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/BladeDranBraveS.png/revision/latest?cb=20250305054628",
+    "imageUrl": "/images/blades/dran-brave-hasbro.png",
     "releaseDate": "2025-05-21",
     "releaseWave": "CX-01",
     "description": {
@@ -4606,7 +4606,7 @@
       "de": "Hasbros HellsReaper spielt identisch zur Takara-Tomy-Version. Er nutzt vier Klingen, um Gegner mit schnellen Schlägen zu destabilisieren, hat aber keine dominante kompetitive Rolle."
     },
     "officialStats": {
-      "weightGrams": 29.0,
+      "weightGrams": 29,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
@@ -4726,7 +4726,7 @@
       "de": "Hasbros RhinoReaper spielt identisch zur Takara-Tomy-Version. Er verwendet denselben Reaper-Blade mit dem Charge-Assist-Blade und behält Reapers destabilisierenden Stil als Nischen-Balance-Option bei."
     },
     "officialStats": {
-      "weightGrams": 29.0,
+      "weightGrams": 29,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
@@ -4774,7 +4774,7 @@
     "category": "blade",
     "name": "Rocket Griffon",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/BulletGriffon_H.png/revision/latest",
+    "imageUrl": "/images/blades/bullet-griffon-hasbro.png",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4561",
     "description": {
@@ -4864,7 +4864,7 @@
     "category": "blade",
     "name": "Ring Aether",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
+    "imageUrl": "/images/blades/ring-aether-hasbro.png",
     "releaseDate": "2026-05-12",
     "releaseWave": "G4571",
     "description": {
@@ -4954,7 +4954,7 @@
     "category": "blade",
     "name": "Roar Tyranno",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeTyrannoRoar.png/revision/latest",
+    "imageUrl": "/images/blades/tyranno-roar-hasbro.png",
     "releaseDate": "2024-07-27",
     "releaseWave": "G0284",
     "description": {
@@ -4966,7 +4966,7 @@
       "de": "Hasbros Roar Tyranno spielt identisch zu Takara Tomys TyrannoRoar. Seine glattere Form reduziert selbstzerstörerischen Rückstoß, wodurch er eine starke Alternative zu PhoenixWing für Stationary-Attack-Combos ist."
     },
     "officialStats": {
-      "weightGrams": 36.0,
+      "weightGrams": 36,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -5614,7 +5614,7 @@
     "category": "blade",
     "name": "Hack Viking",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
+    "imageUrl": "/images/blades/hack-viking-hasbro.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2755",
     "description": {
@@ -6034,7 +6034,7 @@
     "category": "blade",
     "name": "Moff Gideon",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b6/BladeMoffGideon.png/revision/latest?cb=20250321062919",
+    "imageUrl": "/images/blades/moff-gideon-hasbro.png",
     "releaseDate": "2024-07",
     "releaseWave": "BX",
     "description": {
@@ -6064,7 +6064,7 @@
     "category": "blade",
     "name": "Iron Man",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeIronMan.png/revision/latest?cb=20250321062619",
+    "imageUrl": "/images/blades/iron-man-hasbro.png",
     "releaseDate": "2024-07",
     "releaseWave": "BX",
     "description": {
@@ -6094,7 +6094,7 @@
     "category": "blade",
     "name": "Thanos",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ef/BladeThanos.png/revision/latest",
+    "imageUrl": "/images/blades/thanos-hasbro.png",
     "releaseDate": "2024-07",
     "releaseWave": "BX",
     "description": {
@@ -6102,8 +6102,8 @@
       "de": "Ein rechtsspinnender Defense-Type-Blade aus der Marvel-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Thanos-Gear-Chip und eine kompakte, stoßabsorbierende Form."
     },
     "assessment": {
-      "en": "Thanos (Hasbro) is a light Defense Blade. Its low weight limits knock-out resistance, making it outclassed by heavier Defense options, but it remains a fun collector's piece. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Ratings based on community data.",
-      "de": "Thanos (Hasbro) ist ein leichter Defense-Blade. Sein geringes Gewicht limitiert die Knock-Out-Resistenz, wodurch er von schwereren Defense-Optionen übertroffen wird, aber er bleibt ein lustiges Sammlerstück. Offizielle Werte: Angriff 22 / Verteidigung 60 / Stamina 18. Gewicht: 29,5 g. Bewertungen basieren auf Community-Daten."
+      "en": "Thanos (Hasbro) is a light Defense Blade. Its low weight limits knock-out resistance, making it outclassed by heavier Defense options, but it remains a fun collector's piece. Weight: 29.5g. Ratings based on community data.",
+      "de": "Thanos (Hasbro) ist ein leichter Defense-Blade. Sein geringes Gewicht limitiert die Knock-Out-Resistenz, wodurch er von schwereren Defense-Optionen übertroffen wird, aber er bleibt ein lustiges Sammlerstück. Gewicht: 29,5 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 29.5,
@@ -6124,7 +6124,7 @@
     "category": "blade",
     "name": "Spider Man",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Manaphy12342.png/revision/latest?cb=20111211200559",
+    "imageUrl": "/images/blades/spider-man-hasbro.png",
     "releaseDate": "2024-08",
     "releaseWave": "BX",
     "description": {
@@ -6154,7 +6154,7 @@
     "category": "blade",
     "name": "Venom",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/BladeVenom.png/revision/latest?cb=20250321062739",
+    "imageUrl": "/images/blades/venom-hasbro.png",
     "releaseDate": "2024-08",
     "releaseWave": "BX",
     "description": {
@@ -6162,8 +6162,8 @@
       "de": "Ein rechtsspinnender Attack-Type-Blade aus der Marvel-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er ist ein Retool von DranSword mit nahezu identischen Plastik- und Metallkomponenten und einem Venom-Gear-Chip."
     },
     "assessment": {
-      "en": "Venom (Hasbro) performs like DranSword: a reliable early-line Attack Blade that has since been outclassed by heavier Attack options. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Ratings based on community data.",
-      "de": "Venom (Hasbro) spielt wie DranSword: ein zuverlässiger Attack-Blade der Early Line, der inzwischen von schwereren Attack-Optionen übertroffen wurde. Offizielle Werte: Angriff 55 / Verteidigung 22 / Stamina 23. Gewicht: 34,3 g. Bewertungen basieren auf Community-Daten."
+      "en": "Venom (Hasbro) performs like DranSword: a reliable early-line Attack Blade that has since been outclassed by heavier Attack options. Weight: 34.3g. Ratings based on community data.",
+      "de": "Venom (Hasbro) spielt wie DranSword: ein zuverlässiger Attack-Blade der Early Line, der inzwischen von schwereren Attack-Optionen übertroffen wurde. Gewicht: 34,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 34.3,
@@ -6184,7 +6184,7 @@
     "category": "blade",
     "name": "Luke Skywalker",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/71/BladeLukeSkywalker.png/revision/latest?cb=20250321062806",
+    "imageUrl": "/images/blades/luke-skywalker-hasbro.png",
     "releaseDate": "2024-09",
     "releaseWave": "BX",
     "description": {
@@ -6214,7 +6214,7 @@
     "category": "blade",
     "name": "Darth Vader",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeDarthVader.png/revision/latest?cb=20250321062834",
+    "imageUrl": "/images/blades/darth-vader-hasbro.png",
     "releaseDate": "2024-09",
     "releaseWave": "BX",
     "description": {
@@ -6244,7 +6244,7 @@
     "category": "blade",
     "name": "Obi Wan Kenobi",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/ba/Obi-Wan_Kenobi_4-60P.jpeg/revision/latest?cb=20250618035030",
+    "imageUrl": "/images/blades/obi-wan-kenobi-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6274,7 +6274,7 @@
     "category": "blade",
     "name": "T Rex",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
+    "imageUrl": "/images/blades/t-rex-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6286,7 +6286,7 @@
       "de": "T. Rex (Hasbro) spielt ähnlich wie TyrannoBeat. Er ist ein brauchbarer Attack-Blade, auch wenn Sammler ihn hauptsächlich wegen des Jurassic-World-Brands schätzen. Gewicht: 37,0 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
-      "weightGrams": 37.0,
+      "weightGrams": 37,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -6304,7 +6304,7 @@
     "category": "blade",
     "name": "Mosasaurus",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/Mosasaurus_9-60U.png/revision/latest?cb=20250308034736",
+    "imageUrl": "/images/blades/mosasaurus-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6334,7 +6334,7 @@
     "category": "blade",
     "name": "Spinosaurus",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/62/Spinosaurus_3-85A.png/revision/latest?cb=20250322040356",
+    "imageUrl": "/images/blades/spinosaurus-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6346,7 +6346,7 @@
       "de": "Spinosaurus (Hasbro) spielt ähnlich wie TyrannoRoar. Seine glattere Attack-Form macht ihn zu einer spaßigen Jurassic-World-Variante, aber er wird in der Regel vom originalen PhoenixWing und TyrannoRoar übertroffen. Gewicht: 36,0 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
-      "weightGrams": 36.0,
+      "weightGrams": 36,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -6364,7 +6364,7 @@
     "category": "blade",
     "name": "Quetzalcoatlus",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/Quetzalcoatlus_4-55D.png/revision/latest?cb=20250808060150",
+    "imageUrl": "/images/blades/quetzalcoatlus-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {

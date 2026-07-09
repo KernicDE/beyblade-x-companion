@@ -42,7 +42,11 @@ export function PartPicker({
         className="rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
       >
         {allowNone && (
-          <option value="">{t('partDetail.no')} {t(CATEGORY_KEYS[category])}</option>
+          <option value="">
+            {category === 'assistBlade'
+              ? t('partDetail.noAssistBlade')
+              : `${t('partDetail.no')} ${t(CATEGORY_KEYS[category])}`}
+          </option>
         )}
         {parts.map((part) => (
           <option key={part.id} value={part.id}>

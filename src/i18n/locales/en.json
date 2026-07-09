@@ -19,6 +19,16 @@
     "clear": "Clear search",
     "noResults": "No results."
   },
+  "sort": {
+    "name": "Name",
+    "releaseDate": "Release",
+    "type": "Type",
+    "batch": "Batch",
+    "attack": "Attack",
+    "defense": "Defense",
+    "stamina": "Stamina",
+    "balance": "Balance"
+  },
   "home": {
     "tagline": "Browse official Beys and parts, build custom combinations, and share your creations — all offline in your browser.",
     "browseBeys": "Browse Beys",
@@ -53,8 +63,7 @@
     "partNotFound": "Part not found.",
     "communityRatings": "Community Ratings",
     "estimatedRatings": "Estimated Ratings",
-    "estimatedRatings": "Estimated Ratings",
-    "ratingsDisclaimer": "These ratings are community estimates, not official stats.",
+    "ratingsDisclaimer": "These ratings are community and AI estimates, not official stats.",
     "estimatedRatingsDisclaimer": "These ratings are estimated from part type, weight and shape when no community data exists.",
     "weight": "Weight",
     "height": "Height",
@@ -64,7 +73,17 @@
     "attack": "Attack",
     "defense": "Defense",
     "stamina": "Stamina",
-    "balance": "Balance"
+    "balance": "Balance",
+    "right": "right",
+    "left": "left",
+    "both": "both",
+    "noAssistBlade": "No Assist Blade"
+  },
+  "radar": {
+    "attack": "A",
+    "defense": "D",
+    "stamina": "S",
+    "balance": "B"
   },
   "beyDetail": {
     "beyNotFound": "Bey not found.",
@@ -125,5 +144,5 @@
     "loadingDatabase": "Loading database…",
     "failedDatabase": "Failed to load database."
   },
-  "footer": "Ratings shown are community estimates, not official Takara Tomy stats."
+  "footer": "Ratings shown are community and AI estimates, not official Takara Tomy stats."
 }

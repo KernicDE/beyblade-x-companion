@@ -9,6 +9,7 @@ import type {
   PartCategory,
   ComboParts,
   Ratings,
+  Tier,
 } from '../types';
 
 export interface Database {
@@ -117,4 +118,19 @@ export function isComboEstimated(database: Database, combo: ComboParts): boolean
 
   if (parts.length === 0) return false;
   return parts.some((p) => p.ratingsSource === 'estimated');
+}
+
+export function calculateTier(ratings: Ratings): Tier {
+  const values = Object.values(ratings);
+  const average = values.reduce((a, b) => a + b, 0) / values.length;
+  const max = Math.max(...values);
+  const score = (average + max) / 2;
+
+  if (score >= 4.25) return 'S';
+  if (score >= 3.75) return 'A';
+  if (score >= 3.25) return 'B';
+  if (score >= 2.75) return 'C';
+  if (score >= 2.25) return 'D';
+  if (score >= 1.75) return 'E';
+  return 'F';
 }

@@ -4,7 +4,7 @@
     "category": "assistBlade",
     "name": "Slash",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/AssistBladeSlash.png/revision/latest",
+    "imageUrl": "/images/assist-blades/slash.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -12,8 +12,8 @@
       "de": "Das Slash-Assist-Blade."
     },
     "assessment": {
-      "en": "Slash is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 10 / Stamina 10. Weight: 4.7g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "Slash ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 20 / Verteidigung 10 / Ausdauer 10. Gewicht: 4.7g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "Slash is a right-spin Attack Type Assist Blade. Weight: 4.7g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "Slash ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.7g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 4.7,
@@ -34,7 +34,7 @@
     "category": "assistBlade",
     "name": "Round",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/AssistBladeRound.png/revision/latest",
+    "imageUrl": "/images/assist-blades/round.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -42,8 +42,8 @@
       "de": "Das Round-Assist-Blade."
     },
     "assessment": {
-      "en": "Round is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 10 / Stamina 20. Weight: 4.7g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Round ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 10 / Ausdauer 20. Gewicht: 4.7g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Round is a right-spin Stamina Type Assist Blade. Weight: 4.7g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Round ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 4.7g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 4.7,
@@ -64,7 +64,7 @@
     "category": "assistBlade",
     "name": "Bumper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/AssistBladeBumper.png/revision/latest",
+    "imageUrl": "/images/assist-blades/bumper.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -72,8 +72,8 @@
       "de": "Das Bumper-Assist-Blade."
     },
     "assessment": {
-      "en": "Bumper is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 20 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Bumper ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 20 / Ausdauer 10. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Bumper is a right-spin Defense Type Assist Blade. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Bumper ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5.3,
@@ -94,7 +94,7 @@
     "category": "assistBlade",
     "name": "Turn-A",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
+    "imageUrl": "/images/assist-blades/turn-a.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -124,7 +124,7 @@
     "category": "assistBlade",
     "name": "Turn-D",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
+    "imageUrl": "/images/assist-blades/turn-d.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -154,7 +154,7 @@
     "category": "assistBlade",
     "name": "Charge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/AssistBladeCharge.png/revision/latest",
+    "imageUrl": "/images/assist-blades/charge.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -162,8 +162,8 @@
       "de": "Das Charge-Assist-Blade."
     },
     "assessment": {
-      "en": "Charge is a right-spin Defense Type Assist Blade. Official stats: Attack 15 / Defense 20 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Charge ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 15 / Verteidigung 20 / Ausdauer 5. Gewicht: 5g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Charge is a right-spin Defense Type Assist Blade. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Charge ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 5g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5,
@@ -184,7 +184,7 @@
     "category": "assistBlade",
     "name": "Jaggy",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/AssistBladeJaggy.png/revision/latest",
+    "imageUrl": "/images/assist-blades/jaggy.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -192,8 +192,8 @@
       "de": "Das Jaggy-Assist-Blade."
     },
     "assessment": {
-      "en": "Jaggy is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 15 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "Jaggy ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 20 / Verteidigung 15 / Ausdauer 5. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "Jaggy is a right-spin Attack Type Assist Blade. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "Jaggy ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 4.9,
@@ -214,7 +214,7 @@
     "category": "assistBlade",
     "name": "Assault",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/24/AssistBladeAssault.png/revision/latest",
+    "imageUrl": "/images/assist-blades/assault.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -222,8 +222,8 @@
       "de": "Das Assault-Assist-Blade."
     },
     "assessment": {
-      "en": "Assault is a right-spin Attack Type Assist Blade. Official stats: Attack 25 / Defense 10 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Assault ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 25 / Verteidigung 10 / Ausdauer 5. Gewicht: 5g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Assault is a right-spin Attack Type Assist Blade. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Assault ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 5g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5,
@@ -244,7 +244,7 @@
     "category": "assistBlade",
     "name": "Wheel",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/AssistBladeWheel.png/revision/latest",
+    "imageUrl": "/images/assist-blades/wheel.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -252,8 +252,8 @@
       "de": "Das Wheel-Assist-Blade."
     },
     "assessment": {
-      "en": "Wheel is a right-spin Stamina Type Assist Blade. Official stats: Attack 5 / Defense 15 / Stamina 20. Weight: 7.2g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "Wheel ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 5 / Verteidigung 15 / Ausdauer 20. Gewicht: 7.2g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "Wheel is a right-spin Stamina Type Assist Blade. Weight: 7.2g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "Wheel ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 7.2g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 7.2,
@@ -274,7 +274,7 @@
     "category": "assistBlade",
     "name": "Massive",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/23/AssistBladeMassive.png/revision/latest",
+    "imageUrl": "/images/assist-blades/massive.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -282,8 +282,8 @@
       "de": "Das Massive-Assist-Blade."
     },
     "assessment": {
-      "en": "Massive is a right-spin Balance Type Assist Blade. Official stats: Attack 15 / Defense 15 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Massive ist ein rechtsdrehender Balance-Typ Assist Blade. Offizielle Werte: Angriff 15 / Verteidigung 15 / Ausdauer 10. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Massive is a right-spin Balance Type Assist Blade. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Massive ist ein rechtsdrehender Balance-Typ Assist Blade. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5.3,
@@ -304,7 +304,7 @@
     "category": "assistBlade",
     "name": "Dual-U",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/22/AssistBladeDual_(Smash_Mode).png/revision/latest",
+    "imageUrl": "/images/assist-blades/dual-u.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -334,7 +334,7 @@
     "category": "assistBlade",
     "name": "Dual-S",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/22/AssistBladeDual_(Smash_Mode).png/revision/latest",
+    "imageUrl": "/images/assist-blades/dual-s.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -364,7 +364,7 @@
     "category": "assistBlade",
     "name": "Free",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/be/AssistBladeFree.png/revision/latest",
+    "imageUrl": "/images/assist-blades/free.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -372,8 +372,8 @@
       "de": "Das Free-Assist-Blade."
     },
     "assessment": {
-      "en": "Free is a right-spin Stamina Type Assist Blade. Official stats: Attack 5 / Defense 20 / Stamina 25. Weight: 5.8g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Free ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 5 / Verteidigung 20 / Ausdauer 25. Gewicht: 5.8g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Free is a right-spin Stamina Type Assist Blade. Weight: 5.8g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Free ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 5.8g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5.8,
@@ -394,7 +394,7 @@
     "category": "assistBlade",
     "name": "Heavy",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0b/AssistBladeHeavy.png/revision/latest",
+    "imageUrl": "/images/assist-blades/heavy.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -402,8 +402,8 @@
       "de": "Das Heavy-Assist-Blade."
     },
     "assessment": {
-      "en": "Heavy is a right-spin Balance Type Assist Blade. Official stats: Attack 17 / Defense 17 / Stamina 11. Weight: 7.8g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "Heavy ist ein rechtsdrehender Balance-Typ Assist Blade. Offizielle Werte: Angriff 17 / Verteidigung 17 / Ausdauer 11. Gewicht: 7.8g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "Heavy is a right-spin Balance Type Assist Blade. Weight: 7.8g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "Heavy ist ein rechtsdrehender Balance-Typ Assist Blade. Gewicht: 7.8g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 7.8,
@@ -424,7 +424,7 @@
     "category": "assistBlade",
     "name": "Zillion",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/AssistBladeZillion.png/revision/latest",
+    "imageUrl": "/images/assist-blades/zillion.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -432,8 +432,8 @@
       "de": "Das Zillion-Assist-Blade."
     },
     "assessment": {
-      "en": "Zillion is a right-spin Defense Type Assist Blade. Official stats: Attack 22 / Defense 15 / Stamina 3. Weight: 6.6g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "Zillion ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 22 / Verteidigung 15 / Ausdauer 3. Gewicht: 6.6g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "Zillion is a right-spin Defense Type Assist Blade. Weight: 6.6g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": "Zillion ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 6.6g. Höhe: 80mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 6.6,
@@ -454,7 +454,7 @@
     "category": "assistBlade",
     "name": "Knuckle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/11/AssistBladeKnuckle.png/revision/latest",
+    "imageUrl": "/images/assist-blades/knuckle.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -462,8 +462,8 @@
       "de": "Das Knuckle-Assist-Blade."
     },
     "assessment": {
-      "en": "Knuckle is a right-spin Attack Type Assist Blade. Official stats: Attack 30 / Defense 5 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "Knuckle ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 30 / Verteidigung 5 / Ausdauer 5. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "Knuckle is a right-spin Attack Type Assist Blade. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "Knuckle ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 4.9,
@@ -484,7 +484,7 @@
     "category": "assistBlade",
     "name": "Vertical",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/65/AssistBladeVertical.png/revision/latest",
+    "imageUrl": "/images/assist-blades/vertical.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -492,8 +492,8 @@
       "de": "Das Vertical-Assist-Blade."
     },
     "assessment": {
-      "en": "Vertical is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 25 / Stamina 5. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Vertical ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 25 / Ausdauer 5. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Vertical is a right-spin Defense Type Assist Blade. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Vertical ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5.3,
@@ -514,7 +514,7 @@
     "category": "assistBlade",
     "name": "Erase",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0c/AssistBladeErase.png/revision/latest",
+    "imageUrl": "/images/assist-blades/erase.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -522,8 +522,8 @@
       "de": "Das Erase-Assist-Blade."
     },
     "assessment": {
-      "en": "Erase is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 5 / Stamina 25. Weight: 6g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "Erase ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 5 / Ausdauer 25. Gewicht: 6g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "Erase is a right-spin Stamina Type Assist Blade. Weight: 6g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": "Erase ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 6g. Höhe: 70mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 6,
@@ -544,7 +544,7 @@
     "category": "assistBlade",
     "name": "Odd",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/85/AssistBladeOdd.png/revision/latest",
+    "imageUrl": "/images/assist-blades/odd.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -552,8 +552,8 @@
       "de": "Das Odd-Assist-Blade."
     },
     "assessment": {
-      "en": "Odd is a right-spin Balance Type Assist Blade. Official stats: Attack 17 / Defense 10 / Stamina 13. Weight: 4.5g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "Odd ist ein rechtsdrehender Balance-Typ Assist Blade. Offizielle Werte: Angriff 17 / Verteidigung 10 / Ausdauer 13. Gewicht: 4.5g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "Odd is a right-spin Balance Type Assist Blade. Weight: 4.5g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": "Odd ist ein rechtsdrehender Balance-Typ Assist Blade. Gewicht: 4.5g. Höhe: 50mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 4.5,
@@ -574,7 +574,7 @@
     "category": "assistBlade",
     "name": "Dual",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/AssistBladeDual_(Upper_Mode).png/revision/latest",
+    "imageUrl": "/images/assist-blades/dual.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -582,8 +582,8 @@
       "de": "Ein rechtsdrehender Attack-Typ-Assist-Blade aus der Custom Line mit umkehrbaren Kontaktpunkten. Er kann zwischen Upper-Modus zum Anheben des Gegners und Smash-Modus für direkte Treffer wechseln."
     },
     "assessment": {
-      "en": "Dual is a versatile Attack-oriented Assist Blade with a mode-change gimmick. Official stats: Attack 45 / Defense 35 / Stamina 20 / Height 60. Weight: 5.9g. Ratings based on community data.",
-      "de": "Dual ist ein versatile Attack-oriented Assist Blade with a mode-change gimmick. Offizielle Werte: Angriff 45 / Verteidigung 35 / Ausdauer 20 / Höhe 60. Gewicht: 5.9g. Ratings based on community data."
+      "en": "Dual is a versatile Attack-oriented Assist Blade with a mode-change gimmick. Weight: 5.9g. Ratings based on community data.",
+      "de": "Dual ist ein versatile Attack-oriented Assist Blade with a mode-change gimmick. Gewicht: 5.9g. Ratings based on community data."
     },
     "officialStats": {
       "weightGrams": 5.9,
@@ -604,7 +604,7 @@
     "category": "assistBlade",
     "name": "Outer",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/49/Outer.png/revision/latest?cb=20230725030120",
+    "imageUrl": "/images/assist-blades/outer.png",
     "releaseDate": "2026-06-13",
     "releaseWave": "CX-18",
     "description": {
@@ -634,7 +634,7 @@
     "category": "assistBlade",
     "name": "Slash",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/AssistBladeSlash.png/revision/latest",
+    "imageUrl": "/images/assist-blades/slash-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -642,8 +642,8 @@
       "de": "Das Slash-Assist-Blade."
     },
     "assessment": {
-      "en": "Slash is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 10 / Stamina 10. Weight: 4.7g. Height: 50mm. Manufactured by Hasbro.",
-      "de": "Slash ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 20 / Verteidigung 10 / Ausdauer 10. Gewicht: 4.7g. Höhe: 50mm. Hergestellt von Hasbro."
+      "en": "Slash is a right-spin Attack Type Assist Blade. Weight: 4.7g. Height: 50mm. Manufactured by Hasbro.",
+      "de": "Slash ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.7g. Höhe: 50mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 4.7,
@@ -664,7 +664,7 @@
     "category": "assistBlade",
     "name": "Turn-A",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
+    "imageUrl": "/images/assist-blades/turn-a-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "CX",
     "description": {
@@ -694,7 +694,7 @@
     "category": "assistBlade",
     "name": "Round",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/AssistBladeRound.png/revision/latest",
+    "imageUrl": "/images/assist-blades/round-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -702,8 +702,8 @@
       "de": "Das Round-Assist-Blade."
     },
     "assessment": {
-      "en": "Round is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 10 / Stamina 20. Weight: 4.7g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "Round ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 10 / Ausdauer 20. Gewicht: 4.7g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "Round is a right-spin Stamina Type Assist Blade. Weight: 4.7g. Height: 60mm. Manufactured by Hasbro.",
+      "de": "Round ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 4.7g. Höhe: 60mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 4.7,
@@ -724,7 +724,7 @@
     "category": "assistBlade",
     "name": "Bumper",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/AssistBladeBumper.png/revision/latest",
+    "imageUrl": "/images/assist-blades/bumper-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -732,8 +732,8 @@
       "de": "Das Bumper-Assist-Blade."
     },
     "assessment": {
-      "en": "Bumper is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 20 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "Bumper ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 20 / Ausdauer 10. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "Bumper is a right-spin Defense Type Assist Blade. Weight: 5.3g. Height: 60mm. Manufactured by Hasbro.",
+      "de": "Bumper ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 5.3,
@@ -754,7 +754,7 @@
     "category": "assistBlade",
     "name": "Jaggy",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/AssistBladeJaggy.png/revision/latest",
+    "imageUrl": "/images/assist-blades/jaggy-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -762,8 +762,8 @@
       "de": "Das Jaggy-Assist-Blade."
     },
     "assessment": {
-      "en": "Jaggy is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 15 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Hasbro.",
-      "de": "Jaggy ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 20 / Verteidigung 15 / Ausdauer 5. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Hasbro."
+      "en": "Jaggy is a right-spin Attack Type Assist Blade. Weight: 4.9g. Height: 50mm. Manufactured by Hasbro.",
+      "de": "Jaggy ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 4.9,
@@ -784,7 +784,7 @@
     "category": "assistBlade",
     "name": "Charge",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/AssistBladeCharge.png/revision/latest",
+    "imageUrl": "/images/assist-blades/charge-hasbro.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -792,8 +792,8 @@
       "de": "Das Charge-Assist-Blade."
     },
     "assessment": {
-      "en": "Charge is a right-spin Defense Type Assist Blade. Official stats: Attack 15 / Defense 20 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "Charge ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 15 / Verteidigung 20 / Ausdauer 5. Gewicht: 5g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "Charge is a right-spin Defense Type Assist Blade. Weight: 5g. Height: 60mm. Manufactured by Hasbro.",
+      "de": "Charge ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 5g. Höhe: 60mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 5,
@@ -814,7 +814,7 @@
     "category": "assistBlade",
     "name": "Wheel",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/AssistBladeWheel.png/revision/latest",
+    "imageUrl": "/images/assist-blades/wheel-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -822,8 +822,8 @@
       "de": "Das Wheel-Assist-Blade."
     },
     "assessment": {
-      "en": "Wheel is a right-spin Stamina Type Assist Blade. Official stats: Attack 5 / Defense 15 / Stamina 20. Weight: 7.2g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "Wheel ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 5 / Verteidigung 15 / Ausdauer 20. Gewicht: 7.2g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "Wheel is a right-spin Stamina Type Assist Blade. Weight: 7.2g. Height: 80mm. Manufactured by Hasbro.",
+      "de": "Wheel ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 7.2g. Höhe: 80mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 7.2,
@@ -844,7 +844,7 @@
     "category": "assistBlade",
     "name": "Erase",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0c/AssistBladeErase.png/revision/latest",
+    "imageUrl": "/images/assist-blades/erase-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -852,8 +852,8 @@
       "de": "Das Erase-Assist-Blade."
     },
     "assessment": {
-      "en": "Erase is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 5 / Stamina 25. Weight: 6g. Height: 70mm. Manufactured by Hasbro.",
-      "de": "Erase ist ein rechtsdrehender Stamina-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 5 / Ausdauer 25. Gewicht: 6g. Höhe: 70mm. Hergestellt von Hasbro."
+      "en": "Erase is a right-spin Stamina Type Assist Blade. Weight: 6g. Height: 70mm. Manufactured by Hasbro.",
+      "de": "Erase ist ein rechtsdrehender Stamina-Typ Assist Blade. Gewicht: 6g. Höhe: 70mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 6,
@@ -874,7 +874,7 @@
     "category": "assistBlade",
     "name": "Vertical",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/65/AssistBladeVertical.png/revision/latest",
+    "imageUrl": "/images/assist-blades/vertical-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -882,8 +882,8 @@
       "de": "Das Vertical-Assist-Blade."
     },
     "assessment": {
-      "en": "Vertical is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 25 / Stamina 5. Weight: 5.3g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "Vertical ist ein rechtsdrehender Defense-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 25 / Ausdauer 5. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "Vertical is a right-spin Defense Type Assist Blade. Weight: 5.3g. Height: 60mm. Manufactured by Hasbro.",
+      "de": "Vertical ist ein rechtsdrehender Defense-Typ Assist Blade. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 5.3,
@@ -904,7 +904,7 @@
     "category": "assistBlade",
     "name": "Knuckle",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/11/AssistBladeKnuckle.png/revision/latest",
+    "imageUrl": "/images/assist-blades/knuckle-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -912,8 +912,8 @@
       "de": "Das Knuckle-Assist-Blade."
     },
     "assessment": {
-      "en": "Knuckle is a right-spin Attack Type Assist Blade. Official stats: Attack 30 / Defense 5 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Hasbro.",
-      "de": "Knuckle ist ein rechtsdrehender Attack-Typ Assist Blade. Offizielle Werte: Angriff 30 / Verteidigung 5 / Ausdauer 5. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Hasbro."
+      "en": "Knuckle is a right-spin Attack Type Assist Blade. Weight: 4.9g. Height: 50mm. Manufactured by Hasbro.",
+      "de": "Knuckle ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 4.9,
@@ -934,7 +934,7 @@
     "category": "assistBlade",
     "name": "Heavy",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0b/AssistBladeHeavy.png/revision/latest",
+    "imageUrl": "/images/assist-blades/heavy-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -942,8 +942,8 @@
       "de": "Das Heavy-Assist-Blade."
     },
     "assessment": {
-      "en": "Heavy is a right-spin Balance Type Assist Blade. Official stats: Attack 17 / Defense 17 / Stamina 11. Weight: 7.8g. Height: 50mm. Manufactured by Hasbro.",
-      "de": "Heavy ist ein rechtsdrehender Balance-Typ Assist Blade. Offizielle Werte: Angriff 17 / Verteidigung 17 / Ausdauer 11. Gewicht: 7.8g. Höhe: 50mm. Hergestellt von Hasbro."
+      "en": "Heavy is a right-spin Balance Type Assist Blade. Weight: 7.8g. Height: 50mm. Manufactured by Hasbro.",
+      "de": "Heavy ist ein rechtsdrehender Balance-Typ Assist Blade. Gewicht: 7.8g. Höhe: 50mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "weightGrams": 7.8,
@@ -964,7 +964,7 @@
     "category": "assistBlade",
     "name": "Turn",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/Turn_%28B-142%29.png/revision/latest?cb=20210917205249",
+    "imageUrl": "/images/assist-blades/turn.png",
     "releaseDate": "",
     "releaseWave": "",
     "description": {
@@ -972,8 +972,8 @@
       "de": "Turn-Assist-Blade."
     },
     "assessment": {
-      "en": "Turn is a right-spin Balance Type Assist Blade. Official stats: Attack 10 / Defense 10 / Stamina 20. Weight: 5.8g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Turn ist ein rechtsdrehender Balance-Typ Assist Blade. Offizielle Werte: Angriff 10 / Verteidigung 10 / Ausdauer 20. Gewicht: 5.8g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Turn is a right-spin Balance Type Assist Blade. Weight: 5.8g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": "Turn ist ein rechtsdrehender Balance-Typ Assist Blade. Gewicht: 5.8g. Höhe: 60mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "weightGrams": 5.8,

@@ -24,7 +24,7 @@ export function ManufacturerBadge({ manufacturer, size = 'sm' }: ManufacturerBad
       title={manufacturer}
     >
       {icon}
-      <span>{manufacturer}</span>
+      <span>{isTakara ? 'TT' : 'H'}</span>
     </span>
   );
 }

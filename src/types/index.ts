@@ -1,5 +1,7 @@
 export type PartCategory = 'blade' | 'assistBlade' | 'ratchet' | 'bit';
 
+export type Tier = 'S' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F';
+
 export interface Ratings {
   attack: number;
   defense: number;
@@ -33,6 +35,7 @@ export interface Part {
   ratings: Ratings;
   ratingsDisclaimer: true;
   ratingsSource?: 'community' | 'estimated';
+  tier?: Tier;
 }
 
 export type Blade = Part & { category: 'blade' };
@@ -50,6 +53,7 @@ export interface Launcher {
   assessment: LocalizedString;
   spinCapability: 'right' | 'left' | 'both';
   ratingsSource?: 'community' | 'estimated';
+  tier?: Tier;
 }
 
 export interface Bey {
@@ -65,6 +69,7 @@ export interface Bey {
   bitId: string;
   assessment: LocalizedString;
   ratingsSource?: 'community' | 'estimated';
+  tier?: Tier;
 }
 
 export interface Creation {
