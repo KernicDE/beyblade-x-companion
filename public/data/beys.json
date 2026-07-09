@@ -3792,5 +3792,53 @@
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-orb-hasbro",
     "assessment": "Snowtrooper 7-60O is included in the Grogu and Snowtrooper Multipack Set. It uses the Snowtrooper Blade, 7-60 Ratchet and Orb Bit."
+  },
+  {
+    "id": "t-rex-1-80gb-g1898",
+    "name": "T. Rex 1-80GB",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1898",
+    "bladeId": "t-rex-hasbro",
+    "ratchetId": "ratchet-1-80-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
+    "assessment": "T. Rex 1-80GB is included in the T. Rex and Mosasaurus Multipack Set. It uses the T. Rex Blade, 1-80 Ratchet and Gear Ball Bit."
+  },
+  {
+    "id": "mosasaurus-9-60u-g1898",
+    "name": "Mosasaurus 9-60U",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1898",
+    "bladeId": "mosasaurus-hasbro",
+    "ratchetId": "ratchet-9-60-hasbro",
+    "bitId": "bit-unite-hasbro",
+    "assessment": "Mosasaurus 9-60U is included in the T. Rex and Mosasaurus Multipack Set. It uses the Mosasaurus Blade, 9-60 Ratchet and Unite Bit."
+  },
+  {
+    "id": "spinosaurus-3-85a-g1899",
+    "name": "Spinosaurus 3-85A",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1899",
+    "bladeId": "spinosaurus-hasbro",
+    "ratchetId": "ratchet-3-85-hasbro",
+    "bitId": "bit-accel-hasbro",
+    "assessment": "Spinosaurus 3-85A is included in the Spinosaurus and Quetzalcoatlus Multipack Set. It uses the Spinosaurus Blade, 3-85 Ratchet and Accel Bit."
+  },
+  {
+    "id": "quetzalcoatlus-4-55d-g1899",
+    "name": "Quetzalcoatlus 4-55D",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1899",
+    "bladeId": "quetzalcoatlus-hasbro",
+    "ratchetId": "ratchet-4-55-hasbro",
+    "bitId": "bit-dot-hasbro",
+    "assessment": "Quetzalcoatlus 4-55D is included in the Spinosaurus and Quetzalcoatlus Multipack Set. It uses the Quetzalcoatlus Blade, 4-55 Ratchet and Dot Bit."
   }
 ]
