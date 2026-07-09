@@ -8,15 +8,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Ball Bit.",
-    "assessment": "Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.1g. Manufactured by Takara Tomy.",
+    "assessment": "Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 25 / Stamina 50. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 2.1,
+      "stamina": 3.8,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -29,15 +32,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Flat Bit.",
-    "assessment": "Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.28g. Manufactured by Takara Tomy.",
+    "assessment": "Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 10. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 1.3,
+      "stamina": 0.8,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -50,15 +56,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Needle Bit.",
-    "assessment": "Needle is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.03g. Manufactured by Takara Tomy.",
+    "assessment": "Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 50 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 4.2,
+      "stamina": 2.3,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -71,15 +80,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Taper Bit.",
-    "assessment": "Taper is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.19g. Manufactured by Takara Tomy.",
+    "assessment": "Taper is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 20 / Stamina 20. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 1.7,
+      "stamina": 1.5,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -92,15 +104,18 @@
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": "The High Needle Bit.",
-    "assessment": "High  Needle is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.17g. Manufactured by Takara Tomy.",
+    "assessment": "High Needle is a right-spin Defense Type Bit. Official stats: Attack 15 / Defense 55 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 3
+      "heightMm": 3,
+      "weightGrams": 2.2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 4.6,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -113,15 +128,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Low Flat Bit.",
-    "assessment": "Low  Flat is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.15g. Manufactured by Takara Tomy.",
+    "assessment": "Low Flat is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 1mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.4,
+      "stamina": 0.8,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -134,15 +152,18 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": "The Point Bit.",
-    "assessment": "Point is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g. Manufactured by Takara Tomy.",
+    "assessment": "Point is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.3,
+      "defense": 2.1,
+      "stamina": 1.9,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -155,15 +176,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Orb Bit.",
-    "assessment": "Orb is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g. Manufactured by Takara Tomy.",
+    "assessment": "Orb is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 30 / Stamina 50. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 2.5,
+      "stamina": 3.8,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -176,15 +200,18 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": "The Rush Bit.",
-    "assessment": "Rush is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g. Manufactured by Takara Tomy.",
+    "assessment": "Rush is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 20. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 0.8,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -197,15 +224,18 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": "The High Taper Bit.",
-    "assessment": "High  Taper is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.22g. Manufactured by Takara Tomy.",
+    "assessment": "High Taper is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 3
+      "heightMm": 3,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 2.1,
+      "stamina": 1.5,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -218,9 +248,12 @@
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": "The Spike Bit.",
-    "assessment": "Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g. Manufactured by Takara Tomy.",
+    "assessment": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -239,15 +272,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Flat Bit.",
-    "assessment": "Gear  Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.28g. Manufactured by Takara Tomy.",
+    "assessment": "Gear Flat is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 5 / Stamina 5. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.3,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 0.4,
+      "stamina": 0.4,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -260,15 +296,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Ball Bit.",
-    "assessment": "Gear  Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.08g. Manufactured by Takara Tomy.",
+    "assessment": "Gear Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 45. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 1.3,
+      "stamina": 3.5,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -281,15 +320,18 @@
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": "The Gear Point Bit.",
-    "assessment": "Gear  Point is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.25g. Manufactured by Takara Tomy.",
+    "assessment": "Gear Point is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 15. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.3,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 2.1,
+      "stamina": 1.2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -302,15 +344,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Needle Bit.",
-    "assessment": "Gear  Needle is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2g. Manufactured by Takara Tomy.",
+    "assessment": "Gear Needle is a right-spin Defense Type Bit. Official stats: Attack 20 / Defense 40 / Stamina 10. Weight: 2g. Height: 1.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.8,
+      "defense": 3.3,
+      "stamina": 0.8,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -323,15 +368,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Accel Bit.",
-    "assessment": "Accel is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.58g. Manufactured by Takara Tomy.",
+    "assessment": "Accel is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 10. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.6,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 0.8,
+      "stamina": 0.8,
+      "balance": 1.7
     },
     "ratingsDisclaimer": true
   },
@@ -344,15 +392,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Hexa Bit.",
-    "assessment": "Hexa is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.58g. Manufactured by Takara Tomy.",
+    "assessment": "Hexa is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 35 / Stamina 20. Weight: 2.6g. Height: 1.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2.6,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 2.9,
+      "stamina": 1.5,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -365,15 +416,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Disk Ball Bit.",
-    "assessment": "Disk  Ball is a Bit from the Beyblade X toyline. Documented height: 4mm. Documented weight: 3.23g. Manufactured by Takara Tomy.",
+    "assessment": "Disk Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 55. Weight: 3.2g. Height: 4mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 4
+      "heightMm": 4,
+      "weightGrams": 3.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 1.7,
+      "stamina": 4.2,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -386,15 +440,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Quake Bit.",
-    "assessment": "Quake is a Bit from the Beyblade X toyline. Documented height: 2.5mm. Documented weight: 2.17g. Manufactured by Takara Tomy.",
+    "assessment": "Quake is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 15 / Stamina 5. Weight: 2.2g. Height: 2.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2.5
+      "heightMm": 2.5,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 1.3,
+      "stamina": 0.4,
+      "balance": 2.2
     },
     "ratingsDisclaimer": true
   },
@@ -407,15 +464,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Metal Needle Bit.",
-    "assessment": "Metal  Needle is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.75g. Manufactured by Takara Tomy.",
+    "assessment": "Metal Needle is a right-spin Defense Type Bit. Official stats: Attack 8 / Defense 57 / Stamina 30. Weight: 2.8g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.8,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.7,
+      "defense": 4.8,
+      "stamina": 2.3,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -428,15 +488,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Unite Bit.",
-    "assessment": "Unite is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.12g. Manufactured by Takara Tomy.",
+    "assessment": "Unite is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 30. Weight: 2.1g. Height: 1.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2.1,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.3,
+      "defense": 2.1,
+      "stamina": 2.3,
+      "balance": 2.2
     },
     "ratingsDisclaimer": true
   },
@@ -449,15 +512,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Cyclone Bit.",
-    "assessment": "Cyclone is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.12g. Manufactured by Takara Tomy.",
+    "assessment": "Cyclone is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 0.4,
+      "stamina": 0.8,
+      "balance": 1.6
     },
     "ratingsDisclaimer": true
   },
@@ -470,9 +536,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Dot Bit.",
-    "assessment": "Dot is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2g. Manufactured by Takara Tomy.",
+    "assessment": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -491,15 +560,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Glide Bit.",
-    "assessment": "Glide is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.52g. Manufactured by Takara Tomy.",
+    "assessment": "Glide is a right-spin Stamina Type Bit. Official stats: Attack 20 / Defense 10 / Stamina 55. Weight: 2.5g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.5,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.8,
+      "defense": 0.8,
+      "stamina": 4.2,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -512,15 +584,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Elevate Bit.",
-    "assessment": "Elevate is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 3.23g. Manufactured by Takara Tomy.",
+    "assessment": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 1.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 3.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 1.3,
+      "stamina": 1.5,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -533,15 +608,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Free Ball Bit.",
-    "assessment": "Free  Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.94g. Manufactured by Takara Tomy.",
+    "assessment": "Free Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 25 / Stamina 60. Weight: 1.9g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 1.9,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 2.1,
+      "stamina": 4.6,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -554,15 +632,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Trans Point Bit.",
-    "assessment": "Trans  Point is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.21g. Manufactured by Takara Tomy.",
+    "assessment": "Trans Point is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 1mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 2.1,
+      "stamina": 1.9,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -575,15 +656,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Level Bit.",
-    "assessment": "Level is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.65g. Manufactured by Takara Tomy.",
+    "assessment": "Level is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 5 / Stamina 15. Weight: 2.7g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.7,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 0.4,
+      "stamina": 1.2,
+      "balance": 1.7
     },
     "ratingsDisclaimer": true
   },
@@ -596,15 +680,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Bound Spike Bit.",
-    "assessment": "Bound  Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2g. Manufactured by Takara Tomy.",
+    "assessment": "Bound Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 5,
+      "stamina": 2.3,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -617,9 +704,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Rubber Accel Bit.",
-    "assessment": "Rubber  Accel is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 3.1g. Manufactured by Takara Tomy.",
+    "assessment": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 3.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -638,15 +728,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Low Rush Bit.",
-    "assessment": "Low  Rush is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 1.93g. Manufactured by Takara Tomy.",
+    "assessment": "Low Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 15. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 1.9,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.4,
+      "stamina": 1.2,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -659,13 +752,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Under Needle Bit.",
-    "assessment": "Under  Needle is a Bit from the Beyblade X toyline. Documented weight: 1.88g. Manufactured by Takara Tomy.",
-    "officialStats": {},
+    "assessment": "Under Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 60 / Stamina 20. Weight: 1.9g. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 1.9,
+      "typeTag": "Defense",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 5,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -678,15 +775,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Vortex Bit.",
-    "assessment": "Vortex is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.15g. Manufactured by Takara Tomy.",
+    "assessment": "Vortex is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 5. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.8,
+      "stamina": 0.4,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -699,15 +799,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Low Orb Bit.",
-    "assessment": "Low  Orb is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 1.85g. Manufactured by Takara Tomy.",
+    "assessment": "Low Orb is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 1.9,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 2.1,
+      "stamina": 4.2,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -720,15 +823,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Wedge Bit.",
-    "assessment": "Wedge is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.83g. Manufactured by Takara Tomy.",
+    "assessment": "Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 30. Weight: 1.8g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 1.8,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 4.6,
+      "stamina": 2.3,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -741,15 +847,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Kick Bit.",
-    "assessment": "Kick is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g. Manufactured by Takara Tomy.",
+    "assessment": "Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 15. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 2.1,
+      "stamina": 1.2,
+      "balance": 2.2
     },
     "ratingsDisclaimer": true
   },
@@ -762,15 +871,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Zap Bit.",
-    "assessment": "Zap is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.49g. Manufactured by Takara Tomy.",
+    "assessment": "Zap is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 15. Weight: 2.5g. Height: 1mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 2.5,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 1.7,
+      "stamina": 1.2,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -783,15 +895,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Rush Bit.",
-    "assessment": "Gear  Rush is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.1g. Manufactured by Takara Tomy.",
+    "assessment": "Gear Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.8,
+      "stamina": 0.8,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -804,15 +919,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Wall Ball Bit.",
-    "assessment": "Wall  Ball is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.43g. Manufactured by Takara Tomy.",
+    "assessment": "Wall Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 30 / Stamina 45. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 3
+      "heightMm": 3,
+      "weightGrams": 2.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 2.5,
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -825,15 +943,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Merge Bit.",
-    "assessment": "Merge is a Bit from the Beyblade X toyline. Documented height: 6mm. Documented weight: 3.39g. Manufactured by Takara Tomy.",
+    "assessment": "Merge is a right-spin Balance Type Bit. Official stats: Attack 50 / Defense 20 / Stamina 10. Weight: 3.4g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 6
+      "heightMm": 6,
+      "weightGrams": 3.4,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 1.7,
+      "stamina": 0.8,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -846,13 +967,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Under Flat Bit.",
-    "assessment": "Under  Flat is a Bit from the Beyblade X toyline. Documented weight: 2.05g. Manufactured by Takara Tomy.",
-    "officialStats": {},
+    "assessment": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 0.4,
+      "stamina": 0.4,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -865,9 +990,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Trans Kick Bit.",
-    "assessment": "Trans  Kick is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.28g. Manufactured by Takara Tomy.",
+    "assessment": "Trans Kick is a right-spin Balance Type Bit. Weight: 2.3g. Height: 1.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2.3,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -886,15 +1014,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Jolt Bit.",
-    "assessment": "Jolt is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.54g. Manufactured by Takara Tomy.",
+    "assessment": "Jolt is a right-spin Attack Type Bit. Official stats: Attack 35 / Defense 10 / Stamina 15. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.6,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 0.8,
+      "stamina": 1.2,
+      "balance": 1.7
     },
     "ratingsDisclaimer": true
   },
@@ -907,15 +1038,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Wall Wedge Bit.",
-    "assessment": "Wall  Wedge is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.43g. Manufactured by Takara Tomy.",
+    "assessment": "Wall Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 25. Weight: 2.4g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.4,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 5,
+      "stamina": 1.9,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -928,13 +1062,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Ignition Bit.",
-    "assessment": "Ignition is a Bit from the Beyblade X toyline. Documented weight: 2.4g. Manufactured by Takara Tomy.",
-    "officialStats": {},
+    "assessment": "Ignition is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 15 / Stamina 5. Weight: 2.4g. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 2.4,
+      "typeTag": "Attack",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 1.3,
+      "stamina": 0.4,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -947,15 +1085,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Yielding Bit.",
-    "assessment": "Yielding is a Bit from the Beyblade X toyline. Documented height: 4mm. Documented weight: 4.22g. Manufactured by Takara Tomy.",
+    "assessment": "Yielding is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 65. Weight: 4.2g. Height: 4mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 4
+      "heightMm": 4,
+      "weightGrams": 4.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 1.3,
+      "stamina": 5,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -968,15 +1109,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Unite Bit.",
-    "assessment": "Gear  Unite is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.25g. Manufactured by Takara Tomy.",
+    "assessment": "Gear Unite is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 20. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.3,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 1.7,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -989,15 +1133,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Free Flat Bit.",
-    "assessment": "Free  Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g. Manufactured by Takara Tomy.",
+    "assessment": "Free Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 15. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 1.3,
+      "stamina": 1.2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -1010,15 +1156,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Disk Spike Bit.",
-    "assessment": "Disk  Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 3.09g. Manufactured by Takara Tomy.",
+    "assessment": "Disk Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 40. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 3.1,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 4.6,
+      "stamina": 3.1,
+      "balance": 2.7
     },
     "ratingsDisclaimer": true
   },
@@ -1031,15 +1180,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Narrow Bit.",
-    "assessment": "Narrow is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.88g. Manufactured by Takara Tomy.",
+    "assessment": "Narrow is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 60. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 1.7,
+      "stamina": 4.6,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -1052,15 +1203,18 @@
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
     "description": "The Elevate Bit.",
-    "assessment": "Elevate is a Bit from the Beyblade X Unique Line. Documented height: 2mm. Debuted with LeonClaw 0-80E in Random Booster Vol. 5. Manufactured by Takara Tomy.",
+    "assessment": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 3.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 1.3,
+      "stamina": 1.5,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -1073,15 +1227,18 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": "The Under Flat Bit.",
-    "assessment": "Under Flat is a Bit from the Beyblade X Unique Line. Debuted with SharkScale 4-50UF. Manufactured by Takara Tomy.",
+    "assessment": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 0.4,
+      "stamina": 0.4,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1178,15 +1335,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Flat Bit.",
-    "assessment": "Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.28g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 10. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 1.3,
+      "stamina": 0.8,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1199,15 +1359,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Needle Bit.",
-    "assessment": "Needle is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.03g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 50 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 4.2,
+      "stamina": 2.3,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -1220,15 +1383,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Ball Bit.",
-    "assessment": "Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.1g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 25 / Stamina 50. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 2.1,
+      "stamina": 3.8,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -1241,15 +1407,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Taper Bit.",
-    "assessment": "Taper is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.19g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Taper is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 20 / Stamina 20. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 1.7,
+      "stamina": 1.5,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -1262,9 +1431,12 @@
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": "The Spike Bit.",
-    "assessment": "Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1283,15 +1455,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Low Flat Bit.",
-    "assessment": "Low  Flat is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.15g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Low Flat is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 1mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.4,
+      "stamina": 0.8,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -1304,15 +1479,18 @@
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": "The High Needle Bit.",
-    "assessment": "High  Needle is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.17g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "High Needle is a right-spin Defense Type Bit. Official stats: Attack 15 / Defense 55 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 3
+      "heightMm": 3,
+      "weightGrams": 2.2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 4.6,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -1325,15 +1503,18 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": "The Point Bit.",
-    "assessment": "Point is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Point is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.3,
+      "defense": 2.1,
+      "stamina": 1.9,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -1346,15 +1527,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Accel Bit.",
-    "assessment": "Accel is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.58g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Accel is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 10. Weight: 2.6g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.6,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 0.8,
+      "stamina": 0.8,
+      "balance": 1.7
     },
     "ratingsDisclaimer": true
   },
@@ -1367,15 +1551,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Disk Ball Bit.",
-    "assessment": "Disk  Ball is a Bit from the Beyblade X toyline. Documented height: 4mm. Documented weight: 3.23g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Disk Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 55. Weight: 3.2g. Height: 4mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 4
+      "heightMm": 4,
+      "weightGrams": 3.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 1.7,
+      "stamina": 4.2,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -1388,15 +1575,18 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": "The Rush Bit.",
-    "assessment": "Rush is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Rush is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 20. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 0.8,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -1409,15 +1599,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Metal Needle Bit.",
-    "assessment": "Metal  Needle is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.75g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Metal Needle is a right-spin Defense Type Bit. Official stats: Attack 8 / Defense 57 / Stamina 30. Weight: 2.8g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.8,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.7,
+      "defense": 4.8,
+      "stamina": 2.3,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -1430,15 +1623,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Free Ball Bit.",
-    "assessment": "Free  Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 1.94g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Free Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 25 / Stamina 60. Weight: 1.9g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 1.9,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 2.1,
+      "stamina": 4.6,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -1451,15 +1647,18 @@
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": "The Gear Point Bit.",
-    "assessment": "Gear  Point is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.25g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Gear Point is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 15. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.3,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 2.1,
+      "stamina": 1.2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -1472,13 +1671,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Under Needle Bit.",
-    "assessment": "Under  Needle is a Bit from the Beyblade X toyline. Documented weight: 1.88g. Hasbro release of the Takara Tomy mold.",
-    "officialStats": {},
+    "assessment": "Under Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 60 / Stamina 20. Weight: 1.9g. Manufactured by Hasbro.",
+    "officialStats": {
+      "weightGrams": 1.9,
+      "typeTag": "Defense",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 5,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -1491,15 +1694,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Hexa Bit.",
-    "assessment": "Hexa is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.58g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Hexa is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 35 / Stamina 20. Weight: 2.6g. Height: 1.5mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2.6,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 2.9,
+      "stamina": 1.5,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -1512,15 +1718,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Ball Bit.",
-    "assessment": "Gear  Ball is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.08g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Gear Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 45. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 1.3,
+      "stamina": 3.5,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1533,15 +1742,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Vortex Bit.",
-    "assessment": "Vortex is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.15g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Vortex is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 5. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.8,
+      "stamina": 0.4,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -1554,15 +1766,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Kick Bit.",
-    "assessment": "Kick is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.2g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 15. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 2.1,
+      "stamina": 1.2,
+      "balance": 2.2
     },
     "ratingsDisclaimer": true
   },
@@ -1617,15 +1832,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Rush Bit.",
-    "assessment": "Gear  Rush is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.1g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Gear Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.8,
+      "stamina": 0.8,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1638,15 +1856,18 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The Orb Bit.",
-    "assessment": "Orb is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.02g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Orb is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 30 / Stamina 50. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 2.5,
+      "stamina": 3.8,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -1659,9 +1880,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Dot Bit.",
-    "assessment": "Dot is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1680,15 +1904,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Wall Ball Bit.",
-    "assessment": "Wall  Ball is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.43g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Wall Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 30 / Stamina 45. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 3
+      "heightMm": 3,
+      "weightGrams": 2.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 2.5,
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -1701,15 +1928,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Unite Bit.",
-    "assessment": "Unite is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2.12g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Unite is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 30. Weight: 2.1g. Height: 1.5mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2.1,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.3,
+      "defense": 2.1,
+      "stamina": 2.3,
+      "balance": 2.2
     },
     "ratingsDisclaimer": true
   },
@@ -1722,15 +1952,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Yielding Bit.",
-    "assessment": "Yielding is a Bit from the Beyblade X toyline. Documented height: 4mm. Documented weight: 4.22g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Yielding is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 65. Weight: 4.2g. Height: 4mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 4
+      "heightMm": 4,
+      "weightGrams": 4.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 1.3,
+      "stamina": 5,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -1743,13 +1976,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Ignition Bit.",
-    "assessment": "Ignition is a Bit from the Beyblade X toyline. Documented weight: 2.4g. Hasbro release of the Takara Tomy mold.",
-    "officialStats": {},
+    "assessment": "Ignition is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 15 / Stamina 5. Weight: 2.4g. Manufactured by Hasbro.",
+    "officialStats": {
+      "weightGrams": 2.4,
+      "typeTag": "Attack",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 1.3,
+      "stamina": 0.4,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -1762,15 +1999,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Flat Bit.",
-    "assessment": "Gear  Flat is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.28g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Gear Flat is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 5 / Stamina 5. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.3,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 0.4,
+      "stamina": 0.4,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -1783,15 +2023,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Gear Needle Bit.",
-    "assessment": "Gear  Needle is a Bit from the Beyblade X toyline. Documented height: 1.5mm. Documented weight: 2g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Gear Needle is a right-spin Defense Type Bit. Official stats: Attack 20 / Defense 40 / Stamina 10. Weight: 2g. Height: 1.5mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 1.5
+      "heightMm": 1.5,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.8,
+      "defense": 3.3,
+      "stamina": 0.8,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -1804,15 +2047,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Quake Bit.",
-    "assessment": "Quake is a Bit from the Beyblade X toyline. Documented height: 2.5mm. Documented weight: 2.17g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Quake is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 15 / Stamina 5. Weight: 2.2g. Height: 2.5mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2.5
+      "heightMm": 2.5,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 1.3,
+      "stamina": 0.4,
+      "balance": 2.2
     },
     "ratingsDisclaimer": true
   },
@@ -1825,15 +2071,18 @@
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
     "description": "The Elevate Bit.",
-    "assessment": "Elevate is a Bit from the Beyblade X Unique Line. Documented height: 2mm. Debuted with LeonClaw 0-80E in Random Booster Vol. 5. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 3.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 1.3,
+      "stamina": 1.5,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -1846,15 +2095,18 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": "The Under Flat Bit.",
-    "assessment": "Under Flat is a Bit from the Beyblade X Unique Line. Debuted with SharkScale 4-50UF. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 0.4,
+      "stamina": 0.4,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1867,15 +2119,18 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": "The High Taper Bit.",
-    "assessment": "High  Taper is a Bit from the Beyblade X toyline. Documented height: 3mm. Documented weight: 2.22g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "High Taper is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 3
+      "heightMm": 3,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 2.1,
+      "stamina": 1.5,
+      "balance": 2.1
     },
     "ratingsDisclaimer": true
   },
@@ -1888,15 +2143,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Low Rush Bit.",
-    "assessment": "Low  Rush is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 1.93g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Low Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 15. Weight: 1.9g. Height: 1mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 1.9,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.1,
+      "defense": 0.4,
+      "stamina": 1.2,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1909,15 +2167,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Merge Bit.",
-    "assessment": "Merge is a Bit from the Beyblade X toyline. Documented height: 6mm. Documented weight: 3.39g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Merge is a right-spin Balance Type Bit. Official stats: Attack 50 / Defense 20 / Stamina 10. Weight: 3.4g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 6
+      "heightMm": 6,
+      "weightGrams": 3.4,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 1.7,
+      "stamina": 0.8,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -1930,15 +2191,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Zap Bit.",
-    "assessment": "Zap is a Bit from the Beyblade X toyline. Documented height: 1mm. Documented weight: 2.49g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Zap is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 15. Weight: 2.5g. Height: 1mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 1
+      "heightMm": 1,
+      "weightGrams": 2.5,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.7,
+      "defense": 1.7,
+      "stamina": 1.2,
+      "balance": 1.9
     },
     "ratingsDisclaimer": true
   },
@@ -1951,9 +2215,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Rubber Accel Bit.",
-    "assessment": "Rubber  Accel is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 3.1g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 3.1,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1993,15 +2260,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Bound Spike Bit.",
-    "assessment": "Bound  Spike is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Bound Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2,
+      "typeTag": "Defense",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 5,
+      "stamina": 2.3,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -2014,15 +2284,18 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The Glide Bit.",
-    "assessment": "Glide is a Bit from the Beyblade X toyline. Documented height: 2mm. Documented weight: 2.52g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Glide is a right-spin Stamina Type Bit. Official stats: Attack 20 / Defense 10 / Stamina 55. Weight: 2.5g. Height: 2mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 2
+      "heightMm": 2,
+      "weightGrams": 2.5,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.8,
+      "defense": 0.8,
+      "stamina": 4.2,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -2035,13 +2308,17 @@
     "releaseDate": "",
     "releaseWave": "",
     "description": "The Low Orb Bit.",
-    "assessment": "Low Orb is a Bit from the Beyblade X toyline. Manufactured by Hasbro.",
-    "officialStats": {},
+    "assessment": "Low Orb is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55. Weight: 1.9g. Manufactured by Hasbro.",
+    "officialStats": {
+      "weightGrams": 1.9,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 2.1,
+      "stamina": 4.2,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   }

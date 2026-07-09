@@ -8,16 +8,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 3-60 Ratchet.",
-    "assessment": "3-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.32g. Manufactured by Takara Tomy.",
+    "assessment": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.32
+      "weightGrams": 6.4,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 2.4,
+      "stamina": 2,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -30,16 +31,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 3-80 Ratchet.",
-    "assessment": "3-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.1g. Manufactured by Takara Tomy.",
+    "assessment": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.1
+      "heightMm": 80,
+      "weightGrams": 7.1,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 1.8,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -52,16 +54,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 4-60 Ratchet.",
-    "assessment": "4-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.3g. Manufactured by Takara Tomy.",
+    "assessment": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 6,
-      "weightGrams": 6.3
+      "heightMm": 60,
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.1,
+      "defense": 3.4,
+      "stamina": 2,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -74,16 +77,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 4-80 Ratchet.",
-    "assessment": "4-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7g. Manufactured by Takara Tomy.",
+    "assessment": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7
+      "heightMm": 80,
+      "weightGrams": 7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.1,
+      "defense": 2.9,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -96,16 +100,17 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": "The 5-60 Ratchet.",
-    "assessment": "5-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.6g. Manufactured by Takara Tomy.",
+    "assessment": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 6,
-      "weightGrams": 6.6
+      "heightMm": 60,
+      "weightGrams": 6.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2.4,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -118,16 +123,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 5-80 Ratchet.",
-    "assessment": "5-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.15g. Manufactured by Takara Tomy.",
+    "assessment": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.15
+      "heightMm": 80,
+      "weightGrams": 7.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2.1,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -140,10 +146,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-60 Ratchet.",
-    "assessment": "9-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.19g. Manufactured by Takara Tomy.",
+    "assessment": "9-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.19
+      "weightGrams": 6.2,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -162,16 +169,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-80 Ratchet.",
-    "assessment": "9-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.8g. Manufactured by Takara Tomy.",
+    "assessment": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 6.8
+      "heightMm": 80,
+      "weightGrams": 6.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 2.6,
+      "stamina": 2.3,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -184,10 +192,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-60 Ratchet.",
-    "assessment": "1-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.06g. Manufactured by Takara Tomy.",
+    "assessment": "1-60 is a right-spin Balance Type Ratchet. Weight: 6g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.06
+      "weightGrams": 6,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -206,16 +215,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 3-70 Ratchet.",
-    "assessment": "3-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.42g. Manufactured by Takara Tomy.",
+    "assessment": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.42
+      "weightGrams": 6.4,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 2.1,
+      "stamina": 2.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -228,16 +238,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 5-70 Ratchet.",
-    "assessment": "5-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.7g. Manufactured by Takara Tomy.",
+    "assessment": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.7
+      "weightGrams": 6.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2.1,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -250,10 +261,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 4-70 Ratchet.",
-    "assessment": "4-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.5g. Manufactured by Takara Tomy.",
+    "assessment": "4-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 6.5
+      "heightMm": 70,
+      "weightGrams": 6.4,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -272,10 +284,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-80 Ratchet.",
-    "assessment": "1-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.72g. Manufactured by Takara Tomy.",
+    "assessment": "1-80 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 8mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.72
+      "weightGrams": 6.7,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -294,10 +307,11 @@
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": "The 2-60 Ratchet.",
-    "assessment": "2-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.2g. Manufactured by Takara Tomy.",
+    "assessment": "2-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.2
+      "weightGrams": 6.2,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -316,16 +330,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 2-80 Ratchet.",
-    "assessment": "2-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.9g. Manufactured by Takara Tomy.",
+    "assessment": "2-80 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 11 / Stamina 9. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.9
+      "weightGrams": 6.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.8,
+      "defense": 2.9,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -338,10 +353,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-60 Ratchet.",
-    "assessment": "7-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 7.12g. Manufactured by Takara Tomy.",
+    "assessment": "7-60 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 7.12
+      "weightGrams": 7.1,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -360,10 +376,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-70 Ratchet.",
-    "assessment": "9-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.32g. Manufactured by Takara Tomy.",
+    "assessment": "9-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.32
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -382,16 +399,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 2-70 Ratchet.",
-    "assessment": "2-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.34g. Manufactured by Takara Tomy.",
+    "assessment": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.34
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.8,
+      "defense": 3.2,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -404,16 +422,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 3-85 Ratchet.",
-    "assessment": "3-85 is a Ratchet from the Beyblade X toyline. Documented height: 8.5mm. Documented weight: 4.79g. Manufactured by Takara Tomy.",
+    "assessment": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8.5,
-      "weightGrams": 4.79
+      "heightMm": 85,
+      "weightGrams": 4.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 3.9,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -426,16 +445,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-70 Ratchet.",
-    "assessment": "7-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.24g. Manufactured by Takara Tomy.",
+    "assessment": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 7.24
+      "heightMm": 70,
+      "weightGrams": 7.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.2,
+      "defense": 3.2,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -448,16 +468,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 0-80 Ratchet.",
-    "assessment": "0-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.53g. Manufactured by Takara Tomy.",
+    "assessment": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.53
+      "heightMm": 80,
+      "weightGrams": 7.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 3.2,
+      "stamina": 5,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -470,16 +491,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-80 Ratchet.",
-    "assessment": "7-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.82g. Manufactured by Takara Tomy.",
+    "assessment": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 7.82
+      "weightGrams": 7.8,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.9,
+      "defense": 3.7,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -492,16 +514,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 6-60 Ratchet.",
-    "assessment": "6-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.13g. Manufactured by Takara Tomy.",
+    "assessment": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.13
+      "weightGrams": 6.1,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.9,
+      "defense": 2.1,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -514,16 +537,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 6-80 Ratchet.",
-    "assessment": "6-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.91g. Manufactured by Takara Tomy.",
+    "assessment": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.91
+      "weightGrams": 6.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.9,
+      "defense": 1.6,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -536,16 +560,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 4-55 Ratchet.",
-    "assessment": "4-55 is a Ratchet from the Beyblade X toyline. Documented height: 5.5mm. Documented weight: 4.78g. Manufactured by Takara Tomy.",
+    "assessment": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 5.5,
-      "weightGrams": 4.78
+      "weightGrams": 4.8,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.9,
+      "defense": 2.9,
+      "stamina": 4,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -558,16 +583,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 0-70 Ratchet.",
-    "assessment": "0-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.02g. Manufactured by Takara Tomy.",
+    "assessment": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 7.02
+      "heightMm": 70,
+      "weightGrams": 7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
+      "attack": 0.8,
       "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "stamina": 4.7,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -580,16 +606,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The M-85 Ratchet.",
-    "assessment": "M-85 is a Ratchet from the Beyblade X toyline. Documented height: 8.5mm. Documented weight: 10.65g. Manufactured by Takara Tomy.",
+    "assessment": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "heightMm": 8.5,
-      "weightGrams": 10.65
+      "weightGrams": 10.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.2,
+      "defense": 5,
+      "stamina": 4.3,
+      "balance": 3.8
     },
     "ratingsDisclaimer": true
   },
@@ -602,16 +629,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 6-70 Ratchet.",
-    "assessment": "6-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.35g. Manufactured by Takara Tomy.",
+    "assessment": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 6.35
+      "heightMm": 70,
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.9,
+      "defense": 1.8,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -624,16 +652,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 4-50 Ratchet.",
-    "assessment": "4-50 is a Ratchet from the Beyblade X toyline. Documented height: 5mm. Documented weight: 5.92g. Manufactured by Takara Tomy.",
+    "assessment": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 5,
-      "weightGrams": 5.92
+      "heightMm": 50,
+      "weightGrams": 5.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 3.4,
+      "stamina": 1.7,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -646,16 +675,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-70 Ratchet.",
-    "assessment": "1-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.16g. Manufactured by Takara Tomy.",
+    "assessment": "1-70 is a right-spin Balance Type Ratchet. Official stats: Attack 17 / Defense 6 / Stamina 7. Weight: 6.1g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 6.16
+      "heightMm": 70,
+      "weightGrams": 6.1,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.7,
+      "defense": 1.6,
+      "stamina": 2.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -668,16 +698,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-65 Ratchet.",
-    "assessment": "9-65 is a Ratchet from the Beyblade X toyline. Documented height: 6.5mm. Documented weight: 4.48g. Manufactured by Takara Tomy.",
+    "assessment": "9-65 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 4.5g. Height: 65mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 6.5,
-      "weightGrams": 4.48
+      "heightMm": 65,
+      "weightGrams": 4.5,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 2.6,
+      "stamina": 2.3,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -690,16 +721,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 0-60 Ratchet.",
-    "assessment": "0-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.9g. Manufactured by Takara Tomy.",
+    "assessment": "0-60 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 14 / Stamina 13. Weight: 6.8g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 6,
-      "weightGrams": 6.9
+      "heightMm": 60,
+      "weightGrams": 6.8,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 3.7,
+      "stamina": 4.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -712,16 +744,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-55 Ratchet.",
-    "assessment": "7-55 is a Ratchet from the Beyblade X toyline. Documented height: 5.5mm. Documented weight: 5.18g. Manufactured by Takara Tomy.",
+    "assessment": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 5.5,
-      "weightGrams": 5.18
+      "heightMm": 55,
+      "weightGrams": 5.2,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 3.7,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -734,16 +767,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-50 Ratchet.",
-    "assessment": "1-50 is a Ratchet from the Beyblade X toyline. Documented height: 5mm. Documented weight: 5.68g. Manufactured by Takara Tomy.",
+    "assessment": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 5,
-      "weightGrams": 5.68
+      "heightMm": 50,
+      "weightGrams": 5.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 2.4,
+      "stamina": 1,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -756,16 +790,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 8-70 Ratchet.",
-    "assessment": "8-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.76g. Manufactured by Takara Tomy.",
+    "assessment": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 7.76
+      "heightMm": 70,
+      "weightGrams": 7.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.2,
+      "defense": 2.6,
+      "stamina": 4,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -778,16 +813,17 @@
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
     "description": "The 0-80 Ratchet.",
-    "assessment": "0-80 is a Ratchet from the Beyblade X Unique Line. It features 0 protrusions at an 8.0 millimeter height. Documented weight: 7.6g. Debuted in Random Booster Vol. 5. Manufactured by Takara Tomy.",
+    "assessment": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.6
+      "heightMm": 80,
+      "weightGrams": 7.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 3.2,
+      "stamina": 5,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -800,16 +836,17 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": "The 4-50 Ratchet.",
-    "assessment": "4-50 is a Ratchet from the Beyblade X Unique Line. It features 4 protrusions at a 5.0 millimeter height. Debuted with SharkScale 4-50UF. Manufactured by Takara Tomy.",
+    "assessment": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 5,
-      "weightGrams": 0
+      "heightMm": 50,
+      "weightGrams": 5.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 3.4,
+      "stamina": 1.7,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -822,16 +859,17 @@
     "releaseDate": "2025-10-11",
     "releaseWave": "UX-16",
     "description": "The 9-65 Ratchet.",
-    "assessment": "9-65 is a Ratchet from the Beyblade X Unique Line. It features 9 protrusions at a 6.5 millimeter height and uses a simple O-type joint. Debuted with ClockMirage 9-65B. Manufactured by Takara Tomy.",
+    "assessment": "9-65 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 4.5g. Height: 65mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 6.5,
-      "weightGrams": 0
+      "heightMm": 65,
+      "weightGrams": 4.5,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 2.6,
+      "stamina": 2.3,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -844,16 +882,17 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": "The 7-55 Ratchet.",
-    "assessment": "7-55 is a Ratchet from the Beyblade X Unique Line. It features 7 protrusions at a 5.5 millimeter height and uses a simple O-type joint. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "assessment": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "heightMm": 5.5,
-      "weightGrams": 0
+      "heightMm": 55,
+      "weightGrams": 5.2,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 3.7,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -888,16 +927,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 3-60 Ratchet.",
-    "assessment": "3-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.32g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.32
+      "weightGrams": 6.4,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 2.4,
+      "stamina": 2,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -910,16 +950,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 3-80 Ratchet.",
-    "assessment": "3-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.1g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.1
+      "heightMm": 80,
+      "weightGrams": 7.1,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 1.8,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -932,16 +973,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 4-80 Ratchet.",
-    "assessment": "4-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7
+      "heightMm": 80,
+      "weightGrams": 7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.1,
+      "defense": 2.9,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -954,16 +996,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 4-60 Ratchet.",
-    "assessment": "4-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.3g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 6,
-      "weightGrams": 6.3
+      "heightMm": 60,
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.1,
+      "defense": 3.4,
+      "stamina": 2,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -976,16 +1019,17 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": "The 5-60 Ratchet.",
-    "assessment": "5-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.6g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 6,
-      "weightGrams": 6.6
+      "heightMm": 60,
+      "weightGrams": 6.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2.4,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -998,10 +1042,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-60 Ratchet.",
-    "assessment": "1-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.06g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "1-60 is a right-spin Balance Type Ratchet. Weight: 6g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.06
+      "weightGrams": 6,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1020,16 +1065,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 5-70 Ratchet.",
-    "assessment": "5-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.7g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.7
+      "weightGrams": 6.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2.1,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1042,10 +1088,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-80 Ratchet.",
-    "assessment": "1-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.72g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "1-80 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 8mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.72
+      "weightGrams": 6.7,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1064,10 +1111,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 4-70 Ratchet.",
-    "assessment": "4-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.5g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "4-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 70mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 6.5
+      "heightMm": 70,
+      "weightGrams": 6.4,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1086,16 +1134,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-80 Ratchet.",
-    "assessment": "7-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.82g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 7.82
+      "weightGrams": 7.8,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.9,
+      "defense": 3.7,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1108,16 +1157,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 3-70 Ratchet.",
-    "assessment": "3-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.42g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.42
+      "weightGrams": 6.4,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 2.1,
+      "stamina": 2.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1130,10 +1180,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-60 Ratchet.",
-    "assessment": "9-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.19g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "9-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.19
+      "weightGrams": 6.2,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1152,10 +1203,11 @@
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": "The 2-60 Ratchet.",
-    "assessment": "2-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.2g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "2-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.2
+      "weightGrams": 6.2,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1174,16 +1226,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 6-60 Ratchet.",
-    "assessment": "6-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.13g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 6.13
+      "weightGrams": 6.1,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.9,
+      "defense": 2.1,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1196,16 +1249,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 4-55 Ratchet.",
-    "assessment": "4-55 is a Ratchet from the Beyblade X toyline. Documented height: 5.5mm. Documented weight: 4.78g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 5.5,
-      "weightGrams": 4.78
+      "weightGrams": 4.8,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.9,
+      "defense": 2.9,
+      "stamina": 4,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1218,16 +1272,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 6-80 Ratchet.",
-    "assessment": "6-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.91g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 8,
-      "weightGrams": 6.91
+      "weightGrams": 6.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.9,
+      "defense": 1.6,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1240,10 +1295,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-70 Ratchet.",
-    "assessment": "9-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.32g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "9-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.32
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1262,10 +1318,11 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-60 Ratchet.",
-    "assessment": "7-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 7.12g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "7-60 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 6mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 6,
-      "weightGrams": 7.12
+      "weightGrams": 7.1,
+      "spinDirection": "right"
     },
     "ratings": {
       "attack": 0,
@@ -1284,16 +1341,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 3-85 Ratchet.",
-    "assessment": "3-85 is a Ratchet from the Beyblade X toyline. Documented height: 8.5mm. Documented weight: 4.79g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 8.5,
-      "weightGrams": 4.79
+      "heightMm": 85,
+      "weightGrams": 4.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.4,
+      "defense": 3.9,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1306,16 +1364,17 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": "The 5-80 Ratchet.",
-    "assessment": "5-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.15g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.15
+      "heightMm": 80,
+      "weightGrams": 7.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2.1,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1328,16 +1387,17 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": "The 4-50 Ratchet.",
-    "assessment": "4-50 is a Ratchet from the Beyblade X Unique Line. It features 4 protrusions at a 5.0 millimeter height. Debuted with SharkScale 4-50UF. Hasbro release of the Takara Tomy mold.",
+    "assessment": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 5,
-      "weightGrams": 0
+      "heightMm": 50,
+      "weightGrams": 5.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 3.4,
+      "stamina": 1.7,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -1372,16 +1432,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 8-70 Ratchet.",
-    "assessment": "8-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.76g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 7.76
+      "heightMm": 70,
+      "weightGrams": 7.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.2,
+      "defense": 2.6,
+      "stamina": 4,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1394,16 +1455,17 @@
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
     "description": "The 0-80 Ratchet.",
-    "assessment": "0-80 is a Ratchet from the Beyblade X Unique Line. It features 0 protrusions at an 8.0 millimeter height. Documented weight: 7.6g. Debuted in Random Booster Vol. 5. Hasbro release of the Takara Tomy mold.",
+    "assessment": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 7.6
+      "heightMm": 80,
+      "weightGrams": 7.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 3.2,
+      "stamina": 5,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -1416,16 +1478,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 1-50 Ratchet.",
-    "assessment": "1-50 is a Ratchet from the Beyblade X toyline. Documented height: 5mm. Documented weight: 5.68g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 5,
-      "weightGrams": 5.68
+      "heightMm": 50,
+      "weightGrams": 5.7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 2.4,
+      "stamina": 1,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -1438,16 +1501,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 9-80 Ratchet.",
-    "assessment": "9-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.8g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 8,
-      "weightGrams": 6.8
+      "heightMm": 80,
+      "weightGrams": 6.9,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.6,
+      "defense": 2.6,
+      "stamina": 2.3,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -1460,16 +1524,17 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": "The 7-55 Ratchet.",
-    "assessment": "7-55 is a Ratchet from the Beyblade X Unique Line. It features 7 protrusions at a 5.5 millimeter height and uses a simple O-type joint. Debuted in Random Booster Vol. 8. Hasbro release of the Takara Tomy mold.",
+    "assessment": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 5.5,
-      "weightGrams": 0
+      "heightMm": 55,
+      "weightGrams": 5.2,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 3.7,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1482,16 +1547,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 7-70 Ratchet.",
-    "assessment": "7-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.24g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 7.24
+      "heightMm": 70,
+      "weightGrams": 7.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.2,
+      "defense": 3.2,
+      "stamina": 3.3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1504,16 +1570,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 6-70 Ratchet.",
-    "assessment": "6-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.35g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 6.35
+      "heightMm": 70,
+      "weightGrams": 6.3,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.9,
+      "defense": 1.8,
+      "stamina": 3,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   },
@@ -1526,16 +1593,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The 0-70 Ratchet.",
-    "assessment": "0-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.02g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Hasbro.",
     "officialStats": {
-      "heightMm": 7,
-      "weightGrams": 7.02
+      "heightMm": 70,
+      "weightGrams": 7,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
+      "attack": 0.8,
       "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "stamina": 4.7,
+      "balance": 1.8
     },
     "ratingsDisclaimer": true
   },
@@ -1548,16 +1616,17 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": "The M-85 Ratchet.",
-    "assessment": "M-85 is a Ratchet from the Beyblade X toyline. Documented height: 8.5mm. Documented weight: 10.65g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Hasbro.",
     "officialStats": {
       "heightMm": 8.5,
-      "weightGrams": 10.65
+      "weightGrams": 10.6,
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.2,
+      "defense": 5,
+      "stamina": 4.3,
+      "balance": 3.8
     },
     "ratingsDisclaimer": true
   },
@@ -1589,13 +1658,16 @@
     "releaseDate": "",
     "releaseWave": "",
     "description": "The 2-70 Ratchet.",
-    "assessment": "2-70 is a Ratchet from the Beyblade X toyline. Manufactured by Hasbro.",
-    "officialStats": {},
+    "assessment": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Manufactured by Hasbro.",
+    "officialStats": {
+      "weightGrams": 6.3,
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.8,
+      "defense": 3.2,
+      "stamina": 2.7,
+      "balance": 2.9
     },
     "ratingsDisclaimer": true
   }

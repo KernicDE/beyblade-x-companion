@@ -8,16 +8,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Slash Assist Blade.",
-    "assessment": "Slash is an Assist Blade from the Beyblade X CX line. Documented weight: 4.71g. Manufactured by Takara Tomy.",
+    "assessment": "Slash is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 10 / Stamina 10. Weight: 4.7g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 4.71,
-      "spinDirection": "right"
+      "weightGrams": 4.7,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -30,16 +32,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Round Assist Blade.",
-    "assessment": "Round is an Assist Blade from the Beyblade X CX line. Documented weight: 4.64g. Manufactured by Takara Tomy.",
+    "assessment": "Round is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 10 / Stamina 20. Weight: 4.7g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 4.64,
-      "spinDirection": "right"
+      "weightGrams": 4.7,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -52,16 +56,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Bumper Assist Blade.",
-    "assessment": "Bumper is an Assist Blade from the Beyblade X CX line. Documented weight: 5.31g. Manufactured by Takara Tomy.",
+    "assessment": "Bumper is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 20 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 5.31,
-      "spinDirection": "right"
+      "weightGrams": 5.3,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -118,16 +124,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Charge Assist Blade.",
-    "assessment": "Charge is an Assist Blade from the Beyblade X CX line. Documented weight: 5.05g. Manufactured by Takara Tomy.",
+    "assessment": "Charge is a right-spin Defense Type Assist Blade. Official stats: Attack 15 / Defense 20 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 5.05,
-      "spinDirection": "right"
+      "weightGrams": 5,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -140,16 +148,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Jaggy Assist Blade.",
-    "assessment": "Jaggy is an Assist Blade from the Beyblade X CX line. Documented weight: 4.82g. Manufactured by Takara Tomy.",
+    "assessment": "Jaggy is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 15 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 4.82,
-      "spinDirection": "right"
+      "weightGrams": 4.9,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -162,16 +172,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Assault Assist Blade.",
-    "assessment": "Assault is an Assist Blade from the Beyblade X CX line. Documented weight: 5g. Manufactured by Takara Tomy.",
+    "assessment": "Assault is a right-spin Attack Type Assist Blade. Official stats: Attack 25 / Defense 10 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
       "weightGrams": 5,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -184,16 +196,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Wheel Assist Blade.",
-    "assessment": "Wheel is an Assist Blade from the Beyblade X CX line. Documented weight: 7.26g. Manufactured by Takara Tomy.",
+    "assessment": "Wheel is a right-spin Stamina Type Assist Blade. Official stats: Attack 5 / Defense 15 / Stamina 20. Weight: 7.2g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 7.26,
-      "spinDirection": "right"
+      "weightGrams": 7.2,
+      "spinDirection": "right",
+      "heightMm": 80,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 3,
+      "stamina": 4,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -206,16 +220,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Massive Assist Blade.",
-    "assessment": "Massive is an Assist Blade from the Beyblade X CX line. Documented weight: 5.32g. Manufactured by Takara Tomy.",
+    "assessment": "Massive is a right-spin Balance Type Assist Blade. Official stats: Attack 15 / Defense 15 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 5.32,
-      "spinDirection": "right"
+      "weightGrams": 5.3,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -272,16 +288,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Free Assist Blade.",
-    "assessment": "Free is an Assist Blade from the Beyblade X CX line. Documented weight: 5.82g. Manufactured by Takara Tomy.",
+    "assessment": "Free is a right-spin Stamina Type Assist Blade. Official stats: Attack 5 / Defense 20 / Stamina 25. Weight: 5.8g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 5.82,
-      "spinDirection": "right"
+      "weightGrams": 5.8,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 4,
+      "stamina": 5,
+      "balance": 3.3
     },
     "ratingsDisclaimer": true
   },
@@ -294,16 +312,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Heavy Assist Blade.",
-    "assessment": "Heavy is an Assist Blade from the Beyblade X CX line. Documented weight: 7.94g. Manufactured by Takara Tomy.",
+    "assessment": "Heavy is a right-spin Balance Type Assist Blade. Official stats: Attack 17 / Defense 17 / Stamina 11. Weight: 7.8g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 7.94,
-      "spinDirection": "right"
+      "weightGrams": 7.8,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.8,
+      "defense": 3.4,
+      "stamina": 2.2,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -316,16 +336,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Zillion Assist Blade.",
-    "assessment": "Zillion is an Assist Blade from the Beyblade X CX line. Documented weight: 6.66g. Manufactured by Takara Tomy.",
+    "assessment": "Zillion is a right-spin Defense Type Assist Blade. Official stats: Attack 22 / Defense 15 / Stamina 3. Weight: 6.6g. Height: 80mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 6.66,
-      "spinDirection": "right"
+      "weightGrams": 6.6,
+      "spinDirection": "right",
+      "heightMm": 80,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.7,
+      "defense": 3,
+      "stamina": 0.6,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -338,16 +360,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Knuckle Assist Blade.",
-    "assessment": "Knuckle is an Assist Blade from the Beyblade X CX line. Documented weight: 4.89g. Manufactured by Takara Tomy.",
+    "assessment": "Knuckle is a right-spin Attack Type Assist Blade. Official stats: Attack 30 / Defense 5 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 4.89,
-      "spinDirection": "right"
+      "weightGrams": 4.9,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -360,16 +384,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Vertical Assist Blade.",
-    "assessment": "Vertical is an Assist Blade from the Beyblade X CX line. Documented weight: 5.47g. Manufactured by Takara Tomy.",
+    "assessment": "Vertical is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 25 / Stamina 5. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 5.47,
-      "spinDirection": "right"
+      "weightGrams": 5.3,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 5,
+      "stamina": 1,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -382,16 +408,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Erase Assist Blade.",
-    "assessment": "Erase is an Assist Blade from the Beyblade X CX line. Documented weight: 6.1g. Manufactured by Takara Tomy.",
+    "assessment": "Erase is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 5 / Stamina 25. Weight: 6g. Height: 70mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 6.1,
-      "spinDirection": "right"
+      "weightGrams": 6,
+      "spinDirection": "right",
+      "heightMm": 70,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 1,
+      "stamina": 5,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -404,16 +432,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Odd Assist Blade.",
-    "assessment": "Odd is an Assist Blade from the Beyblade X CX line. Documented weight: 4.46g. Manufactured by Takara Tomy.",
+    "assessment": "Odd is a right-spin Balance Type Assist Blade. Official stats: Attack 17 / Defense 10 / Stamina 13. Weight: 4.5g. Height: 50mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 4.46,
-      "spinDirection": "right"
+      "weightGrams": 4.5,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.8,
+      "defense": 2,
+      "stamina": 2.6,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -426,16 +456,18 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": "The Massive Assist Blade.",
-    "assessment": "Massive is an Assist Blade from the Beyblade X Custom Line. Debuted with PegasusBrush M3-85W in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "assessment": "Massive is a right-spin Balance Type Assist Blade. Official stats: Attack 15 / Defense 15 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
+      "weightGrams": 5.3,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -448,16 +480,18 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": "The Charge Assist Blade.",
-    "assessment": "Charge is an Assist Blade from the Beyblade X Custom Line. Debuted with SolBrave C9-70TP in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "assessment": "Charge is a right-spin Defense Type Assist Blade. Official stats: Attack 15 / Defense 20 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
+      "weightGrams": 5,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -470,16 +504,18 @@
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-07",
     "description": "The Assault Assist Blade.",
-    "assessment": "Assault is an Assist Blade from the Beyblade X Custom Line. Debuted with PegasusBlast ATr. Manufactured by Takara Tomy.",
+    "assessment": "Assault is a right-spin Attack Type Assist Blade. Official stats: Attack 25 / Defense 10 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
+      "weightGrams": 5,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.2,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -492,10 +528,11 @@
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": "The Dual Assist Blade.",
-    "assessment": "Dual is an Assist Blade from the Beyblade X Custom Line. Debuted with SolEclipse D5-70TK. Manufactured by Takara Tomy.",
+    "assessment": "Dual is a right-spin Balance Type Assist Blade. Weight: 5.9g. Manufactured by Takara Tomy.",
     "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
+      "weightGrams": 5.9,
+      "spinDirection": "right",
+      "typeTag": "Balance"
     },
     "ratings": {
       "attack": 0,
@@ -536,16 +573,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Slash Assist Blade.",
-    "assessment": "Slash is an Assist Blade from the Beyblade X CX line. Documented weight: 4.71g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Slash is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 10 / Stamina 10. Weight: 4.7g. Height: 50mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 4.71,
-      "spinDirection": "right"
+      "weightGrams": 4.7,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -580,16 +619,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Round Assist Blade.",
-    "assessment": "Round is an Assist Blade from the Beyblade X CX line. Documented weight: 4.64g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Round is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 10 / Stamina 20. Weight: 4.7g. Height: 60mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 4.64,
-      "spinDirection": "right"
+      "weightGrams": 4.7,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -602,16 +643,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Bumper Assist Blade.",
-    "assessment": "Bumper is an Assist Blade from the Beyblade X CX line. Documented weight: 5.31g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Bumper is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 20 / Stamina 10. Weight: 5.3g. Height: 60mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 5.31,
-      "spinDirection": "right"
+      "weightGrams": 5.3,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -624,16 +667,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Jaggy Assist Blade.",
-    "assessment": "Jaggy is an Assist Blade from the Beyblade X CX line. Documented weight: 4.82g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Jaggy is a right-spin Attack Type Assist Blade. Official stats: Attack 20 / Defense 15 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 4.82,
-      "spinDirection": "right"
+      "weightGrams": 4.9,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.3,
+      "defense": 3,
+      "stamina": 1,
+      "balance": 2.4
     },
     "ratingsDisclaimer": true
   },
@@ -646,16 +691,18 @@
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": "The Charge Assist Blade.",
-    "assessment": "Charge is an Assist Blade from the Beyblade X Custom Line. Debuted with SolBrave C9-70TP in Random Booster Vol. 8. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Charge is a right-spin Defense Type Assist Blade. Official stats: Attack 15 / Defense 20 / Stamina 5. Weight: 5g. Height: 60mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
+      "weightGrams": 5,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -668,16 +715,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Wheel Assist Blade.",
-    "assessment": "Wheel is an Assist Blade from the Beyblade X CX line. Documented weight: 7.26g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Wheel is a right-spin Stamina Type Assist Blade. Official stats: Attack 5 / Defense 15 / Stamina 20. Weight: 7.2g. Height: 80mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 7.26,
-      "spinDirection": "right"
+      "weightGrams": 7.2,
+      "spinDirection": "right",
+      "heightMm": 80,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.8,
+      "defense": 3,
+      "stamina": 4,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -690,16 +739,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Erase Assist Blade.",
-    "assessment": "Erase is an Assist Blade from the Beyblade X CX line. Documented weight: 6.1g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Erase is a right-spin Stamina Type Assist Blade. Official stats: Attack 10 / Defense 5 / Stamina 25. Weight: 6g. Height: 70mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 6.1,
-      "spinDirection": "right"
+      "weightGrams": 6,
+      "spinDirection": "right",
+      "heightMm": 70,
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 1,
+      "stamina": 5,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -712,16 +763,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Vertical Assist Blade.",
-    "assessment": "Vertical is an Assist Blade from the Beyblade X CX line. Documented weight: 5.47g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Vertical is a right-spin Defense Type Assist Blade. Official stats: Attack 10 / Defense 25 / Stamina 5. Weight: 5.3g. Height: 60mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 5.47,
-      "spinDirection": "right"
+      "weightGrams": 5.3,
+      "spinDirection": "right",
+      "heightMm": 60,
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 5,
+      "stamina": 1,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   },
@@ -734,16 +787,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Knuckle Assist Blade.",
-    "assessment": "Knuckle is an Assist Blade from the Beyblade X CX line. Documented weight: 4.89g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Knuckle is a right-spin Attack Type Assist Blade. Official stats: Attack 30 / Defense 5 / Stamina 5. Weight: 4.9g. Height: 50mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 4.89,
-      "spinDirection": "right"
+      "weightGrams": 4.9,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2.3
     },
     "ratingsDisclaimer": true
   },
@@ -756,16 +811,18 @@
     "releaseDate": "",
     "releaseWave": "CX",
     "description": "The Heavy Assist Blade.",
-    "assessment": "Heavy is an Assist Blade from the Beyblade X CX line. Documented weight: 7.94g. Hasbro release of the Takara Tomy mold.",
+    "assessment": "Heavy is a right-spin Balance Type Assist Blade. Official stats: Attack 17 / Defense 17 / Stamina 11. Weight: 7.8g. Height: 50mm. Manufactured by Hasbro.",
     "officialStats": {
-      "weightGrams": 7.94,
-      "spinDirection": "right"
+      "weightGrams": 7.8,
+      "spinDirection": "right",
+      "heightMm": 50,
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.8,
+      "defense": 3.4,
+      "stamina": 2.2,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -778,13 +835,18 @@
     "releaseDate": "",
     "releaseWave": "",
     "description": "Turn Assist Blade.",
-    "assessment": "Turn is an Assist Blade from the Beyblade X toyline. Manufactured by Takara Tomy.",
-    "officialStats": {},
+    "assessment": "Turn is a right-spin Balance Type Assist Blade. Official stats: Attack 10 / Defense 10 / Stamina 20. Weight: 5.8g. Height: 60mm. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 5.8,
+      "heightMm": 60,
+      "typeTag": "Balance",
+      "spinDirection": "right"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.7,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2.6
     },
     "ratingsDisclaimer": true
   }

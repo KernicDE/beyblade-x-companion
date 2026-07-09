@@ -1,0 +1,2466 @@
+{
+  "blade:cobalt-drake": {
+    "attackStat": 65,
+    "defenseStat": 30,
+    "staminaStat": 20,
+    "weightGrams": 38,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:dran-sword": {
+    "attackStat": 55,
+    "defenseStat": 25,
+    "staminaStat": 20,
+    "weightGrams": 34.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:hells-scythe": {
+    "attackStat": 30,
+    "defenseStat": 35,
+    "staminaStat": 35,
+    "weightGrams": 32.7,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:knight-shield": {
+    "attackStat": 20,
+    "defenseStat": 55,
+    "staminaStat": 25,
+    "weightGrams": 32.4,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:wizard-arrow": {
+    "attackStat": 15,
+    "defenseStat": 30,
+    "staminaStat": 55,
+    "weightGrams": 31.8,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:dranzer-spiral": {
+    "attackStat": 35,
+    "defenseStat": 30,
+    "staminaStat": 35,
+    "weightGrams": 27.7,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:knight-lance": {
+    "attackStat": 25,
+    "defenseStat": 60,
+    "staminaStat": 15,
+    "weightGrams": 32.9,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:shark-edge": {
+    "attackStat": 60,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 34.5,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:leon-claw": {
+    "attackStat": 40,
+    "defenseStat": 40,
+    "staminaStat": 20,
+    "weightGrams": 31.4,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:viper-tail": {
+    "attackStat": 30,
+    "defenseStat": 20,
+    "staminaStat": 50,
+    "weightGrams": 34.7,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:dran-dagger": {
+    "attackStat": 50,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 34.8,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:hells-chain": {
+    "attackStat": 35,
+    "defenseStat": 40,
+    "staminaStat": 25,
+    "weightGrams": 33.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:rhino-horn": {
+    "attackStat": 20,
+    "defenseStat": 50,
+    "staminaStat": 30,
+    "weightGrams": 32.7,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:phoenix-feather": {
+    "attackStat": 50,
+    "defenseStat": 20,
+    "staminaStat": 30,
+    "weightGrams": 33.3,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:phoenix-wing": {
+    "attackStat": 60,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 38,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:wyvern-gale": {
+    "attackStat": 10,
+    "defenseStat": 40,
+    "staminaStat": 50,
+    "weightGrams": 31.9,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:unicorn-sting": {
+    "attackStat": 35,
+    "defenseStat": 35,
+    "staminaStat": 30,
+    "weightGrams": 33.4,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:sphinx-cowl": {
+    "attackStat": 35,
+    "defenseStat": 55,
+    "staminaStat": 10,
+    "weightGrams": 32.7,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:dran-buster": {
+    "attackStat": 70,
+    "defenseStat": 20,
+    "staminaStat": 10,
+    "weightGrams": 36.5,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:hells-hammer": {
+    "attackStat": 50,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 33,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:wizard-rod": {
+    "attackStat": 15,
+    "defenseStat": 25,
+    "staminaStat": 60,
+    "weightGrams": 35.3,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:driger-slash": {
+    "attackStat": 40,
+    "defenseStat": 35,
+    "staminaStat": 25,
+    "weightGrams": 28.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:tyranno-beat": {
+    "attackStat": 65,
+    "defenseStat": 30,
+    "staminaStat": 5,
+    "weightGrams": 37,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:shinobi-shadow": {
+    "attackStat": 10,
+    "defenseStat": 70,
+    "staminaStat": 20,
+    "weightGrams": 28.2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:mammoth-tusk": {
+    "spinDirection": "right"
+  },
+  "blade:shinobi-knife": {
+    "spinDirection": "right"
+  },
+  "blade:ptera-swing": {
+    "spinDirection": "right"
+  },
+  "blade:samurai-steel": {
+    "spinDirection": "right"
+  },
+  "blade:weiss-tiger": {
+    "attackStat": 45,
+    "defenseStat": 30,
+    "staminaStat": 25,
+    "weightGrams": 34.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:cobalt-dragoon": {
+    "attackStat": 60,
+    "defenseStat": 15,
+    "staminaStat": 25,
+    "weightGrams": 37.8,
+    "typeTag": "Attack",
+    "spinDirection": "left"
+  },
+  "blade:black-shell": {
+    "attackStat": 10,
+    "defenseStat": 65,
+    "staminaStat": 25,
+    "weightGrams": 32.4,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:optimus-prime": null,
+  "blade:starscream": {
+    "attackStat": 18,
+    "defenseStat": 27,
+    "staminaStat": 55,
+    "weightGrams": 29.5,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:optimus-primal": null,
+  "blade:megatron": {
+    "attackStat": 27,
+    "defenseStat": 35,
+    "staminaStat": 38,
+    "weightGrams": 31.1,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:aero-pegasus": {
+    "attackStat": 60,
+    "defenseStat": 25,
+    "staminaStat": 30,
+    "weightGrams": 38.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:leon-crest": {
+    "attackStat": 15,
+    "defenseStat": 70,
+    "staminaStat": 15,
+    "weightGrams": 35,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:phoenix-rudder": {
+    "attackStat": 10,
+    "defenseStat": 35,
+    "staminaStat": 55,
+    "weightGrams": 34.5,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:croco-crunch": {
+    "spinDirection": "right"
+  },
+  "blade:yell-kong": null,
+  "blade:iron-man": null,
+  "blade:thanos": {
+    "attackStat": 22,
+    "defenseStat": 60,
+    "staminaStat": 18,
+    "weightGrams": 29.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:spider-man": null,
+  "blade:venom": {
+    "attackStat": 55,
+    "defenseStat": 22,
+    "staminaStat": 23,
+    "weightGrams": 34.3,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:luke-skywalker": null,
+  "blade:darth-vader": null,
+  "blade:moff-gideon": null,
+  "blade:the-mandalorian": null,
+  "blade:whale-wave": {
+    "attackStat": 45,
+    "defenseStat": 35,
+    "staminaStat": 20,
+    "weightGrams": 38.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:l-drago-upper": null,
+  "blade:l-drago-rapid-hit": null,
+  "blade:bear-scratch": {
+    "spinDirection": "right"
+  },
+  "blade:roar-tyranno": null,
+  "blade:silver-wolf": {
+    "attackStat": 15,
+    "defenseStat": 30,
+    "staminaStat": 65,
+    "weightGrams": 36.8,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:crimson-garuda": {
+    "attackStat": 45,
+    "defenseStat": 25,
+    "staminaStat": 30,
+    "weightGrams": 35,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:samurai-saber": {
+    "attackStat": 65,
+    "defenseStat": 20,
+    "staminaStat": 25,
+    "weightGrams": 36.5,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:knight-mail": {
+    "attackStat": 10,
+    "defenseStat": 65,
+    "staminaStat": 35,
+    "weightGrams": 36.7,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:draciel-shield": {
+    "attackStat": 30,
+    "defenseStat": 50,
+    "staminaStat": 20,
+    "weightGrams": 28,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:impact-drake": {
+    "attackStat": 75,
+    "defenseStat": 25,
+    "staminaStat": 10,
+    "weightGrams": 39,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:ghost-circle": {
+    "attackStat": 5,
+    "defenseStat": 40,
+    "staminaStat": 55,
+    "weightGrams": 26.7,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:golem-rock": {
+    "attackStat": 30,
+    "defenseStat": 60,
+    "staminaStat": 10,
+    "weightGrams": 34,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:shelter-drake": {
+    "attackStat": 25,
+    "defenseStat": 40,
+    "staminaStat": 35,
+    "weightGrams": 32.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:dragoon-storm": {
+    "attackStat": 55,
+    "defenseStat": 30,
+    "staminaStat": 15,
+    "weightGrams": 25.1,
+    "typeTag": "Attack",
+    "spinDirection": "left"
+  },
+  "blade:storm-pegasis": {
+    "attackStat": 55,
+    "defenseStat": 15,
+    "staminaStat": 30,
+    "weightGrams": 31,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:victory-valkyrie": {
+    "attackStat": 55,
+    "defenseStat": 20,
+    "staminaStat": 25,
+    "weightGrams": 33.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:xeno-xcalibur": {
+    "attackStat": 65,
+    "defenseStat": 25,
+    "staminaStat": 10,
+    "weightGrams": 31,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:scorpio-spear": {
+    "attackStat": 25,
+    "defenseStat": 55,
+    "staminaStat": 30,
+    "weightGrams": 39.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:hover-wyvern": null,
+  "blade:shark-gill": {
+    "spinDirection": "right"
+  },
+  "blade:tricera-press": {
+    "attackStat": 20,
+    "defenseStat": 65,
+    "staminaStat": 15,
+    "weightGrams": 36.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:rock-leone": null,
+  "blade:samurai-calibur": {
+    "attackStat": 40,
+    "defenseStat": 30,
+    "staminaStat": 30,
+    "weightGrams": 36,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:shark-scale": {
+    "attackStat": 70,
+    "defenseStat": 15,
+    "staminaStat": 15,
+    "weightGrams": 37.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:goat-tackle": {
+    "spinDirection": "right"
+  },
+  "blade:captain-america": null,
+  "blade:red-hulk": null,
+  "blade:obi-wan-kenobi": null,
+  "blade:general-grievous": null,
+  "blade:bumblebee": {
+    "attackStat": 21,
+    "defenseStat": 55,
+    "staminaStat": 24,
+    "weightGrams": 31.8,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:shockwave": {
+    "attackStat": 32,
+    "defenseStat": 18,
+    "staminaStat": 50,
+    "weightGrams": 32.3,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:miles-morales": null,
+  "blade:green-goblin": null,
+  "blade:clock-mirage": {
+    "attackStat": 10,
+    "defenseStat": 10,
+    "staminaStat": 80,
+    "weightGrams": 37.7,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:chewbacca": {
+    "attackStat": 22,
+    "defenseStat": 23,
+    "staminaStat": 55,
+    "weightGrams": 31.8,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:stormtrooper": {
+    "attackStat": 18,
+    "defenseStat": 50,
+    "staminaStat": 32,
+    "weightGrams": 33.3,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:stun-medusa": null,
+  "blade:meteor-dragoon": {
+    "attackStat": 75,
+    "defenseStat": 15,
+    "staminaStat": 35,
+    "weightGrams": 39,
+    "typeTag": "Attack",
+    "spinDirection": "left"
+  },
+  "blade:mummy-curse": {
+    "attackStat": 30,
+    "defenseStat": 60,
+    "staminaStat": 20,
+    "weightGrams": 37.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:orochi-cluster": {
+    "weightGrams": 36.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:storm-spriggan": {
+    "attackStat": 30,
+    "defenseStat": 40,
+    "staminaStat": 30,
+    "weightGrams": 31,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:tricera-spikey": null,
+  "blade:hack-viking": null,
+  "blade:dran-strike": {
+    "attackStat": 58,
+    "defenseStat": 25,
+    "staminaStat": 17,
+    "weightGrams": 41.4,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:ring-aether": null,
+  "blade:tyranno-roar": null,
+  "blade:pegasus-brush": null,
+  "blade:sol-brave": null,
+  "blade:hells-brave": null,
+  "blade:bullet-griffon": null,
+  "blade:glory-valkyrie": null,
+  "blade:dran-brave": null,
+  "blade:wizard-arc": null,
+  "blade:perseus-dark": null,
+  "blade:hells-reaper": null,
+  "blade:rhino-reaper": null,
+  "blade:hells-arc": null,
+  "blade:fox-brush": null,
+  "blade:pegasus-blast": null,
+  "blade:cerberus-flame": null,
+  "blade:whale-flame": null,
+  "blade:cerberus-dark": null,
+  "blade:wolf-hunt": null,
+  "blade:sol-eclipse": null,
+  "blade:emperor-might": null,
+  "blade:phoenix-flare": null,
+  "blade:bahamut-blitz": null,
+  "blade:knight-fortress": null,
+  "blade:ragna-rage": null,
+  "blade:unicorn-delta": null,
+  "blade:brachio-whip": null,
+  "blade:t-rex": null,
+  "blade:mosasaurus": {
+    "spinDirection": "right"
+  },
+  "blade:spinosaurus": {
+    "spinDirection": "right"
+  },
+  "blade:quetzalcoatlus": {
+    "spinDirection": "right"
+  },
+  "blade:fort-hornet": null,
+  "blade:wriggle-kraken": null,
+  "blade:antler-stag": null,
+  "blade:fang": null,
+  "blade:strike-dran": null,
+  "blade:valor-bison": null,
+  "blade:gust-bat": null,
+  "blade:dran-sword-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 25,
+    "staminaStat": 20,
+    "weightGrams": 34.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:knight-shield-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 55,
+    "staminaStat": 25,
+    "weightGrams": 32.4,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:wizard-arrow-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 30,
+    "staminaStat": 55,
+    "weightGrams": 31.8,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:hells-scythe-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 35,
+    "staminaStat": 35,
+    "weightGrams": 32.7,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:samurai-steel-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:rhino-horn-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 50,
+    "staminaStat": 30,
+    "weightGrams": 32.7,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:shark-edge-hasbro": {
+    "attackStat": 60,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 34.5,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:ptera-swing-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:knight-lance-hasbro": {
+    "attackStat": 25,
+    "defenseStat": 60,
+    "staminaStat": 15,
+    "weightGrams": 32.9,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:leon-claw-hasbro": {
+    "attackStat": 40,
+    "defenseStat": 40,
+    "staminaStat": 20,
+    "weightGrams": 31.4,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:dran-buster-hasbro": {
+    "attackStat": 70,
+    "defenseStat": 20,
+    "staminaStat": 10,
+    "weightGrams": 36.5,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:wizard-rod-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 25,
+    "staminaStat": 60,
+    "weightGrams": 35.3,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:shinobi-shadow-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 70,
+    "staminaStat": 20,
+    "weightGrams": 28.2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:crimson-garuda-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 25,
+    "staminaStat": 30,
+    "weightGrams": 35,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:silver-wolf-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 30,
+    "staminaStat": 65,
+    "weightGrams": 36.8,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:shelter-drake-hasbro": {
+    "attackStat": 25,
+    "defenseStat": 40,
+    "staminaStat": 35,
+    "weightGrams": 32.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:golem-rock-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 60,
+    "staminaStat": 10,
+    "weightGrams": 34,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:hells-hammer-hasbro": {
+    "attackStat": 50,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 33,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:stun-medusa-hasbro": null,
+  "blade:phoenix-rudder-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 35,
+    "staminaStat": 55,
+    "weightGrams": 34.5,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:phoenix-feather-hasbro": {
+    "attackStat": 50,
+    "defenseStat": 20,
+    "staminaStat": 30,
+    "weightGrams": 33.3,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:dran-brave-hasbro": null,
+  "blade:hells-reaper-hasbro": null,
+  "blade:wizard-arc-hasbro": null,
+  "blade:perseus-dark-hasbro": null,
+  "blade:fox-brush-hasbro": null,
+  "blade:fort-hornet-hasbro": null,
+  "blade:wriggle-kraken-hasbro": null,
+  "blade:antler-stag-hasbro": null,
+  "blade:rhino-reaper-hasbro": null,
+  "blade:cerberus-flame-hasbro": null,
+  "blade:fang-hasbro": null,
+  "blade:strike-dran-hasbro": null,
+  "blade:valor-bison-hasbro": null,
+  "blade:bullet-griffon-hasbro": null,
+  "blade:ragna-rage-hasbro": null,
+  "blade:knight-fortress-hasbro": null,
+  "blade:ring-aether-hasbro": null,
+  "blade:bahamut-blitz-hasbro": null,
+  "blade:unicorn-sting-hasbro": {
+    "attackStat": 35,
+    "defenseStat": 35,
+    "staminaStat": 30,
+    "weightGrams": 33.4,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:tyranno-roar-hasbro": null,
+  "blade:bear-scratch-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:sphinx-cowl-hasbro": {
+    "attackStat": 35,
+    "defenseStat": 55,
+    "staminaStat": 10,
+    "weightGrams": 32.7,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:black-shell-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 65,
+    "staminaStat": 25,
+    "weightGrams": 32.4,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:whale-wave-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 35,
+    "staminaStat": 20,
+    "weightGrams": 38.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:dran-dagger-hasbro": {
+    "attackStat": 50,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 34.8,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:mammoth-tusk-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:phoenix-wing-hasbro": {
+    "attackStat": 60,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 38,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:shark-scale-hasbro": {
+    "attackStat": 70,
+    "defenseStat": 15,
+    "staminaStat": 15,
+    "weightGrams": 37.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:gust-bat-hasbro": null,
+  "blade:mummy-curse-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 60,
+    "staminaStat": 20,
+    "weightGrams": 37.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:tricera-press-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 65,
+    "staminaStat": 15,
+    "weightGrams": 36.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:shinobi-knife-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:hells-chain-hasbro": {
+    "attackStat": 35,
+    "defenseStat": 40,
+    "staminaStat": 25,
+    "weightGrams": 33.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:viper-tail-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 20,
+    "staminaStat": 50,
+    "weightGrams": 34.7,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:croco-crunch-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:wyvern-gale-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 40,
+    "staminaStat": 50,
+    "weightGrams": 31.9,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:tyranno-beat-hasbro": {
+    "attackStat": 65,
+    "defenseStat": 30,
+    "staminaStat": 5,
+    "weightGrams": 37,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:leon-crest-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 70,
+    "staminaStat": 15,
+    "weightGrams": 35,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:weiss-tiger-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 30,
+    "staminaStat": 25,
+    "weightGrams": 34.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:ghost-circle-hasbro": {
+    "attackStat": 5,
+    "defenseStat": 40,
+    "staminaStat": 55,
+    "weightGrams": 26.7,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:goat-tackle-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:samurai-calibur-hasbro": {
+    "attackStat": 40,
+    "defenseStat": 30,
+    "staminaStat": 30,
+    "weightGrams": 36,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:hack-viking-hasbro": null,
+  "blade:scorpio-spear-hasbro": {
+    "attackStat": 25,
+    "defenseStat": 55,
+    "staminaStat": 30,
+    "weightGrams": 39.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:dragoon-storm-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 30,
+    "staminaStat": 15,
+    "weightGrams": 25.1,
+    "typeTag": "Attack",
+    "spinDirection": "left"
+  },
+  "blade:storm-pegasis-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 15,
+    "staminaStat": 30,
+    "weightGrams": 31,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:victory-valkyrie-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 20,
+    "staminaStat": 25,
+    "weightGrams": 33.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:emperor-might-hasbro": null,
+  "blade:shark-gill-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:knight-mail-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 65,
+    "staminaStat": 35,
+    "weightGrams": 36.7,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:dranzer-spiral-hasbro": {
+    "attackStat": 35,
+    "defenseStat": 30,
+    "staminaStat": 35,
+    "weightGrams": 27.7,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:driger-slash-hasbro": {
+    "attackStat": 40,
+    "defenseStat": 35,
+    "staminaStat": 25,
+    "weightGrams": 28.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "blade:draciel-shield-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 50,
+    "staminaStat": 20,
+    "weightGrams": 28,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:grogu": {
+    "attackStat": 21,
+    "defenseStat": 50,
+    "staminaStat": 29,
+    "weightGrams": 33.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:grogu-hasbro": {
+    "attackStat": 21,
+    "defenseStat": 50,
+    "staminaStat": 29,
+    "weightGrams": 33.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:snowtrooper": {
+    "spinDirection": "right"
+  },
+  "blade:snowtrooper-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:the-mandalorian-hasbro": null,
+  "blade:moff-gideon-hasbro": null,
+  "blade:iron-man-hasbro": null,
+  "blade:thanos-hasbro": {
+    "attackStat": 22,
+    "defenseStat": 60,
+    "staminaStat": 18,
+    "weightGrams": 29.5,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:spider-man-hasbro": null,
+  "blade:venom-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 22,
+    "staminaStat": 23,
+    "weightGrams": 34.3,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "blade:luke-skywalker-hasbro": null,
+  "blade:darth-vader-hasbro": null,
+  "blade:captain-america-hasbro": null,
+  "blade:red-hulk-hasbro": null,
+  "blade:miles-morales-hasbro": null,
+  "blade:green-goblin-hasbro": null,
+  "blade:bumblebee-hasbro": {
+    "attackStat": 21,
+    "defenseStat": 55,
+    "staminaStat": 24,
+    "weightGrams": 31.8,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:shockwave-hasbro": {
+    "attackStat": 32,
+    "defenseStat": 18,
+    "staminaStat": 50,
+    "weightGrams": 32.3,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:obi-wan-kenobi-hasbro": null,
+  "blade:general-grievous-hasbro": null,
+  "blade:chewbacca-hasbro": {
+    "attackStat": 22,
+    "defenseStat": 23,
+    "staminaStat": 55,
+    "weightGrams": 31.8,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "blade:stormtrooper-hasbro": {
+    "attackStat": 18,
+    "defenseStat": 50,
+    "staminaStat": 32,
+    "weightGrams": 33.3,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "blade:t-rex-hasbro": null,
+  "blade:mosasaurus-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:spinosaurus-hasbro": {
+    "spinDirection": "right"
+  },
+  "blade:quetzalcoatlus-hasbro": {
+    "spinDirection": "right"
+  },
+  "assistBlade:slash": {
+    "attackStat": 20,
+    "defenseStat": 10,
+    "staminaStat": 10,
+    "weightGrams": 4.7,
+    "heightMm": 50,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:round": {
+    "attackStat": 10,
+    "defenseStat": 10,
+    "staminaStat": 20,
+    "weightGrams": 4.7,
+    "heightMm": 60,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:bumper": {
+    "attackStat": 10,
+    "defenseStat": 20,
+    "staminaStat": 10,
+    "weightGrams": 5.3,
+    "heightMm": 60,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:turn-a": null,
+  "assistBlade:turn-d": null,
+  "assistBlade:charge": {
+    "attackStat": 15,
+    "defenseStat": 20,
+    "staminaStat": 5,
+    "weightGrams": 5,
+    "heightMm": 60,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:jaggy": {
+    "attackStat": 20,
+    "defenseStat": 15,
+    "staminaStat": 5,
+    "weightGrams": 4.9,
+    "heightMm": 50,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:assault": {
+    "attackStat": 25,
+    "defenseStat": 10,
+    "staminaStat": 5,
+    "weightGrams": 5,
+    "heightMm": 60,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:wheel": {
+    "attackStat": 5,
+    "defenseStat": 15,
+    "staminaStat": 20,
+    "weightGrams": 7.2,
+    "heightMm": 80,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:massive": {
+    "attackStat": 15,
+    "defenseStat": 15,
+    "staminaStat": 10,
+    "weightGrams": 5.3,
+    "heightMm": 60,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "assistBlade:dual-u": null,
+  "assistBlade:dual-s": null,
+  "assistBlade:free": {
+    "attackStat": 5,
+    "defenseStat": 20,
+    "staminaStat": 25,
+    "weightGrams": 5.8,
+    "heightMm": 60,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:heavy": {
+    "attackStat": 17,
+    "defenseStat": 17,
+    "staminaStat": 11,
+    "weightGrams": 7.8,
+    "heightMm": 50,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "assistBlade:zillion": {
+    "attackStat": 22,
+    "defenseStat": 15,
+    "staminaStat": 3,
+    "weightGrams": 6.6,
+    "heightMm": 80,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:knuckle": {
+    "attackStat": 30,
+    "defenseStat": 5,
+    "staminaStat": 5,
+    "weightGrams": 4.9,
+    "heightMm": 50,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:vertical": {
+    "attackStat": 10,
+    "defenseStat": 25,
+    "staminaStat": 5,
+    "weightGrams": 5.3,
+    "heightMm": 60,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:erase": {
+    "attackStat": 10,
+    "defenseStat": 5,
+    "staminaStat": 25,
+    "weightGrams": 6,
+    "heightMm": 70,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:odd": {
+    "attackStat": 17,
+    "defenseStat": 10,
+    "staminaStat": 13,
+    "weightGrams": 4.5,
+    "heightMm": 50,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "assistBlade:dual": {
+    "weightGrams": 5.9,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "assistBlade:outer": null,
+  "assistBlade:slash-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 10,
+    "staminaStat": 10,
+    "weightGrams": 4.7,
+    "heightMm": 50,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:turn-a-hasbro": null,
+  "assistBlade:round-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 10,
+    "staminaStat": 20,
+    "weightGrams": 4.7,
+    "heightMm": 60,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:bumper-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 20,
+    "staminaStat": 10,
+    "weightGrams": 5.3,
+    "heightMm": 60,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:jaggy-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 15,
+    "staminaStat": 5,
+    "weightGrams": 4.9,
+    "heightMm": 50,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:charge-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 20,
+    "staminaStat": 5,
+    "weightGrams": 5,
+    "heightMm": 60,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:wheel-hasbro": {
+    "attackStat": 5,
+    "defenseStat": 15,
+    "staminaStat": 20,
+    "weightGrams": 7.2,
+    "heightMm": 80,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:erase-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 5,
+    "staminaStat": 25,
+    "weightGrams": 6,
+    "heightMm": 70,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "assistBlade:vertical-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 25,
+    "staminaStat": 5,
+    "weightGrams": 5.3,
+    "heightMm": 60,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "assistBlade:knuckle-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 5,
+    "staminaStat": 5,
+    "weightGrams": 4.9,
+    "heightMm": 50,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "assistBlade:heavy-hasbro": {
+    "attackStat": 17,
+    "defenseStat": 17,
+    "staminaStat": 11,
+    "weightGrams": 7.8,
+    "heightMm": 50,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "assistBlade:turn": {
+    "attackStat": 10,
+    "defenseStat": 10,
+    "staminaStat": 20,
+    "weightGrams": 5.8,
+    "heightMm": 60,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-60": {
+    "attackStat": 15,
+    "defenseStat": 9,
+    "staminaStat": 6,
+    "weightGrams": 6.4,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-80": {
+    "attackStat": 15,
+    "defenseStat": 7,
+    "staminaStat": 8,
+    "weightGrams": 7.1,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-60": {
+    "attackStat": 11,
+    "defenseStat": 13,
+    "staminaStat": 6,
+    "weightGrams": 6.3,
+    "heightMm": 60,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-80": {
+    "attackStat": 11,
+    "defenseStat": 11,
+    "staminaStat": 8,
+    "weightGrams": 7,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-5-60": {
+    "attackStat": 12,
+    "defenseStat": 9,
+    "staminaStat": 9,
+    "weightGrams": 6.6,
+    "heightMm": 60,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-5-80": {
+    "attackStat": 12,
+    "defenseStat": 8,
+    "staminaStat": 10,
+    "weightGrams": 7.3,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-60": {
+    "weightGrams": 6.2,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-80": {
+    "attackStat": 13,
+    "defenseStat": 10,
+    "staminaStat": 7,
+    "weightGrams": 6.9,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-60": {
+    "weightGrams": 6,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-70": {
+    "attackStat": 15,
+    "defenseStat": 8,
+    "staminaStat": 7,
+    "weightGrams": 6.4,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-5-70": {
+    "attackStat": 12,
+    "defenseStat": 8,
+    "staminaStat": 10,
+    "weightGrams": 6.7,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-70": {
+    "weightGrams": 6.4,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-80": {
+    "weightGrams": 6.7,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-2-60": {
+    "weightGrams": 6.2,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-2-80": {
+    "attackStat": 10,
+    "defenseStat": 11,
+    "staminaStat": 9,
+    "weightGrams": 6.9,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-60": {
+    "weightGrams": 7.1,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-70": {
+    "weightGrams": 6.3,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-2-70": {
+    "attackStat": 10,
+    "defenseStat": 12,
+    "staminaStat": 8,
+    "weightGrams": 6.3,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-85": {
+    "attackStat": 5,
+    "defenseStat": 15,
+    "staminaStat": 10,
+    "weightGrams": 4.7,
+    "heightMm": 85,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-70": {
+    "attackStat": 8,
+    "defenseStat": 12,
+    "staminaStat": 10,
+    "weightGrams": 7.3,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-0-80": {
+    "attackStat": 3,
+    "defenseStat": 12,
+    "staminaStat": 15,
+    "weightGrams": 7.6,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-80": {
+    "attackStat": 7,
+    "defenseStat": 14,
+    "staminaStat": 9,
+    "weightGrams": 7.8,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-6-60": {
+    "attackStat": 14,
+    "defenseStat": 8,
+    "staminaStat": 8,
+    "weightGrams": 6.1,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-6-80": {
+    "attackStat": 14,
+    "defenseStat": 6,
+    "staminaStat": 10,
+    "weightGrams": 6.9,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-55": {
+    "attackStat": 7,
+    "defenseStat": 11,
+    "staminaStat": 12,
+    "weightGrams": 4.8,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-0-70": {
+    "attackStat": 3,
+    "staminaStat": 14,
+    "weightGrams": 7,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-M-85": {
+    "attackStat": 8,
+    "defenseStat": 19,
+    "staminaStat": 13,
+    "weightGrams": 10.6,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-6-70": {
+    "attackStat": 14,
+    "defenseStat": 7,
+    "staminaStat": 9,
+    "weightGrams": 6.3,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-50": {
+    "attackStat": 12,
+    "defenseStat": 13,
+    "staminaStat": 5,
+    "weightGrams": 5.9,
+    "heightMm": 50,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-70": {
+    "attackStat": 17,
+    "defenseStat": 6,
+    "staminaStat": 7,
+    "weightGrams": 6.1,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-65": {
+    "attackStat": 13,
+    "defenseStat": 10,
+    "staminaStat": 7,
+    "weightGrams": 4.5,
+    "heightMm": 65,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-0-60": {
+    "attackStat": 3,
+    "defenseStat": 14,
+    "staminaStat": 13,
+    "weightGrams": 6.8,
+    "heightMm": 60,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-55": {
+    "attackStat": 6,
+    "defenseStat": 14,
+    "staminaStat": 10,
+    "weightGrams": 5.2,
+    "heightMm": 55,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-50": {
+    "attackStat": 18,
+    "defenseStat": 9,
+    "staminaStat": 3,
+    "weightGrams": 5.7,
+    "heightMm": 50,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-8-70": {
+    "attackStat": 8,
+    "defenseStat": 10,
+    "staminaStat": 12,
+    "weightGrams": 7.7,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-integrated": null,
+  "ratchet:ratchet-3-60-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 9,
+    "staminaStat": 6,
+    "weightGrams": 6.4,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-80-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 7,
+    "staminaStat": 8,
+    "weightGrams": 7.1,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-80-hasbro": {
+    "attackStat": 11,
+    "defenseStat": 11,
+    "staminaStat": 8,
+    "weightGrams": 7,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-60-hasbro": {
+    "attackStat": 11,
+    "defenseStat": 13,
+    "staminaStat": 6,
+    "weightGrams": 6.3,
+    "heightMm": 60,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-5-60-hasbro": {
+    "attackStat": 12,
+    "defenseStat": 9,
+    "staminaStat": 9,
+    "weightGrams": 6.6,
+    "heightMm": 60,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-60-hasbro": {
+    "weightGrams": 6,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-5-70-hasbro": {
+    "attackStat": 12,
+    "defenseStat": 8,
+    "staminaStat": 10,
+    "weightGrams": 6.7,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-80-hasbro": {
+    "weightGrams": 6.7,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-70-hasbro": {
+    "weightGrams": 6.4,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-80-hasbro": {
+    "attackStat": 7,
+    "defenseStat": 14,
+    "staminaStat": 9,
+    "weightGrams": 7.8,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-70-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 8,
+    "staminaStat": 7,
+    "weightGrams": 6.4,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-60-hasbro": {
+    "weightGrams": 6.2,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-2-60-hasbro": {
+    "weightGrams": 6.2,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-6-60-hasbro": {
+    "attackStat": 14,
+    "defenseStat": 8,
+    "staminaStat": 8,
+    "weightGrams": 6.1,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-55-hasbro": {
+    "attackStat": 7,
+    "defenseStat": 11,
+    "staminaStat": 12,
+    "weightGrams": 4.8,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-6-80-hasbro": {
+    "attackStat": 14,
+    "defenseStat": 6,
+    "staminaStat": 10,
+    "weightGrams": 6.9,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-70-hasbro": {
+    "weightGrams": 6.3,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-60-hasbro": {
+    "weightGrams": 7.1,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-3-85-hasbro": {
+    "attackStat": 5,
+    "defenseStat": 15,
+    "staminaStat": 10,
+    "weightGrams": 4.7,
+    "heightMm": 85,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-5-80-hasbro": {
+    "attackStat": 12,
+    "defenseStat": 8,
+    "staminaStat": 10,
+    "weightGrams": 7.3,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-4-50-hasbro": {
+    "attackStat": 12,
+    "defenseStat": 13,
+    "staminaStat": 5,
+    "weightGrams": 5.9,
+    "heightMm": 50,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-integrated-hasbro": null,
+  "ratchet:ratchet-8-70-hasbro": {
+    "attackStat": 8,
+    "defenseStat": 10,
+    "staminaStat": 12,
+    "weightGrams": 7.7,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-0-80-hasbro": {
+    "attackStat": 3,
+    "defenseStat": 12,
+    "staminaStat": 15,
+    "weightGrams": 7.6,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-1-50-hasbro": {
+    "attackStat": 18,
+    "defenseStat": 9,
+    "staminaStat": 3,
+    "weightGrams": 5.7,
+    "heightMm": 50,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-9-80-hasbro": {
+    "attackStat": 13,
+    "defenseStat": 10,
+    "staminaStat": 7,
+    "weightGrams": 6.9,
+    "heightMm": 80,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-55-hasbro": {
+    "attackStat": 6,
+    "defenseStat": 14,
+    "staminaStat": 10,
+    "weightGrams": 5.2,
+    "heightMm": 55,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-7-70-hasbro": {
+    "attackStat": 8,
+    "defenseStat": 12,
+    "staminaStat": 10,
+    "weightGrams": 7.3,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-6-70-hasbro": {
+    "attackStat": 14,
+    "defenseStat": 7,
+    "staminaStat": 9,
+    "weightGrams": 6.3,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-0-70-hasbro": {
+    "attackStat": 3,
+    "staminaStat": 14,
+    "weightGrams": 7,
+    "heightMm": 70,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-m-85-hasbro": {
+    "attackStat": 8,
+    "defenseStat": 19,
+    "staminaStat": 13,
+    "weightGrams": 10.6,
+    "spinDirection": "right"
+  },
+  "ratchet:ratchet-m-85": null,
+  "ratchet:ratchet-2-70-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 12,
+    "staminaStat": 8,
+    "weightGrams": 6.3,
+    "spinDirection": "right"
+  },
+  "bit:bit-ball": {
+    "attackStat": 15,
+    "defenseStat": 25,
+    "staminaStat": 50,
+    "weightGrams": 2.1,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-flat": {
+    "attackStat": 40,
+    "defenseStat": 15,
+    "staminaStat": 10,
+    "weightGrams": 2.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-needle": {
+    "attackStat": 10,
+    "defenseStat": 50,
+    "staminaStat": 30,
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-taper": {
+    "attackStat": 35,
+    "defenseStat": 20,
+    "staminaStat": 20,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-high-needle": {
+    "attackStat": 15,
+    "defenseStat": 55,
+    "staminaStat": 20,
+    "weightGrams": 2.2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-flat": {
+    "attackStat": 45,
+    "defenseStat": 5,
+    "staminaStat": 10,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-point": {
+    "attackStat": 25,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-orb": {
+    "attackStat": 10,
+    "defenseStat": 30,
+    "staminaStat": 50,
+    "weightGrams": 2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-rush": {
+    "attackStat": 40,
+    "defenseStat": 10,
+    "staminaStat": 20,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-high-taper": {
+    "attackStat": 30,
+    "defenseStat": 25,
+    "staminaStat": 20,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-spike": {
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-flat": {
+    "attackStat": 50,
+    "defenseStat": 5,
+    "staminaStat": 5,
+    "weightGrams": 2.3,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-ball": {
+    "attackStat": 10,
+    "defenseStat": 15,
+    "staminaStat": 45,
+    "weightGrams": 2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-point": {
+    "attackStat": 30,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 2.3,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-needle": {
+    "attackStat": 20,
+    "defenseStat": 40,
+    "staminaStat": 10,
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-accel": {
+    "attackStat": 40,
+    "defenseStat": 10,
+    "staminaStat": 10,
+    "weightGrams": 2.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-hexa": {
+    "attackStat": 30,
+    "defenseStat": 35,
+    "staminaStat": 20,
+    "weightGrams": 2.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-disk-ball": {
+    "attackStat": 15,
+    "defenseStat": 20,
+    "staminaStat": 55,
+    "weightGrams": 3.2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-quake": {
+    "attackStat": 55,
+    "defenseStat": 15,
+    "staminaStat": 5,
+    "weightGrams": 2.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-metal-needle": {
+    "attackStat": 8,
+    "defenseStat": 57,
+    "staminaStat": 30,
+    "weightGrams": 2.8,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-unite": {
+    "attackStat": 25,
+    "defenseStat": 25,
+    "staminaStat": 30,
+    "weightGrams": 2.1,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-cyclone": {
+    "attackStat": 40,
+    "defenseStat": 5,
+    "staminaStat": 10,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-dot": {
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-glide": {
+    "attackStat": 20,
+    "defenseStat": 10,
+    "staminaStat": 55,
+    "weightGrams": 2.5,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-elevate": {
+    "attackStat": 30,
+    "defenseStat": 15,
+    "staminaStat": 20,
+    "weightGrams": 3.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-free-ball": {
+    "attackStat": 10,
+    "defenseStat": 25,
+    "staminaStat": 60,
+    "weightGrams": 1.9,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-trans-point": {
+    "attackStat": 35,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-level": {
+    "attackStat": 40,
+    "defenseStat": 5,
+    "staminaStat": 15,
+    "weightGrams": 2.7,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-bound-spike": {
+    "attackStat": 5,
+    "defenseStat": 60,
+    "staminaStat": 30,
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-rubber-accel": {
+    "weightGrams": 3.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-rush": {
+    "attackStat": 45,
+    "defenseStat": 5,
+    "staminaStat": 15,
+    "weightGrams": 1.9,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-under-needle": {
+    "attackStat": 10,
+    "defenseStat": 60,
+    "staminaStat": 20,
+    "weightGrams": 1.9,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-vortex": {
+    "attackStat": 45,
+    "defenseStat": 10,
+    "staminaStat": 5,
+    "weightGrams": 2.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-orb": {
+    "attackStat": 5,
+    "defenseStat": 25,
+    "staminaStat": 55,
+    "weightGrams": 1.9,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-wedge": {
+    "attackStat": 5,
+    "defenseStat": 55,
+    "staminaStat": 30,
+    "weightGrams": 1.8,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-kick": {
+    "attackStat": 35,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-zap": {
+    "attackStat": 30,
+    "defenseStat": 20,
+    "staminaStat": 15,
+    "weightGrams": 2.5,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-rush": {
+    "attackStat": 45,
+    "defenseStat": 10,
+    "staminaStat": 10,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-wall-ball": {
+    "attackStat": 15,
+    "defenseStat": 30,
+    "staminaStat": 45,
+    "weightGrams": 2.2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-merge": {
+    "attackStat": 50,
+    "defenseStat": 20,
+    "staminaStat": 10,
+    "weightGrams": 3.4,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-under-flat": {
+    "attackStat": 55,
+    "defenseStat": 5,
+    "staminaStat": 5,
+    "weightGrams": 2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-trans-kick": {
+    "weightGrams": 2.3,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-jolt": {
+    "attackStat": 35,
+    "defenseStat": 10,
+    "staminaStat": 15,
+    "weightGrams": 2.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-wall-wedge": {
+    "attackStat": 5,
+    "defenseStat": 60,
+    "staminaStat": 25,
+    "weightGrams": 2.4,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-ignition": {
+    "attackStat": 50,
+    "defenseStat": 15,
+    "staminaStat": 5,
+    "weightGrams": 2.4,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-yielding": {
+    "attackStat": 10,
+    "defenseStat": 15,
+    "staminaStat": 65,
+    "weightGrams": 4.2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-unite": {
+    "attackStat": 30,
+    "defenseStat": 20,
+    "staminaStat": 20,
+    "weightGrams": 2.3,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-free-flat": {
+    "attackStat": 40,
+    "defenseStat": 15,
+    "staminaStat": 15,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-disk-spike": {
+    "attackStat": 5,
+    "defenseStat": 55,
+    "staminaStat": 40,
+    "weightGrams": 3.1,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-narrow": {
+    "attackStat": 15,
+    "defenseStat": 20,
+    "staminaStat": 60,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-turbo": null,
+  "bit:bit-operate": null,
+  "bit:bit-low-orbital": null,
+  "bit:bit-wall": null,
+  "bit:bit-flat-hasbro": {
+    "attackStat": 40,
+    "defenseStat": 15,
+    "staminaStat": 10,
+    "weightGrams": 2.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-needle-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 50,
+    "staminaStat": 30,
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-ball-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 25,
+    "staminaStat": 50,
+    "weightGrams": 2.1,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-taper-hasbro": {
+    "attackStat": 35,
+    "defenseStat": 20,
+    "staminaStat": 20,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-spike-hasbro": {
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-flat-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 5,
+    "staminaStat": 10,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-high-needle-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 55,
+    "staminaStat": 20,
+    "weightGrams": 2.2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-point-hasbro": {
+    "attackStat": 25,
+    "defenseStat": 25,
+    "staminaStat": 25,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-accel-hasbro": {
+    "attackStat": 40,
+    "defenseStat": 10,
+    "staminaStat": 10,
+    "weightGrams": 2.6,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-disk-ball-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 20,
+    "staminaStat": 55,
+    "weightGrams": 3.2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-rush-hasbro": {
+    "attackStat": 40,
+    "defenseStat": 10,
+    "staminaStat": 20,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-metal-needle-hasbro": {
+    "attackStat": 8,
+    "defenseStat": 57,
+    "staminaStat": 30,
+    "weightGrams": 2.8,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-free-ball-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 25,
+    "staminaStat": 60,
+    "weightGrams": 1.9,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-point-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 2.3,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-under-needle-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 60,
+    "staminaStat": 20,
+    "weightGrams": 1.9,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-hexa-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 35,
+    "staminaStat": 20,
+    "weightGrams": 2.6,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-ball-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 15,
+    "staminaStat": 45,
+    "weightGrams": 2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-vortex-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 10,
+    "staminaStat": 5,
+    "weightGrams": 2.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-kick-hasbro": {
+    "attackStat": 35,
+    "defenseStat": 25,
+    "staminaStat": 15,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-orbital-hasbro": null,
+  "bit:bit-wall-hasbro": null,
+  "bit:bit-gear-rush-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 10,
+    "staminaStat": 10,
+    "weightGrams": 2.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-orb-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 30,
+    "staminaStat": 50,
+    "weightGrams": 2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-dot-hasbro": {
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-wall-ball-hasbro": {
+    "attackStat": 15,
+    "defenseStat": 30,
+    "staminaStat": 45,
+    "weightGrams": 2.2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-unite-hasbro": {
+    "attackStat": 25,
+    "defenseStat": 25,
+    "staminaStat": 30,
+    "weightGrams": 2.1,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-yielding-hasbro": {
+    "attackStat": 10,
+    "defenseStat": 15,
+    "staminaStat": 65,
+    "weightGrams": 4.2,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-ignition-hasbro": {
+    "attackStat": 50,
+    "defenseStat": 15,
+    "staminaStat": 5,
+    "weightGrams": 2.4,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-flat-hasbro": {
+    "attackStat": 50,
+    "defenseStat": 5,
+    "staminaStat": 5,
+    "weightGrams": 2.3,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-gear-needle-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 40,
+    "staminaStat": 10,
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-quake-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 15,
+    "staminaStat": 5,
+    "weightGrams": 2.2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-elevate-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 15,
+    "staminaStat": 20,
+    "weightGrams": 3.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-under-flat-hasbro": {
+    "attackStat": 55,
+    "defenseStat": 5,
+    "staminaStat": 5,
+    "weightGrams": 2,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-high-taper-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 25,
+    "staminaStat": 20,
+    "weightGrams": 2.2,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-rush-hasbro": {
+    "attackStat": 45,
+    "defenseStat": 5,
+    "staminaStat": 15,
+    "weightGrams": 1.9,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-merge-hasbro": {
+    "attackStat": 50,
+    "defenseStat": 20,
+    "staminaStat": 10,
+    "weightGrams": 3.4,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-zap-hasbro": {
+    "attackStat": 30,
+    "defenseStat": 20,
+    "staminaStat": 15,
+    "weightGrams": 2.5,
+    "typeTag": "Balance",
+    "spinDirection": "right"
+  },
+  "bit:bit-rubber-accel-hasbro": {
+    "weightGrams": 3.1,
+    "typeTag": "Attack",
+    "spinDirection": "right"
+  },
+  "bit:bit-operate-hasbro": null,
+  "bit:bit-bound-spike-hasbro": {
+    "attackStat": 5,
+    "defenseStat": 60,
+    "staminaStat": 30,
+    "weightGrams": 2,
+    "typeTag": "Defense",
+    "spinDirection": "right"
+  },
+  "bit:bit-glide-hasbro": {
+    "attackStat": 20,
+    "defenseStat": 10,
+    "staminaStat": 55,
+    "weightGrams": 2.5,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  },
+  "bit:bit-low-orb-hasbro": {
+    "attackStat": 5,
+    "defenseStat": 25,
+    "staminaStat": 55,
+    "weightGrams": 1.9,
+    "typeTag": "Stamina",
+    "spinDirection": "right"
+  }
+}
