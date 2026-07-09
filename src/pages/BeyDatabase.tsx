@@ -28,6 +28,8 @@ export function BeyDatabase() {
   const [sortBy, setSortBy] = useState<SortKey>('name');
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
+  const [selectedTiers, setSelectedTiers] = useState<string[]>([]);
+  const [selectedSpins, setSelectedSpins] = useState<string[]>([]);
 
   const q = query.trim().toLowerCase();
 
@@ -51,13 +53,36 @@ export function BeyDatabase() {
     return Array.from(set).sort();
   }, [database]);
 
+  const allTiers = useMemo(() => {
+    if (!database) return [];
+    const set = new Set<string>();
+    database.beys.forEach((b) => {
+      const ratings = calculateComboRatings(database, getBeyParts(b));
+      set.add(calculateTier(ratings));
+    });
+    return Array.from(set).sort();
+  }, [database]);
+
+  const allSpins = useMemo(() => {
+    if (!database) return [];
+    const set = new Set<string>();
+    database.beys.forEach((b) => {
+      const blade = database.blades.find((blade) => blade.id === b.bladeId);
+      if (blade?.officialStats.spinDirection) set.add(blade.officialStats.spinDirection);
+    });
+    return Array.from(set).sort();
+  }, [database]);
+
   const filteredBeys = useMemo(() => {
     if (!database) return [];
     let items = database.beys.filter((b) => {
       if (!selectedMf.includes(b.manufacturer)) return false;
       const blade = database.blades.find((blade) => blade.id === b.bladeId);
+      const ratings = calculateComboRatings(database, getBeyParts(b));
       if (selectedTypes.length > 0 && !selectedTypes.includes(blade?.officialStats.typeTag ?? '')) return false;
       if (selectedBatches.length > 0 && !selectedBatches.includes(getBatchPrefix(b.releaseWave))) return false;
+      if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(ratings))) return false;
+      if (selectedSpins.length > 0 && !selectedSpins.includes(blade?.officialStats.spinDirection ?? '')) return false;
       if (!q) return true;
       return (
         b.name.toLowerCase().includes(q) ||
@@ -95,7 +120,7 @@ export function BeyDatabase() {
     });
 
     return items;
-  }, [database, selectedMf, selectedTypes, selectedBatches, q, sortBy]);
+  }, [database, selectedMf, selectedTypes, selectedBatches, selectedTiers, selectedSpins, q, sortBy]);
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -124,6 +149,22 @@ export function BeyDatabase() {
           onChange={setSelectedBatches}
           label={`${t('sort.batch')}:`}
         />
+        <FilterChips
+          options={allTiers}
+          selected={selectedTiers}
+          onChange={setSelectedTiers}
+          label="Tier:"
+        />
+        <FilterChips
+          options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+          selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+          onChange={(selected) =>
+            setSelectedSpins(
+              selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
+            )
+          }
+          label={`${t('partsDatabase.spin')}:`}
+        />
       </div>
 
       {filteredBeys.length === 0 && (
@@ -141,7 +182,7 @@ export function BeyDatabase() {
               to={`/beys/${bey.id}`}
               className="relative rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md"
             >
-              <div className="absolute left-2 top-2 flex gap-1">
+              <div className="absolute left-2 bottom-2 flex gap-1">
                 <SpinBadge spin={blade?.officialStats.spinDirection} />
                 <TierBadge tier={tier} />
               </div>

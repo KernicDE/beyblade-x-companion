@@ -28,7 +28,7 @@ export function RatingBars({ ratings, size = 'sm' }: RatingBarsProps) {
         const value = ratings[key];
         return (
           <div key={key} className="flex items-center gap-2">
-            <span className={`text-gray-600 dark:text-gray-400 ${size === 'sm' ? 'text-[10px] w-12' : 'text-xs w-14'}`}>
+            <span className={`text-gray-600 dark:text-gray-400 shrink-0 ${size === 'sm' ? 'text-[10px] w-14' : 'text-xs w-16'}`}>
               {label}
             </span>
             <div className={`rounded-full bg-gray-200 dark:bg-gray-700 ${size === 'sm' ? 'h-1.5 flex-1' : 'h-2 flex-1'}`}>

@@ -53,6 +53,8 @@ export function PartsDatabase() {
   const [sortBy, setSortBy] = useState<SortKey>('name');
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
+  const [selectedTiers, setSelectedTiers] = useState<string[]>([]);
+  const [selectedSpins, setSelectedSpins] = useState<string[]>([]);
 
   const q = query.trim().toLowerCase();
   const matches = (p: { name: string; id: string; releaseWave?: string; manufacturer: string; category?: string }) => {
@@ -85,11 +87,31 @@ export function PartsDatabase() {
     return Array.from(set).sort();
   }, [database]);
 
+  const allTiers = useMemo(() => {
+    if (!database) return [];
+    const set = new Set<string>();
+    [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach((p) => {
+      set.add(calculateTier(p.ratings));
+    });
+    return Array.from(set).sort();
+  }, [database]);
+
+  const allSpins = useMemo(() => {
+    if (!database) return [];
+    const set = new Set<string>();
+    [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach((p) => {
+      if (p.officialStats.spinDirection) set.add(p.officialStats.spinDirection);
+    });
+    return Array.from(set).sort();
+  }, [database]);
+
   const filterPart = (p: Part) => {
     if (!database) return false;
     if (!selectedMf.includes(p.manufacturer)) return false;
     if (selectedTypes.length > 0 && !selectedTypes.includes(p.officialStats.typeTag ?? '')) return false;
     if (selectedBatches.length > 0 && !selectedBatches.includes(getBatchPrefix(p.releaseWave))) return false;
+    if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(p.ratings))) return false;
+    if (selectedSpins.length > 0 && !selectedSpins.includes(p.officialStats.spinDirection ?? '')) return false;
     return matches(p);
   };
 
@@ -135,6 +157,22 @@ export function PartsDatabase() {
           onChange={setSelectedBatches}
           label={`${t('sort.batch')}:`}
         />
+        <FilterChips
+          options={allTiers}
+          selected={selectedTiers}
+          onChange={setSelectedTiers}
+          label="Tier:"
+        />
+        <FilterChips
+          options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+          selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+          onChange={(selected) =>
+            setSelectedSpins(
+              selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
+            )
+          }
+          label={`${t('partsDatabase.spin')}:`}
+        />
       </div>
 
       {groups.map((group) => {
@@ -152,7 +190,7 @@ export function PartsDatabase() {
                     to={`/parts/${part.category}/${part.id}`}
                     className="relative rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md"
                   >
-                    <div className="absolute left-2 top-2 flex gap-1">
+                    <div className="absolute left-2 bottom-2 flex gap-1">
                       <SpinBadge spin={part.officialStats.spinDirection} />
                       <TierBadge tier={tier} />
                     </div>

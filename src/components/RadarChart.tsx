@@ -15,28 +15,6 @@ const AXIS_COLORS: Record<string, string> = {
   balance: '#a855f7',
 };
 
-function mixColor(ratings: Ratings) {
-  const entries = Object.entries(AXIS_COLORS);
-  const weights = entries.map(([key]) => ratings[key as keyof Ratings] / 5);
-  const totalWeight = weights.reduce((a, b) => a + b, 0) || 1;
-
-  let r = 0;
-  let g = 0;
-  let b = 0;
-  entries.forEach(([key], index) => {
-    const hex = AXIS_COLORS[key];
-    const wr = parseInt(hex.slice(1, 3), 16);
-    const wg = parseInt(hex.slice(3, 5), 16);
-    const wb = parseInt(hex.slice(5, 7), 16);
-    const w = weights[index] / totalWeight;
-    r += wr * w;
-    g += wg * w;
-    b += wb * w;
-  });
-
-  return `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`;
-}
-
 export function RadarChart({
   ratings,
   size = 240,
@@ -55,7 +33,7 @@ export function RadarChart({
   );
 
   const viewSize = 240;
-  const padding = 24;
+  const padding = 28;
   const center = viewSize / 2;
   const maxRadius = viewSize / 2 - padding;
   const angleStep = (Math.PI * 2) / axes.length;
@@ -72,8 +50,13 @@ export function RadarChart({
 
   const points = axes.map((axis, index) => getPoint(ratings[axis.key], index));
   const polygonPoints = points.map((p) => `${p.x},${p.y}`).join(' ');
-  const gradientId = `radar-gradient-${ratings.attack}-${ratings.defense}-${ratings.stamina}-${ratings.balance}`.replace(/\./g, '-');
-  const mixedColor = mixColor(ratings);
+
+  // Background sector triangles: each axis owns the 90° wedge pointing outward.
+  const sectorPoints = axes.map((_, index) => {
+    const prev = getPoint(5, (index + axes.length - 1) % axes.length);
+    const next = getPoint(5, (index + 1) % axes.length);
+    return `${center},${center} ${prev.x},${prev.y} ${next.x},${next.y}`;
+  });
 
   return (
     <svg
@@ -85,13 +68,6 @@ export function RadarChart({
       role="img"
       aria-label={`${t('partDetail.attack')} ${ratings.attack}, ${t('partDetail.defense')} ${ratings.defense}, ${t('partDetail.stamina')} ${ratings.stamina}, ${t('partDetail.balance')} ${ratings.balance}`}
     >
-      <defs>
-        <radialGradient id={gradientId} cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-          <stop offset="0%" stopColor="rgba(255, 255, 255, 0.35)" />
-          <stop offset="100%" stopColor={mixedColor} stopOpacity={0.55} />
-        </radialGradient>
-      </defs>
-
       {[1, 2, 3, 4, 5].map((level) => {
         const levelPoints = axes.map((_, index) => getPoint(level, index));
         const d = levelPoints
@@ -111,7 +87,6 @@ export function RadarChart({
 
       {axes.map((axis, index) => {
         const end = getPoint(5, index);
-        const label = getPoint(5.8, index);
         return (
           <g key={axis.key}>
             <line
@@ -122,24 +97,25 @@ export function RadarChart({
               className="stroke-gray-200 dark:stroke-gray-700"
               strokeWidth={1}
             />
-            <text
-              x={label.x}
-              y={label.y}
-              textAnchor="middle"
-              dominantBaseline="middle"
-              className="text-sm font-semibold"
-              fill={AXIS_COLORS[axis.key]}
-            >
-              {axis.label}
-            </text>
           </g>
         );
       })}
 
+      {/* Colored background sectors: make dominant axis/axes visually obvious */}
+      {axes.map((axis, index) => (
+        <polygon
+          key={`sector-${axis.key}`}
+          points={sectorPoints[index]}
+          fill={AXIS_COLORS[axis.key]}
+          fillOpacity={0.12}
+        />
+      ))}
+
       <polygon
         points={polygonPoints}
-        fill={`url(#${gradientId})`}
-        stroke={mixedColor}
+        className="fill-white dark:fill-slate-800"
+        fillOpacity={0.45}
+        stroke="currentColor"
         strokeWidth={2}
       />
 
@@ -155,6 +131,23 @@ export function RadarChart({
             stroke="#fff"
             strokeWidth={1}
           />
+        );
+      })}
+
+      {axes.map((axis, index) => {
+        const label = getPoint(5.9, index);
+        return (
+          <text
+            key={`label-${axis.key}`}
+            x={label.x}
+            y={label.y}
+            textAnchor="middle"
+            dominantBaseline="middle"
+            className="text-sm font-bold"
+            fill={AXIS_COLORS[axis.key]}
+          >
+            {axis.label}
+          </text>
         );
       })}
     </svg>
