@@ -162,14 +162,16 @@ export function calculateTier(
 
   if (typeTag && typeScores?.[typeTag]?.length) {
     const scores = typeScores[typeTag];
-    const below = scores.filter((s) => s < score).length;
-    const equal = scores.filter((s) => s === score).length;
-    const percentile = ((below + equal / 2) / scores.length) * 100;
+    const typeMax = Math.max(...scores);
+    const typeMin = Math.min(...scores);
+    const range = typeMax - typeMin;
 
-    if (percentile >= 90) return 'S';
-    if (percentile >= 80) return 'A';
-    if (percentile >= 70) return 'B';
-    if (percentile >= 60) return 'C';
+    if (range === 0) return 'S';
+
+    if (score >= typeMax - range * 0.1) return 'S';
+    if (score >= typeMax - range * 0.2) return 'A';
+    if (score >= typeMax - range * 0.3) return 'B';
+    if (score >= typeMax - range * 0.4) return 'C';
     return 'F';
   }
 
