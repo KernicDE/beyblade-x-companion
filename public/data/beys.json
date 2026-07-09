@@ -3480,5 +3480,77 @@
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-orb-hasbro",
     "assessment": "Gill Shark 4-70O is included in the Pearl Tiger and Gill Shark Dual Pack. It uses the Shark Edge Blade, 4-70 Ratchet and Orb Bit."
+  },
+  {
+    "id": "tackle-goat-2-70n-g1688",
+    "name": "Tackle Goat 2-70N",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-07-01",
+    "releaseWave": "G1688",
+    "bladeId": "goat-tackle-hasbro",
+    "ratchetId": "ratchet-2-70-hasbro",
+    "bitId": "bit-needle-hasbro",
+    "assessment": "Tackle Goat 2-70N is included in the Tackle Goat and Sword Dran Dual Pack. It uses the Goat Tackle Blade, 2-70 Ratchet and Needle Bit."
+  },
+  {
+    "id": "sword-dran-3-60f-red-g1688",
+    "name": "Sword Dran 3-60F (Red Ver.)",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-07-01",
+    "releaseWave": "G1688",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-flat-hasbro",
+    "assessment": "Sword Dran 3-60F (Red Ver.) is included in the Tackle Goat and Sword Dran Dual Pack. It is a red recolor of the original Dran Sword 3-60F Attack type starter."
+  },
+  {
+    "id": "obsidian-shell-3-85s-g2754",
+    "name": "Obsidian Shell 3-85S",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2754",
+    "bladeId": "black-shell-hasbro",
+    "ratchetId": "ratchet-3-85-hasbro",
+    "bitId": "bit-spike-hasbro",
+    "assessment": "Obsidian Shell 3-85S is included in the Calibur Samurai and Obsidian Shell Dual Pack. It uses the Black Shell Blade, 3-85 Ratchet and Spike Bit."
+  },
+  {
+    "id": "circle-ghost-4-60lr-g2755",
+    "name": "Circle Ghost 4-60LR",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2755",
+    "bladeId": "ghost-circle-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-low-rush-hasbro",
+    "assessment": "Circle Ghost 4-60LR is included in the Circle Ghost and Hack Viking Dual Pack. It uses the Ghost Circle Blade, 4-60 Ratchet and Low Rush Bit."
+  },
+  {
+    "id": "hack-viking-4-55o-g2755",
+    "name": "Hack Viking 4-55O",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2755",
+    "bladeId": "hack-viking-hasbro",
+    "ratchetId": "ratchet-4-55-hasbro",
+    "bitId": "bit-orb-hasbro",
+    "assessment": "Hack Viking 4-55O is included in the Circle Ghost and Hack Viking Dual Pack. It uses the Hack Viking Blade, 4-55 Ratchet and Orb Bit."
+  },
+  {
+    "id": "tail-viper-3-85lo-g2758",
+    "name": "Tail Viper 3-85LO",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2758",
+    "bladeId": "viper-tail-hasbro",
+    "ratchetId": "ratchet-3-85-hasbro",
+    "bitId": "bit-low-orb-hasbro",
+    "assessment": "Tail Viper 3-85LO is included in the Spear Scorpio and Tail Viper Dual Pack. It uses the Viper Tail Blade, 3-85 Ratchet and Low Orb Bit."
   }
 ]
