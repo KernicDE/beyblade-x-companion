@@ -504,5 +504,27 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "outer",
+    "category": "assistBlade",
+    "name": "Outer",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-06-13",
+    "releaseWave": "CX-18",
+    "description": "The Outer Assist Blade.",
+    "assessment": "Outer is an Assist Blade from the Beyblade X Custom Line. Debuted with BrachioWhip OW5-70Nr. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

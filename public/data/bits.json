@@ -1105,5 +1105,47 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-operate",
+    "category": "bit",
+    "name": "Operate",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-11-01",
+    "releaseWave": "CX-11",
+    "description": "The Operate Ratchet-Integrated Bit.",
+    "assessment": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-low-orbital",
+    "category": "bit",
+    "name": "Low Orbital",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-04-25",
+    "releaseWave": "CX-17",
+    "description": "The Low Orbital Bit.",
+    "assessment": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

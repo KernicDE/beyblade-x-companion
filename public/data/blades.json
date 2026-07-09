@@ -2526,5 +2526,166 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "emperor-might",
+    "category": "blade",
+    "name": "EmperorMight",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-11-01",
+    "releaseWave": "CX-11",
+    "description": "EmperorMight Blade from the CX system.",
+    "assessment": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "phoenix-flare",
+    "category": "blade",
+    "name": "PhoenixFlare",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-01-24",
+    "releaseWave": "CX-12",
+    "description": "PhoenixFlare Blade from the CX system.",
+    "assessment": "PhoenixFlare is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Phoenix Lock Chip, Flare Main Blade and Zillion Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bahamut-blitz",
+    "category": "blade",
+    "name": "BahamutBlitz",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-03-28",
+    "releaseWave": "CX-13",
+    "description": "BahamutBlitz Blade from the CX system.",
+    "assessment": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knight-fortress",
+    "category": "blade",
+    "name": "KnightFortress",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-03-28",
+    "releaseWave": "CX-14",
+    "description": "KnightFortress Blade from the CX system.",
+    "assessment": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ragna-rage",
+    "category": "blade",
+    "name": "RagnaRage",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-03-28",
+    "releaseWave": "CX-15",
+    "description": "RagnaRage Blade from the CX system.",
+    "assessment": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "unicorn-delta",
+    "category": "blade",
+    "name": "UnicornDelta",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-04-25",
+    "releaseWave": "CX-17",
+    "description": "UnicornDelta Blade from the CX system.",
+    "assessment": "UnicornDelta is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Unicorn Lock Chip, Peak Over Blade, Delta Metal Blade and Odd Assist Blade. The Triple Style gimmick lets players rotate the three Blade parts to shift between Attack, Balance and Defense orientations. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "brachio-whip",
+    "category": "blade",
+    "name": "BrachioWhip",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2026-06-13",
+    "releaseWave": "CX-18",
+    "description": "BrachioWhip Blade from the CX system.",
+    "assessment": "BrachioWhip is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Brachio Lock Chip, Whip Metal Blade and Outer Over Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
