@@ -6305,25 +6305,29 @@
     "name": "Moff Gideon",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b6/BladeMoffGideon.png/revision/latest?cb=20250321062919",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-07",
+    "releaseWave": "BX",
     "description": {
-      "en": "Moff Gideon Blade.",
-      "de": ""
+      "en": "A right-spin Balance Type Blade from the Star Wars collaboration, released by Hasbro in western countries. It features a Moff Gideon-themed Gear Chip and shares plastic components with LeonClaw and The Mandalorian.",
+      "de": "Ein rechtsspinnender Balance-Type-Blade aus der Star-Wars-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Moff-Gideon-Gear-Chip und teilt Plastikkomponenten mit LeonClaw und The Mandalorian."
     },
     "assessment": {
-      "en": "Moff Gideon is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Moff Gideon (Hasbro) offers a balanced stat spread but is light for its type. It is best used for casual play and collection rather than competitive combinations. Weight: 30.5g. Ratings estimated from type, weight and shape.",
+      "de": "Moff Gideon (Hasbro) bietet eine ausgewogene Stat-Verteilung, ist aber für seinen Typ leicht. Er eignet sich am besten für Casual-Spiel und Sammlung statt für kompetitive Kombinationen. Gewicht: 30,5 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 30.5,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "iron-man-hasbro",
@@ -6331,25 +6335,29 @@
     "name": "Iron Man",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeIronMan.png/revision/latest?cb=20250321062619",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-07",
+    "releaseWave": "BX",
     "description": {
-      "en": "Iron Man Blade.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Marvel collaboration, released by Hasbro in western countries. It features an Iron Man-themed Gear Chip and a rounded shape built to absorb impacts.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Marvel-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Iron-Man-Gear-Chip und eine runde Form, die Aufprall absorbieren soll."
     },
     "assessment": {
-      "en": "Iron Man is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Iron Man (Hasbro) offers respectable Defense for a collaboration Blade, but its weight is average and it lacks the raw bulk of top-tier Defense options. Best suited for casual and collection play. Weight: 32.5g. Ratings estimated from type, weight and shape.",
+      "de": "Iron Man (Hasbro) bietet respektable Defense für einen Kollaborations-Blade, aber sein Gewicht ist durchschnittlich und ihm fehlt die rohe Masse top-tier Defense-Optionen. Am besten für Casual- und Sammlerspiel geeignet. Gewicht: 32,5 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 32.5,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "thanos-hasbro",
@@ -6357,26 +6365,26 @@
     "name": "Thanos",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ef/BladeThanos.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-07",
+    "releaseWave": "BX",
     "description": {
-      "en": "Thanos Blade.",
-      "de": ""
+      "en": "A right-spin Defense Type Blade from the Marvel collaboration, released by Hasbro in western countries. It features a Thanos-themed Gear Chip and a compact, impact-absorbing shape.",
+      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Marvel-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Thanos-Gear-Chip und eine kompakte, stoßabsorbierende Form."
     },
     "assessment": {
-      "en": "Thanos is a right-spin Defense Type Blade. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Thanos (Hasbro) is a light Defense Blade. Its low weight limits knock-out resistance, making it outclassed by heavier Defense options, but it remains a fun collector's piece. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Ratings based on community data.",
+      "de": "Thanos (Hasbro) ist ein leichter Defense-Blade. Sein geringes Gewicht limitiert die Knock-Out-Resistenz, wodurch er von schwereren Defense-Optionen übertroffen wird, aber er bleibt ein lustiges Sammlerstück. Offizielle Werte: Angriff 22 / Verteidigung 60 / Stamina 18. Gewicht: 29,5 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 29.5,
-      "typeTag": "Defense",
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
       "attack": 1.5,
-      "defense": 4.3,
-      "stamina": 1.1,
-      "balance": 2.3
+      "defense": 4,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6387,25 +6395,29 @@
     "name": "Spider Man",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Manaphy12342.png/revision/latest?cb=20111211200559",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-08",
+    "releaseWave": "BX",
     "description": {
-      "en": "Spider Man Blade.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade from the Marvel collaboration, released by Hasbro in western countries. It features a Spider-Man-themed Gear Chip and a smooth, low-friction shape for longer spin times.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade aus der Marvel-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Spider-Man-Gear-Chip und eine glatte, reibungsarme Form für längere Drehzeiten."
     },
     "assessment": {
-      "en": "Spider Man is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Spider-Man (Hasbro) provides solid Stamina for a collaboration Blade. It is a decent budget Stamina option, though later Basic and Unique Line Stamina Blades outperform it. Weight: 33.2g. Ratings estimated from type, weight and shape.",
+      "de": "Spider-Man (Hasbro) bietet solide Stamina für einen Kollaborations-Blade. Er ist eine brauchbare Budget-Stamina-Option, obwohl spätere Basic- und Unique-Line-Stamina-Blades ihn übertreffen. Gewicht: 33,2 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 33.2,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "venom-hasbro",
@@ -6413,26 +6425,26 @@
     "name": "Venom",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/BladeVenom.png/revision/latest?cb=20250321062739",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-08",
+    "releaseWave": "BX",
     "description": {
-      "en": "Venom Blade.",
-      "de": ""
+      "en": "A right-spin Attack Type Blade from the Marvel collaboration, released by Hasbro in western countries. It is a retool of DranSword with nearly identical plastic and metal components, featuring a Venom-themed Gear Chip.",
+      "de": "Ein rechtsspinnender Attack-Type-Blade aus der Marvel-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er ist ein Retool von DranSword mit nahezu identischen Plastik- und Metallkomponenten und einem Venom-Gear-Chip."
     },
     "assessment": {
-      "en": "Venom is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Venom (Hasbro) performs like DranSword: a reliable early-line Attack Blade that has since been outclassed by heavier Attack options. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Ratings based on community data.",
+      "de": "Venom (Hasbro) spielt wie DranSword: ein zuverlässiger Attack-Blade der Early Line, der inzwischen von schwereren Attack-Optionen übertroffen wurde. Offizielle Werte: Angriff 55 / Verteidigung 22 / Stamina 23. Gewicht: 34,3 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 34.3,
-      "typeTag": "Attack",
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.7,
-      "defense": 1.6,
-      "stamina": 1.4,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -6443,25 +6455,29 @@
     "name": "Luke Skywalker",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/71/BladeLukeSkywalker.png/revision/latest?cb=20250321062806",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-09",
+    "releaseWave": "BX",
     "description": {
-      "en": "Luke Skywalker Blade.",
-      "de": ""
+      "en": "A right-spin Balance Type Blade from the Star Wars collaboration, released by Hasbro in western countries. It features a Luke Skywalker-themed Gear Chip and a versatile shape blending offense and defense.",
+      "de": "Ein rechtsspinnender Balance-Type-Blade aus der Star-Wars-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Luke-Skywalker-Gear-Chip und eine vielseitige Form, die Offensive und Defense verbindet."
     },
     "assessment": {
-      "en": "Luke Skywalker is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Luke Skywalker (Hasbro) is a light all-rounder with no dominant strength. It works for casual dueling but is outclassed by dedicated Blades in every competitive role. Weight: 30.5g. Ratings estimated from type, weight and shape.",
+      "de": "Luke Skywalker (Hasbro) ist ein leichter Allrounder ohne dominante Stärke. Er funktioniert für Casual-Duelle, wird aber in jeder kompetitiven Rolle von dedizierten Blades übertroffen. Gewicht: 30,5 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 30.5,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "darth-vader-hasbro",
@@ -6469,25 +6485,29 @@
     "name": "Darth Vader",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeDarthVader.png/revision/latest?cb=20250321062834",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2024-09",
+    "releaseWave": "BX",
     "description": {
-      "en": "Darth Vader Blade.",
-      "de": ""
+      "en": "A right-spin Balance Type Blade from the Star Wars collaboration, released by Hasbro in western countries. It features a Darth Vader-themed Gear Chip and a rounded, versatile shape.",
+      "de": "Ein rechtsspinnender Balance-Type-Blade aus der Star-Wars-Kollaboration, von Hasbro in westlichen Ländern veröffentlicht. Er zeigt einen Darth-Vader-Gear-Chip und eine runde, vielseitige Form."
     },
     "assessment": {
-      "en": "Darth Vader is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Darth Vader (Hasbro) is a light all-rounder similar to Luke Skywalker. It is usable for casual duels but cannot compete with specialized Attack, Defense or Stamina Blades. Weight: 30.5g. Ratings estimated from type, weight and shape.",
+      "de": "Darth Vader (Hasbro) ist ein leichter Allrounder ähnlich wie Luke Skywalker. Er ist für Casual-Duelle brauchbar, kann aber nicht mit spezialisierten Attack-, Defense- oder Stamina-Blades konkurrieren. Gewicht: 30,5 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 30.5,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "captain-america-hasbro",
@@ -6495,25 +6515,29 @@
     "name": "Captain America",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8d/Captain_America_4-70GB.jpeg/revision/latest?cb=20250618034930",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Captain America Blade.",
-      "de": ""
+      "en": "A right-spin Attack Type Blade from the Basic Line, released by Hasbro as part of the Marvel Collab. It is a retool of Phoenix Feather with identical plastic components and a nearly identical metal component, themed after Captain America's shield.",
+      "de": "Ein rechtsspinnender Attack-Type-Blade aus der Basic Line, von Hasbro als Teil der Marvel-Collab veröffentlicht. Er ist ein Retool von Phoenix Feather mit identischen Kunststoffkomponenten und einer nahezu identischen Metallkomponente, thematisch angelehnt an Captain Americas Schild."
     },
     "assessment": {
-      "en": "Captain America is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Captain America (Hasbro) plays like a heavier, Marvel-themed Phoenix Feather with aggressive wing contact points. Weight: 32.3g. Ratings estimated from type, weight and shape.",
+      "de": "Captain America (Hasbro) spielt wie ein schwererer, Marvel-thematisierter Phoenix Feather mit aggressiven Flügelkontaktpunkten. Gewicht: 32,3 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 32.3,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.5,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "red-hulk-hasbro",
@@ -6521,25 +6545,29 @@
     "name": "Red Hulk",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/Red_Hulk_1-80R.jpeg/revision/latest?cb=20250618034946",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025",
+    "releaseWave": "BX",
     "description": {
-      "en": "Red Hulk Blade.",
-      "de": ""
+      "en": "A right-spin Attack Type Blade from the Basic Line, released by Hasbro as part of the Marvel Collab. It is a two-sided retool of TyrannoBeat (Beat Tyranno) with two large main contact points, themed after the Red Hulk.",
+      "de": "Ein rechtsspinnender Attack-Type-Blade aus der Basic Line, von Hasbro als Teil der Marvel-Collab veröffentlicht. Er ist ein beidseitiger Retool von TyrannoBeat (Beat Tyranno) mit zwei großen Hauptkontaktpunkten, thematisch angelehnt an den Red Hulk."
     },
     "assessment": {
-      "en": "Red Hulk is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Red Hulk (Hasbro) is a heavy, hard-hitting Attack Blade. Its two-sided design focuses on smash attack, but the shape creates notable recoil. Weight: 36.3g. Ratings estimated from type, weight and shape.",
+      "de": "Red Hulk (Hasbro) ist ein schwerer, hart zuschlagender Attack-Blade. Das beidseitige Design konzentriert sich auf Smash-Attack, aber die Form erzeugt deutlichen Rückstoß. Gewicht: 36,3 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 36.3,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "miles-morales-hasbro",
@@ -6547,25 +6575,29 @@
     "name": "Miles Morales",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Miles_Morales_1-60GN.jpeg/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "",
+    "releaseDate": "2025-09",
+    "releaseWave": "BX",
     "description": {
-      "en": "Miles Morales Blade.",
-      "de": ""
+      "en": "A right-spin Stamina Type Blade from the Basic Line, released by Hasbro as part of the Marvel Collab. It comes in the Miles Morales 1-60GN vs. Green Goblin 9-80HT Multipack.",
+      "de": "Ein rechtsspinnender Stamina-Type-Blade aus der Basic Line, von Hasbro als Teil der Marvel-Collab veröffentlicht. Er ist im Miles-Morales-1-60GN-vs.-Green-Goblin-9-80HT-Multipack enthalten."
     },
     "assessment": {
-      "en": "Miles Morales is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Miles Morales (Hasbro) is a lightweight stamina-oriented Marvel Collab Blade. It favors spin endurance over aggressive play. Weight: 31.7g. Ratings estimated from type, weight and shape.",
+      "de": "Miles Morales (Hasbro) ist ein leichter, stamina-orientierter Marvel-Collab-Blade. Er bevorzugt Spin-Ausdauer gegenüber aggressivem Spiel. Gewicht: 31,7 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
-    "officialStats": {},
+    "officialStats": {
+      "weightGrams": 31.7,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 2,
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "green-goblin-hasbro",
