@@ -752,26 +752,27 @@
   {
     "id": "shinobi-knife",
     "category": "blade",
-    "name": "Shinobi Knife",
+    "name": "ShinobiKnife",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/BladeKnifeShinobi.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-02-26",
     "releaseWave": "BX",
     "description": {
-      "en": "A lightweight Blade with sharp, ninja-knife-like contact points. Released as part of collaboration sets.",
-      "de": "Ein leichter Blade mit scharfen, ninja-messer-ähnlichen Kontaktpunkten. Teil von Kollaborations-Sets veröffentlicht."
+      "en": "A lightweight Defense Type Blade with sharp, ninja-knife-like contact points. Released by Hasbro as Knife Shinobi and by Takara Tomy as ShinobiKnife.",
+      "de": "Ein leichter Defense-Type-Blade mit scharfen, ninja-messer-ähnlichen Kontaktpunkten. Von Hasbro als Knife Shinobi und von Takara Tomy als ShinobiKnife veröffentlicht."
     },
     "assessment": {
-      "en": "Shinobi Knife favors speed and Attack over raw defense due to its light weight and sharp edges. (Estimated ratings based on type, weight and shape.)",
-      "de": "Shinobi Knife bevorzugt Geschwindigkeit und Attack gegenüber roher Defense durch sein geringes Gewicht und scharfe Kanten. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "ShinobiKnife is a light Defense Blade. Its sharp edges and low weight favor speed and disruption over raw knock-out resistance, making it a niche defensive option.",
+      "de": "ShinobiKnife ist ein leichter Defense-Blade. Seine scharfen Kanten und das geringe Gewicht favorisieren Geschwindigkeit und Störung gegenüber reiner Knockout-Resistenz, was ihn zu einer Nischen-Defense-Option macht."
     },
     "officialStats": {
       "weightGrams": 30.9,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
+      "attack": 2,
+      "defense": 3,
       "stamina": 2,
       "balance": 2
     },
@@ -5403,46 +5404,46 @@
     "category": "blade",
     "name": "Gust Bat",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/Bat.png/revision/latest?cb=20240101213145",
-    "releaseDate": "2026-04-01",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/Gust_Bat_3-85GP.png/revision/latest",
+    "releaseDate": "2026-04-28",
     "releaseWave": "G2733",
     "description": {
-      "en": "Gust Bat Blade from the Hasbro Basic Line.",
-      "de": ""
+      "en": "The Hasbro version of Gust Bat. A Basic Line Balance Type Blade with a five-sided bat-wing design and retool of WhaleWave.",
+      "de": "Die Hasbro-Version von Gust Bat. Ein Basic-Line-Balance-Type-Blade mit fünfseitigem Fledermaus-Flügel-Design und Retool von WhaleWave."
     },
     "assessment": {
-      "en": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
-      "de": ""
+      "en": "Hasbro's Gust Bat performs identically to the earlier Hasbro release. It performs similarly to WhaleWave and is a fun novelty rather than a competitive staple.",
+      "de": "Hasbros Gust Bat spielt identisch zur früheren Hasbro-Veröffentlichung. Er spielt ähnlich wie WhaleWave und ist eher eine spaßige Neuheit als ein kompetitiver Standard."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 36.2,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "mummy-curse-hasbro",
     "category": "blade",
-    "name": "Mummy Curse",
+    "name": "Curse Mummy",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeMummyCurse.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "UX",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/06/BladeMummyCurse.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX",
     "description": {
-      "en": "Mummy Curse Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of MummyCurse. A right-spin Defense Type Unique Line Blade with a four-sided shape and a Counter Form / Guard Form gimmick.",
+      "de": "Die Hasbro-Version von MummyCurse. Ein Right-Spin-Defense-Type-Unique-Line-Blade mit vierseitiger Form und einem Counter-Form-/Guard-Form-Gimmick."
     },
     "assessment": {
-      "en": "Mummy Curse is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 20. Weight: 37.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Curse Mummy performs identically to the Takara Tomy release. Its Counter Form can surprise aggressive opponents, while Guard Form provides stability.",
+      "de": "Hasbros Curse Mummy spielt identisch zur Takara-Tomy-Version. Seine Counter Form kann aggressive Gegner überraschen, während die Guard Form Stabilität bietet."
     },
     "officialStats": {
       "weightGrams": 37.5,
@@ -5450,9 +5451,9 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4.3,
-      "stamina": 1.3,
+      "attack": 3,
+      "defense": 5,
+      "stamina": 2,
       "balance": 2.5
     },
     "ratingsDisclaimer": true,
@@ -5463,16 +5464,16 @@
     "category": "blade",
     "name": "Tricera Press",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeTriceraPress.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8f/BladeTriceraPress.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Tricera Press Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of TriceraPress. A right-spin Defense Type Basic Line Blade with a triceratops motif.",
+      "de": "Die Hasbro-Version von TriceraPress. Ein Right-Spin-Defense-Type-Basic-Line-Blade mit Triceratops-Motiv."
     },
     "assessment": {
-      "en": "Tricera Press is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 65 / Stamina 15. Weight: 36.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Tricera Press performs identically to the Takara Tomy release. It is a well-balanced defensive Blade with unique launcher-hook contact points, offering unexpected attack utility.",
+      "de": "Hasbros Tricera Press spielt identisch zur Takara-Tomy-Version. Er ist ein gut ausbalancierter Defensiv-Blade mit einzigartigen Launcher-Hook-Kontaktpunkten, die unerwartete Attack-Nutzen bieten."
     },
     "officialStats": {
       "weightGrams": 36.5,
@@ -5480,58 +5481,59 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.3,
-      "defense": 4.6,
-      "stamina": 0.9,
-      "balance": 2.3
+      "attack": 2,
+      "defense": 4,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "shinobi-knife-hasbro",
     "category": "blade",
-    "name": "Shinobi Knife",
+    "name": "Knife Shinobi",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/BladeKnifeShinobi.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeKnifeShinobi.png/revision/latest",
+    "releaseDate": "2025-02-26",
     "releaseWave": "BX",
     "description": {
-      "en": "Shinobi Knife Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of ShinobiKnife. A lightweight Defense Type Blade with sharp, ninja-knife-like contact points.",
+      "de": "Die Hasbro-Version von ShinobiKnife. Ein leichter Defense-Type-Blade mit scharfen, ninja-messer-ähnlichen Kontaktpunkten."
     },
     "assessment": {
-      "en": "Shinobi Knife is a right-spin Balance Type Blade. Weight: 30.9g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Knife Shinobi performs identically to the Takara Tomy release. Its sharp edges and low weight favor speed and disruption over raw knock-out resistance.",
+      "de": "Hasbros Knife Shinobi spielt identisch zur Takara-Tomy-Version. Seine scharfen Kanten und das geringe Gewicht favorisieren Geschwindigkeit und Störung gegenüber reiner Knockout-Resistenz."
     },
     "officialStats": {
       "weightGrams": 30.9,
-      "spinDirection": "right"
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "hells-chain-hasbro",
     "category": "blade",
     "name": "Hells Chain",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeHellsChain.png/revision/latest",
-    "releaseDate": "2023-11-02",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeHellsChain.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Hells Chain Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of HellsChain. A round Balance Type Blade with five blades and chains as contact points.",
+      "de": "Die Hasbro-Version von HellsChain. Ein runder Balance-Type-Blade mit fünf Klingen und Ketten als Kontaktpunkten."
     },
     "assessment": {
-      "en": "Hells Chain is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 40 / Stamina 25. Weight: 33.2g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Hells Chain performs identically to the Takara Tomy release. Its chained design can absorb hits while still delivering counter-attacks.",
+      "de": "Hasbros Hells Chain spielt identisch zur Takara-Tomy-Version. Sein kettenartiges Design kann Treffer absorbieren und gleichzeitig Gegenangriffe liefern."
     },
     "officialStats": {
       "weightGrams": 33.2,
@@ -5539,10 +5541,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.9,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5552,16 +5554,16 @@
     "category": "blade",
     "name": "Viper Tail",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeViperTail.png/revision/latest",
-    "releaseDate": "2023-07-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2a/BladeViperTail.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Viper Tail Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of ViperTail. A Stamina Type Blade with a round shape and smooth contact points for minimal friction.",
+      "de": "Die Hasbro-Version von ViperTail. Ein Stamina-Type-Blade mit runder Form und glatten Kontaktpunkten für minimale Reibung."
     },
     "assessment": {
-      "en": "Viper Tail is a right-spin Stamina Type Blade. Official stats: Attack 30 / Defense 20 / Stamina 50. Weight: 34.7g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Viper Tail performs identically to the Takara Tomy release. It provides good Stamina and is a reliable early-line option, though it lacks the raw Stamina of later releases.",
+      "de": "Hasbros Viper Tail spielt identisch zur Takara-Tomy-Version. Er bietet gute Stamina und ist eine verlässliche frühe Option, fehlt ihm aber die reine Stamina späterer Veröffentlichungen."
     },
     "officialStats": {
       "weightGrams": 34.7,
@@ -5570,9 +5572,9 @@
     },
     "ratings": {
       "attack": 2,
-      "defense": 1.4,
-      "stamina": 3.1,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5582,45 +5584,46 @@
     "category": "blade",
     "name": "Croco Crunch",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a4/CrocoCrunch_2-60Q.jpg/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeCrocoCrunch.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Croco Crunch Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of CrocoCrunch. A right-spin Attack Type Blade with crocodile-themed contact points.",
+      "de": "Die Hasbro-Version von CrocoCrunch. Ein Right-Spin-Attack-Type-Blade mit krokodil-thematisierten Kontaktpunkten."
     },
     "assessment": {
-      "en": "Croco Crunch is a right-spin Balance Type Blade. Weight: 34.05g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Croco Crunch performs identically to the Takara Tomy release. It delivers solid Attack power, though dedicated Attack Blades like SharkEdge generally outperform it.",
+      "de": "Hasbros Croco Crunch spielt identisch zur Takara-Tomy-Version. Er liefert solide Attack-Power, obwohl dedizierte Attack-Blades wie SharkEdge ihn in der Regel übertreffen."
     },
     "officialStats": {
-      "weightGrams": 34.05,
-      "spinDirection": "right"
+      "weightGrams": 34,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "wyvern-gale-hasbro",
     "category": "blade",
     "name": "Wyvern Gale",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/BladeWyvernGale.png/revision/latest",
-    "releaseDate": "2023-09-09",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4c/BladeWyvernGale.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Wyvern Gale Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of WyvernGale. A Stamina Type Blade with a smooth, round shape for minimal friction.",
+      "de": "Die Hasbro-Version von WyvernGale. Ein Stamina-Type-Blade mit glatter, runder Form für minimale Reibung."
     },
     "assessment": {
-      "en": "Wyvern Gale is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 40 / Stamina 50. Weight: 31.9g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Wyvern Gale performs identically to the Takara Tomy release. It provides good Stamina and decent Defense for a Stamina Blade.",
+      "de": "Hasbros Wyvern Gale spielt identisch zur Takara-Tomy-Version. Er bietet gute Stamina und ordentliche Defense für einen Stamina-Blade."
     },
     "officialStats": {
       "weightGrams": 31.9,
@@ -5628,10 +5631,10 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 2.9,
-      "stamina": 3.1,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 3,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5641,16 +5644,16 @@
     "category": "blade",
     "name": "Tyranno Beat",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/BladeTyrannoBeat.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeTyrannoBeat.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Tyranno Beat Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of TyrannoBeat. A heavy Attack Type Blade with aggressive Tyrannosaurus-themed contact points.",
+      "de": "Die Hasbro-Version von TyrannoBeat. Ein schwerer Attack-Type-Blade mit aggressiven Tyrannosaurus-thematisierten Kontaktpunkten."
     },
     "assessment": {
-      "en": "Tyranno Beat is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 5. Weight: 37g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Tyranno Beat performs identically to the Takara Tomy release. It delivers high Attack power thanks to its heavy weight and aggressive shape.",
+      "de": "Hasbros Tyranno Beat spielt identisch zur Takara-Tomy-Version. Er liefert hohe Attack-Power dank seines hohen Gewichts und der aggressiven Form."
     },
     "officialStats": {
       "weightGrams": 37,
@@ -5658,29 +5661,29 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.3,
-      "defense": 2.1,
-      "stamina": 0.3,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "leon-crest-hasbro",
     "category": "blade",
     "name": "Leon Crest",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeLeonCrest.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Leon Crest Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of LeonCrest. A right-spin Defense Type Unique Line Blade with thick outer wings and a low center of gravity.",
+      "de": "Die Hasbro-Version von LeonCrest. Ein Right-Spin-Defense-Type-Unique-Line-Blade mit dicken Außenflügeln und einem niedrigen Schwerpunkt."
     },
     "assessment": {
-      "en": "Leon Crest is a right-spin Defense Type Blade. Official stats: Attack 15 / Defense 70 / Stamina 15. Weight: 35g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Leon Crest performs identically to the Takara Tomy release. Its thick wings and grounded profile let it wall many top-tier Attack Beys, making it a strong defensive choice.",
+      "de": "Hasbros Leon Crest spielt identisch zur Takara-Tomy-Version. Seine dicken Flügel und das bodennahe Profil erlauben es ihm, viele Top-Attack-Beys abzuwehren, was ihn zu einer starken defensiven Wahl macht."
     },
     "officialStats": {
       "weightGrams": 35,
@@ -5690,8 +5693,8 @@
     "ratings": {
       "attack": 1,
       "defense": 5,
-      "stamina": 0.9,
-      "balance": 2.3
+      "stamina": 1,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
