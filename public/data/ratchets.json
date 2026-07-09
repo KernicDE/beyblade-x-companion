@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ratchet-3-60",
+    "category": "ratchet",
+    "name": "3-60",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-01",
+    "description": "A low, three-sided ratchet that keeps the center of gravity close to the stadium floor.",
+    "officialStats": {
+      "heightMm": 6.0,
+      "weightGrams": 6.5
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 2,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-60",
+    "category": "ratchet",
+    "name": "4-60",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-02",
+    "description": "A four-sided ratchet offering a compromise between stability and burst resistance.",
+    "officialStats": {
+      "heightMm": 6.0,
+      "weightGrams": 6.7
+    },
+    "ratings": {
+      "attack": 2,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-3-80",
+    "category": "ratchet",
+    "name": "3-80",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-03",
+    "description": "A taller three-sided ratchet that helps avoid floor scrapes and improves stamina.",
+    "officialStats": {
+      "heightMm": 8.0,
+      "weightGrams": 7.1
+    },
+    "ratings": {
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 4
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-80",
+    "category": "ratchet",
+    "name": "4-80",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-04",
+    "description": "A tall, four-sided ratchet with high stability and defensive leverage.",
+    "officialStats": {
+      "heightMm": 8.0,
+      "weightGrams": 7.3
+    },
+    "ratings": {
+      "attack": 1,
+      "defense": 3,
+      "stamina": 4,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  }
+]

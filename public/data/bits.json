@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bit-flat",
+    "category": "bit",
+    "name": "Flat",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-01",
+    "description": "A flat tip built for speed and aggressive movement around the stadium.",
+    "officialStats": {
+      "heightMm": 3.0,
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 4,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-taper",
+    "category": "bit",
+    "name": "Taper",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-02",
+    "description": "A tapered tip that balances mobility with a controlled flower pattern.",
+    "officialStats": {
+      "heightMm": 3.0,
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 2,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-needle",
+    "category": "bit",
+    "name": "Needle",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-03",
+    "description": "A sharp, stationary tip that minimizes friction for long spin times.",
+    "officialStats": {
+      "heightMm": 3.0,
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 1,
+      "defense": 3,
+      "stamina": 4,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-ball",
+    "category": "bit",
+    "name": "Ball",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-04",
+    "description": "A rounded defensive tip that absorbs hits and stays in the center.",
+    "officialStats": {
+      "heightMm": 3.0,
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 1,
+      "defense": 4,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  }
+]

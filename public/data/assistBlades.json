@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dran-dagger",
+    "category": "assistBlade",
+    "name": "Dran Dagger",
+    "imageUrl": "",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX-07",
+    "description": "A small assist blade that adds extra attack points when combined with compatible blades.",
+    "officialStats": {
+      "weightGrams": 5.2,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "aero-keel",
+    "category": "assistBlade",
+    "name": "Aero Keel",
+    "imageUrl": "",
+    "releaseDate": "2023-11-18",
+    "releaseWave": "BX-12",
+    "description": "An aerodynamic assist blade that improves stamina and stability during battle.",
+    "officialStats": {
+      "weightGrams": 4.8,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 1,
+      "defense": 2,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "winder-launcher",
+    "name": "Winder Launcher",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "description": "A compact ripcord-style launcher included with starter sets. Reliable and easy to carry.",
+    "spinCapability": "right"
+  },
+  {
+    "id": "string-launcher",
+    "name": "String Launcher",
+    "imageUrl": "",
+    "releaseDate": "2023-09-09",
+    "description": "A string-pull launcher capable of strong, consistent launches for right- and left-spin Beys.",
+    "spinCapability": "both"
+  }
+]

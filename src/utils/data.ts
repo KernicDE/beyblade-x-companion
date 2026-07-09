@@ -1,0 +1,106 @@
+import type {
+  Blade,
+  AssistBlade,
+  Ratchet,
+  Bit,
+  Launcher,
+  Bey,
+  Part,
+  PartCategory,
+  ComboParts,
+  Ratings,
+} from '../types';
+
+export interface Database {
+  blades: Blade[];
+  assistBlades: AssistBlade[];
+  ratchets: Ratchet[];
+  bits: Bit[];
+  launchers: Launcher[];
+  beys: Bey[];
+}
+
+async function loadJson<T>(path: string): Promise<T> {
+  const response = await fetch(path);
+  if (!response.ok) {
+    throw new Error(`Failed to load ${path}: ${response.status} ${response.statusText}`);
+  }
+  return response.json() as Promise<T>;
+}
+
+export async function loadDatabase(): Promise<Database> {
+  const base = import.meta.env.BASE_URL;
+  const [blades, assistBlades, ratchets, bits, launchers, beys] = await Promise.all([
+    loadJson<Blade[]>(`${base}data/blades.json`),
+    loadJson<AssistBlade[]>(`${base}data/assistBlades.json`),
+    loadJson<Ratchet[]>(`${base}data/ratchets.json`),
+    loadJson<Bit[]>(`${base}data/bits.json`),
+    loadJson<Launcher[]>(`${base}data/launchers.json`),
+    loadJson<Bey[]>(`${base}data/beys.json`),
+  ]);
+
+  return { blades, assistBlades, ratchets, bits, launchers, beys };
+}
+
+export function getPartById(
+  database: Database,
+  id: string,
+  category: PartCategory
+): Part | undefined {
+  switch (category) {
+    case 'blade':
+      return database.blades.find((p) => p.id === id);
+    case 'assistBlade':
+      return database.assistBlades.find((p) => p.id === id);
+    case 'ratchet':
+      return database.ratchets.find((p) => p.id === id);
+    case 'bit':
+      return database.bits.find((p) => p.id === id);
+    default:
+      return undefined;
+  }
+}
+
+export function calculateComboRatings(
+  database: Database,
+  combo: ComboParts
+): Ratings {
+  const parts: Part[] = [
+    getPartById(database, combo.bladeId, 'blade'),
+    combo.assistBladeId
+      ? getPartById(database, combo.assistBladeId, 'assistBlade')
+      : undefined,
+    getPartById(database, combo.ratchetId, 'ratchet'),
+    getPartById(database, combo.bitId, 'bit'),
+  ].filter((p): p is Part => p !== undefined);
+
+  if (parts.length === 0) {
+    return { attack: 0, defense: 0, stamina: 0, balance: 0 };
+  }
+
+  const sum = parts.reduce(
+    (acc, part) => ({
+      attack: acc.attack + part.ratings.attack,
+      defense: acc.defense + part.ratings.defense,
+      stamina: acc.stamina + part.ratings.stamina,
+      balance: acc.balance + part.ratings.balance,
+    }),
+    { attack: 0, defense: 0, stamina: 0, balance: 0 }
+  );
+
+  return {
+    attack: Number((sum.attack / parts.length).toFixed(2)),
+    defense: Number((sum.defense / parts.length).toFixed(2)),
+    stamina: Number((sum.stamina / parts.length).toFixed(2)),
+    balance: Number((sum.balance / parts.length).toFixed(2)),
+  };
+}
+
+export function getBeyParts(bey: Bey): ComboParts {
+  return {
+    bladeId: bey.bladeId,
+    assistBladeId: bey.assistBladeId,
+    ratchetId: bey.ratchetId,
+    bitId: bey.bitId,
+  };
+}

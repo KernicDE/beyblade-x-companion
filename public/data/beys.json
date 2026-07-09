@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dran-sword-3-60f",
+    "name": "Dran Sword 3-60F",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-01",
+    "bladeId": "dran-sword",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-flat"
+  },
+  {
+    "id": "hells-scythe-4-60t",
+    "name": "Hells Scythe 4-60T",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-02",
+    "bladeId": "hells-scythe",
+    "ratchetId": "ratchet-4-60",
+    "bitId": "bit-taper"
+  },
+  {
+    "id": "knight-shield-3-80n",
+    "name": "Knight Shield 3-80N",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-03",
+    "bladeId": "knight-shield",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-needle"
+  },
+  {
+    "id": "wizard-arrow-4-80b",
+    "name": "Wizard Arrow 4-80B",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-04",
+    "bladeId": "wizard-arrow",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-ball"
+  }
+]

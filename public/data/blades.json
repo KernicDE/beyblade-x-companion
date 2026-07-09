@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dran-sword",
+    "category": "blade",
+    "name": "Dran Sword",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-01",
+    "description": "An attack-oriented blade with a pronounced sword-shaped contact point designed for aggressive knockouts.",
+    "officialStats": {
+      "weightGrams": 32.4,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "hells-scythe",
+    "category": "blade",
+    "name": "Hells Scythe",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-02",
+    "description": "A balanced blade with scythe-like edges that offer a mix of stamina and counter-attack potential.",
+    "officialStats": {
+      "weightGrams": 31.8,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 2,
+      "stamina": 3,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knight-shield",
+    "category": "blade",
+    "name": "Knight Shield",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-03",
+    "description": "A round, defensive blade built to absorb impacts and outlast aggressive opponents.",
+    "officialStats": {
+      "weightGrams": 33.1,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 2,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wizard-arrow",
+    "category": "blade",
+    "name": "Wizard Arrow",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-04",
+    "description": "A slim, low-friction blade optimized for long spin times and stamina combinations.",
+    "officialStats": {
+      "weightGrams": 30.5,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 1,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 4
+    },
+    "ratingsDisclaimer": true
+  }
+]
