@@ -4,7 +4,7 @@
     "category": "assistBlade",
     "name": "Slash",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/slash.png",
+    "imageUrl": "images/assist-blades/slash.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -34,7 +34,7 @@
     "category": "assistBlade",
     "name": "Round",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/round.png",
+    "imageUrl": "images/assist-blades/round.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -64,7 +64,7 @@
     "category": "assistBlade",
     "name": "Bumper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/bumper.png",
+    "imageUrl": "images/assist-blades/bumper.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -94,7 +94,7 @@
     "category": "assistBlade",
     "name": "Turn-A",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/turn-a.png",
+    "imageUrl": "images/assist-blades/turn-a.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -124,7 +124,7 @@
     "category": "assistBlade",
     "name": "Turn-D",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/turn-d.png",
+    "imageUrl": "images/assist-blades/turn-d.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -154,7 +154,7 @@
     "category": "assistBlade",
     "name": "Charge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/charge.png",
+    "imageUrl": "images/assist-blades/charge.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -184,7 +184,7 @@
     "category": "assistBlade",
     "name": "Jaggy",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/jaggy.png",
+    "imageUrl": "images/assist-blades/jaggy.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -214,7 +214,7 @@
     "category": "assistBlade",
     "name": "Assault",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/assault.png",
+    "imageUrl": "images/assist-blades/assault.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -244,7 +244,7 @@
     "category": "assistBlade",
     "name": "Wheel",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/wheel.png",
+    "imageUrl": "images/assist-blades/wheel.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -274,7 +274,7 @@
     "category": "assistBlade",
     "name": "Massive",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/massive.png",
+    "imageUrl": "images/assist-blades/massive.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -304,7 +304,7 @@
     "category": "assistBlade",
     "name": "Dual-U",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/dual-u.png",
+    "imageUrl": "images/assist-blades/dual-u.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -334,7 +334,7 @@
     "category": "assistBlade",
     "name": "Dual-S",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/dual-s.png",
+    "imageUrl": "images/assist-blades/dual-s.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -364,7 +364,7 @@
     "category": "assistBlade",
     "name": "Free",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/free.png",
+    "imageUrl": "images/assist-blades/free.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -394,7 +394,7 @@
     "category": "assistBlade",
     "name": "Heavy",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/heavy.png",
+    "imageUrl": "images/assist-blades/heavy.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -424,7 +424,7 @@
     "category": "assistBlade",
     "name": "Zillion",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/zillion.png",
+    "imageUrl": "images/assist-blades/zillion.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -454,7 +454,7 @@
     "category": "assistBlade",
     "name": "Knuckle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/knuckle.png",
+    "imageUrl": "images/assist-blades/knuckle.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -484,7 +484,7 @@
     "category": "assistBlade",
     "name": "Vertical",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/vertical.png",
+    "imageUrl": "images/assist-blades/vertical.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -514,7 +514,7 @@
     "category": "assistBlade",
     "name": "Erase",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/erase.png",
+    "imageUrl": "images/assist-blades/erase.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -544,7 +544,7 @@
     "category": "assistBlade",
     "name": "Odd",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/odd.png",
+    "imageUrl": "images/assist-blades/odd.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -574,7 +574,7 @@
     "category": "assistBlade",
     "name": "Dual",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/dual.png",
+    "imageUrl": "images/assist-blades/dual.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -604,7 +604,7 @@
     "category": "assistBlade",
     "name": "Outer",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/outer.png",
+    "imageUrl": "images/assist-blades/outer.png",
     "releaseDate": "2026-06-13",
     "releaseWave": "CX-18",
     "description": {
@@ -634,7 +634,7 @@
     "category": "assistBlade",
     "name": "Slash",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/slash-hasbro.png",
+    "imageUrl": "images/assist-blades/slash-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -664,7 +664,7 @@
     "category": "assistBlade",
     "name": "Turn-A",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/turn-a-hasbro.png",
+    "imageUrl": "images/assist-blades/turn-a-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "CX",
     "description": {
@@ -694,7 +694,7 @@
     "category": "assistBlade",
     "name": "Round",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/round-hasbro.png",
+    "imageUrl": "images/assist-blades/round-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -724,7 +724,7 @@
     "category": "assistBlade",
     "name": "Bumper",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/bumper-hasbro.png",
+    "imageUrl": "images/assist-blades/bumper-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -754,7 +754,7 @@
     "category": "assistBlade",
     "name": "Jaggy",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/jaggy-hasbro.png",
+    "imageUrl": "images/assist-blades/jaggy-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -784,7 +784,7 @@
     "category": "assistBlade",
     "name": "Charge",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/charge-hasbro.png",
+    "imageUrl": "images/assist-blades/charge-hasbro.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -814,7 +814,7 @@
     "category": "assistBlade",
     "name": "Wheel",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/wheel-hasbro.png",
+    "imageUrl": "images/assist-blades/wheel-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -844,7 +844,7 @@
     "category": "assistBlade",
     "name": "Erase",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/erase-hasbro.png",
+    "imageUrl": "images/assist-blades/erase-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -874,7 +874,7 @@
     "category": "assistBlade",
     "name": "Vertical",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/vertical-hasbro.png",
+    "imageUrl": "images/assist-blades/vertical-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -904,7 +904,7 @@
     "category": "assistBlade",
     "name": "Knuckle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/knuckle-hasbro.png",
+    "imageUrl": "images/assist-blades/knuckle-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -934,7 +934,7 @@
     "category": "assistBlade",
     "name": "Heavy",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/assist-blades/heavy-hasbro.png",
+    "imageUrl": "images/assist-blades/heavy-hasbro.png",
     "releaseDate": "",
     "releaseWave": "CX",
     "description": {
@@ -964,7 +964,7 @@
     "category": "assistBlade",
     "name": "Turn",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/assist-blades/turn.png",
+    "imageUrl": "images/assist-blades/turn.png",
     "releaseDate": "",
     "releaseWave": "",
     "description": {

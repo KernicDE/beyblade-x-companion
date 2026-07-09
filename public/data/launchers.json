@@ -3,7 +3,7 @@
     "id": "winder-launcher",
     "name": "Winder Launcher",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/launchers/winder-launcher.png",
+    "imageUrl": "images/launchers/winder-launcher.png",
     "releaseDate": "2023-07-15",
     "description": {
       "en": "A compact ripcord-style launcher included with starter sets.",
@@ -19,7 +19,7 @@
     "id": "winder-launcher-l",
     "name": "Winder Launcher L",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/launchers/winder-launcher-l.png",
+    "imageUrl": "images/launchers/winder-launcher-l.png",
     "releaseDate": "2025-03-29",
     "description": {
       "en": "A left-spin variant of the Winder Launcher.",
@@ -35,7 +35,7 @@
     "id": "string-launcher",
     "name": "String Launcher",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/launchers/string-launcher.png",
+    "imageUrl": "images/launchers/string-launcher.png",
     "releaseDate": "2023-10-07",
     "description": {
       "en": "A string-pull launcher for strong, consistent launches.",
@@ -51,7 +51,7 @@
     "id": "string-launcher-l",
     "name": "String Launcher L",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/launchers/string-launcher-l.png",
+    "imageUrl": "images/launchers/string-launcher-l.png",
     "releaseDate": "2025-10-11",
     "description": {
       "en": "A left-spin string-pull launcher.",
@@ -67,7 +67,7 @@
     "id": "custom-launcher",
     "name": "Custom Launcher",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/launchers/custom-launcher.png",
+    "imageUrl": "images/launchers/custom-launcher.png",
     "releaseDate": "",
     "description": {
       "en": "A modular launcher used with the Custom Line system.",
@@ -83,7 +83,7 @@
     "id": "winder-launcher-hasbro",
     "name": "Winder Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/launchers/winder-launcher-hasbro.png",
+    "imageUrl": "images/launchers/winder-launcher-hasbro.png",
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A compact ripcord-style launcher included with Hasbro starter sets.",
@@ -99,7 +99,7 @@
     "id": "winder-launcher-l-hasbro",
     "name": "Winder Launcher L",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/launchers/winder-launcher-l-hasbro.png",
+    "imageUrl": "images/launchers/winder-launcher-l-hasbro.png",
     "releaseDate": "2025-07-24",
     "description": {
       "en": "A left-spin variant of the Hasbro Winder Launcher.",
@@ -115,7 +115,7 @@
     "id": "string-launcher-hasbro",
     "name": "String Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/launchers/string-launcher-hasbro.png",
+    "imageUrl": "images/launchers/string-launcher-hasbro.png",
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A string-pull launcher for strong, consistent launches.",
@@ -131,7 +131,7 @@
     "id": "string-launcher-l-hasbro",
     "name": "String Launcher L",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/launchers/string-launcher-l-hasbro.png",
+    "imageUrl": "images/launchers/string-launcher-l-hasbro.png",
     "releaseDate": "2025-07-24",
     "description": {
       "en": "A left-spin string-pull launcher.",
@@ -147,7 +147,7 @@
     "id": "custom-launcher-hasbro",
     "name": "Custom Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/launchers/custom-launcher-hasbro.png",
+    "imageUrl": "images/launchers/custom-launcher-hasbro.png",
     "releaseDate": "2025-06-01",
     "description": {
       "en": "A modular launcher used with the Custom Line system.",

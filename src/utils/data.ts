@@ -143,12 +143,18 @@ function getTypeScore(ratings: Ratings, typeTag?: string): number {
 
 export interface TypeScores {
   bey: Record<string, number[]>;
-  part: Record<string, number[]>;
+  blade: Record<string, number[]>;
+  assistBlade: Record<string, number[]>;
+  ratchet: Record<string, number[]>;
+  bit: Record<string, number[]>;
 }
 
 export function buildTypeScores(database: Database): TypeScores {
   const beyScores: Record<string, number[]> = {};
-  const partScores: Record<string, number[]> = {};
+  const bladeScores: Record<string, number[]> = {};
+  const assistBladeScores: Record<string, number[]> = {};
+  const ratchetScores: Record<string, number[]> = {};
+  const bitScores: Record<string, number[]> = {};
 
   const addScore = (
     target: Record<string, number[]>,
@@ -167,13 +173,30 @@ export function buildTypeScores(database: Database): TypeScores {
     addScore(beyScores, blade?.officialStats.typeTag, ratings);
   });
 
-  [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach(
-    (part) => {
-      addScore(partScores, part.officialStats.typeTag, part.ratings);
-    }
-  );
+  database.blades.forEach((part) => addScore(bladeScores, part.officialStats.typeTag, part.ratings));
+  database.assistBlades.forEach((part) => addScore(assistBladeScores, part.officialStats.typeTag, part.ratings));
+  database.ratchets.forEach((part) => addScore(ratchetScores, part.officialStats.typeTag, part.ratings));
+  database.bits.forEach((part) => addScore(bitScores, part.officialStats.typeTag, part.ratings));
 
-  return { bey: beyScores, part: partScores };
+  return { bey: beyScores, blade: bladeScores, assistBlade: assistBladeScores, ratchet: ratchetScores, bit: bitScores };
+}
+
+export function getPartTypeScores(
+  typeScores: TypeScores,
+  category: PartCategory
+): Record<string, number[]> {
+  switch (category) {
+    case 'blade':
+      return typeScores.blade;
+    case 'assistBlade':
+      return typeScores.assistBlade;
+    case 'ratchet':
+      return typeScores.ratchet;
+    case 'bit':
+      return typeScores.bit;
+    default:
+      return {};
+  }
 }
 
 export function calculateTier(

@@ -4,7 +4,7 @@
     "category": "bit",
     "name": "Ball",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-ball.png",
+    "imageUrl": "images/bits/bit-ball.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -34,7 +34,7 @@
     "category": "bit",
     "name": "Flat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-flat.png",
+    "imageUrl": "images/bits/bit-flat.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -64,7 +64,7 @@
     "category": "bit",
     "name": "Needle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-needle.png",
+    "imageUrl": "images/bits/bit-needle.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -94,7 +94,7 @@
     "category": "bit",
     "name": "Taper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-taper.png",
+    "imageUrl": "images/bits/bit-taper.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -124,7 +124,7 @@
     "category": "bit",
     "name": "High Needle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-high-needle.png",
+    "imageUrl": "images/bits/bit-high-needle.png",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
@@ -154,7 +154,7 @@
     "category": "bit",
     "name": "Low Flat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-low-flat.png",
+    "imageUrl": "images/bits/bit-low-flat.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -184,7 +184,7 @@
     "category": "bit",
     "name": "Point",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-point.png",
+    "imageUrl": "images/bits/bit-point.png",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
@@ -214,7 +214,7 @@
     "category": "bit",
     "name": "Orb",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-orb.png",
+    "imageUrl": "images/bits/bit-orb.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -244,7 +244,7 @@
     "category": "bit",
     "name": "Rush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-rush.png",
+    "imageUrl": "images/bits/bit-rush.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -274,7 +274,7 @@
     "category": "bit",
     "name": "High Taper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-high-taper.png",
+    "imageUrl": "images/bits/bit-high-taper.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -304,7 +304,7 @@
     "category": "bit",
     "name": "Spike",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-spike.png",
+    "imageUrl": "images/bits/bit-spike.png",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": {
@@ -335,7 +335,7 @@
     "category": "bit",
     "name": "Gear Flat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-gear-flat.png",
+    "imageUrl": "images/bits/bit-gear-flat.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -365,7 +365,7 @@
     "category": "bit",
     "name": "Gear Ball",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-gear-ball.png",
+    "imageUrl": "images/bits/bit-gear-ball.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -395,7 +395,7 @@
     "category": "bit",
     "name": "Gear Point",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-gear-point.png",
+    "imageUrl": "images/bits/bit-gear-point.png",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": {
@@ -425,7 +425,7 @@
     "category": "bit",
     "name": "Gear Needle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-gear-needle.png",
+    "imageUrl": "images/bits/bit-gear-needle.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -455,7 +455,7 @@
     "category": "bit",
     "name": "Accel",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-accel.png",
+    "imageUrl": "images/bits/bit-accel.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -485,7 +485,7 @@
     "category": "bit",
     "name": "Hexa",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-hexa.png",
+    "imageUrl": "images/bits/bit-hexa.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -515,7 +515,7 @@
     "category": "bit",
     "name": "Disk Ball",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-disk-ball.png",
+    "imageUrl": "images/bits/bit-disk-ball.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -545,7 +545,7 @@
     "category": "bit",
     "name": "Quake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-quake.png",
+    "imageUrl": "images/bits/bit-quake.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -575,7 +575,7 @@
     "category": "bit",
     "name": "Metal Needle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-metal-needle.png",
+    "imageUrl": "images/bits/bit-metal-needle.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -605,7 +605,7 @@
     "category": "bit",
     "name": "Unite",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-unite.png",
+    "imageUrl": "images/bits/bit-unite.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -635,7 +635,7 @@
     "category": "bit",
     "name": "Cyclone",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-cyclone.png",
+    "imageUrl": "images/bits/bit-cyclone.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -665,7 +665,7 @@
     "category": "bit",
     "name": "Dot",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-dot.png",
+    "imageUrl": "images/bits/bit-dot.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -696,7 +696,7 @@
     "category": "bit",
     "name": "Glide",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-glide.png",
+    "imageUrl": "images/bits/bit-glide.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -726,7 +726,7 @@
     "category": "bit",
     "name": "Elevate",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-elevate.png",
+    "imageUrl": "images/bits/bit-elevate.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -756,7 +756,7 @@
     "category": "bit",
     "name": "Free Ball",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-free-ball.png",
+    "imageUrl": "images/bits/bit-free-ball.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -786,7 +786,7 @@
     "category": "bit",
     "name": "Trans Point",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-trans-point.png",
+    "imageUrl": "images/bits/bit-trans-point.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -816,7 +816,7 @@
     "category": "bit",
     "name": "Level",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-level.png",
+    "imageUrl": "images/bits/bit-level.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -846,7 +846,7 @@
     "category": "bit",
     "name": "Bound Spike",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-bound-spike.png",
+    "imageUrl": "images/bits/bit-bound-spike.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -876,7 +876,7 @@
     "category": "bit",
     "name": "Rubber Accel",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-rubber-accel.png",
+    "imageUrl": "images/bits/bit-rubber-accel.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -907,7 +907,7 @@
     "category": "bit",
     "name": "Low Rush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-low-rush.png",
+    "imageUrl": "images/bits/bit-low-rush.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -937,7 +937,7 @@
     "category": "bit",
     "name": "Under Needle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-under-needle.png",
+    "imageUrl": "images/bits/bit-under-needle.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -966,7 +966,7 @@
     "category": "bit",
     "name": "Vortex",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-vortex.png",
+    "imageUrl": "images/bits/bit-vortex.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -996,7 +996,7 @@
     "category": "bit",
     "name": "Low Orb",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-low-orb.png",
+    "imageUrl": "images/bits/bit-low-orb.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1026,7 +1026,7 @@
     "category": "bit",
     "name": "Wedge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-wedge.png",
+    "imageUrl": "images/bits/bit-wedge.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1056,7 +1056,7 @@
     "category": "bit",
     "name": "Wedge",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-wedge-hasbro.png",
+    "imageUrl": "images/bits/bit-wedge-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1086,7 +1086,7 @@
     "category": "bit",
     "name": "Kick",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-kick.png",
+    "imageUrl": "images/bits/bit-kick.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1116,7 +1116,7 @@
     "category": "bit",
     "name": "Zap",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-zap.png",
+    "imageUrl": "images/bits/bit-zap.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1146,7 +1146,7 @@
     "category": "bit",
     "name": "Gear Rush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-gear-rush.png",
+    "imageUrl": "images/bits/bit-gear-rush.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1176,7 +1176,7 @@
     "category": "bit",
     "name": "Wall Ball",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-wall-ball.png",
+    "imageUrl": "images/bits/bit-wall-ball.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1206,7 +1206,7 @@
     "category": "bit",
     "name": "Merge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-merge.png",
+    "imageUrl": "images/bits/bit-merge.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1236,7 +1236,7 @@
     "category": "bit",
     "name": "Under Flat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-under-flat.png",
+    "imageUrl": "images/bits/bit-under-flat.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1265,7 +1265,7 @@
     "category": "bit",
     "name": "Trans Kick",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-trans-kick.png",
+    "imageUrl": "images/bits/bit-trans-kick.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1296,7 +1296,7 @@
     "category": "bit",
     "name": "Jolt",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-jolt.png",
+    "imageUrl": "images/bits/bit-jolt.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1326,7 +1326,7 @@
     "category": "bit",
     "name": "Wall Wedge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-wall-wedge.png",
+    "imageUrl": "images/bits/bit-wall-wedge.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1356,7 +1356,7 @@
     "category": "bit",
     "name": "Ignition",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-ignition.png",
+    "imageUrl": "images/bits/bit-ignition.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1385,7 +1385,7 @@
     "category": "bit",
     "name": "Yielding",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-yielding.png",
+    "imageUrl": "images/bits/bit-yielding.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1415,7 +1415,7 @@
     "category": "bit",
     "name": "Gear Unite",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-gear-unite.png",
+    "imageUrl": "images/bits/bit-gear-unite.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1445,7 +1445,7 @@
     "category": "bit",
     "name": "Free Flat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-free-flat.png",
+    "imageUrl": "images/bits/bit-free-flat.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1474,7 +1474,7 @@
     "category": "bit",
     "name": "Disk Spike",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-disk-spike.png",
+    "imageUrl": "images/bits/bit-disk-spike.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1504,7 +1504,7 @@
     "category": "bit",
     "name": "Narrow",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-narrow.png",
+    "imageUrl": "images/bits/bit-narrow.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1533,7 +1533,7 @@
     "category": "bit",
     "name": "Turbo",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-turbo.png",
+    "imageUrl": "images/bits/bit-turbo.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-07",
     "description": {
@@ -1564,7 +1564,7 @@
     "category": "bit",
     "name": "Operate",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-operate.png",
+    "imageUrl": "images/bits/bit-operate.png",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
     "description": {
@@ -1595,7 +1595,7 @@
     "category": "bit",
     "name": "Low Orbital",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/bits/bit-low-orbital.png",
+    "imageUrl": "images/bits/bit-low-orbital.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-02",
     "description": {
@@ -1626,7 +1626,7 @@
     "category": "bit",
     "name": "Flat",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-flat-hasbro.png",
+    "imageUrl": "images/bits/bit-flat-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1656,7 +1656,7 @@
     "category": "bit",
     "name": "Needle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-needle-hasbro.png",
+    "imageUrl": "images/bits/bit-needle-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1686,7 +1686,7 @@
     "category": "bit",
     "name": "Ball",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-ball-hasbro.png",
+    "imageUrl": "images/bits/bit-ball-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1716,7 +1716,7 @@
     "category": "bit",
     "name": "Taper",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-taper-hasbro.png",
+    "imageUrl": "images/bits/bit-taper-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1746,7 +1746,7 @@
     "category": "bit",
     "name": "Spike",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-spike-hasbro.png",
+    "imageUrl": "images/bits/bit-spike-hasbro.png",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": {
@@ -1777,7 +1777,7 @@
     "category": "bit",
     "name": "Low Flat",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-low-flat-hasbro.png",
+    "imageUrl": "images/bits/bit-low-flat-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -1807,7 +1807,7 @@
     "category": "bit",
     "name": "High Needle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-high-needle-hasbro.png",
+    "imageUrl": "images/bits/bit-high-needle-hasbro.png",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
@@ -1837,7 +1837,7 @@
     "category": "bit",
     "name": "Point",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-point-hasbro.png",
+    "imageUrl": "images/bits/bit-point-hasbro.png",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
@@ -1867,7 +1867,7 @@
     "category": "bit",
     "name": "Accel",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-accel-hasbro.png",
+    "imageUrl": "images/bits/bit-accel-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1897,7 +1897,7 @@
     "category": "bit",
     "name": "Disk Ball",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-disk-ball-hasbro.png",
+    "imageUrl": "images/bits/bit-disk-ball-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1927,7 +1927,7 @@
     "category": "bit",
     "name": "Rush",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-rush-hasbro.png",
+    "imageUrl": "images/bits/bit-rush-hasbro.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -1957,7 +1957,7 @@
     "category": "bit",
     "name": "Metal Needle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-metal-needle-hasbro.png",
+    "imageUrl": "images/bits/bit-metal-needle-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -1987,7 +1987,7 @@
     "category": "bit",
     "name": "Free Ball",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-free-ball-hasbro.png",
+    "imageUrl": "images/bits/bit-free-ball-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2017,7 +2017,7 @@
     "category": "bit",
     "name": "Gear Point",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-gear-point-hasbro.png",
+    "imageUrl": "images/bits/bit-gear-point-hasbro.png",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": {
@@ -2047,7 +2047,7 @@
     "category": "bit",
     "name": "Under Needle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-under-needle-hasbro.png",
+    "imageUrl": "images/bits/bit-under-needle-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2076,7 +2076,7 @@
     "category": "bit",
     "name": "Hexa",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-hexa-hasbro.png",
+    "imageUrl": "images/bits/bit-hexa-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2106,7 +2106,7 @@
     "category": "bit",
     "name": "Gear Ball",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-gear-ball-hasbro.png",
+    "imageUrl": "images/bits/bit-gear-ball-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2136,7 +2136,7 @@
     "category": "bit",
     "name": "Vortex",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-vortex-hasbro.png",
+    "imageUrl": "images/bits/bit-vortex-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2166,7 +2166,7 @@
     "category": "bit",
     "name": "Kick",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-kick-hasbro.png",
+    "imageUrl": "images/bits/bit-kick-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2196,7 +2196,7 @@
     "category": "bit",
     "name": "Low Orbital",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-low-orbital-hasbro.png",
+    "imageUrl": "images/bits/bit-low-orbital-hasbro.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-02",
     "description": {
@@ -2227,7 +2227,7 @@
     "category": "bit",
     "name": "Gear Rush",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-gear-rush-hasbro.png",
+    "imageUrl": "images/bits/bit-gear-rush-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2257,7 +2257,7 @@
     "category": "bit",
     "name": "Orb",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-orb-hasbro.png",
+    "imageUrl": "images/bits/bit-orb-hasbro.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -2287,7 +2287,7 @@
     "category": "bit",
     "name": "Dot",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-dot-hasbro.png",
+    "imageUrl": "images/bits/bit-dot-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2318,7 +2318,7 @@
     "category": "bit",
     "name": "Wall Ball",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-wall-ball-hasbro.png",
+    "imageUrl": "images/bits/bit-wall-ball-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2348,7 +2348,7 @@
     "category": "bit",
     "name": "Unite",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-unite-hasbro.png",
+    "imageUrl": "images/bits/bit-unite-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2378,7 +2378,7 @@
     "category": "bit",
     "name": "Yielding",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-yielding-hasbro.png",
+    "imageUrl": "images/bits/bit-yielding-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2408,7 +2408,7 @@
     "category": "bit",
     "name": "Ignition",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-ignition-hasbro.png",
+    "imageUrl": "images/bits/bit-ignition-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2437,7 +2437,7 @@
     "category": "bit",
     "name": "Gear Flat",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-gear-flat-hasbro.png",
+    "imageUrl": "images/bits/bit-gear-flat-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2467,7 +2467,7 @@
     "category": "bit",
     "name": "Gear Needle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-gear-needle-hasbro.png",
+    "imageUrl": "images/bits/bit-gear-needle-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2497,7 +2497,7 @@
     "category": "bit",
     "name": "Quake",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-quake-hasbro.png",
+    "imageUrl": "images/bits/bit-quake-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2527,7 +2527,7 @@
     "category": "bit",
     "name": "Elevate",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-elevate-hasbro.png",
+    "imageUrl": "images/bits/bit-elevate-hasbro.png",
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
     "description": {
@@ -2557,7 +2557,7 @@
     "category": "bit",
     "name": "Under Flat",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-under-flat-hasbro.png",
+    "imageUrl": "images/bits/bit-under-flat-hasbro.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
@@ -2587,7 +2587,7 @@
     "category": "bit",
     "name": "High Taper",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-high-taper-hasbro.png",
+    "imageUrl": "images/bits/bit-high-taper-hasbro.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -2617,7 +2617,7 @@
     "category": "bit",
     "name": "Low Rush",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-low-rush-hasbro.png",
+    "imageUrl": "images/bits/bit-low-rush-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2647,7 +2647,7 @@
     "category": "bit",
     "name": "Merge",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-merge-hasbro.png",
+    "imageUrl": "images/bits/bit-merge-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2677,7 +2677,7 @@
     "category": "bit",
     "name": "Zap",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-zap-hasbro.png",
+    "imageUrl": "images/bits/bit-zap-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2707,7 +2707,7 @@
     "category": "bit",
     "name": "Rubber Accel",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-rubber-accel-hasbro.png",
+    "imageUrl": "images/bits/bit-rubber-accel-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2738,7 +2738,7 @@
     "category": "bit",
     "name": "Operate",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-operate-hasbro.png",
+    "imageUrl": "images/bits/bit-operate-hasbro.png",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
     "description": {
@@ -2769,7 +2769,7 @@
     "category": "bit",
     "name": "Bound Spike",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-bound-spike-hasbro.png",
+    "imageUrl": "images/bits/bit-bound-spike-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2799,7 +2799,7 @@
     "category": "bit",
     "name": "Glide",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-glide-hasbro.png",
+    "imageUrl": "images/bits/bit-glide-hasbro.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -2829,7 +2829,7 @@
     "category": "bit",
     "name": "Low Orb",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/bits/bit-low-orb-hasbro.png",
+    "imageUrl": "images/bits/bit-low-orb-hasbro.png",
     "releaseDate": "",
     "releaseWave": "",
     "description": {

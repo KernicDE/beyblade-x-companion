@@ -4,7 +4,7 @@
     "category": "blade",
     "name": "Cobalt Drake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/cobalt-drake.png",
+    "imageUrl": "images/blades/cobalt-drake.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -34,7 +34,7 @@
     "category": "blade",
     "name": "Dran Sword",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dran-sword.png",
+    "imageUrl": "images/blades/dran-sword.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -64,7 +64,7 @@
     "category": "blade",
     "name": "Hells Scythe",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hells-scythe.png",
+    "imageUrl": "images/blades/hells-scythe.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -94,7 +94,7 @@
     "category": "blade",
     "name": "Knight Shield",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/knight-shield.png",
+    "imageUrl": "images/blades/knight-shield.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -124,7 +124,7 @@
     "category": "blade",
     "name": "Wizard Arrow",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/wizard-arrow.png",
+    "imageUrl": "images/blades/wizard-arrow.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -154,7 +154,7 @@
     "category": "blade",
     "name": "Dranzer Spiral",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dranzer-spiral.png",
+    "imageUrl": "images/blades/dranzer-spiral.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -184,7 +184,7 @@
     "category": "blade",
     "name": "Knight Lance",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/knight-lance.png",
+    "imageUrl": "images/blades/knight-lance.png",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
@@ -214,7 +214,7 @@
     "category": "blade",
     "name": "Shark Edge",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/shark-edge.png",
+    "imageUrl": "images/blades/shark-edge.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -244,7 +244,7 @@
     "category": "blade",
     "name": "Leon Claw",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/leon-claw.png",
+    "imageUrl": "images/blades/leon-claw.png",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
@@ -274,7 +274,7 @@
     "category": "blade",
     "name": "Viper Tail",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/viper-tail.png",
+    "imageUrl": "images/blades/viper-tail.png",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
@@ -304,7 +304,7 @@
     "category": "blade",
     "name": "Dran Dagger",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dran-dagger.png",
+    "imageUrl": "images/blades/dran-dagger.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -334,7 +334,7 @@
     "category": "blade",
     "name": "Hells Chain",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hells-chain.png",
+    "imageUrl": "images/blades/hells-chain.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -364,7 +364,7 @@
     "category": "blade",
     "name": "Rhino Horn",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/rhino-horn.png",
+    "imageUrl": "images/blades/rhino-horn.png",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
@@ -394,7 +394,7 @@
     "category": "blade",
     "name": "Phoenix Feather",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/phoenix-feather.png",
+    "imageUrl": "images/blades/phoenix-feather.png",
     "releaseDate": "2025-06-15",
     "releaseWave": "BX",
     "description": {
@@ -424,7 +424,7 @@
     "category": "blade",
     "name": "Phoenix Wing",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/phoenix-wing.png",
+    "imageUrl": "images/blades/phoenix-wing.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -454,7 +454,7 @@
     "category": "blade",
     "name": "Wyvern Gale",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/wyvern-gale.png",
+    "imageUrl": "images/blades/wyvern-gale.png",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": {
@@ -484,7 +484,7 @@
     "category": "blade",
     "name": "Unicorn Sting",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/unicorn-sting.png",
+    "imageUrl": "images/blades/unicorn-sting.png",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": {
@@ -514,7 +514,7 @@
     "category": "blade",
     "name": "Sphinx Cowl",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/sphinx-cowl.png",
+    "imageUrl": "images/blades/sphinx-cowl.png",
     "releaseDate": "2024-02-22",
     "releaseWave": "BX",
     "description": {
@@ -544,7 +544,7 @@
     "category": "blade",
     "name": "Dran Buster",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dran-buster.png",
+    "imageUrl": "images/blades/dran-buster.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -574,7 +574,7 @@
     "category": "blade",
     "name": "Hells Hammer",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hells-hammer.png",
+    "imageUrl": "images/blades/hells-hammer.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -604,7 +604,7 @@
     "category": "blade",
     "name": "Wizard Rod",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/wizard-rod.png",
+    "imageUrl": "images/blades/wizard-rod.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -634,7 +634,7 @@
     "category": "blade",
     "name": "Driger Slash",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/driger-slash.png",
+    "imageUrl": "images/blades/driger-slash.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -664,7 +664,7 @@
     "category": "blade",
     "name": "Tyranno Beat",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/tyranno-beat.png",
+    "imageUrl": "images/blades/tyranno-beat.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -694,7 +694,7 @@
     "category": "blade",
     "name": "Shinobi Shadow",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/shinobi-shadow.png",
+    "imageUrl": "images/blades/shinobi-shadow.png",
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
@@ -724,7 +724,7 @@
     "category": "blade",
     "name": "MammothTusk",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/mammoth-tusk.png",
+    "imageUrl": "images/blades/mammoth-tusk.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -754,7 +754,7 @@
     "category": "blade",
     "name": "ShinobiKnife",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/shinobi-knife.png",
+    "imageUrl": "images/blades/shinobi-knife.png",
     "releaseDate": "2025-02-26",
     "releaseWave": "BX",
     "description": {
@@ -784,7 +784,7 @@
     "category": "blade",
     "name": "PteraSwing",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/ptera-swing.png",
+    "imageUrl": "images/blades/ptera-swing.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "UX-10",
     "description": {
@@ -814,7 +814,7 @@
     "category": "blade",
     "name": "SamuraiSteel",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/samurai-steel.png",
+    "imageUrl": "images/blades/samurai-steel.png",
     "releaseDate": "2025-05-15",
     "releaseWave": "BX-00",
     "description": {
@@ -844,7 +844,7 @@
     "category": "blade",
     "name": "Weiss Tiger",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/weiss-tiger.png",
+    "imageUrl": "images/blades/weiss-tiger.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -874,7 +874,7 @@
     "category": "blade",
     "name": "Cobalt Dragoon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/cobalt-dragoon.png",
+    "imageUrl": "images/blades/cobalt-dragoon.png",
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
@@ -904,7 +904,7 @@
     "category": "blade",
     "name": "Black Shell",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/black-shell.png",
+    "imageUrl": "images/blades/black-shell.png",
     "releaseDate": "2024-07-13",
     "releaseWave": "BX",
     "description": {
@@ -934,7 +934,7 @@
     "category": "blade",
     "name": "Optimus Prime",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/optimus-prime.png",
+    "imageUrl": "images/blades/optimus-prime.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -964,7 +964,7 @@
     "category": "blade",
     "name": "Starscream",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/starscream.png",
+    "imageUrl": "images/blades/starscream.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -994,7 +994,7 @@
     "category": "blade",
     "name": "Optimus Primal",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/optimus-primal.png",
+    "imageUrl": "images/blades/optimus-primal.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1024,7 +1024,7 @@
     "category": "blade",
     "name": "Megatron",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/megatron.png",
+    "imageUrl": "images/blades/megatron.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1054,7 +1054,7 @@
     "category": "blade",
     "name": "Aero Pegasus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/aero-pegasus.png",
+    "imageUrl": "images/blades/aero-pegasus.png",
     "releaseDate": "2024-07-30",
     "releaseWave": "UX",
     "description": {
@@ -1084,7 +1084,7 @@
     "category": "blade",
     "name": "Leon Crest",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/leon-crest.png",
+    "imageUrl": "images/blades/leon-crest.png",
     "releaseDate": "2024-07-30",
     "releaseWave": "UX",
     "description": {
@@ -1114,7 +1114,7 @@
     "category": "blade",
     "name": "Phoenix Rudder",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/phoenix-rudder.png",
+    "imageUrl": "images/blades/phoenix-rudder.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "UX",
     "description": {
@@ -1144,7 +1144,7 @@
     "category": "blade",
     "name": "Croco Crunch",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/croco-crunch.png",
+    "imageUrl": "images/blades/croco-crunch.png",
     "releaseDate": "2025-03-15",
     "releaseWave": "BX",
     "description": {
@@ -1174,7 +1174,7 @@
     "category": "blade",
     "name": "Yell Kong",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/yell-kong.png",
+    "imageUrl": "images/blades/yell-kong.png",
     "releaseDate": "2025-03-15",
     "releaseWave": "BX",
     "description": {
@@ -1204,7 +1204,7 @@
     "category": "blade",
     "name": "Iron Man",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/iron-man.png",
+    "imageUrl": "images/blades/iron-man.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1234,7 +1234,7 @@
     "category": "blade",
     "name": "Thanos",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/thanos.png",
+    "imageUrl": "images/blades/thanos.png",
     "releaseDate": "2025-05-17",
     "releaseWave": "BX",
     "description": {
@@ -1264,7 +1264,7 @@
     "category": "blade",
     "name": "Spider-Man",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/spider-man.png",
+    "imageUrl": "images/blades/spider-man.png",
     "releaseDate": "2024-08-01",
     "releaseWave": "BX",
     "description": {
@@ -1294,7 +1294,7 @@
     "category": "blade",
     "name": "Venom",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/venom.png",
+    "imageUrl": "images/blades/venom.png",
     "releaseDate": "2024-08-01",
     "releaseWave": "BX",
     "description": {
@@ -1324,7 +1324,7 @@
     "category": "blade",
     "name": "Luke Skywalker",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/luke-skywalker.png",
+    "imageUrl": "images/blades/luke-skywalker.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1354,7 +1354,7 @@
     "category": "blade",
     "name": "Darth Vader",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/darth-vader.png",
+    "imageUrl": "images/blades/darth-vader.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1384,7 +1384,7 @@
     "category": "blade",
     "name": "Moff Gideon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/moff-gideon.png",
+    "imageUrl": "images/blades/moff-gideon.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1414,7 +1414,7 @@
     "category": "blade",
     "name": "The Mandalorian",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/the-mandalorian.png",
+    "imageUrl": "images/blades/the-mandalorian.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1444,7 +1444,7 @@
     "category": "blade",
     "name": "Whale Wave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/whale-wave.png",
+    "imageUrl": "images/blades/whale-wave.png",
     "releaseDate": "2024-08-10",
     "releaseWave": "BX",
     "description": {
@@ -1474,7 +1474,7 @@
     "category": "blade",
     "name": "L-Drago: Upper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/l-drago-upper.png",
+    "imageUrl": "images/blades/l-drago-upper.png",
     "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
@@ -1504,7 +1504,7 @@
     "category": "blade",
     "name": "L-Drago: Rapid Hit",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/l-drago-rapid-hit.png",
+    "imageUrl": "images/blades/l-drago-rapid-hit.png",
     "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
@@ -1534,7 +1534,7 @@
     "category": "blade",
     "name": "Bear Scratch",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/bear-scratch.png",
+    "imageUrl": "images/blades/bear-scratch.png",
     "releaseDate": "2024-10-12",
     "releaseWave": "BX",
     "description": {
@@ -1564,7 +1564,7 @@
     "category": "blade",
     "name": "Roar Tyranno",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/roar-tyranno.png",
+    "imageUrl": "images/blades/roar-tyranno.png",
     "releaseDate": "2024-09-01",
     "releaseWave": "BX",
     "description": {
@@ -1594,7 +1594,7 @@
     "category": "blade",
     "name": "Silver Wolf",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/silver-wolf.png",
+    "imageUrl": "images/blades/silver-wolf.png",
     "releaseDate": "2024-10-01",
     "releaseWave": "UX",
     "description": {
@@ -1624,7 +1624,7 @@
     "category": "blade",
     "name": "Crimson Garuda",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/crimson-garuda.png",
+    "imageUrl": "images/blades/crimson-garuda.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "BX",
     "description": {
@@ -1654,7 +1654,7 @@
     "category": "blade",
     "name": "Samurai Saber",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/samurai-saber.png",
+    "imageUrl": "images/blades/samurai-saber.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "UX",
     "description": {
@@ -1684,7 +1684,7 @@
     "category": "blade",
     "name": "Knight Mail",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/knight-mail.png",
+    "imageUrl": "images/blades/knight-mail.png",
     "releaseDate": "2024-11-02",
     "releaseWave": "UX",
     "description": {
@@ -1714,7 +1714,7 @@
     "category": "blade",
     "name": "Draciel Shield",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/draciel-shield.png",
+    "imageUrl": "images/blades/draciel-shield.png",
     "releaseDate": "2024-10-01",
     "releaseWave": "BX",
     "description": {
@@ -1744,7 +1744,7 @@
     "category": "blade",
     "name": "Impact Drake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/impact-drake.png",
+    "imageUrl": "images/blades/impact-drake.png",
     "releaseDate": "2024-04-27",
     "releaseWave": "UX",
     "description": {
@@ -1774,7 +1774,7 @@
     "category": "blade",
     "name": "Ghost Circle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/ghost-circle.png",
+    "imageUrl": "images/blades/ghost-circle.png",
     "releaseDate": "2024-12-01",
     "releaseWave": "UX",
     "description": {
@@ -1804,7 +1804,7 @@
     "category": "blade",
     "name": "Golem Rock",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/golem-rock.png",
+    "imageUrl": "images/blades/golem-rock.png",
     "releaseDate": "2025-01-25",
     "releaseWave": "UX",
     "description": {
@@ -1834,7 +1834,7 @@
     "category": "blade",
     "name": "Shelter Drake",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/shelter-drake.png",
+    "imageUrl": "images/blades/shelter-drake.png",
     "releaseDate": "2025-02-15",
     "releaseWave": "BX",
     "description": {
@@ -1864,7 +1864,7 @@
     "category": "blade",
     "name": "Dragoon Storm",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dragoon-storm.png",
+    "imageUrl": "images/blades/dragoon-storm.png",
     "releaseDate": "2025-03-21",
     "releaseWave": "BX",
     "description": {
@@ -1894,7 +1894,7 @@
     "category": "blade",
     "name": "Storm Pegasis",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/storm-pegasis.png",
+    "imageUrl": "images/blades/storm-pegasis.png",
     "releaseDate": "2025-03-21",
     "releaseWave": "BX",
     "description": {
@@ -1954,7 +1954,7 @@
     "category": "blade",
     "name": "Xeno Xcalibur",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/xeno-xcalibur.png",
+    "imageUrl": "images/blades/xeno-xcalibur.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "BX",
     "description": {
@@ -1984,7 +1984,7 @@
     "category": "blade",
     "name": "Scorpio Spear",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/scorpio-spear.png",
+    "imageUrl": "images/blades/scorpio-spear.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "UX",
     "description": {
@@ -2014,7 +2014,7 @@
     "category": "blade",
     "name": "Hover Wyvern",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hover-wyvern.png",
+    "imageUrl": "images/blades/hover-wyvern.png",
     "releaseDate": "2025-10-24",
     "releaseWave": "UX",
     "description": {
@@ -2044,7 +2044,7 @@
     "category": "blade",
     "name": "Shark Gill",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/shark-gill.png",
+    "imageUrl": "images/blades/shark-gill.png",
     "releaseDate": "2025-06",
     "releaseWave": "BX",
     "description": {
@@ -2074,7 +2074,7 @@
     "category": "blade",
     "name": "Tricera Press",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/tricera-press.png",
+    "imageUrl": "images/blades/tricera-press.png",
     "releaseDate": "2025-06-28",
     "releaseWave": "BX",
     "description": {
@@ -2104,7 +2104,7 @@
     "category": "blade",
     "name": "Rock Leone",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/rock-leone.png",
+    "imageUrl": "images/blades/rock-leone.png",
     "releaseDate": "2025-07-23",
     "releaseWave": "BX",
     "description": {
@@ -2134,7 +2134,7 @@
     "category": "blade",
     "name": "Samurai Calibur",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/samurai-calibur.png",
+    "imageUrl": "images/blades/samurai-calibur.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "BX",
     "description": {
@@ -2164,7 +2164,7 @@
     "category": "blade",
     "name": "Shark Scale",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/shark-scale.png",
+    "imageUrl": "images/blades/shark-scale.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX",
     "description": {
@@ -2194,7 +2194,7 @@
     "category": "blade",
     "name": "Goat Tackle",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/goat-tackle.png",
+    "imageUrl": "images/blades/goat-tackle.png",
     "releaseDate": "2025-10-11",
     "releaseWave": "BX",
     "description": {
@@ -2224,7 +2224,7 @@
     "category": "blade",
     "name": "Captain America",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/captain-america.png",
+    "imageUrl": "images/blades/captain-america.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2254,7 +2254,7 @@
     "category": "blade",
     "name": "Red Hulk",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/red-hulk.png",
+    "imageUrl": "images/blades/red-hulk.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2284,7 +2284,7 @@
     "category": "blade",
     "name": "Obi-Wan Kenobi",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/obi-wan-kenobi.png",
+    "imageUrl": "images/blades/obi-wan-kenobi.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2314,7 +2314,7 @@
     "category": "blade",
     "name": "General Grievous",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/general-grievous.png",
+    "imageUrl": "images/blades/general-grievous.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2344,7 +2344,7 @@
     "category": "blade",
     "name": "Bumblebee",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/bumblebee.png",
+    "imageUrl": "images/blades/bumblebee.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2374,7 +2374,7 @@
     "category": "blade",
     "name": "Shockwave",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shockwave.png",
+    "imageUrl": "images/blades/shockwave.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2404,7 +2404,7 @@
     "category": "blade",
     "name": "Miles Morales",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/miles-morales.png",
+    "imageUrl": "images/blades/miles-morales.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2434,7 +2434,7 @@
     "category": "blade",
     "name": "Green Goblin",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/green-goblin.png",
+    "imageUrl": "images/blades/green-goblin.png",
     "releaseDate": "2025-09",
     "releaseWave": "BX",
     "description": {
@@ -2464,7 +2464,7 @@
     "category": "blade",
     "name": "Clock Mirage",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/clock-mirage.png",
+    "imageUrl": "images/blades/clock-mirage.png",
     "releaseDate": "2025-10-11",
     "releaseWave": "UX",
     "description": {
@@ -2494,7 +2494,7 @@
     "category": "blade",
     "name": "Chewbacca",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/chewbacca.png",
+    "imageUrl": "images/blades/chewbacca.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2524,7 +2524,7 @@
     "category": "blade",
     "name": "Stormtrooper",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/stormtrooper.png",
+    "imageUrl": "images/blades/stormtrooper.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2554,7 +2554,7 @@
     "category": "blade",
     "name": "Stun Medusa",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/stun-medusa.png",
+    "imageUrl": "images/blades/stun-medusa.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -2584,7 +2584,7 @@
     "category": "blade",
     "name": "Meteor Dragoon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/meteor-dragoon.png",
+    "imageUrl": "images/blades/meteor-dragoon.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX",
     "description": {
@@ -2614,7 +2614,7 @@
     "category": "blade",
     "name": "Mummy Curse",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/mummy-curse.png",
+    "imageUrl": "images/blades/mummy-curse.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX",
     "description": {
@@ -2644,7 +2644,7 @@
     "category": "blade",
     "name": "Orochi Cluster",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/orochi-cluster.png",
+    "imageUrl": "images/blades/orochi-cluster.png",
     "releaseDate": "2025",
     "releaseWave": "UX",
     "description": {
@@ -2674,7 +2674,7 @@
     "category": "blade",
     "name": "Storm Spriggan",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/storm-spriggan.png",
+    "imageUrl": "images/blades/storm-spriggan.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "BX",
     "description": {
@@ -2704,7 +2704,7 @@
     "category": "blade",
     "name": "TriceraSpiky",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/tricera-spikey.png",
+    "imageUrl": "images/blades/tricera-spikey.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
@@ -2734,7 +2734,7 @@
     "category": "blade",
     "name": "VikingHack",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hack-viking.png",
+    "imageUrl": "images/blades/hack-viking.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "UX",
     "description": {
@@ -2764,7 +2764,7 @@
     "category": "blade",
     "name": "DranStrike",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dran-strike.png",
+    "imageUrl": "images/blades/dran-strike.png",
     "releaseDate": "2026-05-16",
     "releaseWave": "BX-49",
     "description": {
@@ -2794,7 +2794,7 @@
     "category": "blade",
     "name": "HeavensRing",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/ring-aether.png",
+    "imageUrl": "images/blades/ring-aether.png",
     "releaseDate": "2026-07-11",
     "releaseWave": "BX-50",
     "description": {
@@ -2824,7 +2824,7 @@
     "category": "blade",
     "name": "TyrannoRoar",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/tyranno-roar.png",
+    "imageUrl": "images/blades/tyranno-roar.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
@@ -2854,7 +2854,7 @@
     "category": "blade",
     "name": "PegasusBrush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/pegasus-brush.png",
+    "imageUrl": "images/blades/pegasus-brush.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -2884,7 +2884,7 @@
     "category": "blade",
     "name": "SolBrave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/sol-brave.png",
+    "imageUrl": "images/blades/sol-brave.png",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
     "description": {
@@ -2914,7 +2914,7 @@
     "category": "blade",
     "name": "HellsBrave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hells-brave.png",
+    "imageUrl": "images/blades/hells-brave.png",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
     "description": {
@@ -2944,7 +2944,7 @@
     "category": "blade",
     "name": "BulletGriffon",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/bullet-griffon.png",
+    "imageUrl": "images/blades/bullet-griffon.png",
     "releaseDate": "2026-04-25",
     "releaseWave": "UX-19",
     "description": {
@@ -2974,7 +2974,7 @@
     "category": "blade",
     "name": "GloryValkyrie",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/glory-valkyrie.png",
+    "imageUrl": "images/blades/glory-valkyrie.png",
     "releaseDate": "2026-07-11",
     "releaseWave": "UX-20",
     "description": {
@@ -3004,7 +3004,7 @@
     "category": "blade",
     "name": "DranBrave",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/dran-brave.png",
+    "imageUrl": "images/blades/dran-brave.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-01",
     "description": {
@@ -3034,7 +3034,7 @@
     "category": "blade",
     "name": "WizardArc",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/wizard-arc.png",
+    "imageUrl": "images/blades/wizard-arc.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-02",
     "description": {
@@ -3064,7 +3064,7 @@
     "category": "blade",
     "name": "PerseusDark",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/perseus-dark.png",
+    "imageUrl": "images/blades/perseus-dark.png",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-03",
     "description": {
@@ -3094,7 +3094,7 @@
     "category": "blade",
     "name": "HellsReaper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hells-reaper.png",
+    "imageUrl": "images/blades/hells-reaper.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -3124,7 +3124,7 @@
     "category": "blade",
     "name": "RhinoReaper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/rhino-reaper.png",
+    "imageUrl": "images/blades/rhino-reaper.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -3154,7 +3154,7 @@
     "category": "blade",
     "name": "HellsArc",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/hells-arc.png",
+    "imageUrl": "images/blades/hells-arc.png",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
@@ -3184,7 +3184,7 @@
     "category": "blade",
     "name": "FoxBrush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/fox-brush.png",
+    "imageUrl": "images/blades/fox-brush.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
@@ -3214,7 +3214,7 @@
     "category": "blade",
     "name": "PegasusBlast",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/pegasus-blast.png",
+    "imageUrl": "images/blades/pegasus-blast.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-07",
     "description": {
@@ -3244,7 +3244,7 @@
     "category": "blade",
     "name": "CerberusFlame",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/cerberus-flame.png",
+    "imageUrl": "images/blades/cerberus-flame.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
@@ -3274,7 +3274,7 @@
     "category": "blade",
     "name": "WhaleFlame",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/whale-flame.png",
+    "imageUrl": "images/blades/whale-flame.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
@@ -3304,7 +3304,7 @@
     "category": "blade",
     "name": "CerberusDark",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/cerberus-dark.png",
+    "imageUrl": "images/blades/cerberus-dark.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
@@ -3334,7 +3334,7 @@
     "category": "blade",
     "name": "WolfHunt",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/wolf-hunt.png",
+    "imageUrl": "images/blades/wolf-hunt.png",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-10",
     "description": {
@@ -3364,7 +3364,7 @@
     "category": "blade",
     "name": "SolEclipse",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/sol-eclipse.png",
+    "imageUrl": "images/blades/sol-eclipse.png",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
@@ -3394,7 +3394,7 @@
     "category": "blade",
     "name": "EmperorMight",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/emperor-might.png",
+    "imageUrl": "images/blades/emperor-might.png",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
     "description": {
@@ -3424,7 +3424,7 @@
     "category": "blade",
     "name": "PhoenixFlare",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/phoenix-flare.png",
+    "imageUrl": "images/blades/phoenix-flare.png",
     "releaseDate": "2026-01-24",
     "releaseWave": "CX-12",
     "description": {
@@ -3454,7 +3454,7 @@
     "category": "blade",
     "name": "BahamutBlitz",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/bahamut-blitz.png",
+    "imageUrl": "images/blades/bahamut-blitz.png",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-13",
     "description": {
@@ -3484,7 +3484,7 @@
     "category": "blade",
     "name": "KnightFortress",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/knight-fortress.png",
+    "imageUrl": "images/blades/knight-fortress.png",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-14",
     "description": {
@@ -3514,7 +3514,7 @@
     "category": "blade",
     "name": "RagnaRage",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/ragna-rage.png",
+    "imageUrl": "images/blades/ragna-rage.png",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-15",
     "description": {
@@ -3544,7 +3544,7 @@
     "category": "blade",
     "name": "UnicornDelta",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/unicorn-delta.png",
+    "imageUrl": "images/blades/unicorn-delta.png",
     "releaseDate": "2026-04-25",
     "releaseWave": "CX-17",
     "description": {
@@ -3604,7 +3604,7 @@
     "category": "blade",
     "name": "T. Rex",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/t-rex.png",
+    "imageUrl": "images/blades/t-rex.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
@@ -3634,7 +3634,7 @@
     "category": "blade",
     "name": "Mosasaurus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/mosasaurus.png",
+    "imageUrl": "images/blades/mosasaurus.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
@@ -3664,7 +3664,7 @@
     "category": "blade",
     "name": "Spinosaurus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/spinosaurus.png",
+    "imageUrl": "images/blades/spinosaurus.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
@@ -3694,7 +3694,7 @@
     "category": "blade",
     "name": "Quetzalcoatlus",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "/images/blades/quetzalcoatlus.png",
+    "imageUrl": "images/blades/quetzalcoatlus.png",
     "releaseDate": "2025-07-19",
     "releaseWave": "BX-00",
     "description": {
@@ -3724,7 +3724,7 @@
     "category": "blade",
     "name": "Fort Hornet",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/fort-hornet.png",
+    "imageUrl": "images/blades/fort-hornet.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1682",
     "description": {
@@ -3754,7 +3754,7 @@
     "category": "blade",
     "name": "Wriggle Kraken",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/wriggle-kraken.png",
+    "imageUrl": "images/blades/wriggle-kraken.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1683",
     "description": {
@@ -3784,7 +3784,7 @@
     "category": "blade",
     "name": "Antler Stag",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/antler-stag.png",
+    "imageUrl": "images/blades/antler-stag.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1684",
     "description": {
@@ -3814,7 +3814,7 @@
     "category": "blade",
     "name": "Fang",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/fang.png",
+    "imageUrl": "images/blades/fang.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2748",
     "description": {
@@ -3874,7 +3874,7 @@
     "category": "blade",
     "name": "Valor Bison",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/valor-bison.png",
+    "imageUrl": "images/blades/valor-bison.png",
     "releaseDate": "2026-05-12",
     "releaseWave": "G3497",
     "description": {
@@ -3904,7 +3904,7 @@
     "category": "blade",
     "name": "Gust Bat",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/gust-bat.png",
+    "imageUrl": "images/blades/gust-bat.png",
     "releaseDate": "2026-04-28",
     "releaseWave": "G2733",
     "description": {
@@ -3934,7 +3934,7 @@
     "category": "blade",
     "name": "Dran Sword",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/dran-sword-hasbro.png",
+    "imageUrl": "images/blades/dran-sword-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -3964,7 +3964,7 @@
     "category": "blade",
     "name": "Knight Shield",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/knight-shield-hasbro.png",
+    "imageUrl": "images/blades/knight-shield-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -3994,7 +3994,7 @@
     "category": "blade",
     "name": "Wizard Arrow",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/wizard-arrow-hasbro.png",
+    "imageUrl": "images/blades/wizard-arrow-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4024,7 +4024,7 @@
     "category": "blade",
     "name": "Hells Scythe",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/hells-scythe-hasbro.png",
+    "imageUrl": "images/blades/hells-scythe-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4054,7 +4054,7 @@
     "category": "blade",
     "name": "Steel Samurai",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/samurai-steel-hasbro.jpeg",
+    "imageUrl": "images/blades/samurai-steel-hasbro.jpeg",
     "releaseDate": "2024-06-01",
     "releaseWave": "G0188",
     "description": {
@@ -4084,7 +4084,7 @@
     "category": "blade",
     "name": "Rhino Horn",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/rhino-horn-hasbro.png",
+    "imageUrl": "images/blades/rhino-horn-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4114,7 +4114,7 @@
     "category": "blade",
     "name": "Shark Edge",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shark-edge-hasbro.png",
+    "imageUrl": "images/blades/shark-edge-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4144,7 +4144,7 @@
     "category": "blade",
     "name": "Talon Ptera",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/ptera-swing-hasbro.png",
+    "imageUrl": "images/blades/ptera-swing-hasbro.png",
     "releaseDate": "2024-05-01",
     "releaseWave": "G0195",
     "description": {
@@ -4174,7 +4174,7 @@
     "category": "blade",
     "name": "Knight Lance",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/knight-lance-hasbro.png",
+    "imageUrl": "images/blades/knight-lance-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4204,7 +4204,7 @@
     "category": "blade",
     "name": "Leon Claw",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/leon-claw-hasbro.png",
+    "imageUrl": "images/blades/leon-claw-hasbro.png",
     "releaseDate": "2024-07-09",
     "releaseWave": "BX",
     "description": {
@@ -4234,7 +4234,7 @@
     "category": "blade",
     "name": "Dran Buster",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/dran-buster-hasbro.png",
+    "imageUrl": "images/blades/dran-buster-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4264,7 +4264,7 @@
     "category": "blade",
     "name": "Wizard Rod",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/wizard-rod-hasbro.png",
+    "imageUrl": "images/blades/wizard-rod-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
@@ -4294,7 +4294,7 @@
     "category": "blade",
     "name": "Shinobi Shadow",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shinobi-shadow-hasbro.png",
+    "imageUrl": "images/blades/shinobi-shadow-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
@@ -4324,7 +4324,7 @@
     "category": "blade",
     "name": "Crimson Garuda",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/crimson-garuda-hasbro.png",
+    "imageUrl": "images/blades/crimson-garuda-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
@@ -4354,7 +4354,7 @@
     "category": "blade",
     "name": "Silver Wolf",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/silver-wolf-hasbro.png",
+    "imageUrl": "images/blades/silver-wolf-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4384,7 +4384,7 @@
     "category": "blade",
     "name": "Shelter Drake",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shelter-drake-hasbro.png",
+    "imageUrl": "images/blades/shelter-drake-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
@@ -4414,7 +4414,7 @@
     "category": "blade",
     "name": "Golem Rock",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/golem-rock-hasbro.png",
+    "imageUrl": "images/blades/golem-rock-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4444,7 +4444,7 @@
     "category": "blade",
     "name": "Hells Hammer",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/hells-hammer-hasbro.png",
+    "imageUrl": "images/blades/hells-hammer-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4504,7 +4504,7 @@
     "category": "blade",
     "name": "Phoenix Rudder",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/phoenix-rudder-hasbro.png",
+    "imageUrl": "images/blades/phoenix-rudder-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -4534,7 +4534,7 @@
     "category": "blade",
     "name": "Phoenix Feather",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/phoenix-feather-hasbro.png",
+    "imageUrl": "images/blades/phoenix-feather-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4564,7 +4564,7 @@
     "category": "blade",
     "name": "DranBrave",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/dran-brave-hasbro.png",
+    "imageUrl": "images/blades/dran-brave-hasbro.png",
     "releaseDate": "2025-05-21",
     "releaseWave": "CX-01",
     "description": {
@@ -4594,7 +4594,7 @@
     "category": "blade",
     "name": "HellsReaper",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/hells-reaper-hasbro.png",
+    "imageUrl": "images/blades/hells-reaper-hasbro.png",
     "releaseDate": "2025-06-01",
     "releaseWave": "CX-05",
     "description": {
@@ -4624,7 +4624,7 @@
     "category": "blade",
     "name": "WizardArc",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/wizard-arc-hasbro.png",
+    "imageUrl": "images/blades/wizard-arc-hasbro.png",
     "releaseDate": "2025-05-21",
     "releaseWave": "CX-02",
     "description": {
@@ -4654,7 +4654,7 @@
     "category": "blade",
     "name": "PerseusDark",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/perseus-dark-hasbro.png",
+    "imageUrl": "images/blades/perseus-dark-hasbro.png",
     "releaseDate": "2025-05-21",
     "releaseWave": "CX-03",
     "description": {
@@ -4684,7 +4684,7 @@
     "category": "blade",
     "name": "FoxBrush",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/fox-brush-hasbro.png",
+    "imageUrl": "images/blades/fox-brush-hasbro.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "CX-08",
     "description": {
@@ -4714,7 +4714,7 @@
     "category": "blade",
     "name": "RhinoReaper",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/rhino-reaper-hasbro.png",
+    "imageUrl": "images/blades/rhino-reaper-hasbro.png",
     "releaseDate": "2025-06-01",
     "releaseWave": "CX-05",
     "description": {
@@ -4744,7 +4744,7 @@
     "category": "blade",
     "name": "CerberusFlame",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/cerberus-flame-hasbro.png",
+    "imageUrl": "images/blades/cerberus-flame-hasbro.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "CX-08",
     "description": {
@@ -4774,7 +4774,7 @@
     "category": "blade",
     "name": "Rocket Griffon",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/bullet-griffon-hasbro.png",
+    "imageUrl": "images/blades/bullet-griffon-hasbro.png",
     "releaseDate": "2026-07-15",
     "releaseWave": "G4561",
     "description": {
@@ -4804,7 +4804,7 @@
     "category": "blade",
     "name": "RagnaRage",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/ragna-rage-hasbro.png",
+    "imageUrl": "images/blades/ragna-rage-hasbro.png",
     "releaseDate": "2026-07-15",
     "releaseWave": "CX-15",
     "description": {
@@ -4834,7 +4834,7 @@
     "category": "blade",
     "name": "KnightFortress",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/knight-fortress-hasbro.png",
+    "imageUrl": "images/blades/knight-fortress-hasbro.png",
     "releaseDate": "2026-06-26",
     "releaseWave": "CX-14",
     "description": {
@@ -4864,7 +4864,7 @@
     "category": "blade",
     "name": "Ring Aether",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/ring-aether-hasbro.png",
+    "imageUrl": "images/blades/ring-aether-hasbro.png",
     "releaseDate": "2026-05-12",
     "releaseWave": "G4571",
     "description": {
@@ -4894,7 +4894,7 @@
     "category": "blade",
     "name": "BahamutBlitz",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/bahamut-blitz-hasbro.png",
+    "imageUrl": "images/blades/bahamut-blitz-hasbro.png",
     "releaseDate": "2026-07-15",
     "releaseWave": "CX-13",
     "description": {
@@ -4924,7 +4924,7 @@
     "category": "blade",
     "name": "Unicorn Sting",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/unicorn-sting-hasbro.png",
+    "imageUrl": "images/blades/unicorn-sting-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -4954,7 +4954,7 @@
     "category": "blade",
     "name": "Roar Tyranno",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/tyranno-roar-hasbro.png",
+    "imageUrl": "images/blades/tyranno-roar-hasbro.png",
     "releaseDate": "2024-07-27",
     "releaseWave": "G0284",
     "description": {
@@ -5014,7 +5014,7 @@
     "category": "blade",
     "name": "Sphinx Cowl",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/sphinx-cowl-hasbro.png",
+    "imageUrl": "images/blades/sphinx-cowl-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5044,7 +5044,7 @@
     "category": "blade",
     "name": "Black Shell",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/black-shell-hasbro.png",
+    "imageUrl": "images/blades/black-shell-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5074,7 +5074,7 @@
     "category": "blade",
     "name": "Whale Wave",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/whale-wave-hasbro.png",
+    "imageUrl": "images/blades/whale-wave-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5104,7 +5104,7 @@
     "category": "blade",
     "name": "Dran Dagger",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/dran-dagger-hasbro.png",
+    "imageUrl": "images/blades/dran-dagger-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5164,7 +5164,7 @@
     "category": "blade",
     "name": "Phoenix Wing",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/phoenix-wing-hasbro.png",
+    "imageUrl": "images/blades/phoenix-wing-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5194,7 +5194,7 @@
     "category": "blade",
     "name": "Scale Shark",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shark-scale-hasbro.png",
+    "imageUrl": "images/blades/shark-scale-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -5224,7 +5224,7 @@
     "category": "blade",
     "name": "Curse Mummy",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/mummy-curse-hasbro.png",
+    "imageUrl": "images/blades/mummy-curse-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
@@ -5254,7 +5254,7 @@
     "category": "blade",
     "name": "Tricera Press",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/tricera-press-hasbro.png",
+    "imageUrl": "images/blades/tricera-press-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5284,7 +5284,7 @@
     "category": "blade",
     "name": "Knife Shinobi",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shinobi-knife-hasbro.png",
+    "imageUrl": "images/blades/shinobi-knife-hasbro.png",
     "releaseDate": "2025-02-26",
     "releaseWave": "BX",
     "description": {
@@ -5314,7 +5314,7 @@
     "category": "blade",
     "name": "Hells Chain",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/hells-chain-hasbro.png",
+    "imageUrl": "images/blades/hells-chain-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5344,7 +5344,7 @@
     "category": "blade",
     "name": "Viper Tail",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/viper-tail-hasbro.png",
+    "imageUrl": "images/blades/viper-tail-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5374,7 +5374,7 @@
     "category": "blade",
     "name": "Croco Crunch",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/croco-crunch-hasbro.png",
+    "imageUrl": "images/blades/croco-crunch-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5404,7 +5404,7 @@
     "category": "blade",
     "name": "Wyvern Gale",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/wyvern-gale-hasbro.png",
+    "imageUrl": "images/blades/wyvern-gale-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5434,7 +5434,7 @@
     "category": "blade",
     "name": "Tyranno Beat",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/tyranno-beat-hasbro.png",
+    "imageUrl": "images/blades/tyranno-beat-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5464,7 +5464,7 @@
     "category": "blade",
     "name": "Leon Crest",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/leon-crest-hasbro.png",
+    "imageUrl": "images/blades/leon-crest-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -5494,7 +5494,7 @@
     "category": "blade",
     "name": "Weiss Tiger",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/weiss-tiger-hasbro.png",
+    "imageUrl": "images/blades/weiss-tiger-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5524,7 +5524,7 @@
     "category": "blade",
     "name": "Ghost Circle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/ghost-circle-hasbro.png",
+    "imageUrl": "images/blades/ghost-circle-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -5554,7 +5554,7 @@
     "category": "blade",
     "name": "Goat Tackle",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/goat-tackle-hasbro.png",
+    "imageUrl": "images/blades/goat-tackle-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5584,7 +5584,7 @@
     "category": "blade",
     "name": "Calibur Samurai",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/samurai-calibur-hasbro.png",
+    "imageUrl": "images/blades/samurai-calibur-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5614,7 +5614,7 @@
     "category": "blade",
     "name": "Hack Viking",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/hack-viking-hasbro.png",
+    "imageUrl": "images/blades/hack-viking-hasbro.png",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2755",
     "description": {
@@ -5644,7 +5644,7 @@
     "category": "blade",
     "name": "Scorpio Spear",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/scorpio-spear-hasbro.png",
+    "imageUrl": "images/blades/scorpio-spear-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -5674,7 +5674,7 @@
     "category": "blade",
     "name": "Dragoon Storm",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/dragoon-storm-hasbro.png",
+    "imageUrl": "images/blades/dragoon-storm-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5704,7 +5704,7 @@
     "category": "blade",
     "name": "Storm Pegasis",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/storm-pegasis-hasbro.png",
+    "imageUrl": "images/blades/storm-pegasis-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5764,7 +5764,7 @@
     "category": "blade",
     "name": "EmperorMight",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/emperor-might-hasbro.png",
+    "imageUrl": "images/blades/emperor-might-hasbro.png",
     "releaseDate": "2026-06-20",
     "releaseWave": "G3028",
     "description": {
@@ -5794,7 +5794,7 @@
     "category": "blade",
     "name": "Gill Shark",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/shark-gill-hasbro.png",
+    "imageUrl": "images/blades/shark-gill-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5824,7 +5824,7 @@
     "category": "blade",
     "name": "Knight Mail",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/knight-mail-hasbro.png",
+    "imageUrl": "images/blades/knight-mail-hasbro.png",
     "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
@@ -5854,7 +5854,7 @@
     "category": "blade",
     "name": "Dranzer Spiral",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/dranzer-spiral-hasbro.png",
+    "imageUrl": "images/blades/dranzer-spiral-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5884,7 +5884,7 @@
     "category": "blade",
     "name": "Driger Slash",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/driger-slash-hasbro.png",
+    "imageUrl": "images/blades/driger-slash-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -5914,7 +5914,7 @@
     "category": "blade",
     "name": "Draciel Shield",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/draciel-shield-hasbro.png",
+    "imageUrl": "images/blades/draciel-shield-hasbro.png",
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
@@ -6034,7 +6034,7 @@
     "category": "blade",
     "name": "Moff Gideon",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/moff-gideon-hasbro.png",
+    "imageUrl": "images/blades/moff-gideon-hasbro.png",
     "releaseDate": "2024-07",
     "releaseWave": "BX",
     "description": {
@@ -6064,7 +6064,7 @@
     "category": "blade",
     "name": "Iron Man",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/iron-man-hasbro.png",
+    "imageUrl": "images/blades/iron-man-hasbro.png",
     "releaseDate": "2024-07",
     "releaseWave": "BX",
     "description": {
@@ -6094,7 +6094,7 @@
     "category": "blade",
     "name": "Thanos",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/thanos-hasbro.png",
+    "imageUrl": "images/blades/thanos-hasbro.png",
     "releaseDate": "2024-07",
     "releaseWave": "BX",
     "description": {
@@ -6124,7 +6124,7 @@
     "category": "blade",
     "name": "Spider Man",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/spider-man-hasbro.png",
+    "imageUrl": "images/blades/spider-man-hasbro.png",
     "releaseDate": "2024-08",
     "releaseWave": "BX",
     "description": {
@@ -6154,7 +6154,7 @@
     "category": "blade",
     "name": "Venom",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/venom-hasbro.png",
+    "imageUrl": "images/blades/venom-hasbro.png",
     "releaseDate": "2024-08",
     "releaseWave": "BX",
     "description": {
@@ -6184,7 +6184,7 @@
     "category": "blade",
     "name": "Luke Skywalker",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/luke-skywalker-hasbro.png",
+    "imageUrl": "images/blades/luke-skywalker-hasbro.png",
     "releaseDate": "2024-09",
     "releaseWave": "BX",
     "description": {
@@ -6214,7 +6214,7 @@
     "category": "blade",
     "name": "Darth Vader",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/darth-vader-hasbro.png",
+    "imageUrl": "images/blades/darth-vader-hasbro.png",
     "releaseDate": "2024-09",
     "releaseWave": "BX",
     "description": {
@@ -6244,7 +6244,7 @@
     "category": "blade",
     "name": "Obi Wan Kenobi",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/obi-wan-kenobi-hasbro.png",
+    "imageUrl": "images/blades/obi-wan-kenobi-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6274,7 +6274,7 @@
     "category": "blade",
     "name": "T Rex",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/t-rex-hasbro.png",
+    "imageUrl": "images/blades/t-rex-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6304,7 +6304,7 @@
     "category": "blade",
     "name": "Mosasaurus",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/mosasaurus-hasbro.png",
+    "imageUrl": "images/blades/mosasaurus-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6334,7 +6334,7 @@
     "category": "blade",
     "name": "Spinosaurus",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/spinosaurus-hasbro.png",
+    "imageUrl": "images/blades/spinosaurus-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
@@ -6364,7 +6364,7 @@
     "category": "blade",
     "name": "Quetzalcoatlus",
     "manufacturer": "Hasbro",
-    "imageUrl": "/images/blades/quetzalcoatlus-hasbro.png",
+    "imageUrl": "images/blades/quetzalcoatlus-hasbro.png",
     "releaseDate": "2025",
     "releaseWave": "BX",
     "description": {
