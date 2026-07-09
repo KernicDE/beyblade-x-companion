@@ -15,6 +15,30 @@ const AXIS_COLORS: Record<string, string> = {
   balance: '#a855f7',
 };
 
+const AXIS_RGB: Record<string, [number, number, number]> = {
+  attack: [239, 68, 68],
+  defense: [59, 130, 246],
+  stamina: [34, 197, 94],
+  balance: [168, 85, 247],
+};
+
+function weightedColor(ratings: Ratings): string {
+  const entries = Object.entries(AXIS_RGB);
+  let r = 0;
+  let g = 0;
+  let b = 0;
+  let total = 0;
+  entries.forEach(([key, rgb]) => {
+    const weight = ratings[key as keyof Ratings];
+    r += rgb[0] * weight;
+    g += rgb[1] * weight;
+    b += rgb[2] * weight;
+    total += weight;
+  });
+  if (total === 0) return '#9ca3af';
+  return `rgb(${Math.round(r / total)}, ${Math.round(g / total)}, ${Math.round(b / total)})`;
+}
+
 export function RadarChart({
   ratings,
   size = 240,
@@ -57,6 +81,8 @@ export function RadarChart({
     const next = getPoint(5, (index + 1) % axes.length);
     return `${center},${center} ${prev.x},${prev.y} ${next.x},${next.y}`;
   });
+
+  const fillColor = weightedColor(ratings);
 
   return (
     <svg
@@ -113,9 +139,9 @@ export function RadarChart({
 
       <polygon
         points={polygonPoints}
-        className="fill-white dark:fill-slate-800"
-        fillOpacity={0.45}
-        stroke="currentColor"
+        fill={fillColor}
+        fillOpacity={0.35}
+        stroke={fillColor}
         strokeWidth={2}
       />
 
