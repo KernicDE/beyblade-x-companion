@@ -2687,5 +2687,97 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "t-rex",
+    "category": "blade",
+    "name": "T. Rex",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-01",
+    "releaseWave": "BX-00",
+    "description": "T. Rex Blade from the Jurassic World collaboration.",
+    "assessment": "T. Rex is a right-spin Stamina type Blade from the Beyblade X Jurassic World collaboration. Paired with the 1-80 Ratchet and Gear Ball Bit in its stock combo. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "mosasaurus",
+    "category": "blade",
+    "name": "Mosasaurus",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-01",
+    "releaseWave": "BX-00",
+    "description": "Mosasaurus Blade from the Jurassic World collaboration.",
+    "assessment": "Mosasaurus is a right-spin Defense type Blade from the Beyblade X Jurassic World collaboration. Paired with the 9-60 Ratchet and Unite Bit in its stock combo. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "spinosaurus",
+    "category": "blade",
+    "name": "Spinosaurus",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-09-01",
+    "releaseWave": "BX-00",
+    "description": "Spinosaurus Blade from the Jurassic World collaboration.",
+    "assessment": "Spinosaurus is a right-spin Attack type Blade from the Beyblade X Jurassic World collaboration. It features a heavy sail-like jagged perimeter and is paired with the 3-85 Ratchet and Accel Bit. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "quetzalcoatlus",
+    "category": "blade",
+    "name": "Quetzalcoatlus",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-09-01",
+    "releaseWave": "BX-00",
+    "description": "Quetzalcoatlus Blade from the Jurassic World collaboration.",
+    "assessment": "Quetzalcoatlus is a right-spin Defense type Blade from the Beyblade X Jurassic World collaboration. It uses an aerodynamic wide-wing silhouette paired with the 4-55 Ratchet and Defense Bit. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
