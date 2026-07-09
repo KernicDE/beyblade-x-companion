@@ -9,7 +9,10 @@
     "bladeId": "dran-sword",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "Dran Sword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-01. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Dran Sword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-01. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "hells-scythe4-60t-bx-02",
@@ -21,7 +24,10 @@
     "bladeId": "hells-scythe",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-taper",
-    "assessment": "Hells Scythe 4-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-02. Parts: Hells Scythe / 4-60 / Taper."
+    "assessment": {
+      "en": "Hells Scythe 4-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-02. Parts: Hells Scythe / 4-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "knight-shield3-80n-bx-04",
@@ -33,7 +39,10 @@
     "bladeId": "knight-shield",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
-    "assessment": "Knight Shield 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-04. Parts: Knight Shield / 3-80 / Needle."
+    "assessment": {
+      "en": "Knight Shield 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-04. Parts: Knight Shield / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arrow4-80b-bx-03",
@@ -45,7 +54,10 @@
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "Wizard Arrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-03. Parts: Wizard Arrow / 4-80 / Ball."
+    "assessment": {
+      "en": "Wizard Arrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-03. Parts: Wizard Arrow / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "knight-lance4-80hn-bx-13",
@@ -57,7 +69,10 @@
     "bladeId": "knight-lance",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-needle",
-    "assessment": "Knight Lance 4-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-13. Parts: Knight Lance / 4-80 / High Needle."
+    "assessment": {
+      "en": "Knight Lance 4-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-13. Parts: Knight Lance / 4-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "shark-edge3-60lf-bx-06",
@@ -69,7 +84,10 @@
     "bladeId": "shark-edge",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-low-flat",
-    "assessment": "Shark Edge 3-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-06. Parts: Shark Edge / 3-60 / Low Flat."
+    "assessment": {
+      "en": "Shark Edge 3-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-06. Parts: Shark Edge / 3-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "leon-claw5-60p-bx-15",
@@ -81,7 +99,10 @@
     "bladeId": "leon-claw",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-point",
-    "assessment": "LeonClaw 5-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-15. Parts: Leon Claw / 5-60 / Point."
+    "assessment": {
+      "en": "LeonClaw 5-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-15. Parts: Leon Claw / 5-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "dran-dagger4-60r-bx-20",
@@ -93,7 +114,10 @@
     "bladeId": "dran-dagger",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-rush",
-    "assessment": "DranDagger 4-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-20. Parts: Dran Dagger / 4-60 / Rush."
+    "assessment": {
+      "en": "DranDagger 4-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-20. Parts: Dran Dagger / 4-60 / Rush.",
+      "de": ""
+    }
   },
   {
     "id": "hells-chain5-60ht-bx-21",
@@ -105,7 +129,10 @@
     "bladeId": "hells-chain",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-high-taper",
-    "assessment": "HellsChain 5-60HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-21. Parts: Hells Chain / 5-60 / High Taper."
+    "assessment": {
+      "en": "HellsChain 5-60HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-21. Parts: Hells Chain / 5-60 / High Taper.",
+      "de": ""
+    }
   },
   {
     "id": "rhino-horn3-80s-bx-19",
@@ -117,7 +144,10 @@
     "bladeId": "rhino-horn",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-spike",
-    "assessment": "RhinoHorn 3-80S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-19. Parts: Rhino Horn / 3-80 / Spike."
+    "assessment": {
+      "en": "RhinoHorn 3-80S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-19. Parts: Rhino Horn / 3-80 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-feather3-60f-bx-00",
@@ -129,7 +159,10 @@
     "bladeId": "phoenix-feather",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "PhoenixFeather 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Phoenix Feather / 3-60 / Flat."
+    "assessment": {
+      "en": "PhoenixFeather 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Phoenix Feather / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "wyvern-gale2-60s-bx-14",
@@ -141,7 +174,10 @@
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-spike",
-    "assessment": "WyvernGale 2-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Wyvern Gale / 2-60 / Spike."
+    "assessment": {
+      "en": "WyvernGale 2-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Wyvern Gale / 2-60 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "unicorn-sting5-60gp-bx-26",
@@ -153,7 +189,10 @@
     "bladeId": "unicorn-sting",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-gear-point",
-    "assessment": "UnicornSting 5-60GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-26. Parts: Unicorn Sting / 5-60 / Gear Point."
+    "assessment": {
+      "en": "UnicornSting 5-60GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-26. Parts: Unicorn Sting / 5-60 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "sphinx-cowl4-80ht-bx-27",
@@ -165,7 +204,10 @@
     "bladeId": "sphinx-cowl",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-taper",
-    "assessment": "SphinxCowl 4-80HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-27. Parts: Sphinx Cowl / 4-80 / High Taper."
+    "assessment": {
+      "en": "SphinxCowl 4-80HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-27. Parts: Sphinx Cowl / 4-80 / High Taper.",
+      "de": ""
+    }
   },
   {
     "id": "viper-tail5-80o-bx-16",
@@ -177,7 +219,10 @@
     "bladeId": "viper-tail",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-orb",
-    "assessment": "ViperTail 5-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Parts: Viper Tail / 5-80 / Orb."
+    "assessment": {
+      "en": "ViperTail 5-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Parts: Viper Tail / 5-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran3-60f-f9580",
@@ -189,7 +234,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9580. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9580. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "helm-knight3-80n-f9581",
@@ -201,7 +249,10 @@
     "bladeId": "knight-shield-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9581. Parts: Knight Shield / 3-80 / Needle."
+    "assessment": {
+      "en": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9581. Parts: Knight Shield / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "arrow-wizard4-80b-f9582",
@@ -213,7 +264,10 @@
     "bladeId": "wizard-arrow-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Arrow Wizard 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as F9582. Parts: Wizard Arrow / 4-80 / Ball."
+    "assessment": {
+      "en": "Arrow Wizard 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as F9582. Parts: Wizard Arrow / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "scythe-incendio4-60t-f9583",
@@ -225,7 +279,10 @@
     "bladeId": "hells-scythe-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Scythe Incendio 4-60T is a right-spin factory-combined Beyblade from Hasbro, released as F9583. Parts: Hells Scythe / 4-60 / Taper."
+    "assessment": {
+      "en": "Scythe Incendio 4-60T is a right-spin factory-combined Beyblade from Hasbro, released as F9583. Parts: Hells Scythe / 4-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "steel-samurai4-80t-g0188",
@@ -237,7 +294,10 @@
     "bladeId": "samurai-steel-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Steel Samurai 4-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0188. Parts: Samurai Steel / 4-80 / Taper."
+    "assessment": {
+      "en": "Steel Samurai 4-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0188. Parts: Samurai Steel / 4-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "horn-rhino3-80s-g0192",
@@ -249,7 +309,10 @@
     "bladeId": "rhino-horn-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-spike-hasbro",
-    "assessment": "Horn Rhino 3-80S is a right-spin factory-combined Beyblade from Hasbro, released as G0192. Parts: Rhino Horn / 3-80 / Spike."
+    "assessment": {
+      "en": "Horn Rhino 3-80S is a right-spin factory-combined Beyblade from Hasbro, released as G0192. Parts: Rhino Horn / 3-80 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "keel-shark3-60lf-g0194",
@@ -261,7 +324,10 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-low-flat-hasbro",
-    "assessment": "Keel Shark 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0194. Parts: Shark Edge / 3-60 / Low Flat."
+    "assessment": {
+      "en": "Keel Shark 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0194. Parts: Shark Edge / 3-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "talon-ptera3-80b-g0195",
@@ -273,7 +339,10 @@
     "bladeId": "ptera-swing-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Talon Ptera 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0195. Parts: Ptera Swing / 3-80 / Ball."
+    "assessment": {
+      "en": "Talon Ptera 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0195. Parts: Ptera Swing / 3-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arrow4-80b-bx-05",
@@ -285,7 +354,10 @@
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "WizardArrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-05. Parts: Wizard Arrow / 4-80 / Ball."
+    "assessment": {
+      "en": "WizardArrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-05. Parts: Wizard Arrow / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "knight-shield3-80n-bx-06",
@@ -297,7 +369,10 @@
     "bladeId": "knight-shield",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
-    "assessment": "KnightShield 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-06. Parts: Knight Shield / 3-80 / Needle."
+    "assessment": {
+      "en": "KnightShield 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-06. Parts: Knight Shield / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "hells-scythe3-80b-bx-08",
@@ -309,7 +384,10 @@
     "bladeId": "hells-scythe",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-ball",
-    "assessment": "HellsScythe 3-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Parts: Hells Scythe / 3-80 / Ball."
+    "assessment": {
+      "en": "HellsScythe 3-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Parts: Hells Scythe / 3-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arrow4-60n-bx-08",
@@ -321,7 +399,10 @@
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-needle",
-    "assessment": "WizardArrow 4-60N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Parts: Wizard Arrow / 4-60 / Needle."
+    "assessment": {
+      "en": "WizardArrow 4-60N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Parts: Wizard Arrow / 4-60 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "knight-shield4-80t-bx-08",
@@ -333,7 +414,10 @@
     "bladeId": "knight-shield",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-taper",
-    "assessment": "KnightShield 4-80T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Parts: Knight Shield / 4-80 / Taper."
+    "assessment": {
+      "en": "KnightShield 4-80T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Parts: Knight Shield / 4-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "shark-edge3-60lf-bx-14",
@@ -345,7 +429,10 @@
     "bladeId": "shark-edge",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-low-flat",
-    "assessment": "SharkEdge 3-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Shark Edge / 3-60 / Low Flat."
+    "assessment": {
+      "en": "SharkEdge 3-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Shark Edge / 3-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "shark-edge4-80n-bx-14",
@@ -357,7 +444,10 @@
     "bladeId": "shark-edge",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-needle",
-    "assessment": "SharkEdge 4-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Shark Edge / 4-80 / Needle."
+    "assessment": {
+      "en": "SharkEdge 4-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Shark Edge / 4-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "dran-sword3-80b-bx-14",
@@ -369,7 +459,10 @@
     "bladeId": "dran-sword",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-ball",
-    "assessment": "DranSword 3-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Dran Sword / 3-80 / Ball."
+    "assessment": {
+      "en": "DranSword 3-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Dran Sword / 3-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "hells-scythe4-80lf-bx-14",
@@ -381,7 +474,10 @@
     "bladeId": "hells-scythe",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-low-flat",
-    "assessment": "HellsScythe 4-80LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Hells Scythe / 4-80 / Low Flat."
+    "assessment": {
+      "en": "HellsScythe 4-80LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Hells Scythe / 4-80 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "knight-shield4-60lf-bx-14",
@@ -393,7 +489,10 @@
     "bladeId": "knight-shield",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-low-flat",
-    "assessment": "KnightShield 4-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Knight Shield / 4-60 / Low Flat."
+    "assessment": {
+      "en": "KnightShield 4-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Knight Shield / 4-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arrow3-60t-bx-14",
@@ -405,7 +504,10 @@
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-taper",
-    "assessment": "WizardArrow 3-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Wizard Arrow / 3-60 / Taper."
+    "assessment": {
+      "en": "WizardArrow 3-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Parts: Wizard Arrow / 3-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "viper-tail4-60f-bx-16",
@@ -417,7 +519,10 @@
     "bladeId": "viper-tail",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-flat",
-    "assessment": "ViperTail 4-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Parts: Viper Tail / 4-60 / Flat."
+    "assessment": {
+      "en": "ViperTail 4-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Parts: Viper Tail / 4-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "viper-tail3-80hn-bx-16",
@@ -429,7 +534,10 @@
     "bladeId": "viper-tail",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-high-needle",
-    "assessment": "ViperTail 3-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Parts: Viper Tail / 3-80 / High Needle."
+    "assessment": {
+      "en": "ViperTail 3-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-16. Parts: Viper Tail / 3-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "dran-sword3-60f-bx-17",
@@ -441,7 +549,10 @@
     "bladeId": "dran-sword",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "DranSword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-17. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "DranSword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-17. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arrow4-80b-bx-17",
@@ -453,7 +564,10 @@
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "WizardArrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-17. Parts: Wizard Arrow / 4-80 / Ball."
+    "assessment": {
+      "en": "WizardArrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-17. Parts: Wizard Arrow / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "dran-sword3-60f-bx-22",
@@ -465,7 +579,10 @@
     "bladeId": "dran-sword",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "DranSword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-22. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "DranSword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-22. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-wing9-60gf-bx-23",
@@ -477,7 +594,10 @@
     "bladeId": "phoenix-wing",
     "ratchetId": "ratchet-9-60",
     "bitId": "bit-gear-flat",
-    "assessment": "PhoenixWing 9-60GF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-23. Parts: Phoenix Wing / 9-60 / Gear Flat."
+    "assessment": {
+      "en": "PhoenixWing 9-60GF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-23. Parts: Phoenix Wing / 9-60 / Gear Flat.",
+      "de": ""
+    }
   },
   {
     "id": "wyvern-gale5-80gb-bx-24",
@@ -489,7 +609,10 @@
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-gear-ball",
-    "assessment": "WyvernGale 5-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Wyvern Gale / 5-80 / Gear Ball."
+    "assessment": {
+      "en": "WyvernGale 5-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Wyvern Gale / 5-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "wyvern-gale3-60t-bx-24",
@@ -501,7 +624,10 @@
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-taper",
-    "assessment": "WyvernGale 3-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Wyvern Gale / 3-60 / Taper."
+    "assessment": {
+      "en": "WyvernGale 3-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Wyvern Gale / 3-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "knight-lance4-60gb-bx-24",
@@ -513,7 +639,10 @@
     "bladeId": "knight-lance",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-gear-ball",
-    "assessment": "KnightLance 4-60GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Knight Lance / 4-60 / Gear Ball."
+    "assessment": {
+      "en": "KnightLance 4-60GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Knight Lance / 4-60 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "viper-tail5-60f-bx-24",
@@ -525,7 +654,10 @@
     "bladeId": "viper-tail",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-flat",
-    "assessment": "ViperTail 5-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Viper Tail / 5-60 / Flat."
+    "assessment": {
+      "en": "ViperTail 5-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Viper Tail / 5-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "leon-claw3-80hn-bx-24",
@@ -537,7 +669,10 @@
     "bladeId": "leon-claw",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-high-needle",
-    "assessment": "LeonClaw 3-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Leon Claw / 3-80 / High Needle."
+    "assessment": {
+      "en": "LeonClaw 3-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Leon Claw / 3-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arrow4-80gb-bx-24",
@@ -549,7 +684,10 @@
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-gear-ball",
-    "assessment": "WizardArrow 4-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Wizard Arrow / 4-80 / Gear Ball."
+    "assessment": {
+      "en": "WizardArrow 4-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-24. Parts: Wizard Arrow / 4-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "tyranno-beat4-70q-bx-31",
@@ -561,7 +699,10 @@
     "bladeId": "tyranno-beat",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-quake",
-    "assessment": "TyrannoBeat 4-70Q is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Tyranno Beat / 4-70 / Quake."
+    "assessment": {
+      "en": "TyrannoBeat 4-70Q is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Tyranno Beat / 4-70 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "tyranno-beat3-60s-bx-31",
@@ -573,7 +714,10 @@
     "bladeId": "tyranno-beat",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-spike",
-    "assessment": "TyrannoBeat 3-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Tyranno Beat / 3-60 / Spike."
+    "assessment": {
+      "en": "TyrannoBeat 3-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Tyranno Beat / 3-60 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "hells-chain9-80o-bx-31",
@@ -585,7 +729,10 @@
     "bladeId": "hells-chain",
     "ratchetId": "ratchet-9-80",
     "bitId": "bit-orb",
-    "assessment": "HellsChain 9-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Hells Chain / 9-80 / Orb."
+    "assessment": {
+      "en": "HellsChain 9-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Hells Chain / 9-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "dran-dagger4-70p-bx-31",
@@ -597,7 +744,10 @@
     "bladeId": "dran-dagger",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-point",
-    "assessment": "DranDagger 4-70P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Dran Dagger / 4-70 / Point."
+    "assessment": {
+      "en": "DranDagger 4-70P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Dran Dagger / 4-70 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "shark-edge1-60q-bx-31",
@@ -609,7 +759,10 @@
     "bladeId": "shark-edge",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-quake",
-    "assessment": "SharkEdge 1-60Q is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Shark Edge / 1-60 / Quake."
+    "assessment": {
+      "en": "SharkEdge 1-60Q is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Shark Edge / 1-60 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "rhino-horn5-80q-bx-31",
@@ -621,7 +774,10 @@
     "bladeId": "rhino-horn",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-quake",
-    "assessment": "RhinoHorn 5-80Q is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Rhino Horn / 5-80 / Quake."
+    "assessment": {
+      "en": "RhinoHorn 5-80Q is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-31. Parts: Rhino Horn / 5-80 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "weiss-tiger3-60u-bx-33",
@@ -633,7 +789,10 @@
     "bladeId": "weiss-tiger",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-unite",
-    "assessment": "WeissTiger 3-60U is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-33. Parts: Weiss Tiger / 3-60 / Unite."
+    "assessment": {
+      "en": "WeissTiger 3-60U is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-33. Parts: Weiss Tiger / 3-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "cobalt-dragoon2-60c-bx-34",
@@ -645,7 +804,10 @@
     "bladeId": "cobalt-dragoon",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-cyclone",
-    "assessment": "CobaltDragoon 2-60C is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-34. Parts: Cobalt Dragoon / 2-60 / Cyclone."
+    "assessment": {
+      "en": "CobaltDragoon 2-60C is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-34. Parts: Cobalt Dragoon / 2-60 / Cyclone.",
+      "de": ""
+    }
   },
   {
     "id": "black-shell4-60d-bx-35",
@@ -657,7 +819,10 @@
     "bladeId": "black-shell",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-dot",
-    "assessment": "BlackShell 4-60D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Black Shell / 4-60 / Dot."
+    "assessment": {
+      "en": "BlackShell 4-60D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Black Shell / 4-60 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "black-shell9-80b-bx-35",
@@ -669,7 +834,10 @@
     "bladeId": "black-shell",
     "ratchetId": "ratchet-9-80",
     "bitId": "bit-ball",
-    "assessment": "BlackShell 9-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Black Shell / 9-80 / Ball."
+    "assessment": {
+      "en": "BlackShell 9-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Black Shell / 9-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "unicorn-sting3-70d-bx-35",
@@ -681,7 +849,10 @@
     "bladeId": "unicorn-sting",
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-dot",
-    "assessment": "UnicornSting 3-70D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Unicorn Sting / 3-70 / Dot."
+    "assessment": {
+      "en": "UnicornSting 3-70D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Unicorn Sting / 3-70 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-rod1-60r-bx-35",
@@ -693,7 +864,10 @@
     "bladeId": "wizard-rod",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-rush",
-    "assessment": "WizardRod 1-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Wizard Rod / 1-60 / Rush."
+    "assessment": {
+      "en": "WizardRod 1-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Wizard Rod / 1-60 / Rush.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-wing5-80h-bx-35",
@@ -705,7 +879,10 @@
     "bladeId": "phoenix-wing",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-hexa",
-    "assessment": "PhoenixWing 5-80H is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Phoenix Wing / 5-80 / Hexa."
+    "assessment": {
+      "en": "PhoenixWing 5-80H is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Phoenix Wing / 5-80 / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "viper-tail5-70d-bx-35",
@@ -717,7 +894,10 @@
     "bladeId": "viper-tail",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-dot",
-    "assessment": "ViperTail 5-70D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Viper Tail / 5-70 / Dot."
+    "assessment": {
+      "en": "ViperTail 5-70D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-35. Parts: Viper Tail / 5-70 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "whale-wave5-80e-bx-36",
@@ -729,7 +909,10 @@
     "bladeId": "whale-wave",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-elevate",
-    "assessment": "WhaleWave 5-80E is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-36. Parts: Whale Wave / 5-80 / Elevate."
+    "assessment": {
+      "en": "WhaleWave 5-80E is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-36. Parts: Whale Wave / 5-80 / Elevate.",
+      "de": ""
+    }
   },
   {
     "id": "whale-wave4-70hn-bx-36",
@@ -741,7 +924,10 @@
     "bladeId": "whale-wave",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-high-needle",
-    "assessment": "WhaleWave 4-70HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-36. Parts: Whale Wave / 4-70 / High Needle."
+    "assessment": {
+      "en": "WhaleWave 4-70HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-36. Parts: Whale Wave / 4-70 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "whale-wave3-80gb-bx-36",
@@ -753,7 +939,10 @@
     "bladeId": "whale-wave",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-gear-ball",
-    "assessment": "WhaleWave 3-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-36. Parts: Whale Wave / 3-80 / Gear Ball."
+    "assessment": {
+      "en": "WhaleWave 3-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-36. Parts: Whale Wave / 3-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "crimson-garuda4-70tp-bx-38",
@@ -765,7 +954,10 @@
     "bladeId": "crimson-garuda",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-trans-point",
-    "assessment": "CrimsonGaruda 4-70TP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-38. Parts: Crimson Garuda / 4-70 / Trans Point."
+    "assessment": {
+      "en": "CrimsonGaruda 4-70TP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-38. Parts: Crimson Garuda / 4-70 / Trans Point.",
+      "de": ""
+    }
   },
   {
     "id": "shelter-drake7-80gp-bx-39",
@@ -777,7 +969,10 @@
     "bladeId": "shelter-drake",
     "ratchetId": "ratchet-7-80",
     "bitId": "bit-gear-point",
-    "assessment": "ShelterDrake 7-80GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-39. Parts: Shelter Drake / 7-80 / Gear Point."
+    "assessment": {
+      "en": "ShelterDrake 7-80GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-39. Parts: Shelter Drake / 7-80 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "shelter-drake5-70o-bx-39",
@@ -789,7 +984,10 @@
     "bladeId": "shelter-drake",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-orb",
-    "assessment": "ShelterDrake 5-70O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-39. Parts: Shelter Drake / 5-70 / Orb."
+    "assessment": {
+      "en": "ShelterDrake 5-70O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-39. Parts: Shelter Drake / 5-70 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "shelter-drake3-60d-bx-39",
@@ -801,7 +999,10 @@
     "bladeId": "shelter-drake",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-dot",
-    "assessment": "ShelterDrake 3-60D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-39. Parts: Shelter Drake / 3-60 / Dot."
+    "assessment": {
+      "en": "ShelterDrake 3-60D is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-39. Parts: Shelter Drake / 3-60 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "tricera-press-m-85bs-bx-44",
@@ -813,7 +1014,10 @@
     "bladeId": "tricera-press",
     "ratchetId": "ratchet-M-85",
     "bitId": "bit-bound-spike",
-    "assessment": "TriceraPress M-85BS is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-44. Parts: Tricera Press / M-85 / Bound Spike."
+    "assessment": {
+      "en": "TriceraPress M-85BS is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-44. Parts: Tricera Press / M-85 / Bound Spike.",
+      "de": ""
+    }
   },
   {
     "id": "samurai-calibur6-70m-bx-45",
@@ -825,7 +1029,10 @@
     "bladeId": "samurai-calibur",
     "ratchetId": "ratchet-6-70",
     "bitId": "bit-merge",
-    "assessment": "SamuraiCalibur 6-70M is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-45. Parts: Samurai Calibur / 6-70 / Merge."
+    "assessment": {
+      "en": "SamuraiCalibur 6-70M is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-45. Parts: Samurai Calibur / 6-70 / Merge.",
+      "de": ""
+    }
   },
   {
     "id": "dran-strike4-50ff-bx-49",
@@ -837,7 +1044,10 @@
     "bladeId": "dran-strike",
     "ratchetId": "ratchet-4-50",
     "bitId": "bit-free-flat",
-    "assessment": "DranStrike 4-50FF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-49. Parts: Dran Strike / 4-50 / Free Flat."
+    "assessment": {
+      "en": "DranStrike 4-50FF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-49. Parts: Dran Strike / 4-50 / Free Flat.",
+      "de": ""
+    }
   },
   {
     "id": "cobalt-drake4-60f-bx-00",
@@ -849,7 +1059,10 @@
     "bladeId": "cobalt-drake",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-flat",
-    "assessment": "CobaltDrake 4-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Cobalt Drake / 4-60 / Flat."
+    "assessment": {
+      "en": "CobaltDrake 4-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Cobalt Drake / 4-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "dranzer-spiral3-80t-bx-00",
@@ -861,7 +1074,10 @@
     "bladeId": "dranzer-spiral",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-taper",
-    "assessment": "DranzerSpiral 3-80T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Dranzer Spiral / 3-80 / Taper."
+    "assessment": {
+      "en": "DranzerSpiral 3-80T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Dranzer Spiral / 3-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "lightning-l-drago1-60f-upper-bx-00",
@@ -873,7 +1089,10 @@
     "bladeId": "l-drago-upper",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-flat",
-    "assessment": "Lightning L-Drago 1-60F (Upper Type) is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: L- Drago: Upper / 1-60 / Flat."
+    "assessment": {
+      "en": "Lightning L-Drago 1-60F (Upper Type) is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: L- Drago: Upper / 1-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "lightning-l-drago1-60f-rapid-hit-bx-00",
@@ -885,7 +1104,10 @@
     "bladeId": "l-drago-rapid-hit",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-flat",
-    "assessment": "Lightning L-Drago 1-60F (Rapid Hit Type) is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: L- Drago: Rapid  Hit / 1-60 / Flat."
+    "assessment": {
+      "en": "Lightning L-Drago 1-60F (Rapid Hit Type) is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: L- Drago: Rapid  Hit / 1-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "dragoon-storm4-60ra-bx-00",
@@ -897,7 +1119,10 @@
     "bladeId": "dragoon-storm",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-rubber-accel",
-    "assessment": "Dragoon Storm 4-60RA is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Dragoon Storm / 4-60 / Rubber Accel."
+    "assessment": {
+      "en": "Dragoon Storm 4-60RA is a left-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Dragoon Storm / 4-60 / Rubber Accel.",
+      "de": ""
+    }
   },
   {
     "id": "storm-pegasis3-70ra-bx-00",
@@ -909,7 +1134,10 @@
     "bladeId": "storm-pegasis",
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-rubber-accel",
-    "assessment": "Storm Pegasis 3-70RA is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Storm Pegasis / 3-70 / Rubber Accel."
+    "assessment": {
+      "en": "Storm Pegasis 3-70RA is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Storm Pegasis / 3-70 / Rubber Accel.",
+      "de": ""
+    }
   },
   {
     "id": "victory-valkyrie2-60ra-bx-00",
@@ -921,7 +1149,10 @@
     "bladeId": "victory-valkyrie",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-rubber-accel",
-    "assessment": "Victory Valkyrie 2-60RA is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Victory Valkyrie / 2-60 / Rubber Accel."
+    "assessment": {
+      "en": "Victory Valkyrie 2-60RA is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Parts: Victory Valkyrie / 2-60 / Rubber Accel.",
+      "de": ""
+    }
   },
   {
     "id": "dran-buster1-60a-ux-01",
@@ -933,7 +1164,10 @@
     "bladeId": "dran-buster",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-accel",
-    "assessment": "DranBuster 1-60A is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-01. Parts: Dran Buster / 1-60 / Accel."
+    "assessment": {
+      "en": "DranBuster 1-60A is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-01. Parts: Dran Buster / 1-60 / Accel.",
+      "de": ""
+    }
   },
   {
     "id": "hells-hammer3-70h-ux-02",
@@ -945,7 +1179,10 @@
     "bladeId": "hells-hammer",
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-hexa",
-    "assessment": "HellsHammer 3-70H is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-02. Parts: Hells Hammer / 3-70 / Hexa."
+    "assessment": {
+      "en": "HellsHammer 3-70H is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-02. Parts: Hells Hammer / 3-70 / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-rod5-70db-ux-03",
@@ -957,7 +1194,10 @@
     "bladeId": "wizard-rod",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-disk-ball",
-    "assessment": "WizardRod 5-70DB is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-03. Parts: Wizard Rod / 5-70 / Disk Ball."
+    "assessment": {
+      "en": "WizardRod 5-70DB is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-03. Parts: Wizard Rod / 5-70 / Disk Ball.",
+      "de": ""
+    }
   },
   {
     "id": "dran-buster1-60a-ux-04",
@@ -969,7 +1209,10 @@
     "bladeId": "dran-buster",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-accel",
-    "assessment": "DranBuster 1-60A (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-04. Parts: Dran Buster / 1-60 / Accel."
+    "assessment": {
+      "en": "DranBuster 1-60A (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-04. Parts: Dran Buster / 1-60 / Accel.",
+      "de": ""
+    }
   },
   {
     "id": "shinobi-shadow9-60lf-ux-05",
@@ -981,7 +1224,10 @@
     "bladeId": "shinobi-shadow",
     "ratchetId": "ratchet-9-60",
     "bitId": "bit-low-flat",
-    "assessment": "ShinobiShadow 9-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-05. Parts: Shinobi Shadow / 9-60 / Low Flat."
+    "assessment": {
+      "en": "ShinobiShadow 9-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-05. Parts: Shinobi Shadow / 9-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "leon-crest7-60gn-ux-06",
@@ -993,7 +1239,10 @@
     "bladeId": "leon-crest",
     "ratchetId": "ratchet-7-60",
     "bitId": "bit-gear-needle",
-    "assessment": "LeonCrest 7-60GN is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-06. Parts: Leon Crest / 7-60 / Gear Needle."
+    "assessment": {
+      "en": "LeonCrest 7-60GN is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-06. Parts: Leon Crest / 7-60 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-rudder9-70g-ux-07",
@@ -1005,7 +1254,10 @@
     "bladeId": "phoenix-rudder",
     "ratchetId": "ratchet-9-70",
     "bitId": "bit-glide",
-    "assessment": "PhoenixRudder 9-70G is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-07. Parts: Phoenix Rudder / 9-70 / Glide."
+    "assessment": {
+      "en": "PhoenixRudder 9-70G is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-07. Parts: Phoenix Rudder / 9-70 / Glide.",
+      "de": ""
+    }
   },
   {
     "id": "silver-wolf3-80fb-ux-08",
@@ -1017,7 +1269,10 @@
     "bladeId": "silver-wolf",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-free-ball",
-    "assessment": "SilverWolf 3-80FB is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-08. Parts: Silver Wolf / 3-80 / Free Ball."
+    "assessment": {
+      "en": "SilverWolf 3-80FB is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-08. Parts: Silver Wolf / 3-80 / Free Ball.",
+      "de": ""
+    }
   },
   {
     "id": "samurai-saber2-70l-ux-09",
@@ -1029,7 +1284,10 @@
     "bladeId": "samurai-saber",
     "ratchetId": "ratchet-2-70",
     "bitId": "bit-level",
-    "assessment": "SamuraiSaber 2-70L is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-09. Parts: Samurai Saber / 2-70 / Level."
+    "assessment": {
+      "en": "SamuraiSaber 2-70L is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-09. Parts: Samurai Saber / 2-70 / Level.",
+      "de": ""
+    }
   },
   {
     "id": "knight-mail3-85bs-ux-10",
@@ -1041,7 +1299,10 @@
     "bladeId": "knight-mail",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-bound-spike",
-    "assessment": "KnightMail 3-85BS is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-10. Parts: Knight Mail / 3-85 / Bound Spike."
+    "assessment": {
+      "en": "KnightMail 3-85BS is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-10. Parts: Knight Mail / 3-85 / Bound Spike.",
+      "de": ""
+    }
   },
   {
     "id": "impact-drake9-60lr-ux-11",
@@ -1053,7 +1314,10 @@
     "bladeId": "impact-drake",
     "ratchetId": "ratchet-9-60",
     "bitId": "bit-low-rush",
-    "assessment": "ImpactDrake 9-60LR is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-11. Parts: Impact Drake / 9-60 / Low Rush."
+    "assessment": {
+      "en": "ImpactDrake 9-60LR is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-11. Parts: Impact Drake / 9-60 / Low Rush.",
+      "de": ""
+    }
   },
   {
     "id": "ghost-circle0-80gb-ux-12-01",
@@ -1065,7 +1329,10 @@
     "bladeId": "ghost-circle",
     "ratchetId": "ratchet-0-80",
     "bitId": "bit-gear-ball",
-    "assessment": "GhostCircle 0-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Ghost Circle / 0-80 / Gear Ball."
+    "assessment": {
+      "en": "GhostCircle 0-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Ghost Circle / 0-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "ghost-circle4-60h-ux-12-02",
@@ -1077,7 +1344,10 @@
     "bladeId": "ghost-circle",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-hexa",
-    "assessment": "GhostCircle 4-60H is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Ghost Circle / 4-60 / Hexa."
+    "assessment": {
+      "en": "GhostCircle 4-60H is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Ghost Circle / 4-60 / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "shinobi-shadow3-80f-ux-12-03",
@@ -1089,7 +1359,10 @@
     "bladeId": "shinobi-shadow",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-flat",
-    "assessment": "ShinobiShadow 3-80F is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Shinobi Shadow / 3-80 / Flat."
+    "assessment": {
+      "en": "ShinobiShadow 3-80F is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Shinobi Shadow / 3-80 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "leon-claw0-80e-ux-12-04",
@@ -1101,7 +1374,10 @@
     "bladeId": "leon-claw",
     "ratchetId": "ratchet-0-80",
     "bitId": "bit-elevate",
-    "assessment": "LeonClaw 0-80E is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Leon Claw / 0-80 / Elevate."
+    "assessment": {
+      "en": "LeonClaw 0-80E is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Leon Claw / 0-80 / Elevate.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-feather2-60n-ux-12-05",
@@ -1113,7 +1389,10 @@
     "bladeId": "phoenix-feather",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-needle",
-    "assessment": "PhoenixFeather 2-60N is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Phoenix Feather / 2-60 / Needle."
+    "assessment": {
+      "en": "PhoenixFeather 2-60N is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Phoenix Feather / 2-60 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "wyvern-gale0-80c-ux-12-06",
@@ -1125,7 +1404,10 @@
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-0-80",
     "bitId": "bit-cyclone",
-    "assessment": "WyvernGale 0-80C is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Wyvern Gale / 0-80 / Cyclone."
+    "assessment": {
+      "en": "WyvernGale 0-80C is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-12. Parts: Wyvern Gale / 0-80 / Cyclone.",
+      "de": ""
+    }
   },
   {
     "id": "golem-rock1-60un-ux-13",
@@ -1137,7 +1419,10 @@
     "bladeId": "golem-rock",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-unite",
-    "assessment": "GolemRock 1-60UN is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-13. Parts: Golem Rock / 1-60 / Unite."
+    "assessment": {
+      "en": "GolemRock 1-60UN is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-13. Parts: Golem Rock / 1-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "scorpio-spear0-70z-ux-14",
@@ -1149,7 +1434,10 @@
     "bladeId": "scorpio-spear",
     "ratchetId": "ratchet-0-70",
     "bitId": "bit-zap",
-    "assessment": "ScorpioSpear 0-70Z is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-14. Parts: Scorpio Spear / 0-70 / Zap."
+    "assessment": {
+      "en": "ScorpioSpear 0-70Z is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-14. Parts: Scorpio Spear / 0-70 / Zap.",
+      "de": ""
+    }
   },
   {
     "id": "shark-scale4-50uf-ux-15",
@@ -1161,7 +1449,10 @@
     "bladeId": "shark-scale",
     "ratchetId": "ratchet-4-50",
     "bitId": "bit-under-flat",
-    "assessment": "SharkScale 4-50UF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-15. Parts: Shark Scale / 4-50 / Under Flat."
+    "assessment": {
+      "en": "SharkScale 4-50UF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-15. Parts: Shark Scale / 4-50 / Under Flat.",
+      "de": ""
+    }
   },
   {
     "id": "tyranno-roar1-70l-ux-15",
@@ -1173,7 +1464,10 @@
     "bladeId": "tyranno-roar",
     "ratchetId": "ratchet-1-70",
     "bitId": "bit-level",
-    "assessment": "TyrannoRoar 1-70L is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-15. Parts: TyrannoRoar / 1-70 / Level."
+    "assessment": {
+      "en": "TyrannoRoar 1-70L is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-15. Parts: TyrannoRoar / 1-70 / Level.",
+      "de": ""
+    }
   },
   {
     "id": "hells-brave-j3-60gf-ux-15",
@@ -1186,7 +1480,10 @@
     "assistBladeId": "jaggy",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-gear-flat",
-    "assessment": "HellsBrave J3-60GF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-15. Parts: HellsBrave / Jaggy / 3-60 / Gear Flat."
+    "assessment": {
+      "en": "HellsBrave J3-60GF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-15. Parts: HellsBrave / Jaggy / 3-60 / Gear Flat.",
+      "de": ""
+    }
   },
   {
     "id": "clock-mirage9-65b-ux-16-01",
@@ -1198,7 +1495,10 @@
     "bladeId": "clock-mirage",
     "ratchetId": "ratchet-9-65",
     "bitId": "bit-ball",
-    "assessment": "ClockMirage 9-65B (Prize) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-16. Parts: ClockMirage / 9-65 / Ball."
+    "assessment": {
+      "en": "ClockMirage 9-65B (Prize) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-16. Parts: ClockMirage / 9-65 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "clock-mirage9-65b-ux-16-02",
@@ -1210,7 +1510,10 @@
     "bladeId": "clock-mirage",
     "ratchetId": "ratchet-9-65",
     "bitId": "bit-ball",
-    "assessment": "ClockMirage 9-65B (Gray/White Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-16. Parts: ClockMirage / 9-65 / Ball."
+    "assessment": {
+      "en": "ClockMirage 9-65B (Gray/White Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-16. Parts: ClockMirage / 9-65 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "clock-mirage9-65b-ux-16-03",
@@ -1222,7 +1525,10 @@
     "bladeId": "clock-mirage",
     "ratchetId": "ratchet-9-65",
     "bitId": "bit-ball",
-    "assessment": "ClockMirage 9-65B (Pink/Yellow Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-16. Parts: ClockMirage / 9-65 / Ball."
+    "assessment": {
+      "en": "ClockMirage 9-65B (Pink/Yellow Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-16. Parts: ClockMirage / 9-65 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "meteor-dragoon3-70j-ux-17",
@@ -1234,7 +1540,10 @@
     "bladeId": "meteor-dragoon",
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-jolt",
-    "assessment": "MeteorDragoon 3-70J is a left-spin factory-combined Beyblade from Takara Tomy, released as UX-17. Parts: Meteor Dragoon / 3-70 / Jolt."
+    "assessment": {
+      "en": "MeteorDragoon 3-70J is a left-spin factory-combined Beyblade from Takara Tomy, released as UX-17. Parts: Meteor Dragoon / 3-70 / Jolt.",
+      "de": ""
+    }
   },
   {
     "id": "mummy-curse7-55w-ux-18-01",
@@ -1246,7 +1555,10 @@
     "bladeId": "mummy-curse",
     "ratchetId": "ratchet-7-55",
     "bitId": "bit-wedge",
-    "assessment": "MummyCurse 7-55W is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Mummy Curse / 7-55 / Wedge."
+    "assessment": {
+      "en": "MummyCurse 7-55W is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Mummy Curse / 7-55 / Wedge.",
+      "de": ""
+    }
   },
   {
     "id": "mummy-curse4-60c-ux-18-02",
@@ -1258,7 +1570,10 @@
     "bladeId": "mummy-curse",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-cyclone",
-    "assessment": "MummyCurse 4-60C is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Mummy Curse / 4-60 / Cyclone."
+    "assessment": {
+      "en": "MummyCurse 4-60C is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Mummy Curse / 4-60 / Cyclone.",
+      "de": ""
+    }
   },
   {
     "id": "pegasus-brush-m3-85w-ux-18-03",
@@ -1271,7 +1586,10 @@
     "assistBladeId": "massive",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-wedge",
-    "assessment": "PegasusBrush M3-85W is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: PegasusBrush / Massive / 3-85 / Wedge."
+    "assessment": {
+      "en": "PegasusBrush M3-85W is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: PegasusBrush / Massive / 3-85 / Wedge.",
+      "de": ""
+    }
   },
   {
     "id": "sol-brave-c9-70tp-ux-18-04",
@@ -1284,7 +1602,10 @@
     "assistBladeId": "charge",
     "ratchetId": "ratchet-9-70",
     "bitId": "bit-trans-point",
-    "assessment": "SolBrave C9-70TP is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: SolBrave / Charge / 9-70 / Trans Point."
+    "assessment": {
+      "en": "SolBrave C9-70TP is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: SolBrave / Charge / 9-70 / Trans Point.",
+      "de": ""
+    }
   },
   {
     "id": "dran-dagger7-55g-ux-18-05",
@@ -1296,7 +1617,10 @@
     "bladeId": "dran-dagger",
     "ratchetId": "ratchet-7-55",
     "bitId": "bit-glide",
-    "assessment": "DranDagger 7-55G is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Dran Dagger / 7-55 / Glide."
+    "assessment": {
+      "en": "DranDagger 7-55G is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Dran Dagger / 7-55 / Glide.",
+      "de": ""
+    }
   },
   {
     "id": "weiss-tiger4-80lr-ux-18-06",
@@ -1308,7 +1632,10 @@
     "bladeId": "weiss-tiger",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-low-rush",
-    "assessment": "WeissTiger 4-80LR is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Weiss Tiger / 4-80 / Low Rush."
+    "assessment": {
+      "en": "WeissTiger 4-80LR is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-18. Parts: Weiss Tiger / 4-80 / Low Rush.",
+      "de": ""
+    }
   },
   {
     "id": "bullet-griffon-h-ux-19",
@@ -1320,7 +1647,10 @@
     "bladeId": "bullet-griffon",
     "ratchetId": "ratchet-integrated",
     "bitId": "bit-hexa",
-    "assessment": "BulletGriffon H is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-19. Parts: BulletGriffon / Integrated / Hexa."
+    "assessment": {
+      "en": "BulletGriffon H is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-19. Parts: BulletGriffon / Integrated / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "glory-valkyrie-lf-ux-20",
@@ -1332,7 +1662,10 @@
     "bladeId": "glory-valkyrie",
     "ratchetId": "ratchet-integrated",
     "bitId": "bit-low-flat",
-    "assessment": "GloryValkyrie LF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-20. Parts: GloryValkyrie / Integrated / Low Flat."
+    "assessment": {
+      "en": "GloryValkyrie LF is a right-spin factory-combined Beyblade from Takara Tomy, released as UX-20. Parts: GloryValkyrie / Integrated / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "dran-brave-s6-60v-cx-01",
@@ -1345,7 +1678,10 @@
     "assistBladeId": "slash",
     "ratchetId": "ratchet-6-60",
     "bitId": "bit-vortex",
-    "assessment": "DranBrave S6-60V is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-01. Parts: DranBrave / Slash / 6-60 / Vortex."
+    "assessment": {
+      "en": "DranBrave S6-60V is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-01. Parts: DranBrave / Slash / 6-60 / Vortex.",
+      "de": ""
+    }
   },
   {
     "id": "wizard-arc-r4-55lo-cx-02",
@@ -1358,7 +1694,10 @@
     "assistBladeId": "round",
     "ratchetId": "ratchet-4-55",
     "bitId": "bit-low-orb",
-    "assessment": "WizardArc R4-55LO is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-02. Parts: WizardArc / Round / 4-55 / Low Orb."
+    "assessment": {
+      "en": "WizardArc R4-55LO is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-02. Parts: WizardArc / Round / 4-55 / Low Orb.",
+      "de": ""
+    }
   },
   {
     "id": "perseus-dark-b6-80w-cx-03",
@@ -1371,7 +1710,10 @@
     "assistBladeId": "bumper",
     "ratchetId": "ratchet-6-80",
     "bitId": "bit-wedge",
-    "assessment": "PerseusDark B6-80W is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-03. Parts: PerseusDark / Bumper / 6-80 / Wedge."
+    "assessment": {
+      "en": "PerseusDark B6-80W is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-03. Parts: PerseusDark / Bumper / 6-80 / Wedge.",
+      "de": ""
+    }
   },
   {
     "id": "dran-brave-s6-60v-cx-04",
@@ -1384,7 +1726,10 @@
     "assistBladeId": "slash",
     "ratchetId": "ratchet-6-60",
     "bitId": "bit-vortex",
-    "assessment": "DranBrave S6-60V (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-04. Parts: DranBrave / Slash / 6-60 / Vortex."
+    "assessment": {
+      "en": "DranBrave S6-60V (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-04. Parts: DranBrave / Slash / 6-60 / Vortex.",
+      "de": ""
+    }
   },
   {
     "id": "perseus-dark-b6-80w-cx-04",
@@ -1397,7 +1742,10 @@
     "assistBladeId": "bumper",
     "ratchetId": "ratchet-6-80",
     "bitId": "bit-wedge",
-    "assessment": "PerseusDark B6-80W (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-04. Parts: PerseusDark / Bumper / 6-80 / Wedge."
+    "assessment": {
+      "en": "PerseusDark B6-80W (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-04. Parts: PerseusDark / Bumper / 6-80 / Wedge.",
+      "de": ""
+    }
   },
   {
     "id": "hells-reaper-t4-70k-cx-05-01",
@@ -1410,7 +1758,10 @@
     "assistBladeId": "turn",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-kick",
-    "assessment": "HellsReaper T4-70K is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: HellsReaper / Turn / 4-70 / Kick."
+    "assessment": {
+      "en": "HellsReaper T4-70K is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: HellsReaper / Turn / 4-70 / Kick.",
+      "de": ""
+    }
   },
   {
     "id": "rhino-reaper-c4-55d-cx-05-02",
@@ -1423,7 +1774,10 @@
     "assistBladeId": "charge",
     "ratchetId": "ratchet-4-55",
     "bitId": "bit-dot",
-    "assessment": "RhinoReaper C4-55D is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: RhinoReaper / Charge / 4-55 / Dot."
+    "assessment": {
+      "en": "RhinoReaper C4-55D is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: RhinoReaper / Charge / 4-55 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "hells-arc-t3-85o-cx-05-03",
@@ -1436,7 +1790,10 @@
     "assistBladeId": "turn",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-orb",
-    "assessment": "HellsArc T3-85O is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: HellsArc / Turn / 3-85 / Orb."
+    "assessment": {
+      "en": "HellsArc T3-85O is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: HellsArc / Turn / 3-85 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "leon-crest9-80k-cx-05-04",
@@ -1448,7 +1805,10 @@
     "bladeId": "leon-crest",
     "ratchetId": "ratchet-9-80",
     "bitId": "bit-kick",
-    "assessment": "LeonCrest 9-80K is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: Leon Crest / 9-80 / Kick."
+    "assessment": {
+      "en": "LeonCrest 9-80K is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: Leon Crest / 9-80 / Kick.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-rudder4-70lf-cx-05-05",
@@ -1460,7 +1820,10 @@
     "bladeId": "phoenix-rudder",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-low-flat",
-    "assessment": "PhoenixRudder 4-70LF is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: Phoenix Rudder / 4-70 / Low Flat."
+    "assessment": {
+      "en": "PhoenixRudder 4-70LF is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: Phoenix Rudder / 4-70 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "whale-wave7-60k-cx-05-06",
@@ -1472,7 +1835,10 @@
     "bladeId": "whale-wave",
     "ratchetId": "ratchet-7-60",
     "bitId": "bit-kick",
-    "assessment": "WhaleWave 7-60K is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: Whale Wave / 7-60 / Kick."
+    "assessment": {
+      "en": "WhaleWave 7-60K is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-05. Parts: Whale Wave / 7-60 / Kick.",
+      "de": ""
+    }
   },
   {
     "id": "fox-brush-j9-70gr-cx-06-01",
@@ -1485,7 +1851,10 @@
     "assistBladeId": "jaggy",
     "ratchetId": "ratchet-9-70",
     "bitId": "bit-gear-rush",
-    "assessment": "FoxBrush J9-70GR is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-06. Parts: FoxBrush / Jaggy / 9-70 / Gear Rush."
+    "assessment": {
+      "en": "FoxBrush J9-70GR is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-06. Parts: FoxBrush / Jaggy / 9-70 / Gear Rush.",
+      "de": ""
+    }
   },
   {
     "id": "fox-brush-j0-80db-cx-06-02",
@@ -1498,7 +1867,10 @@
     "assistBladeId": "jaggy",
     "ratchetId": "ratchet-0-80",
     "bitId": "bit-disk-ball",
-    "assessment": "FoxBrush J0-80DB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-06. Parts: FoxBrush / Jaggy / 0-80 / Disk Ball."
+    "assessment": {
+      "en": "FoxBrush J0-80DB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-06. Parts: FoxBrush / Jaggy / 0-80 / Disk Ball.",
+      "de": ""
+    }
   },
   {
     "id": "fox-brush-j2-60u-cx-06-03",
@@ -1511,7 +1883,10 @@
     "assistBladeId": "jaggy",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-unite",
-    "assessment": "FoxBrush J2-60U is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-06. Parts: FoxBrush / Jaggy / 2-60 / Unite."
+    "assessment": {
+      "en": "FoxBrush J2-60U is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-06. Parts: FoxBrush / Jaggy / 2-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "pegasus-blast-atr-cx-07",
@@ -1524,7 +1899,10 @@
     "assistBladeId": "assault",
     "ratchetId": "ratchet-integrated",
     "bitId": "bit-turbo",
-    "assessment": "PegasusBlast ATr is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-07. Parts: PegasusBlast / Assault / Integrated / Turbo."
+    "assessment": {
+      "en": "PegasusBlast ATr is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-07. Parts: PegasusBlast / Assault / Integrated / Turbo.",
+      "de": ""
+    }
   },
   {
     "id": "cerberus-flame-w5-80wb-cx-08-01",
@@ -1537,7 +1915,10 @@
     "assistBladeId": "wheel",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-wall-ball",
-    "assessment": "CerberusFlame W5-80WB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: CerberusFlame / Wheel / 5-80 / Wall Ball."
+    "assessment": {
+      "en": "CerberusFlame W5-80WB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: CerberusFlame / Wheel / 5-80 / Wall Ball.",
+      "de": ""
+    }
   },
   {
     "id": "whale-flame-m3-85ht-cx-08-02",
@@ -1550,7 +1931,10 @@
     "assistBladeId": "massive",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-high-taper",
-    "assessment": "WhaleFlame M3-85HT is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: WhaleFlame / Massive / 3-85 / High Taper."
+    "assessment": {
+      "en": "WhaleFlame M3-85HT is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: WhaleFlame / Massive / 3-85 / High Taper.",
+      "de": ""
+    }
   },
   {
     "id": "cerberus-dark-w1-60f-cx-08-03",
@@ -1563,7 +1947,10 @@
     "assistBladeId": "wheel",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-flat",
-    "assessment": "CerberusDark W1-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: CerberusDark / Wheel / 1-60 / Flat."
+    "assessment": {
+      "en": "CerberusDark W1-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: CerberusDark / Wheel / 1-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "dran-buster5-80mn-cx-08-04",
@@ -1575,7 +1962,10 @@
     "bladeId": "dran-buster",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-metal-needle",
-    "assessment": "DranBuster 5-80MN is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: Dran Buster / 5-80 / Metal Needle."
+    "assessment": {
+      "en": "DranBuster 5-80MN is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: Dran Buster / 5-80 / Metal Needle.",
+      "de": ""
+    }
   },
   {
     "id": "black-shell7-70wb-cx-08-05",
@@ -1587,7 +1977,10 @@
     "bladeId": "black-shell",
     "ratchetId": "ratchet-7-70",
     "bitId": "bit-wall-ball",
-    "assessment": "BlackShell 7-70WB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: Black Shell / 7-70 / Wall Ball."
+    "assessment": {
+      "en": "BlackShell 7-70WB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: Black Shell / 7-70 / Wall Ball.",
+      "de": ""
+    }
   },
   {
     "id": "cobalt-dragoon4-55wb-cx-08-06",
@@ -1599,7 +1992,10 @@
     "bladeId": "cobalt-dragoon",
     "ratchetId": "ratchet-4-55",
     "bitId": "bit-wall-ball",
-    "assessment": "CobaltDragoon 4-55WB is a left-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: Cobalt Dragoon / 4-55 / Wall Ball."
+    "assessment": {
+      "en": "CobaltDragoon 4-55WB is a left-spin factory-combined Beyblade from Takara Tomy, released as CX-08. Parts: Cobalt Dragoon / 4-55 / Wall Ball.",
+      "de": ""
+    }
   },
   {
     "id": "sol-eclipse-d5-70tk-cx-09",
@@ -1612,7 +2008,10 @@
     "assistBladeId": "dual",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-trans-kick",
-    "assessment": "SolEclipse D5-70TK is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-09. Parts: SolEclipse / Dual / 5-70 / Trans Kick."
+    "assessment": {
+      "en": "SolEclipse D5-70TK is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-09. Parts: SolEclipse / Dual / 5-70 / Trans Kick.",
+      "de": ""
+    }
   },
   {
     "id": "wolf-hunt-f0-60db-cx-10",
@@ -1625,7 +2024,10 @@
     "assistBladeId": "free",
     "ratchetId": "ratchet-0-60",
     "bitId": "bit-disk-ball",
-    "assessment": "WolfHunt F0-60DB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-10. Parts: WolfHunt / Free / 0-60 / Disk Ball."
+    "assessment": {
+      "en": "WolfHunt F0-60DB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-10. Parts: WolfHunt / Free / 0-60 / Disk Ball.",
+      "de": ""
+    }
   },
   {
     "id": "emperor-might-hop-cx-11",
@@ -1638,7 +2040,10 @@
     "assistBladeId": "heavy",
     "ratchetId": "ratchet-integrated",
     "bitId": "bit-operate",
-    "assessment": "EmperorMight HOp is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-11. Parts: EmperorMight / Heavy / Integrated / Operate."
+    "assessment": {
+      "en": "EmperorMight HOp is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-11. Parts: EmperorMight / Heavy / Integrated / Operate.",
+      "de": ""
+    }
   },
   {
     "id": "golem-rock-m-85hn-cx-11",
@@ -1650,7 +2055,10 @@
     "bladeId": "golem-rock",
     "ratchetId": "ratchet-m-85",
     "bitId": "bit-high-needle",
-    "assessment": "GolemRock M-85HN is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-11. Parts: Golem Rock / m-85 / High Needle."
+    "assessment": {
+      "en": "GolemRock M-85HN is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-11. Parts: Golem Rock / m-85 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "shark-gill-5-60fb-cx-11",
@@ -1662,7 +2070,10 @@
     "bladeId": "shark-gill",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-free-ball",
-    "assessment": "SharkGill 5-60FB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-11. Parts: Shark Gill / 5-60 / Free Ball."
+    "assessment": {
+      "en": "SharkGill 5-60FB is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-11. Parts: Shark Gill / 5-60 / Free Ball.",
+      "de": ""
+    }
   },
   {
     "id": "phoenix-flare-z9-80ww-cx-12",
@@ -1675,7 +2086,10 @@
     "assistBladeId": "zillion",
     "ratchetId": "ratchet-9-80",
     "bitId": "bit-wall-wedge",
-    "assessment": "PhoenixFlare Z9-80WW is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-12. Parts: PhoenixFlare / Zillion / 9-80 / Wall Wedge."
+    "assessment": {
+      "en": "PhoenixFlare Z9-80WW is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-12. Parts: PhoenixFlare / Zillion / 9-80 / Wall Wedge.",
+      "de": ""
+    }
   },
   {
     "id": "bahamut-blitz-bk1-50i-cx-13",
@@ -1688,7 +2102,10 @@
     "assistBladeId": "knuckle",
     "ratchetId": "ratchet-1-50",
     "bitId": "bit-ignition",
-    "assessment": "BahamutBlitz BK1-50I is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-13. Parts: BahamutBlitz / Knuckle / 1-50 / Ignition."
+    "assessment": {
+      "en": "BahamutBlitz BK1-50I is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-13. Parts: BahamutBlitz / Knuckle / 1-50 / Ignition.",
+      "de": ""
+    }
   },
   {
     "id": "knight-fortress-gv8-70un-cx-14",
@@ -1701,7 +2118,10 @@
     "assistBladeId": "vertical",
     "ratchetId": "ratchet-8-70",
     "bitId": "bit-under-needle",
-    "assessment": "KnightFortress GV8-70UN is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-14. Parts: KnightFortress / Vertical / 8-70 / Under Needle."
+    "assessment": {
+      "en": "KnightFortress GV8-70UN is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-14. Parts: KnightFortress / Vertical / 8-70 / Under Needle.",
+      "de": ""
+    }
   },
   {
     "id": "ragna-rage-fe4-55y-cx-15",
@@ -1714,7 +2134,10 @@
     "assistBladeId": "erase",
     "ratchetId": "ratchet-4-55",
     "bitId": "bit-yielding",
-    "assessment": "RagnaRage FE4-55Y is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-15. Parts: RagnaRage / Erase / 4-55 / Yielding."
+    "assessment": {
+      "en": "RagnaRage FE4-55Y is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-15. Parts: RagnaRage / Erase / 4-55 / Yielding.",
+      "de": ""
+    }
   },
   {
     "id": "bahamut-blitz-bk1-50i-special-cx-16",
@@ -1727,7 +2150,10 @@
     "assistBladeId": "knuckle",
     "ratchetId": "ratchet-1-50",
     "bitId": "bit-ignition",
-    "assessment": "BahamutBlitz BK1-50I (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-16. Parts: BahamutBlitz / Knuckle / 1-50 / Ignition."
+    "assessment": {
+      "en": "BahamutBlitz BK1-50I (Special Ver.) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-16. Parts: BahamutBlitz / Knuckle / 1-50 / Ignition.",
+      "de": ""
+    }
   },
   {
     "id": "unicorn-delta-po3-60gu-cx-17-01",
@@ -1740,7 +2166,10 @@
     "assistBladeId": "odd",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-gear-unite",
-    "assessment": "UnicornDelta PO3-60GU is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-01. Parts: UnicornDelta / Odd / 3-60 / Gear Unite."
+    "assessment": {
+      "en": "UnicornDelta PO3-60GU is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-01. Parts: UnicornDelta / Odd / 3-60 / Gear Unite.",
+      "de": ""
+    }
   },
   {
     "id": "unicorn-delta-po1-80gr-cx-17-02",
@@ -1753,7 +2182,10 @@
     "assistBladeId": "odd",
     "ratchetId": "ratchet-1-80",
     "bitId": "bit-gear-rush",
-    "assessment": "UnicornDelta PO1-80GR is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-02. Parts: UnicornDelta / Odd / 1-80 / Gear Rush."
+    "assessment": {
+      "en": "UnicornDelta PO1-80GR is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-02. Parts: UnicornDelta / Odd / 1-80 / Gear Rush.",
+      "de": ""
+    }
   },
   {
     "id": "samurai-saber-9-65lo-cx-17-03",
@@ -1766,7 +2198,10 @@
     "assistBladeId": "slash",
     "ratchetId": "ratchet-9-65",
     "bitId": "bit-low-orbital",
-    "assessment": "SamuraiSaber 9-65LO is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-03. Parts: Samurai Saber / Slash / 9-65 / Low Orbital."
+    "assessment": {
+      "en": "SamuraiSaber 9-65LO is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-03. Parts: Samurai Saber / Slash / 9-65 / Low Orbital.",
+      "de": ""
+    }
   },
   {
     "id": "hells-hammer-3-85gu-cx-17-04",
@@ -1779,7 +2214,10 @@
     "assistBladeId": "turn-a",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-gear-unite",
-    "assessment": "HellsHammer 3-85GU is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-04. Parts: Hells Hammer / Turn-A / 3-85 / Gear Unite."
+    "assessment": {
+      "en": "HellsHammer 3-85GU is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-04. Parts: Hells Hammer / Turn-A / 3-85 / Gear Unite.",
+      "de": ""
+    }
   },
   {
     "id": "tyranno-beat-3-60n-cx-17-05",
@@ -1792,7 +2230,10 @@
     "assistBladeId": "jaggy",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-needle",
-    "assessment": "TyrannoBeat 3-60N is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-05. Parts: Tyranno Beat / Jaggy / 3-60 / Needle."
+    "assessment": {
+      "en": "TyrannoBeat 3-60N is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-05. Parts: Tyranno Beat / Jaggy / 3-60 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "crimson-garuda-7-80gu-cx-17-06",
@@ -1805,7 +2246,10 @@
     "assistBladeId": "wheel",
     "ratchetId": "ratchet-7-80",
     "bitId": "bit-gear-unite",
-    "assessment": "CrimsonGaruda 7-80GU is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-06. Parts: Crimson Garuda / Wheel / 7-80 / Gear Unite."
+    "assessment": {
+      "en": "CrimsonGaruda 7-80GU is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-17-06. Parts: Crimson Garuda / Wheel / 7-80 / Gear Unite.",
+      "de": ""
+    }
   },
   {
     "id": "brachio-whip-ow5-70nr-cx-18-01",
@@ -1818,7 +2262,10 @@
     "assistBladeId": "outer",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-narrow",
-    "assessment": "BrachioWhip OW5-70Nr is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-18-01. Parts: BrachioWhip / Outer / 5-70 / Narrow."
+    "assessment": {
+      "en": "BrachioWhip OW5-70Nr is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-18-01. Parts: BrachioWhip / Outer / 5-70 / Narrow.",
+      "de": ""
+    }
   },
   {
     "id": "brachio-whip-ow5-70nr-cx-18-02",
@@ -1831,7 +2278,10 @@
     "assistBladeId": "outer",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-narrow",
-    "assessment": "BrachioWhip OW5-70Nr (Variant 2) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-18-02. Parts: BrachioWhip / Outer / 5-70 / Narrow."
+    "assessment": {
+      "en": "BrachioWhip OW5-70Nr (Variant 2) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-18-02. Parts: BrachioWhip / Outer / 5-70 / Narrow.",
+      "de": ""
+    }
   },
   {
     "id": "brachio-whip-ow5-70nr-cx-18-03",
@@ -1844,7 +2294,10 @@
     "assistBladeId": "outer",
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-narrow",
-    "assessment": "BrachioWhip OW5-70Nr (Variant 3) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-18-03. Parts: BrachioWhip / Outer / 5-70 / Narrow."
+    "assessment": {
+      "en": "BrachioWhip OW5-70Nr (Variant 3) is a right-spin factory-combined Beyblade from Takara Tomy, released as CX-18-03. Parts: BrachioWhip / Outer / 5-70 / Narrow.",
+      "de": ""
+    }
   },
   {
     "id": "iron-man-4-80b-bxg-29",
@@ -1856,7 +2309,10 @@
     "bladeId": "iron-man",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "Iron Man 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-29. Parts: Iron  Man / 4-80 / Ball."
+    "assessment": {
+      "en": "Iron Man 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-29. Parts: Iron  Man / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "thanos-4-60p-bxg-29",
@@ -1868,7 +2324,10 @@
     "bladeId": "thanos",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-point",
-    "assessment": "Thanos 4-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-29. Parts: Thanos / 4-60 / Point."
+    "assessment": {
+      "en": "Thanos 4-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-29. Parts: Thanos / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "spider-man-3-60f-bxg-30",
@@ -1880,7 +2339,10 @@
     "bladeId": "spider-man",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "Spider-Man 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-30. Parts: Spider-man / 3-60 / Flat."
+    "assessment": {
+      "en": "Spider-Man 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-30. Parts: Spider-man / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "venom-3-80n-bxg-30",
@@ -1892,7 +2354,10 @@
     "bladeId": "venom",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
-    "assessment": "Venom 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-30. Parts: Venom / 3-80 / Needle."
+    "assessment": {
+      "en": "Venom 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-30. Parts: Venom / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "luke-skywalker-4-80b-bxg-33",
@@ -1904,7 +2369,10 @@
     "bladeId": "luke-skywalker",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "Luke Skywalker 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-33. Parts: Luke  Skywalker / 4-80 / Ball."
+    "assessment": {
+      "en": "Luke Skywalker 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-33. Parts: Luke  Skywalker / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "darth-vader-4-60p-bxg-33",
@@ -1916,7 +2384,10 @@
     "bladeId": "darth-vader",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-point",
-    "assessment": "Darth Vader 4-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-33. Parts: Darth  Vader / 4-60 / Point."
+    "assessment": {
+      "en": "Darth Vader 4-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-33. Parts: Darth  Vader / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "the-mandalorian-3-60f-bxg-39",
@@ -1928,7 +2399,10 @@
     "bladeId": "the-mandalorian",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "The Mandalorian 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-39. Parts: The  Mandalorian / 3-60 / Flat."
+    "assessment": {
+      "en": "The Mandalorian 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-39. Parts: The  Mandalorian / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "moff-gideon-3-80n-bxg-39",
@@ -1940,7 +2414,10 @@
     "bladeId": "moff-gideon",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
-    "assessment": "Moff Gideon 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-39. Parts: Moff  Gideon / 3-80 / Needle."
+    "assessment": {
+      "en": "Moff Gideon 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-39. Parts: Moff  Gideon / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "optimus-prime-4-60p-g0353",
@@ -1952,7 +2429,10 @@
     "bladeId": "optimus-prime",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-point",
-    "assessment": "Optimus Prime 4-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as G0353. Parts: Optimus  Prime / 4-60 / Point."
+    "assessment": {
+      "en": "Optimus Prime 4-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as G0353. Parts: Optimus  Prime / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "megatron-4-80b-g0353",
@@ -1964,7 +2444,10 @@
     "bladeId": "megatron",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "Megatron 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as G0353. Parts: Megatron / 4-80 / Ball."
+    "assessment": {
+      "en": "Megatron 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as G0353. Parts: Megatron / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "optimus-primal-3-60f-g0352",
@@ -1976,7 +2459,10 @@
     "bladeId": "optimus-primal",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "Optimus Primal 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as G0352. Parts: Optimus  Primal / 3-60 / Flat."
+    "assessment": {
+      "en": "Optimus Primal 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as G0352. Parts: Optimus  Primal / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "starscream-3-80n-g0352",
@@ -1988,7 +2474,10 @@
     "bladeId": "starscream",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
-    "assessment": "Starscream 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as G0352. Parts: Starscream / 3-80 / Needle."
+    "assessment": {
+      "en": "Starscream 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as G0352. Parts: Starscream / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "t-rex-1-80gb-bxg-40",
@@ -2000,7 +2489,10 @@
     "bladeId": "t-rex",
     "ratchetId": "ratchet-1-80",
     "bitId": "bit-gear-ball",
-    "assessment": "T. Rex 1-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-40. Parts: T. Rex / 1-80 / Gear Ball."
+    "assessment": {
+      "en": "T. Rex 1-80GB is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-40. Parts: T. Rex / 1-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "mosasaurus-9-60u-bxg-40",
@@ -2012,7 +2504,10 @@
     "bladeId": "mosasaurus",
     "ratchetId": "ratchet-9-60",
     "bitId": "bit-unite",
-    "assessment": "Mosasaurus 9-60U is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-40. Parts: Mosasaurus / 9-60 / Unite."
+    "assessment": {
+      "en": "Mosasaurus 9-60U is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-40. Parts: Mosasaurus / 9-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "spinosaurus-3-85a-bxg-41",
@@ -2024,7 +2519,10 @@
     "bladeId": "spinosaurus",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-accel",
-    "assessment": "Spinosaurus 3-85A is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-41. Parts: Spinosaurus / 3-85 / Accel."
+    "assessment": {
+      "en": "Spinosaurus 3-85A is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-41. Parts: Spinosaurus / 3-85 / Accel.",
+      "de": ""
+    }
   },
   {
     "id": "quetzalcoatlus-4-55d-bxg-41",
@@ -2036,7 +2534,10 @@
     "bladeId": "quetzalcoatlus",
     "ratchetId": "ratchet-4-55",
     "bitId": "bit-dot",
-    "assessment": "Quetzalcoatlus 4-55D is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-41. Parts: Quetzalcoatlus / 4-55 / Dot."
+    "assessment": {
+      "en": "Quetzalcoatlus 4-55D is a right-spin factory-combined Beyblade from Takara Tomy, released as BXG-41. Parts: Quetzalcoatlus / 4-55 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-60f-f9580",
@@ -2048,7 +2549,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9580. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9580. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "helm-knight-3-80n-f9581",
@@ -2060,7 +2564,10 @@
     "bladeId": "knight-shield-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9581. Parts: Knight Shield / 3-80 / Needle."
+    "assessment": {
+      "en": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9581. Parts: Knight Shield / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "arrow-wizard-4-80b-f9582",
@@ -2072,7 +2579,10 @@
     "bladeId": "wizard-arrow-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Arrow Wizard 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as F9582. Parts: Wizard Arrow / 4-80 / Ball."
+    "assessment": {
+      "en": "Arrow Wizard 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as F9582. Parts: Wizard Arrow / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "scythe-incendio-4-60t-f9583",
@@ -2084,7 +2594,10 @@
     "bladeId": "hells-scythe-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Scythe Incendio 4-60T is a right-spin factory-combined Beyblade from Hasbro, released as F9583. Parts: Hells Scythe / 4-60 / Taper."
+    "assessment": {
+      "en": "Scythe Incendio 4-60T is a right-spin factory-combined Beyblade from Hasbro, released as F9583. Parts: Hells Scythe / 4-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "lance-knight-4-80hn-g0184",
@@ -2096,7 +2609,10 @@
     "bladeId": "knight-lance-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "Lance Knight 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G0184. Parts: Knight Lance / 4-80 / High Needle."
+    "assessment": {
+      "en": "Lance Knight 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G0184. Parts: Knight Lance / 4-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "claw-leon-5-60p-g0193",
@@ -2108,7 +2624,10 @@
     "bladeId": "leon-claw-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Claw Leon 5-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0193. Parts: Leon Claw / 5-60 / Point."
+    "assessment": {
+      "en": "Claw Leon 5-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0193. Parts: Leon Claw / 5-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "buster-dran-1-60a-g1536",
@@ -2120,7 +2639,10 @@
     "bladeId": "dran-buster-hasbro",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-accel-hasbro",
-    "assessment": "Buster Dran 1-60A is a right-spin factory-combined Beyblade from Hasbro, released as G1536. Parts: Dran Buster / 1-60 / Accel."
+    "assessment": {
+      "en": "Buster Dran 1-60A is a right-spin factory-combined Beyblade from Hasbro, released as G1536. Parts: Dran Buster / 1-60 / Accel.",
+      "de": ""
+    }
   },
   {
     "id": "wand-wizard-5-70db-g1537",
@@ -2132,7 +2654,10 @@
     "bladeId": "wizard-rod-hasbro",
     "ratchetId": "ratchet-5-70-hasbro",
     "bitId": "bit-disk-ball-hasbro",
-    "assessment": "Wand Wizard 5-70DB is a right-spin factory-combined Beyblade from Hasbro, released as G1537. Parts: Wizard Rod / 5-70 / Disk Ball."
+    "assessment": {
+      "en": "Wand Wizard 5-70DB is a right-spin factory-combined Beyblade from Hasbro, released as G1537. Parts: Wizard Rod / 5-70 / Disk Ball.",
+      "de": ""
+    }
   },
   {
     "id": "wand-wizard-1-60r-g1538",
@@ -2144,7 +2669,10 @@
     "bladeId": "wizard-rod-hasbro",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-rush-hasbro",
-    "assessment": "Wand Wizard 1-60R is a right-spin factory-combined Beyblade from Hasbro, released as G1538. Parts: Wizard Rod / 1-60 / Rush."
+    "assessment": {
+      "en": "Wand Wizard 1-60R is a right-spin factory-combined Beyblade from Hasbro, released as G1538. Parts: Wizard Rod / 1-60 / Rush.",
+      "de": ""
+    }
   },
   {
     "id": "shadow-shinobi-1-80mn-g1539",
@@ -2156,7 +2684,10 @@
     "bladeId": "shinobi-shadow-hasbro",
     "ratchetId": "ratchet-1-80-hasbro",
     "bitId": "bit-metal-needle-hasbro",
-    "assessment": "Shadow Shinobi 1-80MN is a right-spin factory-combined Beyblade from Hasbro, released as G1539. Parts: Shinobi Shadow / 1-80 / Metal Needle."
+    "assessment": {
+      "en": "Shadow Shinobi 1-80MN is a right-spin factory-combined Beyblade from Hasbro, released as G1539. Parts: Shinobi Shadow / 1-80 / Metal Needle.",
+      "de": ""
+    }
   },
   {
     "id": "scarlet-garuda-4-70tp-g1673",
@@ -2168,7 +2699,10 @@
     "bladeId": "crimson-garuda-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Scarlet Garuda 4-70TP is a right-spin factory-combined Beyblade from Hasbro, released as G1673. Parts: Crimson Garuda / 4-70 / Taper."
+    "assessment": {
+      "en": "Scarlet Garuda 4-70TP is a right-spin factory-combined Beyblade from Hasbro, released as G1673. Parts: Crimson Garuda / 4-70 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "sterling-wolf-3-80fb-g1674",
@@ -2180,7 +2714,10 @@
     "bladeId": "silver-wolf-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-free-ball-hasbro",
-    "assessment": "Sterling Wolf 3-80FB is a right-spin factory-combined Beyblade from Hasbro, released as G1674. Parts: Silver Wolf / 3-80 / Free Ball."
+    "assessment": {
+      "en": "Sterling Wolf 3-80FB is a right-spin factory-combined Beyblade from Hasbro, released as G1674. Parts: Silver Wolf / 3-80 / Free Ball.",
+      "de": ""
+    }
   },
   {
     "id": "shelter-drake-7-80gp-g1675",
@@ -2192,7 +2729,10 @@
     "bladeId": "shelter-drake-hasbro",
     "ratchetId": "ratchet-7-80-hasbro",
     "bitId": "bit-gear-point-hasbro",
-    "assessment": "Shelter Drake 7-80GP is a right-spin factory-combined Beyblade from Hasbro, released as G1675. Parts: Shelter Drake / 7-80 / Gear Point."
+    "assessment": {
+      "en": "Shelter Drake 7-80GP is a right-spin factory-combined Beyblade from Hasbro, released as G1675. Parts: Shelter Drake / 7-80 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "rock-golem-1-60un-g1676",
@@ -2204,7 +2744,10 @@
     "bladeId": "golem-rock-hasbro",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-under-needle-hasbro",
-    "assessment": "Rock Golem 1-60UN is a right-spin factory-combined Beyblade from Hasbro, released as G1676. Parts: Golem Rock / 1-60 / Under Needle."
+    "assessment": {
+      "en": "Rock Golem 1-60UN is a right-spin factory-combined Beyblade from Hasbro, released as G1676. Parts: Golem Rock / 1-60 / Under Needle.",
+      "de": ""
+    }
   },
   {
     "id": "buster-dran-5-70db-g1751",
@@ -2216,7 +2759,10 @@
     "bladeId": "dran-buster-hasbro",
     "ratchetId": "ratchet-5-70-hasbro",
     "bitId": "bit-disk-ball-hasbro",
-    "assessment": "Buster Dran 5-70DB is a right-spin factory-combined Beyblade from Hasbro, released as G1751. Parts: Dran Buster / 5-70 / Disk Ball."
+    "assessment": {
+      "en": "Buster Dran 5-70DB is a right-spin factory-combined Beyblade from Hasbro, released as G1751. Parts: Dran Buster / 5-70 / Disk Ball.",
+      "de": ""
+    }
   },
   {
     "id": "hammer-incendio-3-70h-g1752",
@@ -2228,7 +2774,10 @@
     "bladeId": "hells-hammer-hasbro",
     "ratchetId": "ratchet-3-70-hasbro",
     "bitId": "bit-hexa-hasbro",
-    "assessment": "Hammer Incendio 3-70H is a right-spin factory-combined Beyblade from Hasbro, released as G1752. Parts: Hells Hammer / 3-70 / Hexa."
+    "assessment": {
+      "en": "Hammer Incendio 3-70H is a right-spin factory-combined Beyblade from Hasbro, released as G1752. Parts: Hells Hammer / 3-70 / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "stun-medusa-9-60gb-g2738",
@@ -2240,7 +2789,10 @@
     "bladeId": "stun-medusa",
     "ratchetId": "ratchet-9-60-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Stun Medusa 9-60GB is a right-spin factory-combined Beyblade from Hasbro, released as G2738. Parts: Stun Medusa / 9-60 / Gear Ball."
+    "assessment": {
+      "en": "Stun Medusa 9-60GB is a right-spin factory-combined Beyblade from Hasbro, released as G2738. Parts: Stun Medusa / 9-60 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "rudder-phoenix-4-70lf-g2739",
@@ -2252,7 +2804,10 @@
     "bladeId": "phoenix-rudder-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-low-flat-hasbro",
-    "assessment": "Rudder Phoenix 4-70LF is a right-spin factory-combined Beyblade from Hasbro, released as G2739. Parts: Phoenix Rudder / 4-70 / Low Flat."
+    "assessment": {
+      "en": "Rudder Phoenix 4-70LF is a right-spin factory-combined Beyblade from Hasbro, released as G2739. Parts: Phoenix Rudder / 4-70 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "feather-phoenix-2-60n-g2740",
@@ -2264,7 +2819,10 @@
     "bladeId": "phoenix-feather-hasbro",
     "ratchetId": "ratchet-2-60-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Feather Phoenix 2-60N is a right-spin factory-combined Beyblade from Hasbro, released as G2740. Parts: Phoenix Feather / 2-60 / Needle."
+    "assessment": {
+      "en": "Feather Phoenix 2-60N is a right-spin factory-combined Beyblade from Hasbro, released as G2740. Parts: Phoenix Feather / 2-60 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "courage-dran-s-6-60v-g1677",
@@ -2277,7 +2835,10 @@
     "assistBladeId": "slash-hasbro",
     "ratchetId": "ratchet-6-60-hasbro",
     "bitId": "bit-vortex-hasbro",
-    "assessment": "Courage Dran S 6-60V is a right-spin factory-combined Beyblade from Hasbro, released as G1677. Parts: DranBrave / Slash / 6-60 / Vortex."
+    "assessment": {
+      "en": "Courage Dran S 6-60V is a right-spin factory-combined Beyblade from Hasbro, released as G1677. Parts: DranBrave / Slash / 6-60 / Vortex.",
+      "de": ""
+    }
   },
   {
     "id": "reaper-incendio-t-4-70k-g1678",
@@ -2290,7 +2851,10 @@
     "assistBladeId": "turn-a-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-kick-hasbro",
-    "assessment": "Reaper Incendio T 4-70K is a right-spin factory-combined Beyblade from Hasbro, released as G1678. Parts: HellsReaper / Turn-A / 4-70 / Kick."
+    "assessment": {
+      "en": "Reaper Incendio T 4-70K is a right-spin factory-combined Beyblade from Hasbro, released as G1678. Parts: HellsReaper / Turn-A / 4-70 / Kick.",
+      "de": ""
+    }
   },
   {
     "id": "arc-wizard-r-4-55lo-g1679",
@@ -2303,7 +2867,10 @@
     "assistBladeId": "round-hasbro",
     "ratchetId": "ratchet-4-55-hasbro",
     "bitId": "bit-low-orbital-hasbro",
-    "assessment": "Arc Wizard R 4-55LO is a right-spin factory-combined Beyblade from Hasbro, released as G1679. Parts: WizardArc / Round / 4-55 / Low Orbital."
+    "assessment": {
+      "en": "Arc Wizard R 4-55LO is a right-spin factory-combined Beyblade from Hasbro, released as G1679. Parts: WizardArc / Round / 4-55 / Low Orbital.",
+      "de": ""
+    }
   },
   {
     "id": "dark-perseus-b-6-80w-g1680",
@@ -2316,7 +2883,10 @@
     "assistBladeId": "bumper-hasbro",
     "ratchetId": "ratchet-6-80-hasbro",
     "bitId": "bit-wall-hasbro",
-    "assessment": "Dark Perseus B 6-80W is a right-spin factory-combined Beyblade from Hasbro, released as G1680. Parts: PerseusDark / Bumper / 6-80 / Wall."
+    "assessment": {
+      "en": "Dark Perseus B 6-80W is a right-spin factory-combined Beyblade from Hasbro, released as G1680. Parts: PerseusDark / Bumper / 6-80 / Wall.",
+      "de": ""
+    }
   },
   {
     "id": "brush-fox-j-9-70gr-g1681",
@@ -2329,7 +2899,10 @@
     "assistBladeId": "jaggy-hasbro",
     "ratchetId": "ratchet-9-70-hasbro",
     "bitId": "bit-gear-rush-hasbro",
-    "assessment": "Brush Fox J 9-70GR is a right-spin factory-combined Beyblade from Hasbro, released as G1681. Parts: FoxBrush / Jaggy / 9-70 / Gear Rush."
+    "assessment": {
+      "en": "Brush Fox J 9-70GR is a right-spin factory-combined Beyblade from Hasbro, released as G1681. Parts: FoxBrush / Jaggy / 9-70 / Gear Rush.",
+      "de": ""
+    }
   },
   {
     "id": "fort-hornet-r-7-60t-g1682",
@@ -2342,7 +2915,10 @@
     "assistBladeId": "round-hasbro",
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Fort Hornet R 7-60T is a right-spin factory-combined Beyblade from Hasbro, released as G1682. Parts: Fort Hornet / Round / 7-60 / Taper."
+    "assessment": {
+      "en": "Fort Hornet R 7-60T is a right-spin factory-combined Beyblade from Hasbro, released as G1682. Parts: Fort Hornet / Round / 7-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "wriggle-kraken-s-3-85o-g1683",
@@ -2355,7 +2931,10 @@
     "assistBladeId": "slash-hasbro",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Wriggle Kraken S 3-85O is a right-spin factory-combined Beyblade from Hasbro, released as G1683. Parts: Wriggle Kraken / Slash / 3-85 / Orb."
+    "assessment": {
+      "en": "Wriggle Kraken S 3-85O is a right-spin factory-combined Beyblade from Hasbro, released as G1683. Parts: Wriggle Kraken / Slash / 3-85 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "antler-stag-b-2-60hn-g1684",
@@ -2368,7 +2947,10 @@
     "assistBladeId": "bumper-hasbro",
     "ratchetId": "ratchet-2-60-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "Antler Stag B 2-60HN is a right-spin factory-combined Beyblade from Hasbro, released as G1684. Parts: Antler Stag / Bumper / 2-60 / High Needle."
+    "assessment": {
+      "en": "Antler Stag B 2-60HN is a right-spin factory-combined Beyblade from Hasbro, released as G1684. Parts: Antler Stag / Bumper / 2-60 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "reaper-rhino-c-4-55d-g2746",
@@ -2381,7 +2963,10 @@
     "assistBladeId": "charge-hasbro",
     "ratchetId": "ratchet-4-55-hasbro",
     "bitId": "bit-dot-hasbro",
-    "assessment": "Reaper Rhino C 4-55D is a right-spin factory-combined Beyblade from Hasbro, released as G2746. Parts: RhinoReaper / Charge / 4-55 / Dot."
+    "assessment": {
+      "en": "Reaper Rhino C 4-55D is a right-spin factory-combined Beyblade from Hasbro, released as G2746. Parts: RhinoReaper / Charge / 4-55 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "flame-cerberus-w-5-80wb-g2747",
@@ -2394,7 +2979,10 @@
     "assistBladeId": "wheel-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-wall-ball-hasbro",
-    "assessment": "Flame Cerberus W 5-80WB is a right-spin factory-combined Beyblade from Hasbro, released as G2747. Parts: CerberusFlame / Wheel / 5-80 / Wall Ball."
+    "assessment": {
+      "en": "Flame Cerberus W 5-80WB is a right-spin factory-combined Beyblade from Hasbro, released as G2747. Parts: CerberusFlame / Wheel / 5-80 / Wall Ball.",
+      "de": ""
+    }
   },
   {
     "id": "fang-leon-t-4-60u-g2748",
@@ -2407,7 +2995,10 @@
     "assistBladeId": "turn-a-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-unite-hasbro",
-    "assessment": "Fang Leon T 4-60U is a right-spin factory-combined Beyblade from Hasbro, released as G2748. Parts: Fang / Turn-A / 4-60 / Unite."
+    "assessment": {
+      "en": "Fang Leon T 4-60U is a right-spin factory-combined Beyblade from Hasbro, released as G2748. Parts: Fang / Turn-A / 4-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "strike-dran-4-50ff-g2742",
@@ -2419,7 +3010,10 @@
     "bladeId": "strike-dran",
     "ratchetId": "ratchet-4-50-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Strike Dran 4-50FF is a right-spin factory-combined Beyblade from Hasbro, released as G2742. Parts: Strike Dran / 4-50 / Flat."
+    "assessment": {
+      "en": "Strike Dran 4-50FF is a right-spin factory-combined Beyblade from Hasbro, released as G2742. Parts: Strike Dran / 4-50 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "valor-bison-fb-g3497",
@@ -2431,7 +3025,10 @@
     "bladeId": "valor-bison",
     "ratchetId": "ratchet-integrated-hasbro",
     "bitId": "bit-free-ball-hasbro",
-    "assessment": "Valor Bison FB is a right-spin factory-combined Beyblade from Hasbro, released as G3497. Parts: Valor Bison / Integrated / Free Ball."
+    "assessment": {
+      "en": "Valor Bison FB is a right-spin factory-combined Beyblade from Hasbro, released as G3497. Parts: Valor Bison / Integrated / Free Ball.",
+      "de": ""
+    }
   },
   {
     "id": "rocket-griffon-h-g4561",
@@ -2443,7 +3040,10 @@
     "bladeId": "bullet-griffon-hasbro",
     "ratchetId": "ratchet-integrated-hasbro",
     "bitId": "bit-hexa-hasbro",
-    "assessment": "Rocket Griffon H is a right-spin factory-combined Beyblade from Hasbro, released as G4561. Parts: BulletGriffon / Integrated / Hexa."
+    "assessment": {
+      "en": "Rocket Griffon H is a right-spin factory-combined Beyblade from Hasbro, released as G4561. Parts: BulletGriffon / Integrated / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "rage-ragna-fe-4-55y-g4562",
@@ -2456,7 +3056,10 @@
     "assistBladeId": "erase-hasbro",
     "ratchetId": "ratchet-4-55-hasbro",
     "bitId": "bit-yielding-hasbro",
-    "assessment": "Rage Ragna FE 4-55Y is a right-spin factory-combined Beyblade from Hasbro, released as G4562. Parts: RagnaRage / Erase / 4-55 / Yielding."
+    "assessment": {
+      "en": "Rage Ragna FE 4-55Y is a right-spin factory-combined Beyblade from Hasbro, released as G4562. Parts: RagnaRage / Erase / 4-55 / Yielding.",
+      "de": ""
+    }
   },
   {
     "id": "armor-knight-gv-8-70un-g4563",
@@ -2469,7 +3072,10 @@
     "assistBladeId": "vertical-hasbro",
     "ratchetId": "ratchet-8-70-hasbro",
     "bitId": "bit-under-needle-hasbro",
-    "assessment": "Armor Knight GV 8-70UN is a right-spin factory-combined Beyblade from Hasbro, released as G4563. Parts: KnightFortress / Vertical / 8-70 / Under Needle."
+    "assessment": {
+      "en": "Armor Knight GV 8-70UN is a right-spin factory-combined Beyblade from Hasbro, released as G4563. Parts: KnightFortress / Vertical / 8-70 / Under Needle.",
+      "de": ""
+    }
   },
   {
     "id": "ring-aether-0-80ds-g4571",
@@ -2481,7 +3087,10 @@
     "bladeId": "ring-aether-hasbro",
     "ratchetId": "ratchet-0-80-hasbro",
     "bitId": "bit-dot-hasbro",
-    "assessment": "Ring Aether 0-80DS is a right-spin factory-combined Beyblade from Hasbro, released as G4571. Parts: Ring  Aether / 0-80 / Dot."
+    "assessment": {
+      "en": "Ring Aether 0-80DS is a right-spin factory-combined Beyblade from Hasbro, released as G4571. Parts: Ring  Aether / 0-80 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "blitz-bahamut-bk-1-50i-g4572",
@@ -2494,7 +3103,10 @@
     "assistBladeId": "knuckle-hasbro",
     "ratchetId": "ratchet-1-50-hasbro",
     "bitId": "bit-ignition-hasbro",
-    "assessment": "Blitz Bahamut BK 1-50I is a right-spin factory-combined Beyblade from Hasbro, released as G4572. Parts: BahamutBlitz / Knuckle / 1-50 / Ignition."
+    "assessment": {
+      "en": "Blitz Bahamut BK 1-50I is a right-spin factory-combined Beyblade from Hasbro, released as G4572. Parts: BahamutBlitz / Knuckle / 1-50 / Ignition.",
+      "de": ""
+    }
   },
   {
     "id": "steel-samurai-4-80t-g0188",
@@ -2506,7 +3118,10 @@
     "bladeId": "samurai-steel-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Steel Samurai 4-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0188. Parts: Samurai Steel / 4-80 / Taper."
+    "assessment": {
+      "en": "Steel Samurai 4-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0188. Parts: Samurai Steel / 4-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "horn-rhino-3-80s-g0192",
@@ -2518,7 +3133,10 @@
     "bladeId": "rhino-horn-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-spike-hasbro",
-    "assessment": "Horn Rhino 3-80S is a right-spin factory-combined Beyblade from Hasbro, released as G0192. Parts: Rhino Horn / 3-80 / Spike."
+    "assessment": {
+      "en": "Horn Rhino 3-80S is a right-spin factory-combined Beyblade from Hasbro, released as G0192. Parts: Rhino Horn / 3-80 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "keel-shark-3-60lf-g0194",
@@ -2530,7 +3148,10 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-low-flat-hasbro",
-    "assessment": "Keel Shark 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0194. Parts: Shark Edge / 3-60 / Low Flat."
+    "assessment": {
+      "en": "Keel Shark 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0194. Parts: Shark Edge / 3-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "talon-ptera-3-80b-g0195",
@@ -2542,7 +3163,10 @@
     "bladeId": "ptera-swing-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Talon Ptera 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0195. Parts: Ptera Swing / 3-80 / Ball."
+    "assessment": {
+      "en": "Talon Ptera 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0195. Parts: Ptera Swing / 3-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "sting-unicorn-5-60gp-g0283",
@@ -2554,7 +3178,10 @@
     "bladeId": "unicorn-sting-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-gear-point-hasbro",
-    "assessment": "Sting Unicorn 5-60GP is a right-spin factory-combined Beyblade from Hasbro, released as G0283. Parts: Unicorn Sting / 5-60 / Gear Point."
+    "assessment": {
+      "en": "Sting Unicorn 5-60GP is a right-spin factory-combined Beyblade from Hasbro, released as G0283. Parts: Unicorn Sting / 5-60 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "roar-tyranno-9-60gf-g0284",
@@ -2566,7 +3193,10 @@
     "bladeId": "tyranno-roar-hasbro",
     "ratchetId": "ratchet-9-60-hasbro",
     "bitId": "bit-gear-flat-hasbro",
-    "assessment": "Roar Tyranno 9-60GF is a right-spin factory-combined Beyblade from Hasbro, released as G0284. Parts: TyrannoRoar / 9-60 / Gear Flat."
+    "assessment": {
+      "en": "Roar Tyranno 9-60GF is a right-spin factory-combined Beyblade from Hasbro, released as G0284. Parts: TyrannoRoar / 9-60 / Gear Flat.",
+      "de": ""
+    }
   },
   {
     "id": "scythe-incendio-3-80b-g0285",
@@ -2578,7 +3208,10 @@
     "bladeId": "hells-scythe-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Scythe Incendio 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0285. Parts: Hells Scythe / 3-80 / Ball."
+    "assessment": {
+      "en": "Scythe Incendio 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0285. Parts: Hells Scythe / 3-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "savage-bear-3-60s-g0286",
@@ -2590,7 +3223,10 @@
     "bladeId": "bear-scratch-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-spike-hasbro",
-    "assessment": "Savage Bear 3-60S is a right-spin factory-combined Beyblade from Hasbro, released as G0286. Parts: Bear Scratch / 3-60 / Spike."
+    "assessment": {
+      "en": "Savage Bear 3-60S is a right-spin factory-combined Beyblade from Hasbro, released as G0286. Parts: Bear Scratch / 3-60 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "cowl-sphinx-9-80gn-g1530",
@@ -2602,7 +3238,10 @@
     "bladeId": "sphinx-cowl-hasbro",
     "ratchetId": "ratchet-9-80-hasbro",
     "bitId": "bit-gear-needle-hasbro",
-    "assessment": "Cowl Sphinx 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G1530. Parts: Sphinx Cowl / 9-80 / Gear Needle."
+    "assessment": {
+      "en": "Cowl Sphinx 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G1530. Parts: Sphinx Cowl / 9-80 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "arrow-wizard-4-80gb-g1531",
@@ -2614,7 +3253,10 @@
     "bladeId": "wizard-arrow-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Arrow Wizard 4-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G1531. Parts: Wizard Arrow / 4-80 / Gear Ball."
+    "assessment": {
+      "en": "Arrow Wizard 4-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G1531. Parts: Wizard Arrow / 4-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "obsidian-shell-4-60d-g1533",
@@ -2626,7 +3268,10 @@
     "bladeId": "black-shell-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-dot-hasbro",
-    "assessment": "Obsidian Shell 4-60D is a right-spin factory-combined Beyblade from Hasbro, released as G1533. Parts: Black Shell / 4-60 / Dot."
+    "assessment": {
+      "en": "Obsidian Shell 4-60D is a right-spin factory-combined Beyblade from Hasbro, released as G1533. Parts: Black Shell / 4-60 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "keel-shark-1-60q-g1534",
@@ -2638,7 +3283,10 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-quake-hasbro",
-    "assessment": "Keel Shark 1-60Q is a right-spin factory-combined Beyblade from Hasbro, released as G1534. Parts: Shark Edge / 1-60 / Quake."
+    "assessment": {
+      "en": "Keel Shark 1-60Q is a right-spin factory-combined Beyblade from Hasbro, released as G1534. Parts: Shark Edge / 1-60 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "tide-whale-5-80e-g1669",
@@ -2650,7 +3298,10 @@
     "bladeId": "whale-wave-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-elevate-hasbro",
-    "assessment": "Tide Whale 5-80E is a right-spin factory-combined Beyblade from Hasbro, released as G1669. Parts: Whale Wave / 5-80 / Elevate."
+    "assessment": {
+      "en": "Tide Whale 5-80E is a right-spin factory-combined Beyblade from Hasbro, released as G1669. Parts: Whale Wave / 5-80 / Elevate.",
+      "de": ""
+    }
   },
   {
     "id": "dagger-dran-4-70q-g1670",
@@ -2662,7 +3313,10 @@
     "bladeId": "dran-dagger-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-quake-hasbro",
-    "assessment": "Dagger Dran 4-70Q is a right-spin factory-combined Beyblade from Hasbro, released as G1670. Parts: Dran Dagger / 4-70 / Quake."
+    "assessment": {
+      "en": "Dagger Dran 4-70Q is a right-spin factory-combined Beyblade from Hasbro, released as G1670. Parts: Dran Dagger / 4-70 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "lance-knight-3-60lf-g1671",
@@ -2674,7 +3328,10 @@
     "bladeId": "knight-lance-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-low-flat-hasbro",
-    "assessment": "Lance Knight 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G1671. Parts: Knight Lance / 3-60 / Low Flat."
+    "assessment": {
+      "en": "Lance Knight 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G1671. Parts: Knight Lance / 3-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "yell-kong-3-60gb-g1754",
@@ -2686,7 +3343,10 @@
     "bladeId": "mammoth-tusk-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Yell Kong 3-60GB is a right-spin factory-combined Beyblade from Hasbro, released as G1754. Parts: Mammoth Tusk / 3-60 / Gear Ball."
+    "assessment": {
+      "en": "Yell Kong 3-60GB is a right-spin factory-combined Beyblade from Hasbro, released as G1754. Parts: Mammoth Tusk / 3-60 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "arrow-wizard-4-80o-g1755",
@@ -2698,7 +3358,10 @@
     "bladeId": "wizard-arrow-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Arrow Wizard 4-80O is a right-spin factory-combined Beyblade from Hasbro, released as G1755. Parts: Wizard Arrow / 4-80 / Orb."
+    "assessment": {
+      "en": "Arrow Wizard 4-80O is a right-spin factory-combined Beyblade from Hasbro, released as G1755. Parts: Wizard Arrow / 4-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "soar-phoenix-5-80h-g1756",
@@ -2710,7 +3373,10 @@
     "bladeId": "phoenix-wing-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-hexa-hasbro",
-    "assessment": "Soar Phoenix 5-80H is a right-spin factory-combined Beyblade from Hasbro, released as G1756. Parts: Phoenix Wing / 5-80 / Hexa."
+    "assessment": {
+      "en": "Soar Phoenix 5-80H is a right-spin factory-combined Beyblade from Hasbro, released as G1756. Parts: Phoenix Wing / 5-80 / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "scale-shark-4-50uf-g2731",
@@ -2722,7 +3388,10 @@
     "bladeId": "shark-scale-hasbro",
     "ratchetId": "ratchet-4-50-hasbro",
     "bitId": "bit-under-flat-hasbro",
-    "assessment": "Scale Shark 4-50UF is a right-spin factory-combined Beyblade from Hasbro, released as G2731. Parts: Shark Scale / 4-50 / Under Flat."
+    "assessment": {
+      "en": "Scale Shark 4-50UF is a right-spin factory-combined Beyblade from Hasbro, released as G2731. Parts: Shark Scale / 4-50 / Under Flat.",
+      "de": ""
+    }
   },
   {
     "id": "shelter-drake-5-70o-g2732",
@@ -2734,7 +3403,10 @@
     "bladeId": "shelter-drake-hasbro",
     "ratchetId": "ratchet-5-70-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Shelter Drake 5-70O is a right-spin factory-combined Beyblade from Hasbro, released as G2732. Parts: Shelter Drake / 5-70 / Orb."
+    "assessment": {
+      "en": "Shelter Drake 5-70O is a right-spin factory-combined Beyblade from Hasbro, released as G2732. Parts: Shelter Drake / 5-70 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "gust-bat-3-85gp-g2733",
@@ -2746,7 +3418,10 @@
     "bladeId": "gust-bat",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-gear-point-hasbro",
-    "assessment": "Gust Bat 3-85GP is a right-spin factory-combined Beyblade from Hasbro, released as G2733. Parts: Gust Bat / 3-85 / Gear Point."
+    "assessment": {
+      "en": "Gust Bat 3-85GP is a right-spin factory-combined Beyblade from Hasbro, released as G2733. Parts: Gust Bat / 3-85 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "curse-mummy-7-55w-g2734",
@@ -2758,7 +3433,10 @@
     "bladeId": "mummy-curse-hasbro",
     "ratchetId": "ratchet-7-55-hasbro",
     "bitId": "bit-wall-hasbro",
-    "assessment": "Curse Mummy 7-55W is a right-spin factory-combined Beyblade from Hasbro, released as G2734. Parts: Mummy Curse / 7-55 / Wall."
+    "assessment": {
+      "en": "Curse Mummy 7-55W is a right-spin factory-combined Beyblade from Hasbro, released as G2734. Parts: Mummy Curse / 7-55 / Wall.",
+      "de": ""
+    }
   },
   {
     "id": "ridge-triceratops-9-80gn-g3392",
@@ -2770,7 +3448,10 @@
     "bladeId": "tricera-press-hasbro",
     "ratchetId": "ratchet-9-80-hasbro",
     "bitId": "bit-gear-needle-hasbro",
-    "assessment": "Ridge Triceratops 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G3392. Parts: Tricera Press / 9-80 / Gear Needle."
+    "assessment": {
+      "en": "Ridge Triceratops 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G3392. Parts: Tricera Press / 9-80 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "buster-dran-5-70db-g3611",
@@ -2782,7 +3463,10 @@
     "bladeId": "dran-buster-hasbro",
     "ratchetId": "ratchet-5-70-hasbro",
     "bitId": "bit-disk-ball-hasbro",
-    "assessment": "Buster Dran 5-70DB is a right-spin factory-combined Beyblade from Hasbro, released as G3611. Parts: Dran Buster / 5-70 / Disk Ball."
+    "assessment": {
+      "en": "Buster Dran 5-70DB is a right-spin factory-combined Beyblade from Hasbro, released as G3611. Parts: Dran Buster / 5-70 / Disk Ball.",
+      "de": ""
+    }
   },
   {
     "id": "savage-bear-5-60f-g2735",
@@ -2794,7 +3478,10 @@
     "bladeId": "bear-scratch-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Savage Bear 5-60F is a right-spin factory-combined Beyblade from Hasbro, released as G2735. Parts: Bear Scratch / 5-60 / Flat."
+    "assessment": {
+      "en": "Savage Bear 5-60F is a right-spin factory-combined Beyblade from Hasbro, released as G2735. Parts: Bear Scratch / 5-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "knife-shinobi-4-80hn-g0190",
@@ -2806,7 +3493,10 @@
     "bladeId": "shinobi-knife-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "Knife Shinobi 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G0190. Parts: Shinobi Knife / 4-80 / High Needle."
+    "assessment": {
+      "en": "Knife Shinobi 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G0190. Parts: Shinobi Knife / 4-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "keel-shark-3-80f-g0190",
@@ -2818,7 +3508,10 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Keel Shark 3-80F is a right-spin factory-combined Beyblade from Hasbro, released as G0190. Parts: Shark Edge / 3-80 / Flat."
+    "assessment": {
+      "en": "Keel Shark 3-80F is a right-spin factory-combined Beyblade from Hasbro, released as G0190. Parts: Shark Edge / 3-80 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "chain-incendio-5-60ht-g0196",
@@ -2830,7 +3523,10 @@
     "bladeId": "hells-chain-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-high-taper-hasbro",
-    "assessment": "Chain Incendio 5-60HT is a right-spin factory-combined Beyblade from Hasbro, released as G0196. Parts: Hells Chain / 5-60 / High Taper."
+    "assessment": {
+      "en": "Chain Incendio 5-60HT is a right-spin factory-combined Beyblade from Hasbro, released as G0196. Parts: Hells Chain / 5-60 / High Taper.",
+      "de": ""
+    }
   },
   {
     "id": "arrow-wizard-4-60n-g0196",
@@ -2842,7 +3538,10 @@
     "bladeId": "wizard-arrow-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Arrow Wizard 4-60N is a right-spin factory-combined Beyblade from Hasbro, released as G0196. Parts: Wizard Arrow / 4-60 / Needle."
+    "assessment": {
+      "en": "Arrow Wizard 4-60N is a right-spin factory-combined Beyblade from Hasbro, released as G0196. Parts: Wizard Arrow / 4-60 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "tail-viper-5-80o-g0197",
@@ -2854,7 +3553,10 @@
     "bladeId": "viper-tail-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Tail Viper 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G0197. Parts: Viper Tail / 5-80 / Orb."
+    "assessment": {
+      "en": "Tail Viper 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G0197. Parts: Viper Tail / 5-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-60f-g0197",
@@ -2866,7 +3568,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G0197. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G0197. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "yell-kong-3-60gb-g0198",
@@ -2878,7 +3583,10 @@
     "bladeId": "mammoth-tusk-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Yell Kong 3-60GB is a right-spin factory-combined Beyblade from Hasbro, released as G0198. Parts: Mammoth Tusk / 3-60 / Gear Ball."
+    "assessment": {
+      "en": "Yell Kong 3-60GB is a right-spin factory-combined Beyblade from Hasbro, released as G0198. Parts: Mammoth Tusk / 3-60 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "helm-knight-3-80n-g0198",
@@ -2890,7 +3598,10 @@
     "bladeId": "knight-shield-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as G0198. Parts: Knight Shield / 3-80 / Needle."
+    "assessment": {
+      "en": "Helm Knight 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as G0198. Parts: Knight Shield / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "bite-croc-2-60q-g0199",
@@ -2902,7 +3613,10 @@
     "bladeId": "croco-crunch-hasbro",
     "ratchetId": "ratchet-2-60-hasbro",
     "bitId": "bit-quake-hasbro",
-    "assessment": "Bite Croc 2-60Q is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Croco Crunch / 2-60 / Quake."
+    "assessment": {
+      "en": "Bite Croc 2-60Q is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Croco Crunch / 2-60 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "sting-unicorn-5-60gp-g0199",
@@ -2914,7 +3628,10 @@
     "bladeId": "unicorn-sting-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-gear-point-hasbro",
-    "assessment": "Sting Unicorn 5-60GP is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Unicorn Sting / 5-60 / Gear Point."
+    "assessment": {
+      "en": "Sting Unicorn 5-60GP is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Unicorn Sting / 5-60 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "gale-wyvern-2-60s-g0282",
@@ -2926,7 +3643,10 @@
     "bladeId": "wyvern-gale-hasbro",
     "ratchetId": "ratchet-2-60-hasbro",
     "bitId": "bit-spike-hasbro",
-    "assessment": "Gale Wyvern 2-60S is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Wyvern Gale / 2-60 / Spike."
+    "assessment": {
+      "en": "Gale Wyvern 2-60S is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Wyvern Gale / 2-60 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "tail-viper-5-80o-g0282",
@@ -2938,7 +3658,10 @@
     "bladeId": "viper-tail-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Tail Viper 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Viper Tail / 5-80 / Orb."
+    "assessment": {
+      "en": "Tail Viper 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Viper Tail / 5-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "beat-tyranno-4-70q-g1542",
@@ -2950,7 +3673,10 @@
     "bladeId": "tyranno-beat-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-quake-hasbro",
-    "assessment": "Beat Tyranno 4-70Q is a right-spin factory-combined Beyblade from Hasbro, released as G1542. Parts: Tyranno Beat / 4-70 / Quake."
+    "assessment": {
+      "en": "Beat Tyranno 4-70Q is a right-spin factory-combined Beyblade from Hasbro, released as G1542. Parts: Tyranno Beat / 4-70 / Quake.",
+      "de": ""
+    }
   },
   {
     "id": "knife-shinobi-4-80hn-g1542",
@@ -2962,7 +3688,10 @@
     "bladeId": "shinobi-knife-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "Knife Shinobi 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G1542. Parts: Shinobi Knife / 4-80 / High Needle."
+    "assessment": {
+      "en": "Knife Shinobi 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G1542. Parts: Shinobi Knife / 4-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "gale-wyvern-2-60s-g1543",
@@ -2974,7 +3703,10 @@
     "bladeId": "wyvern-gale-hasbro",
     "ratchetId": "ratchet-2-60-hasbro",
     "bitId": "bit-spike-hasbro",
-    "assessment": "Gale Wyvern 2-60S is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Wyvern Gale / 2-60 / Spike."
+    "assessment": {
+      "en": "Gale Wyvern 2-60S is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Wyvern Gale / 2-60 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-60f-g1543",
@@ -2986,7 +3718,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "cowl-sphinx-9-80gn-g1685",
@@ -2998,7 +3733,10 @@
     "bladeId": "sphinx-cowl-hasbro",
     "ratchetId": "ratchet-9-80-hasbro",
     "bitId": "bit-gear-needle-hasbro",
-    "assessment": "Cowl Sphinx 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G1685. Parts: Sphinx Cowl / 9-80 / Gear Needle."
+    "assessment": {
+      "en": "Cowl Sphinx 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G1685. Parts: Sphinx Cowl / 9-80 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "crest-leon-7-60gn-g1685",
@@ -3010,7 +3748,10 @@
     "bladeId": "leon-crest-hasbro",
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-gear-needle-hasbro",
-    "assessment": "Crest Leon 7-60GN is a right-spin factory-combined Beyblade from Hasbro, released as G1685. Parts: Leon Crest / 7-60 / Gear Needle."
+    "assessment": {
+      "en": "Crest Leon 7-60GN is a right-spin factory-combined Beyblade from Hasbro, released as G1685. Parts: Leon Crest / 7-60 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "pearl-tiger-4-80lr-g1686",
@@ -3022,7 +3763,10 @@
     "bladeId": "weiss-tiger-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-low-rush-hasbro",
-    "assessment": "Pearl Tiger 4-80LR is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Weiss Tiger / 4-80 / Low Rush."
+    "assessment": {
+      "en": "Pearl Tiger 4-80LR is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Weiss Tiger / 4-80 / Low Rush.",
+      "de": ""
+    }
   },
   {
     "id": "gill-shark-3-80f-g1686",
@@ -3034,7 +3778,10 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Gill Shark 3-80F is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Shark Edge / 3-80 / Flat."
+    "assessment": {
+      "en": "Gill Shark 3-80F is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Shark Edge / 3-80 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "circle-ghost-0-80gb-g1687",
@@ -3046,7 +3793,10 @@
     "bladeId": "ghost-circle-hasbro",
     "ratchetId": "ratchet-0-80-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Circle Ghost 0-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G1687. Parts: Ghost Circle / 0-80 / Gear Ball."
+    "assessment": {
+      "en": "Circle Ghost 0-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G1687. Parts: Ghost Circle / 0-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "chain-incendio-5-60ht-g1687",
@@ -3058,7 +3808,10 @@
     "bladeId": "hells-chain-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-high-taper-hasbro",
-    "assessment": "Chain Incendio 5-60HT is a right-spin factory-combined Beyblade from Hasbro, released as G1687. Parts: Hells Chain / 5-60 / High Taper."
+    "assessment": {
+      "en": "Chain Incendio 5-60HT is a right-spin factory-combined Beyblade from Hasbro, released as G1687. Parts: Hells Chain / 5-60 / High Taper.",
+      "de": ""
+    }
   },
   {
     "id": "tackle-goat-7-70t-g1688",
@@ -3070,7 +3823,10 @@
     "bladeId": "goat-tackle-hasbro",
     "ratchetId": "ratchet-7-70-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Tackle Goat 7-70T is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Goat Tackle / 7-70 / Taper."
+    "assessment": {
+      "en": "Tackle Goat 7-70T is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Goat Tackle / 7-70 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-60f-g1688",
@@ -3082,7 +3838,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "calibur-samurai-6-70m-g2754",
@@ -3094,7 +3853,10 @@
     "bladeId": "samurai-calibur-hasbro",
     "ratchetId": "ratchet-6-70-hasbro",
     "bitId": "bit-merge-hasbro",
-    "assessment": "Calibur Samurai 6-70M is a right-spin factory-combined Beyblade from Hasbro, released as G2754. Parts: Samurai Calibur / 6-70 / Merge."
+    "assessment": {
+      "en": "Calibur Samurai 6-70M is a right-spin factory-combined Beyblade from Hasbro, released as G2754. Parts: Samurai Calibur / 6-70 / Merge.",
+      "de": ""
+    }
   },
   {
     "id": "obsidian-shell-4-60d-g2754",
@@ -3106,7 +3868,10 @@
     "bladeId": "black-shell-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-dot-hasbro",
-    "assessment": "Obsidian Shell 4-60D is a right-spin factory-combined Beyblade from Hasbro, released as G2754. Parts: Black Shell / 4-60 / Dot."
+    "assessment": {
+      "en": "Obsidian Shell 4-60D is a right-spin factory-combined Beyblade from Hasbro, released as G2754. Parts: Black Shell / 4-60 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "circle-ghost-0-80gb-g2755",
@@ -3118,7 +3883,10 @@
     "bladeId": "ghost-circle-hasbro",
     "ratchetId": "ratchet-0-80-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Circle Ghost 0-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Ghost Circle / 0-80 / Gear Ball."
+    "assessment": {
+      "en": "Circle Ghost 0-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Ghost Circle / 0-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "hack-viking-4-80p-g2755",
@@ -3130,7 +3898,10 @@
     "bladeId": "hack-viking-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Hack Viking 4-80P is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Hack  Viking / 4-80 / Point."
+    "assessment": {
+      "en": "Hack Viking 4-80P is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Hack  Viking / 4-80 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "spear-scorpio-0-70z-g2758",
@@ -3142,7 +3913,10 @@
     "bladeId": "scorpio-spear-hasbro",
     "ratchetId": "ratchet-0-70-hasbro",
     "bitId": "bit-zap-hasbro",
-    "assessment": "Spear Scorpio 0-70Z is a right-spin factory-combined Beyblade from Hasbro, released as G2758. Parts: Scorpio Spear / 0-70 / Zap."
+    "assessment": {
+      "en": "Spear Scorpio 0-70Z is a right-spin factory-combined Beyblade from Hasbro, released as G2758. Parts: Scorpio Spear / 0-70 / Zap.",
+      "de": ""
+    }
   },
   {
     "id": "tail-viper-5-80o-g2758",
@@ -3154,7 +3928,10 @@
     "bladeId": "viper-tail-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Tail Viper 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G2758. Parts: Viper Tail / 5-80 / Orb."
+    "assessment": {
+      "en": "Tail Viper 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G2758. Parts: Viper Tail / 5-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "dragoon-storm4-60ra-g1844",
@@ -3166,7 +3943,10 @@
     "bladeId": "dragoon-storm-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-rubber-accel-hasbro",
-    "assessment": "Dragoon Storm 4-60RA is a left-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Dragoon Storm / 4-60 / Rubber Accel."
+    "assessment": {
+      "en": "Dragoon Storm 4-60RA is a left-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Dragoon Storm / 4-60 / Rubber Accel.",
+      "de": ""
+    }
   },
   {
     "id": "storm-pegasis3-70ra-g1844",
@@ -3178,7 +3958,10 @@
     "bladeId": "storm-pegasis-hasbro",
     "ratchetId": "ratchet-3-70-hasbro",
     "bitId": "bit-rubber-accel-hasbro",
-    "assessment": "Storm Pegasis 3-70RA is a right-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Storm Pegasis / 3-70 / Rubber Accel."
+    "assessment": {
+      "en": "Storm Pegasis 3-70RA is a right-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Storm Pegasis / 3-70 / Rubber Accel.",
+      "de": ""
+    }
   },
   {
     "id": "victory-valkyrie2-60ra-g1844",
@@ -3190,7 +3973,10 @@
     "bladeId": "victory-valkyrie-hasbro",
     "ratchetId": "ratchet-2-60-hasbro",
     "bitId": "bit-rubber-accel-hasbro",
-    "assessment": "Victory Valkyrie 2-60RA is a right-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Victory Valkyrie / 2-60 / Rubber Accel."
+    "assessment": {
+      "en": "Victory Valkyrie 2-60RA is a right-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Victory Valkyrie / 2-60 / Rubber Accel.",
+      "de": ""
+    }
   },
   {
     "id": "dran-sword3-60f-holo-g1844",
@@ -3202,7 +3988,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Dran Sword 3-60F (Holo Sticker Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Dran Sword 3-60F (Holo Sticker Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as G1844. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "might-emperor-hop-g3028",
@@ -3215,7 +4004,10 @@
     "assistBladeId": "heavy-hasbro",
     "ratchetId": "ratchet-integrated-hasbro",
     "bitId": "bit-operate-hasbro",
-    "assessment": "Might Emperor HOp is a right-spin factory-combined Beyblade from Hasbro, released as G3028. Parts: EmperorMight / Heavy / Integrated / Operate."
+    "assessment": {
+      "en": "Might Emperor HOp is a right-spin factory-combined Beyblade from Hasbro, released as G3028. Parts: EmperorMight / Heavy / Integrated / Operate.",
+      "de": ""
+    }
   },
   {
     "id": "rock-golem-m-85hn-g3028",
@@ -3227,7 +4019,10 @@
     "bladeId": "golem-rock-hasbro",
     "ratchetId": "ratchet-m-85-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "Rock Golem M-85HN is a right-spin factory-combined Beyblade from Hasbro, released as G3028. Parts: Golem Rock / M-85 / High Needle."
+    "assessment": {
+      "en": "Rock Golem M-85HN is a right-spin factory-combined Beyblade from Hasbro, released as G3028. Parts: Golem Rock / M-85 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "keel-shark-5-60fb-g3028",
@@ -3239,7 +4034,10 @@
     "bladeId": "shark-gill-hasbro",
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-free-ball-hasbro",
-    "assessment": "Keel Shark 5-60FB is a right-spin factory-combined Beyblade from Hasbro, released as G3028. Parts: Shark Gill / 5-60 / Free Ball."
+    "assessment": {
+      "en": "Keel Shark 5-60FB is a right-spin factory-combined Beyblade from Hasbro, released as G3028. Parts: Shark Gill / 5-60 / Free Ball.",
+      "de": ""
+    }
   },
   {
     "id": "mail-knight3-85bs-g3195",
@@ -3251,7 +4049,10 @@
     "bladeId": "knight-mail-hasbro",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-bound-spike-hasbro",
-    "assessment": "Mail Knight 3-85BS is a right-spin factory-combined Beyblade from Hasbro, released as G3195. Parts: Knight Mail / 3-85 / Bound Spike."
+    "assessment": {
+      "en": "Mail Knight 3-85BS is a right-spin factory-combined Beyblade from Hasbro, released as G3195. Parts: Knight Mail / 3-85 / Bound Spike.",
+      "de": ""
+    }
   },
   {
     "id": "hammer-incendio-anodized-g3195",
@@ -3263,7 +4064,10 @@
     "bladeId": "hells-hammer-hasbro",
     "ratchetId": "ratchet-3-70-hasbro",
     "bitId": "bit-hexa-hasbro",
-    "assessment": "Hammer Incendio 3-70H (Anodized) is a right-spin factory-combined Beyblade from Hasbro, released as G3195. Parts: Hells Hammer / 3-70 / Hexa."
+    "assessment": {
+      "en": "Hammer Incendio 3-70H (Anodized) is a right-spin factory-combined Beyblade from Hasbro, released as G3195. Parts: Hells Hammer / 3-70 / Hexa.",
+      "de": ""
+    }
   },
   {
     "id": "rudder-phoenix9-70g-g3393",
@@ -3275,7 +4079,10 @@
     "bladeId": "phoenix-rudder-hasbro",
     "ratchetId": "ratchet-9-70-hasbro",
     "bitId": "bit-glide-hasbro",
-    "assessment": "Rudder Phoenix 9-70G is a right-spin factory-combined Beyblade from Hasbro, released as G3393. Parts: Phoenix Rudder / 9-70 / Glide."
+    "assessment": {
+      "en": "Rudder Phoenix 9-70G is a right-spin factory-combined Beyblade from Hasbro, released as G3393. Parts: Phoenix Rudder / 9-70 / Glide.",
+      "de": ""
+    }
   },
   {
     "id": "cowl-sphinx9-80gn-g3393",
@@ -3287,7 +4094,10 @@
     "bladeId": "sphinx-cowl-hasbro",
     "ratchetId": "ratchet-9-80-hasbro",
     "bitId": "bit-gear-needle-hasbro",
-    "assessment": "Cowl Sphinx 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G3393. Parts: Sphinx Cowl / 9-80 / Gear Needle."
+    "assessment": {
+      "en": "Cowl Sphinx 9-80GN is a right-spin factory-combined Beyblade from Hasbro, released as G3393. Parts: Sphinx Cowl / 9-80 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "dranzer-spiral3-80t-red-f9584",
@@ -3299,7 +4109,10 @@
     "bladeId": "dranzer-spiral-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Dranzer Spiral 3-80T (Red Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as F9584. Parts: Dranzer Spiral / 3-80 / Taper."
+    "assessment": {
+      "en": "Dranzer Spiral 3-80T (Red Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as F9584. Parts: Dranzer Spiral / 3-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "dranzer-spiral3-80t-green-f9585",
@@ -3311,7 +4124,10 @@
     "bladeId": "dranzer-spiral-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Dranzer Spiral 3-80T (Green Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as F9585. Parts: Dranzer Spiral / 3-80 / Taper."
+    "assessment": {
+      "en": "Dranzer Spiral 3-80T (Green Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as F9585. Parts: Dranzer Spiral / 3-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "dranzer-spiral3-80t-g1842",
@@ -3323,7 +4139,10 @@
     "bladeId": "dranzer-spiral-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Dranzer Spiral 3-80T is a right-spin factory-combined Beyblade from Hasbro, released as G1842. Parts: Dranzer Spiral / 3-80 / Taper."
+    "assessment": {
+      "en": "Dranzer Spiral 3-80T is a right-spin factory-combined Beyblade from Hasbro, released as G1842. Parts: Dranzer Spiral / 3-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "driger-slash4-80p-g1843",
@@ -3335,7 +4154,10 @@
     "bladeId": "driger-slash-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Driger Slash 4-80P is a right-spin factory-combined Beyblade from Hasbro, released as G1843. Parts: Driger Slash / 4-80 / Point."
+    "assessment": {
+      "en": "Driger Slash 4-80P is a right-spin factory-combined Beyblade from Hasbro, released as G1843. Parts: Driger Slash / 4-80 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "draciel-shield7-60d-g2218",
@@ -3347,7 +4169,10 @@
     "bladeId": "draciel-shield-hasbro",
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-dot-hasbro",
-    "assessment": "Draciel Shield 7-60D is a right-spin factory-combined Beyblade from Hasbro, released as G2218. Parts: Draciel Shield / 7-60 / Dot."
+    "assessment": {
+      "en": "Draciel Shield 7-60D is a right-spin factory-combined Beyblade from Hasbro, released as G2218. Parts: Draciel Shield / 7-60 / Dot.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-60f-red-g0197",
@@ -3359,7 +4184,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F (Red Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as G0197. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F (Red Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as G0197. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "helm-knight-5-80t-g0198",
@@ -3371,7 +4199,10 @@
     "bladeId": "knight-shield-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Helm Knight 5-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0198. Parts: Knight Shield / 5-80 / Taper."
+    "assessment": {
+      "en": "Helm Knight 5-80T is a right-spin factory-combined Beyblade from Hasbro, released as G0198. Parts: Knight Shield / 5-80 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "bite-croc-3-60lf-g0199",
@@ -3383,7 +4214,10 @@
     "bladeId": "croco-crunch-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-low-flat-hasbro",
-    "assessment": "Bite Croc 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Croco Crunch / 3-60 / Low Flat."
+    "assessment": {
+      "en": "Bite Croc 3-60LF is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Croco Crunch / 3-60 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "sting-unicorn-4-60p-g0199",
@@ -3395,7 +4229,10 @@
     "bladeId": "unicorn-sting-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Sting Unicorn 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Unicorn Sting / 4-60 / Point."
+    "assessment": {
+      "en": "Sting Unicorn 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0199. Parts: Unicorn Sting / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "gale-wyvern-5-80gb-g0282",
@@ -3407,7 +4244,10 @@
     "bladeId": "wyvern-gale-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Gale Wyvern 5-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Wyvern Gale / 5-80 / Gear Ball."
+    "assessment": {
+      "en": "Gale Wyvern 5-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Wyvern Gale / 5-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "tail-viper-3-80hn-g0282",
@@ -3419,7 +4259,10 @@
     "bladeId": "viper-tail-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "Tail Viper 3-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Viper Tail / 3-80 / High Needle."
+    "assessment": {
+      "en": "Tail Viper 3-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G0282. Parts: Viper Tail / 3-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "gale-wyvern-3-60t-g1543",
@@ -3431,7 +4274,10 @@
     "bladeId": "wyvern-gale-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-taper-hasbro",
-    "assessment": "Gale Wyvern 3-60T is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Wyvern Gale / 3-60 / Taper."
+    "assessment": {
+      "en": "Gale Wyvern 3-60T is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Wyvern Gale / 3-60 / Taper.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-80b-g1543",
@@ -3443,7 +4289,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Sword Dran 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Dran Sword / 3-80 / Ball."
+    "assessment": {
+      "en": "Sword Dran 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G1543. Parts: Dran Sword / 3-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "cowl-sphinx-1-80gf-g1685",
@@ -3455,7 +4304,10 @@
     "bladeId": "sphinx-cowl-hasbro",
     "ratchetId": "ratchet-1-80-hasbro",
     "bitId": "bit-gear-flat-hasbro",
-    "assessment": "Cowl Sphinx 1-80GF is a right-spin factory-combined Beyblade from Hasbro, released as G1685. Parts: Sphinx Cowl / 1-80 / Gear Flat."
+    "assessment": {
+      "en": "Cowl Sphinx 1-80GF is a right-spin factory-combined Beyblade from Hasbro, released as G1685. Parts: Sphinx Cowl / 1-80 / Gear Flat.",
+      "de": ""
+    }
   },
   {
     "id": "pearl-tiger-3-60u-g1686",
@@ -3467,7 +4319,10 @@
     "bladeId": "weiss-tiger-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-unite-hasbro",
-    "assessment": "Pearl Tiger 3-60U is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Weiss Tiger / 3-60 / Unite."
+    "assessment": {
+      "en": "Pearl Tiger 3-60U is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Weiss Tiger / 3-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "gill-shark-4-70o-g1686",
@@ -3479,7 +4334,10 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Gill Shark 4-70O is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Shark Edge / 4-70 / Orb."
+    "assessment": {
+      "en": "Gill Shark 4-70O is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Shark Edge / 4-70 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "tackle-goat-2-70n-g1688",
@@ -3491,7 +4349,10 @@
     "bladeId": "goat-tackle-hasbro",
     "ratchetId": "ratchet-2-70-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Tackle Goat 2-70N is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Goat Tackle / 2-70 / Needle."
+    "assessment": {
+      "en": "Tackle Goat 2-70N is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Goat Tackle / 2-70 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "sword-dran-3-60f-red-g1688",
@@ -3503,7 +4364,10 @@
     "bladeId": "dran-sword-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Sword Dran 3-60F (Red Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": {
+      "en": "Sword Dran 3-60F (Red Ver.) is a right-spin factory-combined Beyblade from Hasbro, released as G1688. Parts: Dran Sword / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "obsidian-shell-3-85s-g2754",
@@ -3515,7 +4379,10 @@
     "bladeId": "black-shell-hasbro",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-spike-hasbro",
-    "assessment": "Obsidian Shell 3-85S is a right-spin factory-combined Beyblade from Hasbro, released as G2754. Parts: Black Shell / 3-85 / Spike."
+    "assessment": {
+      "en": "Obsidian Shell 3-85S is a right-spin factory-combined Beyblade from Hasbro, released as G2754. Parts: Black Shell / 3-85 / Spike.",
+      "de": ""
+    }
   },
   {
     "id": "circle-ghost-4-60lr-g2755",
@@ -3527,7 +4394,10 @@
     "bladeId": "ghost-circle-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-low-rush-hasbro",
-    "assessment": "Circle Ghost 4-60LR is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Ghost Circle / 4-60 / Low Rush."
+    "assessment": {
+      "en": "Circle Ghost 4-60LR is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Ghost Circle / 4-60 / Low Rush.",
+      "de": ""
+    }
   },
   {
     "id": "hack-viking-4-55o-g2755",
@@ -3539,7 +4409,10 @@
     "bladeId": "hack-viking-hasbro",
     "ratchetId": "ratchet-4-55-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Hack Viking 4-55O is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Hack  Viking / 4-55 / Orb."
+    "assessment": {
+      "en": "Hack Viking 4-55O is a right-spin factory-combined Beyblade from Hasbro, released as G2755. Parts: Hack  Viking / 4-55 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "tail-viper-3-85lo-g2758",
@@ -3551,7 +4424,10 @@
     "bladeId": "viper-tail-hasbro",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-low-orb-hasbro",
-    "assessment": "Tail Viper 3-85LO is a right-spin factory-combined Beyblade from Hasbro, released as G2758. Parts: Viper Tail / 3-85 / Low Orb."
+    "assessment": {
+      "en": "Tail Viper 3-85LO is a right-spin factory-combined Beyblade from Hasbro, released as G2758. Parts: Viper Tail / 3-85 / Low Orb.",
+      "de": ""
+    }
   },
   {
     "id": "the-mandalorian-3-60f-f9589",
@@ -3563,7 +4439,10 @@
     "bladeId": "the-mandalorian-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "The Mandalorian 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9589. Parts: The Mandalorian / 3-60 / Flat."
+    "assessment": {
+      "en": "The Mandalorian 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as F9589. Parts: The Mandalorian / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "moff-gideon-3-80n-f9589",
@@ -3575,7 +4454,10 @@
     "bladeId": "moff-gideon-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Moff Gideon 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9589. Parts: Moff Gideon / 3-80 / Needle."
+    "assessment": {
+      "en": "Moff Gideon 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as F9589. Parts: Moff Gideon / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "iron-man-4-80b-g0287",
@@ -3587,7 +4469,10 @@
     "bladeId": "iron-man-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Iron Man 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0287. Parts: Iron Man / 4-80 / Ball."
+    "assessment": {
+      "en": "Iron Man 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0287. Parts: Iron Man / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "thanos-4-60p-g0287",
@@ -3599,7 +4484,10 @@
     "bladeId": "thanos-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Thanos 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0287. Parts: Thanos / 4-60 / Point."
+    "assessment": {
+      "en": "Thanos 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0287. Parts: Thanos / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "spider-man-3-60f-g0288",
@@ -3611,7 +4499,10 @@
     "bladeId": "spider-man-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-flat-hasbro",
-    "assessment": "Spider-Man 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G0288. Parts: Spider Man / 3-60 / Flat."
+    "assessment": {
+      "en": "Spider-Man 3-60F is a right-spin factory-combined Beyblade from Hasbro, released as G0288. Parts: Spider Man / 3-60 / Flat.",
+      "de": ""
+    }
   },
   {
     "id": "venom-3-80n-g0288",
@@ -3623,7 +4514,10 @@
     "bladeId": "venom-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-needle-hasbro",
-    "assessment": "Venom 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as G0288. Parts: Venom / 3-80 / Needle."
+    "assessment": {
+      "en": "Venom 3-80N is a right-spin factory-combined Beyblade from Hasbro, released as G0288. Parts: Venom / 3-80 / Needle.",
+      "de": ""
+    }
   },
   {
     "id": "luke-skywalker-4-80b-g0290",
@@ -3635,7 +4529,10 @@
     "bladeId": "luke-skywalker-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Luke Skywalker 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0290. Parts: Luke Skywalker / 4-80 / Ball."
+    "assessment": {
+      "en": "Luke Skywalker 4-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0290. Parts: Luke Skywalker / 4-80 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "darth-vader-4-60p-g0290",
@@ -3647,7 +4544,10 @@
     "bladeId": "darth-vader-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Darth Vader 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0290. Parts: Darth Vader / 4-60 / Point."
+    "assessment": {
+      "en": "Darth Vader 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G0290. Parts: Darth Vader / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "captain-america-4-70gb-g1690",
@@ -3659,7 +4559,10 @@
     "bladeId": "captain-america-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "Captain America 4-70GB is a right-spin factory-combined Beyblade from Hasbro, released as G1690. Parts: Captain America / 4-70 / Gear Ball."
+    "assessment": {
+      "en": "Captain America 4-70GB is a right-spin factory-combined Beyblade from Hasbro, released as G1690. Parts: Captain America / 4-70 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "red-hulk-1-80r-g1690",
@@ -3671,7 +4574,10 @@
     "bladeId": "red-hulk-hasbro",
     "ratchetId": "ratchet-1-80-hasbro",
     "bitId": "bit-rush-hasbro",
-    "assessment": "Red Hulk 1-80R is a right-spin factory-combined Beyblade from Hasbro, released as G1690. Parts: Red Hulk / 1-80 / Rush."
+    "assessment": {
+      "en": "Red Hulk 1-80R is a right-spin factory-combined Beyblade from Hasbro, released as G1690. Parts: Red Hulk / 1-80 / Rush.",
+      "de": ""
+    }
   },
   {
     "id": "miles-morales-1-60gn-g1691",
@@ -3683,7 +4589,10 @@
     "bladeId": "miles-morales-hasbro",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-gear-needle-hasbro",
-    "assessment": "Miles Morales 1-60GN is a right-spin factory-combined Beyblade from Hasbro, released as G1691. Parts: Miles Morales / 1-60 / Gear Needle."
+    "assessment": {
+      "en": "Miles Morales 1-60GN is a right-spin factory-combined Beyblade from Hasbro, released as G1691. Parts: Miles Morales / 1-60 / Gear Needle.",
+      "de": ""
+    }
   },
   {
     "id": "green-goblin-9-80ht-g1691",
@@ -3695,7 +4604,10 @@
     "bladeId": "green-goblin-hasbro",
     "ratchetId": "ratchet-9-80-hasbro",
     "bitId": "bit-high-taper-hasbro",
-    "assessment": "Green Goblin 9-80HT is a right-spin factory-combined Beyblade from Hasbro, released as G1691. Parts: Green Goblin / 9-80 / High Taper."
+    "assessment": {
+      "en": "Green Goblin 9-80HT is a right-spin factory-combined Beyblade from Hasbro, released as G1691. Parts: Green Goblin / 9-80 / High Taper.",
+      "de": ""
+    }
   },
   {
     "id": "bumblebee-3-60gp-g1692",
@@ -3707,7 +4619,10 @@
     "bladeId": "bumblebee-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-gear-point-hasbro",
-    "assessment": "Bumblebee 3-60GP is a right-spin factory-combined Beyblade from Hasbro, released as G1692. Parts: Bumblebee / 3-60 / Gear Point."
+    "assessment": {
+      "en": "Bumblebee 3-60GP is a right-spin factory-combined Beyblade from Hasbro, released as G1692. Parts: Bumblebee / 3-60 / Gear Point.",
+      "de": ""
+    }
   },
   {
     "id": "shockwave-5-80o-g1692",
@@ -3719,7 +4634,10 @@
     "bladeId": "shockwave-hasbro",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Shockwave 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G1692. Parts: Shockwave / 5-80 / Orb."
+    "assessment": {
+      "en": "Shockwave 5-80O is a right-spin factory-combined Beyblade from Hasbro, released as G1692. Parts: Shockwave / 5-80 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "obi-wan-kenobi-4-60p-g1694",
@@ -3731,7 +4649,10 @@
     "bladeId": "obi-wan-kenobi-hasbro",
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-point-hasbro",
-    "assessment": "Obi-Wan Kenobi 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G1694. Parts: Obi Wan Kenobi / 4-60 / Point."
+    "assessment": {
+      "en": "Obi-Wan Kenobi 4-60P is a right-spin factory-combined Beyblade from Hasbro, released as G1694. Parts: Obi Wan Kenobi / 4-60 / Point.",
+      "de": ""
+    }
   },
   {
     "id": "general-grievous-3-80hn-g1694",
@@ -3743,7 +4664,10 @@
     "bladeId": "general-grievous-hasbro",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-high-needle-hasbro",
-    "assessment": "General Grievous 3-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G1694. Parts: General Grievous / 3-80 / High Needle."
+    "assessment": {
+      "en": "General Grievous 3-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G1694. Parts: General Grievous / 3-80 / High Needle.",
+      "de": ""
+    }
   },
   {
     "id": "chewbacca-4-80lf-g1695",
@@ -3755,7 +4679,10 @@
     "bladeId": "chewbacca-hasbro",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-low-flat-hasbro",
-    "assessment": "Chewbacca 4-80LF is a right-spin factory-combined Beyblade from Hasbro, released as G1695. Parts: Chewbacca / 4-80 / Low Flat."
+    "assessment": {
+      "en": "Chewbacca 4-80LF is a right-spin factory-combined Beyblade from Hasbro, released as G1695. Parts: Chewbacca / 4-80 / Low Flat.",
+      "de": ""
+    }
   },
   {
     "id": "stormtrooper-5-70b-g1695",
@@ -3767,7 +4694,10 @@
     "bladeId": "stormtrooper-hasbro",
     "ratchetId": "ratchet-5-70-hasbro",
     "bitId": "bit-ball-hasbro",
-    "assessment": "Stormtrooper 5-70B is a right-spin factory-combined Beyblade from Hasbro, released as G1695. Parts: Stormtrooper / 5-70 / Ball."
+    "assessment": {
+      "en": "Stormtrooper 5-70B is a right-spin factory-combined Beyblade from Hasbro, released as G1695. Parts: Stormtrooper / 5-70 / Ball.",
+      "de": ""
+    }
   },
   {
     "id": "grogu-3-85e-g3061",
@@ -3779,7 +4709,10 @@
     "bladeId": "grogu-hasbro",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-elevate-hasbro",
-    "assessment": "Grogu 3-85E is a right-spin factory-combined Beyblade from Hasbro, released as G3061. Parts: Grogu / 3-85 / Elevate."
+    "assessment": {
+      "en": "Grogu 3-85E is a right-spin factory-combined Beyblade from Hasbro, released as G3061. Parts: Grogu / 3-85 / Elevate.",
+      "de": ""
+    }
   },
   {
     "id": "snowtrooper-7-60o-g3061",
@@ -3791,7 +4724,10 @@
     "bladeId": "snowtrooper-hasbro",
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-orb-hasbro",
-    "assessment": "Snowtrooper 7-60O is a right-spin factory-combined Beyblade from Hasbro, released as G3061. Parts: Snowtrooper / 7-60 / Orb."
+    "assessment": {
+      "en": "Snowtrooper 7-60O is a right-spin factory-combined Beyblade from Hasbro, released as G3061. Parts: Snowtrooper / 7-60 / Orb.",
+      "de": ""
+    }
   },
   {
     "id": "t-rex-1-80gb-g1898",
@@ -3803,7 +4739,10 @@
     "bladeId": "t-rex-hasbro",
     "ratchetId": "ratchet-1-80-hasbro",
     "bitId": "bit-gear-ball-hasbro",
-    "assessment": "T. Rex 1-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G1898. Parts: T Rex / 1-80 / Gear Ball."
+    "assessment": {
+      "en": "T. Rex 1-80GB is a right-spin factory-combined Beyblade from Hasbro, released as G1898. Parts: T Rex / 1-80 / Gear Ball.",
+      "de": ""
+    }
   },
   {
     "id": "mosasaurus-9-60u-g1898",
@@ -3815,7 +4754,10 @@
     "bladeId": "mosasaurus-hasbro",
     "ratchetId": "ratchet-9-60-hasbro",
     "bitId": "bit-unite-hasbro",
-    "assessment": "Mosasaurus 9-60U is a right-spin factory-combined Beyblade from Hasbro, released as G1898. Parts: Mosasaurus / 9-60 / Unite."
+    "assessment": {
+      "en": "Mosasaurus 9-60U is a right-spin factory-combined Beyblade from Hasbro, released as G1898. Parts: Mosasaurus / 9-60 / Unite.",
+      "de": ""
+    }
   },
   {
     "id": "spinosaurus-3-85a-g1899",
@@ -3827,7 +4769,10 @@
     "bladeId": "spinosaurus-hasbro",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-accel-hasbro",
-    "assessment": "Spinosaurus 3-85A is a right-spin factory-combined Beyblade from Hasbro, released as G1899. Parts: Spinosaurus / 3-85 / Accel."
+    "assessment": {
+      "en": "Spinosaurus 3-85A is a right-spin factory-combined Beyblade from Hasbro, released as G1899. Parts: Spinosaurus / 3-85 / Accel.",
+      "de": ""
+    }
   },
   {
     "id": "quetzalcoatlus-4-55d-g1899",
@@ -3839,6 +4784,9 @@
     "bladeId": "quetzalcoatlus-hasbro",
     "ratchetId": "ratchet-4-55-hasbro",
     "bitId": "bit-dot-hasbro",
-    "assessment": "Quetzalcoatlus 4-55D is a right-spin factory-combined Beyblade from Hasbro, released as G1899. Parts: Quetzalcoatlus / 4-55 / Dot."
+    "assessment": {
+      "en": "Quetzalcoatlus 4-55D is a right-spin factory-combined Beyblade from Hasbro, released as G1899. Parts: Quetzalcoatlus / 4-55 / Dot.",
+      "de": ""
+    }
   }
 ]

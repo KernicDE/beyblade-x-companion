@@ -6,7 +6,11 @@ import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { useTranslation } from '../i18n';
-import type { PartCategory } from '../types';
+import type { PartCategory, LocalizedString } from '../types';
+
+function localized(text: LocalizedString, locale: string) {
+  return text[(locale as 'en' | 'de')] || text.en;
+}
 
 const VALID_CATEGORIES: Array<PartCategory | 'launcher'> = [
   'blade',
@@ -17,7 +21,7 @@ const VALID_CATEGORIES: Array<PartCategory | 'launcher'> = [
 ];
 
 export function PartDetail() {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   const { category, id } = useParams<{ category: string; id: string }>();
   const { database, loading, error } = useData();
 
@@ -48,7 +52,7 @@ export function PartDetail() {
               )}
             </div>
           </div>
-          <p className="mt-4 text-[var(--text)]">{launcher.assessment}</p>
+          <p className="mt-4 text-[var(--text)]">{localized(launcher.assessment, locale)}</p>
           <div className="mt-4 flex items-center gap-2 text-sm">
             <ManufacturerBadge manufacturer={launcher.manufacturer} size="md" />
             <span className="text-[var(--muted)]">·</span>
@@ -92,7 +96,7 @@ export function PartDetail() {
             </div>
           </div>
 
-          <p className="text-[var(--text)]">{part.assessment}</p>
+          <p className="text-[var(--text)]">{localized(part.assessment, locale)}</p>
 
           <div className="space-y-2 text-sm">
             <p><ManufacturerBadge manufacturer={part.manufacturer} size="md" /></p>

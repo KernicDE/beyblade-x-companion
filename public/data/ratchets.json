@@ -7,8 +7,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1b/Ratchet3-60.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 3-60 Ratchet.",
-    "assessment": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 3-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.4,
@@ -30,8 +36,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Ratchet3-80.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 3-80 Ratchet.",
-    "assessment": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 3-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7.1,
@@ -53,8 +65,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet4-60.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 4-60 Ratchet.",
-    "assessment": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 4-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 60,
       "weightGrams": 6.3,
@@ -76,8 +94,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ae/Ratchet4-80.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 4-80 Ratchet.",
-    "assessment": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 4-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7,
@@ -99,8 +123,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f7/Ratchet5-60.png/revision/latest",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
-    "description": "The 5-60 Ratchet.",
-    "assessment": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 5-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 60,
       "weightGrams": 6.6,
@@ -122,8 +152,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Ratchet5-80.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 5-80 Ratchet.",
-    "assessment": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 5-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7.3,
@@ -145,8 +181,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet9-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-60 Ratchet.",
-    "assessment": "9-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 9-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.2,
@@ -168,8 +210,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/Ratchet9-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-80 Ratchet.",
-    "assessment": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 9-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 6.9,
@@ -191,8 +239,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/Ratchet1-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-60 Ratchet.",
-    "assessment": "1-60 is a right-spin Balance Type Ratchet. Weight: 6g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 1-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-60 is a right-spin Balance Type Ratchet. Weight: 6g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6,
@@ -214,8 +268,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/Ratchet3-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 3-70 Ratchet.",
-    "assessment": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 3-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.4,
@@ -237,8 +297,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cc/Ratchet5-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 5-70 Ratchet.",
-    "assessment": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 5-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.7,
@@ -260,8 +326,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/Ratchet4-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 4-70 Ratchet.",
-    "assessment": "4-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 70mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 4-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 6.4,
@@ -283,8 +355,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet1-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-80 Ratchet.",
-    "assessment": "1-80 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 8mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 1-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-80 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 6.7,
@@ -306,8 +384,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a6/Ratchet2-60.png/revision/latest",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
-    "description": "The 2-60 Ratchet.",
-    "assessment": "2-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 2-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "2-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.2,
@@ -329,8 +413,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dc/Ratchet2-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 2-80 Ratchet.",
-    "assessment": "2-80 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 11 / Stamina 9. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 2-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "2-80 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 11 / Stamina 9. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 6.9,
@@ -352,8 +442,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/39/Ratchet7-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-60 Ratchet.",
-    "assessment": "7-60 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 7-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-60 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 7.1,
@@ -375,8 +471,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/86/Ratchet9-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-70 Ratchet.",
-    "assessment": "9-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 9-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.3,
@@ -398,8 +500,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/Ratchet2-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 2-70 Ratchet.",
-    "assessment": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 2-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Height: 7mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.3,
@@ -421,8 +529,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/Ratchet3-85.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 3-85 Ratchet.",
-    "assessment": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 3-85 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 85,
       "weightGrams": 4.7,
@@ -444,8 +558,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/Ratchet7-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-70 Ratchet.",
-    "assessment": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 7-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 7.3,
@@ -467,8 +587,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/Ratchet0-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 0-80 Ratchet.",
-    "assessment": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 0-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7.6,
@@ -490,8 +616,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Ratchet7-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-80 Ratchet.",
-    "assessment": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 7-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 7.8,
@@ -513,8 +645,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 6-60 Ratchet.",
-    "assessment": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 6-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.1,
@@ -536,8 +674,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 6-80 Ratchet.",
-    "assessment": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 6-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 6.9,
@@ -559,8 +703,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 4-55 Ratchet.",
-    "assessment": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 4-55 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 5.5,
       "weightGrams": 4.8,
@@ -582,8 +732,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 0-70 Ratchet.",
-    "assessment": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 0-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 7,
@@ -605,8 +761,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/RatchetM-85.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The M-85 Ratchet.",
-    "assessment": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The M-85 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8.5,
       "weightGrams": 10.6,
@@ -628,8 +790,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Ratchet6-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 6-70 Ratchet.",
-    "assessment": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 6-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 6.3,
@@ -651,8 +819,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2a/Ratchet4-50.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 4-50 Ratchet.",
-    "assessment": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 4-50 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 50,
       "weightGrams": 5.9,
@@ -674,8 +848,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/Ratchet1-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-70 Ratchet.",
-    "assessment": "1-70 is a right-spin Balance Type Ratchet. Official stats: Attack 17 / Defense 6 / Stamina 7. Weight: 6.1g. Height: 70mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 1-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-70 is a right-spin Balance Type Ratchet. Official stats: Attack 17 / Defense 6 / Stamina 7. Weight: 6.1g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 6.1,
@@ -697,8 +877,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/Ratchet9-65.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-65 Ratchet.",
-    "assessment": "9-65 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 4.5g. Height: 65mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 9-65 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-65 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 4.5g. Height: 65mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 65,
       "weightGrams": 4.5,
@@ -720,8 +906,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/20/Ratchet0-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 0-60 Ratchet.",
-    "assessment": "0-60 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 14 / Stamina 13. Weight: 6.8g. Height: 60mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 0-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "0-60 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 14 / Stamina 13. Weight: 6.8g. Height: 60mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 60,
       "weightGrams": 6.8,
@@ -743,8 +935,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet7-55.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-55 Ratchet.",
-    "assessment": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 7-55 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 55,
       "weightGrams": 5.2,
@@ -766,8 +964,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/Ratchet1-50.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-50 Ratchet.",
-    "assessment": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 1-50 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 50,
       "weightGrams": 5.7,
@@ -789,8 +993,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Ratchet8-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 8-70 Ratchet.",
-    "assessment": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The 8-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 7.7,
@@ -812,8 +1022,14 @@
     "imageUrl": "",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Integrated Ratchet built into the Blade for Expand Blade / Infinity system Beys.",
-    "assessment": "Integrated Ratchet is not a separate part; it is built into specific Expand Blade (Infinity) system Blades such as BulletGriffon and GloryValkyrie. It exists in the database only to represent these combos structurally.",
+    "description": {
+      "en": "Integrated Ratchet built into the Blade for Expand Blade / Infinity system Beys.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Integrated Ratchet is not a separate part; it is built into specific Expand Blade (Infinity) system Blades such as BulletGriffon and GloryValkyrie. It exists in the database only to represent these combos structurally.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0,
       "weightGrams": 0
@@ -834,8 +1050,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1b/Ratchet3-60.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 3-60 Ratchet.",
-    "assessment": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 3-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-60 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 9 / Stamina 6. Weight: 6.4g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.4,
@@ -857,8 +1079,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Ratchet3-80.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 3-80 Ratchet.",
-    "assessment": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 3-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-80 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 7 / Stamina 8. Weight: 7.1g. Height: 80mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7.1,
@@ -880,8 +1108,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ae/Ratchet4-80.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 4-80 Ratchet.",
-    "assessment": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 4-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-80 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 11 / Stamina 8. Weight: 7g. Height: 80mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7,
@@ -903,8 +1137,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet4-60.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 4-60 Ratchet.",
-    "assessment": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 4-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-60 is a right-spin Balance Type Ratchet. Official stats: Attack 11 / Defense 13 / Stamina 6. Weight: 6.3g. Height: 60mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 60,
       "weightGrams": 6.3,
@@ -926,8 +1166,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f7/Ratchet5-60.png/revision/latest",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
-    "description": "The 5-60 Ratchet.",
-    "assessment": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 5-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "5-60 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 9 / Stamina 9. Weight: 6.6g. Height: 60mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 60,
       "weightGrams": 6.6,
@@ -949,8 +1195,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/Ratchet1-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-60 Ratchet.",
-    "assessment": "1-60 is a right-spin Balance Type Ratchet. Weight: 6g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 1-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-60 is a right-spin Balance Type Ratchet. Weight: 6g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6,
@@ -972,8 +1224,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cc/Ratchet5-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 5-70 Ratchet.",
-    "assessment": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 5-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "5-70 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 6.7g. Height: 7mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.7,
@@ -995,8 +1253,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet1-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-80 Ratchet.",
-    "assessment": "1-80 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 8mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 1-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-80 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 8mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 6.7,
@@ -1018,8 +1282,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/Ratchet4-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 4-70 Ratchet.",
-    "assessment": "4-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 70mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 4-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 70mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 6.4,
@@ -1041,8 +1311,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Ratchet7-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-80 Ratchet.",
-    "assessment": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 7-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-80 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 14 / Stamina 9. Weight: 7.8g. Height: 8mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 7.8,
@@ -1064,8 +1340,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/Ratchet3-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 3-70 Ratchet.",
-    "assessment": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 3-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-70 is a right-spin Balance Type Ratchet. Official stats: Attack 15 / Defense 8 / Stamina 7. Weight: 6.4g. Height: 7mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.4,
@@ -1087,8 +1369,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet9-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-60 Ratchet.",
-    "assessment": "9-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 9-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.2,
@@ -1110,8 +1398,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a6/Ratchet2-60.png/revision/latest",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
-    "description": "The 2-60 Ratchet.",
-    "assessment": "2-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 2-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "2-60 is a right-spin Balance Type Ratchet. Weight: 6.2g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.2,
@@ -1133,8 +1427,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 6-60 Ratchet.",
-    "assessment": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 6-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "6-60 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 8 / Stamina 8. Weight: 6.1g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 6.1,
@@ -1156,8 +1456,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 4-55 Ratchet.",
-    "assessment": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 4-55 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-55 is a right-spin Balance Type Ratchet. Official stats: Attack 7 / Defense 11 / Stamina 12. Weight: 4.8g. Height: 5.5mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 5.5,
       "weightGrams": 4.8,
@@ -1179,8 +1485,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 6-80 Ratchet.",
-    "assessment": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 6-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "6-80 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 6 / Stamina 10. Weight: 6.9g. Height: 8mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8,
       "weightGrams": 6.9,
@@ -1202,8 +1514,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/86/Ratchet9-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-70 Ratchet.",
-    "assessment": "9-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 9-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 7mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 7,
       "weightGrams": 6.3,
@@ -1225,8 +1543,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/39/Ratchet7-60.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-60 Ratchet.",
-    "assessment": "7-60 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 7-60 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-60 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 7.1,
@@ -1248,8 +1572,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/Ratchet3-85.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 3-85 Ratchet.",
-    "assessment": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 3-85 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "3-85 is a right-spin Balance Type Ratchet. Official stats: Attack 5 / Defense 15 / Stamina 10. Weight: 4.7g. Height: 85mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 85,
       "weightGrams": 4.7,
@@ -1271,8 +1601,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Ratchet5-80.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The 5-80 Ratchet.",
-    "assessment": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 5-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "5-80 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 8 / Stamina 10. Weight: 7.3g. Height: 80mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7.3,
@@ -1294,8 +1630,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2a/Ratchet4-50.png/revision/latest",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
-    "description": "The 4-50 Ratchet.",
-    "assessment": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 4-50 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "4-50 is a right-spin Balance Type Ratchet. Official stats: Attack 12 / Defense 13 / Stamina 5. Weight: 5.9g. Height: 50mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 50,
       "weightGrams": 5.9,
@@ -1317,8 +1659,14 @@
     "imageUrl": "",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Integrated Ratchet built into the Blade for Expand Blade / Infinity system Beys.",
-    "assessment": "Integrated Ratchet is not a separate part; it is built into specific Expand Blade (Infinity) system Blades such as BulletGriffon and GloryValkyrie. It exists in the database only to represent these combos structurally.",
+    "description": {
+      "en": "Integrated Ratchet built into the Blade for Expand Blade / Infinity system Beys.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Integrated Ratchet is not a separate part; it is built into specific Expand Blade (Infinity) system Blades such as BulletGriffon and GloryValkyrie. It exists in the database only to represent these combos structurally.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0,
       "weightGrams": 0
@@ -1339,8 +1687,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Ratchet8-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 8-70 Ratchet.",
-    "assessment": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 8-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "8-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 10 / Stamina 12. Weight: 7.7g. Height: 70mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 7.7,
@@ -1362,8 +1716,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/Ratchet0-80.png/revision/latest",
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
-    "description": "The 0-80 Ratchet.",
-    "assessment": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 0-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "0-80 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Defense 12 / Stamina 15. Weight: 7.6g. Height: 80mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 7.6,
@@ -1385,8 +1745,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/Ratchet1-50.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 1-50 Ratchet.",
-    "assessment": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 1-50 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "1-50 is a right-spin Balance Type Ratchet. Official stats: Attack 18 / Defense 9 / Stamina 3. Weight: 5.7g. Height: 50mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 50,
       "weightGrams": 5.7,
@@ -1408,8 +1774,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/Ratchet9-80.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 9-80 Ratchet.",
-    "assessment": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 9-80 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "9-80 is a right-spin Balance Type Ratchet. Official stats: Attack 13 / Defense 10 / Stamina 7. Weight: 6.9g. Height: 80mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 80,
       "weightGrams": 6.9,
@@ -1431,8 +1803,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet7-55.png/revision/latest",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
-    "description": "The 7-55 Ratchet.",
-    "assessment": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 7-55 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-55 is a right-spin Balance Type Ratchet. Official stats: Attack 6 / Defense 14 / Stamina 10. Weight: 5.2g. Height: 55mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 55,
       "weightGrams": 5.2,
@@ -1454,8 +1832,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/Ratchet7-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 7-70 Ratchet.",
-    "assessment": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 7-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "7-70 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 12 / Stamina 10. Weight: 7.3g. Height: 70mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 7.3,
@@ -1477,8 +1861,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Ratchet6-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 6-70 Ratchet.",
-    "assessment": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 6-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "6-70 is a right-spin Balance Type Ratchet. Official stats: Attack 14 / Defense 7 / Stamina 9. Weight: 6.3g. Height: 70mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 6.3,
@@ -1500,8 +1890,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The 0-70 Ratchet.",
-    "assessment": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 0-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "0-70 is a right-spin Balance Type Ratchet. Official stats: Attack 3 / Stamina 14. Weight: 7g. Height: 70mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 70,
       "weightGrams": 7,
@@ -1523,8 +1919,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/RatchetM-85.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The M-85 Ratchet.",
-    "assessment": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The M-85 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "M-85 is a right-spin Balance Type Ratchet. Official stats: Attack 8 / Defense 19 / Stamina 13. Weight: 10.6g. Height: 8.5mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 8.5,
       "weightGrams": 10.6,
@@ -1546,8 +1948,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/M-85_%28CX-11%29.png/revision/latest?cb=20251015212445",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "The m-85 Ratchet.",
-    "assessment": "m-85 is a Ratchet from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The m-85 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "m-85 is a Ratchet from the Beyblade X toyline. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -1565,8 +1973,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/Ratchet2-70.png/revision/latest?cb=20241015033717",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "The 2-70 Ratchet.",
-    "assessment": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "The 2-70 Ratchet.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "2-70 is a right-spin Balance Type Ratchet. Official stats: Attack 10 / Defense 12 / Stamina 8. Weight: 6.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 6.3,
       "spinDirection": "right"

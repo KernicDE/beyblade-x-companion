@@ -6,9 +6,14 @@ import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { useTranslation } from '../i18n';
+import type { LocalizedString } from '../types';
+
+function localized(text: LocalizedString, locale: string) {
+  return text[(locale as 'en' | 'de')] || text.en;
+}
 
 export function BeyDetail() {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const { database, loading, error } = useData();
 
@@ -59,7 +64,7 @@ export function BeyDetail() {
             </div>
           </div>
 
-          <p className="text-[var(--text)]">{bey.assessment}</p>
+          <p className="text-[var(--text)]">{localized(bey.assessment, locale)}</p>
 
           <div className="space-y-2 text-sm">
             <p><ManufacturerBadge manufacturer={bey.manufacturer} size="md" /></p>

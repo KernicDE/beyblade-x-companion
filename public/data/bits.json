@@ -7,8 +7,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8c/BitBall.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Ball Bit.",
-    "assessment": "Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 25 / Stamina 50. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 25 / Stamina 50. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -31,8 +37,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BitFlat.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Flat Bit.",
-    "assessment": "Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 10. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 10. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -55,8 +67,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/26/BitNeedle.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Needle Bit.",
-    "assessment": "Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 50 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 50 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -79,8 +97,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/BitTaper.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Taper Bit.",
-    "assessment": "Taper is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 20 / Stamina 20. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Taper Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Taper is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 20 / Stamina 20. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -103,8 +127,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BitHighNeedle.png/revision/latest",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
-    "description": "The High Needle Bit.",
-    "assessment": "High Needle is a right-spin Defense Type Bit. Official stats: Attack 15 / Defense 55 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The High Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "High Needle is a right-spin Defense Type Bit. Official stats: Attack 15 / Defense 55 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 3,
       "weightGrams": 2.2,
@@ -127,8 +157,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Low Flat Bit.",
-    "assessment": "Low Flat is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 1mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Low Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Flat is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 1mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 2.1,
@@ -151,8 +187,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bf/BitPoint.png/revision/latest",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
-    "description": "The Point Bit.",
-    "assessment": "Point is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Point Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Point is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -175,8 +217,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/17/BitOrb.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Orb Bit.",
-    "assessment": "Orb is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 30 / Stamina 50. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Orb Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Orb is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 30 / Stamina 50. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -199,8 +247,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e1/BitRush.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "The Rush Bit.",
-    "assessment": "Rush is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 20. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Rush Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rush is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 20. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -223,8 +277,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b5/BitHighTaper.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "The High Taper Bit.",
-    "assessment": "High Taper is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The High Taper Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "High Taper is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 3,
       "weightGrams": 2.2,
@@ -247,8 +307,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7d/BitSpike.png/revision/latest",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
-    "description": "The Spike Bit.",
-    "assessment": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Spike Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -271,8 +337,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bd/BitGearFlat.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Flat Bit.",
-    "assessment": "Gear Flat is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 5 / Stamina 5. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Gear Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Flat is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 5 / Stamina 5. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.3,
@@ -295,8 +367,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/97/BitGearBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Ball Bit.",
-    "assessment": "Gear Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 45. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Gear Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 45. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -319,8 +397,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/36/BitGearPoint.png/revision/latest",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
-    "description": "The Gear Point Bit.",
-    "assessment": "Gear Point is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 15. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Gear Point Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Point is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 15. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.3,
@@ -343,8 +427,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BitGearNeedle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Needle Bit.",
-    "assessment": "Gear Needle is a right-spin Defense Type Bit. Official stats: Attack 20 / Defense 40 / Stamina 10. Weight: 2g. Height: 1.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Gear Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Needle is a right-spin Defense Type Bit. Official stats: Attack 20 / Defense 40 / Stamina 10. Weight: 2g. Height: 1.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2,
@@ -367,8 +457,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BitAccel.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Accel Bit.",
-    "assessment": "Accel is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 10. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Accel Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Accel is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 10. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.6,
@@ -391,8 +487,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8c/BitHexa.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Hexa Bit.",
-    "assessment": "Hexa is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 35 / Stamina 20. Weight: 2.6g. Height: 1.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Hexa Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hexa is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 35 / Stamina 20. Weight: 2.6g. Height: 1.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2.6,
@@ -415,8 +517,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/10/BitDiskBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Disk Ball Bit.",
-    "assessment": "Disk Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 55. Weight: 3.2g. Height: 4mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Disk Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Disk Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 55. Weight: 3.2g. Height: 4mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 4,
       "weightGrams": 3.2,
@@ -439,8 +547,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/BitQuake.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Quake Bit.",
-    "assessment": "Quake is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 15 / Stamina 5. Weight: 2.2g. Height: 2.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Quake Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Quake is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 15 / Stamina 5. Weight: 2.2g. Height: 2.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2.5,
       "weightGrams": 2.2,
@@ -463,8 +577,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitMetalNeedle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Metal Needle Bit.",
-    "assessment": "Metal Needle is a right-spin Defense Type Bit. Official stats: Attack 8 / Defense 57 / Stamina 30. Weight: 2.8g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Metal Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Metal Needle is a right-spin Defense Type Bit. Official stats: Attack 8 / Defense 57 / Stamina 30. Weight: 2.8g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.8,
@@ -487,8 +607,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a0/BitUnite.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Unite Bit.",
-    "assessment": "Unite is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 30. Weight: 2.1g. Height: 1.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Unite Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Unite is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 30. Weight: 2.1g. Height: 1.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2.1,
@@ -511,8 +637,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fb/BitCyclone.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Cyclone Bit.",
-    "assessment": "Cyclone is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Cyclone Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Cyclone is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -535,8 +667,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/BitDot.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Dot Bit.",
-    "assessment": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Dot Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -559,8 +697,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d5/BitGlide.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Glide Bit.",
-    "assessment": "Glide is a right-spin Stamina Type Bit. Official stats: Attack 20 / Defense 10 / Stamina 55. Weight: 2.5g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Glide Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Glide is a right-spin Stamina Type Bit. Official stats: Attack 20 / Defense 10 / Stamina 55. Weight: 2.5g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.5,
@@ -583,8 +727,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitElevate.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Elevate Bit.",
-    "assessment": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 1.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Elevate Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 1.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 3.2,
@@ -607,8 +757,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BitFreeBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Free Ball Bit.",
-    "assessment": "Free Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 25 / Stamina 60. Weight: 1.9g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Free Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Free Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 25 / Stamina 60. Weight: 1.9g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 1.9,
@@ -631,8 +787,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BitTransPoint.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Trans Point Bit.",
-    "assessment": "Trans Point is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 1mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Trans Point Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Trans Point is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 1mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 2.2,
@@ -655,8 +817,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/56/BitLevel.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Level Bit.",
-    "assessment": "Level is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 5 / Stamina 15. Weight: 2.7g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Level Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Level is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 5 / Stamina 15. Weight: 2.7g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.7,
@@ -679,8 +847,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/88/BitBoundSpike.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Bound Spike Bit.",
-    "assessment": "Bound Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Bound Spike Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Bound Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -703,8 +877,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5a/BitRubberAccel.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Rubber Accel Bit.",
-    "assessment": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Rubber Accel Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 3.1,
@@ -727,8 +907,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/36/BitLowRush.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Low Rush Bit.",
-    "assessment": "Low Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 15. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Low Rush Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 15. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 1.9,
@@ -751,8 +937,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/BitUnderNeedle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Under Needle Bit.",
-    "assessment": "Under Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 60 / Stamina 20. Weight: 1.9g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Under Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Under Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 60 / Stamina 20. Weight: 1.9g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 1.9,
       "typeTag": "Defense",
@@ -774,8 +966,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f9/BitVortex.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Vortex Bit.",
-    "assessment": "Vortex is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 5. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Vortex Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Vortex is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 5. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -798,8 +996,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f4/BitLowOrb.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Low Orb Bit.",
-    "assessment": "Low Orb is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Low Orb Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Orb is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 1.9,
@@ -822,8 +1026,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/BitWedge.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Wedge Bit.",
-    "assessment": "Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 30. Weight: 1.8g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Wedge Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 30. Weight: 1.8g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 1.8,
@@ -846,8 +1056,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitKick.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Kick Bit.",
-    "assessment": "Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 15. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Kick Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 15. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -870,8 +1086,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/BitZap.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Zap Bit.",
-    "assessment": "Zap is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 15. Weight: 2.5g. Height: 1mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Zap Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Zap is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 15. Weight: 2.5g. Height: 1mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 2.5,
@@ -894,8 +1116,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BitGearRush.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Rush Bit.",
-    "assessment": "Gear Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Gear Rush Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -918,8 +1146,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Wall Ball Bit.",
-    "assessment": "Wall Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 30 / Stamina 45. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Wall Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wall Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 30 / Stamina 45. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 3,
       "weightGrams": 2.2,
@@ -942,8 +1176,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/BitMerge.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Merge Bit.",
-    "assessment": "Merge is a right-spin Balance Type Bit. Official stats: Attack 50 / Defense 20 / Stamina 10. Weight: 3.4g. Height: 6mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Merge Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Merge is a right-spin Balance Type Bit. Official stats: Attack 50 / Defense 20 / Stamina 10. Weight: 3.4g. Height: 6mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 3.4,
@@ -966,8 +1206,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/55/BitUnderFlat.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Under Flat Bit.",
-    "assessment": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Under Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 2,
       "typeTag": "Attack",
@@ -989,8 +1235,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5d/BitTransKick.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Trans Kick Bit.",
-    "assessment": "Trans Kick is a right-spin Balance Type Bit. Weight: 2.3g. Height: 1.5mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Trans Kick Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Trans Kick is a right-spin Balance Type Bit. Weight: 2.3g. Height: 1.5mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2.3,
@@ -1013,8 +1265,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/10/BitJolt.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Jolt Bit.",
-    "assessment": "Jolt is a right-spin Attack Type Bit. Official stats: Attack 35 / Defense 10 / Stamina 15. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Jolt Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Jolt is a right-spin Attack Type Bit. Official stats: Attack 35 / Defense 10 / Stamina 15. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.6,
@@ -1037,8 +1295,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/BitWallWedge.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Wall Wedge Bit.",
-    "assessment": "Wall Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 25. Weight: 2.4g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Wall Wedge Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wall Wedge is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 25. Weight: 2.4g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.4,
@@ -1061,8 +1325,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BitIgnition.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Ignition Bit.",
-    "assessment": "Ignition is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 15 / Stamina 5. Weight: 2.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Ignition Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ignition is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 15 / Stamina 5. Weight: 2.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 2.4,
       "typeTag": "Attack",
@@ -1084,8 +1354,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BitYielding.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Yielding Bit.",
-    "assessment": "Yielding is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 65. Weight: 4.2g. Height: 4mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Yielding Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Yielding is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 65. Weight: 4.2g. Height: 4mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 4,
       "weightGrams": 4.2,
@@ -1108,8 +1384,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/33/BitGearUnite.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Unite Bit.",
-    "assessment": "Gear Unite is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 20. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Gear Unite Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Unite is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 20. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.3,
@@ -1132,8 +1414,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b4/BitFreeFlat.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Free Flat Bit.",
-    "assessment": "Free Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 15. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Free Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Free Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 15. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "typeTag": "Attack",
@@ -1155,8 +1443,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitDiskSpike.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Disk Spike Bit.",
-    "assessment": "Disk Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 40. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Disk Spike Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Disk Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 55 / Stamina 40. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 3.1,
@@ -1179,8 +1473,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d6/BitNarrow.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Narrow Bit.",
-    "assessment": "Narrow is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 60. Height: 2mm. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Narrow Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Narrow is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 60. Height: 2mm. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "typeTag": "Stamina",
@@ -1202,8 +1502,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4f/Turbo-Ep_34.png/revision/latest?cb=20190521064247",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-07",
-    "description": "The Turbo Ratchet-Integrated Bit.",
-    "assessment": "Turbo is a Ratchet-Integrated Bit from the Beyblade X Custom Line. Debuted with PegasusBlast ATr. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Turbo Ratchet-Integrated Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Turbo is a Ratchet-Integrated Bit from the Beyblade X Custom Line. Debuted with PegasusBlast ATr. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -1223,8 +1529,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/Operate_bit_in_Attack_Mode.png/revision/latest?cb=20260626113612",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
-    "description": "The Operate Ratchet-Integrated Bit.",
-    "assessment": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Operate Ratchet-Integrated Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -1244,8 +1556,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest?cb=20230812203610",
     "releaseDate": "2026-04-25",
     "releaseWave": "CX-17",
-    "description": "The Low Orbital Bit.",
-    "assessment": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Low Orbital Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -1265,8 +1583,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-03",
-    "description": "The Wall Bit.",
-    "assessment": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The Wall Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -1286,8 +1610,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BitFlat.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Flat Bit.",
-    "assessment": "Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 10. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Flat is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 15 / Stamina 10. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -1310,8 +1640,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/26/BitNeedle.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Needle Bit.",
-    "assessment": "Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 50 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 50 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -1334,8 +1670,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8c/BitBall.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Ball Bit.",
-    "assessment": "Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 25 / Stamina 50. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 25 / Stamina 50. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -1358,8 +1700,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/BitTaper.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Taper Bit.",
-    "assessment": "Taper is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 20 / Stamina 20. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Taper Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Taper is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 20 / Stamina 20. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -1382,8 +1730,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7d/BitSpike.png/revision/latest",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
-    "description": "The Spike Bit.",
-    "assessment": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Spike Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -1406,8 +1760,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Low Flat Bit.",
-    "assessment": "Low Flat is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 1mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Low Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Flat is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 10. Weight: 2.1g. Height: 1mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 2.1,
@@ -1430,8 +1790,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BitHighNeedle.png/revision/latest",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
-    "description": "The High Needle Bit.",
-    "assessment": "High Needle is a right-spin Defense Type Bit. Official stats: Attack 15 / Defense 55 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The High Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "High Needle is a right-spin Defense Type Bit. Official stats: Attack 15 / Defense 55 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 3,
       "weightGrams": 2.2,
@@ -1454,8 +1820,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bf/BitPoint.png/revision/latest",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
-    "description": "The Point Bit.",
-    "assessment": "Point is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Point Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Point is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 25. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -1478,8 +1850,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BitAccel.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Accel Bit.",
-    "assessment": "Accel is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 10. Weight: 2.6g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Accel Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Accel is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 10. Weight: 2.6g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.6,
@@ -1502,8 +1880,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/10/BitDiskBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Disk Ball Bit.",
-    "assessment": "Disk Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 55. Weight: 3.2g. Height: 4mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Disk Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Disk Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 20 / Stamina 55. Weight: 3.2g. Height: 4mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 4,
       "weightGrams": 3.2,
@@ -1526,8 +1910,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e1/BitRush.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "The Rush Bit.",
-    "assessment": "Rush is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 20. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Rush Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rush is a right-spin Attack Type Bit. Official stats: Attack 40 / Defense 10 / Stamina 20. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -1550,8 +1940,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitMetalNeedle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Metal Needle Bit.",
-    "assessment": "Metal Needle is a right-spin Defense Type Bit. Official stats: Attack 8 / Defense 57 / Stamina 30. Weight: 2.8g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Metal Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Metal Needle is a right-spin Defense Type Bit. Official stats: Attack 8 / Defense 57 / Stamina 30. Weight: 2.8g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.8,
@@ -1574,8 +1970,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BitFreeBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Free Ball Bit.",
-    "assessment": "Free Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 25 / Stamina 60. Weight: 1.9g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Free Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Free Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 25 / Stamina 60. Weight: 1.9g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 1.9,
@@ -1598,8 +2000,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/36/BitGearPoint.png/revision/latest",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
-    "description": "The Gear Point Bit.",
-    "assessment": "Gear Point is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 15. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Gear Point Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Point is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 15. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.3,
@@ -1622,8 +2030,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/BitUnderNeedle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Under Needle Bit.",
-    "assessment": "Under Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 60 / Stamina 20. Weight: 1.9g. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Under Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Under Needle is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 60 / Stamina 20. Weight: 1.9g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 1.9,
       "typeTag": "Defense",
@@ -1645,8 +2059,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8c/BitHexa.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Hexa Bit.",
-    "assessment": "Hexa is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 35 / Stamina 20. Weight: 2.6g. Height: 1.5mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Hexa Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hexa is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 35 / Stamina 20. Weight: 2.6g. Height: 1.5mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2.6,
@@ -1669,8 +2089,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/97/BitGearBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Ball Bit.",
-    "assessment": "Gear Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 45. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Gear Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Ball is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 45. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -1693,8 +2119,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f9/BitVortex.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Vortex Bit.",
-    "assessment": "Vortex is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 5. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Vortex Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Vortex is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 5. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -1717,8 +2149,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitKick.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Kick Bit.",
-    "assessment": "Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 15. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Kick Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 25 / Stamina 15. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.2,
@@ -1741,8 +2179,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest?cb=20230812203610",
     "releaseDate": "2026-04-25",
     "releaseWave": "CX-17",
-    "description": "The Low Orbital Bit.",
-    "assessment": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "The Low Orbital Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -1762,8 +2206,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-03",
-    "description": "The Wall Bit.",
-    "assessment": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "The Wall Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -1783,8 +2233,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BitGearRush.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Rush Bit.",
-    "assessment": "Gear Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Gear Rush Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 10 / Stamina 10. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.1,
@@ -1807,8 +2263,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/17/BitOrb.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "The Orb Bit.",
-    "assessment": "Orb is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 30 / Stamina 50. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Orb Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Orb is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 30 / Stamina 50. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -1831,8 +2293,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/BitDot.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Dot Bit.",
-    "assessment": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Dot Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -1855,8 +2323,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Wall Ball Bit.",
-    "assessment": "Wall Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 30 / Stamina 45. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Wall Ball Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wall Ball is a right-spin Stamina Type Bit. Official stats: Attack 15 / Defense 30 / Stamina 45. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 3,
       "weightGrams": 2.2,
@@ -1879,8 +2353,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a0/BitUnite.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Unite Bit.",
-    "assessment": "Unite is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 30. Weight: 2.1g. Height: 1.5mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Unite Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Unite is a right-spin Balance Type Bit. Official stats: Attack 25 / Defense 25 / Stamina 30. Weight: 2.1g. Height: 1.5mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2.1,
@@ -1903,8 +2383,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BitYielding.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Yielding Bit.",
-    "assessment": "Yielding is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 65. Weight: 4.2g. Height: 4mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Yielding Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Yielding is a right-spin Stamina Type Bit. Official stats: Attack 10 / Defense 15 / Stamina 65. Weight: 4.2g. Height: 4mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 4,
       "weightGrams": 4.2,
@@ -1927,8 +2413,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BitIgnition.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Ignition Bit.",
-    "assessment": "Ignition is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 15 / Stamina 5. Weight: 2.4g. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Ignition Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ignition is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 15 / Stamina 5. Weight: 2.4g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 2.4,
       "typeTag": "Attack",
@@ -1950,8 +2442,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bd/BitGearFlat.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Flat Bit.",
-    "assessment": "Gear Flat is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 5 / Stamina 5. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Gear Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Flat is a right-spin Attack Type Bit. Official stats: Attack 50 / Defense 5 / Stamina 5. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.3,
@@ -1974,8 +2472,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BitGearNeedle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Gear Needle Bit.",
-    "assessment": "Gear Needle is a right-spin Defense Type Bit. Official stats: Attack 20 / Defense 40 / Stamina 10. Weight: 2g. Height: 1.5mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Gear Needle Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gear Needle is a right-spin Defense Type Bit. Official stats: Attack 20 / Defense 40 / Stamina 10. Weight: 2g. Height: 1.5mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1.5,
       "weightGrams": 2,
@@ -1998,8 +2502,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/BitQuake.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Quake Bit.",
-    "assessment": "Quake is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 15 / Stamina 5. Weight: 2.2g. Height: 2.5mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Quake Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Quake is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 15 / Stamina 5. Weight: 2.2g. Height: 2.5mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2.5,
       "weightGrams": 2.2,
@@ -2022,8 +2532,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitElevate.png/revision/latest",
     "releaseDate": "2024-12-28",
     "releaseWave": "UX-12",
-    "description": "The Elevate Bit.",
-    "assessment": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Elevate Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Elevate is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 15 / Stamina 20. Weight: 3.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 3.2,
@@ -2046,8 +2562,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/55/BitUnderFlat.png/revision/latest",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
-    "description": "The Under Flat Bit.",
-    "assessment": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Under Flat Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Under Flat is a right-spin Attack Type Bit. Official stats: Attack 55 / Defense 5 / Stamina 5. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -2070,8 +2592,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b5/BitHighTaper.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "The High Taper Bit.",
-    "assessment": "High Taper is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The High Taper Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "High Taper is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 25 / Stamina 20. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 3,
       "weightGrams": 2.2,
@@ -2094,8 +2622,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/36/BitLowRush.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Low Rush Bit.",
-    "assessment": "Low Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 15. Weight: 1.9g. Height: 1mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Low Rush Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Rush is a right-spin Attack Type Bit. Official stats: Attack 45 / Defense 5 / Stamina 15. Weight: 1.9g. Height: 1mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 1.9,
@@ -2118,8 +2652,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/BitMerge.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Merge Bit.",
-    "assessment": "Merge is a right-spin Balance Type Bit. Official stats: Attack 50 / Defense 20 / Stamina 10. Weight: 3.4g. Height: 6mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Merge Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Merge is a right-spin Balance Type Bit. Official stats: Attack 50 / Defense 20 / Stamina 10. Weight: 3.4g. Height: 6mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 6,
       "weightGrams": 3.4,
@@ -2142,8 +2682,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/BitZap.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Zap Bit.",
-    "assessment": "Zap is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 15. Weight: 2.5g. Height: 1mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Zap Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Zap is a right-spin Balance Type Bit. Official stats: Attack 30 / Defense 20 / Stamina 15. Weight: 2.5g. Height: 1mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 1,
       "weightGrams": 2.5,
@@ -2166,8 +2712,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5a/BitRubberAccel.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Rubber Accel Bit.",
-    "assessment": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Rubber Accel Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 3.1,
@@ -2190,8 +2742,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/Operate_bit_in_Attack_Mode.png/revision/latest?cb=20260626113612",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
-    "description": "The Operate Ratchet-Integrated Bit.",
-    "assessment": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "The Operate Ratchet-Integrated Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 0
     },
@@ -2211,8 +2769,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/88/BitBoundSpike.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Bound Spike Bit.",
-    "assessment": "Bound Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Bound Spike Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Bound Spike is a right-spin Defense Type Bit. Official stats: Attack 5 / Defense 60 / Stamina 30. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2,
@@ -2235,8 +2799,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d5/BitGlide.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The Glide Bit.",
-    "assessment": "Glide is a right-spin Stamina Type Bit. Official stats: Attack 20 / Defense 10 / Stamina 55. Weight: 2.5g. Height: 2mm. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Glide Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Glide is a right-spin Stamina Type Bit. Official stats: Attack 20 / Defense 10 / Stamina 55. Weight: 2.5g. Height: 2mm. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "heightMm": 2,
       "weightGrams": 2.5,
@@ -2259,8 +2829,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f4/BitLowOrb.png/revision/latest?cb=20250215050618",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "The Low Orb Bit.",
-    "assessment": "Low Orb is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55. Weight: 1.9g. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Low Orb Bit.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Low Orb is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55. Weight: 1.9g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 1.9,
       "typeTag": "Stamina",

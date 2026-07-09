@@ -7,8 +7,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/BladeCobaltDrake.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Cobalt Drake Blade from the BX system.",
-    "assessment": "Cobalt Drake is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 20. Weight: 38g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Cobalt Drake Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Cobalt Drake is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 20. Weight: 38g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 38,
       "spinDirection": "right",
@@ -30,8 +36,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Dran Sword Blade from the BX system.",
-    "assessment": "Dran Sword is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 25 / Stamina 20. Weight: 34.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Dran Sword Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Sword is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 25 / Stamina 20. Weight: 34.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.6,
       "spinDirection": "right",
@@ -53,8 +65,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e4/BladeHellsScythe.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Hells Scythe Blade from the BX system.",
-    "assessment": "Hells Scythe is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 35 / Stamina 35. Weight: 32.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Hells Scythe Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hells Scythe is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 35 / Stamina 35. Weight: 32.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right",
@@ -76,8 +94,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/BladeKnightShield.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Knight Shield Blade from the BX system.",
-    "assessment": "Knight Shield is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 55 / Stamina 25. Weight: 32.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Knight Shield Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Knight Shield is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 55 / Stamina 25. Weight: 32.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.4,
       "spinDirection": "right",
@@ -99,8 +123,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/44/BladeWizardArrow.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Wizard Arrow Blade from the BX system.",
-    "assessment": "Wizard Arrow is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 55. Weight: 31.8g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Wizard Arrow Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wizard Arrow is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 55. Weight: 31.8g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.8,
       "spinDirection": "right",
@@ -122,8 +152,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ce/BladeDranzerSpiral.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Dranzer Spiral Blade from the BX system.",
-    "assessment": "Dranzer Spiral is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 30 / Stamina 35. Weight: 27.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Dranzer Spiral Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dranzer Spiral is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 30 / Stamina 35. Weight: 27.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 27.7,
       "spinDirection": "right",
@@ -145,8 +181,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/BladeKnightLance.png/revision/latest",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
-    "description": "Knight Lance Blade from the BX system.",
-    "assessment": "Knight Lance is a right-spin Defense Type Blade. Official stats: Attack 25 / Defense 60 / Stamina 15. Weight: 32.9g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Knight Lance Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Knight Lance is a right-spin Defense Type Blade. Official stats: Attack 25 / Defense 60 / Stamina 15. Weight: 32.9g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.9,
       "spinDirection": "right",
@@ -168,8 +210,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeSharkEdge.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Shark Edge Blade from the BX system.",
-    "assessment": "Shark Edge is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 34.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shark Edge Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shark Edge is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 34.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.5,
       "spinDirection": "right",
@@ -191,8 +239,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/93/BladeLeonClaw.png/revision/latest",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
-    "description": "Leon Claw Blade from the BX system.",
-    "assessment": "Leon Claw is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 40 / Stamina 20. Weight: 31.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Leon Claw Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Leon Claw is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 40 / Stamina 20. Weight: 31.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.4,
       "spinDirection": "right",
@@ -214,8 +268,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeViperTail.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Viper Tail Blade from the BX system.",
-    "assessment": "Viper Tail is a right-spin Stamina Type Blade. Official stats: Attack 30 / Defense 20 / Stamina 50. Weight: 34.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Viper Tail Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Viper Tail is a right-spin Stamina Type Blade. Official stats: Attack 30 / Defense 20 / Stamina 50. Weight: 34.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.7,
       "spinDirection": "right",
@@ -237,8 +297,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c8/BladeDranDagger.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "Dran Dagger Blade from the BX system.",
-    "assessment": "Dran Dagger is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 34.8g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Dran Dagger Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Dagger is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 34.8g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.8,
       "spinDirection": "right",
@@ -260,8 +326,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeHellsChain.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "Hells Chain Blade from the BX system.",
-    "assessment": "Hells Chain is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 40 / Stamina 25. Weight: 33.2g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Hells Chain Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hells Chain is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 40 / Stamina 25. Weight: 33.2g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.2,
       "spinDirection": "right",
@@ -283,8 +355,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/41/BladeRhinoHorn.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "Rhino Horn Blade from the BX system.",
-    "assessment": "Rhino Horn is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 50 / Stamina 30. Weight: 32.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Rhino Horn Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rhino Horn is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 50 / Stamina 30. Weight: 32.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right",
@@ -306,8 +384,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/BladePhoenixFeather.png/revision/latest",
     "releaseDate": "2025-06-15",
     "releaseWave": "BX",
-    "description": "Phoenix Feather Blade from the BX system.",
-    "assessment": "Phoenix Feather is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 20 / Stamina 30. Weight: 33.3g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Phoenix Feather Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Phoenix Feather is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 20 / Stamina 30. Weight: 33.3g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.3,
       "spinDirection": "right",
@@ -329,8 +413,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladePhoenixWing.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Phoenix Wing Blade from the BX system.",
-    "assessment": "Phoenix Wing is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 38g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Phoenix Wing Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Phoenix Wing is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 38g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 38,
       "spinDirection": "right",
@@ -352,8 +442,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/BladeWyvernGale.png/revision/latest",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
-    "description": "Wyvern Gale Blade from the BX system.",
-    "assessment": "Wyvern Gale is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 40 / Stamina 50. Weight: 31.9g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Wyvern Gale Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wyvern Gale is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 40 / Stamina 50. Weight: 31.9g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.9,
       "spinDirection": "right",
@@ -375,8 +471,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeUnicornSting.png/revision/latest",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
-    "description": "Unicorn Sting Blade from the BX system.",
-    "assessment": "Unicorn Sting is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 35 / Stamina 30. Weight: 33.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Unicorn Sting Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Unicorn Sting is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 35 / Stamina 30. Weight: 33.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.4,
       "spinDirection": "right",
@@ -398,8 +500,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/31/BladeSphinxCowl.png/revision/latest",
     "releaseDate": "2024-02-22",
     "releaseWave": "BX",
-    "description": "Sphinx Cowl Blade from the BX system.",
-    "assessment": "Sphinx Cowl is a right-spin Defense Type Blade. Official stats: Attack 35 / Defense 55 / Stamina 10. Weight: 32.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Sphinx Cowl Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Sphinx Cowl is a right-spin Defense Type Blade. Official stats: Attack 35 / Defense 55 / Stamina 10. Weight: 32.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right",
@@ -421,8 +529,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Dran Buster Blade from the UX system.",
-    "assessment": "Dran Buster is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 20 / Stamina 10. Weight: 36.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Dran Buster Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Buster is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 20 / Stamina 10. Weight: 36.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.5,
       "spinDirection": "right",
@@ -444,8 +558,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Hells Hammer Blade from the UX system.",
-    "assessment": "Hells Hammer is a right-spin Balance Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 33g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Hells Hammer Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hells Hammer is a right-spin Balance Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 33g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33,
       "spinDirection": "right",
@@ -467,8 +587,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a3/BladeWizardRod.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Wizard Rod Blade from the UX system.",
-    "assessment": "Wizard Rod is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 25 / Stamina 60. Weight: 35.3g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Wizard Rod Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wizard Rod is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 25 / Stamina 60. Weight: 35.3g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35.3,
       "spinDirection": "right",
@@ -490,8 +616,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c5/BladeDrigerSlash.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Driger Slash Blade from the BX system.",
-    "assessment": "Driger Slash is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 35 / Stamina 25. Weight: 28.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Driger Slash Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Driger Slash is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 35 / Stamina 25. Weight: 28.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 28.6,
       "spinDirection": "right",
@@ -513,8 +645,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/BladeTyrannoBeat.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Tyranno Beat Blade from the BX system.",
-    "assessment": "Tyranno Beat is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 5. Weight: 37g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Tyranno Beat Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Tyranno Beat is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 5. Weight: 37g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37,
       "spinDirection": "right",
@@ -536,8 +674,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeShinobiShadow.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Shinobi Shadow Blade from the UX system.",
-    "assessment": "Shinobi Shadow is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 70 / Stamina 20. Weight: 28.2g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shinobi Shadow Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shinobi Shadow is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 70 / Stamina 20. Weight: 28.2g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 28.2,
       "spinDirection": "right",
@@ -559,8 +703,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/MammothTusk_2-80E.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Mammoth Tusk Blade from the BX system.",
-    "assessment": "Mammoth Tusk is a right-spin Balance Type Blade. Weight: 32.1g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Mammoth Tusk Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Mammoth Tusk is a right-spin Balance Type Blade. Weight: 32.1g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.1,
       "spinDirection": "right"
@@ -581,8 +731,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/BladeKnifeShinobi.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shinobi Knife Blade from the BX system.",
-    "assessment": "Shinobi Knife is a right-spin Balance Type Blade. Weight: 30.9g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shinobi Knife Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shinobi Knife is a right-spin Balance Type Blade. Weight: 30.9g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.9,
       "spinDirection": "right"
@@ -603,8 +759,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Ptera Swing Blade from the BX system.",
-    "assessment": "Ptera Swing is a right-spin Balance Type Blade. Weight: 34.25g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Ptera Swing Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ptera Swing is a right-spin Balance Type Blade. Weight: 34.25g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.25,
       "spinDirection": "right"
@@ -625,8 +787,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/SamuraiSteel_5-70GF.jpg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Samurai Steel Blade from the BX system.",
-    "assessment": "Samurai Steel is a right-spin Balance Type Blade. Weight: 31.08g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Samurai Steel Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Samurai Steel is a right-spin Balance Type Blade. Weight: 31.08g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.08,
       "spinDirection": "right"
@@ -647,8 +815,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BladeWeissTiger.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Weiss Tiger Blade from the BX system.",
-    "assessment": "Weiss Tiger is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 30 / Stamina 25. Weight: 34.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Weiss Tiger Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Weiss Tiger is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 30 / Stamina 25. Weight: 34.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.6,
       "spinDirection": "right",
@@ -670,8 +844,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/BladeCobaltDragoon.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Cobalt Dragoon Blade from the BX system.",
-    "assessment": "Cobalt Dragoon is a left-spin Attack Type Blade. Official stats: Attack 60 / Defense 15 / Stamina 25. Weight: 37.8g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Cobalt Dragoon Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Cobalt Dragoon is a left-spin Attack Type Blade. Official stats: Attack 60 / Defense 15 / Stamina 25. Weight: 37.8g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.8,
       "spinDirection": "left",
@@ -693,8 +873,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Black Shell Blade from the BX system.",
-    "assessment": "Black Shell is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 25. Weight: 32.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Black Shell Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Black Shell is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 25. Weight: 32.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.4,
       "spinDirection": "right",
@@ -716,8 +902,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8e/BladeOptimusPrime.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Optimus  Prime Blade from the BX system.",
-    "assessment": "Optimus  Prime is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.75g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Optimus  Prime Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Optimus  Prime is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.75g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.75,
       "spinDirection": "right"
@@ -738,8 +930,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeStarscream.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Starscream Blade from the BX system.",
-    "assessment": "Starscream is a right-spin Stamina Type Blade. Official stats: Attack 18 / Defense 27 / Stamina 55. Weight: 29.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Starscream Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Starscream is a right-spin Stamina Type Blade. Official stats: Attack 18 / Defense 27 / Stamina 55. Weight: 29.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.5,
       "spinDirection": "right",
@@ -761,8 +959,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d4/BladeOptimusPrimal.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Optimus  Primal Blade from the BX system.",
-    "assessment": "Optimus  Primal is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.43g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Optimus  Primal Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Optimus  Primal is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.43g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.43,
       "spinDirection": "right"
@@ -783,8 +987,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/BladeMegatron.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Megatron Blade from the BX system.",
-    "assessment": "Megatron is a right-spin Balance Type Blade. Official stats: Attack 27 / Defense 35 / Stamina 38. Weight: 31.1g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Megatron Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Megatron is a right-spin Balance Type Blade. Official stats: Attack 27 / Defense 35 / Stamina 38. Weight: 31.1g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.1,
       "spinDirection": "right",
@@ -806,8 +1016,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeAeroPegasus.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Aero Pegasus Blade from the UX system.",
-    "assessment": "Aero Pegasus is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 30. Weight: 38.2g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Aero Pegasus Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Aero Pegasus is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 30. Weight: 38.2g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 38.2,
       "spinDirection": "right",
@@ -829,8 +1045,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Leon Crest Blade from the UX system.",
-    "assessment": "Leon Crest is a right-spin Defense Type Blade. Official stats: Attack 15 / Defense 70 / Stamina 15. Weight: 35g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Leon Crest Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Leon Crest is a right-spin Defense Type Blade. Official stats: Attack 15 / Defense 70 / Stamina 15. Weight: 35g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35,
       "spinDirection": "right",
@@ -852,8 +1074,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Phoenix Rudder Blade from the UX system.",
-    "assessment": "Phoenix Rudder is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 35 / Stamina 55. Weight: 34.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Phoenix Rudder Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Phoenix Rudder is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 35 / Stamina 55. Weight: 34.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.5,
       "spinDirection": "right",
@@ -875,8 +1103,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a4/CrocoCrunch_2-60Q.jpg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Croco Crunch Blade from the BX system.",
-    "assessment": "Croco Crunch is a right-spin Balance Type Blade. Weight: 34.05g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Croco Crunch Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Croco Crunch is a right-spin Balance Type Blade. Weight: 34.05g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.05,
       "spinDirection": "right"
@@ -897,8 +1131,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/03/Yell_Kong_3-60GB.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Yell  Kong Blade from the BX system.",
-    "assessment": "Yell  Kong is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.24g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Yell  Kong Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Yell  Kong is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.24g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.24,
       "spinDirection": "right"
@@ -919,8 +1159,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeIronMan.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Iron  Man Blade from the BX system.",
-    "assessment": "Iron  Man is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.07g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Iron  Man Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Iron  Man is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.07g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.07,
       "spinDirection": "right"
@@ -941,8 +1187,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ef/BladeThanos.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Thanos Blade from the BX system.",
-    "assessment": "Thanos is a right-spin Defense Type Blade. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Thanos Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Thanos is a right-spin Defense Type Blade. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.5,
       "spinDirection": "right",
@@ -964,8 +1216,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a5/BladeSpiderMan.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Spider-man Blade from the BX system.",
-    "assessment": "Spider-man is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.06g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Spider-man Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Spider-man is a right-spin Blade from the Beyblade X BX line. Documented weight: 33.06g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.06,
       "spinDirection": "right"
@@ -986,8 +1244,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/BladeVenom.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Venom Blade from the BX system.",
-    "assessment": "Venom is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Venom Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Venom is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.3,
       "spinDirection": "right",
@@ -1009,8 +1273,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/71/BladeLukeSkywalker.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Luke  Skywalker Blade from the BX system.",
-    "assessment": "Luke  Skywalker is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.19g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Luke  Skywalker Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Luke  Skywalker is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.19g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.19,
       "spinDirection": "right"
@@ -1031,8 +1301,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeDarthVader.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Darth  Vader Blade from the BX system.",
-    "assessment": "Darth  Vader is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Darth  Vader Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Darth  Vader is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.4,
       "spinDirection": "right"
@@ -1053,8 +1329,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b6/BladeMoffGideon.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Moff  Gideon Blade from the BX system.",
-    "assessment": "Moff  Gideon is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.59g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Moff  Gideon Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Moff  Gideon is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.59g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.59,
       "spinDirection": "right"
@@ -1075,8 +1357,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "The  Mandalorian Blade from the BX system.",
-    "assessment": "The  Mandalorian is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.88g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "The  Mandalorian Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The  Mandalorian is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.88g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.88,
       "spinDirection": "right"
@@ -1097,8 +1385,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeWhaleWave.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Whale Wave Blade from the BX system.",
-    "assessment": "Whale Wave is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 35 / Stamina 20. Weight: 38.2g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Whale Wave Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Whale Wave is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 35 / Stamina 20. Weight: 38.2g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 38.2,
       "spinDirection": "right",
@@ -1120,8 +1414,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeLightningL-Drago(UpperType).png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "L- Drago: Upper Blade from the BX system.",
-    "assessment": "L- Drago: Upper is a left-spin Blade from the Beyblade X BX line. Documented weight: 33.85g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "L- Drago: Upper Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "L- Drago: Upper is a left-spin Blade from the Beyblade X BX line. Documented weight: 33.85g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.85,
       "spinDirection": "left"
@@ -1142,8 +1442,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5b/BladeLightningL-Drago(Rapid-HitType).png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "L- Drago: Rapid  Hit Blade from the BX system.",
-    "assessment": "L- Drago: Rapid  Hit is a left-spin Blade from the Beyblade X BX line. Documented weight: 33.22g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "L- Drago: Rapid  Hit Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "L- Drago: Rapid  Hit is a left-spin Blade from the Beyblade X BX line. Documented weight: 33.22g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.22,
       "spinDirection": "left"
@@ -1164,8 +1470,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/BearScratch_(BX-37).png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Bear Scratch Blade from the BX system.",
-    "assessment": "Bear Scratch is a right-spin Balance Type Blade. Weight: 29.74g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Bear Scratch Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Bear Scratch is a right-spin Balance Type Blade. Weight: 29.74g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.74,
       "spinDirection": "right"
@@ -1186,8 +1498,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/58/BladeRoar.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Roar  Tyranno Blade from the BX system.",
-    "assessment": "Roar  Tyranno is a right-spin Blade from the Beyblade X BX line. Documented weight: 35.97g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Roar  Tyranno Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Roar  Tyranno is a right-spin Blade from the Beyblade X BX line. Documented weight: 35.97g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35.97,
       "spinDirection": "right"
@@ -1208,8 +1526,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Silver Wolf Blade from the UX system.",
-    "assessment": "Silver Wolf is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 65. Weight: 36.8g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Silver Wolf Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Silver Wolf is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 65. Weight: 36.8g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.8,
       "spinDirection": "right",
@@ -1231,8 +1555,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Crimson Garuda Blade from the BX system.",
-    "assessment": "Crimson Garuda is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 25 / Stamina 30. Weight: 35g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Crimson Garuda Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Crimson Garuda is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 25 / Stamina 30. Weight: 35g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35,
       "spinDirection": "right",
@@ -1254,8 +1584,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/de/BladeSamuraiSaber.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Samurai Saber Blade from the UX system.",
-    "assessment": "Samurai Saber is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 20 / Stamina 25. Weight: 36.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Samurai Saber Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Samurai Saber is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 20 / Stamina 25. Weight: 36.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.5,
       "spinDirection": "right",
@@ -1277,8 +1613,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Knight Mail Blade from the UX system.",
-    "assessment": "Knight Mail is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 35. Weight: 36.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Knight Mail Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Knight Mail is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 35. Weight: 36.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.7,
       "spinDirection": "right",
@@ -1300,8 +1642,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Draciel Shield Blade from the BX system.",
-    "assessment": "Draciel Shield is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 50 / Stamina 20. Weight: 28g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Draciel Shield Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Draciel Shield is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 50 / Stamina 20. Weight: 28g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 28,
       "spinDirection": "right",
@@ -1323,8 +1671,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/BladeImpactDrake.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Impact Drake Blade from the UX system.",
-    "assessment": "Impact Drake is a right-spin Attack Type Blade. Official stats: Attack 75 / Defense 25 / Stamina 10. Weight: 39g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Impact Drake Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Impact Drake is a right-spin Attack Type Blade. Official stats: Attack 75 / Defense 25 / Stamina 10. Weight: 39g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 39,
       "spinDirection": "right",
@@ -1346,8 +1700,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Ghost Circle Blade from the UX system.",
-    "assessment": "Ghost Circle is a right-spin Stamina Type Blade. Official stats: Attack 5 / Defense 40 / Stamina 55. Weight: 26.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Ghost Circle Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ghost Circle is a right-spin Stamina Type Blade. Official stats: Attack 5 / Defense 40 / Stamina 55. Weight: 26.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 26.7,
       "spinDirection": "right",
@@ -1369,8 +1729,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/BladeGolemRock.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Golem Rock Blade from the UX system.",
-    "assessment": "Golem Rock is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 10. Weight: 34g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Golem Rock Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Golem Rock is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 10. Weight: 34g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34,
       "spinDirection": "right",
@@ -1392,8 +1758,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeShelterDrake.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shelter Drake Blade from the BX system.",
-    "assessment": "Shelter Drake is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 40 / Stamina 35. Weight: 32.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shelter Drake Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shelter Drake is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 40 / Stamina 35. Weight: 32.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.6,
       "spinDirection": "right",
@@ -1415,8 +1787,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c4/BladeDragoonStorm.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Dragoon Storm Blade from the BX system.",
-    "assessment": "Dragoon Storm is a left-spin Attack Type Blade. Official stats: Attack 55 / Defense 30 / Stamina 15. Weight: 25.1g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Dragoon Storm Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dragoon Storm is a left-spin Attack Type Blade. Official stats: Attack 55 / Defense 30 / Stamina 15. Weight: 25.1g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 25.1,
       "spinDirection": "left",
@@ -1438,8 +1816,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/43/BladeStormPegasis.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Storm Pegasis Blade from the BX system.",
-    "assessment": "Storm Pegasis is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 15 / Stamina 30. Weight: 31g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Storm Pegasis Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Storm Pegasis is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 15 / Stamina 30. Weight: 31g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31,
       "spinDirection": "right",
@@ -1461,8 +1845,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fe/BladeVictoryValkyrie.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Victory Valkyrie Blade from the BX system.",
-    "assessment": "Victory Valkyrie is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 20 / Stamina 25. Weight: 33.2g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Victory Valkyrie Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Victory Valkyrie is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 20 / Stamina 25. Weight: 33.2g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.2,
       "spinDirection": "right",
@@ -1484,8 +1874,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/bb/BladeXenoXcalibur.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Xeno Xcalibur Blade from the BX system.",
-    "assessment": "Xeno Xcalibur is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 25 / Stamina 10. Weight: 31g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Xeno Xcalibur Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Xeno Xcalibur is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 25 / Stamina 10. Weight: 31g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31,
       "spinDirection": "right",
@@ -1507,8 +1903,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Scorpio Spear Blade from the UX system.",
-    "assessment": "Scorpio Spear is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 55 / Stamina 30. Weight: 39.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Scorpio Spear Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Scorpio Spear is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 55 / Stamina 30. Weight: 39.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 39.6,
       "spinDirection": "right",
@@ -1530,8 +1932,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2f/WyvernHover_2-80GN_Metal_Coat_Violet.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Hover  Wyvern Blade from the UX system.",
-    "assessment": "Hover  Wyvern is a right-spin Blade from the Beyblade X UX line. Documented weight: 35g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Hover  Wyvern Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hover  Wyvern is a right-spin Blade from the Beyblade X UX line. Documented weight: 35g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35,
       "spinDirection": "right"
@@ -1552,8 +1960,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeSharkGill.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shark Gill Blade from the BX system.",
-    "assessment": "Shark Gill is a right-spin Balance Type Blade. Weight: 29.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shark Gill Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shark Gill is a right-spin Balance Type Blade. Weight: 29.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.7,
       "spinDirection": "right"
@@ -1574,8 +1988,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeTriceraPress.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Tricera Press Blade from the BX system.",
-    "assessment": "Tricera Press is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 65 / Stamina 15. Weight: 36.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Tricera Press Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Tricera Press is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 65 / Stamina 15. Weight: 36.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.5,
       "spinDirection": "right",
@@ -1597,8 +2017,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a2/BladeRockLeone.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Rock Leone Blade from the BX system.",
-    "assessment": "Rock Leone is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.88g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Rock Leone Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rock Leone is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.88g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.88,
       "spinDirection": "right"
@@ -1619,8 +2045,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeSamuraiCalibur.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Samurai Calibur Blade from the BX system.",
-    "assessment": "Samurai Calibur is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 30 / Stamina 30. Weight: 36g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Samurai Calibur Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Samurai Calibur is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 30 / Stamina 30. Weight: 36g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36,
       "spinDirection": "right",
@@ -1642,8 +2074,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e0/BladeSharkScale.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Shark Scale Blade from the UX system.",
-    "assessment": "Shark Scale is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 15 / Stamina 15. Weight: 37.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shark Scale Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shark Scale is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 15 / Stamina 15. Weight: 37.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.6,
       "spinDirection": "right",
@@ -1665,8 +2103,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladeGoatTackle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Goat Tackle Blade from the BX system.",
-    "assessment": "Goat Tackle is a right-spin Balance Type Blade. Weight: 31.46g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Goat Tackle Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Goat Tackle is a right-spin Balance Type Blade. Weight: 31.46g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.46,
       "spinDirection": "right"
@@ -1687,8 +2131,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8d/Captain_America_4-70GB.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Captain  America Blade from the BX system.",
-    "assessment": "Captain  America is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.53g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Captain  America Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Captain  America is a right-spin Blade from the Beyblade X BX line. Documented weight: 32.53g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.53,
       "spinDirection": "right"
@@ -1709,8 +2159,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/Red_Hulk_1-80R.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Red  Hulk Blade from the BX system.",
-    "assessment": "Red  Hulk is a right-spin Blade from the Beyblade X BX line. Documented weight: 36.18g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Red  Hulk Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Red  Hulk is a right-spin Blade from the Beyblade X BX line. Documented weight: 36.18g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.18,
       "spinDirection": "right"
@@ -1731,8 +2187,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/ba/Obi-Wan_Kenobi_4-60P.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Obi- Wan  Kenobi Blade from the BX system.",
-    "assessment": "Obi- Wan  Kenobi is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.38g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Obi- Wan  Kenobi Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Obi- Wan  Kenobi is a right-spin Blade from the Beyblade X BX line. Documented weight: 30.38g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.38,
       "spinDirection": "right"
@@ -1753,8 +2215,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/General_Grievous_3-80HN.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "General  Grievous Blade from the BX system.",
-    "assessment": "General  Grievous is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.03g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "General  Grievous Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "General  Grievous is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.03g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.03,
       "spinDirection": "right"
@@ -1775,8 +2243,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/Bumblebee_3-60GP.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Bumblebee Blade from the BX system.",
-    "assessment": "Bumblebee is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Bumblebee Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Bumblebee is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.8,
       "spinDirection": "right",
@@ -1798,8 +2272,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Shockwave_5-80O.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shockwave Blade from the BX system.",
-    "assessment": "Shockwave is a right-spin Stamina Type Blade. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Shockwave Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shockwave is a right-spin Stamina Type Blade. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.3,
       "spinDirection": "right",
@@ -1821,8 +2301,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Miles_Morales_1-60GN.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Miles  Morales Blade from the BX system.",
-    "assessment": "Miles  Morales is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.72g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Miles  Morales Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Miles  Morales is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.72g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.72,
       "spinDirection": "right"
@@ -1843,8 +2329,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/95/Green_Goblin_9-80HT.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Green  Goblin Blade from the BX system.",
-    "assessment": "Green  Goblin is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.84g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Green  Goblin Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Green  Goblin is a right-spin Blade from the Beyblade X BX line. Documented weight: 31.84g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.84,
       "spinDirection": "right"
@@ -1865,8 +2357,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeClockMirage.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Clock Mirage Blade from the UX system.",
-    "assessment": "Clock Mirage is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 10 / Stamina 80. Weight: 37.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Clock Mirage Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Clock Mirage is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 10 / Stamina 80. Weight: 37.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.7,
       "spinDirection": "right",
@@ -1888,8 +2386,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/Chewbacca_4-80LF.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Chewbacca Blade from the BX system.",
-    "assessment": "Chewbacca is a right-spin Stamina Type Blade. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Chewbacca Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Chewbacca is a right-spin Stamina Type Blade. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.8,
       "spinDirection": "right",
@@ -1911,8 +2415,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Stormtrooper_5-70B.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Stormtrooper Blade from the BX system.",
-    "assessment": "Stormtrooper is a right-spin Defense Type Blade. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Stormtrooper Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Stormtrooper is a right-spin Defense Type Blade. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.3,
       "spinDirection": "right",
@@ -1934,8 +2444,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dd/Stun_Medusa_9-60GB.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Stun  Medusa Blade from the BX system.",
-    "assessment": "Stun  Medusa is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.32g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Stun  Medusa Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Stun  Medusa is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.32g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 27.32,
       "spinDirection": "right"
@@ -1956,8 +2472,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b7/BladeMeteorDragoon.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Meteor Dragoon Blade from the UX system.",
-    "assessment": "Meteor Dragoon is a left-spin Attack Type Blade. Official stats: Attack 75 / Defense 15 / Stamina 35. Weight: 39g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Meteor Dragoon Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Meteor Dragoon is a left-spin Attack Type Blade. Official stats: Attack 75 / Defense 15 / Stamina 35. Weight: 39g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 39,
       "spinDirection": "left",
@@ -1979,8 +2501,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeMummyCurse.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Mummy Curse Blade from the UX system.",
-    "assessment": "Mummy Curse is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 20. Weight: 37.5g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Mummy Curse Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Mummy Curse is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 20. Weight: 37.5g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.5,
       "spinDirection": "right",
@@ -2002,8 +2530,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeOrochiCluster.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Orochi Cluster Blade from the BX system.",
-    "assessment": "Orochi Cluster is a right-spin Attack Type Blade. Weight: 36.6g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Orochi Cluster Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Orochi Cluster is a right-spin Attack Type Blade. Weight: 36.6g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.6,
       "spinDirection": "right",
@@ -2025,8 +2559,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladeStormSpriggan.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Storm Spriggan Blade from the BX system.",
-    "assessment": "Storm Spriggan is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 40 / Stamina 30. Weight: 31g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Storm Spriggan Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Storm Spriggan is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 40 / Stamina 30. Weight: 31g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31,
       "spinDirection": "right",
@@ -2048,8 +2588,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeTriceraSpiky.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Tricera  Spikey Blade from the BX system.",
-    "assessment": "Tricera  Spikey is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.98g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Tricera  Spikey Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Tricera  Spikey is a right-spin Blade from the Beyblade X BX line. Documented weight: 29.98g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.98,
       "spinDirection": "right"
@@ -2070,8 +2616,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Hack  Viking Blade from the UX system.",
-    "assessment": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Hack  Viking Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right"
@@ -2092,8 +2644,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeDranStrike.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Dran Strike Blade from the BX system.",
-    "assessment": "Dran Strike is a right-spin Attack Type Blade. Official stats: Attack 58 / Defense 25 / Stamina 17. Weight: 41.4g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Dran Strike Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Strike is a right-spin Attack Type Blade. Official stats: Attack 58 / Defense 25 / Stamina 17. Weight: 41.4g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 41.4,
       "spinDirection": "right",
@@ -2115,8 +2673,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Ring  Aether Blade from the BX system.",
-    "assessment": "Ring  Aether is a right-spin Blade from the Beyblade X BX line. Documented weight: 37.14g. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Ring  Aether Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ring  Aether is a right-spin Blade from the Beyblade X BX line. Documented weight: 37.14g. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.14,
       "spinDirection": "right"
@@ -2137,8 +2701,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeTyrannoRoar.png/revision/latest",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
-    "description": "TyrannoRoar Blade from the UX system.",
-    "assessment": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "TyrannoRoar Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2160,8 +2730,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/PegasusBrush_M3-85W.png/revision/latest?cb=20251114044829",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
-    "description": "PegasusBrush Blade from the UX system.",
-    "assessment": "PegasusBrush is a right-spin Stamina type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "PegasusBrush Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "PegasusBrush is a right-spin Stamina type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2183,8 +2759,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/94/SolBrave_C9-70TP.png/revision/latest?cb=20251114044843",
     "releaseDate": "2025-12-27",
     "releaseWave": "UX-18",
-    "description": "SolBrave Blade from the UX system.",
-    "assessment": "SolBrave is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "SolBrave Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "SolBrave is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in Random Booster Vol. 8. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2206,8 +2788,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/12/HellsBrave_J3-60GF.png/revision/latest?cb=20250715030419",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
-    "description": "HellsBrave Blade from the UX system.",
-    "assessment": "HellsBrave is a right-spin Attack type Blade from the Beyblade X Unique Line / Custom Line. Debuted in the SharkScale Deck Set with the Jaggy Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "HellsBrave Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "HellsBrave is a right-spin Attack type Blade from the Beyblade X Unique Line / Custom Line. Debuted in the SharkScale Deck Set with the Jaggy Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2229,8 +2817,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/BulletGriffon_H.png/revision/latest",
     "releaseDate": "2026-04-25",
     "releaseWave": "UX-19",
-    "description": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
-    "assessment": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 60.6,
       "spinDirection": "right",
@@ -2252,8 +2846,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4b/GloryValkyrie_LF.png/revision/latest",
     "releaseDate": "2026-07-11",
     "releaseWave": "UX-20",
-    "description": "GloryValkyrie Ratchet-Integrated Blade from the UX system.",
-    "assessment": "GloryValkyrie is a right-spin Attack type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It features a spring-loaded bound mechanism for impact recoil. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "GloryValkyrie Ratchet-Integrated Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "GloryValkyrie is a right-spin Attack type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It features a spring-loaded bound mechanism for impact recoil. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2275,8 +2875,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/BladeDranBraveS.png/revision/latest?cb=20250305054628",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-01",
-    "description": "DranBrave Blade from the CX system.",
-    "assessment": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "DranBrave Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2298,8 +2904,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/BladeWizardArcR.png/revision/latest",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-02",
-    "description": "WizardArc Blade from the CX system.",
-    "assessment": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "WizardArc Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2321,8 +2933,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladePerseusDarkB.png/revision/latest?cb=20250305054642",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-03",
-    "description": "PerseusDark Blade from the CX system.",
-    "assessment": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "PerseusDark Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2344,8 +2962,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/59/HellsReaper.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
-    "description": "HellsReaper Blade from the CX system.",
-    "assessment": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "HellsReaper Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2367,8 +2991,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cd/BladeRhinoReaperC.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
-    "description": "RhinoReaper Blade from the CX system.",
-    "assessment": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "RhinoReaper Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2390,8 +3020,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d8/HellsArc_T3-85O.png/revision/latest?cb=20250314031328",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
-    "description": "HellsArc Blade from the CX system.",
-    "assessment": "HellsArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Arc Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "HellsArc Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "HellsArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Arc Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2413,8 +3049,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3b/BladeFoxBrushJ.png/revision/latest?cb=20250416134856",
     "releaseDate": "2025-05-17",
     "releaseWave": "CX-06",
-    "description": "FoxBrush Blade from the CX system.",
-    "assessment": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "FoxBrush Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2436,8 +3078,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladePegasusBlastA.png/revision/latest?cb=20250613084219",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-07",
-    "description": "PegasusBlast Blade from the CX system.",
-    "assessment": "PegasusBlast is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Pegasus Lock Chip, Blast Main Blade and Assault Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "PegasusBlast Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "PegasusBlast is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Pegasus Lock Chip, Blast Main Blade and Assault Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2459,8 +3107,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cf/BladeCerberusFlameW.png/revision/latest?cb=20250613084226",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
-    "description": "CerberusFlame Blade from the CX system.",
-    "assessment": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "CerberusFlame Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2482,8 +3136,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/WhaleFlame_M3-85HT.png/revision/latest",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
-    "description": "WhaleFlame Blade from the CX system.",
-    "assessment": "WhaleFlame is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Whale Lock Chip, Flame Main Blade and Massive Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "WhaleFlame Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "WhaleFlame is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Whale Lock Chip, Flame Main Blade and Massive Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2505,8 +3165,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/CerberusDark_W1-60F.png/revision/latest?cb=20250613031930",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
-    "description": "CerberusDark Blade from the CX system.",
-    "assessment": "CerberusDark is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Dark Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "CerberusDark Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "CerberusDark is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Dark Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2528,8 +3194,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/20/BladeWolfHuntF.png/revision/latest",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-10",
-    "description": "WolfHunt Blade from the CX system.",
-    "assessment": "WolfHunt is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wolf Lock Chip, Hunt Main Blade and Free Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "WolfHunt Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "WolfHunt is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wolf Lock Chip, Hunt Main Blade and Free Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2551,8 +3223,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/SolEclipse_D5-70TK.png/revision/latest?cb=20250729204810",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
-    "description": "SolEclipse Blade from the CX system.",
-    "assessment": "SolEclipse is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Sol Lock Chip, Eclipse Main Blade and Dual Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "SolEclipse Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "SolEclipse is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Sol Lock Chip, Eclipse Main Blade and Dual Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2574,8 +3252,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeEmperorMightH_(Metal_Coat_Black).png/revision/latest",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
-    "description": "EmperorMight Blade from the CX system.",
-    "assessment": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "EmperorMight Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2597,8 +3281,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f6/PhoenixFlare_Z9-80WW.jpeg/revision/latest",
     "releaseDate": "2026-01-24",
     "releaseWave": "CX-12",
-    "description": "PhoenixFlare Blade from the CX system.",
-    "assessment": "PhoenixFlare is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Phoenix Lock Chip, Flare Main Blade and Zillion Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "PhoenixFlare Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "PhoenixFlare is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Phoenix Lock Chip, Flare Main Blade and Zillion Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2620,8 +3310,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3e/BladeBahamutBlitzBK.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-13",
-    "description": "BahamutBlitz Blade from the CX system.",
-    "assessment": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "BahamutBlitz Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2643,8 +3339,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeKnightFortressGV.png/revision/latest?cb=20260214060758",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-14",
-    "description": "KnightFortress Blade from the CX system.",
-    "assessment": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "KnightFortress Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2666,8 +3368,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeRagnaRageFE.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-15",
-    "description": "RagnaRage Blade from the CX system.",
-    "assessment": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "RagnaRage Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2689,8 +3397,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/BladeUnicornDelta_PO.png/revision/latest",
     "releaseDate": "2026-04-25",
     "releaseWave": "CX-17",
-    "description": "UnicornDelta Blade from the CX system.",
-    "assessment": "UnicornDelta is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Unicorn Lock Chip, Peak Over Blade, Delta Metal Blade and Odd Assist Blade. The Triple Style gimmick lets players rotate the three Blade parts to shift between Attack, Balance and Defense orientations. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "UnicornDelta Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "UnicornDelta is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Unicorn Lock Chip, Peak Over Blade, Delta Metal Blade and Odd Assist Blade. The Triple Style gimmick lets players rotate the three Blade parts to shift between Attack, Balance and Defense orientations. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2712,8 +3426,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/BrachioWhip_OW5-70Nr_(CX-18_01).png/revision/latest",
     "releaseDate": "2026-06-13",
     "releaseWave": "CX-18",
-    "description": "BrachioWhip Blade from the CX system.",
-    "assessment": "BrachioWhip is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Brachio Lock Chip, Whip Metal Blade and Outer Over Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "BrachioWhip Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "BrachioWhip is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Brachio Lock Chip, Whip Metal Blade and Outer Over Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2735,8 +3455,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
     "releaseDate": "2025-03-01",
     "releaseWave": "BX-00",
-    "description": "T. Rex Blade from the Jurassic World collaboration.",
-    "assessment": "T. Rex is a right-spin Stamina type Blade from the Beyblade X Jurassic World collaboration. Paired with the 1-80 Ratchet and Gear Ball Bit in its stock combo. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "T. Rex Blade from the Jurassic World collaboration.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "T. Rex is a right-spin Stamina type Blade from the Beyblade X Jurassic World collaboration. Paired with the 1-80 Ratchet and Gear Ball Bit in its stock combo. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2758,8 +3484,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/Mosasaurus_9-60U.png/revision/latest?cb=20250308034736",
     "releaseDate": "2025-03-01",
     "releaseWave": "BX-00",
-    "description": "Mosasaurus Blade from the Jurassic World collaboration.",
-    "assessment": "Mosasaurus is a right-spin Defense Type Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Mosasaurus Blade from the Jurassic World collaboration.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Mosasaurus is a right-spin Defense Type Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2781,8 +3513,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/62/Spinosaurus_3-85A.png/revision/latest?cb=20250322040356",
     "releaseDate": "2025-09-01",
     "releaseWave": "BX-00",
-    "description": "Spinosaurus Blade from the Jurassic World collaboration.",
-    "assessment": "Spinosaurus is a right-spin Attack Type Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Spinosaurus Blade from the Jurassic World collaboration.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Spinosaurus is a right-spin Attack Type Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2804,8 +3542,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/Quetzalcoatlus_4-55D.png/revision/latest?cb=20250808060150",
     "releaseDate": "2025-09-01",
     "releaseWave": "BX-00",
-    "description": "Quetzalcoatlus Blade from the Jurassic World collaboration.",
-    "assessment": "Quetzalcoatlus is a right-spin Defense Type Blade. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "Quetzalcoatlus Blade from the Jurassic World collaboration.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Quetzalcoatlus is a right-spin Defense Type Blade. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2827,8 +3571,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d1/Fort_Hornet_R_7-60T.jpeg/revision/latest?cb=20250820152203",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1682",
-    "description": "Fort Hornet Blade from the Hasbro Custom Line.",
-    "assessment": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
+    "description": {
+      "en": "Fort Hornet Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2850,8 +3600,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/Kraken_K4_Code_%28Blue%29.png/revision/latest?cb=20190115015855",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1683",
-    "description": "Wriggle Kraken Blade from the Hasbro Custom Line.",
-    "assessment": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
+    "description": {
+      "en": "Wriggle Kraken Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2873,8 +3629,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c1/Antler_Stag_B_2-60HN.jpeg/revision/latest?cb=20250819172937",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1684",
-    "description": "Antler Stag Blade from the Hasbro Custom Line.",
-    "assessment": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
+    "description": {
+      "en": "Antler Stag Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2896,8 +3658,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4d/FangLeoneMetalWheelProbNoChange.PNG/revision/latest",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2748",
-    "description": "Fang Blade from the Hasbro Custom Line.",
-    "assessment": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
+    "description": {
+      "en": "Fang Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2919,8 +3687,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/34/DranDagger_%28BX-00%29.png/revision/latest?cb=20240527053606",
     "releaseDate": "2026-07-15",
     "releaseWave": "G2742",
-    "description": "Strike Dran Blade from the Hasbro Infinity Line.",
-    "assessment": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
+    "description": {
+      "en": "Strike Dran Blade from the Hasbro Infinity Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2942,8 +3716,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/Valor_Bison_FB.jpeg/revision/latest?cb=20260616002639",
     "releaseDate": "2026-07-15",
     "releaseWave": "G3497",
-    "description": "Valor Bison Blade from the Hasbro Infinity Line.",
-    "assessment": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
+    "description": {
+      "en": "Valor Bison Blade from the Hasbro Infinity Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2965,8 +3745,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/Bat.png/revision/latest?cb=20240101213145",
     "releaseDate": "2026-04-01",
     "releaseWave": "G2733",
-    "description": "Gust Bat Blade from the Hasbro Basic Line.",
-    "assessment": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
+    "description": {
+      "en": "Gust Bat Blade from the Hasbro Basic Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -2988,8 +3774,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5f/BladeDranSword.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Dran Sword Blade from the BX system.",
-    "assessment": "Dran Sword is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 25 / Stamina 20. Weight: 34.6g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Dran Sword Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Sword is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 25 / Stamina 20. Weight: 34.6g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.6,
       "spinDirection": "right",
@@ -3011,8 +3803,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/BladeKnightShield.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Knight Shield Blade from the BX system.",
-    "assessment": "Knight Shield is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 55 / Stamina 25. Weight: 32.4g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Knight Shield Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Knight Shield is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 55 / Stamina 25. Weight: 32.4g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.4,
       "spinDirection": "right",
@@ -3034,8 +3832,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/44/BladeWizardArrow.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Wizard Arrow Blade from the BX system.",
-    "assessment": "Wizard Arrow is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 55. Weight: 31.8g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Wizard Arrow Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wizard Arrow is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 55. Weight: 31.8g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.8,
       "spinDirection": "right",
@@ -3057,8 +3861,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e4/BladeHellsScythe.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Hells Scythe Blade from the BX system.",
-    "assessment": "Hells Scythe is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 35 / Stamina 35. Weight: 32.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Hells Scythe Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hells Scythe is a right-spin Balance Type Blade. Official stats: Attack 30 / Defense 35 / Stamina 35. Weight: 32.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right",
@@ -3080,8 +3890,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/29/SamuraiSteel_5-70GF.jpg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Samurai Steel Blade from the BX system.",
-    "assessment": "Samurai Steel is a right-spin Balance Type Blade. Weight: 31.08g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Samurai Steel Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Samurai Steel is a right-spin Balance Type Blade. Weight: 31.08g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.08,
       "spinDirection": "right"
@@ -3102,8 +3918,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/41/BladeRhinoHorn.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "Rhino Horn Blade from the BX system.",
-    "assessment": "Rhino Horn is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 50 / Stamina 30. Weight: 32.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Rhino Horn Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Rhino Horn is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 50 / Stamina 30. Weight: 32.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right",
@@ -3125,8 +3947,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladeSharkEdge.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Shark Edge Blade from the BX system.",
-    "assessment": "Shark Edge is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 34.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shark Edge Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shark Edge is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 34.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.5,
       "spinDirection": "right",
@@ -3148,8 +3976,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/BladePteraSwing.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Ptera Swing Blade from the BX system.",
-    "assessment": "Ptera Swing is a right-spin Balance Type Blade. Weight: 34.25g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Ptera Swing Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ptera Swing is a right-spin Balance Type Blade. Weight: 34.25g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.25,
       "spinDirection": "right"
@@ -3170,8 +4004,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/BladeKnightLance.png/revision/latest",
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
-    "description": "Knight Lance Blade from the BX system.",
-    "assessment": "Knight Lance is a right-spin Defense Type Blade. Official stats: Attack 25 / Defense 60 / Stamina 15. Weight: 32.9g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Knight Lance Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Knight Lance is a right-spin Defense Type Blade. Official stats: Attack 25 / Defense 60 / Stamina 15. Weight: 32.9g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.9,
       "spinDirection": "right",
@@ -3193,8 +4033,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/93/BladeLeonClaw.png/revision/latest",
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
-    "description": "Leon Claw Blade from the BX system.",
-    "assessment": "Leon Claw is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 40 / Stamina 20. Weight: 31.4g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Leon Claw Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Leon Claw is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 40 / Stamina 20. Weight: 31.4g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.4,
       "spinDirection": "right",
@@ -3216,8 +4062,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Dran Buster Blade from the UX system.",
-    "assessment": "Dran Buster is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 20 / Stamina 10. Weight: 36.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Dran Buster Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Buster is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 20 / Stamina 10. Weight: 36.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.5,
       "spinDirection": "right",
@@ -3239,8 +4091,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a3/BladeWizardRod.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Wizard Rod Blade from the UX system.",
-    "assessment": "Wizard Rod is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 25 / Stamina 60. Weight: 35.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Wizard Rod Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wizard Rod is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 25 / Stamina 60. Weight: 35.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35.3,
       "spinDirection": "right",
@@ -3262,8 +4120,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeShinobiShadow.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Shinobi Shadow Blade from the UX system.",
-    "assessment": "Shinobi Shadow is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 70 / Stamina 20. Weight: 28.2g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shinobi Shadow Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shinobi Shadow is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 70 / Stamina 20. Weight: 28.2g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 28.2,
       "spinDirection": "right",
@@ -3285,8 +4149,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Crimson Garuda Blade from the BX system.",
-    "assessment": "Crimson Garuda is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 25 / Stamina 30. Weight: 35g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Crimson Garuda Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Crimson Garuda is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 25 / Stamina 30. Weight: 35g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35,
       "spinDirection": "right",
@@ -3308,8 +4178,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Silver Wolf Blade from the UX system.",
-    "assessment": "Silver Wolf is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 65. Weight: 36.8g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Silver Wolf Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Silver Wolf is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 65. Weight: 36.8g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.8,
       "spinDirection": "right",
@@ -3331,8 +4207,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeShelterDrake.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shelter Drake Blade from the BX system.",
-    "assessment": "Shelter Drake is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 40 / Stamina 35. Weight: 32.6g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shelter Drake Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shelter Drake is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 40 / Stamina 35. Weight: 32.6g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.6,
       "spinDirection": "right",
@@ -3354,8 +4236,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/BladeGolemRock.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Golem Rock Blade from the UX system.",
-    "assessment": "Golem Rock is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 10. Weight: 34g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Golem Rock Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Golem Rock is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 10. Weight: 34g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34,
       "spinDirection": "right",
@@ -3377,8 +4265,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Hells Hammer Blade from the UX system.",
-    "assessment": "Hells Hammer is a right-spin Balance Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 33g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Hells Hammer Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hells Hammer is a right-spin Balance Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 33g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33,
       "spinDirection": "right",
@@ -3400,8 +4294,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dd/Stun_Medusa_9-60GB.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Stun  Medusa Blade from the BX system.",
-    "assessment": "Stun  Medusa is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.32g. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "Stun  Medusa Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Stun  Medusa is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.32g. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 27.32,
       "spinDirection": "right"
@@ -3422,8 +4322,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Phoenix Rudder Blade from the UX system.",
-    "assessment": "Phoenix Rudder is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 35 / Stamina 55. Weight: 34.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Phoenix Rudder Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Phoenix Rudder is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 35 / Stamina 55. Weight: 34.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.5,
       "spinDirection": "right",
@@ -3445,8 +4351,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/BladePhoenixFeather.png/revision/latest",
     "releaseDate": "2025-06-15",
     "releaseWave": "BX",
-    "description": "Phoenix Feather Blade from the BX system.",
-    "assessment": "Phoenix Feather is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 20 / Stamina 30. Weight: 33.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Phoenix Feather Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Phoenix Feather is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 20 / Stamina 30. Weight: 33.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.3,
       "spinDirection": "right",
@@ -3468,8 +4380,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/BladeDranBraveS.png/revision/latest?cb=20250305054628",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-01",
-    "description": "DranBrave Blade from the CX system.",
-    "assessment": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "DranBrave Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3491,8 +4409,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/59/HellsReaper.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
-    "description": "HellsReaper Blade from the CX system.",
-    "assessment": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "HellsReaper Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3514,8 +4438,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/BladeWizardArcR.png/revision/latest",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-02",
-    "description": "WizardArc Blade from the CX system.",
-    "assessment": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "WizardArc Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3537,8 +4467,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladePerseusDarkB.png/revision/latest?cb=20250305054642",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-03",
-    "description": "PerseusDark Blade from the CX system.",
-    "assessment": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "PerseusDark Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3560,8 +4496,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3b/BladeFoxBrushJ.png/revision/latest?cb=20250416134856",
     "releaseDate": "2025-05-17",
     "releaseWave": "CX-06",
-    "description": "FoxBrush Blade from the CX system.",
-    "assessment": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "FoxBrush Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3583,8 +4525,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d1/Fort_Hornet_R_7-60T.jpeg/revision/latest?cb=20250820152203",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1682",
-    "description": "Fort Hornet Blade from the Hasbro Custom Line.",
-    "assessment": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
+    "description": {
+      "en": "Fort Hornet Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3606,8 +4554,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/Kraken_K4_Code_%28Blue%29.png/revision/latest?cb=20190115015855",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1683",
-    "description": "Wriggle Kraken Blade from the Hasbro Custom Line.",
-    "assessment": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
+    "description": {
+      "en": "Wriggle Kraken Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3629,8 +4583,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c1/Antler_Stag_B_2-60HN.jpeg/revision/latest?cb=20250819172937",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1684",
-    "description": "Antler Stag Blade from the Hasbro Custom Line.",
-    "assessment": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
+    "description": {
+      "en": "Antler Stag Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3652,8 +4612,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cd/BladeRhinoReaperC.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
-    "description": "RhinoReaper Blade from the CX system.",
-    "assessment": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "RhinoReaper Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3675,8 +4641,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cf/BladeCerberusFlameW.png/revision/latest?cb=20250613084226",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
-    "description": "CerberusFlame Blade from the CX system.",
-    "assessment": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "CerberusFlame Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3698,8 +4670,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4d/FangLeoneMetalWheelProbNoChange.PNG/revision/latest",
     "releaseDate": "2026-01-30",
     "releaseWave": "G2748",
-    "description": "Fang Blade from the Hasbro Custom Line.",
-    "assessment": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
+    "description": {
+      "en": "Fang Blade from the Hasbro Custom Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3721,8 +4699,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/34/DranDagger_%28BX-00%29.png/revision/latest?cb=20240527053606",
     "releaseDate": "2026-07-15",
     "releaseWave": "G2742",
-    "description": "Strike Dran Blade from the Hasbro Infinity Line.",
-    "assessment": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
+    "description": {
+      "en": "Strike Dran Blade from the Hasbro Infinity Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3744,8 +4728,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/Valor_Bison_FB.jpeg/revision/latest?cb=20260616002639",
     "releaseDate": "2026-07-15",
     "releaseWave": "G3497",
-    "description": "Valor Bison Blade from the Hasbro Infinity Line.",
-    "assessment": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
+    "description": {
+      "en": "Valor Bison Blade from the Hasbro Infinity Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3767,8 +4757,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/BulletGriffon_H.png/revision/latest",
     "releaseDate": "2026-04-25",
     "releaseWave": "UX-19",
-    "description": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
-    "assessment": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "BulletGriffon Ratchet-Integrated Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "BulletGriffon is a right-spin Balance type Ratchet-Integrated Blade from the Beyblade X Unique Line Expand Blade (Infinity) system. It splits into an upper Bullet and lower Griffon during battle. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 60.6,
       "spinDirection": "right",
@@ -3790,8 +4786,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeRagnaRageFE.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-15",
-    "description": "RagnaRage Blade from the CX system.",
-    "assessment": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "RagnaRage Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3813,8 +4815,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeKnightFortressGV.png/revision/latest?cb=20260214060758",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-14",
-    "description": "KnightFortress Blade from the CX system.",
-    "assessment": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "KnightFortress Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3836,8 +4844,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e5/BladeRingAether.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Ring  Aether Blade from the BX system.",
-    "assessment": "Ring  Aether is a right-spin Blade from the Beyblade X BX line. Documented weight: 37.14g. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "Ring  Aether Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ring  Aether is a right-spin Blade from the Beyblade X BX line. Documented weight: 37.14g. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.14,
       "spinDirection": "right"
@@ -3858,8 +4872,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3e/BladeBahamutBlitzBK.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-13",
-    "description": "BahamutBlitz Blade from the CX system.",
-    "assessment": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "BahamutBlitz Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3881,8 +4901,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/BladeUnicornSting.png/revision/latest",
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
-    "description": "Unicorn Sting Blade from the BX system.",
-    "assessment": "Unicorn Sting is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 35 / Stamina 30. Weight: 33.4g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Unicorn Sting Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Unicorn Sting is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 35 / Stamina 30. Weight: 33.4g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.4,
       "spinDirection": "right",
@@ -3904,8 +4930,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/BladeTyrannoRoar.png/revision/latest",
     "releaseDate": "2025-08-09",
     "releaseWave": "UX-15",
-    "description": "TyrannoRoar Blade from the UX system.",
-    "assessment": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "TyrannoRoar Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "TyrannoRoar is a right-spin Balance type Blade from the Beyblade X Unique Line. Debuted in the SharkScale Deck Set. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -3927,8 +4959,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/BearScratch_(BX-37).png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Bear Scratch Blade from the BX system.",
-    "assessment": "Bear Scratch is a right-spin Balance Type Blade. Weight: 29.74g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Bear Scratch Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Bear Scratch is a right-spin Balance Type Blade. Weight: 29.74g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.74,
       "spinDirection": "right"
@@ -3949,8 +4987,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/31/BladeSphinxCowl.png/revision/latest",
     "releaseDate": "2024-02-22",
     "releaseWave": "BX",
-    "description": "Sphinx Cowl Blade from the BX system.",
-    "assessment": "Sphinx Cowl is a right-spin Defense Type Blade. Official stats: Attack 35 / Defense 55 / Stamina 10. Weight: 32.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Sphinx Cowl Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Sphinx Cowl is a right-spin Defense Type Blade. Official stats: Attack 35 / Defense 55 / Stamina 10. Weight: 32.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right",
@@ -3972,8 +5016,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/BladeBlackShell.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Black Shell Blade from the BX system.",
-    "assessment": "Black Shell is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 25. Weight: 32.4g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Black Shell Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Black Shell is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 25. Weight: 32.4g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.4,
       "spinDirection": "right",
@@ -3995,8 +5045,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeWhaleWave.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Whale Wave Blade from the BX system.",
-    "assessment": "Whale Wave is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 35 / Stamina 20. Weight: 38.2g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Whale Wave Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Whale Wave is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 35 / Stamina 20. Weight: 38.2g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 38.2,
       "spinDirection": "right",
@@ -4018,8 +5074,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c8/BladeDranDagger.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "Dran Dagger Blade from the BX system.",
-    "assessment": "Dran Dagger is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 34.8g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Dran Dagger Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dran Dagger is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 34.8g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.8,
       "spinDirection": "right",
@@ -4041,8 +5103,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9c/MammothTusk_2-80E.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Mammoth Tusk Blade from the BX system.",
-    "assessment": "Mammoth Tusk is a right-spin Balance Type Blade. Weight: 32.1g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Mammoth Tusk Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Mammoth Tusk is a right-spin Balance Type Blade. Weight: 32.1g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.1,
       "spinDirection": "right"
@@ -4063,8 +5131,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladePhoenixWing.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Phoenix Wing Blade from the BX system.",
-    "assessment": "Phoenix Wing is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 38g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Phoenix Wing Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Phoenix Wing is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 38g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 38,
       "spinDirection": "right",
@@ -4086,8 +5160,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e0/BladeSharkScale.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Shark Scale Blade from the UX system.",
-    "assessment": "Shark Scale is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 15 / Stamina 15. Weight: 37.6g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shark Scale Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shark Scale is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 15 / Stamina 15. Weight: 37.6g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.6,
       "spinDirection": "right",
@@ -4109,8 +5189,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ad/Bat.png/revision/latest?cb=20240101213145",
     "releaseDate": "2026-04-01",
     "releaseWave": "G2733",
-    "description": "Gust Bat Blade from the Hasbro Basic Line.",
-    "assessment": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
+    "description": {
+      "en": "Gust Bat Blade from the Hasbro Basic Line.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -4132,8 +5218,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeMummyCurse.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Mummy Curse Blade from the UX system.",
-    "assessment": "Mummy Curse is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 20. Weight: 37.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Mummy Curse Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Mummy Curse is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 20. Weight: 37.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37.5,
       "spinDirection": "right",
@@ -4155,8 +5247,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeTriceraPress.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Tricera Press Blade from the BX system.",
-    "assessment": "Tricera Press is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 65 / Stamina 15. Weight: 36.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Tricera Press Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Tricera Press is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 65 / Stamina 15. Weight: 36.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.5,
       "spinDirection": "right",
@@ -4178,8 +5276,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/25/BladeKnifeShinobi.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shinobi Knife Blade from the BX system.",
-    "assessment": "Shinobi Knife is a right-spin Balance Type Blade. Weight: 30.9g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shinobi Knife Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shinobi Knife is a right-spin Balance Type Blade. Weight: 30.9g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 30.9,
       "spinDirection": "right"
@@ -4200,8 +5304,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/83/BladeHellsChain.png/revision/latest",
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
-    "description": "Hells Chain Blade from the BX system.",
-    "assessment": "Hells Chain is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 40 / Stamina 25. Weight: 33.2g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Hells Chain Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hells Chain is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 40 / Stamina 25. Weight: 33.2g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.2,
       "spinDirection": "right",
@@ -4223,8 +5333,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9d/BladeViperTail.png/revision/latest",
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
-    "description": "Viper Tail Blade from the BX system.",
-    "assessment": "Viper Tail is a right-spin Stamina Type Blade. Official stats: Attack 30 / Defense 20 / Stamina 50. Weight: 34.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Viper Tail Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Viper Tail is a right-spin Stamina Type Blade. Official stats: Attack 30 / Defense 20 / Stamina 50. Weight: 34.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.7,
       "spinDirection": "right",
@@ -4246,8 +5362,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a4/CrocoCrunch_2-60Q.jpg/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Croco Crunch Blade from the BX system.",
-    "assessment": "Croco Crunch is a right-spin Balance Type Blade. Weight: 34.05g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Croco Crunch Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Croco Crunch is a right-spin Balance Type Blade. Weight: 34.05g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.05,
       "spinDirection": "right"
@@ -4268,8 +5390,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/BladeWyvernGale.png/revision/latest",
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
-    "description": "Wyvern Gale Blade from the BX system.",
-    "assessment": "Wyvern Gale is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 40 / Stamina 50. Weight: 31.9g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Wyvern Gale Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Wyvern Gale is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 40 / Stamina 50. Weight: 31.9g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.9,
       "spinDirection": "right",
@@ -4291,8 +5419,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/ff/BladeTyrannoBeat.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Tyranno Beat Blade from the BX system.",
-    "assessment": "Tyranno Beat is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 5. Weight: 37g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Tyranno Beat Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Tyranno Beat is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 5. Weight: 37g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 37,
       "spinDirection": "right",
@@ -4314,8 +5448,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/BladeLeonCrest.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Leon Crest Blade from the UX system.",
-    "assessment": "Leon Crest is a right-spin Defense Type Blade. Official stats: Attack 15 / Defense 70 / Stamina 15. Weight: 35g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Leon Crest Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Leon Crest is a right-spin Defense Type Blade. Official stats: Attack 15 / Defense 70 / Stamina 15. Weight: 35g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 35,
       "spinDirection": "right",
@@ -4337,8 +5477,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/37/BladeWeissTiger.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Weiss Tiger Blade from the BX system.",
-    "assessment": "Weiss Tiger is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 30 / Stamina 25. Weight: 34.6g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Weiss Tiger Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Weiss Tiger is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 30 / Stamina 25. Weight: 34.6g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.6,
       "spinDirection": "right",
@@ -4360,8 +5506,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/BladeGhostCircle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Ghost Circle Blade from the UX system.",
-    "assessment": "Ghost Circle is a right-spin Stamina Type Blade. Official stats: Attack 5 / Defense 40 / Stamina 55. Weight: 26.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Ghost Circle Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Ghost Circle is a right-spin Stamina Type Blade. Official stats: Attack 5 / Defense 40 / Stamina 55. Weight: 26.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 26.7,
       "spinDirection": "right",
@@ -4383,8 +5535,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladeGoatTackle.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Goat Tackle Blade from the BX system.",
-    "assessment": "Goat Tackle is a right-spin Balance Type Blade. Weight: 31.46g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Goat Tackle Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Goat Tackle is a right-spin Balance Type Blade. Weight: 31.46g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.46,
       "spinDirection": "right"
@@ -4405,8 +5563,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ab/BladeSamuraiCalibur.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Samurai Calibur Blade from the BX system.",
-    "assessment": "Samurai Calibur is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 30 / Stamina 30. Weight: 36g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Samurai Calibur Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Samurai Calibur is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 30 / Stamina 30. Weight: 36g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36,
       "spinDirection": "right",
@@ -4428,8 +5592,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/BladeHackViking.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Hack  Viking Blade from the UX system.",
-    "assessment": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "Hack  Viking Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Hack  Viking is a right-spin Blade from the Beyblade X UX line. Documented weight: 32.7g. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.7,
       "spinDirection": "right"
@@ -4450,8 +5620,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Scorpio Spear Blade from the UX system.",
-    "assessment": "Scorpio Spear is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 55 / Stamina 30. Weight: 39.6g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Scorpio Spear Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Scorpio Spear is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 55 / Stamina 30. Weight: 39.6g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 39.6,
       "spinDirection": "right",
@@ -4473,8 +5649,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c4/BladeDragoonStorm.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Dragoon Storm Blade from the BX system.",
-    "assessment": "Dragoon Storm is a left-spin Attack Type Blade. Official stats: Attack 55 / Defense 30 / Stamina 15. Weight: 25.1g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Dragoon Storm Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dragoon Storm is a left-spin Attack Type Blade. Official stats: Attack 55 / Defense 30 / Stamina 15. Weight: 25.1g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 25.1,
       "spinDirection": "left",
@@ -4496,8 +5678,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/43/BladeStormPegasis.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Storm Pegasis Blade from the BX system.",
-    "assessment": "Storm Pegasis is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 15 / Stamina 30. Weight: 31g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Storm Pegasis Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Storm Pegasis is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 15 / Stamina 30. Weight: 31g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31,
       "spinDirection": "right",
@@ -4519,8 +5707,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fe/BladeVictoryValkyrie.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Victory Valkyrie Blade from the BX system.",
-    "assessment": "Victory Valkyrie is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 20 / Stamina 25. Weight: 33.2g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Victory Valkyrie Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Victory Valkyrie is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 20 / Stamina 25. Weight: 33.2g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.2,
       "spinDirection": "right",
@@ -4542,8 +5736,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeEmperorMightH_(Metal_Coat_Black).png/revision/latest",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
-    "description": "EmperorMight Blade from the CX system.",
-    "assessment": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Hasbro release of the Takara Tomy mold.",
+    "description": {
+      "en": "EmperorMight Blade from the CX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Hasbro release of the Takara Tomy mold.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 0,
       "spinDirection": "right",
@@ -4565,8 +5765,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7c/BladeSharkGill.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Shark Gill Blade from the BX system.",
-    "assessment": "Shark Gill is a right-spin Balance Type Blade. Weight: 29.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shark Gill Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shark Gill is a right-spin Balance Type Blade. Weight: 29.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.7,
       "spinDirection": "right"
@@ -4587,8 +5793,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/fc/BladeKnightMail.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "UX",
-    "description": "Knight Mail Blade from the UX system.",
-    "assessment": "Knight Mail is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 35. Weight: 36.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Knight Mail Blade from the UX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Knight Mail is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 65 / Stamina 35. Weight: 36.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 36.7,
       "spinDirection": "right",
@@ -4610,8 +5822,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ce/BladeDranzerSpiral.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Dranzer Spiral Blade from the BX system.",
-    "assessment": "Dranzer Spiral is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 30 / Stamina 35. Weight: 27.7g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Dranzer Spiral Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Dranzer Spiral is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 30 / Stamina 35. Weight: 27.7g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 27.7,
       "spinDirection": "right",
@@ -4633,8 +5851,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c5/BladeDrigerSlash.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Driger Slash Blade from the BX system.",
-    "assessment": "Driger Slash is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 35 / Stamina 25. Weight: 28.6g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Driger Slash Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Driger Slash is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 35 / Stamina 25. Weight: 28.6g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 28.6,
       "spinDirection": "right",
@@ -4656,8 +5880,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/BladeDracielShield.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "BX",
-    "description": "Draciel Shield Blade from the BX system.",
-    "assessment": "Draciel Shield is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 50 / Stamina 20. Weight: 28g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Draciel Shield Blade from the BX system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Draciel Shield is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 50 / Stamina 20. Weight: 28g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 28,
       "spinDirection": "right",
@@ -4679,8 +5909,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6c/BladeGrogu.png/revision/latest",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3061",
-    "description": "Grogu Blade from the Star Wars collaboration Multipack Set.",
-    "assessment": "Grogu is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 50 / Stamina 29. Weight: 33.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Grogu Blade from the Star Wars collaboration Multipack Set.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Grogu is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 50 / Stamina 29. Weight: 33.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.5,
       "spinDirection": "right",
@@ -4702,8 +5938,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6c/BladeGrogu.png/revision/latest",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3061",
-    "description": "Grogu Blade from the Star Wars collaboration Multipack Set.",
-    "assessment": "Grogu is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 50 / Stamina 29. Weight: 33.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Grogu Blade from the Star Wars collaboration Multipack Set.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Grogu is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 50 / Stamina 29. Weight: 33.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.5,
       "spinDirection": "right",
@@ -4725,8 +5967,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeSnowtrooper.png/revision/latest",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3061",
-    "description": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
-    "assessment": "Snowtrooper is a right-spin Balance Type Blade. Weight: 33.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Snowtrooper is a right-spin Balance Type Blade. Weight: 33.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.3,
       "spinDirection": "right"
@@ -4747,8 +5995,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeSnowtrooper.png/revision/latest",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3061",
-    "description": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
-    "assessment": "Snowtrooper is a right-spin Balance Type Blade. Weight: 33.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Snowtrooper Blade from the Star Wars collaboration Multipack Set.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Snowtrooper is a right-spin Balance Type Blade. Weight: 33.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.3,
       "spinDirection": "right"
@@ -4769,8 +6023,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "The Mandalorian Blade.",
-    "assessment": "The Mandalorian is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "The Mandalorian Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Mandalorian is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4788,8 +6048,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b6/BladeMoffGideon.png/revision/latest?cb=20250321062919",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Moff Gideon Blade.",
-    "assessment": "Moff Gideon is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Moff Gideon Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Moff Gideon is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4807,8 +6073,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/BladeIronMan.png/revision/latest?cb=20250321062619",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Iron Man Blade.",
-    "assessment": "Iron Man is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Iron Man Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Iron Man is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4826,8 +6098,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ef/BladeThanos.png/revision/latest",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Thanos Blade.",
-    "assessment": "Thanos is a right-spin Defense Type Blade. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Thanos Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Thanos is a right-spin Defense Type Blade. Official stats: Attack 22 / Defense 60 / Stamina 18. Weight: 29.5g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 29.5,
       "typeTag": "Defense",
@@ -4849,8 +6127,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Manaphy12342.png/revision/latest?cb=20111211200559",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Spider Man Blade.",
-    "assessment": "Spider Man is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Spider Man Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Spider Man is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4868,8 +6152,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/BladeVenom.png/revision/latest?cb=20250321062739",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Venom Blade.",
-    "assessment": "Venom is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Venom Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Venom is a right-spin Attack Type Blade. Official stats: Attack 55 / Defense 22 / Stamina 23. Weight: 34.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 34.3,
       "typeTag": "Attack",
@@ -4891,8 +6181,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/71/BladeLukeSkywalker.png/revision/latest?cb=20250321062806",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Luke Skywalker Blade.",
-    "assessment": "Luke Skywalker is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Luke Skywalker Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Luke Skywalker is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4910,8 +6206,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeDarthVader.png/revision/latest?cb=20250321062834",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Darth Vader Blade.",
-    "assessment": "Darth Vader is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Darth Vader Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Darth Vader is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4929,8 +6231,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8d/Captain_America_4-70GB.jpeg/revision/latest?cb=20250618034930",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Captain America Blade.",
-    "assessment": "Captain America is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Captain America Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Captain America is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4948,8 +6256,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/Red_Hulk_1-80R.jpeg/revision/latest?cb=20250618034946",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Red Hulk Blade.",
-    "assessment": "Red Hulk is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Red Hulk Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Red Hulk is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4967,8 +6281,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Miles_Morales_1-60GN.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Miles Morales Blade.",
-    "assessment": "Miles Morales is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Miles Morales Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Miles Morales is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -4986,8 +6306,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/95/Green_Goblin_9-80HT.jpeg/revision/latest?cb=20250903053921",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Green Goblin Blade.",
-    "assessment": "Green Goblin is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Green Goblin Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Green Goblin is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -5005,8 +6331,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/Bumblebee_3-60GP.jpeg/revision/latest?cb=20250821194720",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Bumblebee Blade.",
-    "assessment": "Bumblebee is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Bumblebee Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Bumblebee is a right-spin Defense Type Blade. Official stats: Attack 21 / Defense 55 / Stamina 24. Weight: 31.8g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.8,
       "typeTag": "Defense",
@@ -5028,8 +6360,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Shockwave_5-80O.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Shockwave Blade.",
-    "assessment": "Shockwave is a right-spin Stamina Type Blade. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Shockwave Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Shockwave is a right-spin Stamina Type Blade. Official stats: Attack 32 / Defense 18 / Stamina 50. Weight: 32.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 32.3,
       "typeTag": "Stamina",
@@ -5051,8 +6389,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/ba/Obi-Wan_Kenobi_4-60P.jpeg/revision/latest?cb=20250618035030",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Obi Wan Kenobi Blade.",
-    "assessment": "Obi Wan Kenobi is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "Obi Wan Kenobi Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Obi Wan Kenobi is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -5070,8 +6414,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/General_Grievous_3-80HN.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "General Grievous Blade.",
-    "assessment": "General Grievous is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "General Grievous Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "General Grievous is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -5089,8 +6439,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/Chewbacca_4-80LF.jpeg/revision/latest?cb=20250903053227",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Chewbacca Blade.",
-    "assessment": "Chewbacca is a right-spin Stamina Type Blade. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Chewbacca Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Chewbacca is a right-spin Stamina Type Blade. Official stats: Attack 22 / Defense 23 / Stamina 55. Weight: 31.8g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 31.8,
       "typeTag": "Stamina",
@@ -5112,8 +6468,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Stormtrooper_5-70B.jpeg/revision/latest",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Stormtrooper Blade.",
-    "assessment": "Stormtrooper is a right-spin Defense Type Blade. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Manufactured by Hasbro.",
+    "description": {
+      "en": "Stormtrooper Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Stormtrooper is a right-spin Defense Type Blade. Official stats: Attack 18 / Defense 50 / Stamina 32. Weight: 33.3g. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "weightGrams": 33.3,
       "typeTag": "Defense",
@@ -5135,8 +6497,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/BladeTheMandalorian.png/revision/latest?cb=20250321062856",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "T Rex Blade.",
-    "assessment": "T Rex is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+    "description": {
+      "en": "T Rex Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "T Rex is a Blade from the Beyblade X toyline. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {},
     "ratings": {
       "attack": 0,
@@ -5154,8 +6522,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/Mosasaurus_9-60U.png/revision/latest?cb=20250308034736",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Mosasaurus Blade.",
-    "assessment": "Mosasaurus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
+    "description": {
+      "en": "Mosasaurus Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Mosasaurus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "spinDirection": "right"
     },
@@ -5175,8 +6549,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/62/Spinosaurus_3-85A.png/revision/latest?cb=20250322040356",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Spinosaurus Blade.",
-    "assessment": "Spinosaurus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
+    "description": {
+      "en": "Spinosaurus Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Spinosaurus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "spinDirection": "right"
     },
@@ -5196,8 +6576,14 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ee/Quetzalcoatlus_4-55D.png/revision/latest?cb=20250808060150",
     "releaseDate": "",
     "releaseWave": "",
-    "description": "Quetzalcoatlus Blade.",
-    "assessment": "Quetzalcoatlus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
+    "description": {
+      "en": "Quetzalcoatlus Blade.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Quetzalcoatlus is a right-spin Balance Type Blade. Manufactured by Hasbro.",
+      "de": ""
+    },
     "officialStats": {
       "spinDirection": "right"
     },

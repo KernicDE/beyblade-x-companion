@@ -5,8 +5,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/Beyblade_X_Winder_Launcher.jpeg/revision/latest",
     "releaseDate": "2023-07-15",
-    "description": "A compact ripcord-style launcher included with starter sets.",
-    "assessment": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "A compact ripcord-style launcher included with starter sets.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -15,8 +21,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/Beyblade_X_Winder_Launcher_L.jpeg/revision/latest",
     "releaseDate": "2025-03-29",
-    "description": "A left-spin variant of the Winder Launcher.",
-    "assessment": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "A left-spin variant of the Winder Launcher.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "spinCapability": "left"
   },
   {
@@ -25,8 +37,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/Beyblade_X_String_Launcher.jpeg/revision/latest",
     "releaseDate": "2023-10-07",
-    "description": "A string-pull launcher for strong, consistent launches.",
-    "assessment": "String Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "A string-pull launcher for strong, consistent launches.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "String Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -35,8 +53,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/Beyblade_X_String_Launcher_L.jpeg/revision/latest",
     "releaseDate": "2025-10-11",
-    "description": "A left-spin string-pull launcher.",
-    "assessment": "String Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "A left-spin string-pull launcher.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "String Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "spinCapability": "left"
   },
   {
@@ -45,8 +69,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Custom_BeyLauncher_LR.jpg/revision/latest",
     "releaseDate": "",
-    "description": "A modular launcher used with the Custom Line system.",
-    "assessment": "Custom Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+    "description": {
+      "en": "A modular launcher used with the Custom Line system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "Custom Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -55,8 +85,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/78/Beyblade_X_Winder_Launcher_%28Hasbro%29.jpeg/revision/latest",
     "releaseDate": "2024-05-30",
-    "description": "A compact ripcord-style launcher included with Hasbro starter sets.",
-    "assessment": "The Hasbro Winder Launcher is the western release of the compact ripcord launcher. It launches right-spin Beys.",
+    "description": {
+      "en": "A compact ripcord-style launcher included with Hasbro starter sets.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Hasbro Winder Launcher is the western release of the compact ripcord launcher. It launches right-spin Beys.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -65,8 +101,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/Beyblade_X_Winder_Launcher_L.jpeg/revision/latest",
     "releaseDate": "2025-07-24",
-    "description": "A left-spin variant of the Hasbro Winder Launcher.",
-    "assessment": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher, included in sets such as the 25th Anniversary Set.",
+    "description": {
+      "en": "A left-spin variant of the Hasbro Winder Launcher.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher, included in sets such as the 25th Anniversary Set.",
+      "de": ""
+    },
     "spinCapability": "left"
   },
   {
@@ -75,8 +117,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/Beyblade_X_String_Launcher.jpeg/revision/latest",
     "releaseDate": "2024-05-30",
-    "description": "A string-pull launcher for strong, consistent launches.",
-    "assessment": "The Hasbro String Launcher is the western release of the string-pull launcher. It launches right-spin Beys.",
+    "description": {
+      "en": "A string-pull launcher for strong, consistent launches.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Hasbro String Launcher is the western release of the string-pull launcher. It launches right-spin Beys.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -85,8 +133,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/Beyblade_X_String_Launcher_L.jpeg/revision/latest",
     "releaseDate": "2025-07-24",
-    "description": "A left-spin string-pull launcher.",
-    "assessment": "The Hasbro String Launcher L is the western left-spin string launcher, included in sets such as the 25th Anniversary Set.",
+    "description": {
+      "en": "A left-spin string-pull launcher.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Hasbro String Launcher L is the western left-spin string launcher, included in sets such as the 25th Anniversary Set.",
+      "de": ""
+    },
     "spinCapability": "left"
   },
   {
@@ -95,8 +149,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Custom_BeyLauncher_LR.jpg/revision/latest",
     "releaseDate": "2025-06-01",
-    "description": "A modular launcher used with the Custom Line system.",
-    "assessment": "The Hasbro Custom Launcher is the western release of the modular Custom Line launcher. It launches right-spin Beys.",
+    "description": {
+      "en": "A modular launcher used with the Custom Line system.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Hasbro Custom Launcher is the western release of the modular Custom Line launcher. It launches right-spin Beys.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -105,8 +165,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/02/PhoenixWing_5-80H.jpeg/revision/latest?cb=20240624191632",
     "releaseDate": "2024-05-30",
-    "description": "A deluxe string launcher set featuring Soar Phoenix colors.",
-    "assessment": "The Soar Phoenix Deluxe String Launcher Set includes a right-spin string launcher with a Phoenix-themed design and grip accessories.",
+    "description": {
+      "en": "A deluxe string launcher set featuring Soar Phoenix colors.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Soar Phoenix Deluxe String Launcher Set includes a right-spin string launcher with a Phoenix-themed design and grip accessories.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -115,8 +181,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/1dd276e450d31179f67e496198969729",
     "releaseDate": "2025-02-15",
-    "description": "A deluxe left-spin string launcher set featuring Cobalt Dragoon colors.",
-    "assessment": "The Cobalt Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
+    "description": {
+      "en": "A deluxe left-spin string launcher set featuring Cobalt Dragoon colors.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Cobalt Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
+      "de": ""
+    },
     "spinCapability": "left"
   },
   {
@@ -125,8 +197,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/VictoryValkyrie_2-60RA.jpeg/revision/latest?cb=20240717033721",
     "releaseDate": "2025-08-01",
-    "description": "A launcher set featuring a custom grip for improved handling.",
-    "assessment": "The Victory Grip Launcher Set is a Hasbro launcher accessory pack designed to improve launch stability with an ergonomic grip.",
+    "description": {
+      "en": "A launcher set featuring a custom grip for improved handling.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Victory Grip Launcher Set is a Hasbro launcher accessory pack designed to improve launch stability with an ergonomic grip.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -135,8 +213,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Clip_&_Rip_Launcher.jpg/revision/latest",
     "releaseDate": "2026-07-15",
-    "description": "A launcher set featuring a clip-on ripcord mechanism.",
-    "assessment": "The Clip & Rip Launcher Set is a Hasbro launcher accessory pack with a clip-on ripcord design for quick launching.",
+    "description": {
+      "en": "A launcher set featuring a clip-on ripcord mechanism.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Clip & Rip Launcher Set is a Hasbro launcher accessory pack with a clip-on ripcord design for quick launching.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -145,8 +229,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2d/CrocCrunch_2-60Q.jpg/revision/latest",
     "releaseDate": "2026-03-01",
-    "description": "A deluxe string launcher and custom grip set featuring Bite Croc colors.",
-    "assessment": "The Bite Croc Deluxe String Launcher & Custom Grip Set includes a right-spin string launcher with a Croc-themed design and a custom grip accessory.",
+    "description": {
+      "en": "A deluxe string launcher and custom grip set featuring Bite Croc colors.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Bite Croc Deluxe String Launcher & Custom Grip Set includes a right-spin string launcher with a Croc-themed design and a custom grip accessory.",
+      "de": ""
+    },
     "spinCapability": "right"
   },
   {
@@ -155,8 +245,14 @@
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b9/MeteorDragoon_3-70J.jpeg/revision/latest",
     "releaseDate": "2026-07-15",
-    "description": "A deluxe left-spin string launcher set featuring Meteoroid Dragoon colors.",
-    "assessment": "The Meteoroid Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
+    "description": {
+      "en": "A deluxe left-spin string launcher set featuring Meteoroid Dragoon colors.",
+      "de": ""
+    },
+    "assessment": {
+      "en": "The Meteoroid Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
+      "de": ""
+    },
     "spinCapability": "left"
   }
 ]

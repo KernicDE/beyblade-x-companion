@@ -14,6 +14,11 @@ export interface OfficialStats {
   typeTag?: string;
 }
 
+export interface LocalizedString {
+  en: string;
+  de: string;
+}
+
 export interface Part {
   id: string;
   category: PartCategory;
@@ -22,8 +27,8 @@ export interface Part {
   imageUrl: string;
   releaseDate: string;
   releaseWave: string;
-  description: string;
-  assessment: string;
+  description: LocalizedString;
+  assessment: LocalizedString;
   officialStats: OfficialStats;
   ratings: Ratings;
   ratingsDisclaimer: true;
@@ -40,8 +45,8 @@ export interface Launcher {
   manufacturer: 'Takara Tomy' | 'Hasbro';
   imageUrl: string;
   releaseDate: string;
-  description: string;
-  assessment: string;
+  description: LocalizedString;
+  assessment: LocalizedString;
   spinCapability: 'right' | 'left' | 'both';
 }
 
@@ -56,7 +61,7 @@ export interface Bey {
   assistBladeId?: string;
   ratchetId: string;
   bitId: string;
-  assessment: string;
+  assessment: LocalizedString;
 }
 
 export interface Creation {
