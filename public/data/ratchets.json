@@ -878,5 +878,687 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-3-60-hasbro",
+    "category": "ratchet",
+    "name": "3-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1b/Ratchet3-60.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "The 3-60 Ratchet.",
+    "assessment": "3-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.32g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.32
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-3-80-hasbro",
+    "category": "ratchet",
+    "name": "3-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Ratchet3-80.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "The 3-80 Ratchet.",
+    "assessment": "3-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.1g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7.1
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-80-hasbro",
+    "category": "ratchet",
+    "name": "4-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ae/Ratchet4-80.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "The 4-80 Ratchet.",
+    "assessment": "4-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-60-hasbro",
+    "category": "ratchet",
+    "name": "4-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet4-60.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "The 4-60 Ratchet.",
+    "assessment": "4-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.3g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.3
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-5-60-hasbro",
+    "category": "ratchet",
+    "name": "5-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f7/Ratchet5-60.png/revision/latest",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX",
+    "description": "The 5-60 Ratchet.",
+    "assessment": "5-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.6g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.6
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-1-60-hasbro",
+    "category": "ratchet",
+    "name": "1-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3a/Ratchet1-60.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 1-60 Ratchet.",
+    "assessment": "1-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.06g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.06
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-5-70-hasbro",
+    "category": "ratchet",
+    "name": "5-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cc/Ratchet5-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 5-70 Ratchet.",
+    "assessment": "5-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.7g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 6.7
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-1-80-hasbro",
+    "category": "ratchet",
+    "name": "1-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/Ratchet1-80.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 1-80 Ratchet.",
+    "assessment": "1-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.72g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 6.72
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-70-hasbro",
+    "category": "ratchet",
+    "name": "4-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/Ratchet4-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 4-70 Ratchet.",
+    "assessment": "4-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.5g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 6.5
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-7-80-hasbro",
+    "category": "ratchet",
+    "name": "7-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/Ratchet7-80.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 7-80 Ratchet.",
+    "assessment": "7-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.82g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7.82
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-3-70-hasbro",
+    "category": "ratchet",
+    "name": "3-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/Ratchet3-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 3-70 Ratchet.",
+    "assessment": "3-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.42g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 6.42
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-9-60-hasbro",
+    "category": "ratchet",
+    "name": "9-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/af/Ratchet9-60.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 9-60 Ratchet.",
+    "assessment": "9-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.19g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.19
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-2-60-hasbro",
+    "category": "ratchet",
+    "name": "2-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a6/Ratchet2-60.png/revision/latest",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX",
+    "description": "The 2-60 Ratchet.",
+    "assessment": "2-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.2g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.2
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-6-60-hasbro",
+    "category": "ratchet",
+    "name": "6-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 6-60 Ratchet.",
+    "assessment": "6-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 6.13g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 6.13
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-55-hasbro",
+    "category": "ratchet",
+    "name": "4-55",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 4-55 Ratchet.",
+    "assessment": "4-55 is a Ratchet from the Beyblade X toyline. Documented height: 5.5mm. Documented weight: 4.78g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 5.5,
+      "weightGrams": 4.78
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-6-80-hasbro",
+    "category": "ratchet",
+    "name": "6-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 6-80 Ratchet.",
+    "assessment": "6-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.91g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 6.91
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-9-70-hasbro",
+    "category": "ratchet",
+    "name": "9-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/86/Ratchet9-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 9-70 Ratchet.",
+    "assessment": "9-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.32g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 6.32
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-7-60-hasbro",
+    "category": "ratchet",
+    "name": "7-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/39/Ratchet7-60.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 7-60 Ratchet.",
+    "assessment": "7-60 is a Ratchet from the Beyblade X toyline. Documented height: 6mm. Documented weight: 7.12g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 6,
+      "weightGrams": 7.12
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-3-85-hasbro",
+    "category": "ratchet",
+    "name": "3-85",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/Ratchet3-85.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 3-85 Ratchet.",
+    "assessment": "3-85 is a Ratchet from the Beyblade X toyline. Documented height: 8.5mm. Documented weight: 4.79g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8.5,
+      "weightGrams": 4.79
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-5-80-hasbro",
+    "category": "ratchet",
+    "name": "5-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Ratchet5-80.png/revision/latest",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX",
+    "description": "The 5-80 Ratchet.",
+    "assessment": "5-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 7.15g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7.15
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-50-hasbro",
+    "category": "ratchet",
+    "name": "4-50",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-09",
+    "releaseWave": "UX-15",
+    "description": "The 4-50 Ratchet.",
+    "assessment": "4-50 is a Ratchet from the Beyblade X Unique Line. It features 4 protrusions at a 5.0 millimeter height. Debuted with SharkScale 4-50UF. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 5,
+      "weightGrams": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-integrated-hasbro",
+    "category": "ratchet",
+    "name": "Integrated",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "",
+    "releaseWave": "UX",
+    "description": "Integrated Ratchet built into the Blade for Expand Blade / Infinity system Beys.",
+    "assessment": "Integrated Ratchet is not a separate part; it is built into specific Expand Blade (Infinity) system Blades such as BulletGriffon and GloryValkyrie. It exists in the database only to represent these combos structurally.",
+    "officialStats": {
+      "heightMm": 0,
+      "weightGrams": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-8-70-hasbro",
+    "category": "ratchet",
+    "name": "8-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/ca/Ratchet8-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 8-70 Ratchet.",
+    "assessment": "8-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.76g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 7.76
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-0-80-hasbro",
+    "category": "ratchet",
+    "name": "0-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-12-28",
+    "releaseWave": "UX-12",
+    "description": "The 0-80 Ratchet.",
+    "assessment": "0-80 is a Ratchet from the Beyblade X Unique Line. It features 0 protrusions at an 8.0 millimeter height. Documented weight: 7.6g. Debuted in Random Booster Vol. 5. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7.6
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-1-50-hasbro",
+    "category": "ratchet",
+    "name": "1-50",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c2/Ratchet1-50.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 1-50 Ratchet.",
+    "assessment": "1-50 is a Ratchet from the Beyblade X toyline. Documented height: 5mm. Documented weight: 5.68g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 5,
+      "weightGrams": 5.68
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-9-80-hasbro",
+    "category": "ratchet",
+    "name": "9-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/61/Ratchet9-80.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 9-80 Ratchet.",
+    "assessment": "9-80 is a Ratchet from the Beyblade X toyline. Documented height: 8mm. Documented weight: 6.8g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 6.8
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-7-55-hasbro",
+    "category": "ratchet",
+    "name": "7-55",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "description": "The 7-55 Ratchet.",
+    "assessment": "7-55 is a Ratchet from the Beyblade X Unique Line. It features 7 protrusions at a 5.5 millimeter height and uses a simple O-type joint. Debuted in Random Booster Vol. 8. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 5.5,
+      "weightGrams": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-7-70-hasbro",
+    "category": "ratchet",
+    "name": "7-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/Ratchet7-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 7-70 Ratchet.",
+    "assessment": "7-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.24g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 7.24
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-6-70-hasbro",
+    "category": "ratchet",
+    "name": "6-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Ratchet6-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 6-70 Ratchet.",
+    "assessment": "6-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 6.35g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 6.35
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-0-70-hasbro",
+    "category": "ratchet",
+    "name": "0-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The 0-70 Ratchet.",
+    "assessment": "0-70 is a Ratchet from the Beyblade X toyline. Documented height: 7mm. Documented weight: 7.02g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 7.02
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-m-85-hasbro",
+    "category": "ratchet",
+    "name": "M-85",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/79/RatchetM-85.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "BX",
+    "description": "The M-85 Ratchet.",
+    "assessment": "M-85 is a Ratchet from the Beyblade X toyline. Documented height: 8.5mm. Documented weight: 10.65g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "heightMm": 8.5,
+      "weightGrams": 10.65
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
