@@ -10,8 +10,6 @@ const TIER_COLORS: Record<Tier, string> = {
   A: 'bg-green-500 text-white',
   B: 'bg-emerald-400 text-emerald-950',
   C: 'bg-blue-400 text-blue-950',
-  D: 'bg-indigo-400 text-indigo-950',
-  E: 'bg-orange-400 text-orange-950',
   F: 'bg-red-500 text-white',
 };
 

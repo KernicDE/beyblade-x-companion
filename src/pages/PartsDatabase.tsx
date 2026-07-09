@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import type { Part } from '../types';
-import { calculateTier } from '../utils/data';
+import { calculateTier, buildTypeScores } from '../utils/data';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
@@ -68,6 +68,8 @@ export function PartsDatabase() {
     );
   };
 
+  const typeScores = useMemo(() => (database ? buildTypeScores(database) : {}), [database]);
+
   const allTypes = useMemo(() => {
     if (!database) return [];
     const set = new Set<string>();
@@ -91,10 +93,10 @@ export function PartsDatabase() {
     if (!database) return [];
     const set = new Set<string>();
     [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach((p) => {
-      set.add(calculateTier(p.ratings));
+      set.add(calculateTier(p.ratings, p.officialStats.typeTag, typeScores));
     });
     return Array.from(set).sort();
-  }, [database]);
+  }, [database, typeScores]);
 
   const allSpins = useMemo(() => {
     if (!database) return [];
@@ -110,7 +112,7 @@ export function PartsDatabase() {
     if (!selectedMf.includes(p.manufacturer)) return false;
     if (selectedTypes.length > 0 && !selectedTypes.includes(p.officialStats.typeTag ?? '')) return false;
     if (selectedBatches.length > 0 && !selectedBatches.includes(getBatchPrefix(p.releaseWave))) return false;
-    if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(p.ratings))) return false;
+    if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(p.ratings, p.officialStats.typeTag, typeScores))) return false;
     if (selectedSpins.length > 0 && !selectedSpins.includes(p.officialStats.spinDirection ?? '')) return false;
     return matches(p);
   };
@@ -183,7 +185,7 @@ export function PartsDatabase() {
             <h2 className="mb-4 text-xl font-semibold">{t(group.titleKey)}</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {filtered.map((part) => {
-                const tier = calculateTier(part.ratings);
+                const tier = calculateTier(part.ratings, part.officialStats.typeTag, typeScores);
                 return (
                   <Link
                     key={part.id}

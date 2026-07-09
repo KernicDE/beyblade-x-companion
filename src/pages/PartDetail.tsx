@@ -9,7 +9,7 @@ import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import type { PartCategory, LocalizedString } from '../types';
-import { calculateTier } from '../utils/data';
+import { calculateTier, buildTypeScores } from '../utils/data';
 
 function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
@@ -73,7 +73,8 @@ export function PartDetail() {
   const part = getPartById(database, id ?? '', category as PartCategory);
   if (!part) return <p className="text-red-600">{t('partDetail.partNotFound')}</p>;
 
-  const tier = calculateTier(part.ratings);
+  const typeScores = buildTypeScores(database);
+  const tier = calculateTier(part.ratings, part.officialStats.typeTag, typeScores);
 
   return (
     <div className="space-y-6">

@@ -120,17 +120,62 @@ export function isComboEstimated(database: Database, combo: ComboParts): boolean
   return parts.some((p) => p.ratingsSource === 'estimated');
 }
 
-export function calculateTier(ratings: Ratings): Tier {
+export function buildTypeScores(database: Database): Record<string, number[]> {
+  const scores: Record<string, number[]> = {};
+
+  const addScore = (typeTag: string | undefined, ratings: Ratings) => {
+    if (!typeTag) return;
+    const values = Object.values(ratings);
+    if (values.length === 0) return;
+    const average = values.reduce((a, b) => a + b, 0) / values.length;
+    const max = Math.max(...values);
+    const score = (average + max) / 2;
+    if (!scores[typeTag]) scores[typeTag] = [];
+    scores[typeTag].push(score);
+  };
+
+  database.beys.forEach((bey) => {
+    const blade = database.blades.find((b) => b.id === bey.bladeId);
+    const ratings = calculateComboRatings(database, getBeyParts(bey));
+    addScore(blade?.officialStats.typeTag, ratings);
+  });
+
+  [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach(
+    (part) => {
+      addScore(part.officialStats.typeTag, part.ratings);
+    }
+  );
+
+  return scores;
+}
+
+export function calculateTier(
+  ratings: Ratings,
+  typeTag?: string,
+  typeScores?: Record<string, number[]>
+): Tier {
   const values = Object.values(ratings);
+  if (values.length === 0) return 'F';
   const average = values.reduce((a, b) => a + b, 0) / values.length;
   const max = Math.max(...values);
   const score = (average + max) / 2;
 
+  if (typeTag && typeScores?.[typeTag]?.length) {
+    const scores = typeScores[typeTag];
+    const below = scores.filter((s) => s < score).length;
+    const equal = scores.filter((s) => s === score).length;
+    const percentile = ((below + equal / 2) / scores.length) * 100;
+
+    if (percentile >= 90) return 'S';
+    if (percentile >= 80) return 'A';
+    if (percentile >= 70) return 'B';
+    if (percentile >= 60) return 'C';
+    return 'F';
+  }
+
   if (score >= 4.25) return 'S';
   if (score >= 3.75) return 'A';
   if (score >= 3.25) return 'B';
-  if (score >= 2.75) return 'C';
-  if (score >= 2.25) return 'D';
-  if (score >= 1.75) return 'E';
+  if (score >= 2.25) return 'C';
   return 'F';
 }

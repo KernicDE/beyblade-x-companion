@@ -1,6 +1,6 @@
 export type PartCategory = 'blade' | 'assistBlade' | 'ratchet' | 'bit';
 
-export type Tier = 'S' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F';
+export type Tier = 'S' | 'A' | 'B' | 'C' | 'F';
 
 export interface Ratings {
   attack: number;

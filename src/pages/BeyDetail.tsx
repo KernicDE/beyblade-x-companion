@@ -1,6 +1,13 @@
 import { useParams, Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { calculateComboRatings, getBeyParts, getPartById, isComboEstimated, calculateTier } from '../utils/data';
+import {
+  calculateComboRatings,
+  getBeyParts,
+  getPartById,
+  isComboEstimated,
+  calculateTier,
+  buildTypeScores,
+} from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
@@ -25,6 +32,7 @@ export function BeyDetail() {
   const bey = database.beys.find((b) => b.id === id);
   if (!bey) return <p className="text-red-600">{t('beyDetail.beyNotFound')}</p>;
 
+  const typeScores = buildTypeScores(database);
   const parts = getBeyParts(bey);
   const blade = getPartById(database, parts.bladeId, 'blade');
   const assistBlade = parts.assistBladeId
@@ -34,7 +42,7 @@ export function BeyDetail() {
   const bit = getPartById(database, parts.bitId, 'bit');
   const ratings = calculateComboRatings(database, parts);
   const estimated = isComboEstimated(database, parts);
-  const tier = calculateTier(ratings);
+  const tier = calculateTier(ratings, blade?.officialStats.typeTag, typeScores);
 
   const partLink = (category: string, partId: string | undefined, label: string) => {
     if (!partId) return null;
