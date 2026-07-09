@@ -526,5 +526,247 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "slash-hasbro",
+    "category": "assistBlade",
+    "name": "Slash",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cb/AssistBladeSlash.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Slash Assist Blade.",
+    "assessment": "Slash is an Assist Blade from the Beyblade X CX line. Documented weight: 4.71g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 4.71,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "turn-a-hasbro",
+    "category": "assistBlade",
+    "name": "Turn-A",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Turn-A Assist Blade.",
+    "assessment": "Turn- A is an Assist Blade from the Beyblade X CX line. Documented weight: 5.85g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 5.85,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "round-hasbro",
+    "category": "assistBlade",
+    "name": "Round",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3c/AssistBladeRound.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Round Assist Blade.",
+    "assessment": "Round is an Assist Blade from the Beyblade X CX line. Documented weight: 4.64g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 4.64,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "bumper-hasbro",
+    "category": "assistBlade",
+    "name": "Bumper",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/AssistBladeBumper.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Bumper Assist Blade.",
+    "assessment": "Bumper is an Assist Blade from the Beyblade X CX line. Documented weight: 5.31g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 5.31,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "jaggy-hasbro",
+    "category": "assistBlade",
+    "name": "Jaggy",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/AssistBladeJaggy.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Jaggy Assist Blade.",
+    "assessment": "Jaggy is an Assist Blade from the Beyblade X CX line. Documented weight: 4.82g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 4.82,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "charge-hasbro",
+    "category": "assistBlade",
+    "name": "Charge",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
+    "description": "The Charge Assist Blade.",
+    "assessment": "Charge is an Assist Blade from the Beyblade X Custom Line. Debuted with SolBrave C9-70TP in Random Booster Vol. 8. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wheel-hasbro",
+    "category": "assistBlade",
+    "name": "Wheel",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3d/AssistBladeWheel.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Wheel Assist Blade.",
+    "assessment": "Wheel is an Assist Blade from the Beyblade X CX line. Documented weight: 7.26g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 7.26,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "erase-hasbro",
+    "category": "assistBlade",
+    "name": "Erase",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0c/AssistBladeErase.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Erase Assist Blade.",
+    "assessment": "Erase is an Assist Blade from the Beyblade X CX line. Documented weight: 6.1g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 6.1,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "vertical-hasbro",
+    "category": "assistBlade",
+    "name": "Vertical",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/65/AssistBladeVertical.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Vertical Assist Blade.",
+    "assessment": "Vertical is an Assist Blade from the Beyblade X CX line. Documented weight: 5.47g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 5.47,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "knuckle-hasbro",
+    "category": "assistBlade",
+    "name": "Knuckle",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/11/AssistBladeKnuckle.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Knuckle Assist Blade.",
+    "assessment": "Knuckle is an Assist Blade from the Beyblade X CX line. Documented weight: 4.89g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 4.89,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "heavy-hasbro",
+    "category": "assistBlade",
+    "name": "Heavy",
+    "manufacturer": "Hasbro",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0b/AssistBladeHeavy.png/revision/latest",
+    "releaseDate": "",
+    "releaseWave": "CX",
+    "description": "The Heavy Assist Blade.",
+    "assessment": "Heavy is an Assist Blade from the Beyblade X CX line. Documented weight: 7.94g. Hasbro release of the Takara Tomy mold.",
+    "officialStats": {
+      "weightGrams": 7.94,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
