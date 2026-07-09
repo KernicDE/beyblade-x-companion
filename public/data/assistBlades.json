@@ -95,27 +95,29 @@
     "name": "Turn-A",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "CX",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
     "description": {
-      "en": "The Turn-A Assist Blade.",
-      "de": ""
+      "en": "The Turn-A Assist Blade in Attack mode. A Custom Line Assist Blade with a reversible outer piece; in this mode the contact points have additional protrusions for rapid barrage attacks.",
+      "de": "Der Turn-A-Assist-Blade im Attack-Modus. Ein Custom-Line-Assist-Blade mit umkehrbarem Außenstück; in diesem Modus haben die Kontaktpunkte zusätzliche Vorsprünge für schnelle Barrage-Angriffe."
     },
     "assessment": {
-      "en": "Turn- A is an Assist Blade from the Beyblade X CX line. Documented weight: 5.85g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Turn-A places the Turn Assist Blade in Attack mode. The exposed protrusions create barrage-attack potential, but the shape still keeps some defensive utility. Weight: 5.8g. Ratings estimated from official stats and mode.",
+      "de": "Turn-A bringt den Turn-Assist-Blade in den Attack-Modus. Die freiliegenden Vorsprünge erzeugen Barrage-Attack-Potenzial, aber die Form behält noch etwas defensiven Nutzen. Gewicht: 5,8 g. Bewertungen geschätzt anhand offizieller Werte und Modus."
     },
     "officialStats": {
-      "weightGrams": 5.85,
-      "spinDirection": "right"
+      "weightGrams": 5.8,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2,
+      "stamina": 3,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "turn-d",
@@ -123,27 +125,29 @@
     "name": "Turn-D",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "CX",
+    "releaseDate": "2025-04-26",
+    "releaseWave": "CX-05",
     "description": {
-      "en": "The Turn-D Assist Blade.",
-      "de": ""
+      "en": "The Turn-D Assist Blade in Defense mode. A Custom Line Assist Blade with a reversible outer piece; in this mode the contact points are smoother to deflect opposing attacks.",
+      "de": "Der Turn-D-Assist-Blade im Defense-Modus. Ein Custom-Line-Assist-Blade mit umkehrbarem Außenstück; in diesem Modus sind die Kontaktpunkte glatter, um gegnerische Angriffe abzulenken."
     },
     "assessment": {
-      "en": "Turn- D is an Assist Blade from the Beyblade X CX line. Documented weight: 5.85g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Turn-D places the Turn Assist Blade in Defense mode. The smoother contact points improve deflection and stability at the cost of aggression. Weight: 5.8g. Ratings estimated from official stats and mode.",
+      "de": "Turn-D bringt den Turn-Assist-Blade in den Defense-Modus. Die glatteren Kontaktpunkte verbessern Ablenkung und Stabilität auf Kosten von Aggression. Gewicht: 5,8 g. Bewertungen geschätzt anhand offizieller Werte und Modus."
     },
     "officialStats": {
-      "weightGrams": 5.85,
-      "spinDirection": "right"
+      "weightGrams": 5.8,
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 4,
+      "stamina": 3.5,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "charge",
@@ -301,27 +305,29 @@
     "name": "Dual-U",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/22/AssistBladeDual_(Smash_Mode).png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "CX",
+    "releaseDate": "2025-09-27",
+    "releaseWave": "CX-09",
     "description": {
-      "en": "The Dual-U Assist Blade.",
-      "de": ""
+      "en": "The Dual-U Assist Blade in Upper mode. A Custom Line Assist Blade with reversible contact points slanting upward to create Upper Attack potential.",
+      "de": "Der Dual-U-Assist-Blade im Upper-Modus. Ein Custom-Line-Assist-Blade mit umkehrbaren, nach oben geneigten Kontaktpunkten für Upper-Attack-Potenzial."
     },
     "assessment": {
-      "en": "Dual- U is an Assist Blade from the Beyblade X CX line. Documented weight: 5.63g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dual-U sets Dual to Upper mode. The upward-sloping points can lift opponents and destabilize them, though the effect is subtle. Weight: 5.9g. Ratings estimated from official stats and mode.",
+      "de": "Dual-U stellt Dual in den Upper-Modus. Die nach oben geneigten Punkte können Gegner anheben und destabilisieren, obwohl der Effekt subtil ist. Gewicht: 5,9 g. Bewertungen geschätzt anhand offizieller Werte und Modus."
     },
     "officialStats": {
-      "weightGrams": 5.63,
-      "spinDirection": "right"
+      "weightGrams": 5.9,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2.5,
+      "stamina": 2,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "dual-s",
@@ -329,27 +335,29 @@
     "name": "Dual-S",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/22/AssistBladeDual_(Smash_Mode).png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "CX",
+    "releaseDate": "2025-09-27",
+    "releaseWave": "CX-09",
     "description": {
-      "en": "The Dual-S Assist Blade.",
-      "de": ""
+      "en": "The Dual-S Assist Blade in Smash mode. A Custom Line Assist Blade with reversible contact points slanting downward to create Smash Attack potential.",
+      "de": "Der Dual-S-Assist-Blade im Smash-Modus. Ein Custom-Line-Assist-Blade mit umkehrbaren, nach unten geneigten Kontaktpunkten für Smash-Attack-Potenzial."
     },
     "assessment": {
-      "en": "Dual- S is an Assist Blade from the Beyblade X CX line. Documented weight: 5.63g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dual-S sets Dual to Smash mode. The downward-sloping points focus on hard, direct strikes but increase recoil slightly. Weight: 5.9g. Ratings estimated from official stats and mode.",
+      "de": "Dual-S stellt Dual in den Smash-Modus. Die nach unten geneigten Punkte konzentrieren sich auf harte, direkte Schläge, erhöhen aber leicht den Rückstoß. Gewicht: 5,9 g. Bewertungen geschätzt anhand offizieller Werte und Modus."
     },
     "officialStats": {
-      "weightGrams": 5.63,
-      "spinDirection": "right"
+      "weightGrams": 5.9,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "free",
@@ -570,25 +578,26 @@
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
-      "en": "The Dual Assist Blade.",
-      "de": ""
+      "en": "A right-spin Attack Type Assist Blade from the Custom Line with reversible contact points. It can switch between Upper mode for lifting opponents and Smash mode for direct strikes.",
+      "de": "Ein rechtsspinnender Attack-Type-Assist-Blade aus der Custom Line mit umkehrbaren Kontaktpunkten. Er kann zwischen dem Upper-Modus zum Anheben von Gegnern und dem Smash-Modus für direkte Schläge wechseln."
     },
     "assessment": {
-      "en": "Dual is a right-spin Balance Type Assist Blade. Weight: 5.9g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dual is a versatile Attack-oriented Assist Blade with a mode-change gimmick. Official stats: Attack 45 / Defense 35 / Stamina 20 / Height 60. Weight: 5.9g. Ratings based on community data.",
+      "de": "Dual ist ein vielseitiger attack-orientierter Assist-Blade mit einem Moduswechsel-Gimmick. Offizielle Werte: Angriff 45 / Verteidigung 35 / Stamina 20 / Höhe 60. Gewicht: 5,9 g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "weightGrams": 5.9,
       "spinDirection": "right",
-      "typeTag": "Balance"
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 3.5,
+      "stamina": 2,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "outer",
@@ -599,24 +608,26 @@
     "releaseDate": "2026-06-13",
     "releaseWave": "CX-18",
     "description": {
-      "en": "The Outer Assist Blade.",
-      "de": ""
+      "en": "A right-spin Stamina Type Assist Blade from the Custom Line. It debuted with BrachioWhip OW5-70Nr in the CX-18 Random Booster and features an outer-heavy weight distribution for longer spin times.",
+      "de": "Ein rechtsspinnender Stamina-Type-Assist-Blade aus der Custom Line. Er debütierte mit BrachioWhip OW5-70Nr im CX-18-Random-Booster und verfügt über eine außenlastige Gewichtsverteilung für längere Drehzeiten."
     },
     "assessment": {
-      "en": "Outer is an Assist Blade from the Beyblade X Custom Line. Debuted with BrachioWhip OW5-70Nr. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Outer is a Stamina-focused Assist Blade that uses outer weight distribution to improve spin endurance and stability. Detailed competitive data is still limited due to its recent release. Weight estimated: 5.5g. Ratings estimated from type, weight and shape.",
+      "de": "Outer ist ein Stamina-fokussierter Assist-Blade, der durch außenlastige Gewichtsverteilung Spin-Ausdauer und Stabilität verbessert. Detaillierte kompetitive Daten sind aufgrund der kürzlichen Veröffentlichung noch begrenzt. Gewicht geschätzt: 5,5 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
     },
     "officialStats": {
-      "weightGrams": 0,
-      "spinDirection": "right"
+      "weightGrams": 5.5,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 3.5,
+      "stamina": 4,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "slash-hasbro",
@@ -654,27 +665,29 @@
     "name": "Turn-A",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025",
     "releaseWave": "CX",
     "description": {
-      "en": "The Turn-A Assist Blade.",
-      "de": ""
+      "en": "The Turn-A Assist Blade in Attack mode, released by Hasbro in western countries. A Custom Line Assist Blade with a reversible outer piece configured for rapid barrage attacks.",
+      "de": "Der Turn-A-Assist-Blade im Attack-Modus, von Hasbro in westlichen Ländern veröffentlicht. Ein Custom-Line-Assist-Blade mit umkehrbarem Außenstück, konfiguriert für schnelle Barrage-Angriffe."
     },
     "assessment": {
-      "en": "Turn- A is an Assist Blade from the Beyblade X CX line. Documented weight: 5.85g. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Turn-A (Hasbro) places the Turn Assist Blade in Attack mode. The exposed protrusions create barrage-attack potential while keeping some stability. Weight: 5.8g. Ratings estimated from official stats and mode.",
+      "de": "Turn-A (Hasbro) bringt den Turn-Assist-Blade in den Attack-Modus. Die freiliegenden Vorsprünge erzeugen Barrage-Attack-Potenzial bei gleichzeitiger Stabilität. Gewicht: 5,8 g. Bewertungen geschätzt anhand offizieller Werte und Modus."
     },
     "officialStats": {
-      "weightGrams": 5.85,
-      "spinDirection": "right"
+      "weightGrams": 5.8,
+      "spinDirection": "right",
+      "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2,
+      "stamina": 3,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "round-hasbro",
