@@ -1147,5 +1147,26 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-wall",
+    "category": "bit",
+    "name": "Wall",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-03",
+    "description": "The Wall Bit.",
+    "assessment": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "heightMm": 0
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

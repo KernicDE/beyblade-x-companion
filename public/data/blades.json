@@ -2801,5 +2801,143 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "fort-hornet",
+    "category": "blade",
+    "name": "Fort Hornet",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1682",
+    "description": "Fort Hornet Blade from the Hasbro Custom Line.",
+    "assessment": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "wriggle-kraken",
+    "category": "blade",
+    "name": "Wriggle Kraken",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1683",
+    "description": "Wriggle Kraken Blade from the Hasbro Custom Line.",
+    "assessment": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Stamina"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "antler-stag",
+    "category": "blade",
+    "name": "Antler Stag",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1684",
+    "description": "Antler Stag Blade from the Hasbro Custom Line.",
+    "assessment": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "fang",
+    "category": "blade",
+    "name": "Fang",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2748",
+    "description": "Fang Blade from the Hasbro Custom Line.",
+    "assessment": "Fang is a right-spin Attack type Custom Line Main Blade released by Hasbro. Debuted with Fang Leon T 4-60U. It features serrated downward-pointing blades designed to sap opponent stamina.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "strike-dran",
+    "category": "blade",
+    "name": "Strike Dran",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-07-15",
+    "releaseWave": "G2742",
+    "description": "Strike Dran Blade from the Hasbro Infinity Line.",
+    "assessment": "Strike Dran is a right-spin Attack type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with the 4-50 Ratchet and a Flat-family Bit. Debuted with Strike Dran 4-50FF.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
+  },
+  {
+    "id": "valor-bison",
+    "category": "blade",
+    "name": "Valor Bison",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-07-15",
+    "releaseWave": "G3497",
+    "description": "Valor Bison Blade from the Hasbro Infinity Line.",
+    "assessment": "Valor Bison is a right-spin Defense type Infinity Line Blade released by Hasbro. It is an Expand Blade design paired with a Free Ball Bit. Debuted with Valor Bison FB.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
