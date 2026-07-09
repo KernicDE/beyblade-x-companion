@@ -309,25 +309,26 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Spike Bit.",
-      "de": ""
+      "de": "Der Spike-Bit."
     },
     "assessment": {
-      "en": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Spike is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 45 / Stamina 35 / Dash 10 / Burst Resistance 30. Weight: 2.0g. Height: 2mm. Debuted with BX-19 RhinoHorn 3-80S. Manufactured by Takara Tomy.",
+      "de": "Spike ist ein rechtsdrehender Defense-Typ-Bit. Offizielle Werte: Angriff 10 / Verteidigung 45 / Ausdauer 35 / Dash 10 / Burst-Widerstand 30. Gewicht: 2,0 g. Höhe: 2 mm. Debüt mit BX-19 RhinoHorn 3-80S. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 2.0,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 3.8,
+      "stamina": 2.7,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-gear-flat",
@@ -669,25 +670,26 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Dot Bit.",
-      "de": ""
+      "de": "Der Dot-Bit."
     },
     "assessment": {
-      "en": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dot is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 55 / Stamina 25 / Dash 10 / Burst Resistance 30. Weight: 2.2g. Height: 2mm. Debuted with BX-35 Random Booster Vol. 4 Black Shell 4-60D. Manufactured by Takara Tomy.",
+      "de": "Dot ist ein rechtsdrehender Defense-Typ-Bit. Offizielle Werte: Angriff 10 / Verteidigung 55 / Ausdauer 25 / Dash 10 / Burst-Widerstand 30. Gewicht: 2,2 g. Höhe: 2 mm. Debüt mit BX-35 Random Booster Vol. 4 Black Shell 4-60D. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 2.2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 4.6,
+      "stamina": 1.7,
+      "balance": 2.4
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-glide",
@@ -879,11 +881,11 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Rubber Accel Bit.",
-      "de": ""
+      "de": "Der Rubber-Accel-Bit."
     },
     "assessment": {
-      "en": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Rubber Accel is a right-spin Attack Type Bit. It features a flat rubber tip for aggressive grip and Xtreme Dash acceleration. Estimated stats: Attack 50 / Defense 10 / Stamina 5 / Dash 50 / Burst Resistance 80. Weight: 3.1g. Height: 2mm. Debuted with UX-10 Customize Set U. Manufactured by Takara Tomy. Note: ratings are estimated due to the lack of official/community data.",
+      "de": "Rubber Accel ist ein rechtsdrehender Attack-Typ-Bit. Er verfügt über eine flache Gummispitze für aggressiven Grip und Xtreme-Dash-Beschleunigung. Geschätzte Werte: Angriff 50 / Verteidigung 10 / Ausdauer 5 / Dash 50 / Burst-Widerstand 80. Gewicht: 3,1 g. Höhe: 2 mm. Debüt mit UX-10 Customize Set U. Hergestellt von Takara Tomy. Hinweis: Die Bewertungen sind aufgrund fehlender offizieller/community-Daten geschätzt."
     },
     "officialStats": {
       "heightMm": 2,
@@ -892,12 +894,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 0.8,
+      "stamina": 0.4,
+      "balance": 1.6
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-low-rush",
@@ -1237,11 +1240,11 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Trans Kick Bit.",
-      "de": ""
+      "de": "Der Trans-Kick-Bit."
     },
     "assessment": {
-      "en": "Trans Kick is a right-spin Balance Type Bit. Weight: 2.3g. Height: 1.5mm. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Trans Kick is a right-spin Balance Type Bit. Official stats: Attack 35 / Defense 30 / Stamina 20 / Dash 15 / Burst Resistance 80. Weight: 2.3g. Height: 1.5mm. Manufactured by Takara Tomy.",
+      "de": "Trans Kick ist ein rechtsdrehender Balance-Typ-Bit. Offizielle Werte: Angriff 35 / Verteidigung 30 / Ausdauer 20 / Dash 15 / Burst-Widerstand 80. Gewicht: 2,3 g. Höhe: 1,5 mm. Hergestellt von Takara Tomy."
     },
     "officialStats": {
       "heightMm": 1.5,
@@ -1250,12 +1253,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 2.4
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-jolt",
@@ -1504,22 +1508,26 @@
     "releaseWave": "CX-07",
     "description": {
       "en": "The Turbo Ratchet-Integrated Bit.",
-      "de": ""
+      "de": "Der Turbo-Ratchet-Integrated-Bit."
     },
     "assessment": {
-      "en": "Turbo is a Ratchet-Integrated Bit from the Beyblade X Custom Line. Debuted with PegasusBlast ATr. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Turbo is a right-spin Attack Type Ratchet-Integrated Bit. Official stats (Attack Mode / Stamina Mode): Attack 30/55 / Defense 30/20 / Stamina 60/10 / Dash 10/45 / Burst Resistance 30. Weight: 12.7g. Height: 6.5/9mm. Debuted with CX-07 PegasusBlast ATr. Manufactured by Takara Tomy.",
+      "de": "Turbo ist ein rechtsdrehender Attack-Typ-Ratchet-Integrated-Bit. Offizielle Werte (Angriffs-Modus / Ausdauer-Modus): Angriff 30/55 / Verteidigung 30/20 / Ausdauer 60/10 / Dash 10/45 / Burst-Widerstand 30. Gewicht: 12,7 g. Höhe: 6,5/9 mm. Debüt mit CX-07 PegasusBlast ATr. Hergestellt von Takara Tomy."
     },
     "officialStats": {
-      "heightMm": 0
+      "heightMm": 0,
+      "weightGrams": 12.7,
+      "typeTag": "Attack",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 1.7,
+      "stamina": 0.4,
+      "balance": 2.1
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-operate",
@@ -1531,22 +1539,26 @@
     "releaseWave": "CX-11",
     "description": {
       "en": "The Operate Ratchet-Integrated Bit.",
-      "de": ""
+      "de": "Der Operate-Ratchet-Integrated-Bit."
     },
     "assessment": {
-      "en": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Operate is a right-spin Balance Type Ratchet-Integrated Bit. Official stats (Attack Mode / Defense Mode): Attack 20/50 / Defense 50/35 / Stamina 50/10 / Dash 10/35 / Burst Resistance 30. Weight: 14g. Debuted with CX-11 EmperorMight HOp. Manufactured by Takara Tomy.",
+      "de": "Operate ist ein rechtsdrehender Balance-Typ-Ratchet-Integrated-Bit. Offizielle Werte (Angriffs-Modus / Verteidigungs-Modus): Angriff 20/50 / Verteidigung 50/35 / Ausdauer 50/10 / Dash 10/35 / Burst-Widerstand 30. Gewicht: 14 g. Debüt mit CX-11 EmperorMight HOp. Hergestellt von Takara Tomy."
     },
     "officialStats": {
-      "heightMm": 0
+      "heightMm": 0,
+      "weightGrams": 14.0,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 3.6,
+      "stamina": 2.3,
+      "balance": 3.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-low-orbital",
@@ -1554,53 +1566,30 @@
     "name": "Low Orbital",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest?cb=20230812203610",
-    "releaseDate": "2026-04-25",
-    "releaseWave": "CX-17",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-02",
     "description": {
       "en": "The Low Orbital Bit.",
-      "de": ""
+      "de": "Der Low-Orbital-Bit."
     },
     "assessment": {
-      "en": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Low Orbital is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55 / Dash 15 / Burst Resistance 30. Weight: 2.2g. Height: 1mm. Low variant of Orb. Debuted with CX-02 WizardArc R4-55LO. Manufactured by Takara Tomy.",
+      "de": "Low Orbital ist ein rechtsdrehender Stamina-Typ-Bit. Offizielle Werte: Angriff 5 / Verteidigung 25 / Ausdauer 55 / Dash 15 / Burst-Widerstand 30. Gewicht: 2,2 g. Höhe: 1 mm. Niedrige Variante von Orb. Debüt mit CX-02 WizardArc R4-55LO. Hergestellt von Takara Tomy."
     },
     "officialStats": {
-      "heightMm": 0
+      "heightMm": 1,
+      "weightGrams": 2.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 2.1,
+      "stamina": 4.2,
+      "balance": 2.3
     },
-    "ratingsDisclaimer": true
-  },
-  {
-    "id": "bit-wall",
-    "category": "bit",
-    "name": "Wall",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
-    "releaseDate": "2025-03-29",
-    "releaseWave": "CX-03",
-    "description": {
-      "en": "The Wall Bit.",
-      "de": ""
-    },
-    "assessment": {
-      "en": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Manufactured by Takara Tomy.",
-      "de": ""
-    },
-    "officialStats": {
-      "heightMm": 0
-    },
-    "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
-    },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-flat-hasbro",
@@ -1732,25 +1721,26 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Spike Bit.",
-      "de": ""
+      "de": "Der Spike-Bit."
     },
     "assessment": {
-      "en": "Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Spike is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 45 / Stamina 35 / Dash 10 / Burst Resistance 30. Weight: 2.0g. Height: 2mm. Manufactured by Hasbro.",
+      "de": "Spike ist ein rechtsdrehender Defense-Typ-Bit. Offizielle Werte: Angriff 10 / Verteidigung 45 / Ausdauer 35 / Dash 10 / Burst-Widerstand 30. Gewicht: 2,0 g. Höhe: 2 mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 2.0,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 3.8,
+      "stamina": 2.7,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-low-flat-hasbro",
@@ -2177,53 +2167,30 @@
     "name": "Low Orbital",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/BitLowFlat.png/revision/latest?cb=20230812203610",
-    "releaseDate": "2026-04-25",
-    "releaseWave": "CX-17",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-02",
     "description": {
       "en": "The Low Orbital Bit.",
-      "de": ""
+      "de": "Der Low-Orbital-Bit."
     },
     "assessment": {
-      "en": "Low Orbital is a Stamina type Bit from the Beyblade X Custom Line. It is a lower variant of the Orbital Bit, sitting 1mm lower for improved stability and endurance. Debuted with SamuraiSaber 9-65LO in Random Booster Vol. 10. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Low Orbital is a right-spin Stamina Type Bit. Official stats: Attack 5 / Defense 25 / Stamina 55 / Dash 15 / Burst Resistance 30. Weight: 2.2g. Height: 1mm. Low variant of Orb. Manufactured by Hasbro.",
+      "de": "Low Orbital ist ein rechtsdrehender Stamina-Typ-Bit. Offizielle Werte: Angriff 5 / Verteidigung 25 / Ausdauer 55 / Dash 15 / Burst-Widerstand 30. Gewicht: 2,2 g. Höhe: 1 mm. Niedrige Variante von Orb. Hergestellt von Hasbro."
     },
     "officialStats": {
-      "heightMm": 0
+      "heightMm": 1,
+      "weightGrams": 2.2,
+      "typeTag": "Stamina",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.5,
+      "defense": 2.1,
+      "stamina": 4.2,
+      "balance": 2.3
     },
-    "ratingsDisclaimer": true
-  },
-  {
-    "id": "bit-wall-hasbro",
-    "category": "bit",
-    "name": "Wall",
-    "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/38/BitWallBall.png/revision/latest",
-    "releaseDate": "2025-03-29",
-    "releaseWave": "CX-03",
-    "description": {
-      "en": "The Wall Bit.",
-      "de": ""
-    },
-    "assessment": {
-      "en": "Wall is a Defense type Bit from the Beyblade X Custom Line. It features a wide wall around the tip to reduce tilting. Debuted with PerseusDark B6-80W. Hasbro release of the Takara Tomy mold.",
-      "de": ""
-    },
-    "officialStats": {
-      "heightMm": 0
-    },
-    "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
-    },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-gear-rush-hasbro",
@@ -2295,25 +2262,26 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Dot Bit.",
-      "de": ""
+      "de": "Der Dot-Bit."
     },
     "assessment": {
-      "en": "Dot is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Dot is a right-spin Defense Type Bit. Official stats: Attack 10 / Defense 55 / Stamina 25 / Dash 10 / Burst Resistance 30. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
+      "de": "Dot ist ein rechtsdrehender Defense-Typ-Bit. Offizielle Werte: Angriff 10 / Verteidigung 55 / Ausdauer 25 / Dash 10 / Burst-Widerstand 30. Gewicht: 2,2 g. Höhe: 2 mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 2.2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 0.9,
+      "defense": 4.6,
+      "stamina": 1.7,
+      "balance": 2.4
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-wall-ball-hasbro",
@@ -2714,11 +2682,11 @@
     "releaseWave": "BX",
     "description": {
       "en": "The Rubber Accel Bit.",
-      "de": ""
+      "de": "Der Rubber-Accel-Bit."
     },
     "assessment": {
-      "en": "Rubber Accel is a right-spin Attack Type Bit. Weight: 3.1g. Height: 2mm. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Rubber Accel is a right-spin Attack Type Bit. It features a flat rubber tip for aggressive grip and Xtreme Dash acceleration. Estimated stats: Attack 50 / Defense 10 / Stamina 5 / Dash 50 / Burst Resistance 80. Weight: 3.1g. Height: 2mm. Manufactured by Hasbro. Note: ratings are estimated due to the lack of official/community data.",
+      "de": "Rubber Accel ist ein rechtsdrehender Attack-Typ-Bit. Er verfügt über eine flache Gummispitze für aggressiven Grip und Xtreme-Dash-Beschleunigung. Geschätzte Werte: Angriff 50 / Verteidigung 10 / Ausdauer 5 / Dash 50 / Burst-Widerstand 80. Gewicht: 3,1 g. Höhe: 2 mm. Hergestellt von Hasbro. Hinweis: Die Bewertungen sind aufgrund fehlender offizieller/community-Daten geschätzt."
     },
     "officialStats": {
       "heightMm": 2,
@@ -2727,12 +2695,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4.5,
+      "defense": 0.8,
+      "stamina": 0.4,
+      "balance": 1.6
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-operate-hasbro",
@@ -2744,22 +2713,26 @@
     "releaseWave": "CX-11",
     "description": {
       "en": "The Operate Ratchet-Integrated Bit.",
-      "de": ""
+      "de": "Der Operate-Ratchet-Integrated-Bit."
     },
     "assessment": {
-      "en": "Operate is a Balance type Ratchet-Integrated Bit from the Beyblade X Custom Line. It combines Ratchet and Bit into one part and can switch between Attack Mode (wide hole flat tip) and Defense Mode (small ball tip). Debuted with EmperorMight HOp. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Operate is a right-spin Balance Type Ratchet-Integrated Bit. Official stats (Attack Mode / Defense Mode): Attack 20/50 / Defense 50/35 / Stamina 50/10 / Dash 10/35 / Burst Resistance 30. Weight: 14g. Manufactured by Hasbro.",
+      "de": "Operate ist ein rechtsdrehender Balance-Typ-Ratchet-Integrated-Bit. Offizielle Werte (Angriffs-Modus / Verteidigungs-Modus): Angriff 20/50 / Verteidigung 50/35 / Ausdauer 50/10 / Dash 10/35 / Burst-Widerstand 30. Gewicht: 14 g. Hergestellt von Hasbro."
     },
     "officialStats": {
-      "heightMm": 0
+      "heightMm": 0,
+      "weightGrams": 14.0,
+      "typeTag": "Balance",
+      "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.2,
+      "defense": 3.6,
+      "stamina": 2.3,
+      "balance": 3.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-bound-spike-hasbro",
