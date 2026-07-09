@@ -112,13 +112,17 @@ function partPrefixes(category, name, manufacturer) {
   const camel = toTitleCamel(name);
   const clean = noSpace(name);
   const base = category === 'assistBlade' ? 'AssistBlade' : category[0].toUpperCase() + category.slice(1);
+  const wordPrefixes = words(name).filter((w) => w.length > 1);
   const prefixes = [
     `${base}${camel}`,
     `${base}${clean}`,
     `${base}${words(name)[0] || ''}`,
+    clean,
+    camel,
+    ...wordPrefixes,
   ];
   if (manufacturer === 'Hasbro') {
-    prefixes.push(`${base}${camel}Hasbro`, `${base}${clean}Hasbro`, `${clean}Hasbro`);
+    prefixes.push(`${base}${camel}Hasbro`, `${base}${clean}Hasbro`, `${clean}Hasbro`, `${camel}Hasbro`);
   }
   return Array.from(new Set(prefixes.filter(Boolean)));
 }
@@ -187,16 +191,50 @@ async function fillBeys() {
     const blade = bladeMap.get(bey.bladeId);
     const camel = toTitleCamel(bey.name);
     const clean = noSpace(bey.name);
+    const bladeWordPrefixes = blade ? words(blade.name).filter((w) => w.length > 1) : [];
     const prefixes = Array.from(new Set([
       clean,
       camel,
       blade ? `${noSpace(blade.name)}_` : '',
       blade ? `${noSpace(blade.name)}` : '',
+      blade ? `${toTitleCamel(blade.name)}` : '',
+      ...bladeWordPrefixes,
     ].filter(Boolean)));
     const url = await findBest(bey.name, bey.manufacturer, prefixes, '');
     if (url) bey.imageUrl = url;
   }
+  // Fallback to blade image for beys that still have no image
+  for (const bey of beys) {
+    if (bey.imageUrl) continue;
+    const blade = bladeMap.get(bey.bladeId);
+    if (blade?.imageUrl) {
+      bey.imageUrl = blade.imageUrl;
+    }
+  }
   saveJson('beys', beys);
+}
+
+async function fillLauncherFallbacks() {
+  const launchers = loadJson('launchers');
+  const byBase = new Map();
+  for (const l of launchers) {
+    if (l.manufacturer !== 'Hasbro' || !l.imageUrl) continue;
+    const baseId = l.id.replace(/-hasbro$/, '');
+    byBase.set(baseId, l.imageUrl);
+  }
+  for (const l of launchers) {
+    if (l.imageUrl) continue;
+    const baseId = l.id.replace(/-hasbro$/, '');
+    if (byBase.has(baseId)) {
+      l.imageUrl = byBase.get(baseId);
+      continue;
+    }
+    // Try matching any other launcher by stripped name
+    const simpleName = l.name.toLowerCase().replace(/[^a-z0-9]/g, '').replace(/hasbro/g, '');
+    const match = launchers.find((x) => x.imageUrl && x.id !== l.id && x.name.toLowerCase().replace(/[^a-z0-9]/g, '').replace(/hasbro/g, '') === simpleName);
+    if (match) l.imageUrl = match.imageUrl;
+  }
+  saveJson('launchers', launchers);
 }
 
 async function main() {
@@ -204,6 +242,8 @@ async function main() {
   await fillParts();
   console.log('Filling bey images...');
   await fillBeys();
+  console.log('Filling launcher fallbacks...');
+  await fillLauncherFallbacks();
   console.log('Done.');
 }
 
