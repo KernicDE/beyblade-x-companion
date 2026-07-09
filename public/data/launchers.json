@@ -6,7 +6,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b1/Beyblade_X_Winder_Launcher.jpeg/revision/latest",
     "releaseDate": "2023-07-15",
     "description": "A compact ripcord-style launcher included with starter sets.",
-    "assessment": "Standard right-spin winder launcher included with most BX starters.",
+    "assessment": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
     "spinCapability": "right"
   },
   {
@@ -16,7 +16,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/15/Beyblade_X_Winder_Launcher_L.jpeg/revision/latest",
     "releaseDate": "2025-03-29",
     "description": "A left-spin variant of the Winder Launcher.",
-    "assessment": "Left-spin variant of the standard winder launcher for left-spin Beys.",
+    "assessment": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
     "spinCapability": "left"
   },
   {
@@ -26,7 +26,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b0/Beyblade_X_String_Launcher.jpeg/revision/latest",
     "releaseDate": "2023-10-07",
     "description": "A string-pull launcher for strong, consistent launches.",
-    "assessment": "Powerful string launcher compatible with right-spin Beys.",
+    "assessment": "String Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
     "spinCapability": "right"
   },
   {
@@ -36,7 +36,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b2/Beyblade_X_String_Launcher_L.jpeg/revision/latest",
     "releaseDate": "2025-10-11",
     "description": "A left-spin string-pull launcher.",
-    "assessment": "Left-spin variant of the string launcher for left-spin Beys.",
+    "assessment": "String Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
     "spinCapability": "left"
   },
   {
@@ -46,7 +46,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/Custom_BeyLauncher_LR.jpg/revision/latest",
     "releaseDate": "",
     "description": "A modular launcher used with the Custom Line system.",
-    "assessment": "Modular launcher for the CX Custom Line system.",
+    "assessment": "Custom Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
     "spinCapability": "right"
   }
 ]
