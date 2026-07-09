@@ -2939,5 +2939,28 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "gust-bat",
+    "category": "blade",
+    "name": "Gust Bat",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-04-01",
+    "releaseWave": "G2733",
+    "description": "Gust Bat Blade from the Hasbro Basic Line.",
+    "assessment": "Gust Bat is a right-spin Balance type Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 3-85 Ratchet and Gear Point Bit in its stock combo.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
