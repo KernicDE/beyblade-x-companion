@@ -1,3 +1,5 @@
+import { useMemo } from 'react';
+import { useTranslation } from '../i18n';
 import type { Ratings } from '../types';
 
 interface RadarChartProps {
@@ -6,22 +8,28 @@ interface RadarChartProps {
   className?: string;
 }
 
-const AXES: { key: keyof Ratings; label: string }[] = [
-  { key: 'attack', label: 'Attack' },
-  { key: 'defense', label: 'Defense' },
-  { key: 'stamina', label: 'Stamina' },
-  { key: 'balance', label: 'Balance' },
-];
-
 export function RadarChart({
   ratings,
-  size = 200,
+  size = 240,
   className = '',
 }: RadarChartProps) {
+  const { t } = useTranslation();
+
+  const axes = useMemo(
+    () => [
+      { key: 'attack' as const, label: t('partDetail.attack') },
+      { key: 'defense' as const, label: t('partDetail.defense') },
+      { key: 'stamina' as const, label: t('partDetail.stamina') },
+      { key: 'balance' as const, label: t('partDetail.balance') },
+    ],
+    [t]
+  );
+
+  const viewSize = 240;
   const padding = 24;
-  const center = size / 2;
-  const maxRadius = size / 2 - padding;
-  const angleStep = (Math.PI * 2) / AXES.length;
+  const center = viewSize / 2;
+  const maxRadius = viewSize / 2 - padding;
+  const angleStep = (Math.PI * 2) / axes.length;
   const startAngle = -Math.PI / 2;
 
   const getPoint = (value: number, index: number) => {
@@ -33,20 +41,21 @@ export function RadarChart({
     };
   };
 
-  const points = AXES.map((axis, index) => getPoint(ratings[axis.key], index));
+  const points = axes.map((axis, index) => getPoint(ratings[axis.key], index));
   const polygonPoints = points.map((p) => `${p.x},${p.y}`).join(' ');
 
   return (
     <svg
-      width={size}
-      height={size}
-      viewBox={`0 0 ${size} ${size}`}
+      width="100%"
+      height="100%"
+      viewBox={`0 0 ${viewSize} ${viewSize}`}
+      style={{ maxWidth: size }}
       className={className}
       role="img"
-      aria-label={`Ratings: Attack ${ratings.attack}, Defense ${ratings.defense}, Stamina ${ratings.stamina}, Balance ${ratings.balance}`}
+      aria-label={`${t('partDetail.attack')} ${ratings.attack}, ${t('partDetail.defense')} ${ratings.defense}, ${t('partDetail.stamina')} ${ratings.stamina}, ${t('partDetail.balance')} ${ratings.balance}`}
     >
       {[1, 2, 3, 4, 5].map((level) => {
-        const levelPoints = AXES.map((_, index) => getPoint(level, index));
+        const levelPoints = axes.map((_, index) => getPoint(level, index));
         const d = levelPoints
           .map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`)
           .join(' ')
@@ -62,7 +71,7 @@ export function RadarChart({
         );
       })}
 
-      {AXES.map((axis, index) => {
+      {axes.map((axis, index) => {
         const end = getPoint(5, index);
         const label = getPoint(5.8, index);
         return (

@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { PartPicker } from '../components/PartPicker';
 import { RadarChart } from '../components/RadarChart';
+import { RatingBars } from '../components/RatingBars';
 import { useConfiguratorStore } from '../stores/configurator';
 import { useProfileStore } from '../stores/profile';
 import { calculateComboRatings } from '../utils/data';
@@ -113,7 +114,12 @@ export function Configurator() {
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <h2 className="mb-4 text-lg font-semibold">{t('configurator.resultingRatings')}</h2>
-          <RadarChart ratings={ratings} size={320} />
+          <div className="mx-auto w-full max-w-[320px]">
+            <RadarChart ratings={ratings} size={320} />
+          </div>
+          <div className="mx-auto mt-4 w-full max-w-[320px]">
+            <RatingBars ratings={ratings} size="md" />
+          </div>
           <p className="mt-4 text-sm text-[var(--muted)]">
             {t('partDetail.attack')} {ratings.attack} · {t('partDetail.defense')} {ratings.defense} · {t('partDetail.stamina')} {ratings.stamina} · {t('partDetail.balance')} {ratings.balance}
           </p>

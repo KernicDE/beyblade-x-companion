@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { calculateComboRatings, getBeyParts, getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
+import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { useTranslation } from '../i18n';
@@ -74,7 +75,12 @@ export function BeyDetail() {
 
         <div className="flex flex-col items-center rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <h2 className="mb-4 text-lg font-semibold">{t('beyDetail.communityRatings')}</h2>
-          <RadarChart ratings={ratings} size={280} />
+          <div className="w-full max-w-[280px]">
+            <RadarChart ratings={ratings} size={280} />
+          </div>
+          <div className="mt-4 w-full max-w-[280px]">
+            <RatingBars ratings={ratings} size="md" />
+          </div>
           <p className="mt-4 text-xs text-[var(--muted)]">
             {t('partDetail.attack')} {ratings.attack} · {t('partDetail.defense')} {ratings.defense} · {t('partDetail.stamina')} {ratings.stamina} · {t('partDetail.balance')} {ratings.balance}
           </p>
