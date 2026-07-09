@@ -298,12 +298,12 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "Dran Dagger Blade from the BX system.",
-      "de": ""
+      "en": "An Attack Type Blade with six small blades and a Seiryū-themed Gear Chip. The Dagger Dran evolution in the Dran line.",
+      "de": "Ein Attack-Type-Blade mit sechs kleinen Klingen und einem Seiryū-Gear-Chip. Die Dagger-Dran-Evolution der Dran-Linie."
     },
     "assessment": {
-      "en": "Dran Dagger is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 34.8g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dran Dagger offers consistent Attack power with its multi-blade design. It is a solid upgrade over Dran Sword for aggressive combos.",
+      "de": "Dran Dagger bietet durch sein Mehrklingen-Design konstante Attack-Power. Er ist eine solide Verbesserung gegenüber Dran Sword für aggressive Combos."
     },
     "officialStats": {
       "weightGrams": 34.8,
@@ -311,10 +311,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 1.8,
-      "stamina": 1.6,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -327,12 +327,12 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "Hells Chain Blade from the BX system.",
-      "de": ""
+      "en": "A round Balance Type Blade with five blades and chains as contact points. Features a flaming-skull Gear Chip.",
+      "de": "Ein runder Balance-Type-Blade mit fünf Klingen und Ketten als Kontaktpunkten. Zeigt einen Totenkopf-Gear-Chip."
     },
     "assessment": {
-      "en": "Hells Chain is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 40 / Stamina 25. Weight: 33.2g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Hells Chain provides a balanced mix of offense and defense. Its chained design can absorb hits while still delivering counter-attacks.",
+      "de": "Hells Chain bietet eine ausgewogene Mischung aus Offensive und Defense. Das Ketten-Design kann Treffer absorbieren und gleichzeitig Konter ausführen."
     },
     "officialStats": {
       "weightGrams": 33.2,
@@ -340,10 +340,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.9,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -356,12 +356,12 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "Rhino Horn Blade from the BX system.",
-      "de": ""
+      "en": "A compact Defense Type Blade with an inward center of gravity for stability. Features a rhinoceros-themed Gear Chip.",
+      "de": "Ein kompakter Defense-Type-Blade mit einem nach innen gerichteten Schwerpunkt für Stabilität. Zeigt ein Nashorn-Gear-Chip."
     },
     "assessment": {
-      "en": "Rhino Horn is a right-spin Defense Type Blade. Official stats: Attack 20 / Defense 50 / Stamina 30. Weight: 32.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Rhino Horn is built to withstand strong hits. Its compact shape makes it a reliable defensive choice, though it offers limited Attack potential.",
+      "de": "Rhino Horn ist darauf ausgelegt, starke Treffer zu widerstehen. Seine kompakte Form macht ihn zu einer zuverlässigen Defensivwahl, obwohl das Attack-Potenzial begrenzt ist."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -369,10 +369,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.3,
-      "defense": 3.6,
-      "stamina": 1.9,
-      "balance": 2.3
+      "attack": 1,
+      "defense": 4,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -385,12 +385,12 @@
     "releaseDate": "2025-06-15",
     "releaseWave": "BX",
     "description": {
-      "en": "Phoenix Feather Blade from the BX system.",
-      "de": ""
+      "en": "A lightweight, three-sided Attack Type Blade with upward-slanting wings. Features a phoenix-themed Gear Chip.",
+      "de": "Ein leichter, dreiseitiger Attack-Type-Blade mit nach oben geneigten Flügeln. Zeigt einen Phönix-Gear-Chip."
     },
     "assessment": {
-      "en": "Phoenix Feather is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 20 / Stamina 30. Weight: 33.3g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Phoenix Feather focuses on high-speed attacks. Its light weight improves speed but reduces raw impact compared to heavier Attack Blades.",
+      "de": "Phoenix Feather fokussiert auf Hochgeschwindigkeitsangriffe. Das geringe Gewicht verbessert die Geschwindigkeit, verringert aber den rohen Impact gegenüber schwereren Attack-Blades."
     },
     "officialStats": {
       "weightGrams": 33.3,
@@ -398,10 +398,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 1.4,
-      "stamina": 1.9,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -414,12 +414,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Phoenix Wing Blade from the BX system.",
-      "de": ""
+      "en": "A heavy, three-sided Attack Type Blade with excellent Attack capabilities. Features a phoenix-spreading-its-wings Gear Chip.",
+      "de": "Ein schwerer, dreiseitiger Attack-Type-Blade mit exzellenten Attack-Werten. Zeigt einen Phönix mit ausgebreiteten Flügeln als Gear-Chip."
     },
     "assessment": {
-      "en": "Phoenix Wing is a right-spin Attack Type Blade. Official stats: Attack 60 / Defense 25 / Stamina 15. Weight: 38g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Phoenix Wing is a staple Attack Blade due to its heavy weight and strong Attack. It is considered a must-have for the WBO X format.",
+      "de": "Phoenix Wing ist aufgrund seines hohen Gewichts und starken Attack-Werts ein klassischer Attack-Blade. Er gilt als Must-Have für das WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 38,
@@ -427,10 +427,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 1.8,
-      "stamina": 0.9,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -443,12 +443,12 @@
     "releaseDate": "2023-09-09",
     "releaseWave": "BX",
     "description": {
-      "en": "Wyvern Gale Blade from the BX system.",
-      "de": ""
+      "en": "A Stamina Type Blade with a smooth, round shape for minimal friction. Features a wyvern-themed Gear Chip.",
+      "de": "Ein Stamina-Type-Blade mit glatter, runder Form für minimale Reibung. Zeigt einen Wyvern-Gear-Chip."
     },
     "assessment": {
-      "en": "Wyvern Gale is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 40 / Stamina 50. Weight: 31.9g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Wyvern Gale provides good Stamina and decent Defense for a Stamina Blade. It is a solid choice for outlasting opponents.",
+      "de": "Wyvern Gale bietet gute Stamina und anständige Defense für einen Stamina-Blade. Er ist eine solide Wahl, um Gegner auszusitzen."
     },
     "officialStats": {
       "weightGrams": 31.9,
@@ -456,10 +456,10 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 2.9,
-      "stamina": 3.1,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 3,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -472,12 +472,12 @@
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": {
-      "en": "Unicorn Sting Blade from the BX system.",
-      "de": ""
+      "en": "An asymmetrical Balance Type Blade with both Attack and Defense blades. Its performance changes depending on launch technique.",
+      "de": "Ein asymmetrischer Balance-Type-Blade mit Attack- und Defense-Klingen. Seine Leistung ändert sich je nach Launch-Technik."
     },
     "assessment": {
-      "en": "Unicorn Sting is a right-spin Balance Type Blade. Official stats: Attack 35 / Defense 35 / Stamina 30. Weight: 33.4g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Unicorn Sting rewards skillful launching with versatile performance. It can switch between offensive and defensive behavior, making it unpredictable.",
+      "de": "Unicorn Sting belohnt geschicktes Launching mit vielseitiger Performance. Er kann zwischen offensivem und defensivem Verhalten wechseln und ist dadurch unberechenbar."
     },
     "officialStats": {
       "weightGrams": 33.4,
@@ -485,10 +485,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.5,
-      "stamina": 1.9,
-      "balance": 2.2
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -501,12 +501,12 @@
     "releaseDate": "2024-02-22",
     "releaseWave": "BX",
     "description": {
-      "en": "Sphinx Cowl Blade from the BX system.",
-      "de": ""
+      "en": "A round Defense Type Blade with nine barrage blades arranged in a circle to repel attacks. Features an Egyptian sphinx Gear Chip.",
+      "de": "Ein runder Defense-Type-Blade mit neun Barrage-Klingen im Kreis angeordnet, um Angriffe abzuwehren. Zeigt eine ägyptische Sphinx als Gear-Chip."
     },
     "assessment": {
-      "en": "Sphinx Cowl is a right-spin Defense Type Blade. Official stats: Attack 35 / Defense 55 / Stamina 10. Weight: 32.7g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Sphinx Cowl excels at repelling attacks from multiple directions. Its rugged perimeter makes it a strong defensive option.",
+      "de": "Sphinx Cowl ist hervorragend darin, Angriffe aus mehreren Richtungen abzuwehren. Der raue Umfang macht ihn zu einer starken Defensivoption."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -514,10 +514,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 3.9,
-      "stamina": 0.6,
-      "balance": 2.3
+      "attack": 2,
+      "defense": 4,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -530,12 +530,12 @@
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
-      "en": "Dran Buster Blade from the UX system.",
-      "de": ""
+      "en": "A blocky Attack Type Blade from the Unique Line with a Seiryū shooting a fireball Gear Chip.",
+      "de": "Ein kantiger Attack-Type-Blade aus der Unique Line mit einem Seiryū-Gear-Chip, der einen Feuerball schießt."
     },
     "assessment": {
-      "en": "Dran Buster is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 20 / Stamina 10. Weight: 36.5g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dran Buster delivers extreme Attack power with its aggressive blocky shape. It is one of the hardest-hitting right-spin Attack Blades.",
+      "de": "Dran Buster liefert extreme Attack-Power mit seiner aggressiven, kantigen Form. Er ist einer der stärksten right-spin Attack-Blades."
     },
     "officialStats": {
       "weightGrams": 36.5,
@@ -543,10 +543,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.7,
-      "defense": 1.4,
-      "stamina": 0.6,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -559,12 +559,12 @@
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
-      "en": "Hells Hammer Blade from the UX system.",
-      "de": ""
+      "en": "A Balance Type Blade with three thick Smash Blades. Features a flaming-skull Gear Chip.",
+      "de": "Ein Balance-Type-Blade mit drei dicken Smash-Klingen. Zeigt einen Totenkopf-Gear-Chip."
     },
     "assessment": {
-      "en": "Hells Hammer is a right-spin Balance Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 33g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Hells Hammer specializes in blasting opponents into the stadium floor. Its thick blades give it strong Smash Attack while retaining some Balance.",
+      "de": "Hells Hammer spezialisiert sich darauf, Gegner in den Stadionboden zu schmettern. Die dicken Klingen geben ihm starken Smash-Attack bei gleichzeitigem Balance."
     },
     "officialStats": {
       "weightGrams": 33,
@@ -572,10 +572,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 1.8,
-      "stamina": 1.6,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
