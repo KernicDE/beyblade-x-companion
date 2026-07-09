@@ -9,7 +9,7 @@
     "bladeId": "dran-sword",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "Dran Sword 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-01. Released on 15.07.2023. Parts: Dran Sword / 3-60 / Flat."
+    "assessment": "The first Beyblade X starter ever released. Dran Sword 3-60F is a right-spin Attack type built around aggressive Xtreme Dash strikes. Its three-sided Blade focuses all force on a few contact points, while the Flat Bit provides the speed and grip needed to climb the X-Line repeatedly. A strong introductory combo for aggressive playstyles."
   },
   {
     "id": "hells-scythe4-60t-bx-02",
@@ -21,31 +21,31 @@
     "bladeId": "hells-scythe",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-taper",
-    "assessment": "Hells Scythe 4-60T is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-02. Released on 15.07.2023. Parts: Hells Scythe / 4-60 / Taper."
+    "assessment": "Hells Scythe 4-60T is marketed as a Balance type, but its real strength lies in raw Stamina. The four-sided Blade has excellent spin retention, though the gaps between the blades create noticeable recoil that can make battles unpredictable. The Taper Bit adds some mobility, making it a decent all-rounder that leans Stamina."
   },
   {
-    "id": "knight-shield3-80n-bx-03",
+    "id": "knight-shield3-80n-bx-04",
     "name": "Knight Shield 3-80N",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/ac/KnightShield_3-80N.jpeg/revision/latest",
     "releaseDate": "2023-07-15",
-    "releaseWave": "BX-03",
+    "releaseWave": "BX-04",
     "bladeId": "knight-shield",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
-    "assessment": "Knight Shield 3-80N is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-03. Released on 15.07.2023. Parts: Knight Shield / 3-80 / Needle."
+    "assessment": "Knight Shield 3-80N is a right-spin Defense type designed to absorb impacts rather than dodge them. Its six protective blades form a shock-absorbing structure, while the Needle Bit keeps the Bey centered in the stadium. A reliable defensive stock combo that performs consistently against mixed opponents."
   },
   {
-    "id": "wizard-arrow4-80b-bx-04",
+    "id": "wizard-arrow4-80b-bx-03",
     "name": "Wizard Arrow 4-80B",
     "manufacturer": "Takara Tomy",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6d/WizardArrow_4-80B.jpeg/revision/latest",
     "releaseDate": "2023-07-15",
-    "releaseWave": "BX-04",
+    "releaseWave": "BX-03",
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
-    "assessment": "Wizard Arrow 4-80B is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-04. Released on 15.07.2023. Parts: Wizard Arrow / 4-80 / Ball."
+    "assessment": "Wizard Arrow 4-80B is a right-spin Stamina type and the dedicated Stamina starter of the first wave. Its rounded Blade and Ball Bit reduce friction and keep the Bey stable in the center of the stadium. A straightforward choice for outlasting opponents rather than knocking them out."
   },
   {
     "id": "knight-lance4-80hn-bx-13",
@@ -57,7 +57,7 @@
     "bladeId": "knight-lance",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-needle",
-    "assessment": "Knight Lance 4-80HN is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-13. Released on 10.08.2023. Parts: Knight Lance / 4-80 / High Needle."
+    "assessment": "Knight Lance 4-80HN is a right-spin Defense type released as a Booster in mid-2023. It combines the taller Knight Lance Blade with the 4-80 Ratchet and High Needle Bit, sitting high in the stadium to deflect incoming attacks. Often described as a versatile 'counter' combo that trades pure stamina for survivability."
   },
   {
     "id": "shark-edge3-60lf-bx-06",
@@ -69,7 +69,7 @@
     "bladeId": "shark-edge",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-low-flat",
-    "assessment": "Shark Edge 3-60LF is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-06. Released on 15.07.2023. Parts: Shark Edge / 3-60 / Low Flat."
+    "assessment": "Shark Edge 3-60LF is a right-spin Attack type built around two large, aggressive blades. The sloped shape generates strong Smash and Upper Attack, while the Low Flat Bit keeps the combo low and fast for repeated X-Line charges. A hard-hitting choice that sacrifices some stamina for knockout power."
   },
   {
     "id": "leon-claw5-60p-bx-15",
@@ -81,19 +81,7 @@
     "bladeId": "leon-claw",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-point",
-    "assessment": "LeonClaw 5-60P is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-15. Released on 07.10.2023. Parts: Leon Claw / 5-60 / Point."
-  },
-  {
-    "id": "viper-tail5-80o-bx-08",
-    "name": "ViperTail 5-80O",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/09/ViperTail_5-80O.jpeg/revision/latest",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-08",
-    "bladeId": "viper-tail",
-    "ratchetId": "ratchet-5-80",
-    "bitId": "bit-orb",
-    "assessment": "ViperTail 5-80O is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-08. Released on 15.07.2023. Parts: Viper Tail / 5-80 / Orb."
+    "assessment": "LeonClaw 5-60P is a right-spin Attack type released in late 2023. Its defining feature is the new 5-60 Ratchet paired with the Point Bit, giving the combo a sharp, aggressive movement pattern. The Leon Claw Blade delivers focused strikes, making it a solid pick for bladers who want speed and burst potential."
   },
   {
     "id": "dran-dagger4-60r-bx-20",
@@ -105,7 +93,7 @@
     "bladeId": "dran-dagger",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-rush",
-    "assessment": "DranDagger 4-60R is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-20. Released on 02.11.2023. Parts: Dran Dagger / 4-60 / Rush."
+    "assessment": "DranDagger 4-60R is a right-spin Attack type released as part of the Dran Dagger Deck Set. It is considered just as viable as the original Dran Sword 3-60F, with the Rush Bit adding extra speed and the 4-60 Ratchet keeping the height moderate. A strong successor for aggressive right-spin decks."
   },
   {
     "id": "hells-chain5-60ht-bx-21",
@@ -117,7 +105,7 @@
     "bladeId": "hells-chain",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-high-taper",
-    "assessment": "HellsChain 5-60HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-21. Released on 02.11.2023. Parts: Hells Chain / 5-60 / High Taper."
+    "assessment": "HellsChain 5-60HT is a right-spin Balance type that acts as a more endurance-focused variant of Hells Scythe. The Chain-shaped Blade still carries attack potential, but the High Taper Bit and 5-60 Ratchet give it better stability and longer spin times than the original stock combo."
   },
   {
     "id": "rhino-horn3-80s-bx-19",
@@ -129,7 +117,7 @@
     "bladeId": "rhino-horn",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-spike",
-    "assessment": "RhinoHorn 3-80S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-19. Released on 02.11.2023. Parts: Rhino Horn / 3-80 / Spike."
+    "assessment": "RhinoHorn 3-80S is a right-spin combo valued for its surprising stamina and defensive resilience. The Rhino Horn Blade's bulky shape pairs well with the tall 3-80 Ratchet and Spike Bit, making it a durable choice that can survive long exchanges while still delivering steady counter-hits."
   },
   {
     "id": "phoenix-feather3-60f-bx-00",
@@ -141,7 +129,7 @@
     "bladeId": "phoenix-feather",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
-    "assessment": "PhoenixFeather 3-60F is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-00. Released on 15.06.2025. Parts: Phoenix Feather / 3-60 / Flat."
+    "assessment": "PhoenixFeather 3-60F is a right-spin Attack type and a limited-release prize Bey. Its three upward-slanting wings create fast, aggressive contact points similar to Dran Sword, while the 3-60 Ratchet and Flat Bit keep the combo low and dash-friendly. A collectible but battle-capible attack option."
   },
   {
     "id": "wyvern-gale2-60s-bx-14",
@@ -153,7 +141,7 @@
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-spike",
-    "assessment": "WyvernGale 2-60S is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-14. Released on 09.09.2023. Parts: Wyvern Gale / 2-60 / Spike."
+    "assessment": "WyvernGale 2-60S is a right-spin combo built around a smooth, low-recoil Blade. While it lacks the weight of some later releases, its shape gives it solid stamina potential, and the 2-60 Ratchet with Spike Bit keeps the combo stable in the center. A reliable stamina-oriented stock combo."
   },
   {
     "id": "unicorn-sting5-60gp-bx-26",
@@ -165,7 +153,7 @@
     "bladeId": "unicorn-sting",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-gear-point",
-    "assessment": "UnicornSting 5-60GP is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-26. Released on 27.01.2024. Parts: Unicorn Sting / 5-60 / Gear Point."
+    "assessment": "UnicornSting 5-60GP is a right-spin Balance type released in early 2024. Its asymmetrical Blade mixes attack and defense blades, while the Gear Point Bit can switch between aggression and stability depending on launch. A versatile combo that adapts its role mid-battle."
   },
   {
     "id": "sphinx-cowl4-80ht-bx-27",
@@ -177,7 +165,7 @@
     "bladeId": "sphinx-cowl",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-taper",
-    "assessment": "SphinxCowl 4-80HT is a right-spin factory-combined Beyblade from Takara Tomy, released as BX-27. Released on 22.02.2024. Parts: Sphinx Cowl / 4-80 / High Taper."
+    "assessment": "SphinxCowl 4-80HT is a right-spin combo from the BX-27 Random Booster lineup. Its layered, defensive-looking Blade works well with the tall 4-80 Ratchet and High Taper Bit, offering a mix of endurance and height-based defense. A visually distinctive combo with solid all-around performance."
   },
   {
     "id": "viper-tail5-80o-bx-16",
@@ -286,5 +274,161 @@
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-ball",
     "assessment": "Talon Ptera 3-80B is a right-spin factory-combined Beyblade from Hasbro, released as G0195. Parts: Ptera Swing / 3-80 / Ball."
+  },
+  {
+    "id": "wizard-arrow4-80b-bx-05",
+    "name": "WizardArrow 4-80B",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/6391cc50ef89b30b88460f05b0d05696",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-05",
+    "bladeId": "wizard-arrow",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-ball",
+    "assessment": "A red recolor of the WizardArrow starter, released as a Booster. The Stamina-focused Blade and Ball Bit combination remains identical in performance to the yellow BX-03 version, offering a lower-cost entry point for the same stamina archetype."
+  },
+  {
+    "id": "knight-shield3-80n-bx-06",
+    "name": "KnightShield 3-80N",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/2fdf0b849b79ae4cb9be7f2f7ed12754",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-06",
+    "bladeId": "knight-shield",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-needle",
+    "assessment": "A blue recolor of KnightShield released as a Booster. It keeps the same defensive six-bladed shape and Needle Bit, making it a solid budget option for players who want a second defensive combo without buying the starter again."
+  },
+  {
+    "id": "hells-scythe3-80b-bx-08",
+    "name": "HellsScythe 3-80B",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/13fa158879e3e4d52ea7b42c3fac3a0e",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-08",
+    "bladeId": "hells-scythe",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-ball",
+    "assessment": "Exclusive to the BX-08 3on3 Deck Set. Pairing the stamina-heavy HellsScythe Blade with the tall 3-80 Ratchet and Ball Bit creates a stamina combo built to outlast opponents in longer exchanges, though it remains vulnerable to strong attackers."
+  },
+  {
+    "id": "wizard-arrow4-60n-bx-08",
+    "name": "WizardArrow 4-60N",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/6b20d9d08c48eefc562512574809bfdf",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-08",
+    "bladeId": "wizard-arrow",
+    "ratchetId": "ratchet-4-60",
+    "bitId": "bit-needle",
+    "assessment": "Exclusive to the BX-08 3on3 Deck Set. By lowering the height with the 4-60 Ratchet and adding the Needle Bit, this WizardArrow variant leans into defense and counter-attack rather than pure stamina, giving the deck a rounded profile."
+  },
+  {
+    "id": "knight-shield4-80t-bx-08",
+    "name": "KnightShield 4-80T",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-07-15",
+    "releaseWave": "BX-08",
+    "bladeId": "knight-shield",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-taper",
+    "assessment": "Exclusive to the BX-08 3on3 Deck Set. The taller 4-80 Ratchet and Taper Bit give this KnightShield variant more mobility than the stock combo, turning it into a defensive-balance hybrid that can still absorb hits while moving around the stadium."
+  },
+  {
+    "id": "shark-edge3-60lf-bx-14",
+    "name": "SharkEdge 3-60LF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/073d6e837b426b8323972fe63cef44ce",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
+    "bladeId": "shark-edge",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-low-flat",
+    "assessment": "The prize Bey of Random Booster Vol. 1. This low-profile SharkEdge combo is built to dive under opponents and attack their Ratchet directly. The 3-60 Ratchet and Low Flat Bit keep it fast and close to the stadium floor for aggressive dive attacks."
+  },
+  {
+    "id": "shark-edge4-80n-bx-14",
+    "name": "SharkEdge 4-80N",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
+    "bladeId": "shark-edge",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-needle",
+    "assessment": "A yellow recolor from Random Booster Vol. 1. The Needle Bit and taller 4-80 Ratchet give this SharkEdge variant a more stamina-oriented behavior, trading some aggression for better survival in the center of the stadium."
+  },
+  {
+    "id": "dran-sword3-80b-bx-14",
+    "name": "DranSword 3-80B",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/e74ccf9209dc1e8fe135249ff60ec48c",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
+    "bladeId": "dran-sword",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-ball",
+    "assessment": "A black recolor from Random Booster Vol. 1. Mounting the DranSword Blade on a tall 3-80 Ratchet with a Ball Bit creates an unusual stamina-leaning Attack combo that can still deliver hits while outlasting lighter opponents."
+  },
+  {
+    "id": "hells-scythe4-80lf-bx-14",
+    "name": "HellsScythe 4-80LF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
+    "bladeId": "hells-scythe",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-low-flat",
+    "assessment": "A green recolor from Random Booster Vol. 1. Combining HellsScythe's high stamina with the aggressive Low Flat Bit turns this into a mobile balance combo that can dash along the X-Line while retaining decent spin time."
+  },
+  {
+    "id": "knight-shield4-60lf-bx-14",
+    "name": "KnightShield 4-60LF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
+    "bladeId": "knight-shield",
+    "ratchetId": "ratchet-4-60",
+    "bitId": "bit-low-flat",
+    "assessment": "A cyan recolor from Random Booster Vol. 1. The low 4-60 Ratchet and Low Flat Bit are an unusual pairing for the defensive KnightShield Blade, producing a lower, more mobile defensive variant that can still absorb impacts."
+  },
+  {
+    "id": "wizard-arrow3-60t-bx-14",
+    "name": "WizardArrow 3-60T",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
+    "bladeId": "wizard-arrow",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-taper",
+    "assessment": "A brown recolor from Random Booster Vol. 1. The Taper Bit and 3-60 Ratchet give this WizardArrow variant more movement than the stock Ball combo, leaning into a balance playstyle that can both dodge and outlast."
+  },
+  {
+    "id": "viper-tail4-60f-bx-16",
+    "name": "ViperTail 4-60F",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "https://kimi-web-img.moonshot.cn/prod-data/online-image/search-upload/3d876211bd450b53751e9dcac6251dff",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX-16",
+    "bladeId": "viper-tail",
+    "ratchetId": "ratchet-4-60",
+    "bitId": "bit-flat",
+    "assessment": "A black recolor from Random Booster ViperTail Select. The Flat Bit turns the normally stamina-focused ViperTail into an aggressive dash combo, using its downward-sloping blades to chase opponents around the stadium."
+  },
+  {
+    "id": "viper-tail3-80hn-bx-16",
+    "name": "ViperTail 3-80HN",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX-16",
+    "bladeId": "viper-tail",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-high-needle",
+    "assessment": "A yellow recolor from Random Booster ViperTail Select. The High Needle Bit and tall 3-80 Ratchet push this ViperTail variant toward pure stamina and survival, keeping it centered and stable throughout long battles."
   }
 ]
