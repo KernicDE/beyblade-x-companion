@@ -4502,16 +4502,16 @@
     "category": "blade",
     "name": "Phoenix Rudder",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0f/BladePhoenixRudder.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2e/BladePhoenixRudder.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Phoenix Rudder Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of PhoenixRudder. A right-spin Stamina Type Unique Line Blade with a rounded, low-friction shape and a phoenix-themed Gear Chip.",
+      "de": "Die Hasbro-Version von PhoenixRudder. Ein rechtsspinnender Stamina-Type-Unique-Line-Blade mit einer runden, reibungsarmen Form und einem phönix-thematisierten Gear Chip."
     },
     "assessment": {
-      "en": "Phoenix Rudder is a right-spin Stamina Type Blade. Official stats: Attack 10 / Defense 35 / Stamina 55. Weight: 34.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Phoenix Rudder performs identically to the Takara Tomy release. It offers decent Stamina but is outclassed by newer Stamina Blades and is best used for collection or casual combinations.",
+      "de": "Hasbros Phoenix Rudder spielt identisch zur Takara-Tomy-Version. Er bietet solide Stamina, wird aber von neueren Stamina-Blades übertroffen und eignet sich am besten für Sammlung oder Casual-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 34.5,
@@ -4519,29 +4519,29 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 2.5,
-      "stamina": 3.4,
-      "balance": 2.2
+      "attack": 1,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "phoenix-feather-hasbro",
     "category": "blade",
     "name": "Phoenix Feather",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/BladePhoenixFeather.png/revision/latest",
-    "releaseDate": "2025-06-15",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8a/BladePhoenixFeather.png/revision/latest",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Phoenix Feather Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of PhoenixFeather. A lightweight, three-sided Attack Type Blade with upward-slanting wings and a phoenix-themed Gear Chip.",
+      "de": "Die Hasbro-Version von PhoenixFeather. Ein leichter, dreiseitiger Attack-Type-Blade mit nach oben geneigten Flügeln und einem phönix-thematisierten Gear Chip."
     },
     "assessment": {
-      "en": "Phoenix Feather is a right-spin Attack Type Blade. Official stats: Attack 50 / Defense 20 / Stamina 30. Weight: 33.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Phoenix Feather performs identically to the Takara Tomy release. It focuses on high-speed attacks, but its light weight reduces raw impact compared to heavier Attack Blades.",
+      "de": "Hasbros Phoenix Feather spielt identisch zur Takara-Tomy-Version. Er konzentriert sich auf Hochgeschwindigkeitsangriffe, aber sein geringes Gewicht reduziert den reinen Impact im Vergleich zu schwereren Attack-Blades."
     },
     "officialStats": {
       "weightGrams": 33.3,
@@ -4549,10 +4549,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 1.4,
-      "stamina": 1.9,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4563,239 +4563,239 @@
     "name": "DranBrave",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1a/BladeDranBraveS.png/revision/latest?cb=20250305054628",
-    "releaseDate": "2025-03-29",
+    "releaseDate": "2025-05-21",
     "releaseWave": "CX-01",
     "description": {
-      "en": "DranBrave Blade from the CX system.",
-      "de": ""
+      "en": "The Hasbro version of DranBrave. The Brave Main Blade from the Custom Line, a right-spin Attack Type Blade with smooth upward-sloping blades.",
+      "de": "Die Hasbro-Version von DranBrave. Der Brave-Main-Blade aus der Custom Line, ein Right-Spin-Attack-Type-Blade mit glatt nach oben geneigten Klingen."
     },
     "assessment": {
-      "en": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's DranBrave uses the same Brave Blade as the Takara Tomy release. The smooth blades generate Upper Attack and it works as a balanced Attack starter option.",
+      "de": "Hasbros DranBrave verwendet denselben Brave-Blade wie die Takara-Tomy-Version. Die glatten Klingen erzeugen Upper Attack und er funktioniert als ausgewogener Attack-Starter."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 31.2,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "hells-reaper-hasbro",
     "category": "blade",
     "name": "HellsReaper",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/59/HellsReaper.png/revision/latest",
-    "releaseDate": "2025-04-26",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/HellsReaper_T4-70K.png/revision/latest",
+    "releaseDate": "2025-06-01",
     "releaseWave": "CX-05",
     "description": {
-      "en": "HellsReaper Blade from the CX system.",
-      "de": ""
+      "en": "The Hasbro version of HellsReaper. The Reaper Main Blade from the Custom Line, a four-sided Balance Type Blade.",
+      "de": "Die Hasbro-Version von HellsReaper. Der Reaper-Main-Blade aus der Custom Line, ein vierseitiger Balance-Type-Blade."
     },
     "assessment": {
-      "en": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's HellsReaper performs identically to the Takara Tomy release. It uses four blades to destabilise opponents with rapid smashing strikes but has no dominant competitive role.",
+      "de": "Hasbros HellsReaper spielt identisch zur Takara-Tomy-Version. Er nutzt vier Klingen, um Gegner mit schnellen Schlägen zu destabilisieren, hat aber keine dominante kompetitive Rolle."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.0,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "wizard-arc-hasbro",
     "category": "blade",
     "name": "WizardArc",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/BladeWizardArcR.png/revision/latest",
-    "releaseDate": "2025-03-29",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4e/WizardArc_R4-55LO.png/revision/latest",
+    "releaseDate": "2025-05-21",
     "releaseWave": "CX-02",
     "description": {
-      "en": "WizardArc Blade from the CX system.",
-      "de": ""
+      "en": "The Hasbro version of WizardArc. The Arc Main Blade from the Custom Line, a right-spin Stamina Type Blade.",
+      "de": "Die Hasbro-Version von WizardArc. Der Arc-Main-Blade aus der Custom Line, ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's WizardArc performs identically to the Takara Tomy release. It is a lightweight Stamina Blade with modest Stamina potential, generally outclassed by dedicated Stamina options.",
+      "de": "Hasbros WizardArc spielt identisch zur Takara-Tomy-Version. Er ist ein leichter Stamina-Blade mit bescheidenem Stamina-Potenzial und wird in der Regel von dedizierten Stamina-Optionen übertroffen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.2,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "perseus-dark-hasbro",
     "category": "blade",
     "name": "PerseusDark",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladePerseusDarkB.png/revision/latest?cb=20250305054642",
-    "releaseDate": "2025-03-29",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/PerseusDark_B6-80W.png/revision/latest",
+    "releaseDate": "2025-05-21",
     "releaseWave": "CX-03",
     "description": {
-      "en": "PerseusDark Blade from the CX system.",
-      "de": ""
+      "en": "The Hasbro version of PerseusDark. The Dark Main Blade from the Custom Line, a right-spin Defense Type Blade.",
+      "de": "Die Hasbro-Version von PerseusDark. Der Dark-Main-Blade aus der Custom Line, ein Right-Spin-Defense-Type-Blade."
     },
     "assessment": {
-      "en": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's PerseusDark performs identically to the Takara Tomy release. Its low overall weight limits its ability to tank heavy Attack combos, making it a niche pick at best.",
+      "de": "Hasbros PerseusDark spielt identisch zur Takara-Tomy-Version. Sein geringes Gesamtgewicht limitiert die Fähigkeit, schwere Attack-Combos abzufangen, wodurch er bestenfalls eine Nischenwahl ist."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.3,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "fox-brush-hasbro",
     "category": "blade",
     "name": "FoxBrush",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3b/BladeFoxBrushJ.png/revision/latest?cb=20250416134856",
-    "releaseDate": "2025-05-17",
-    "releaseWave": "CX-06",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/84/FoxBrush_J9-70GR.png/revision/latest",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "CX-08",
     "description": {
-      "en": "FoxBrush Blade from the CX system.",
-      "de": ""
+      "en": "The Hasbro version of FoxBrush. The Brush Main Blade from the Custom Line, a right-spin Attack Type Blade.",
+      "de": "Die Hasbro-Version von FoxBrush. Der Brush-Main-Blade aus der Custom Line, ein Right-Spin-Attack-Type-Blade."
     },
     "assessment": {
-      "en": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's FoxBrush performs identically to the Takara Tomy release. The lightweight Brush Blade limits knockout power, keeping it as a niche Attack option.",
+      "de": "Hasbros FoxBrush spielt identisch zur Takara-Tomy-Version. Der leichte Brush-Blade limitiert die Knockout-Kraft, wodurch er eine Nischen-Attack-Option bleibt."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.3,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "fort-hornet-hasbro",
     "category": "blade",
     "name": "Fort Hornet",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d1/Fort_Hornet_R_7-60T.jpeg/revision/latest?cb=20250820152203",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/Fort_Hornet_R_7-60T.png/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1682",
     "description": {
-      "en": "Fort Hornet Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Hasbro Fort Main Blade, featured in Fort Hornet R 7-60T. A right-spin Balance Type Blade and retool of Reaper.",
+      "de": "Der Hasbro-Fort-Main-Blade, enthalten in Fort Hornet R 7-60T. Ein Right-Spin-Balance-Type-Blade und Retool von Reaper."
     },
     "assessment": {
-      "en": "Fort Hornet is a right-spin Balance type Custom Line Blade released by Hasbro. It combines the Hornet Lock Chip, Fort Main Blade and Round Assist Blade. Debuted with Fort Hornet R 7-60T.",
-      "de": ""
+      "en": "Fort Hornet uses the same Fort Blade as the earlier Hasbro release. It shares Reaper's metal components with a new plastic component, offering minor performance differences and a decent Balance option for Custom Line starters.",
+      "de": "Fort Hornet verwendet denselben Fort-Blade wie die frühere Hasbro-Veröffentlichung. Er teilt sich Reapers Metallkomponenten mit einer neuen Plastikkomponente, bietet geringe Leistungsunterschiede und eine solide Balance-Option für Custom-Line-Starter."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.0,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "wriggle-kraken-hasbro",
     "category": "blade",
     "name": "Wriggle Kraken",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/96/Kraken_K4_Code_%28Blue%29.png/revision/latest?cb=20190115015855",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/24/Wriggle_Kraken_S_3-85O.png/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1683",
     "description": {
-      "en": "Wriggle Kraken Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Hasbro Wriggle Main Blade, featured in Wriggle Kraken S 3-85O. A right-spin Stamina Type Blade.",
+      "de": "Der Hasbro-Wriggle-Main-Blade, enthalten in Wriggle Kraken S 3-85O. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "Wriggle Kraken is a right-spin Stamina type Custom Line Blade released by Hasbro. It combines the Kraken Lock Chip, Wriggle Main Blade and Slash Assist Blade. Debuted with Wriggle Kraken S 3-85O.",
-      "de": ""
+      "en": "Wriggle Kraken uses the same Wriggle Blade as the earlier Hasbro release. It is a lightweight Stamina Blade serviceable for early Custom Line play but outclassed by heavier Stamina options.",
+      "de": "Wriggle Kraken verwendet denselben Wriggle-Blade wie die frühere Hasbro-Veröffentlichung. Er ist ein leichter Stamina-Blade, der für frühes Custom-Line-Spiel brauchbar ist, aber von schwereren Stamina-Optionen übertroffen wird."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.3,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "antler-stag-hasbro",
     "category": "blade",
     "name": "Antler Stag",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c1/Antler_Stag_B_2-60HN.jpeg/revision/latest?cb=20250819172937",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/69/Antler_Stag_B_2-60HN.png/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1684",
     "description": {
-      "en": "Antler Stag Blade from the Hasbro Custom Line.",
-      "de": ""
+      "en": "The Hasbro Antler Main Blade, featured in Antler Stag B 2-60HN. A right-spin Stamina Type Blade and retool of Flame.",
+      "de": "Der Hasbro-Antler-Main-Blade, enthalten in Antler Stag B 2-60HN. Ein Right-Spin-Stamina-Type-Blade und Retool von Flame."
     },
     "assessment": {
-      "en": "Antler Stag is a right-spin Defense type Custom Line Blade released by Hasbro. It combines the Stag Lock Chip, Antler Main Blade and Bumper Assist Blade. Debuted with Antler Stag B 2-60HN.",
-      "de": ""
+      "en": "Antler Stag uses the same Antler Blade as the earlier Hasbro release. Its filled-in plastic component makes it slightly heavier than Flame, offering a solid Hasbro Stamina option.",
+      "de": "Antler Stag verwendet denselben Antler-Blade wie die frühere Hasbro-Veröffentlichung. Seine ausgefüllte Plastikkomponente macht ihn etwas schwerer als Flame und bietet eine solide Hasbro-Stamina-Option."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.1,
       "spinDirection": "right",
-      "typeTag": "Defense"
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1.5,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "rhino-reaper-hasbro",
