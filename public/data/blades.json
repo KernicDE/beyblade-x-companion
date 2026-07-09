@@ -3004,233 +3004,233 @@
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-01",
     "description": {
-      "en": "DranBrave Blade from the CX system.",
-      "de": ""
+      "en": "The Brave Main Blade from the Custom Line, featured in DranBrave S6-60V. A right-spin Attack Type Blade with smooth upward-sloping blades.",
+      "de": "Der Brave-Main-Blade aus der Custom Line, enthalten in DranBrave S6-60V. Ein Right-Spin-Attack-Type-Blade mit glatt nach oben geneigten Klingen."
     },
     "assessment": {
-      "en": "DranBrave is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Dran Lock Chip, Brave Main Blade and Slash Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "DranBrave uses the same Brave Blade as other Custom Line releases. The smooth blades generate Upper Attack, while the Slash Assist Blade and Vortex Bit push speed. It is a balanced Attack starter option.",
+      "de": "DranBrave verwendet denselben Brave-Blade wie andere Custom-Line-Veröffentlichungen. Die glatten Klingen erzeugen Upper Attack, während der Slash-Assist-Blade und das Vortex-Bit für Tempo sorgen. Er ist eine ausgewogene Attack-Starter-Option."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 31.2,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "wizard-arc",
     "category": "blade",
     "name": "WizardArc",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/46/BladeWizardArcR.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4e/WizardArc_R4-55LO.png/revision/latest",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-02",
     "description": {
-      "en": "WizardArc Blade from the CX system.",
-      "de": ""
+      "en": "The Arc Main Blade from the Custom Line, featured in WizardArc R4-55LO. A right-spin Stamina Type Blade.",
+      "de": "Der Arc-Main-Blade aus der Custom Line, enthalten in WizardArc R4-55LO. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "WizardArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wizard Lock Chip, Arc Main Blade and Round Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Arc is a lightweight Stamina Blade with low Attack and Defense. Its Stamina potential is modest and it is generally outclassed by dedicated Stamina options in the metagame.",
+      "de": "Arc ist ein leichter Stamina-Blade mit geringem Attack und Defense. Sein Stamina-Potenzial ist bescheiden und er wird im Metagame in der Regel von dedizierten Stamina-Optionen übertroffen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.2,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "perseus-dark",
     "category": "blade",
     "name": "PerseusDark",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/BladePerseusDarkB.png/revision/latest?cb=20250305054642",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/0e/PerseusDark_B6-80W.png/revision/latest",
     "releaseDate": "2025-03-29",
     "releaseWave": "CX-03",
     "description": {
-      "en": "PerseusDark Blade from the CX system.",
-      "de": ""
+      "en": "The Dark Main Blade from the Custom Line, featured in PerseusDark B6-80W. A right-spin Defense Type Blade.",
+      "de": "Der Dark-Main-Blade aus der Custom Line, enthalten in PerseusDark B6-80W. Ein Right-Spin-Defense-Type-Blade."
     },
     "assessment": {
-      "en": "PerseusDark is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Perseus Lock Chip, Dark Main Blade and Bumper Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Dark is a lightweight Defense Blade. Its low overall weight limits its ability to tank heavy Attack combos, making it a niche pick at best.",
+      "de": "Dark ist ein leichter Defense-Blade. Sein geringes Gesamtgewicht limitiert die Fähigkeit, schwere Attack-Combos abzufangen, wodurch er bestenfalls eine Nischenwahl ist."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.3,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "hells-reaper",
     "category": "blade",
     "name": "HellsReaper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/59/HellsReaper.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/HellsReaper_T4-70K.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
-      "en": "HellsReaper Blade from the CX system.",
-      "de": ""
+      "en": "The Reaper Main Blade from the Custom Line, featured in HellsReaper T4-70K from Random Booster Vol. 6. A four-sided Balance Type Blade.",
+      "de": "Der Reaper-Main-Blade aus der Custom Line, enthalten in HellsReaper T4-70K aus Random Booster Vol. 6. Ein vierseitiger Balance-Type-Blade."
     },
     "assessment": {
-      "en": "HellsReaper is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Reaper Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Reaper uses four blades to destabilise opponents with rapid smashing strikes. It is a niche Balance Blade with mixed offensive and Stamina traits but no dominant competitive role.",
+      "de": "Reaper nutzt vier Klingen, um Gegner mit schnellen Schlägen zu destabilisieren. Er ist ein Nischen-Balance-Blade mit gemischten offensiven und Stamina-Eigenschaften, aber ohne dominante kompetitive Rolle."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.0,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "rhino-reaper",
     "category": "blade",
     "name": "RhinoReaper",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cd/BladeRhinoReaperC.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/08/RhinoReaper_C4-55D.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
-      "en": "RhinoReaper Blade from the CX system.",
-      "de": ""
+      "en": "The Reaper Main Blade from the Custom Line, featured in RhinoReaper C4-55D from Random Booster Vol. 6. A four-sided Balance Type Blade.",
+      "de": "Der Reaper-Main-Blade aus der Custom Line, enthalten in RhinoReaper C4-55D aus Random Booster Vol. 6. Ein vierseitiger Balance-Type-Blade."
     },
     "assessment": {
-      "en": "RhinoReaper is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Rhino Lock Chip, Reaper Main Blade and Charge Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "RhinoReaper uses the same Reaper Blade as HellsReaper with the Charge Assist Blade. The combo retains Reaper's destabilising style but remains a niche Balance option.",
+      "de": "RhinoReaper verwendet denselben Reaper-Blade wie HellsReaper mit dem Charge-Assist-Blade. Die Kombination behält Reapers destabilisierenden Stil bei, bleibt aber eine Nischen-Balance-Option."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.0,
       "spinDirection": "right",
-      "typeTag": "Defense"
+      "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "hells-arc",
     "category": "blade",
     "name": "HellsArc",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d8/HellsArc_T3-85O.png/revision/latest?cb=20250314031328",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/HellsArc_T3-85O.png/revision/latest",
     "releaseDate": "2025-04-26",
     "releaseWave": "CX-05",
     "description": {
-      "en": "HellsArc Blade from the CX system.",
-      "de": ""
+      "en": "The Arc Main Blade from the Custom Line, featured in HellsArc T3-85O from Random Booster Vol. 6. A right-spin Stamina Type Blade.",
+      "de": "Der Arc-Main-Blade aus der Custom Line, enthalten in HellsArc T3-85O aus Random Booster Vol. 6. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "HellsArc is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Hells Lock Chip, Arc Main Blade and Turn Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "HellsArc uses the same Arc Blade as WizardArc paired with the Turn Assist Blade. The Stamina profile remains modest and it is not a top-tier competitive choice.",
+      "de": "HellsArc verwendet denselben Arc-Blade wie WizardArc mit dem Turn-Assist-Blade. Das Stamina-Profil bleibt bescheiden und es ist keine Top-Kompetitiv-Wahl."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.2,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "fox-brush",
     "category": "blade",
     "name": "FoxBrush",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3b/BladeFoxBrushJ.png/revision/latest?cb=20250416134856",
-    "releaseDate": "2025-05-17",
-    "releaseWave": "CX-06",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/84/FoxBrush_J9-70GR.png/revision/latest",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-08",
     "description": {
-      "en": "FoxBrush Blade from the CX system.",
-      "de": ""
+      "en": "The Brush Main Blade from the Custom Line, featured in FoxBrush J9-70GR from Random Booster Vol. 7. A right-spin Attack Type Blade.",
+      "de": "Der Brush-Main-Blade aus der Custom Line, enthalten in FoxBrush J9-70GR aus Random Booster Vol. 7. Ein Right-Spin-Attack-Type-Blade."
     },
     "assessment": {
-      "en": "FoxBrush is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Fox Lock Chip, Brush Main Blade and Jaggy Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "FoxBrush uses the same Brush Blade as PegasusBrush with the Jaggy Assist Blade. The lightweight Brush Blade limits knockout power, keeping it as a niche Attack option.",
+      "de": "FoxBrush verwendet denselben Brush-Blade wie PegasusBrush mit dem Jaggy-Assist-Blade. Der leichte Brush-Blade limitiert die Knockout-Kraft, wodurch er eine Nischen-Attack-Option bleibt."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.3,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2.5,
+      "defense": 2,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "pegasus-blast",
     "category": "blade",
     "name": "PegasusBlast",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1f/BladePegasusBlastA.png/revision/latest?cb=20250613084219",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a5/PegasusBlast_ATr.png/revision/latest",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-07",
     "description": {
-      "en": "PegasusBlast Blade from the CX system.",
-      "de": ""
+      "en": "The Blast Main Blade from the Custom Line, featured in PegasusBlast ATr. A right-spin Attack Type Blade with three wings and rounded contact points.",
+      "de": "Der Blast-Main-Blade aus der Custom Line, enthalten in PegasusBlast ATr. Ein Right-Spin-Attack-Type-Blade mit drei Flügeln und abgerundeten Kontaktpunkten."
     },
     "assessment": {
-      "en": "PegasusBlast is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Pegasus Lock Chip, Blast Main Blade and Assault Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Blast is one of the most popular Custom Line Attack Blades. It is heavier than Brave with comparable Attack power and better Stamina. It pairs well with Wheel, Heavy or Assault Assist Blades and is a staple in Attack decks.",
+      "de": "Blast ist einer der beliebtesten Custom-Line-Attack-Blades. Er ist schwerer als Brave mit vergleichbarer Attack-Power und besserer Stamina. Er passt gut zu Wheel-, Heavy- oder Assault-Assist-Blades und ist ein Standard in Attack-Decks."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 32.8,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -3240,60 +3240,60 @@
     "category": "blade",
     "name": "CerberusFlame",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/cf/BladeCerberusFlameW.png/revision/latest?cb=20250613084226",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7f/CerberusFlame_W5-80WB.png/revision/latest",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
-      "en": "CerberusFlame Blade from the CX system.",
-      "de": ""
+      "en": "The Flame Main Blade from the Custom Line, featured in CerberusFlame W5-80WB from Random Booster Vol. 7. A right-spin Stamina Type Blade.",
+      "de": "Der Flame-Main-Blade aus der Custom Line, enthalten in CerberusFlame W5-80WB aus Random Booster Vol. 7. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "CerberusFlame is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Flame Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Flame is a lightweight Stamina Blade. Its Stamina is serviceable for early Custom Line releases, but it is outclassed by heavier and more stable Stamina options.",
+      "de": "Flame ist ein leichter Stamina-Blade. Seine Stamina ist für frühe Custom-Line-Veröffentlichungen brauchbar, aber er wird von schwereren und stabileren Stamina-Optionen übertroffen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 28.5,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1.5,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "whale-flame",
     "category": "blade",
     "name": "WhaleFlame",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/42/WhaleFlame_M3-85HT.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/1e/WhaleFlame_M3-85HT.png/revision/latest",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
-      "en": "WhaleFlame Blade from the CX system.",
-      "de": ""
+      "en": "The Flame Main Blade from the Custom Line, featured in WhaleFlame M3-85HT from Random Booster Vol. 7. A right-spin Stamina Type Blade.",
+      "de": "Der Flame-Main-Blade aus der Custom Line, enthalten in WhaleFlame M3-85HT aus Random Booster Vol. 7. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "WhaleFlame is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Whale Lock Chip, Flame Main Blade and Massive Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "WhaleFlame uses the same Flame Blade as CerberusFlame paired with the Massive Assist Blade. It remains a modest Stamina option with limited competitive impact.",
+      "de": "WhaleFlame verwendet denselben Flame-Blade wie CerberusFlame mit dem Massive-Assist-Blade. Es bleibt eine bescheidene Stamina-Option mit begrenztem kompetitivem Einfluss."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 28.5,
       "spinDirection": "right",
-      "typeTag": "Balance"
+      "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1.5,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "cerberus-dark",
