@@ -4556,7 +4556,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/8d/Captain_America_4-70GB.jpeg/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1690",
-    "bladeId": "captain-america-hasbro",
+    "bladeId": "captain-america",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-gear-ball-hasbro",
     "assessment": {
@@ -4571,7 +4571,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/ed/Red_Hulk_1-80R.jpeg/revision/latest",
     "releaseDate": "2025-08-01",
     "releaseWave": "G1690",
-    "bladeId": "red-hulk-hasbro",
+    "bladeId": "red-hulk",
     "ratchetId": "ratchet-1-80-hasbro",
     "bitId": "bit-rush-hasbro",
     "assessment": {
@@ -4586,7 +4586,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Miles_Morales_1-60GN.jpeg/revision/latest?cb=20250903053908",
     "releaseDate": "2025-09-01",
     "releaseWave": "G1691",
-    "bladeId": "miles-morales-hasbro",
+    "bladeId": "miles-morales",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-gear-needle-hasbro",
     "assessment": {
@@ -4601,7 +4601,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/95/Green_Goblin_9-80HT.jpeg/revision/latest",
     "releaseDate": "2025-09-01",
     "releaseWave": "G1691",
-    "bladeId": "green-goblin-hasbro",
+    "bladeId": "green-goblin",
     "ratchetId": "ratchet-9-80-hasbro",
     "bitId": "bit-high-taper-hasbro",
     "assessment": {
@@ -4616,7 +4616,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/aa/Bumblebee_3-60GP.jpeg/revision/latest",
     "releaseDate": "2025-09-01",
     "releaseWave": "G1692",
-    "bladeId": "bumblebee-hasbro",
+    "bladeId": "bumblebee",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-gear-point-hasbro",
     "assessment": {
@@ -4631,7 +4631,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/19/Shockwave_5-80O.jpeg/revision/latest",
     "releaseDate": "2025-09-01",
     "releaseWave": "G1692",
-    "bladeId": "shockwave-hasbro",
+    "bladeId": "shockwave",
     "ratchetId": "ratchet-5-80-hasbro",
     "bitId": "bit-orb-hasbro",
     "assessment": {
@@ -4661,7 +4661,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5e/General_Grievous_3-80HN.jpeg/revision/latest?cb=20250618035039",
     "releaseDate": "2025-05-01",
     "releaseWave": "G1694",
-    "bladeId": "general-grievous-hasbro",
+    "bladeId": "general-grievous",
     "ratchetId": "ratchet-3-80-hasbro",
     "bitId": "bit-high-needle-hasbro",
     "assessment": {
@@ -4676,7 +4676,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3f/Chewbacca_4-80LF.jpeg/revision/latest",
     "releaseDate": "2025-09-01",
     "releaseWave": "G1695",
-    "bladeId": "chewbacca-hasbro",
+    "bladeId": "chewbacca",
     "ratchetId": "ratchet-4-80-hasbro",
     "bitId": "bit-low-flat-hasbro",
     "assessment": {
@@ -4691,7 +4691,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/14/Stormtrooper_5-70B.jpeg/revision/latest",
     "releaseDate": "2025-09-01",
     "releaseWave": "G1695",
-    "bladeId": "stormtrooper-hasbro",
+    "bladeId": "stormtrooper",
     "ratchetId": "ratchet-5-70-hasbro",
     "bitId": "bit-ball-hasbro",
     "assessment": {
@@ -4706,7 +4706,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6c/BladeGrogu.png/revision/latest",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3061",
-    "bladeId": "grogu-hasbro",
+    "bladeId": "grogu",
     "ratchetId": "ratchet-3-85-hasbro",
     "bitId": "bit-elevate-hasbro",
     "assessment": {
@@ -4721,7 +4721,7 @@
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d0/BladeSnowtrooper.png/revision/latest",
     "releaseDate": "2026-04-01",
     "releaseWave": "G3061",
-    "bladeId": "snowtrooper-hasbro",
+    "bladeId": "snowtrooper",
     "ratchetId": "ratchet-7-60-hasbro",
     "bitId": "bit-orb-hasbro",
     "assessment": {
