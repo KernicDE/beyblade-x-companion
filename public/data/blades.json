@@ -4202,16 +4202,16 @@
     "category": "blade",
     "name": "Leon Claw",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/93/BladeLeonClaw.png/revision/latest",
-    "releaseDate": "2023-10-07",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/16/BladeLeonClaw.png/revision/latest",
+    "releaseDate": "2024-07-09",
     "releaseWave": "BX",
     "description": {
-      "en": "Leon Claw Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of LeonClaw. A Balance Type Blade with four main contact points and a lion-themed Gear Chip.",
+      "de": "Die Hasbro-Version von LeonClaw. Ein Balance-Type-Blade mit vier Hauptkontaktpunkten und einem löwen-thematisierten Gear Chip."
     },
     "assessment": {
-      "en": "Leon Claw is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 40 / Stamina 20. Weight: 31.4g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Leon Claw performs identically to the Takara Tomy release. It offers a balanced stat spread without excelling in any one area, making it usable for casual play but outclassed by specialized Blades.",
+      "de": "Hasbros Leon Claw spielt identisch zur Takara-Tomy-Version. Er bietet eine ausgewogene Stat-Verteilung, ohne in einem Bereich herauszuragen. Für Casual-Spiel brauchbar, von spezialisierten Blades aber übertroffen."
     },
     "officialStats": {
       "weightGrams": 31.4,
@@ -4219,10 +4219,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.9,
-      "stamina": 1.3,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4233,15 +4233,15 @@
     "name": "Dran Buster",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/db/BladeDranBuster.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Dran Buster Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of DranBuster. A blocky Attack Type Blade from the Unique Line with a Seiryū shooting a fireball Gear Chip.",
+      "de": "Die Hasbro-Version von DranBuster. Ein kantiger Attack-Type-Blade aus der Unique Line mit einem Seiryū-Gear-Chip, der einen Feuerball schießt."
     },
     "assessment": {
-      "en": "Dran Buster is a right-spin Attack Type Blade. Official stats: Attack 70 / Defense 20 / Stamina 10. Weight: 36.5g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Dran Buster performs identically to the Takara Tomy release. It delivers extreme Attack power with its aggressive blocky shape and is one of the hardest-hitting right-spin Attack Blades.",
+      "de": "Hasbros Dran Buster spielt identisch zur Takara-Tomy-Version. Er liefert extreme Attack-Power mit seiner aggressiven, kantigen Form und ist einer der stärksten right-spin Attack-Blades."
     },
     "officialStats": {
       "weightGrams": 36.5,
@@ -4249,10 +4249,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.7,
-      "defense": 1.4,
-      "stamina": 0.6,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4262,16 +4262,16 @@
     "category": "blade",
     "name": "Wizard Rod",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/a/a3/BladeWizardRod.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "UX",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/BladeWizardRod.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX",
     "description": {
-      "en": "Wizard Rod Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of WizardRod. A heavy, wide circular Stamina Type Blade with five large blades that maximize centrifugal force.",
+      "de": "Die Hasbro-Version von WizardRod. Ein schwerer, breit runder Stamina-Type-Blade mit fünf großen Klingen, die die Fliehkraft maximieren."
     },
     "assessment": {
-      "en": "Wizard Rod is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 25 / Stamina 60. Weight: 35.3g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Wizard Rod performs identically to the Takara Tomy release. It is a staple Stamina Blade due to its heavy weight and round shape, considered a must-have for the WBO X format.",
+      "de": "Hasbros Wizard Rod spielt identisch zur Takara-Tomy-Version. Er ist aufgrund seines hohen Gewichts und der runden Form ein klassischer Stamina-Blade und gilt als Must-Have für das WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 35.3,
@@ -4280,9 +4280,9 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 1.8,
-      "stamina": 3.8,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4292,16 +4292,16 @@
     "category": "blade",
     "name": "Shinobi Shadow",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeShinobiShadow.png/revision/latest",
-    "releaseDate": "",
-    "releaseWave": "UX",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7d/BladeShinobiShadow.png/revision/latest",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "BX",
     "description": {
-      "en": "Shinobi Shadow Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of ShinobiShadow. A Defense Type Blade with three smooth blades designed to parry opposing attacks.",
+      "de": "Die Hasbro-Version von ShinobiShadow. Ein Defense-Type-Blade mit drei glatten Klingen, die gegnerische Angriffe abwehren sollen."
     },
     "assessment": {
-      "en": "Shinobi Shadow is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 70 / Stamina 20. Weight: 28.2g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Shinobi Shadow performs identically to the Takara Tomy release. Its smooth parrying blades provide strong Defense, though its Stamina remains modest.",
+      "de": "Hasbros Shinobi Shadow spielt identisch zur Takara-Tomy-Version. Seine glatten Abwehrklingen bieten starke Defense, obwohl seine Stamina bescheiden bleibt."
     },
     "officialStats": {
       "weightGrams": 28.2,
@@ -4309,29 +4309,29 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0.7,
+      "attack": 1,
       "defense": 5,
-      "stamina": 1.3,
-      "balance": 2.3
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "crimson-garuda-hasbro",
     "category": "blade",
     "name": "Crimson Garuda",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/60/BladeCrimsonGaruda.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/2c/BladeCrimsonGaruda.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Crimson Garuda Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of CrimsonGaruda. A right-spin Balance Type Blade with a five-sided, bird-inspired shape.",
+      "de": "Die Hasbro-Version von CrimsonGaruda. Ein rechtsspinnender Balance-Type-Blade mit einer fünfseitigen, vogel-inspirierten Form."
     },
     "assessment": {
-      "en": "Crimson Garuda is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 25 / Stamina 30. Weight: 35g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Crimson Garuda performs identically to the Takara Tomy release. It is a versatile all-rounder with decent Attack and solid weight, working well in hybrid casual combinations.",
+      "de": "Hasbros Crimson Garuda spielt identisch zur Takara-Tomy-Version. Er ist ein vielseitiger Allrounder mit anständigem Attack und solidem Gewicht und funktioniert gut in hybriden Casual-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 35,
@@ -4340,28 +4340,28 @@
     },
     "ratings": {
       "attack": 3,
-      "defense": 1.8,
-      "stamina": 1.9,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "silver-wolf-hasbro",
     "category": "blade",
     "name": "Silver Wolf",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f1/BladeSilverWolf.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/4e/BladeSilverWolf.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Silver Wolf Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of SilverWolf. A right-spin Stamina Type Unique Line Blade with a smooth, rounded shape for minimal friction.",
+      "de": "Die Hasbro-Version von SilverWolf. Ein rechtsspinnender Stamina-Type-Unique-Line-Blade mit einer glatten, runden Form für minimale Reibung."
     },
     "assessment": {
-      "en": "Silver Wolf is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 30 / Stamina 65. Weight: 36.8g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Silver Wolf performs identically to the Takara Tomy release. It is a top-tier Stamina Blade with excellent endurance, making it a staple for competitive Stamina combinations.",
+      "de": "Hasbros Silver Wolf spielt identisch zur Takara-Tomy-Version. Er ist ein Top-Stamina-Blade mit exzellenter Ausdauer und ein fester Bestandteil kompetitiver Stamina-Kombinationen."
     },
     "officialStats": {
       "weightGrams": 36.8,
@@ -4370,28 +4370,28 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 2.1,
-      "stamina": 4.1,
-      "balance": 2.4
+      "defense": 2,
+      "stamina": 5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "shelter-drake-hasbro",
     "category": "blade",
     "name": "Shelter Drake",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeShelterDrake.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/99/BladeShelterDrake.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Shelter Drake Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of ShelterDrake. A right-spin Balance Type Blade from the Basic Line with a distinctive oval shape and an X-Over Project homage to Ultimate Dragoon.",
+      "de": "Die Hasbro-Version von ShelterDrake. Ein rechtsspinnender Balance-Type-Blade aus der Basic Line mit markanter ovaler Form und einer X-Over-Project-Hommage an Ultimate Dragoon."
     },
     "assessment": {
-      "en": "Shelter Drake is a right-spin Balance Type Blade. Official stats: Attack 25 / Defense 40 / Stamina 35. Weight: 32.6g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Shelter Drake performs identically to the Takara Tomy release. Its oval profile creates a mix of evasion, defense and decent stamina with random knockout potential.",
+      "de": "Hasbros Shelter Drake spielt identisch zur Takara-Tomy-Version. Sein ovales Profil erzeugt eine Mischung aus Ausweichmanövern, Defense und ordentlicher Stamina mit zufälligem Knockout-Potenzial."
     },
     "officialStats": {
       "weightGrams": 32.6,
@@ -4399,10 +4399,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 1.7,
-      "defense": 2.9,
-      "stamina": 2.2,
-      "balance": 2.3
+      "attack": 2.5,
+      "defense": 4,
+      "stamina": 3.5,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4412,16 +4412,16 @@
     "category": "blade",
     "name": "Golem Rock",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/27/BladeGolemRock.png/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/06/BladeGolemRock.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Golem Rock Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of GolemRock. A right-spin Defense Type Blade from the Unique Line with six main contact points and a thick, impact-absorbing structure.",
+      "de": "Die Hasbro-Version von GolemRock. Ein rechtsspinnender Defense-Type-Blade aus der Unique Line mit sechs Hauptkontaktpunkten und einer dicken, stoßabsorbierenden Struktur."
     },
     "assessment": {
-      "en": "Golem Rock is a right-spin Defense Type Blade. Official stats: Attack 30 / Defense 60 / Stamina 10. Weight: 34g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Golem Rock performs identically to the Takara Tomy release. It is a bulky defensive Blade that absorbs impacts well and can outlast lighter attackers.",
+      "de": "Hasbros Golem Rock spielt identisch zur Takara-Tomy-Version. Er ist ein klobiger Defensiv-Blade, der Stöße gut absorbiert und leichtere Angreifer überdauern kann."
     },
     "officialStats": {
       "weightGrams": 34,
@@ -4429,10 +4429,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4.3,
-      "stamina": 0.6,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 5,
+      "stamina": 1,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4443,15 +4443,15 @@
     "name": "Hells Hammer",
     "manufacturer": "Hasbro",
     "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/67/BladeHellsHammer.png/revision/latest",
-    "releaseDate": "",
+    "releaseDate": "2025-08-01",
     "releaseWave": "UX",
     "description": {
-      "en": "Hells Hammer Blade from the UX system.",
-      "de": ""
+      "en": "The Hasbro version of HellsHammer. A Balance Type Blade with three thick Smash Blades and a flaming-skull Gear Chip.",
+      "de": "Die Hasbro-Version von HellsHammer. Ein Balance-Type-Blade mit drei dicken Smash-Klingen und einem Flammen-Totenkopf-Gear-Chip."
     },
     "assessment": {
-      "en": "Hells Hammer is a right-spin Balance Type Blade. Official stats: Attack 50 / Defense 25 / Stamina 25. Weight: 33g. Manufactured by Hasbro.",
-      "de": ""
+      "en": "Hasbro's Hells Hammer performs identically to the Takara Tomy release. It specializes in blasting opponents into the stadium floor with strong Smash Attack while retaining some Balance.",
+      "de": "Hasbros Hells Hammer spielt identisch zur Takara-Tomy-Version. Er spezialisiert sich darauf, Gegner mit starkem Smash-Attack in den Stadionboden zu schmettern, und behält gleichzeitig Balance."
     },
     "officialStats": {
       "weightGrams": 33,
@@ -4459,10 +4459,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 1.8,
-      "stamina": 1.6,
-      "balance": 2.2
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4470,31 +4470,32 @@
   {
     "id": "stun-medusa-hasbro",
     "category": "blade",
-    "name": "Stun  Medusa",
+    "name": "Stun Medusa",
     "manufacturer": "Hasbro",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/dd/Stun_Medusa_9-60GB.jpeg/revision/latest",
-    "releaseDate": "",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/7/7e/BladeStunMedusa.png/revision/latest",
+    "releaseDate": "2025-08-01",
     "releaseWave": "BX",
     "description": {
-      "en": "Stun  Medusa Blade from the BX system.",
-      "de": ""
+      "en": "The Hasbro version of StunMedusa. A right-spin Defense Type Blade from the Basic Line with a medusa motif and a protrusion-heavy shape.",
+      "de": "Die Hasbro-Version von StunMedusa. Ein rechtsspinnender Defense-Type-Blade aus der Basic Line mit Medusa-Motiv und vorsprungsreicher Form."
     },
     "assessment": {
-      "en": "Stun  Medusa is a right-spin Blade from the Beyblade X BX line. Documented weight: 27.32g. Hasbro release of the Takara Tomy mold.",
-      "de": ""
+      "en": "Hasbro's Stun Medusa performs identically to the Takara Tomy release. Its lightweight, protrusion-heavy shape can disrupt lighter attackers, but its low weight limits raw knockout resistance.",
+      "de": "Hasbros Stun Medusa spielt identisch zur Takara-Tomy-Version. Seine leichte, vorsprungsreiche Form kann leichtere Angreifer stören, aber das geringe Gewicht limitiert die reine Knockout-Resistenz."
     },
     "officialStats": {
-      "weightGrams": 27.32,
-      "spinDirection": "right"
+      "weightGrams": 27.3,
+      "spinDirection": "right",
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 3.5,
+      "stamina": 2,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "phoenix-rudder-hasbro",
