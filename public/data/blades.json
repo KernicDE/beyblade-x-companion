@@ -588,12 +588,12 @@
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
-      "en": "Wizard Rod Blade from the UX system.",
-      "de": ""
+      "en": "A heavy, wide circular Stamina Type Blade with five large blades that maximize centrifugal force. Features a wizard-themed Gear Chip.",
+      "de": "Ein schwerer, breit runder Stamina-Type-Blade mit fünf großen Klingen, die die Fliehkraft maximieren. Zeigt einen Zauberer-Gear-Chip."
     },
     "assessment": {
-      "en": "Wizard Rod is a right-spin Stamina Type Blade. Official stats: Attack 15 / Defense 25 / Stamina 60. Weight: 35.3g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "WizardRod is a staple Stamina Blade due to its heavy weight and round shape. It is considered a must-have for the WBO X format.",
+      "de": "WizardRod ist aufgrund seines hohen Gewichts und der runden Form ein klassischer Stamina-Blade. Er gilt als Must-Have für das WBO-X-Format."
     },
     "officialStats": {
       "weightGrams": 35.3,
@@ -602,11 +602,12 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 1.8,
-      "stamina": 3.8,
-      "balance": 2.2
+      "defense": 2,
+      "stamina": 5,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "driger-slash",
@@ -617,12 +618,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Driger Slash Blade from the BX system.",
-      "de": ""
+      "en": "A Balance Type X-Over Blade adapted from the original Driger. Combines the Tiger Defenser Attack Ring and Eight Heavy Weight Disk concepts.",
+      "de": "Ein Balance-Type-X-Over-Blade, angelehnt an den originalen Driger. Kombiniert Konzepte des Tiger-Defenser-Attack-Rings und der Eight-Heavy-Weight-Disk."
     },
     "assessment": {
-      "en": "Driger Slash is a right-spin Balance Type Blade. Official stats: Attack 40 / Defense 35 / Stamina 25. Weight: 28.6g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "DrigerSlash offers a balanced profile but is lighter than modern specialized Blades. (Estimated ratings based on type, weight and shape.)",
+      "de": "DrigerSlash bietet ein ausgewogenes Profil, ist aber leichter als moderne spezialisierte Blades. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 28.6,
@@ -630,12 +631,13 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.5,
-      "stamina": 1.6,
-      "balance": 2.3
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "tyranno-beat",
@@ -646,12 +648,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Tyranno Beat Blade from the BX system.",
-      "de": ""
+      "en": "A heavy Attack Type Blade with aggressive Tyrannosaurus-themed contact points. Designed for powerful Smash Attack.",
+      "de": "Ein schwerer Attack-Type-Blade mit aggressiven Tyrannosaurus-Kontaktpunkten. Entwickelt für starken Smash-Attack."
     },
     "assessment": {
-      "en": "Tyranno Beat is a right-spin Attack Type Blade. Official stats: Attack 65 / Defense 30 / Stamina 5. Weight: 37g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "TyrannoBeat delivers high Attack power thanks to its heavy weight and aggressive shape. (Estimated ratings based on type, weight and shape.)",
+      "de": "TyrannoBeat liefert hohe Attack-Power dank seines hohen Gewichts und der aggressiven Form. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 37,
@@ -659,12 +661,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4.3,
-      "defense": 2.1,
-      "stamina": 0.3,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "shinobi-shadow",
@@ -675,12 +678,12 @@
     "releaseDate": "",
     "releaseWave": "UX",
     "description": {
-      "en": "Shinobi Shadow Blade from the UX system.",
-      "de": ""
+      "en": "A Defense Type Blade with three smooth blades designed to parry opposing attacks. Features a ninja-themed Gear Chip.",
+      "de": "Ein Defense-Type-Blade mit drei glatten Klingen, die gegnerische Angriffe abwehren sollen. Zeigt einen Ninja-Gear-Chip."
     },
     "assessment": {
-      "en": "Shinobi Shadow is a right-spin Defense Type Blade. Official stats: Attack 10 / Defense 70 / Stamina 20. Weight: 28.2g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "ShinobiShadow provides strong Defense with its smooth parrying blades, though its Stamina is modest. (Estimated ratings based on type, weight and shape.)",
+      "de": "ShinobiShadow bietet starke Defense durch seine glatten Abwehrklingen, obwohl seine Stamina bescheiden ist. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 28.2,
@@ -688,12 +691,13 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0.7,
+      "attack": 1,
       "defense": 5,
-      "stamina": 1.3,
-      "balance": 2.3
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "mammoth-tusk",
@@ -704,24 +708,25 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Mammoth Tusk Blade from the BX system.",
-      "de": ""
+      "en": "A round, compact Blade with mammoth-tusk-shaped contact points. Known as Tusk Mammoth in western releases.",
+      "de": "Ein runder, kompakter Blade mit mammutzahnförmigen Kontaktpunkten. In westlichen Releases als Tusk Mammoth bekannt."
     },
     "assessment": {
-      "en": "Mammoth Tusk is a right-spin Balance Type Blade. Weight: 32.1g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Mammoth Tusk leans toward Defense with its compact shape and moderate weight. (Estimated ratings based on type, weight and shape.)",
+      "de": "Mammoth Tusk tendiert durch seine kompakte Form und das mittlere Gewicht zur Defense. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 32.1,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "shinobi-knife",
@@ -732,24 +737,25 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Shinobi Knife Blade from the BX system.",
-      "de": ""
+      "en": "A lightweight Blade with sharp, ninja-knife-like contact points. Released as part of collaboration sets.",
+      "de": "Ein leichter Blade mit scharfen, ninja-messer-ähnlichen Kontaktpunkten. Teil von Kollaborations-Sets veröffentlicht."
     },
     "assessment": {
-      "en": "Shinobi Knife is a right-spin Balance Type Blade. Weight: 30.9g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Shinobi Knife favors speed and Attack over raw defense due to its light weight and sharp edges. (Estimated ratings based on type, weight and shape.)",
+      "de": "Shinobi Knife bevorzugt Geschwindigkeit und Attack gegenüber roher Defense durch sein geringes Gewicht und scharfe Kanten. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 30.9,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "ptera-swing",
@@ -760,24 +766,25 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Ptera Swing Blade from the BX system.",
-      "de": ""
+      "en": "A round Stamina-oriented Blade with pteranodon-wing contact points. Known as Talon Ptera in western releases.",
+      "de": "Ein runder, Stamina-orientierter Blade mit Flügelkontaktpunkten eines Pteranodons. In westlichen Releases als Talon Ptera bekannt."
     },
     "assessment": {
-      "en": "Ptera Swing is a right-spin Balance Type Blade. Weight: 34.25g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Ptera Swing is a solid Stamina option with its round, low-friction shape. (Estimated ratings based on type, weight and shape.)",
+      "de": "Ptera Swing ist eine solide Stamina-Option durch seine runde, reibungsarme Form. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 34.25,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "samurai-steel",
@@ -788,24 +795,25 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Samurai Steel Blade from the BX system.",
-      "de": ""
+      "en": "A Balance Type Blade with samurai-themed blades and a metallic finish. Hasbro-exclusive release.",
+      "de": "Ein Balance-Type-Blade mit samurai-thematisierten Klingen und metallischem Finish. Hasbro-exklusiver Release."
     },
     "assessment": {
-      "en": "Samurai Steel is a right-spin Balance Type Blade. Weight: 31.08g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Samurai Steel offers a balanced mix of offense and defense for casual play. (Estimated ratings based on type, weight and shape.)",
+      "de": "Samurai Steel bietet eine ausgewogene Mischung aus Offensive und Defense für Casual-Spiel. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 31.08,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "weiss-tiger",
@@ -816,12 +824,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Weiss Tiger Blade from the BX system.",
-      "de": ""
+      "en": "A Balance Type Blade combining Upper, Damper and Smash blades for versatile performance.",
+      "de": "Ein Balance-Type-Blade, der Upper-, Damper- und Smash-Klingen für vielseitige Performance kombiniert."
     },
     "assessment": {
-      "en": "Weiss Tiger is a right-spin Balance Type Blade. Official stats: Attack 45 / Defense 30 / Stamina 25. Weight: 34.6g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "WeissTiger provides versatile performance across Attack, Defense and Stamina, without dominating any single area. (Estimated ratings based on type, weight and shape.)",
+      "de": "WeissTiger bietet vielseitige Performance über Attack, Defense und Stamina, ohne einen Bereich zu dominieren. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -830,11 +838,12 @@
     },
     "ratings": {
       "attack": 3,
-      "defense": 2.1,
-      "stamina": 1.6,
-      "balance": 2.2
+      "defense": 3,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "cobalt-dragoon",
@@ -845,12 +854,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "Cobalt Dragoon Blade from the BX system.",
-      "de": ""
+      "en": "A left-spin Attack Type Blade with four heavy, upward-slanting blades. Part of the Team Pendragon line.",
+      "de": "Ein left-spin Attack-Type-Blade mit vier schweren, nach oben geneigten Klingen. Teil der Team-Pendragon-Linie."
     },
     "assessment": {
-      "en": "Cobalt Dragoon is a left-spin Attack Type Blade. Official stats: Attack 60 / Defense 15 / Stamina 25. Weight: 37.8g. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "CobaltDragoon delivers powerful left-spin Attack with its heavy blades and aggressive angles. (Estimated ratings based on type, weight and shape.)",
+      "de": "CobaltDragoon liefert kraftvollen Left-Spin-Attack durch seine schweren Klingen und aggressiven Winkel. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
     },
     "officialStats": {
       "weightGrams": 37.8,
@@ -858,12 +867,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 1.1,
-      "stamina": 1.6,
-      "balance": 2.2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "black-shell",

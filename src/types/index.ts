@@ -32,6 +32,7 @@ export interface Part {
   officialStats: OfficialStats;
   ratings: Ratings;
   ratingsDisclaimer: true;
+  ratingsSource?: 'community' | 'estimated';
 }
 
 export type Blade = Part & { category: 'blade' };
@@ -48,6 +49,7 @@ export interface Launcher {
   description: LocalizedString;
   assessment: LocalizedString;
   spinCapability: 'right' | 'left' | 'both';
+  ratingsSource?: 'community' | 'estimated';
 }
 
 export interface Bey {
@@ -62,6 +64,7 @@ export interface Bey {
   ratchetId: string;
   bitId: string;
   assessment: LocalizedString;
+  ratingsSource?: 'community' | 'estimated';
 }
 
 export interface Creation {

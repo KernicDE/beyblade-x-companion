@@ -116,7 +116,11 @@ export function PartDetail() {
         </div>
 
         <div className="flex flex-col items-center rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
-          <h2 className="mb-4 text-lg font-semibold">{t('partDetail.communityRatings')}</h2>
+          <h2 className="mb-4 text-lg font-semibold">
+            {part.ratingsSource === 'estimated'
+              ? t('partDetail.estimatedRatings')
+              : t('partDetail.communityRatings')}
+          </h2>
           <div className="w-full max-w-[280px]">
             <RadarChart ratings={part.ratings} size={280} />
           </div>
@@ -124,7 +128,9 @@ export function PartDetail() {
             <RatingBars ratings={part.ratings} size="md" />
           </div>
           <p className="mt-4 text-xs text-[var(--muted)]">
-            {t('partDetail.ratingsDisclaimer')}
+            {part.ratingsSource === 'estimated'
+              ? t('partDetail.estimatedRatingsDisclaimer')
+              : t('partDetail.ratingsDisclaimer')}
           </p>
         </div>
       </div>

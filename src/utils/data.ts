@@ -104,3 +104,17 @@ export function getBeyParts(bey: Bey): ComboParts {
     bitId: bey.bitId,
   };
 }
+
+export function isComboEstimated(database: Database, combo: ComboParts): boolean {
+  const parts: Part[] = [
+    getPartById(database, combo.bladeId, 'blade'),
+    combo.assistBladeId
+      ? getPartById(database, combo.assistBladeId, 'assistBlade')
+      : undefined,
+    getPartById(database, combo.ratchetId, 'ratchet'),
+    getPartById(database, combo.bitId, 'bit'),
+  ].filter((p): p is Part => p !== undefined);
+
+  if (parts.length === 0) return false;
+  return parts.some((p) => p.ratingsSource === 'estimated');
+}

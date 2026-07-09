@@ -3,7 +3,7 @@ import { useData } from '../hooks/useData';
 import { RadarChart } from '../components/RadarChart';
 import { PartIcon } from '../components/PartIcon';
 import { decompressCreation } from '../utils/links';
-import { calculateComboRatings, getPartById } from '../utils/data';
+import { calculateComboRatings, getPartById, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
 
 export function View() {
@@ -26,6 +26,7 @@ export function View() {
   const ratchet = getPartById(database, creation.ratchetId, 'ratchet');
   const bit = getPartById(database, creation.bitId, 'bit');
   const ratings = calculateComboRatings(database, creation);
+  const estimated = isComboEstimated(database, creation);
 
   return (
     <div className="space-y-6">
@@ -51,10 +52,12 @@ export function View() {
         </div>
 
         <div className="flex flex-col items-center rounded-xl bg-white p-6 shadow-sm dark:bg-gray-800">
-          <h2 className="mb-4 text-lg font-semibold">{t('view.communityRatings')}</h2>
+          <h2 className="mb-4 text-lg font-semibold">
+            {estimated ? t('partDetail.estimatedRatings') : t('view.communityRatings')}
+          </h2>
           <RadarChart ratings={ratings} size={280} />
           <p className="mt-4 text-xs text-gray-500 dark:text-gray-400">
-            {t('partDetail.attack')} {ratings.attack} · {t('partDetail.defense')} {ratings.defense} · {t('partDetail.stamina')} {ratings.stamina} · {t('partDetail.balance')} {ratings.balance}
+            {estimated ? t('partDetail.estimatedRatingsDisclaimer') : t('partDetail.ratingsDisclaimer')}
           </p>
         </div>
       </div>

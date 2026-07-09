@@ -6,7 +6,7 @@ import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { useConfiguratorStore } from '../stores/configurator';
 import { useProfileStore } from '../stores/profile';
-import { calculateComboRatings } from '../utils/data';
+import { calculateComboRatings, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
 
 export function Configurator() {
@@ -51,6 +51,7 @@ export function Configurator() {
 
   const combo = { bladeId, assistBladeId, ratchetId, bitId };
   const ratings = calculateComboRatings(database, combo);
+  const estimated = isComboEstimated(database, combo);
   const canSave = bladeId && ratchetId && bitId && saveName.trim();
 
   const handleSave = () => {
@@ -113,7 +114,9 @@ export function Configurator() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
-          <h2 className="mb-4 text-lg font-semibold">{t('configurator.resultingRatings')}</h2>
+          <h2 className="mb-4 text-lg font-semibold">
+            {estimated ? t('partDetail.estimatedRatings') : t('configurator.resultingRatings')}
+          </h2>
           <div className="mx-auto w-full max-w-[320px]">
             <RadarChart ratings={ratings} size={320} />
           </div>
@@ -121,7 +124,7 @@ export function Configurator() {
             <RatingBars ratings={ratings} size="md" />
           </div>
           <p className="mt-4 text-sm text-[var(--muted)]">
-            {t('partDetail.attack')} {ratings.attack} · {t('partDetail.defense')} {ratings.defense} · {t('partDetail.stamina')} {ratings.stamina} · {t('partDetail.balance')} {ratings.balance}
+            {estimated ? t('partDetail.estimatedRatingsDisclaimer') : t('partDetail.ratingsDisclaimer')}
           </p>
         </div>
 
