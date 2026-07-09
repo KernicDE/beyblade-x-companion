@@ -26,10 +26,11 @@
     "releaseDate": "Release",
     "type": "Type",
     "batch": "Batch",
-    "attack": "Attack",
-    "defense": "Defense",
-    "stamina": "Stamina",
-    "balance": "Balance"
+    "tier": "Tier",
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL"
   },
   "home": {
     "tagline": "Browse official Beys and parts, build custom combinations, and share your creations — all offline in your browser.",
@@ -72,20 +73,20 @@
     "spinDirection": "Spin direction",
     "type": "Type",
     "spinCapability": "Spin capability",
-    "attack": "Attack",
-    "defense": "Defense",
-    "stamina": "Stamina",
-    "balance": "Balance",
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL",
     "right": "right",
     "left": "left",
     "both": "both",
     "noAssistBlade": "No Assist Blade"
   },
   "radar": {
-    "attack": "A",
-    "defense": "D",
-    "stamina": "S",
-    "balance": "B"
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL"
   },
   "beyDetail": {
     "beyNotFound": "Bey not found.",

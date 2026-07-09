@@ -11,7 +11,7 @@ import { useTranslation } from '../i18n';
 import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { SortSelect, type SortKey } from '../components/SortSelect';
-import { FilterChips } from '../components/FilterChips';
+import { FilterDropdown } from '../components/FilterDropdown';
 
 const MANUFACTURERS = ['Takara Tomy', 'Hasbro'] as const;
 
@@ -30,10 +30,6 @@ export function BeyDatabase() {
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
   const [selectedTiers, setSelectedTiers] = useState<string[]>([]);
   const [selectedSpins, setSelectedSpins] = useState<string[]>([]);
-  const [filtersExpanded, setFiltersExpanded] = useState(false);
-
-  const activeFilterCount =
-    selectedTypes.length + selectedBatches.length + selectedTiers.length + selectedSpins.length;
 
   const q = query.trim().toLowerCase();
 
@@ -114,6 +110,16 @@ export function BeyDatabase() {
         }
         case 'batch':
           return getBatchPrefix(a.releaseWave).localeCompare(getBatchPrefix(b.releaseWave));
+        case 'tier': {
+          const tierOrder = ['S','A','B','C','F'];
+          const ra = calculateComboRatings(database, getBeyParts(a));
+          const rb = calculateComboRatings(database, getBeyParts(b));
+          const ta = database.blades.find((blade) => blade.id === a.bladeId)?.officialStats.typeTag;
+          const tb = database.blades.find((blade) => blade.id === b.bladeId)?.officialStats.typeTag;
+          const tierA = calculateTier(ra, ta, typeScores);
+          const tierB = calculateTier(rb, tb, typeScores);
+          return tierOrder.indexOf(tierB) - tierOrder.indexOf(tierA);
+        }
         case 'attack':
         case 'defense':
         case 'stamina':
@@ -144,52 +150,37 @@ export function BeyDatabase() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <SearchInput value={query} onChange={setQuery} />
           <SortSelect value={sortBy} onChange={setSortBy} />
-          <button
-            type="button"
-            onClick={() => setFiltersExpanded((e) => !e)}
-            className="inline-flex items-center justify-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)] hover:bg-[var(--muted)]/10"
-          >
-            {t('search.filters')}
-            {activeFilterCount > 0 && (
-              <span className="rounded-full bg-blue-500 px-1.5 py-0.5 text-xs text-white">
-                {activeFilterCount}
-              </span>
-            )}
-            <span className="text-xs">{filtersExpanded ? '▲' : '▼'}</span>
-          </button>
         </div>
-        {filtersExpanded && (
-          <div className="flex flex-col gap-3">
-            <FilterChips
-              options={allTypes}
-              selected={selectedTypes}
-              onChange={setSelectedTypes}
-              label={`${t('sort.type')}:`}
-            />
-            <FilterChips
-              options={allBatches}
-              selected={selectedBatches}
-              onChange={setSelectedBatches}
-              label={`${t('sort.batch')}:`}
-            />
-            <FilterChips
-              options={allTiers}
-              selected={selectedTiers}
-              onChange={setSelectedTiers}
-              label="Tier:"
-            />
-            <FilterChips
-              options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-              selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-              onChange={(selected) =>
-                setSelectedSpins(
-                  selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
-                )
-              }
-              label={`${t('partsDatabase.spin')}:`}
-            />
-          </div>
-        )}
+        <div className="flex flex-wrap gap-3">
+          <FilterDropdown
+            label={t('sort.type')}
+            options={allTypes}
+            selected={selectedTypes}
+            onChange={setSelectedTypes}
+          />
+          <FilterDropdown
+            label={t('sort.batch')}
+            options={allBatches}
+            selected={selectedBatches}
+            onChange={setSelectedBatches}
+          />
+          <FilterDropdown
+            label="Tier"
+            options={allTiers}
+            selected={selectedTiers}
+            onChange={setSelectedTiers}
+          />
+          <FilterDropdown
+            label={t('partsDatabase.spin')}
+            options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+            selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+            onChange={(selected) =>
+              setSelectedSpins(
+                selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
+              )
+            }
+          />
+        </div>
       </div>
 
       {filteredBeys.length === 0 && (
@@ -208,8 +199,8 @@ export function BeyDatabase() {
               className="relative rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md"
             >
               <div className="absolute left-2 bottom-2 flex gap-1">
-                <SpinBadge spin={blade?.officialStats.spinDirection} />
                 <TierBadge tier={tier} />
+                <SpinBadge spin={blade?.officialStats.spinDirection} />
               </div>
               <div className="flex items-start gap-4">
                 {bey.imageUrl ? (

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import type { Part } from '../types';
 import { calculateTier, buildTypeScores, getPartTypeScores } from '../utils/data';
+import type { TypeScores } from '../utils/data';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
@@ -12,7 +13,7 @@ import { useTranslation } from '../i18n';
 import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { SortSelect, type SortKey } from '../components/SortSelect';
-import { FilterChips } from '../components/FilterChips';
+import { FilterDropdown } from '../components/FilterDropdown';
 
 const MANUFACTURERS = ['Takara Tomy', 'Hasbro'] as const;
 
@@ -21,7 +22,7 @@ function getBatchPrefix(wave: string): string {
   return match ? match[0].toUpperCase() : '?';
 }
 
-function sortParts(parts: Part[], sortBy: SortKey) {
+function sortParts(parts: Part[], sortBy: SortKey, typeScores: TypeScores) {
   const sorted = [...parts];
   sorted.sort((a, b) => {
     switch (sortBy) {
@@ -33,6 +34,14 @@ function sortParts(parts: Part[], sortBy: SortKey) {
         return (a.officialStats.typeTag || '').localeCompare(b.officialStats.typeTag || '');
       case 'batch':
         return getBatchPrefix(a.releaseWave).localeCompare(getBatchPrefix(b.releaseWave));
+      case 'tier': {
+        const tierOrder = ['S','A','B','C','F'];
+        const scoresA = getPartTypeScores(typeScores, a.category);
+        const scoresB = getPartTypeScores(typeScores, b.category);
+        const tierA = calculateTier(a.ratings, a.officialStats.typeTag, scoresA);
+        const tierB = calculateTier(b.ratings, b.officialStats.typeTag, scoresB);
+        return tierOrder.indexOf(tierB) - tierOrder.indexOf(tierA);
+      }
       case 'attack':
       case 'defense':
       case 'stamina':
@@ -55,10 +64,6 @@ export function PartsDatabase() {
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
   const [selectedTiers, setSelectedTiers] = useState<string[]>([]);
   const [selectedSpins, setSelectedSpins] = useState<string[]>([]);
-  const [filtersExpanded, setFiltersExpanded] = useState(false);
-
-  const activeFilterCount =
-    selectedTypes.length + selectedBatches.length + selectedTiers.length + selectedSpins.length;
 
   const q = query.trim().toLowerCase();
   const matches = (p: { name: string; id: string; releaseWave?: string; manufacturer: string; category?: string }) => {
@@ -153,56 +158,41 @@ export function PartsDatabase() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <SearchInput value={query} onChange={setQuery} />
           <SortSelect value={sortBy} onChange={setSortBy} />
-          <button
-            type="button"
-            onClick={() => setFiltersExpanded((e) => !e)}
-            className="inline-flex items-center justify-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)] hover:bg-[var(--muted)]/10"
-          >
-            {t('search.filters')}
-            {activeFilterCount > 0 && (
-              <span className="rounded-full bg-blue-500 px-1.5 py-0.5 text-xs text-white">
-                {activeFilterCount}
-              </span>
-            )}
-            <span className="text-xs">{filtersExpanded ? '▲' : '▼'}</span>
-          </button>
         </div>
-        {filtersExpanded && (
-          <div className="flex flex-col gap-3">
-            <FilterChips
-              options={allTypes}
-              selected={selectedTypes}
-              onChange={setSelectedTypes}
-              label={`${t('sort.type')}:`}
-            />
-            <FilterChips
-              options={allBatches}
-              selected={selectedBatches}
-              onChange={setSelectedBatches}
-              label={`${t('sort.batch')}:`}
-            />
-            <FilterChips
-              options={allTiers}
-              selected={selectedTiers}
-              onChange={setSelectedTiers}
-              label="Tier:"
-            />
-            <FilterChips
-              options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-              selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-              onChange={(selected) =>
-                setSelectedSpins(
-                  selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
-                )
-              }
-              label={`${t('partsDatabase.spin')}:`}
-            />
-          </div>
-        )}
+        <div className="flex flex-wrap gap-3">
+          <FilterDropdown
+            label={t('sort.type')}
+            options={allTypes}
+            selected={selectedTypes}
+            onChange={setSelectedTypes}
+          />
+          <FilterDropdown
+            label={t('sort.batch')}
+            options={allBatches}
+            selected={selectedBatches}
+            onChange={setSelectedBatches}
+          />
+          <FilterDropdown
+            label="Tier"
+            options={allTiers}
+            selected={selectedTiers}
+            onChange={setSelectedTiers}
+          />
+          <FilterDropdown
+            label={t('partsDatabase.spin')}
+            options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+            selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+            onChange={(selected) =>
+              setSelectedSpins(
+                selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
+              )
+            }
+          />
+        </div>
       </div>
 
       {groups.map((group) => {
-        const filtered = sortParts(group.parts.filter(filterPart), sortBy);
+        const filtered = sortParts(group.parts.filter(filterPart), sortBy, typeScores);
         if (filtered.length === 0) return null;
         return (
           <section key={group.category}>
@@ -218,8 +208,8 @@ export function PartsDatabase() {
                     className="relative rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md"
                   >
                     <div className="absolute left-2 bottom-2 flex gap-1">
-                      <SpinBadge spin={part.officialStats.spinDirection} />
                       <TierBadge tier={tier} />
+                      <SpinBadge spin={part.officialStats.spinDirection} />
                     </div>
                     <div className="flex items-start gap-4">
                       {part.imageUrl ? (

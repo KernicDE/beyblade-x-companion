@@ -1,6 +1,6 @@
 import { useTranslation } from '../i18n';
 
-type SortKey = 'name' | 'releaseDate' | 'type' | 'batch' | 'attack' | 'defense' | 'stamina' | 'balance';
+type SortKey = 'name' | 'releaseDate' | 'type' | 'batch' | 'tier' | 'attack' | 'defense' | 'stamina' | 'balance';
 
 interface SortSelectProps {
   value: SortKey;
@@ -12,6 +12,7 @@ const OPTIONS: { key: SortKey; labelKey: string }[] = [
   { key: 'releaseDate', labelKey: 'sort.releaseDate' },
   { key: 'type', labelKey: 'sort.type' },
   { key: 'batch', labelKey: 'sort.batch' },
+  { key: 'tier', labelKey: 'sort.tier' },
   { key: 'attack', labelKey: 'sort.attack' },
   { key: 'defense', labelKey: 'sort.defense' },
   { key: 'stamina', labelKey: 'sort.stamina' },

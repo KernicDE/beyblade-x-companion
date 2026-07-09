@@ -26,10 +26,11 @@
     "releaseDate": "Release",
     "type": "Typ",
     "batch": "Batch",
-    "attack": "Angriff",
-    "defense": "Verteidigung",
-    "stamina": "Ausdauer",
-    "balance": "Balance"
+    "tier": "Tier",
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL"
   },
   "home": {
     "tagline": "Durchsuche offizielle Beys und Teile, baue eigene Kombinationen und teile deine Kreationen — alles offline im Browser.",
@@ -72,20 +73,20 @@
     "spinDirection": "Drehrichtung",
     "type": "Typ",
     "spinCapability": "Spin-Fähigkeit",
-    "attack": "Angriff",
-    "defense": "Vert.",
-    "stamina": "Ausdauer",
-    "balance": "Balance",
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL",
     "right": "rechts",
     "left": "links",
     "both": "beide",
     "noAssistBlade": "Kein Assist Blade"
   },
   "radar": {
-    "attack": "A",
-    "defense": "D",
-    "stamina": "S",
-    "balance": "B"
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL"
   },
   "beyDetail": {
     "beyNotFound": "Bey nicht gefunden.",
