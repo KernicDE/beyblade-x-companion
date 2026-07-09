@@ -120,16 +120,32 @@ export function isComboEstimated(database: Database, combo: ComboParts): boolean
   return parts.some((p) => p.ratingsSource === 'estimated');
 }
 
+function getTypeScore(ratings: Ratings, typeTag?: string): number {
+  switch (typeTag) {
+    case 'Attack':
+      return ratings.attack;
+    case 'Defense':
+      return ratings.defense;
+    case 'Stamina':
+      return ratings.stamina;
+    case 'Balance':
+      return ratings.balance;
+    default: {
+      const values = Object.values(ratings);
+      if (values.length === 0) return 0;
+      const average = values.reduce((a, b) => a + b, 0) / values.length;
+      const max = Math.max(...values);
+      return (average + max) / 2;
+    }
+  }
+}
+
 export function buildTypeScores(database: Database): Record<string, number[]> {
   const scores: Record<string, number[]> = {};
 
   const addScore = (typeTag: string | undefined, ratings: Ratings) => {
     if (!typeTag) return;
-    const values = Object.values(ratings);
-    if (values.length === 0) return;
-    const average = values.reduce((a, b) => a + b, 0) / values.length;
-    const max = Math.max(...values);
-    const score = (average + max) / 2;
+    const score = getTypeScore(ratings, typeTag);
     if (!scores[typeTag]) scores[typeTag] = [];
     scores[typeTag].push(score);
   };
@@ -154,11 +170,7 @@ export function calculateTier(
   typeTag?: string,
   typeScores?: Record<string, number[]>
 ): Tier {
-  const values = Object.values(ratings);
-  if (values.length === 0) return 'F';
-  const average = values.reduce((a, b) => a + b, 0) / values.length;
-  const max = Math.max(...values);
-  const score = (average + max) / 2;
+  const score = getTypeScore(ratings, typeTag);
 
   if (typeTag && typeScores?.[typeTag]?.length) {
     const scores = typeScores[typeTag];
