@@ -3396,5 +3396,89 @@
     "ratchetId": "ratchet-4-60-hasbro",
     "bitId": "bit-point-hasbro",
     "assessment": "Sting Unicorn 4-60P is included in the Bite Croc and Sting Unicorn Dual Pack. It uses the Unicorn Sting Blade, 4-60 Ratchet and Point Bit."
+  },
+  {
+    "id": "gale-wyvern-5-80gb-g0282",
+    "name": "Gale Wyvern 5-80GB",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0282",
+    "bladeId": "wyvern-gale-hasbro",
+    "ratchetId": "ratchet-5-80-hasbro",
+    "bitId": "bit-gear-ball-hasbro",
+    "assessment": "Gale Wyvern 5-80GB is included in the Gale Wyvern and Tail Viper Dual Pack. It uses the Wyvern Gale Blade, 5-80 Ratchet and Gear Ball Bit."
+  },
+  {
+    "id": "tail-viper-3-80hn-g0282",
+    "name": "Tail Viper 3-80HN",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "G0282",
+    "bladeId": "viper-tail-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-high-needle-hasbro",
+    "assessment": "Tail Viper 3-80HN is included in the Gale Wyvern and Tail Viper Dual Pack. It uses the Viper Tail Blade, 3-80 Ratchet and High Needle Bit."
+  },
+  {
+    "id": "gale-wyvern-3-60t-g1543",
+    "name": "Gale Wyvern 3-60T",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-12-01",
+    "releaseWave": "G1543",
+    "bladeId": "wyvern-gale-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-taper-hasbro",
+    "assessment": "Gale Wyvern 3-60T is included in the Gale Wyvern and Sword Dran Dual Pack. It uses the Wyvern Gale Blade, 3-60 Ratchet and Taper Bit."
+  },
+  {
+    "id": "sword-dran-3-80b-g1543",
+    "name": "Sword Dran 3-80B",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-12-01",
+    "releaseWave": "G1543",
+    "bladeId": "dran-sword-hasbro",
+    "ratchetId": "ratchet-3-80-hasbro",
+    "bitId": "bit-ball-hasbro",
+    "assessment": "Sword Dran 3-80B is included in the Gale Wyvern and Sword Dran Dual Pack. It uses the Dran Sword Blade, 3-80 Ratchet and Ball Bit."
+  },
+  {
+    "id": "cowl-sphinx-1-80gf-g1685",
+    "name": "Cowl Sphinx 1-80GF",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1685",
+    "bladeId": "sphinx-cowl-hasbro",
+    "ratchetId": "ratchet-1-80-hasbro",
+    "bitId": "bit-gear-flat-hasbro",
+    "assessment": "Cowl Sphinx 1-80GF is included in the Cowl Sphinx and Crest Leon Dual Pack. It uses the Sphinx Cowl Blade, 1-80 Ratchet and Gear Flat Bit."
+  },
+  {
+    "id": "pearl-tiger-3-60u-g1686",
+    "name": "Pearl Tiger 3-60U",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1686",
+    "bladeId": "weiss-tiger-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-unite-hasbro",
+    "assessment": "Pearl Tiger 3-60U is included in the Pearl Tiger and Gill Shark Dual Pack. It uses the Weiss Tiger Blade, 3-60 Ratchet and Unite Bit."
+  },
+  {
+    "id": "gill-shark-4-70o-g1686",
+    "name": "Gill Shark 4-70O",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-06-01",
+    "releaseWave": "G1686",
+    "bladeId": "shark-edge-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-orb-hasbro",
+    "assessment": "Gill Shark 4-70O is included in the Pearl Tiger and Gill Shark Dual Pack. It uses the Shark Edge Blade, 4-70 Ratchet and Orb Bit."
   }
 ]
