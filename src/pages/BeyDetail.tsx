@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { calculateComboRatings, getBeyParts, getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
@@ -26,6 +26,19 @@ export function BeyDetail() {
   const bit = getPartById(database, parts.bitId, 'bit');
   const ratings = calculateComboRatings(database, parts);
 
+  const partLink = (category: string, partId: string | undefined, label: string) => {
+    if (!partId) return null;
+    return (
+      <Link
+        to={`/parts/${category}/${partId}`}
+        className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+      >
+        {label}:
+        <span className="text-blue-700 dark:text-blue-300">{partId}</span>
+      </Link>
+    );
+  };
+
   return (
     <div className="space-y-6">
       <div className="grid gap-8 lg:grid-cols-2">
@@ -50,12 +63,12 @@ export function BeyDetail() {
           <div className="space-y-2 text-sm">
             <p><ManufacturerBadge manufacturer={bey.manufacturer} size="md" /></p>
             <h2 className="font-semibold text-[var(--text)]">{t('beyDetail.parts')}</h2>
-            <ul className="space-y-1 text-[var(--muted)]">
-              <li>{t('beyDetail.blade')}: {blade?.name ?? 'Unknown'}</li>
-              {assistBlade && <li>{t('beyDetail.assistBlade')}: {assistBlade.name}</li>}
-              <li>{t('beyDetail.ratchet')}: {ratchet?.name ?? 'Unknown'}</li>
-              <li>{t('beyDetail.bit')}: {bit?.name ?? 'Unknown'}</li>
-            </ul>
+            <div className="flex flex-wrap gap-2">
+              {blade && partLink('blade', blade.id, t('beyDetail.blade'))}
+              {assistBlade && partLink('assistBlade', assistBlade.id, t('beyDetail.assistBlade'))}
+              {ratchet && partLink('ratchet', ratchet.id, t('beyDetail.ratchet'))}
+              {bit && partLink('bit', bit.id, t('beyDetail.bit'))}
+            </div>
           </div>
         </div>
 
