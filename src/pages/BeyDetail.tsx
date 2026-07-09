@@ -36,7 +36,10 @@ export function BeyDetail() {
             )}
             <div>
               <h1 className="text-2xl font-bold">{bey.name}</h1>
-              <p className="text-sm text-gray-500">{bey.releaseWave} · {bey.releaseDate}</p>
+              <p className="text-sm text-gray-500">
+                {bey.releaseWave}
+                {bey.releaseDate && ` · ${bey.releaseDate}`}
+              </p>
             </div>
           </div>
 

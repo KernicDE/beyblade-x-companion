@@ -40,7 +40,9 @@ export function PartDetail() {
             )}
             <div>
               <h1 className="text-2xl font-bold">{launcher.name}</h1>
-              <p className="text-sm text-gray-500">{launcher.releaseDate}</p>
+              {launcher.releaseDate && (
+                <p className="text-sm text-gray-500">{launcher.releaseDate}</p>
+              )}
             </div>
           </div>
           <p className="mt-4 text-gray-700">{launcher.assessment}</p>
@@ -71,7 +73,10 @@ export function PartDetail() {
             <div>
               <h1 className="text-2xl font-bold">{part.name}</h1>
               {part.releaseWave && (
-                <p className="text-sm text-gray-500">{part.releaseWave} · {part.releaseDate}</p>
+                <p className="text-sm text-gray-500">
+                  {part.releaseWave}
+                  {part.releaseDate && ` · ${part.releaseDate}`}
+                </p>
               )}
             </div>
           </div>
