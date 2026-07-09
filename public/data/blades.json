@@ -2779,5 +2779,27 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "stun-medusa",
+    "category": "blade",
+    "name": "Stun Medusa",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2026-01-30",
+    "releaseWave": "G2738",
+    "description": "Stun Medusa Blade from the Hasbro Basic Line.",
+    "assessment": "Stun Medusa is a right-spin Blade released by Hasbro for the Beyblade X Basic Line. Paired with the 9-60 Ratchet and Gear Ball Bit in its stock combo.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
