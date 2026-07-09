@@ -121,15 +121,16 @@ export function isComboEstimated(database: Database, combo: ComboParts): boolean
 }
 
 function getTypeScore(ratings: Ratings, typeTag?: string): number {
+  const { attack, defense, stamina, balance } = ratings;
   switch (typeTag) {
     case 'Attack':
-      return ratings.attack;
+      return attack * 2 + defense + stamina + balance;
     case 'Defense':
-      return ratings.defense;
+      return defense * 2 + attack + stamina + balance;
     case 'Stamina':
-      return ratings.stamina;
+      return stamina * 2 + attack + defense + balance;
     case 'Balance':
-      return ratings.balance;
+      return balance * 2 + attack + defense + stamina;
     default: {
       const values = Object.values(ratings);
       if (values.length === 0) return 0;
