@@ -2503,5 +2503,28 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "sol-eclipse",
+    "category": "blade",
+    "name": "SolEclipse",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-09-27",
+    "releaseWave": "CX-09",
+    "description": "SolEclipse Blade from the CX system.",
+    "assessment": "SolEclipse is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Sol Lock Chip, Eclipse Main Blade and Dual Assist Blade. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]

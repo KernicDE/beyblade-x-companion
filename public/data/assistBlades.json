@@ -482,5 +482,27 @@
       "balance": 0
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "dual",
+    "category": "assistBlade",
+    "name": "Dual",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "",
+    "releaseDate": "2025-09-27",
+    "releaseWave": "CX-09",
+    "description": "The Dual Assist Blade.",
+    "assessment": "Dual is an Assist Blade from the Beyblade X Custom Line. Debuted with SolEclipse D5-70TK. Manufactured by Takara Tomy.",
+    "officialStats": {
+      "weightGrams": 0,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0,
+      "defense": 0,
+      "stamina": 0,
+      "balance": 0
+    },
+    "ratingsDisclaimer": true
   }
 ]
