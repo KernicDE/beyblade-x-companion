@@ -3300,286 +3300,286 @@
     "category": "blade",
     "name": "CerberusDark",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/CerberusDark_W1-60F.png/revision/latest?cb=20250613031930",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/c/c7/CerberusDark_W1-60F.png/revision/latest",
     "releaseDate": "2025-07-19",
     "releaseWave": "CX-08",
     "description": {
-      "en": "CerberusDark Blade from the CX system.",
-      "de": ""
+      "en": "The Dark Main Blade from the Custom Line, featured in CerberusDark W1-60F from Random Booster Vol. 7. A right-spin Defense Type Blade.",
+      "de": "Der Dark-Main-Blade aus der Custom Line, enthalten in CerberusDark W1-60F aus Random Booster Vol. 7. Ein Right-Spin-Defense-Type-Blade."
     },
     "assessment": {
-      "en": "CerberusDark is a right-spin Attack type Blade from the Beyblade X Custom Line. It combines the Cerberus Lock Chip, Dark Main Blade and Wheel Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "CerberusDark uses the same Dark Blade as PerseusDark with the Wheel Assist Blade. Its lightweight Defense profile remains limited against heavier Attack combos.",
+      "de": "CerberusDark verwendet denselben Dark-Blade wie PerseusDark mit dem Wheel-Assist-Blade. Sein leichtes Defense-Profil bleibt gegen schwere Attack-Combos limitiert."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 30.3,
       "spinDirection": "right",
-      "typeTag": "Attack"
+      "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "wolf-hunt",
     "category": "blade",
     "name": "WolfHunt",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/2/20/BladeWolfHuntF.png/revision/latest",
-    "releaseDate": "2025-09-27",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9e/WolfHunt_F0-60DB.png/revision/latest",
+    "releaseDate": "2025-11-01",
     "releaseWave": "CX-10",
     "description": {
-      "en": "WolfHunt Blade from the CX system.",
-      "de": ""
+      "en": "The Hunt Main Blade from the Custom Line, featured in WolfHunt F0-60DB. A right-spin Stamina Type Blade.",
+      "de": "Der Hunt-Main-Blade aus der Custom Line, enthalten in WolfHunt F0-60DB. Ein Right-Spin-Stamina-Type-Blade."
     },
     "assessment": {
-      "en": "WolfHunt is a right-spin Stamina type Blade from the Beyblade X Custom Line. It combines the Wolf Lock Chip, Hunt Main Blade and Free Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Hunt is a moderately weighted Stamina Blade. Its rounded shape gives it modest Stamina potential, but it lacks the top-tier endurance of heavier Stamina options.",
+      "de": "Hunt ist ein mittelschwerer Stamina-Blade. Seine runde Form bietet bescheidenes Stamina-Potenzial, aber er erreicht nicht die Top-Ausdauer schwererer Stamina-Optionen."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 31.6,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "sol-eclipse",
     "category": "blade",
     "name": "SolEclipse",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/64/SolEclipse_D5-70TK.png/revision/latest?cb=20250729204810",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/1/12/SolEclipse_D5-70TK.png/revision/latest",
     "releaseDate": "2025-09-27",
     "releaseWave": "CX-09",
     "description": {
-      "en": "SolEclipse Blade from the CX system.",
-      "de": ""
+      "en": "The Eclipse Main Blade from the Custom Line, featured in SolEclipse D5-70TK. A right-spin Balance Type Blade with an Upper Mode and Smash Mode.",
+      "de": "Der Eclipse-Main-Blade aus der Custom Line, enthalten in SolEclipse D5-70TK. Ein Right-Spin-Balance-Type-Blade mit Upper Mode und Smash Mode."
     },
     "assessment": {
-      "en": "SolEclipse is a right-spin Balance type Blade from the Beyblade X Custom Line. It combines the Sol Lock Chip, Eclipse Main Blade and Dual Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Eclipse offers a mode-change gimmick between Upper and Smash-focused shapes. Its versatility is interesting, but concrete competitive results are still emerging.",
+      "de": "Eclipse bietet einen Moduswechsel-Gimmick zwischen Upper- und Smash-fokussierter Form. Die Vielseitigkeit ist interessant, aber konkrete kompetitive Ergebnisse stehen noch aus."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 32.3,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 2,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "emperor-might",
     "category": "blade",
     "name": "EmperorMight",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeEmperorMightH_(Metal_Coat_Black).png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/5/5d/EmperorMight_HOp.png/revision/latest",
     "releaseDate": "2025-11-01",
     "releaseWave": "CX-11",
     "description": {
-      "en": "EmperorMight Blade from the CX system.",
-      "de": ""
+      "en": "The Might Main Blade from the Custom Line, featured in EmperorMight HOp from the EmperorMight Deck Set. A right-spin Balance Type Blade with an eight-sided round design.",
+      "de": "Der Might-Main-Blade aus der Custom Line, enthalten in EmperorMight HOp aus dem EmperorMight Deck Set. Ein Right-Spin-Balance-Type-Blade mit achtseitigem rundem Design."
     },
     "assessment": {
-      "en": "EmperorMight is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Emperor Metal Lock Chip, Might Main Blade and Heavy Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Might is intended as an upgrade for WizardArc, replacing Arc with a sharper-edged Balance Blade. Its even stat spread makes it a jack-of-all-trades without a clear competitive edge.",
+      "de": "Might ist als Upgrade für WizardArc gedacht und ersetzt Arc durch einen Balance-Blade mit schärferen Kanten. Die ausgeglichene Werteverteilung macht ihn zum Allrounder ohne klaren kompetitiven Vorteil."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 33.1,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1.5,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "phoenix-flare",
     "category": "blade",
     "name": "PhoenixFlare",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/f/f6/PhoenixFlare_Z9-80WW.jpeg/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/eb/PhoenixFlare_Z9-80WW.png/revision/latest",
     "releaseDate": "2026-01-24",
     "releaseWave": "CX-12",
     "description": {
-      "en": "PhoenixFlare Blade from the CX system.",
-      "de": ""
+      "en": "The Flare Main Blade from the Custom Line, featured in PhoenixFlare Z9-80WW. A right-spin Defense Type Blade with fifteen small protrusions for rapid counterattacks.",
+      "de": "Der Flare-Main-Blade aus der Custom Line, enthalten in PhoenixFlare Z9-80WW. Ein Right-Spin-Defense-Type-Blade mit fünfzehn kleinen Vorsprüngen für schnelle Gegenangriffe."
     },
     "assessment": {
-      "en": "PhoenixFlare is a right-spin Defense type Blade from the Beyblade X Custom Line. It combines the Phoenix Lock Chip, Flare Main Blade and Zillion Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Flare focuses on rapid-hit Defense counterattacks. Its many small contact points can disrupt Stamina combos, but its light weight limits wall stability against heavy Smash Attack.",
+      "de": "Flare konzentriert sich auf schnelle Defense-Gegenangriffe. Die vielen kleinen Kontaktpunkte können Stamina-Combos stören, aber das geringe Gewicht limitiert die Wandstabilität gegen schweren Smash-Attack."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 31.1,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 2,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "bahamut-blitz",
     "category": "blade",
     "name": "BahamutBlitz",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/3/3e/BladeBahamutBlitzBK.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/99/BahamutBlitz_BK1-50I.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-13",
     "description": {
-      "en": "BahamutBlitz Blade from the CX system.",
-      "de": ""
+      "en": "The Blitz Metal Blade from the Custom Line, featured in BahamutBlitz BK1-50I. A right-spin Attack Type Metal Blade.",
+      "de": "Der Blitz-Metal-Blade aus der Custom Line, enthalten in BahamutBlitz BK1-50I. Ein Right-Spin-Attack-Type-Metal-Blade."
     },
     "assessment": {
-      "en": "BahamutBlitz is a right-spin Attack type Expand Blade from the Beyblade X Custom Line. It combines the Bahamut Lock Chip, Break Over Blade, Blitz Metal Blade and Knuckle Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Blitz is a lightweight Attack-focused Metal Blade. As part of the Metal Blade system it contributes aggression to combos, but its standalone power is limited compared to full main-blade Attack options.",
+      "de": "Blitz ist ein leichter attack-fokussierter Metal-Blade. Als Teil des Metal-Blade-Systems trägt er Aggression zu Combos bei, aber seine Eigenständige Kraft ist gegenüber vollen Main-Blade-Attack-Optionen limitiert."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 29.6,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1.5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 1
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "knight-fortress",
     "category": "blade",
     "name": "KnightFortress",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/4/48/BladeKnightFortressGV.png/revision/latest?cb=20260214060758",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/0/04/KnightFortress_GV8-70UN.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-14",
     "description": {
-      "en": "KnightFortress Blade from the CX system.",
-      "de": ""
+      "en": "The Fortress Metal Blade from the Custom Line, featured in KnightFortress GV8-70UN. A right-spin Defense Type Metal Blade. Known as Armor by Hasbro.",
+      "de": "Der Fortress-Metal-Blade aus der Custom Line, enthalten in KnightFortress GV8-70UN. Ein Right-Spin-Defense-Type-Metal-Blade. Von Hasbro als Armor bekannt."
     },
     "assessment": {
-      "en": "KnightFortress is a right-spin Defense type Expand Blade from the Beyblade X Custom Line. It combines the Knight Lock Chip, Guard Over Blade, Fortress Metal Blade and Vertical Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Fortress is a lightweight Defense-focused Metal Blade. It adds defensive structure to Custom Line combos, but its low weight means it cannot replace a dedicated Defense main blade.",
+      "de": "Fortress ist ein leichter defense-fokussierter Metal-Blade. Er fügt Custom-Line-Combos defensive Struktur hinzu, aber sein geringes Gewicht bedeutet, dass er keinen dedizierten Defense-Main-Blade ersetzen kann."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 27.5,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 1
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "ragna-rage",
     "category": "blade",
     "name": "RagnaRage",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/b/b8/BladeRagnaRageFE.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/9/9a/RagnaRage_FE4-55Y.png/revision/latest",
     "releaseDate": "2026-03-28",
     "releaseWave": "CX-15",
     "description": {
-      "en": "RagnaRage Blade from the CX system.",
-      "de": ""
+      "en": "The Rage Metal Blade from the Custom Line, featured in RagnaRage FE4-55Y. A right-spin Stamina Type Metal Blade.",
+      "de": "Der Rage-Metal-Blade aus der Custom Line, enthalten in RagnaRage FE4-55Y. Ein Right-Spin-Stamina-Type-Metal-Blade."
     },
     "assessment": {
-      "en": "RagnaRage is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Ragna Lock Chip, Flow Over Blade, Rage Metal Blade and Erase Assist Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Rage is a lightweight Stamina-focused Metal Blade. It helps extend spin time in Custom Line combos, though its contribution is smaller than a dedicated Stamina main blade.",
+      "de": "Rage ist ein leichter stamina-fokussierter Metal-Blade. Er hilft, die Spin-Zeit in Custom-Line-Combos zu verlängern, auch wenn sein Beitrag kleiner ist als der eines dedizierten Stamina-Main-Blades."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 27.2,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 1
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "unicorn-delta",
     "category": "blade",
     "name": "UnicornDelta",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/6/6b/BladeUnicornDelta_PO.png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/e/e7/UnicornDelta_PO1-80GR.png/revision/latest",
     "releaseDate": "2026-04-25",
     "releaseWave": "CX-17",
     "description": {
-      "en": "UnicornDelta Blade from the CX system.",
-      "de": ""
+      "en": "The Delta Metal Blade from the Custom Line, featured in UnicornDelta PO1-80GR from Random Booster Vol. 10. A right-spin Balance Type Metal Blade.",
+      "de": "Der Delta-Metal-Blade aus der Custom Line, enthalten in UnicornDelta PO1-80GR aus Random Booster Vol. 10. Ein Right-Spin-Balance-Type-Metal-Blade."
     },
     "assessment": {
-      "en": "UnicornDelta is a right-spin Balance type Expand Blade from the Beyblade X Custom Line. It combines the Unicorn Lock Chip, Peak Over Blade, Delta Metal Blade and Odd Assist Blade. The Triple Style gimmick lets players rotate the three Blade parts to shift between Attack, Balance and Defense orientations. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Delta is a lightweight Balance-focused Metal Blade. Its even stat spread makes it flexible, but it does not excel in any single role within Custom Line combos.",
+      "de": "Delta ist ein leichter balance-fokussierter Metal-Blade. Seine ausgeglichene Werteverteilung macht ihn flexibel, aber er zeichnet sich in Custom-Line-Combos in keiner einzelnen Rolle aus."
     },
     "officialStats": {
-      "weightGrams": 0,
+      "weightGrams": 27.9,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "brachio-whip",
     "category": "blade",
     "name": "BrachioWhip",
     "manufacturer": "Takara Tomy",
-    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/d7/BrachioWhip_OW5-70Nr_(CX-18_01).png/revision/latest",
+    "imageUrl": "https://static.wikia.nocookie.net/beyblade/images/d/da/BrachioWhip_OW5-70Nr.png/revision/latest",
     "releaseDate": "2026-06-13",
     "releaseWave": "CX-18",
     "description": {
-      "en": "BrachioWhip Blade from the CX system.",
-      "de": ""
+      "en": "The Whip Metal Blade from the Custom Line Expand Blade lineup, featured in BrachioWhip OW5-70Nr. A right-spin Stamina Type Metal Blade.",
+      "de": "Der Whip-Metal-Blade aus der Custom Line Expand Blade, enthalten in BrachioWhip OW5-70Nr. Ein Right-Spin-Stamina-Type-Metal-Blade."
     },
     "assessment": {
-      "en": "BrachioWhip is a right-spin Stamina type Expand Blade from the Beyblade X Custom Line. It combines the Brachio Lock Chip, Whip Metal Blade and Outer Over Blade. Manufactured by Takara Tomy.",
-      "de": ""
+      "en": "Whip is a Stamina-focused Expand Metal Blade. As a newer release its optimal combos are still being explored, but its design points toward spin preservation.",
+      "de": "Whip ist ein stamina-fokussierter Expand-Metal-Blade. Als neuere Veröffentlichung werden seine optimalen Combos noch erforscht, aber das Design deutet auf Spin-Erhaltung hin."
     },
     "officialStats": {
       "weightGrams": 0,
@@ -3587,13 +3587,13 @@
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 0,
-      "defense": 0,
-      "stamina": 0,
-      "balance": 0
+      "attack": 1,
+      "defense": 1.5,
+      "stamina": 2,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "t-rex",
