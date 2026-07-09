@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { calculateComboRatings, getBeyParts, getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
+import { PartIcon } from '../components/PartIcon';
 
 export function BeyDetail() {
   const { id } = useParams<{ id: string }>();
@@ -26,8 +27,17 @@ export function BeyDetail() {
     <div className="space-y-6">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-4 rounded-xl bg-white p-6 shadow-sm">
-          <h1 className="text-2xl font-bold">{bey.name}</h1>
-          <p className="text-sm text-gray-500">{bey.releaseWave} · {bey.releaseDate}</p>
+          <div className="flex items-center gap-4">
+            {bey.imageUrl ? (
+              <img src={bey.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
+            ) : (
+              <PartIcon category="bey" size={96} />
+            )}
+            <div>
+              <h1 className="text-2xl font-bold">{bey.name}</h1>
+              <p className="text-sm text-gray-500">{bey.releaseWave} · {bey.releaseDate}</p>
+            </div>
+          </div>
 
           <div className="space-y-2">
             <h2 className="font-semibold">Parts</h2>

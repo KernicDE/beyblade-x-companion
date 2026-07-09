@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { calculateComboRatings, getBeyParts } from '../utils/data';
-import { RadarChart } from '../components/RadarChart';
+import { RatingBars } from '../components/RatingBars';
+import { PartIcon } from '../components/PartIcon';
 
 export function BeyDatabase() {
   const { database, loading, error } = useData();
@@ -21,12 +22,19 @@ export function BeyDatabase() {
               to={`/beys/${bey.id}`}
               className="rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
             >
-              <div className="flex items-start justify-between">
-                <div>
+              <div className="flex items-start gap-4">
+                {bey.imageUrl ? (
+                  <img src={bey.imageUrl} alt="" className="h-16 w-16 rounded-lg object-cover" />
+                ) : (
+                  <PartIcon category="bey" size={64} />
+                )}
+                <div className="min-w-0 flex-1">
                   <h2 className="font-semibold text-gray-900">{bey.name}</h2>
                   <p className="text-sm text-gray-500">{bey.releaseWave}</p>
+                  <div className="mt-3">
+                    <RatingBars ratings={ratings} />
+                  </div>
                 </div>
-                <RadarChart ratings={ratings} size={80} />
               </div>
             </Link>
           );

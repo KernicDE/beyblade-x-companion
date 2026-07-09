@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { getPartById } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
+import { PartIcon } from '../components/PartIcon';
 import type { PartCategory } from '../types';
 
 const VALID_CATEGORIES: Array<PartCategory | 'launcher'> = [
@@ -30,8 +31,17 @@ export function PartDetail() {
     return (
       <div className="space-y-6">
         <div className="rounded-xl bg-white p-6 shadow-sm">
-          <h1 className="text-2xl font-bold">{launcher.name}</h1>
-          <p className="text-sm text-gray-500">{launcher.releaseDate}</p>
+          <div className="flex items-center gap-4">
+            {launcher.imageUrl ? (
+              <img src={launcher.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
+            ) : (
+              <PartIcon category="launcher" size={96} />
+            )}
+            <div>
+              <h1 className="text-2xl font-bold">{launcher.name}</h1>
+              <p className="text-sm text-gray-500">{launcher.releaseDate}</p>
+            </div>
+          </div>
           <p className="mt-4 text-gray-700">{launcher.description}</p>
           <div className="mt-4 text-sm">
             <span className="font-medium">Spin capability:{` `}</span>
@@ -49,10 +59,19 @@ export function PartDetail() {
     <div className="space-y-6">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-4 rounded-xl bg-white p-6 shadow-sm">
-          <h1 className="text-2xl font-bold">{part.name}</h1>
-          {part.releaseWave && (
-            <p className="text-sm text-gray-500">{part.releaseWave} · {part.releaseDate}</p>
-          )}
+          <div className="flex items-center gap-4">
+            {part.imageUrl ? (
+              <img src={part.imageUrl} alt="" className="h-24 w-24 rounded-xl object-cover" />
+            ) : (
+              <PartIcon category={part.category} size={96} />
+            )}
+            <div>
+              <h1 className="text-2xl font-bold">{part.name}</h1>
+              {part.releaseWave && (
+                <p className="text-sm text-gray-500">{part.releaseWave} · {part.releaseDate}</p>
+              )}
+            </div>
+          </div>
 
           <p className="text-gray-700">{part.description}</p>
 

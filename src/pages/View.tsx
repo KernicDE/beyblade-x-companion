@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { RadarChart } from '../components/RadarChart';
+import { PartIcon } from '../components/PartIcon';
 import { decompressCreation } from '../utils/links';
 import { calculateComboRatings, getPartById } from '../utils/data';
 
@@ -28,8 +29,13 @@ export function View() {
     <div className="space-y-6">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-4 rounded-xl bg-white p-6 shadow-sm">
-          <h1 className="text-2xl font-bold">{creation.name}</h1>
-          {creation.note && <p className="text-gray-700">{creation.note}</p>}
+          <div className="flex items-center gap-4">
+            <PartIcon category="bey" size={96} />
+            <div>
+              <h1 className="text-2xl font-bold">{creation.name}</h1>
+              {creation.note && <p className="text-gray-700">{creation.note}</p>}
+            </div>
+          </div>
 
           <div className="space-y-2">
             <h2 className="font-semibold">Parts</h2>

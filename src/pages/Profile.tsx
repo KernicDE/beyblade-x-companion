@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { RadarChart } from '../components/RadarChart';
+import { RatingBars } from '../components/RatingBars';
 import { useProfileStore } from '../stores/profile';
 import { calculateComboRatings } from '../utils/data';
 import { compressCreation, compressProfile } from '../utils/links';
@@ -67,7 +67,7 @@ export function Profile() {
                       <p className="text-sm text-gray-500">{creation.note}</p>
                     )}
                   </div>
-                  <RadarChart ratings={ratings} size={80} />
+                  <RatingBars ratings={ratings} size="sm" />
                 </div>
 
                 <div className="mt-4 flex flex-wrap gap-2">

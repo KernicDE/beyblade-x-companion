@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import type { Part } from '../types';
-import { RadarChart } from '../components/RadarChart';
+import { RatingBars } from '../components/RatingBars';
+import { PartIcon } from '../components/PartIcon';
 
 const CATEGORY_TITLES: Record<Part['category'], string> = {
   blade: 'Blades',
@@ -37,12 +38,19 @@ export function PartsDatabase() {
                 to={`/parts/${part.category}/${part.id}`}
                 className="rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
               >
-                <div className="flex items-start justify-between">
-                  <div>
+                <div className="flex items-start gap-4">
+                  {part.imageUrl ? (
+                    <img src={part.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
+                  ) : (
+                    <PartIcon category={part.category} size={56} />
+                  )}
+                  <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-gray-900">{part.name}</h3>
                     <p className="text-sm text-gray-500">{part.releaseWave}</p>
+                    <div className="mt-2">
+                      <RatingBars ratings={part.ratings} />
+                    </div>
                   </div>
-                  <RadarChart ratings={part.ratings} size={64} />
                 </div>
               </Link>
             ))}
@@ -59,8 +67,17 @@ export function PartsDatabase() {
               to={`/parts/launcher/${launcher.id}`}
               className="rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md"
             >
-              <h3 className="font-semibold text-gray-900">{launcher.name}</h3>
-              <p className="text-sm text-gray-500">{launcher.spinCapability} spin</p>
+              <div className="flex items-center gap-4">
+                {launcher.imageUrl ? (
+                  <img src={launcher.imageUrl} alt="" className="h-14 w-14 rounded-lg object-cover" />
+                ) : (
+                  <PartIcon category="launcher" size={56} />
+                )}
+                <div>
+                  <h3 className="font-semibold text-gray-900">{launcher.name}</h3>
+                  <p className="text-sm text-gray-500">{launcher.spinCapability} spin</p>
+                </div>
+              </div>
             </Link>
           ))}
         </div>
