@@ -7,11 +7,11 @@
     "releaseDate": "2023-07-15",
     "description": {
       "en": "A compact ripcord-style launcher included with starter sets.",
-      "de": ""
+      "de": "Ein kompakter Zugseil-Launcher, der Starter-Sets beiliegt."
     },
     "assessment": {
       "en": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": ""
+      "de": "Der Winder Launcher ist ein rechtsdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er wird über einen kurzen Rippcord angetrieben und ist ideal für Einsteiger. Hergestellt von Takara Tomy."
     },
     "spinCapability": "right"
   },
@@ -23,11 +23,11 @@
     "releaseDate": "2025-03-29",
     "description": {
       "en": "A left-spin variant of the Winder Launcher.",
-      "de": ""
+      "de": "Eine linksdrehende Variante des Winder Launchers."
     },
     "assessment": {
       "en": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": ""
+      "de": "Der Winder Launcher L ist ein linksdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er ermöglicht den Einsatz von linksspinnenden Beys. Hergestellt von Takara Tomy."
     },
     "spinCapability": "left"
   },
@@ -39,11 +39,11 @@
     "releaseDate": "2023-10-07",
     "description": {
       "en": "A string-pull launcher for strong, consistent launches.",
-      "de": ""
+      "de": "Ein Schnurzug-Launcher für starke, gleichmäßige Starts."
     },
     "assessment": {
       "en": "String Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": ""
+      "de": "Der String Launcher ist ein rechtsdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er erzeugt mehr Kraft und Drehmoment als ein Rippcord-Launcher. Hergestellt von Takara Tomy."
     },
     "spinCapability": "right"
   },
@@ -55,11 +55,11 @@
     "releaseDate": "2025-10-11",
     "description": {
       "en": "A left-spin string-pull launcher.",
-      "de": ""
+      "de": "Ein linksdrehender Schnurzug-Launcher."
     },
     "assessment": {
       "en": "String Launcher L is a left-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": ""
+      "de": "Der String Launcher L ist ein linksdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er bietet die gleiche Leistung wie die rechte Version für linksspinnende Beys. Hergestellt von Takara Tomy."
     },
     "spinCapability": "left"
   },
@@ -71,11 +71,11 @@
     "releaseDate": "",
     "description": {
       "en": "A modular launcher used with the Custom Line system.",
-      "de": ""
+      "de": "Ein modularer Launcher für das Custom-Line-System."
     },
     "assessment": {
       "en": "Custom Launcher is a right-spin launcher from the Beyblade X toyline. Manufactured by Takara Tomy.",
-      "de": ""
+      "de": "Der Custom Launcher ist ein modularer rechtsdrehender Launcher für die Beyblade X Custom Line. Er lässt sich mit Griffen und anderen Zubehörteilen erweitern. Hergestellt von Takara Tomy."
     },
     "spinCapability": "right"
   },
@@ -87,11 +87,11 @@
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A compact ripcord-style launcher included with Hasbro starter sets.",
-      "de": ""
+      "de": "Ein kompakter Zugseil-Launcher, der Hasbro-Starter-Sets beiliegt."
     },
     "assessment": {
       "en": "The Hasbro Winder Launcher is the western release of the compact ripcord launcher. It launches right-spin Beys.",
-      "de": ""
+      "de": "Der Hasbro Winder Launcher ist die westliche Version des kompakten Rippcord-Launchers. Er startet rechtsdrehende Beys. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -103,11 +103,11 @@
     "releaseDate": "2025-07-24",
     "description": {
       "en": "A left-spin variant of the Hasbro Winder Launcher.",
-      "de": ""
+      "de": "Eine linksdrehende Variante des Hasbro Winder Launchers."
     },
     "assessment": {
       "en": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher, included in sets such as the 25th Anniversary Set.",
-      "de": ""
+      "de": "Der Hasbro Winder Launcher L ist der westliche linksdrehende Rippcord-Launcher, der unter anderem im 25th Anniversary Set enthalten ist. Hergestellt von Hasbro."
     },
     "spinCapability": "left"
   },
@@ -119,11 +119,11 @@
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A string-pull launcher for strong, consistent launches.",
-      "de": ""
+      "de": "Ein Schnurzug-Launcher für starke, gleichmäßige Starts."
     },
     "assessment": {
       "en": "The Hasbro String Launcher is the western release of the string-pull launcher. It launches right-spin Beys.",
-      "de": ""
+      "de": "Der Hasbro String Launcher ist die westliche Version des Schnurzug-Launchers. Er startet rechtsdrehende Beys. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -135,11 +135,11 @@
     "releaseDate": "2025-07-24",
     "description": {
       "en": "A left-spin string-pull launcher.",
-      "de": ""
+      "de": "Ein linksdrehender Schnurzug-Launcher."
     },
     "assessment": {
       "en": "The Hasbro String Launcher L is the western left-spin string launcher, included in sets such as the 25th Anniversary Set.",
-      "de": ""
+      "de": "Der Hasbro String Launcher L ist der westliche linksdrehende Schnurzug-Launcher, der unter anderem im 25th Anniversary Set enthalten ist. Hergestellt von Hasbro."
     },
     "spinCapability": "left"
   },
@@ -151,11 +151,11 @@
     "releaseDate": "2025-06-01",
     "description": {
       "en": "A modular launcher used with the Custom Line system.",
-      "de": ""
+      "de": "Ein modularer Launcher für das Custom-Line-System."
     },
     "assessment": {
       "en": "The Hasbro Custom Launcher is the western release of the modular Custom Line launcher. It launches right-spin Beys.",
-      "de": ""
+      "de": "Der Hasbro Custom Launcher ist die westliche Version des modularen Custom-Line-Launchers. Er startet rechtsdrehende Beys. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -167,11 +167,11 @@
     "releaseDate": "2024-05-30",
     "description": {
       "en": "A deluxe string launcher set featuring Soar Phoenix colors.",
-      "de": ""
+      "de": "Ein Deluxe-Schnurzug-Launcher-Set im Soar Phoenix Design."
     },
     "assessment": {
       "en": "The Soar Phoenix Deluxe String Launcher Set includes a right-spin string launcher with a Phoenix-themed design and grip accessories.",
-      "de": ""
+      "de": "Das Soar Phoenix Deluxe String Launcher Set enthält einen rechtsdrehenden Schnurzug-Launcher im Phoenix-Design sowie Griffzubehör. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -183,11 +183,11 @@
     "releaseDate": "2025-02-15",
     "description": {
       "en": "A deluxe left-spin string launcher set featuring Cobalt Dragoon colors.",
-      "de": ""
+      "de": "Ein Deluxe-Links-Schnurzug-Launcher-Set im Cobalt Dragoon Design."
     },
     "assessment": {
       "en": "The Cobalt Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
-      "de": ""
+      "de": "Das Cobalt Dragoon Deluxe Left-Spin String Launcher Set enthält einen linksdrehenden Schnurzug-Launcher im Dragoon-Design sowie Griffzubehör. Hergestellt von Hasbro."
     },
     "spinCapability": "left"
   },
@@ -199,11 +199,11 @@
     "releaseDate": "2025-08-01",
     "description": {
       "en": "A launcher set featuring a custom grip for improved handling.",
-      "de": ""
+      "de": "Ein Launcher-Set mit angepasstem Griff für bessere Handhabung."
     },
     "assessment": {
       "en": "The Victory Grip Launcher Set is a Hasbro launcher accessory pack designed to improve launch stability with an ergonomic grip.",
-      "de": ""
+      "de": "Das Victory Grip Launcher Set ist ein Hasbro-Zubehörpaket mit ergonomischem Griff, das die Stabilität beim Start verbessert. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -215,11 +215,11 @@
     "releaseDate": "2026-07-15",
     "description": {
       "en": "A launcher set featuring a clip-on ripcord mechanism.",
-      "de": ""
+      "de": "Ein Launcher-Set mit anklappbarem Zugseil-Mechanismus."
     },
     "assessment": {
       "en": "The Clip & Rip Launcher Set is a Hasbro launcher accessory pack with a clip-on ripcord design for quick launching.",
-      "de": ""
+      "de": "Das Clip & Rip Launcher Set ist ein Hasbro-Zubehörpaket mit anklappbarem Rippcord-Design für schnelles Starten. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -231,11 +231,11 @@
     "releaseDate": "2026-03-01",
     "description": {
       "en": "A deluxe string launcher and custom grip set featuring Bite Croc colors.",
-      "de": ""
+      "de": "Ein Deluxe-Schnurzug-Launcher- und Griff-Set im Bite Croc Design."
     },
     "assessment": {
       "en": "The Bite Croc Deluxe String Launcher & Custom Grip Set includes a right-spin string launcher with a Croc-themed design and a custom grip accessory.",
-      "de": ""
+      "de": "Das Bite Croc Deluxe String Launcher & Custom Grip Set enthält einen rechtsdrehenden Schnurzug-Launcher im Krokodil-Design und einen angepassten Griff. Hergestellt von Hasbro."
     },
     "spinCapability": "right"
   },
@@ -247,11 +247,11 @@
     "releaseDate": "2026-07-15",
     "description": {
       "en": "A deluxe left-spin string launcher set featuring Meteoroid Dragoon colors.",
-      "de": ""
+      "de": "Ein Deluxe-Links-Schnurzug-Launcher-Set im Meteoroid Dragoon Design."
     },
     "assessment": {
       "en": "The Meteoroid Dragoon Deluxe Left-Spin String Launcher Set includes a left-spin string launcher with a Dragoon-themed design and grip accessories.",
-      "de": ""
+      "de": "Das Meteoroid Dragoon Deluxe Left-Spin String Launcher Set enthält einen linksdrehenden Schnurzug-Launcher im Dragoon-Design sowie Griffzubehör. Hergestellt von Hasbro."
     },
     "spinCapability": "left"
   }
