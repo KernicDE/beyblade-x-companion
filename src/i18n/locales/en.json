@@ -21,7 +21,11 @@
     "clear": "Clear search",
     "noResults": "No results.",
     "filters": "Filters",
-    "activeFilters": "Active filters"
+    "activeFilters": "Active filters",
+    "ownership": "Ownership",
+    "all": "All",
+    "owned": "Owned",
+    "notOwned": "Not owned"
   },
   "sort": {
     "label": "Sort by",

@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
+import { useProfileStore } from '../stores/profile';
 import type { Part } from '../types';
 import { calculateTier, buildTypeScores, getPartTypeScores } from '../utils/data';
 import type { TypeScores } from '../utils/data';
@@ -57,6 +58,7 @@ function sortParts(parts: Part[], sortBy: SortKey, typeScores: TypeScores) {
 export function PartsDatabase() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
+  const { ownedPartIds } = useProfileStore();
   const [selectedMf, setSelectedMf] = useState<string[]>([...MANUFACTURERS]);
   const [query, setQuery] = useState('');
   const [sortBy, setSortBy] = useState<SortKey>('name');
@@ -64,6 +66,7 @@ export function PartsDatabase() {
   const [selectedBatches, setSelectedBatches] = useState<string[]>([]);
   const [selectedTiers, setSelectedTiers] = useState<string[]>([]);
   const [selectedSpins, setSelectedSpins] = useState<string[]>([]);
+  const [ownership, setOwnership] = useState<'all' | 'owned' | 'missing'>('all');
 
   const q = query.trim().toLowerCase();
   const matches = (p: { name: string; id: string; releaseWave?: string; manufacturer: string; category?: string }) => {
@@ -126,6 +129,8 @@ export function PartsDatabase() {
     const scores = getPartTypeScores(typeScores, p.category);
     if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(p.ratings, p.officialStats.typeTag, scores))) return false;
     if (selectedSpins.length > 0 && !selectedSpins.includes(p.officialStats.spinDirection ?? '')) return false;
+    if (ownership === 'owned' && !ownedPartIds.includes(p.id)) return false;
+    if (ownership === 'missing' && ownedPartIds.includes(p.id)) return false;
     return matches(p);
   };
 
@@ -189,6 +194,17 @@ export function PartsDatabase() {
                 )
               }
             />
+            <button
+              type="button"
+              onClick={() => setOwnership((prev) => (prev === 'all' ? 'owned' : prev === 'owned' ? 'missing' : 'all'))}
+              className={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-medium transition ${
+                ownership !== 'all'
+                  ? 'border-blue-500 bg-blue-50 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300'
+                  : 'border-[var(--muted)]/30 bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--muted)]/10'
+              }`}
+            >
+              {t('search.ownership')}: {ownership === 'all' ? t('search.all') : ownership === 'owned' ? t('search.owned') : t('search.notOwned')}
+            </button>
           </div>
         </div>
       </div>
