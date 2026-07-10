@@ -96,7 +96,9 @@
     "assistBlade": "Assist Blade",
     "ratchet": "Ratchet",
     "bit": "Bit",
-    "communityRatings": "Community-Bewertungen"
+    "communityRatings": "Community-Bewertungen",
+    "markOwned": "Als im Besitz markieren",
+    "owned": "Im Besitz"
   },
   "configurator": {
     "title": "Builder",
@@ -106,10 +108,16 @@
     "placeholder": "Meine Custom-Combo",
     "updateCreation": "Kreation aktualisieren",
     "creationSaved": "Kreation gespeichert.",
-    "creationUpdated": "Kreation aktualisiert."
+    "creationUpdated": "Kreation aktualisiert.",
+    "ownedOnly": "Nur eigene Teile",
+    "missingParts": "Fehlende Teile",
+    "availableIn": "Erhältlich in",
+    "noSetFound": "Kein Factory-Set gefunden"
   },
   "profile": {
     "title": "Mein Profil",
+    "username": "Profilname",
+    "usernamePlaceholder": "Dein Name",
     "exportProfile": "Profil exportieren",
     "exportCopied": "Profil-Export-Link in die Zwischenablage kopiert.",
     "shareCopied": "Teilen-Link in die Zwischenablage kopiert.",

@@ -41,7 +41,10 @@ function isProfile(value: unknown): value is Profile {
   return (
     typeof profile.version === 'number' &&
     Array.isArray(profile.creations) &&
-    profile.creations.every(isCreation)
+    profile.creations.every(isCreation) &&
+    (profile.ownedBeyIds === undefined || Array.isArray(profile.ownedBeyIds)) &&
+    (profile.ownedPartIds === undefined || Array.isArray(profile.ownedPartIds)) &&
+    (profile.username === undefined || typeof profile.username === 'string')
   );
 }
 

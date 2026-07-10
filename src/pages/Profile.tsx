@@ -11,7 +11,15 @@ export function Profile() {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const { database } = useData();
-  const { creations, deleteCreation, duplicateCreation } = useProfileStore();
+  const {
+    username,
+    setUsername,
+    ownedBeyIds,
+    ownedPartIds,
+    creations,
+    deleteCreation,
+    duplicateCreation,
+  } = useProfileStore();
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
   const [exportMessage, setExportMessage] = useState('');
 
@@ -26,7 +34,13 @@ export function Profile() {
   };
 
   const handleExport = async () => {
-    const profile = { version: 1, creations };
+    const profile = {
+      version: 2,
+      username,
+      ownedBeyIds,
+      ownedPartIds,
+      creations,
+    };
     const compressed = compressProfile(profile);
     const url = `${window.location.origin}${window.location.pathname}#/import?d=${compressed}`;
     await navigator.clipboard.writeText(url);
@@ -37,7 +51,10 @@ export function Profile() {
   return (
     <div className="space-y-6">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <h1 className="text-2xl font-bold">{t('profile.title')}</h1>
+        <div className="space-y-1">
+          <h1 className="text-2xl font-bold">{t('profile.title')}</h1>
+          {username && <p className="text-sm text-[var(--muted)]">{username}</p>}
+        </div>
         <button
           type="button"
           onClick={handleExport}
@@ -45,6 +62,20 @@ export function Profile() {
         >
           {t('profile.exportProfile')}
         </button>
+      </div>
+
+      <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+        <label htmlFor="profile-username" className="block text-sm font-medium text-[var(--muted)]">
+          {t('profile.username')}
+        </label>
+        <input
+          id="profile-username"
+          type="text"
+          value={username ?? ''}
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder={t('profile.usernamePlaceholder')}
+          className="mt-1 w-full rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none sm:w-96"
+        />
       </div>
 
       {exportMessage && (

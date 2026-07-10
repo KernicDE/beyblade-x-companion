@@ -86,6 +86,9 @@ export interface Creation {
 
 export interface Profile {
   version: number;
+  username?: string;
+  ownedBeyIds: string[];
+  ownedPartIds: string[];
   creations: Creation[];
 }
 

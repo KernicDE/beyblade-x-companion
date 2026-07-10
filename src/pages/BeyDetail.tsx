@@ -16,6 +16,7 @@ import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import type { LocalizedString, PartCategory } from '../types';
+import { useProfileStore } from '../stores/profile';
 
 function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
@@ -25,6 +26,7 @@ export function BeyDetail() {
   const { t, locale } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const { database, loading, error } = useData();
+  const { isOwnedBey, toggleOwnedBey } = useProfileStore();
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -94,6 +96,17 @@ export function BeyDetail() {
               <span className="text-[var(--muted)]">{t('partDetail.spinDirection')}:</span>
               {spinDirection ? <SpinBadge spin={spinDirection} size="md" /> : <span className="text-[var(--muted)]">-</span>}
             </div>
+            <button
+              type="button"
+              onClick={() => toggleOwnedBey(bey.id)}
+              className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
+                isOwnedBey(bey.id)
+                  ? 'bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-900/50'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600'
+              }`}
+            >
+              {isOwnedBey(bey.id) ? t('beyDetail.owned') : t('beyDetail.markOwned')}
+            </button>
             <h2 className="font-semibold text-[var(--text)]">{t('beyDetail.parts')}</h2>
             <div className="flex flex-wrap gap-2">
               {blade && partLink('blade', blade.id, t('beyDetail.blade'))}

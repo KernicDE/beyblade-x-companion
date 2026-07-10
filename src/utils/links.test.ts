@@ -14,7 +14,10 @@ const mockCreation: Creation = {
 };
 
 const mockProfile: Profile = {
-  version: 1,
+  version: 2,
+  username: 'Test User',
+  ownedBeyIds: [],
+  ownedPartIds: [],
   creations: [mockCreation],
 };
 

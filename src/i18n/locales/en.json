@@ -96,7 +96,9 @@
     "assistBlade": "Assist Blade",
     "ratchet": "Ratchet",
     "bit": "Bit",
-    "communityRatings": "Community Ratings"
+    "communityRatings": "Community Ratings",
+    "markOwned": "Mark as owned",
+    "owned": "Owned"
   },
   "configurator": {
     "title": "Builder",
@@ -106,10 +108,16 @@
     "placeholder": "My custom combo",
     "updateCreation": "Update Creation",
     "creationSaved": "Creation saved.",
-    "creationUpdated": "Creation updated."
+    "creationUpdated": "Creation updated.",
+    "ownedOnly": "Owned parts only",
+    "missingParts": "Missing parts",
+    "availableIn": "Available in",
+    "noSetFound": "No factory set found"
   },
   "profile": {
     "title": "My Profile",
+    "username": "Profile name",
+    "usernamePlaceholder": "Your name",
     "exportProfile": "Export Profile",
     "exportCopied": "Profile export link copied to clipboard.",
     "shareCopied": "Share link copied to clipboard.",

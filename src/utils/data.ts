@@ -120,6 +120,18 @@ export function isComboEstimated(database: Database, combo: ComboParts): boolean
   return parts.some((p) => p.ratingsSource === 'estimated');
 }
 
+export function findBeysContainingPart(database: Database, partId: string): Bey[] {
+  return database.beys.filter((bey) => {
+    const parts = getBeyParts(bey);
+    return (
+      parts.bladeId === partId ||
+      parts.assistBladeId === partId ||
+      parts.ratchetId === partId ||
+      parts.bitId === partId
+    );
+  });
+}
+
 function getTypeScore(ratings: Ratings, typeTag?: string): number {
   const { attack, defense, stamina, balance } = ratings;
   switch (typeTag) {
