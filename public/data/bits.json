@@ -8,12 +8,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Ball Bit.",
-      "de": "Der Ball-Bit."
+      "en": "A low right-spin Stamina Bit with a spherical tip. The ball shape reduces friction against the stadium floor, letting the Bey spin longer and drift gently toward the center instead of fighting the rails.",
+      "de": "Ein niedriger, rechtsdrehender Stamina-Bit mit einer kugelförmigen Spitze. Die Kugelform reduziert die Reibung am Stadionboden, sodass der Bey länger rotiert und sanft zur Mitte driftet, anstatt gegen die Schienen zu kämpfen."
     },
     "assessment": {
-      "en": "Ball is a right-spin Stamina Type Bit. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Ball ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 2.1g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Ball is the benchmark starter Stamina Bit. It sacrifices aggression for endurance and works beautifully with round Blades that want to sit in the center. Later Bits like Orb and Free Ball refine the concept, but Ball remains an honest, easy-to-use option for any Stamina learner.",
+      "de": "Ball ist der Referenz-Starter-Stamina-Bit. Er opfert Aggression für Ausdauer und funktioniert wunderbar mit runden Blades, die sich in der Mitte aufhalten wollen. Spätere Bits wie Orb und Free Ball verfeinern das Konzept, aber Ball bleibt eine ehrliche, leicht zu nutzende Option für jeden Stamina-Einsteiger."
     },
     "officialStats": {
       "heightMm": 2,
@@ -22,10 +22,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 2.1,
-      "stamina": 3.8,
-      "balance": 2.4
+      "attack": 1.5,
+      "defense": 2,
+      "stamina": 4,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true
   },
@@ -38,12 +38,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Flat Bit.",
-      "de": "Der Flat-Bit."
+      "en": "A low right-spin Attack Bit with a flat tip designed for speed and Xtreme Dash acceleration. The flat surface grips the stadium floor aggressively and enables quick rail-to-center transitions, at the cost of stamina.",
+      "de": "Ein niedriger, rechtsdrehender Attack-Bit mit einer flachen Spitze für Geschwindigkeit und Xtreme-Dash-Beschleunigung. Die flache Oberfläche greift aggressiv in den Stadionboden und ermöglicht schnelle Übergänge von der Schiene in die Mitte – auf Kosten der Ausdauer."
     },
     "assessment": {
-      "en": "Flat is a right-spin Attack Type Bit. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Flat ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Flat is the signature fast-attack Bit of the Basic Line. It delivers strong early-game aggression and is essential for learning Xtreme Dash play, though its poor stamina makes it risky in longer battles.",
+      "de": "Flat ist der markante Schnellangriffs-Bit der Basic Line. Er liefert starke Early-Game-Aggression und ist essenziell, um Xtreme-Dash-Play zu erlernen, obwohl die schwache Ausdauer ihn in längeren Kämpfen riskant macht."
     },
     "officialStats": {
       "heightMm": 2,
@@ -52,10 +52,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 1.3,
-      "stamina": 0.8,
-      "balance": 1.9
+      "attack": 3.5,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -68,12 +68,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Needle Bit.",
-      "de": "Der Needle-Bit."
+      "en": "A low right-spin Defense Bit with a sharp conical tip. Needle balances gripping friction with a small contact patch, giving Defense and Stamina combinations both centering stability and enough spin life to outlast aggressive opponents.",
+      "de": "Ein niedriger, rechtsdrehender Defense-Bit mit einer scharfen konischen Spitze. Needle balanciert Reibung mit einer kleinen Auflagefläche aus und verleiht Defense- und Stamina-Kombinationen sowohl zentrierende Stabilität als auch genug Spin-Lebensdauer, um aggressive Gegner zu überdauern."
     },
     "assessment": {
-      "en": "Needle is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Needle ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Needle is one of the most reliable starter Defense Bits. It does not have the raw grip of later options like Gear Needle or the burst resistance of Hexa, but its simple design makes it an excellent choice for learning how to stall out Attack types and win by outspin.",
+      "de": "Needle ist einer der verlässlichsten Starter-Defense-Bits. Er hat nicht den rohen Grip späterer Optionen wie Gear Needle oder die Burst-Resistance von Hexa, aber sein schlichtes Design macht ihn zur ausgezeichneten Wahl, um zu lernen, wie man Attack-Typen hinauszögert und durch Ausdrehen gewinnt."
     },
     "officialStats": {
       "heightMm": 2,
@@ -82,9 +82,9 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 4.2,
-      "stamina": 2.3,
+      "attack": 1,
+      "defense": 4,
+      "stamina": 2.5,
       "balance": 2.5
     },
     "ratingsDisclaimer": true
@@ -98,12 +98,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Taper Bit.",
-      "de": "Der Taper-Bit."
+      "en": "A low right-spin Balance Bit with a flat tip that creates aggressive movement, rounded by a curved outer surface that adds stamina and control. Taper tries to offer the best of both Attack and Stamina worlds, making it a good learning Bit for balance-focused combinations.",
+      "de": "Ein niedriger, rechtsdrehender Balance-Bit mit einer flachen Spitze, die aggressive Bewegung erzeugt, abgerundet durch eine geschwungene Außenfläche, die Ausdauer und Kontrolle hinzufügt. Taper versucht, das Beste aus Angriff und Ausdauer zu vereinen, und ist damit ein guter Lern-Bit für balance-fokussierte Kombinationen."
     },
     "assessment": {
-      "en": "Taper is a right-spin Balance Type Bit. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Taper ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Taper is the starter Balance Bit of choice: faster than Needle or Ball, more controllable than Flat, and a solid partner for Hells Scythe in casual play. Its hybrid design means it loses to specialized Bits in both attack speed and pure stamina, but it is excellent for understanding how movement shapes a match.",
+      "de": "Taper ist der Starter-Balance-Bit der Wahl: schneller als Needle oder Ball, kontrollierbarer als Flat und ein solider Partner für Hells Scythe im Casual-Play. Das hybride Design bedeutet, dass er gegen spezialisierte Bits sowohl in Angriffsgeschwindigkeit als auch in reiner Ausdauer verliert, aber er ist hervorragend geeignet, um zu verstehen, wie Bewegung einen Kampf prägt."
     },
     "officialStats": {
       "heightMm": 2,
@@ -112,10 +112,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.2,
-      "defense": 1.7,
+      "attack": 3,
+      "defense": 1.5,
       "stamina": 1.5,
-      "balance": 2.1
+      "balance": 2
     },
     "ratingsDisclaimer": true
   },
@@ -128,12 +128,12 @@
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
-      "en": "The High Needle Bit.",
-      "de": "Der High Needle-Bit."
+      "en": "A tall, right-spin Defense Type Bit with a sharp conical tip. Its 3 mm height creates semi-stationary movement: it dodges early hits before settling in the center, and the small contact patch gives it excellent stamina potential. However, the low friction makes it prone to tilting, wobbling and sudden knock-outs if destabilized.",
+      "de": "Ein hoher, rechtsdrehender Defense-Typ Bit mit einer scharfen konischen Spitze. Die 3 mm Höhe erzeugt semi-stationäre Bewegung: Er weicht frühen Treffern aus, bevor er sich in der Mitte niederlässt, und die kleine Auflagefläche verleiht ihm exzellentes Stamina-Potenzial. Durch die geringe Reibung neigt er aber zum Kippen, Wackeln und plötzlichen Knockout, wenn er destabilisiert wird."
     },
     "assessment": {
-      "en": "High Needle is a right-spin Defense Type Bit. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
-      "de": "High Needle ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2.2g. Höhe: 3mm. Hergestellt von Takara Tomy."
+      "en": "High Needle is one of the best early Bits in Beyblade X. Beyblade Wiki notes it has the highest stamina potential of the generation, and it sees competitive use on Wizard Arrow, Knight Shield and even Dran Sword. Its main weakness is consistency: a bad launch or an early hit can send it into the stadium wall. Treat it as a high-risk, high-reward stamina option disguised as a Defense Bit.",
+      "de": "High Needle ist einer der besten Early-Bits in Beyblade X. Das Beyblade Wiki vermerkt, dass er das höchste Stamina-Potenzial der Generation besitzt, und er wird kompetitiv auf Wizard Arrow, Knight Shield und sogar Dran Sword eingesetzt. Seine Hauptschwäche ist die Konsistenz: Ein schlechter Launch oder ein früher Treffer können ihn in die Stadionwand schicken. Er ist eine high-risk, high-reward Stamina-Option in der Tarnung eines Defense-Bits."
     },
     "officialStats": {
       "heightMm": 3,
@@ -142,12 +142,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 4.6,
-      "stamina": 1.5,
+      "attack": 1,
+      "defense": 3.5,
+      "stamina": 4.5,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-low-flat",
@@ -158,12 +159,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Low Flat Bit.",
-      "de": "Der Low Flat-Bit."
+      "en": "A low, right-spin Attack Type Bit with a perfectly flat, round tip and no central indentation. The 1 mm height and wide shaft create extremely high friction and aggressive movement, making Low Flat the fastest early-game Attack Bit in the Basic Line. The wide shaft also improves burst resistance compared to Flat, but repeated Xtreme Dash contacts wear the tip and gears quickly.",
+      "de": "Ein niedriger, rechtsdrehender Attack-Typ Bit mit einer völlig flachen, runden Spitze ohne zentrale Eindellung. Die 1 mm Höhe und der breite Schaft erzeugen extrem hohe Reibung und aggressive Bewegung, was Low Flat zum schnellsten Early-Game-Attack-Bit der Basic Line macht. Der breite Schaft verbessert außerdem die Burst-Resistenz gegenüber Flat, aber wiederholte Xtreme-Dash-Kontakte verschleißen Spitze und Zahnräder schnell."
     },
     "assessment": {
-      "en": "Low Flat is a right-spin Attack Type Bit. Weight: 2.1g. Height: 1mm. Manufactured by Takara Tomy.",
-      "de": "Low Flat ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.1g. Höhe: 1mm. Hergestellt von Takara Tomy."
+      "en": "Low Flat is the most aggressive Attack Bit available in the early line. It trades almost all stamina for speed and hits harder than Flat in the opening seconds. Competitive players pair it with Blades like Shark Edge or Dran Sword and accept that it must secure a burst or knockout early; if the battle drags on, it loses by outspin. Keep spare copies, as the tip wears noticeably.",
+      "de": "Low Flat ist das aggressivste Attack-Bit der frühen Line. Es tauscht fast die gesamte Stamina für Geschwindigkeit ein und trifft in den ersten Sekunden härter als Flat. Kompetitive Spieler kombinieren es mit Blades wie Shark Edge oder Dran Sword und akzeptieren, dass es früh einen Burst oder Knockout sichern muss; zieht sich der Kampf hin, verliert es durch Ausdrehen. Man sollte Ersatzkopen vorhalten, da sich die Spitze deutlich abnutzt."
     },
     "officialStats": {
       "heightMm": 1,
@@ -172,12 +173,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.1,
-      "defense": 0.4,
-      "stamina": 0.8,
-      "balance": 1.8
+      "attack": 5,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-point",
@@ -188,12 +190,12 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "The Point Bit.",
-      "de": "Der Point-Bit."
+      "en": "A right-spin Balance Type Bit built around a small central ball tip barely protruding from a thin flat ring. Its behavior is launch-dependent: a flat launch settles on the ball for stationary Stamina/Defense play, while a tilted launch lands on the flat ring for aggressive movement and Xtreme Dash. The wider shaft gives it solid burst resistance.",
+      "de": "Ein rechtsdrehender Balance-Typ Bit, der um eine kleine zentrale Kugelspitze aufgebaut ist, die kaum aus einem dünnen flachen Ring herausragt. Sein Verhalten hängt vom Launch ab: Ein flacher Launch lässt ihn auf der Kugel landen für stationären Stamina/Defense-Play, während ein schräger Launch auf dem flachen Ring landet für aggressive Bewegung und Xtreme Dash. Der breitere Schaft bietet solide Burst-Resistenz."
     },
     "assessment": {
-      "en": "Point is a right-spin Balance Type Bit. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Point ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Point is one of the most skill-rewarding early Bits. BeyBase found it to be a safer alternative to Flat or Low Flat for Attack, earning similar points with fewer self-knockouts, and a strong mobile Defense option on Knight Shield. It is not the best in any single role, but its versatility makes it a staple for flexible deck building. Practice launch angle and power are essential to get value from it.",
+      "de": "Point ist eines der anspruchsvollsten frühen Bits. BeyBase stellte fest, dass er eine sicherere Alternative zu Flat oder Low Flat für Attack ist, ähnliche Punkte mit weniger Selbst-Knockouts erzielt und eine starke mobile Defense-Option auf Knight Shield bietet. Er ist in keiner einzelnen Rolle der Beste, aber seine Vielseitigkeit macht ihn zu einem Grundpfeiler flexiblen Deck-Buildings. Übung in Launch-Winkel und -Kraft ist entscheidend, um ihn auszureizen."
     },
     "officialStats": {
       "heightMm": 2,
@@ -202,12 +204,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.1,
-      "stamina": 1.9,
-      "balance": 2.1
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-orb",
@@ -218,12 +221,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Orb Bit.",
-      "de": "Der Orb-Bit."
+      "en": "A right-spin Stamina Type Bit with a hemispherical tip. Compared to Ball, Orb has a smaller contact patch with the stadium floor, giving it higher stamina and better knock-out resistance. The rounded shape creates controlled circular dodging movements and keeps friction low.",
+      "de": "Ein rechtsdrehender Stamina-Typ-Bit mit einer halbkugelförmigen Spitze. Im Vergleich zu Ball hat Orb eine kleinere Auflagefläche am Stadionboden, was ihm höhere Ausdauer und besseren Knockout-Widerstand verleiht. Die runde Form erzeugt kontrollierte kreisförmige Ausweichbewegungen und hält die Reibung gering."
     },
     "assessment": {
-      "en": "Orb is a right-spin Stamina Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Orb ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Orb is a refined Stamina Bit that improves on Ball's concept. Beyblade Wiki notes the smaller surface area increases stamina and KO resistance compared to Ball, making it a strong choice for stationary Stamina combinations. It does not have the same defensive grip as Needle or High Needle, so it can be pushed around by aggressive opponents, but it outlasts most Attack combos if it avoids early knockouts.",
+      "de": "Orb ist ein verfeinerter Stamina-Bit, der das Konzept von Ball verbessert. Das Beyblade Wiki vermerkt, dass die kleinere Oberfläche im Vergleich zu Ball Ausdauer und KO-Widerstand erhöht, was ihn zu einer starken Wahl für stationäre Stamina-Kombinationen macht. Er hat nicht denselben defensiven Grip wie Needle oder High Needle, kann also von aggressiven Gegnern herumgeschoben werden, aber er überdauert die meisten Attack-Combos, wenn er frühe Knockouts vermeidet."
     },
     "officialStats": {
       "heightMm": 2,
@@ -237,7 +240,8 @@
       "stamina": 3.8,
       "balance": 2.4
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-rush",
@@ -248,12 +252,12 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The Rush Bit.",
-      "de": "Der Rush-Bit."
+      "en": "A right-spin Attack Type Bit with a round, flat tip that is narrower than Flat or Low Flat, creating less friction with the stadium floor. Its gear design uses ten shorter gears instead of twelve, reducing Xtreme Dash acceleration and attack power slightly but allowing the combination to ride the X-Line more often and more predictably.",
+      "de": "Ein rechtsdrehender Attack-Typ Bit mit einer runden, flachen Spitze, die schmaler ist als Flat oder Low Flat und weniger Reibung am Stadionboden erzeugt. Sein Zahnrad-Design verwendet zehn kürzere Zahnräder statt zwölf, was Xtreme-Dash-Beschleunigung und Angriffskraft leicht reduziert, aber der Kombination erlaubt, die X-Line häufiger und vorhersehbarer zu fahren."
     },
     "assessment": {
-      "en": "Rush is a right-spin Attack Type Bit. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Rush ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.1g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Rush is the most popular competitive Attack Bit of the early line. It trades a small amount of raw speed and power for significantly more control and stamina than Flat or Low Flat, letting players launch harder without self-knockout anxiety. Repeated Xtreme Dash use still wears the tip and gears quickly, so competitive players keep spare copies. It pairs beautifully with heavy or erratic Attack Blades like Dran Dagger and Shark Edge.",
+      "de": "Rush ist das beliebteste kompetitive Attack-Bit der frühen Line. Er tauscht einen kleinen Teil an roher Geschwindigkeit und Kraft für deutlich mehr Kontrolle und Ausdauer als Flat oder Low Flat ein, sodass Spieler härter launchen können, ohne Angst vor Selbst-Knockouts zu haben. Wiederholter Xtreme-Dash-Einsatz verschleißt Spitze und Zahnräder dennoch schnell, daher halten kompetitive Spieler Ersatzkopen bereit. Er harmoniert wunderbar mit schweren oder unberechenbaren Attack-Blades wie Dran Dagger und Shark Edge."
     },
     "officialStats": {
       "heightMm": 2,
@@ -262,12 +266,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 0.8,
-      "stamina": 1.5,
-      "balance": 2
+      "attack": 4,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-high-taper",
@@ -278,26 +283,27 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The High Taper Bit.",
-      "de": "Der High Taper-Bit."
+      "en": "A right-spin Balance Type Bit first released in the BX-21 Hells Chain Deck Set. It is the 1 mm taller variant of Taper, featuring a narrow circular flat tip with a shallow indentation that angles upward from the centre to create a second contact point. The wider shaft adds burst resistance compared to the original Taper.",
+      "de": "Ein rechtsdrehender Balance-Typ Bit, erstmals im BX-21 Hells Chain Deck Set veröffentlicht. Er ist die um 1 mm höhere Variante von Taper mit einer schmalen, runden flachen Spitze und einer flachen Eindellung, die sich vom Zentrum nach oben wölbt und einen zweiten Kontaktpunkt schafft. Der breitere Schaft bietet mehr Burst-Resistenz als der ursprüngliche Taper."
     },
     "assessment": {
-      "en": "High Taper is a right-spin Balance Type Bit. Weight: 2.2g. Height: 3mm. Manufactured by Takara Tomy.",
-      "de": "High Taper ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.2g. Höhe: 3mm. Hergestellt von Takara Tomy."
+      "en": "High Taper delivers exactly what a Balance Bit should: enough mobility to ride the X-Line and support attack-oriented Blades, but with more control and stamina than pure Attack Bits like Flat or Low Flat. Beyblade Wiki notes it trades a small amount of Taper's attack speed for extra defense and a taller profile. It is a natural partner for Hells Chain and a solid choice when a taller, safer Balance driver is needed.",
+      "de": "High Taper liefert genau das, was ein Balance-Bit leisten sollte: genug Mobilität, um die X-Line zu fahren und angriffsorientierte Blades zu unterstützen, aber mit mehr Kontrolle und Ausdauer als reine Attack-Bits wie Flat oder Low Flat. Das Beyblade Wiki vermerkt, dass er etwas von Tapers Angriffsgeschwindigkeit für zusätzliche Verteidigung und ein höheres Profil eintauscht. Er ist ein natürlicher Partner für Hells Chain und eine solide Wahl, wenn ein höherer, sicherer Balance-Driver benötigt wird."
     },
     "officialStats": {
       "heightMm": 3,
-      "weightGrams": 2.2,
+      "weightGrams": 2.28,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.1,
+      "attack": 2.5,
+      "defense": 2.5,
       "stamina": 1.5,
-      "balance": 2.1
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-spike",
@@ -305,26 +311,26 @@
     "name": "Spike",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-spike.png",
-    "releaseDate": "2023-09-09",
+    "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The Spike Bit.",
-      "de": "Der Spike-Bit."
+      "en": "A right-spin Defense Type Bit first released in the BX-19 Rhino Horn 3-80S Booster. It features a small, sharp cone-shaped plastic tip, making it a lower, smaller variant of Needle and High Needle. The tiny contact patch creates very low friction, giving it high stamina potential but also making it prone to slipping and knockout if the launch is unstable.",
+      "de": "Ein rechtsdrehender Defense-Typ Bit, erstmals im BX-19 Rhino Horn 3-80S Booster veröffentlicht. Er verfügt über eine kleine, scharfe kunststoffene Kegelspitze, die ihn zu einer niedrigeren, kleineren Variante von Needle und High Needle macht. Die winzige Auflagefläche erzeugt sehr geringe Reibung, was ihm hohes Stamina-Potenzial verleiht, aber auch dazu neigt, bei instabilem Launch wegzurutschen oder aus dem Stadion zu fliegen."
     },
     "assessment": {
-      "en": "Spike is a right-spin Defense Type Bit. Weight: 2.0g. Height: 2mm. Debuted with BX-19 RhinoHorn 3-80S. Manufactured by Takara Tomy.",
-      "de": "Spike ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2.0g. Höhe: 2mm. Debüt mit BX-19 RhinoHorn 3-80S. Hergestellt von Takara Tomy."
+      "en": "Spike is an interesting but outclassed Defense Bit. Beyblade Wiki notes it has stamina potential comparable to High Needle and Ball, and it stays docile in the center even when hard-launched. However, its tiny tip offers poor knockout resistance and can wear or deform quickly. It is a fun alternative to Needle for casual stationary combinations, but competitive players generally prefer Needle, High Needle or Orb.",
+      "de": "Spike ist ein interessanter, aber überholter Defense-Bit. Das Beyblade Wiki vermerkt, dass er Stamina-Potenzial vergleichbar mit High Needle und Ball besitzt und sich selbst bei hartem Launch zahm in der Mitte hält. Allerdings bietet seine winzige Spitze schlechten KO-Widerstand und kann sich schnell abnutzen oder verformen. Er ist eine spaßige Alternative zu Needle für Casual-Stationär-Kombinationen, aber kompetitive Spieler bevorzugen in der Regel Needle, High Needle oder Orb."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 1.95,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 3.8,
-      "stamina": 2.7,
+      "attack": 1,
+      "defense": 3.5,
+      "stamina": 3,
       "balance": 2.5
     },
     "ratingsDisclaimer": true,
@@ -336,29 +342,30 @@
     "name": "Gear Flat",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-gear-flat.png",
-    "releaseDate": "",
+    "releaseDate": "2023-12-10",
     "releaseWave": "BX",
     "description": {
-      "en": "The Gear Flat Bit.",
-      "de": "Der Gear Flat-Bit."
+      "en": "A right-spin Attack Type Bit first released in the BX-23 Phoenix Wing 9-60GF Starter. It is the Gear variant of Flat, meaning the gear teeth extend all the way down and cover the flat tip itself. The wider tip surface and extended gears create more aggressive X-Line contact and faster Xtreme Dash acceleration than the standard Flat Bit.",
+      "de": "Ein rechtsdrehender Attack-Typ Bit, erstmals im BX-23 Phoenix Wing 9-60GF Starter veröffentlicht. Er ist die Gear-Variante von Flat, was bedeutet, dass die Zahnradzähne bis ganz nach unten reichen und die flache Spitze selbst bedecken. Die breitere Spitzenoberfläche und die verlängerten Zahnräder erzeugen aggressiveren X-Line-Kontakt und schnellere Xtreme-Dash-Beschleunigung als der Standard-Flat-Bit."
     },
     "assessment": {
-      "en": "Gear Flat is a right-spin Attack Type Bit. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Gear Flat ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.3g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Gear Flat is one of the most aggressive Attack Bits in the Basic Line. Beyblade Wiki notes that the extended gears and wider tip deliver powerful, fast Xtreme Dashes, but the sudden acceleration drains stamina and raises self-KO risk significantly. Competitive players often treat it as a one-shot gambit: land a heavy early hit or lose by outspin. Keep spare copies, as repeated X-Line contacts wear the tip unusually fast.",
+      "de": "Gear Flat ist einer der aggressivsten Attack-Bits der Basic Line. Das Beyblade Wiki vermerkt, dass die verlängerten Zahnräder und die breitere Spitze leistungsstarke, schnelle Xtreme Dashes liefern, aber die plötzliche Beschleunigung die Ausdauer leert und das Selbst-KO-Risiko deutlich erhöht. Kompetitive Spieler betrachten ihn oft als One-Shot-Gambit: Entweder landet man einen schweren frühen Treffer oder verliert durch Ausdrehen. Man sollte Ersatzkopen vorhalten, da wiederholte X-Line-Kontakte die Spitze ungewöhnlich schnell abnutzen."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2.3,
+      "weightGrams": 2.25,
       "typeTag": "Attack",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.5,
-      "defense": 0.4,
-      "stamina": 0.4,
-      "balance": 1.8
+      "attack": 5,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-gear-ball",
@@ -366,29 +373,30 @@
     "name": "Gear Ball",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-gear-ball.png",
-    "releaseDate": "",
+    "releaseDate": "2023-12-27",
     "releaseWave": "BX",
     "description": {
-      "en": "The Gear Ball Bit.",
-      "de": "Der Gear Ball-Bit."
+      "en": "A right-spin Stamina Type Bit first released in BX-24 Random Booster Vol. 2. It is the Gear variant of Ball, with extended gear teeth covering most of the spherical tip. The round tip still creates controlled circular dodging movements, but the gears make X-Line engagement easier and Xtreme Dash acceleration more aggressive than the standard Ball Bit.",
+      "de": "Ein rechtsdrehender Stamina-Typ Bit, erstmals im BX-24 Random Booster Vol. 2 veröffentlicht. Er ist die Gear-Variante von Ball mit verlängerten Zahnradzähnen, die den Großteil der kugelförmigen Spitze bedecken. Die runde Spitze erzeugt weiterhin kontrollierte kreisförmige Ausweichbewegungen, aber die Zahnräder machen den X-Line-Eingriff leichter und die Xtreme-Dash-Beschleunigung aggressiver als beim Standard-Ball-Bit."
     },
     "assessment": {
-      "en": "Gear Ball is a right-spin Stamina Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Gear Ball ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Gear Ball is an interesting but outclassed Stamina Bit. Beyblade Wiki notes it behaves similarly to Ball with decent stamina and stability, but the extended gears drain stamina and can create sudden, destabilizing accelerations when the combo tilts. It is a fun alternative for casual play and pairs well with round Blades, yet competitive stamina builds usually prefer the simpler, safer Ball or Orb.",
+      "de": "Gear Ball ist ein interessanter, aber überholter Stamina-Bit. Das Beyblade Wiki vermerkt, dass er sich ähnlich wie Ball verhält mit anständiger Ausdauer und Stabilität, aber die verlängerten Zahnräder verbrauchen Ausdauer und können plötzliche, destabilisierende Beschleunigungen erzeugen, wenn das Combo kippt. Er ist eine spaßige Alternative für Casual-Play und harmoniert gut mit runden Blades, aber kompetitive Stamina-Builds bevorzugen meist den einfacheren, sichereren Ball oder Orb."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 2.06,
       "typeTag": "Stamina",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 1.3,
+      "attack": 1.5,
+      "defense": 1.5,
       "stamina": 3.5,
-      "balance": 1.9
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-gear-point",
@@ -399,26 +407,27 @@
     "releaseDate": "2024-01-27",
     "releaseWave": "BX",
     "description": {
-      "en": "The Gear Point Bit.",
-      "de": "Der Gear Point-Bit."
+      "en": "Gear Point is a right-spin Balance Type Bit and the Gear variant of Point. A small ball-shaped plastic tip barely protrudes from a thin, flat plastic ring, while extended gears cover the tip area. A flat launch lands the combo on the ball tip for stationary, stamina-like behavior; an angled launch lands it on the flat ring for aggressive movement and fast Xtreme Dashes. This launch-dependence makes Gear Point highly versatile but also demanding, since the wrong launch angle can waste stamina or create self-KO risk.",
+      "de": "Gear Point ist ein rechtsdrehender Balance-Type-Bit und die Gear-Variante von Point. Eine kleine kugelförmige Plastikspitze ragt kaum aus einem dünnen, flachen Plastikring heraus, während erweiterte Zahnräder den Spitzenbereich abdecken. Ein flacher Launch landet den Combo auf der Kugelspitze für stationäres, stamina-ähnliches Verhalten; ein schräger Launch landet ihn auf dem flachen Ring für aggressives Movement und schnelle Xtreme Dashes. Diese Launch-Abhängigkeit macht Gear Point sehr vielseitig, aber auch anspruchsvoll, da der falsche Launch-Winkel Ausdauer verschwenden oder Selbst-KO-Risiken erzeugen kann."
     },
     "assessment": {
-      "en": "Gear Point is a right-spin Balance Type Bit. Weight: 2.3g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Gear Point ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.3g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Gear Point is more controllable and stamina-friendly than the original Point, but it still rewards practiced launching. It is a strong Balance Bit that can switch between defense and offense, though it is outshined by specialized options in either role.",
+      "de": "Gear Point ist kontrollierbarer und ausdauerfreundlicher als der ursprüngliche Point, aber er belohnt nach wie vor geübtes Launching. Er ist ein starker Balance-Bit, der zwischen Defense und Offense wechseln kann, obwohl er in beiden Rollen von spezialisierten Optionen übertroffen wird."
     },
     "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 2.3,
+      "heightMm": 29.6,
+      "weightGrams": 2.27,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.1,
-      "stamina": 1.2,
-      "balance": 2
+      "attack": 2.5,
+      "defense": 2.0,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-gear-needle",
@@ -486,29 +495,30 @@
     "name": "Hexa",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-hexa.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-03-30",
+    "releaseWave": "UX-02",
     "description": {
-      "en": "The Hexa Bit.",
-      "de": "Der Hexa-Bit."
+      "en": "A right-spin Balance Type Bit first released in the UX-02 Hells Hammer 3-70H Starter. Its tip has a hexagonal shape covered by six thin plastic lines that reduce friction and scraping risk, meeting in the center to form a thin point. The 16 gears on the shaft are more than the standard 12, making Xtreme Dashes faster but also harder to control. Height: 29.5mm. Weight: about 2.5g.",
+      "de": "Ein rechtsdrehender Balance-Typ Bit, erstmals im UX-02 Hells Hammer 3-70H Starter veröffentlicht. Seine Spitze hat eine sechseckige Form, die von sechs dünnen Kunststofflinien bedeckt ist, die Reibung und Schrammrisiko reduzieren und sich in der Mitte zu einem dünnen Punkt treffen. Die 16 Gänge am Schaft sind mehr als die üblichen 12, was Xtreme Dashes schneller, aber auch schwerer kontrollierbar macht. Höhe: 29,5mm. Gewicht: etwa 2,5g."
     },
     "assessment": {
-      "en": "Hexa is a right-spin Balance Type Bit. Weight: 2.6g. Height: 1.5mm. Manufactured by Takara Tomy.",
-      "de": "Hexa ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.6g. Höhe: 1.5mm. Hergestellt von Takara Tomy."
+      "en": "Hexa is the most defense-oriented Balance Bit in Beyblade X. Beyblade Wiki notes it behaves like a stationary Defense tip with extra stability and self-uprighting ability, and its high burst resistance lets it replace Ball in combos like Wizard Rod 1-60 Hexa when Attack threats rise. The trade-off is lower stamina and KO resistance than Ball, and its Xtreme Dash is faster but riskier. A must-have competitive utility Bit. Community assessment.",
+      "de": "Hexa ist der defensorientierteste Balance-Bit in Beyblade X. Das Beyblade Wiki vermerkt, dass er sich wie eine stationäre Defense-Spitze mit zusätzlicher Stabilität und Selbstaufrichtungsfähigkeit verhält, und seine hohe Burst-Resistenz erlaubt es, Ball in Combos wie Wizard Rod 1-60 Hexa zu ersetzen, wenn Attack-Bedrohungen steigen. Der Nachteil ist eine geringere Ausdauer und KO-Resistenz als Ball, und sein Xtreme Dash ist schneller, aber riskanter. Ein Must-have für kompetitive Utility. Community-Einschätzung."
     },
     "officialStats": {
-      "heightMm": 1.5,
-      "weightGrams": 2.6,
+      "heightMm": 29.5,
+      "weightGrams": 2.5,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.9,
-      "stamina": 1.5,
-      "balance": 2.4
+      "attack": 2.5,
+      "defense": 3.5,
+      "stamina": 2,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-disk-ball",
@@ -546,15 +556,15 @@
     "name": "Quake",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-quake.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-04-27",
+    "releaseWave": "BX-31",
     "description": {
-      "en": "The Quake Bit.",
-      "de": "Der Quake-Bit."
+      "en": "A right-spin Attack Type Bit first released in BX-31 Random Booster Vol. 3. Its tip resembles Low Flat sliced at an angle, creating a slanted, asymmetrical surface that makes the Bey jump unpredictably. Lower launches reduce jump height and frequency, while angled launches make the gimmick more consistent. The wider shaft increases burst resistance.",
+      "de": "Ein rechtsdrehender Attack-Typ-Bit, erstmals im BX-31 Random Booster Vol. 3 veröffentlicht. Seine Spitze ähnelt einem schräg abgeschnittenen Low Flat und bildet eine schiefe, asymmetrische Oberfläche, die den Bey unvorhersehbar springen lässt. Niedrige Launches verringern Sprunghöhe und -häufigkeit, während schräge Launches das Gimmick konstanter machen. Der breitere Schaft erhöht die Burst-Resistenz."
     },
     "assessment": {
-      "en": "Quake is a right-spin Attack Type Bit. Weight: 2.2g. Height: 2.5mm. Manufactured by Takara Tomy.",
-      "de": "Quake ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.2g. Höhe: 2.5mm. Hergestellt von Takara Tomy."
+      "en": "Quake is a gimmick-heavy Attack Bit. Beyblade Wiki notes the jumping behavior is most consistent with an angled launch, but the Bit's low stamina and unpredictable movement make it unreliable for competitive play. It can deliver explosive early hits, yet it is heavily outclassed by Rush and Low Rush for consistent attack performance. Best treated as a fun collector's piece rather than a tournament staple.",
+      "de": "Quake ist ein gimmick-lastiger Attack-Bit. Das Beyblade Wiki vermerkt, dass das Sprungverhalten bei schrägem Launch am konstantesten ist, aber die geringe Ausdauer und die unvorhersehbare Bewegung machen ihn im kompetitiven Spiel unzuverlässig. Er kann explosive frühe Treffer landen, wird aber für konsistente Attack-Performance deutlich von Rush und Low Rush übertroffen. Am besten als spaßiges Sammlerstück betrachtet, nicht als Turnier-Grundpfeiler."
     },
     "officialStats": {
       "heightMm": 2.5,
@@ -568,7 +578,8 @@
       "stamina": 0.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-metal-needle",
@@ -606,18 +617,18 @@
     "name": "Unite",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-unite.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-06-15",
+    "releaseWave": "BX-33",
     "description": {
-      "en": "The Unite Bit.",
-      "de": "Der Unite-Bit."
+      "en": "A right-spin Balance Type Bit first released in BX-33 Weiss Tiger 3-60U. It features a ball-shaped tip with a flat underside and a small central point. The design is intended to start aggressive and transition to semi-mobile behavior, behaving similarly to Taper but with a wider ball shape. Weighs about 2.1 grams.",
+      "de": "Ein rechtsdrehender Balance-Typ-Bit, erstmals im BX-33 Weiss Tiger 3-60U veröffentlicht. Er verfügt über eine kugelförmige Spitze mit einer flachen Unterseite und einem kleinen zentralen Punkt. Das Design soll aggressiv starten und dann in ein semi-mobiles Verhalten übergehen, ähnlich wie Taper, aber mit einer breiteren Kugelform. Wiegt etwa 2,1 Gramm."
     },
     "assessment": {
-      "en": "Unite is a right-spin Balance Type Bit. Weight: 2.1g. Height: 1.5mm. Manufactured by Takara Tomy.",
-      "de": "Unite ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.1g. Höhe: 1.5mm. Hergestellt von Takara Tomy."
+      "en": "Unite is a hybrid Balance Bit that sits between Taper, Point and Ball. BeyBase calls it a great Taper alternative, finding a home in the same flexible roles. It offers a blend of defense and mobility, but it does not dominate any single role. The stock combination with Weiss Tiger has good synergy, though Unite is generally not a top-tier competitive choice on its own. Community assessment.",
+      "de": "Unite ist ein hybrider Balance-Bit zwischen Taper, Point und Ball. BeyBase bezeichnet ihn als großartige Taper-Alternative, die dieselben flexiblen Rollen einnimmt. Er bietet eine Mischung aus Verteidigung und Mobilität, dominiert aber keine einzelne Rolle. Die Stock-Kombination mit Weiss Tiger hat gute Synergie, obwohl Unite allein in der Regel keine Top-Tier-Wahl ist. Community-Einschätzung."
     },
     "officialStats": {
-      "heightMm": 1.5,
+      "heightMm": 2.95,
       "weightGrams": 2.1,
       "typeTag": "Balance",
       "spinDirection": "right"
@@ -628,7 +639,8 @@
       "stamina": 2.3,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-cyclone",
@@ -636,29 +648,30 @@
     "name": "Cyclone",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-cyclone.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-07-13",
+    "releaseWave": "BX-34",
     "description": {
-      "en": "The Cyclone Bit.",
-      "de": "Der Cyclone-Bit."
+      "en": "A left-spin Attack Type Bit first released with the BX-34 Cobalt Dragoon 2-60C Starter. Its tip is a flat, spiral-shaped surface that spins counter-clockwise, clearly reminiscent of the Left Flat tip from the Metal Fight generation. The wide shaft increases burst resistance, while the aggressive spiral pattern pushes the Bey toward the X-Line for Xtreme Dash attacks. Height: 29.5mm. Weight: about 2.2g.",
+      "de": "Ein linksdrehender Attack-Typ Bit, erstmals mit dem BX-34 Cobalt Dragoon 2-60C Starter veröffentlicht. Seine Spitze ist eine flache, spiralförmige Oberfläche, die sich gegen den Uhrzeigersinn dreht und deutlich an die Left-Flat-Spitze aus der Metal-Fight-Generation erinnert. Der breite Schaft erhöht die Burst-Resistenz, während das aggressive Spiral-Muster den Bey zur X-Line drängt, um Xtreme-Dash-Angriffe auszuführen. Höhe: 29,5mm. Gewicht: etwa 2,2g."
     },
     "assessment": {
-      "en": "Cyclone is a right-spin Attack Type Bit. Weight: 2.1g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Cyclone ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.1g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Cyclone is the signature Bit of Cobalt Dragoon and one of the easiest aggressive Bits to control. It trades almost all stamina for speed, so the Bey must finish the match quickly. Beyblade Wiki notes that repeated X-Line contacts can dent the spiral tip, so competitive players keep spare copies. For pure competitive Attack it is outclassed by Rush and Low Rush, but it remains a fun and accessible choice for left-spin aggression. Community assessment.",
+      "de": "Cyclone ist der Signature-Bit von Cobalt Dragoon und einer der leichtesten kontrollierbaren aggressiven Bits. Er tauscht fast die gesamte Ausdauer für Geschwindigkeit ein, sodass der Bey den Kampf schnell beenden muss. Das Beyblade Wiki vermerkt, dass wiederholte X-Line-Kontakte die Spiralspitze eindellen können, daher halten kompetitive Spieler Ersatzkopen bereit. Für reinen kompetitiven Attack wird er von Rush und Low Rush übertroffen, aber er bleibt eine spaßige und zugängliche Wahl für linksdrehende Aggression. Community-Einschätzung."
     },
     "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 2.1,
+      "heightMm": 29.5,
+      "weightGrams": 2.2,
       "typeTag": "Attack",
-      "spinDirection": "right"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 0.4,
-      "stamina": 0.8,
-      "balance": 1.6
+      "attack": 4,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-dot",
@@ -666,27 +679,27 @@
     "name": "Dot",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-dot.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-07-13",
+    "releaseWave": "BX-35",
     "description": {
-      "en": "The Dot Bit.",
-      "de": "Der Dot-Bit."
+      "en": "A right-spin Defense Type Bit first released with Black Shell 4-60D in BX-35 Random Booster Vol. 4. Dot is shaped similarly to Needle, but its conical tip is covered with small raised dots. These dots increase friction against the stadium floor, giving the Bit more mobility and counter-attack potential than a pure stationary Defense tip, while also making its movement erratic and unpredictable. Height: 29.5mm. Weight: about 2.2g.",
+      "de": "Ein rechtsdrehender Defense-Typ Bit, erstmals mit Black Shell 4-60D im BX-35 Random Booster Vol. 4 veröffentlicht. Dot ist geformt wie Needle, aber seine konische Spitze ist mit kleinen Erhebungen bedeckt. Diese Punkte erhöhen die Reibung am Stadionboden, geben dem Bit mehr Mobilität und Gegenangriffspotenzial als eine reine stationäre Defense-Spitze, machen seine Bewegung aber auch erratisch und unvorhersehbar. Höhe: 29,5mm. Gewicht: etwa 2,2g."
     },
     "assessment": {
-      "en": "Dot is a right-spin Defense Type Bit. Weight: 2.2g. Height: 2mm. Debuted with BX-35 Random Booster Vol. 4 Black Shell 4-60D. Manufactured by Takara Tomy.",
-      "de": "Dot ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2.2g. Höhe: 2mm. Debüt mit BX-35 Random Booster Vol. 4 Black Shell 4-60D. Hergestellt von Takara Tomy."
+      "en": "Dot is a quirky Defense Bit. The dotted tip can create sudden circular accelerations and counter-attack chances when launched hard or tilted, but it lacks the stability and stamina of top-tier options like Wedge, Needle or High Needle. Beyblade Wiki notes it is easy to destabilize and outclassed competitively, though it remains fun to experiment with in casual play. Community assessment.",
+      "de": "Dot ist ein eigenwilliger Defense-Bit. Die gepunktete Spitze kann bei hartem oder schrägem Launch plötzliche kreisförmige Beschleunigungen und Gegenangriffschancen erzeugen, aber ihr fehlt die Stabilität und Ausdauer von Top-Tier-Optionen wie Wedge, Needle oder High Needle. Das Beyblade Wiki vermerkt, dass er leicht zu destabilisieren und kompetitiv übertroffen ist, obwohl er im Casual-Play zum Experimentieren Spaß macht. Community-Einschätzung."
     },
     "officialStats": {
-      "heightMm": 2,
+      "heightMm": 29.5,
       "weightGrams": 2.2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 4.6,
-      "stamina": 1.7,
-      "balance": 2.4
+      "attack": 1.5,
+      "defense": 3.5,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -727,29 +740,30 @@
     "name": "Elevate",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-elevate.png",
-    "releaseDate": "",
+    "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
-      "en": "The Elevate Bit.",
-      "de": "Der Elevate-Bit."
+      "en": "Elevate is a right-spin Balance Type Bit built around a wide flat tip with a thin central protrusion and a surrounding disc. The wide base gives the combination excellent stability and L.A.D. potential: when the Bey tilts, it can keep spinning on the disc instead of scraping the stadium floor. During Xtreme Dashes the disc lifts the combination, enabling slower but posture-safe attacks from above. These traits make Elevate the premier choice for Spin-Steal/Spin-Equalization combos, most famously Cobalt Dragoon 5-60 Elevate. The trade-off is poor Burst resistance: Elevate lacks the widened shaft found on other Balance Bits, and its tall Xtreme-Dash posture can self-Burst. A must-have competitive Bit, but launch control matters.",
+      "de": "Elevate ist ein rechtsdrehender Balance-Type-Bit, der auf einer breiten flachen Spitze mit einem dünnen zentralen Vorsprung und einer umgebenden Scheibe basiert. Die breite Basis verleiht der Kombination exzellente Stabilität und L.A.D.-Potenzial: Wenn der Bey sich neigt, kann er auf der Scheibe weiterdrehen, anstatt den Stadium-Boden zu schleifen. Während Xtreme Dashes hebt die Scheibe die Kombination an, was langsamere, aber haltungssichere Attacken von oben ermöglicht. Diese Eigenschaften machen Elevate zur ersten Wahl für Spin-Steal-/Spin-Equalization-Kombinationen, am bekanntesten Cobalt Dragoon 5-60 Elevate. Der Nachteil ist die geringe Burst-Resistenz: Elevate verzichtet auf den verbreiterten Schaft anderer Balance-Bits, und die hohe Xtreme-Dash-Haltung kann Selbst-Bursts verursachen. Ein Must-Have-Bit für den Wettkampf, aber die Launch-Kontrolle ist entscheidend."
     },
     "assessment": {
-      "en": "Elevate is a right-spin Balance Type Bit. Weight: 3.2g. Height: 1.5mm. Manufactured by Takara Tomy.",
-      "de": "Elevate ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 3.2g. Höhe: 1.5mm. Hergestellt von Takara Tomy."
+      "en": "Elevate is one of the most influential Bits in competitive Beyblade X. Its stability and L.A.D. enable top-tier Spin-Equalization builds, but the weak Burst resistance demands careful launching. Essential for any serious collection.",
+      "de": "Elevate ist einer der einflussreichsten Bits im kompetitiven Beyblade X. Seine Stabilität und sein L.A.D. ermöglichen Top-Tier-Spin-Equalization-Builds, aber die schwache Burst-Resistenz erfordert vorsichtiges Launching. Ein Muss für jede ernsthafte Sammlung."
     },
     "officialStats": {
-      "heightMm": 1.5,
+      "heightMm": 29,
       "weightGrams": 3.2,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 1.3,
-      "stamina": 1.5,
-      "balance": 1.8
+      "attack": 2.5,
+      "defense": 0.5,
+      "stamina": 3.5,
+      "balance": 4.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-free-ball",
@@ -787,29 +801,30 @@
     "name": "Trans Point",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-trans-point.png",
-    "releaseDate": "",
+    "releaseDate": "2024-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The Trans Point Bit.",
-      "de": "Der Trans Point-Bit."
+      "en": "Trans Point is a right-spin Balance Type Bit and a Trans variant of Point. A plastic guard above the tip allows the combination to be set in High or Low Mode before the battle, changing the height by roughly 1 mm. During Xtreme Dashes the guard can rotate and switch modes. The tip is smaller in diameter than standard Point, making Trans Point easier to control and fairly stationary when launched flat, but it can accelerate when launched at an angle. Xtreme Dash attacks are inconsistent: in Low Mode the guard can get stuck and skip the X-Line or produce a self-KO-prone burst of speed, while High Mode generally produces smoother attacks.",
+      "de": "Trans Point ist ein rechtsdrehender Balance-Type-Bit und eine Trans-Variante von Point. Ein Plastik-Schutz über der Spitze ermöglicht es, die Kombination vor dem Kampf in High- oder Low-Mode zu setzen und die Höhe um etwa 1 mm zu verändern. Während Xtreme Dashes kann sich der Schutz drehen und den Modus wechseln. Die Spitze hat einen kleineren Durchmesser als der Standard-Point, wodurch Trans Point leichter zu kontrollieren und bei flachem Launch recht stationär ist, aber bei schrägem Launch beschleunigen kann. Xtreme-Dash-Attacken sind inkonsistent: Im Low-Mode kann sich der Schutz verklemmen, die X-Line überspringen oder einen selbst-KO-fördernden Geschwindigkeitsschub erzeugen, während der High-Mode im Allgemeinen glattere Attacken liefert."
     },
     "assessment": {
-      "en": "Trans Point is a right-spin Balance Type Bit. Weight: 2.2g. Height: 1mm. Manufactured by Takara Tomy.",
-      "de": "Trans Point ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.2g. Höhe: 1mm. Hergestellt von Takara Tomy."
+      "en": "Trans Point is a fun gimmick Bit with real adaptability on paper, but the mode-switching is too inconsistent for reliable competitive play. It works best as a casual experiment or collection piece.",
+      "de": "Trans Point ist ein lustiger Gimmick-Bit mit theoretischer Anpassungsfähigkeit, aber der Moduswechsel ist zu inkonsistent für zuverlässiges kompetitives Spiel. Er funktioniert am besten als Casual-Experiment oder Sammlerstück."
     },
     "officialStats": {
-      "heightMm": 1,
+      "heightMm": 28.5,
       "weightGrams": 2.2,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.2,
-      "defense": 2.1,
-      "stamina": 1.9,
-      "balance": 2.4
+      "attack": 2.5,
+      "defense": 1.5,
+      "stamina": 2.5,
+      "balance": 3.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-level",
@@ -847,29 +862,30 @@
     "name": "Bound Spike",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-bound-spike.png",
-    "releaseDate": "",
+    "releaseDate": "2024-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The Bound Spike Bit.",
-      "de": "Der Bound Spike-Bit."
+      "en": "Bound Spike is a right-spin Defense Type Bit and a variant of Spike. A very small, sharp tip barely protrudes from a wider base, so the combo can suddenly accelerate when tilted or launched at an angle. The shaft is retractable, meant to cushion landings and attacks from above, but in practice this makes the combination taller and reduces Burst resistance. The result is an unpredictable Bit that alternates between stationary and aggressive behavior.",
+      "de": "Bound Spike ist ein rechtsdrehender Defense-Type-Bit und eine Variante von Spike. Eine sehr kleine, spitze Spitze ragt kaum aus einer breiteren Basis heraus, sodass der Combo beim Neigen oder bei schrägem Launch plötzlich beschleunigen kann. Der Schaft ist einziehbar und soll Landungen und Attacken von oben dämpfen, macht die Kombination in der Praxis aber höher und reduziert die Burst-Resistenz. Das Ergebnis ist ein unvorhersehbarer Bit, der zwischen stationärem und aggressivem Verhalten wechselt."
     },
     "assessment": {
-      "en": "Bound Spike is a right-spin Defense Type Bit. Weight: 2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Bound Spike ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Bound Spike has a fun gimmick, but the retracting shaft hurts Burst safety and the sudden accelerations make it hard to control. It is not recommended for serious competitive play.",
+      "de": "Bound Spike hat ein lustiges Gimmick, aber der einziehbare Schaft schadet der Burst-Sicherheit und die plötzlichen Beschleunigungen machen ihn schwer kontrollierbar. Er ist für ernsthaftes kompetitives Spiel nicht empfohlen."
     },
     "officialStats": {
-      "heightMm": 2,
+      "heightMm": 29.5,
       "weightGrams": 2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.5,
-      "defense": 5,
-      "stamina": 2.3,
-      "balance": 2.6
+      "attack": 1.0,
+      "defense": 3.0,
+      "stamina": 1.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-rubber-accel",
@@ -1207,29 +1223,30 @@
     "name": "Merge",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-merge.png",
-    "releaseDate": "",
+    "releaseDate": "2025-08-09",
     "releaseWave": "BX",
     "description": {
-      "en": "The Merge Bit.",
-      "de": "Der Merge-Bit."
+      "en": "Merge is a right-spin Balance Type Bit and currently the tallest Bit in Beyblade X at 33.5 mm. It features a small rubber ring around a sharp plastic center tip, plus a widened shaft for better Burst resistance. When launched flat, the sharp tip keeps the combo stationary; when tilted or struck, the rubber ring grips the stadium floor and creates aggressive movement. Merge has 18 taller gears instead of the usual 12, which can produce fast Xtreme Dashes but makes riding the X-Line smoothly harder. The extreme height, poor stamina and easy destabilization make it a risky, gimmicky choice.",
+      "de": "Merge ist ein rechtsdrehender Balance-Type-Bit und mit 33,5 mm aktuell der höchste Bit in Beyblade X. Er verfügt über einen kleinen Gummiring um eine spitze Plastikzentrierspitze sowie einen verbreiterten Schaft für bessere Burst-Resistenz. Bei flachem Launch hält die spitze Spitze den Combo stationär; bei Schräglage oder Treffern greift der Gummiring den Stadionboden und erzeugt aggressives Movement. Merge hat 18 höhere Zahnräder statt der üblichen 12, was schnelle Xtreme Dashes ermöglicht, aber das gleichmäßige Fahren der X-Line erschwert. Die extreme Höhe, die schwache Ausdauer und die leichte Destabilisierung machen ihn zu einer riskanten, gimmicklastigen Wahl."
     },
     "assessment": {
-      "en": "Merge is a right-spin Balance Type Bit. Weight: 3.4g. Height: 6mm. Manufactured by Takara Tomy.",
-      "de": "Merge ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 3.4g. Höhe: 6mm. Hergestellt von Takara Tomy."
+      "en": "Merge is a fun but flawed Bit. The tall height can strike over low opponents, but the poor stamina and stability make it easy to knock out. It is outclassed for competitive use and best treated as a collection piece.",
+      "de": "Merge ist ein lustiger, aber fehlerhafter Bit. Die große Höhe kann über niedrige Gegner hinwegschlagen, aber die schwache Ausdauer und Stabilität machen ihn leicht zu knockouten. Er ist für kompetitives Spiel übertroffen und am besten als Sammlerstück zu betrachten."
     },
     "officialStats": {
-      "heightMm": 6,
+      "heightMm": 33.5,
       "weightGrams": 3.4,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.5,
-      "defense": 1.7,
-      "stamina": 0.8,
-      "balance": 2.3
+      "attack": 3.0,
+      "defense": 1.0,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-under-flat",
@@ -1446,28 +1463,29 @@
     "name": "Free Flat",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-free-flat.png",
-    "releaseDate": "",
+    "releaseDate": "2026-05-16",
     "releaseWave": "BX",
     "description": {
-      "en": "The Free Flat Bit.",
-      "de": "Der Free Flat-Bit."
+      "en": "Free Flat is a right-spin Attack Type Bit that debuted with BX-49 DranStrike 4-50FF. It features a flat tip with a shallow circular center indentation, identical in shape to the standard Flat Bit. The key difference is the modified shaft, which allows the Bit to spin freely relative to the Ratchet. This reduces stamina loss during Xtreme Dashes and keeps the combination aggressive longer into the battle.",
+      "de": "Free Flat ist ein rechtsdrehender Attack-Type-Bit, der mit BX-49 DranStrike 4-50FF debütierte. Er verfügt über eine flache Spitze mit einer flachen kreisförmigen Eindellung in der Mitte, identisch in der Form mit dem Standard-Flat-Bit. Der entscheidende Unterschied ist der modifizierte Schaft, der es dem Bit erlaubt, sich relativ zum Ratchet frei zu drehen. Dies reduziert den Ausdauerverlust während Xtreme Dashes und hält den Combo länger aggressiv im Kampf."
     },
     "assessment": {
-      "en": "Free Flat is a right-spin Attack Type Bit. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Free Flat ist ein rechtsdrehender Attack-Typ Bit. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Free Flat is an upgraded Flat Bit for aggressive Attack combos. The free-spinning shaft preserves stamina during Xtreme Dashes, making it more effective in longer fights than the standard Flat Bit, though it still suffers from the low stamina typical of Attack Bits.",
+      "de": "Free Flat ist ein verbessertes Flat-Bit für aggressive Attack-Combos. Der frei drehbare Schaft erhält Ausdauer während Xtreme Dashes, was ihn in längeren Kämpfen effektiver macht als das Standard-Flat-Bit, obwohl er immer noch unter der typisch geringen Ausdauer von Attack-Bits leidet."
     },
     "officialStats": {
-      "heightMm": 2,
+      "heightMm": 29.5,
       "typeTag": "Attack",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 1.3,
-      "stamina": 1.2,
-      "balance": 2
+      "attack": 4.0,
+      "defense": 1.0,
+      "stamina": 1.5,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-disk-spike",
@@ -1747,26 +1765,26 @@
     "name": "Spike",
     "manufacturer": "Hasbro",
     "imageUrl": "images/bits/bit-spike-hasbro.png",
-    "releaseDate": "2023-09-09",
+    "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The Spike Bit.",
-      "de": "Der Spike-Bit."
+      "en": "The Hasbro version of Spike. A right-spin Defense Type Bit with a small, sharp cone-shaped plastic tip. The tiny contact patch creates very low friction, giving it high stamina potential but also making it prone to slipping and knockout if the launch is unstable.",
+      "de": "Die Hasbro-Version von Spike. Ein rechtsdrehender Defense-Typ Bit mit einer kleinen, scharfen kunststoffenen Kegelspitze. Die winzige Auflagefläche erzeugt sehr geringe Reibung, was ihm hohes Stamina-Potenzial verleiht, aber auch dazu neigt, bei instabilem Launch wegzurutschen oder aus dem Stadion zu fliegen."
     },
     "assessment": {
-      "en": "Spike is a right-spin Defense Type Bit. Weight: 2.0g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Spike ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2.0g. Höhe: 2mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Spike mirrors the Takara Tomy release. It offers stamina potential comparable to High Needle and Ball and stays docile in the center, but its tiny tip provides poor knockout resistance and can wear quickly. A niche alternative to Needle for casual play, but outclassed competitively.",
+      "de": "Hasbros Spike spiegelt die Takara-Tomy-Version. Er bietet Stamina-Potenzial vergleichbar mit High Needle und Ball und bleibt in der Mitte zahm, aber seine winzige Spitze bietet schlechten KO-Widerstand und kann sich schnell abnutzen. Eine Nischen-Alternative zu Needle für Casual-Play, aber kompetitiv überholt."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 1.95,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 3.8,
-      "stamina": 2.7,
+      "attack": 1,
+      "defense": 3.5,
+      "stamina": 3,
       "balance": 2.5
     },
     "ratingsDisclaimer": true,
@@ -1781,12 +1799,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Low Flat Bit.",
-      "de": "Der Low Flat-Bit."
+      "en": "The Hasbro version of Low Flat. A low, right-spin Attack Type Bit with a perfectly flat, round tip and no central indentation. The 1 mm height and wide shaft create extremely high friction and aggressive movement, while the wide shaft improves burst resistance. Like the Takara Tomy version, the tip and gears wear with repeated Xtreme Dash use.",
+      "de": "Die Hasbro-Version von Low Flat. Ein niedriger, rechtsdrehender Attack-Typ Bit mit einer völlig flachen, runden Spitze ohne zentrale Eindellung. Die 1 mm Höhe und der breite Schaft erzeugen extrem hohe Reibung und aggressive Bewegung, während der breite Schaft die Burst-Resistenz verbessert. Wie bei der Takara-Tomy-Version verschleißen Spitze und Zahnräder bei wiederholtem Xtreme-Dash-Einsatz."
     },
     "assessment": {
-      "en": "Low Flat is a right-spin Attack Type Bit. Weight: 2.1g. Height: 1mm. Manufactured by Hasbro.",
-      "de": "Low Flat ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.1g. Höhe: 1mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Low Flat performs identically to the Takara Tomy release. It is the most aggressive early Attack Bit and demands an early burst or knockout. Keep spare copies because the flat tip wears quickly.",
+      "de": "Hasbros Low Flat spielt identisch zur Takara-Tomy-Version. Es ist das aggressivste frühe Attack-Bit und verlangt einen frühen Burst oder Knockout. Ersatzkopen sind ratsam, da sich die flache Spitze schnell abnutzt."
     },
     "officialStats": {
       "heightMm": 1,
@@ -1795,12 +1813,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.1,
-      "defense": 0.4,
-      "stamina": 0.8,
-      "balance": 1.8
+      "attack": 5,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-high-needle-hasbro",
@@ -1841,12 +1860,12 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "The Point Bit.",
-      "de": "Der Point-Bit."
+      "en": "The Hasbro version of Point. A right-spin Balance Type Bit built around a small central ball tip barely protruding from a thin flat ring. Its behavior is launch-dependent: a flat launch settles on the ball for stationary Stamina/Defense play, while a tilted launch lands on the flat ring for aggressive movement and Xtreme Dash. The wider shaft gives it solid burst resistance.",
+      "de": "Die Hasbro-Version von Point. Ein rechtsdrehender Balance-Typ Bit, der um eine kleine zentrale Kugelspitze aufgebaut ist, die kaum aus einem dünnen flachen Ring herausragt. Sein Verhalten hängt vom Launch ab: Ein flacher Launch lässt ihn auf der Kugel landen für stationären Stamina/Defense-Play, während ein schräger Launch auf dem flachen Ring landet für aggressive Bewegung und Xtreme Dash. Der breitere Schaft bietet solide Burst-Resistenz."
     },
     "assessment": {
-      "en": "Point is a right-spin Balance Type Bit. Weight: 2.2g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Point ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.2g. Höhe: 2mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Point performs identically to the Takara Tomy release. It is a versatile but demanding Bit that works as a safer Attack alternative to Flat or Low Flat and as a mobile Defense option on round Blades. Launch technique determines everything.",
+      "de": "Hasbros Point spielt identisch zur Takara-Tomy-Version. Er ist ein vielseitiges, aber anspruchsvolles Bit, das als sicherere Attack-Alternative zu Flat oder Low Flat und als mobile Defense-Option auf runden Blades funktioniert. Die Launch-Technik bestimmt alles."
     },
     "officialStats": {
       "heightMm": 2,
@@ -1855,12 +1874,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.3,
-      "defense": 2.1,
-      "stamina": 1.9,
-      "balance": 2.1
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-accel-hasbro",
@@ -1931,12 +1951,12 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The Rush Bit.",
-      "de": "Der Rush-Bit."
+      "en": "The Hasbro version of Rush. A right-spin Attack Type Bit with a round, flat tip that is narrower than Flat or Low Flat, creating less friction with the stadium floor. Its gear design uses ten shorter gears, reducing Xtreme Dash acceleration slightly but allowing the combination to ride the X-Line more often and more predictably.",
+      "de": "Die Hasbro-Version von Rush. Ein rechtsdrehender Attack-Typ Bit mit einer runden, flachen Spitze, die schmaler ist als Flat oder Low Flat und weniger Reibung am Stadionboden erzeugt. Sein Zahnrad-Design verwendet zehn kürzere Zahnräder, was Xtreme-Dash-Beschleunigung leicht reduziert, aber der Kombination erlaubt, die X-Line häufiger und vorhersehbarer zu fahren."
     },
     "assessment": {
-      "en": "Rush is a right-spin Attack Type Bit. Weight: 2.1g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Rush ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.1g. Höhe: 2mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Rush performs identically to the Takara Tomy release. It is a control-oriented Attack Bit that sacrifices a little raw power for more consistent Xtreme Dashes and fewer self-knockouts, making it a staple in competitive Attack decks.",
+      "de": "Hasbros Rush spielt identisch zur Takara-Tomy-Version. Er ist ein kontrollorientierter Attack-Bit, der etwas rohe Kraft für konsistentere Xtreme Dashes und weniger Selbst-Knockouts opfert, was ihn zu einem Grundpfeiler kompetitiver Attack-Decks macht."
     },
     "officialStats": {
       "heightMm": 2,
@@ -1945,12 +1965,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 0.8,
-      "stamina": 1.5,
-      "balance": 2
+      "attack": 4,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-metal-needle-hasbro",
@@ -2107,29 +2128,30 @@
     "name": "Gear Ball",
     "manufacturer": "Hasbro",
     "imageUrl": "images/bits/bit-gear-ball-hasbro.png",
-    "releaseDate": "",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Gear Ball Bit.",
-      "de": "Der Gear Ball-Bit."
+      "en": "The Hasbro release of Gear Ball. A right-spin Stamina Type Bit with extended gear teeth covering most of the spherical tip. The round tip creates controlled circular movement, while the gears make X-Line engagement easier and Xtreme Dash more aggressive than standard Ball.",
+      "de": "Die Hasbro-Veröffentlichung von Gear Ball. Ein rechtsdrehender Stamina-Typ Bit mit verlängerten Zahnradzähnen, die den Großteil der kugelförmigen Spitze bedecken. Die runde Spitze erzeugt kontrollierte Kreisbewegungen, während die Zahnräder den X-Line-Eingriff erleichtern und den Xtreme Dash aggressiver machen als beim Standard-Ball."
     },
     "assessment": {
-      "en": "Gear Ball is a right-spin Stamina Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Gear Ball ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 2g. Höhe: 2mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Gear Ball offers the same hybrid behavior as the Takara Tomy release: decent stamina and stability from the round tip, but with added aggression and stamina drain from the extended gears. Casual players may enjoy the extra movement, while competitive stamina builders usually stick to Ball or Orb for consistency.",
+      "de": "Hasbros Gear Ball bietet dasselbe hybride Verhalten wie die Takara-Tomy-Version: anständige Ausdauer und Stabilität durch die runde Spitze, aber mit zusätzlicher Aggression und Ausdauerverlust durch die verlängerten Zahnräder. Casual-Spieler mögen die zusätzliche Bewegung genießen, während kompetitive Stamina-Builder meist bei Ball oder Orb für Konsistenz bleiben."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2,
+      "weightGrams": 2.06,
       "typeTag": "Stamina",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 1.3,
+      "attack": 1.5,
+      "defense": 1.5,
       "stamina": 3.5,
-      "balance": 1.9
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-vortex-hasbro",
@@ -2261,12 +2283,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The Orb Bit.",
-      "de": "Der Orb-Bit."
+      "en": "The Hasbro release of Orb, a right-spin Stamina Type Bit with a hemispherical tip. Like the Takara Tomy version, it has a smaller contact patch than Ball for higher stamina and better knock-out resistance.",
+      "de": "Die Hasbro-Veröffentlichung von Orb, ein rechtsdrehender Stamina-Typ-Bit mit halbkugelförmiger Spitze. Wie die Takara-Tomy-Version hat er eine kleinere Auflagefläche als Ball für höhere Ausdauer und besseren Knockout-Widerstand."
     },
     "assessment": {
-      "en": "Orb is a right-spin Stamina Type Bit. Weight: 2g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Orb ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 2g. Höhe: 2mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Orb performs like the Takara Tomy original. The reduced contact area gives it better stamina and KO resistance than Ball, making it a reliable choice for stationary Stamina builds that aim to outspin opponents rather than fight them directly.",
+      "de": "Hasbros Orb spielt wie das Takara-Tomy-Original. Die reduzierte Auflagefläche verleiht ihm bessere Ausdauer und KO-Widerstand als Ball, was ihn zu einer verlässlichen Wahl für stationäre Stamina-Builds macht, die darauf abzielen, Gegner auszudrehen, anstatt direkt zu kämpfen."
     },
     "officialStats": {
       "heightMm": 2,
@@ -2280,7 +2302,8 @@
       "stamina": 3.8,
       "balance": 2.4
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-dot-hasbro",
@@ -2349,18 +2372,18 @@
     "name": "Unite",
     "manufacturer": "Hasbro",
     "imageUrl": "images/bits/bit-unite-hasbro.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-06-15",
+    "releaseWave": "BX-33",
     "description": {
-      "en": "The Unite Bit.",
-      "de": "Der Unite-Bit."
+      "en": "The Hasbro release of Unite, a right-spin Balance Type Bit with a ball-shaped tip and flat underside. Like the Takara Tomy version, it behaves similarly to Taper but with a wider ball shape, offering a mix of early aggression and semi-mobile control.",
+      "de": "Die Hasbro-Veröffentlichung von Unite, ein rechtsdrehender Balance-Typ-Bit mit kugelförmiger Spitze und flacher Unterseite. Wie die Takara-Tomy-Version verhält er sich ähnlich wie Taper, aber mit einer breiteren Kugelform, und bietet eine Mischung aus früher Aggression und semi-mobilem Kontrolle."
     },
     "assessment": {
-      "en": "Unite is a right-spin Balance Type Bit. Weight: 2.1g. Height: 1.5mm. Manufactured by Hasbro.",
-      "de": "Unite ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.1g. Höhe: 1.5mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Unite performs like the Takara Tomy original: a flexible Balance Bit that works as a Taper alternative, blending offense and defense without dominating either. It is a useful utility Bit for balance-focused builds, though not a top-tier competitive choice on its own.",
+      "de": "Hasbros Unite spielt wie das Takara-Tomy-Original: ein flexibler Balance-Bit, der als Taper-Alternative fungiert und Offensive und Verteidigung mischt, ohne eine Seite zu dominieren. Er ist ein nützlicher Utility-Bit für Balance-fokussierte Builds, wenn auch keine Top-Tier-Wahl für sich allein."
     },
     "officialStats": {
-      "heightMm": 1.5,
+      "heightMm": 2.95,
       "weightGrams": 2.1,
       "typeTag": "Balance",
       "spinDirection": "right"
@@ -2371,7 +2394,8 @@
       "stamina": 2.3,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-yielding-hasbro",
@@ -2438,29 +2462,30 @@
     "name": "Gear Flat",
     "manufacturer": "Hasbro",
     "imageUrl": "images/bits/bit-gear-flat-hasbro.png",
-    "releaseDate": "",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Gear Flat Bit.",
-      "de": "Der Gear Flat-Bit."
+      "en": "The Hasbro release of Gear Flat. A right-spin Attack Type Bit whose gear teeth extend down over the flat tip, widening the contact surface for more aggressive X-Line engagement and faster Xtreme Dash acceleration than a standard Flat Bit.",
+      "de": "Die Hasbro-Veröffentlichung von Gear Flat. Ein rechtsdrehender Attack-Typ Bit, dessen Zahnradzähne bis über die flache Spitze reichen und die Kontaktfläche verbreitern für aggressiveren X-Line-Eingriff und schnellere Xtreme-Dash-Beschleunigung als ein Standard-Flat-Bit."
     },
     "assessment": {
-      "en": "Gear Flat is a right-spin Attack Type Bit. Weight: 2.3g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Gear Flat ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.3g. Höhe: 2mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Gear Flat carries the same high-risk, high-reward identity as the Takara Tomy original. The extended gears produce violent, fast Xtreme Dashes that can delete opponents in one hit, yet the combo burns stamina quickly and self-KOs are common. Competitive use demands precise launch control and spare copies, because the tip wears fast against the X-Line.",
+      "de": "Hasbros Gear Flat trägt dieselbe High-Risk-High-Reward-Identität wie das Takara-Tomy-Original. Die verlängerten Zahnräder produzieren heftige, schnelle Xtreme Dashes, die Gegner in einem Treffer eliminieren können, aber das Combo brennt schnell durch die Ausdauer und Selbst-KOs sind häufig. Kompetitiver Einsatz erfordert präzise Launch-Kontrolle und Ersatzkopen, da sich die Spitze schnell an der X-Line abnutzt."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2.3,
+      "weightGrams": 2.25,
       "typeTag": "Attack",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.5,
-      "defense": 0.4,
-      "stamina": 0.4,
-      "balance": 1.8
+      "attack": 5,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-gear-needle-hasbro",
@@ -2498,15 +2523,15 @@
     "name": "Quake",
     "manufacturer": "Hasbro",
     "imageUrl": "images/bits/bit-quake-hasbro.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-11-16",
+    "releaseWave": "G1542",
     "description": {
-      "en": "The Quake Bit.",
-      "de": "Der Quake-Bit."
+      "en": "The Hasbro release of Quake, identical in shape to the Takara Tomy version. It is a right-spin Attack Type Bit with a slanted, asymmetrical tip that makes the Bey jump unpredictably during battle.",
+      "de": "Die Hasbro-Veröffentlichung von Quake, formgleich zur Takara-Tomy-Version. Es ist ein rechtsdrehender Attack-Typ-Bit mit einer schiefen, asymmetrischen Spitze, die den Bey im Kampf unvorhersehbar springen lässt."
     },
     "assessment": {
-      "en": "Quake is a right-spin Attack Type Bit. Weight: 2.2g. Height: 2.5mm. Manufactured by Hasbro.",
-      "de": "Quake ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.2g. Höhe: 2.5mm. Hergestellt von Hasbro."
+      "en": "Hasbro's Quake behaves like the Takara Tomy original: a fun but inconsistent Attack Bit that jumps when launched at an angle. Its low stamina and unpredictable movement keep it out of the competitive meta, where Rush and Low Rush are preferred.",
+      "de": "Hasbros Quake verhält sich wie das Takara-Tomy-Original: ein spaßiger, aber inkonsistenter Attack-Bit, der bei schrägem Launch springt. Seine geringe Ausdauer und unvorhersehbare Bewegung halten ihn außerhalb des kompetitiven Metas, in dem Rush und Low Rush bevorzugt werden."
     },
     "officialStats": {
       "heightMm": 2.5,
@@ -2520,7 +2545,8 @@
       "stamina": 0.4,
       "balance": 2.2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-elevate-hasbro",
@@ -2591,26 +2617,27 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "The High Taper Bit.",
-      "de": "Der High Taper-Bit."
+      "en": "The Hasbro version of High Taper. A right-spin Balance Type Bit and the 1 mm taller variant of Taper, featuring a narrow circular flat tip with a shallow indentation that creates a second contact point. The wider shaft adds burst resistance compared to the original Taper.",
+      "de": "Die Hasbro-Version von High Taper. Ein rechtsdrehender Balance-Typ Bit und die um 1 mm höhere Variante von Taper mit einer schmalen, runden flachen Spitze und einer flachen Eindellung, die einen zweiten Kontaktpunkt schafft. Der breitere Schaft bietet mehr Burst-Resistenz als der ursprüngliche Taper."
     },
     "assessment": {
-      "en": "High Taper is a right-spin Balance Type Bit. Weight: 2.2g. Height: 3mm. Manufactured by Hasbro.",
-      "de": "High Taper ist ein rechtsdrehender Balance-Typ Bit. Gewicht: 2.2g. Höhe: 3mm. Hergestellt von Hasbro."
+      "en": "Hasbro's High Taper mirrors the Takara Tomy release. It offers a true Balance identity: enough mobility for attack-oriented Blades, but with more control and stamina than pure Attack Bits. A solid choice when a taller, safer Balance driver is needed.",
+      "de": "Hasbros High Taper spiegelt die Takara-Tomy-Version. Er bietet eine echte Balance-Identität: genug Mobilität für angriffsorientierte Blades, aber mit mehr Kontrolle und Ausdauer als reine Attack-Bits. Eine solide Wahl, wenn ein höherer, sicherer Balance-Driver benötigt wird."
     },
     "officialStats": {
       "heightMm": 3,
-      "weightGrams": 2.2,
+      "weightGrams": 2.28,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.7,
-      "defense": 2.1,
+      "attack": 2.5,
+      "defense": 2.5,
       "stamina": 1.5,
-      "balance": 2.1
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-low-rush-hasbro",

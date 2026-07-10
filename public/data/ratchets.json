@@ -8,12 +8,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The 3-60 Ratchet.",
-      "de": "Das 3-60-Ratchet."
+      "en": "A low right-spin Ratchet with three teeth and a 6mm height. Its compact profile pairs well with aggressive Bits, keeping the Bey close to the stadium floor for stable movement and reliable Xtreme Dash engagement.",
+      "de": "Ein niedriges, rechtsdrehendes Ratchet mit drei Zähnen und 6mm Höhe. Das kompakte Profil harmoniert gut mit aggressiven Bits und hält den Bey dicht am Stadionboden für stabile Bewegungen und zuverlässige Xtreme-Dash-Eingriffe."
     },
     "assessment": {
-      "en": "3-60 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 6mm. Manufactured by Takara Tomy.",
-      "de": "3-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 6mm. Hergestellt von Takara Tomy."
+      "en": "3-60 is a versatile starter Ratchet. Its low height helps attack combinations stay planted, though later Ratchets such as 1-60 and 4-60 offer more specialized weight distribution for competitive builds.",
+      "de": "3-60 ist ein vielseitiges Starter-Ratchet. Die geringe Höhe hilft Angriffskombinationen, bodennah zu bleiben, während spätere Ratchets wie 1-60 und 4-60 eine spezialisiertere Gewichtsverteilung für kompetitive Builds bieten."
     },
     "officialStats": {
       "heightMm": 6,
@@ -21,10 +21,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.2,
-      "defense": 2.4,
+      "attack": 4,
+      "defense": 2.5,
       "stamina": 2,
-      "balance": 2.9
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -37,12 +37,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The 3-80 Ratchet.",
-      "de": "Das 3-80-Ratchet."
+      "en": "A tall right-spin Ratchet with three teeth and an 8mm height. The 3-80 Ratchet lifts the Bey away from the stadium floor, helping Defense and Stamina combinations avoid low attacks and maintain a centered posture during longer battles.",
+      "de": "Ein hohes, rechtsdrehendes Ratchet mit drei Zähnen und 8mm Höhe. Das 3-80 Ratchet hebt den Bey vom Stadionboden weg und hilft Defense- und Stamina-Kombinationen, niedrigen Angriffen auszuweichen und während längerer Kämpfe eine zentrierte Haltung zu bewahren."
     },
     "assessment": {
-      "en": "3-80 is a right-spin Balance Type Ratchet. Weight: 7.1g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "3-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.1g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "3-80's height is its defining trait. It pairs naturally with round Defense or Stamina Blades that want to avoid being scraped by lower Attack combos. The trade-off is increased exposure to upper-attack knockouts, so launch technique matters more than with shorter Ratchets.",
+      "de": "Die Höhe von 3-80 ist sein bestimmendes Merkmal. Es passt natürlich zu runden Defense- oder Stamina-Blades, die vermeiden wollen, von niedrigeren Attack-Kombos geschrammt zu werden. Der Nachteil ist eine erhöhte Anfälligkeit für Upper-Attack-KOs, sodass die Launch-Technik wichtiger ist als bei kürzeren Ratchets."
     },
     "officialStats": {
       "heightMm": 80,
@@ -50,10 +50,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.2,
-      "defense": 1.8,
-      "stamina": 2.7,
-      "balance": 2.9
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2.5,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -66,12 +66,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The 4-60 Ratchet.",
-      "de": "Das 4-60-Ratchet."
+      "en": "A right-spin Ratchet with four teeth and a 6mm height. The 4-60 Ratchet sits between offensive and defensive profiles, offering slightly more weight distribution toward the outside than 3-60. This makes it a natural partner for Balance and Stamina combinations that want extra stability without sacrificing too much mobility.",
+      "de": "Ein rechtsdrehendes Ratchet mit vier Zähnen und 6mm Höhe. Das 4-60 Ratchet liegt zwischen offensivem und defensivem Profil und bietet eine etwas weiter außen verteilte Gewichtsverteilung als 3-60. Das macht es zu einem natürlichen Partner für Balance- und Stamina-Kombinationen, die zusätzliche Stabilität wollen, ohne zu viel Mobilität zu opfern."
     },
     "assessment": {
-      "en": "4-60 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "4-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "4-60 is a dependable middle-ground Ratchet. It does not excel in any single role, but its balanced weight spread helps Stamina and Balance Blades stay upright longer. For pure Attack builds, lower or lighter Ratchets are usually preferred.",
+      "de": "4-60 ist ein verlässliches Mittelweg-Ratchet. Es glänzt in keiner einzelnen Rolle, aber die ausgewogene Gewichtsverteilung hilft Stamina- und Balance-Blades, länger aufrecht zu bleiben. Für reine Attack-Builds werden meist niedrigere oder leichtere Ratchets bevorzugt."
     },
     "officialStats": {
       "heightMm": 60,
@@ -79,10 +79,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.1,
-      "defense": 3.4,
+      "attack": 3,
+      "defense": 3.5,
       "stamina": 2,
-      "balance": 2.8
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -95,12 +95,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The 4-80 Ratchet.",
-      "de": "Das 4-80-Ratchet."
+      "en": "A four-toothed, high-rise Ratchet standing at 8mm. The 4-80 design raises the Bey above the stadium floor, giving Stamina and Defense combinations extra clearance to spin freely without scraping.",
+      "de": "Ein vierzähniges Hoch-Ratchet mit 8mm Höhe. Das 4-80-Design hebt den Bey über den Stadionboden und gibt Stamina- und Defense-Kombinationen zusätzlichen Freiraum, um frei zu rotieren, ohne aufzuschrammen."
     },
     "assessment": {
-      "en": "4-80 is a right-spin Balance Type Ratchet. Weight: 7g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "4-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "4-80 is the taller sibling of 4-60. The extra height is welcome for Stamina builds that want to avoid floor contact, but it can become a liability against Attack combos that exploit a higher center of gravity. A solid choice when paired with round, low-recoil Blades.",
+      "de": "4-80 ist das höhere Geschwister von 4-60. Die zusätzliche Höhe ist willkommen für Stamina-Builds, die Bodenkontakt vermeiden wollen, kann aber zur Schwäche gegen Attack-Kombos werden, die einen höheren Schwerpunkt ausnutzen. Eine solide Wahl in Kombination mit runden, rückstoßarmen Blades."
     },
     "officialStats": {
       "heightMm": 80,
@@ -108,10 +108,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.1,
-      "defense": 2.9,
-      "stamina": 2.7,
-      "balance": 2.9
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2.5,
+      "balance": 3
     },
     "ratingsDisclaimer": true
   },
@@ -124,12 +124,12 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "The 5-60 Ratchet.",
-      "de": "Das 5-60-Ratchet."
+      "en": "A low, right-spin Ratchet with five wide blades and a thicker outer locking piece than 3-60 or 4-60. The five 8mm-wide blades create a smoother perimeter that scrapes the stadium floor more evenly, improving stability for pointy Bits while adding extra weight for Defense-oriented combos.",
+      "de": "Ein niedriges, rechtsdrehendes Ratchet mit fünf breiten Blades und einem dickeren äußeren Verriegelungsteil als 3-60 oder 4-60. Die fünf 8 mm breiten Blades erzeugen einen glatteren Umfang, der den Stadionboden gleichmäßiger schrammt, die Stabilität für spitze Bits verbessert und zusätzliches Gewicht für defensorientierte Kombos bietet."
     },
     "assessment": {
-      "en": "5-60 is a right-spin Balance Type Ratchet. Weight: 6.6g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "5-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.6g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "5-60 is one of the best low-height Ratchets in the early metagame. Its extra weight makes it the technical choice for Defense combos, and its smoother perimeter helps stationary combos on Needle or High Needle stay upright longer. The trade-off is a small stamina loss on Ball-style Bits and a slightly higher burst risk because the wider blades are easier to strike. BeyBase calls it a must-have for rounding out a low-height deck.",
+      "de": "5-60 ist eines der besten Low-Height-Ratchets im frühen Metagame. Sein zusätzliches Gewicht macht es zur technischen Wahl für Defense-Combos, und der glattere Umfang hilft stationären Kombos auf Needle oder High Needle, länger aufrecht zu bleiben. Der Nachteil ist ein geringer Stamina-Verlust auf Ball-Bits und ein etwas höheres Burst-Risiko, weil die breiteren Blades leichter getroffen werden. BeyBase bezeichnet es als Must-Have, um ein Low-Height-Deck abzurunden."
     },
     "officialStats": {
       "heightMm": 60,
@@ -137,12 +137,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 2.4,
-      "stamina": 3,
-      "balance": 2.9
+      "attack": 3,
+      "defense": 3.5,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-5-80",
@@ -150,28 +151,29 @@
     "name": "5-80",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-5-80.png",
-    "releaseDate": "2023-07-15",
+    "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "The 5-80 Ratchet.",
-      "de": "Das 5-80-Ratchet."
+      "en": "A tall, right-spin Ratchet with five wide 8mm blades and a stronger lock than the 5-60 variant. First released in BX-16 Viper Tail Select, it lifts the Bey to an 8mm height and is often used to add stability and balance to stationary combinations with pointy Bits. Weighs about 7.15 grams.",
+      "de": "Ein hohes, rechtsdrehendes Ratchet mit fünf breiten 8-mm-Klingen und einer stärkeren Verriegelung als die 5-60-Variante. Erstmals in BX-16 Viper Tail Select veröffentlicht, hebt es den Bey auf eine Höhe von 8 mm und wird häufig verwendet, um Stationär-Kombinationen mit spitzen Bits mehr Stabilität und Balance zu verleihen. Wiegt etwa 7,15 Gramm."
     },
     "assessment": {
-      "en": "5-80 is a right-spin Balance Type Ratchet. Weight: 7.3g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "5-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.3g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "5-80 trades the low profile of 5-60 for a stronger lock and more stability on pointy Bits. Beyblade Wiki notes it can help unbalanced or stamina Blades sit steadier, but the tall height exposes the combo to strikes from below and the wide blades can increase burst risk. It is a useful utility Ratchet for balance-focused builds, though not the default choice for pure stamina.",
+      "de": "5-80 tauscht das niedrige Profil von 5-60 für eine stärkere Verriegelung und mehr Stabilität auf spitzen Bits. Das Beyblade Wiki vermerkt, dass es unausgewogenen oder Stamina-Blades helfen kann, ruhiger zu sitzen, aber die große Höhe macht das Combo für Treffer von unten anfällig und die breiten Klingen können das Burst-Risiko erhöhen. Es ist ein nützliches Utility-Ratchet für Balance-fokussierte Builds, wenn auch nicht die Standardwahl für reine Stamina."
     },
     "officialStats": {
-      "heightMm": 80,
-      "weightGrams": 7.3,
+      "heightMm": 8,
+      "weightGrams": 7.15,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 2.1,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-9-60",
@@ -182,12 +184,12 @@
     "releaseDate": "2023-12-10",
     "releaseWave": "BX-23",
     "description": {
-      "en": "A right-spin Balance Type Ratchet from the Basic Line. It features nine blades, six of which barely protrude to increase burst resistance, while three larger blades can align with Blade contact points for attack potential.",
-      "de": "Ein rechtsdrehender Balance-Typ-Ratchet aus der Basic Line. Er verfügt über nine blades, six of which barely protrude to increase burst resistance, while three larger blades can align with Blade contact points for attack potential."
+      "en": "A low, right-spin Ratchet with nine blades along its perimeter, first released in BX-23. Six of the blades are barely protruding, which increases burst resistance, while three slightly larger blades can be aligned with a Blade's contact points to add attack potential. Weighs about 6.1 grams.",
+      "de": "Ein niedriges, rechtsdrehendes Ratchet mit neun Klingen am Umfang, erstmals in BX-23 veröffentlicht. Sechs der Klingen ragen kaum heraus, was die Burst-Resistenz erhöht, während drei etwas größere Klingen mit den Kontaktpunkten eines Blades ausgerichtet werden können, um Angriffspotenzial hinzuzufügen. Wiegt etwa 6,1 Gramm."
     },
     "assessment": {
-      "en": "9-60 is a versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Weight: 6.1g. Ratings based on community data.",
-      "de": "9-60 ist ein versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Gewicht: 6.1g. Ratings based on community data."
+      "en": "9-60 is a versatile, burst-safe Ratchet. Beyblade Wiki notes that the mostly recessed blades make it safer than 3-60 and 4-60, while the three larger blades can line up with Blades like Phoenix Wing to create extra contact points. Its low height helps strike opponents from below, but also means a weaker lock than taller Ratchets. A popular choice for competitive Attack and Balance combos.",
+      "de": "9-60 ist ein vielseitiges, burst-sicheres Ratchet. Das Beyblade Wiki vermerkt, dass die größtenteils versenkten Klingen es sicherer machen als 3-60 und 4-60, während die drei größeren Klingen mit Blades wie Phoenix Wing ausgerichtet werden können, um zusätzliche Kontaktpunkte zu schaffen. Die geringe Höhe hilft, Gegner von unten zu treffen, bedeutet aber auch eine schwächere Verriegelung als bei höheren Ratchets. Eine beliebte Wahl für kompetitive Attack- und Balance-Combos."
     },
     "officialStats": {
       "heightMm": 6,
@@ -196,7 +198,7 @@
     },
     "ratings": {
       "attack": 3.5,
-      "defense": 3,
+      "defense": 3.5,
       "stamina": 2,
       "balance": 3
     },
@@ -209,15 +211,15 @@
     "name": "9-80",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-9-80.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-02-22",
+    "releaseWave": "BX-27",
     "description": {
-      "en": "The 9-80 Ratchet.",
-      "de": "Das 9-80-Ratchet."
+      "en": "A right-spin Balance Type Ratchet with nine identical protrusions at an 8.0mm height, first released in BX-27 Random Booster SphinxCowl Select. The nine blades create a relatively smooth perimeter that supports stamina and balance combinations, while the tall height helps avoid low attacks. Weighs about 6.9 grams.",
+      "de": "Ein rechtsdrehender Balance-Typ-Ratchet mit neun identischen Vorsprüngen in 8,0-mm-Höhe, erstmals im BX-27 Random Booster SphinxCowl Select veröffentlicht. Die neun Klingen erzeugen einen relativ glatten Umfang, der Stamina- und Balance-Kombinationen unterstützt, während die große Höhe hilft, niedrigen Angriffen auszuweichen. Wiegt etwa 6,9 Gramm."
     },
     "assessment": {
-      "en": "9-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 80mm. Manufactured by Takara Tomy.",
-      "de": "9-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 80mm. Hergestellt von Takara Tomy."
+      "en": "9-80 is a tall, balanced Ratchet. Its nine protrusions distribute contact more evenly than 3- or 4-bladed Ratchets, making it a solid choice for Stamina and Balance builds that want extra height. The trade-off is increased exposure to upper-attack knockouts, so it pairs best with round, low-recoil Blades. Community assessment.",
+      "de": "9-80 ist ein hohes, ausgewogenes Ratchet. Seine neun Vorsprünge verteilen Kontakte gleichmäßiger als Ratchets mit drei oder vier Klingen, was es zu einer soliden Wahl für Stamina- und Balance-Builds macht, die zusätzliche Höhe wollen. Der Nachteil ist eine erhöhte Anfälligkeit für Upper-Attack-Knockouts, daher passt es am besten zu runden, rückstoßarmen Blades. Community-Einschätzung."
     },
     "officialStats": {
       "heightMm": 80,
@@ -230,7 +232,8 @@
       "stamina": 2.3,
       "balance": 2.8
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-1-60",
@@ -241,12 +244,12 @@
     "releaseDate": "2024-03-30",
     "releaseWave": "UX-01",
     "description": {
-      "en": "A right-spin Attack Type Ratchet from the Unique Line. It features a single large protrusion that acts as a secondary contact point, making it a popular choice for attack combinations.",
-      "de": "Ein rechtsdrehender Attack-Typ-Ratchet aus der Unique Line. Er verfügt über a single large protrusion that acts as a secondary contact point, making it a popular choice for attack combinations."
+      "en": "A low, right-spin Attack Type Ratchet from the Unique Line. It features a single large protrusion at a 6mm height, designed to act as a secondary contact point and add extra hit power to aggressive combinations.",
+      "de": "Ein niedriges, rechtsdrehendes Attack-Typ-Ratchet aus der Unique Line. Es verfügt über einen einzelnen großen Vorsprung in 6-mm-Höhe, der als sekundärer Kontaktpunkt dient und aggressiven Kombinationen zusätzliche Schlagkraft verleiht."
     },
     "assessment": {
-      "en": "1-60 is the preferred Attack Ratchet for many aggressive combos thanks to its large single protrusion. Weight: 6.0g. Ratings based on community data.",
-      "de": "1-60 is the preferred Angriff Ratchet for many aggressive combos thanks to its large single protrusion. Gewicht: 6.0g. Ratings based on community data."
+      "en": "1-60 is the preferred Attack Ratchet for many aggressive combos thanks to its large single protrusion. The imbalanced shape is intentionally tuned for the DranBuster Blade, but it also works well with other hard-hitting Attack Blades like Shark Edge. Weight: 6.0g. Ratings based on community data.",
+      "de": "1-60 ist das bevorzugte Attack-Ratchet für viele aggressive Combos dank seines großen einzelnen Vorsprungs. Die unausgewogene Form ist bewusst auf das DranBuster Blade abgestimmt, funktioniert aber auch gut mit anderen hart schlagenden Attack-Blades wie Shark Edge. Gewicht: 6,0g. Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
       "heightMm": 6,
@@ -268,15 +271,15 @@
     "name": "3-70",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-3-70.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-03-30",
+    "releaseWave": "UX-02",
     "description": {
-      "en": "The 3-70 Ratchet.",
-      "de": "Das 3-70-Ratchet."
+      "en": "A right-spin Ratchet from the Unique Line with three blades and a 7mm height, first released in the UX-02 Hells Hammer 3-70H Starter. The three protrusions can be aligned with the contact points of three-sided Blades such as Dran Sword to boost attack potential. Its lock is stronger than 3-60 but weaker than 3-80, placing it in the middle of the 3-series family. Weight: about 6.4g.",
+      "de": "Ein rechtsdrehendes Ratchet aus der Unique Line mit drei Klingen und 7mm Höhe, erstmals im UX-02 Hells Hammer 3-70H Starter veröffentlicht. Die drei Vorsprünge können mit den Kontaktpunkten dreiseitiger Blades wie Dran Sword ausgerichtet werden, um das Angriffspotenzial zu steigern. Seine Verriegelung ist stärker als bei 3-60, aber schwächer als bei 3-80, was es in die Mitte der 3er-Familie platziert. Gewicht: etwa 6,4g."
     },
     "assessment": {
-      "en": "3-70 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 7mm. Manufactured by Takara Tomy.",
-      "de": "3-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 7mm. Hergestellt von Takara Tomy."
+      "en": "3-70 is a middle-height Attack/Balance Ratchet. Beyblade Wiki notes that the 7mm height makes it burst slightly more often than 3-60, though it still has better burst resistance than 3-80. It is best used with wide-shaft attack or balance Bits that compensate for the weaker lock. A solid option when 3-60 is unavailable, but not the first choice for competitive builds. Community assessment.",
+      "de": "3-70 ist ein Mittelhöhen-Attack/Balance-Ratchet. Das Beyblade Wiki vermerkt, dass die 7mm-Höhe es etwas häufiger brechen lässt als 3-60, obwohl es immer noch eine bessere Burst-Resistenz als 3-80 hat. Es wird am besten mit breitschaftigen Attack- oder Balance-Bits verwendet, die die schwächere Verriegelung ausgleichen. Eine solide Option, wenn 3-60 nicht verfügbar ist, aber nicht die erste Wahl für kompetitive Builds. Community-Einschätzung."
     },
     "officialStats": {
       "heightMm": 7,
@@ -284,12 +287,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.2,
-      "defense": 2.1,
-      "stamina": 2.3,
-      "balance": 2.9
+      "attack": 4,
+      "defense": 2,
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-5-70",
@@ -297,15 +301,15 @@
     "name": "5-70",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-5-70.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-03-30",
+    "releaseWave": "UX-03",
     "description": {
-      "en": "The 5-70 Ratchet.",
-      "de": "Das 5-70-Ratchet."
+      "en": "A right-spin Ratchet from the Unique Line with five blades and a 7mm height, first released in the UX-03 Wizard Rod 5-70DB Starter. The five protrusions create a relatively circular perimeter with high LAD potential, making 5-70 popular in stationary, anti-attack and spin-steal combinations. Its lock is weaker than 5-80 but slightly stronger than 5-60, while its burst resistance sits between the two. Weight: about 6.7g.",
+      "de": "Ein rechtsdrehendes Ratchet aus der Unique Line mit fünf Klingen und 7mm Höhe, erstmals im UX-03 Wizard Rod 5-70DB Starter veröffentlicht. Die fünf Vorsprünge erzeugen einen relativ kreisförmigen Umfang mit hohem LAD-Potenzial, was 5-70 in stationären, Anti-Attack- und Spin-Steal-Kombinationen beliebt macht. Seine Verriegelung ist schwächer als bei 5-80, aber etwas stärker als bei 5-60, während die Burst-Resistenz dazwischen liegt. Gewicht: etwa 6,7g."
     },
     "assessment": {
-      "en": "5-70 is a right-spin Balance Type Ratchet. Weight: 6.7g. Height: 7mm. Manufactured by Takara Tomy.",
-      "de": "5-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.7g. Höhe: 7mm. Hergestellt von Takara Tomy."
+      "en": "5-70 is a versatile middle-height Ratchet. Beyblade Wiki notes the five blades stabilize unbalanced Blades and can enhance both attack and LAD, though the height means it bursts more easily than 5-60. It is commonly used in stationary or spin-steal setups, and pairs well with Hexa when a defensive behavior is needed. A useful utility Ratchet, though competitive players usually prefer 5-60 or 9-60 for most roles. Community assessment.",
+      "de": "5-70 ist ein vielseitiges Mittelhöhen-Ratchet. Das Beyblade Wiki vermerkt, dass die fünf Klingen unausgewogene Blades stabilisieren und sowohl Angriff als auch LAD verbessern können, obwohl die Höhe bedeutet, dass es leichter bricht als 5-60. Es wird häufig in stationären oder Spin-Steal-Setups verwendet und passt gut zu Hexa, wenn ein defensives Verhalten benötigt wird. Ein nützliches Utility-Ratchet, obwohl kompetitive Spieler meist 5-60 oder 9-60 für die meisten Rollen bevorzugen. Community-Einschätzung."
     },
     "officialStats": {
       "heightMm": 7,
@@ -313,12 +317,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 2.1,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 3,
+      "defense": 2.5,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-4-70",
@@ -327,14 +332,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-4-70.png",
     "releaseDate": "2024-04-27",
-    "releaseWave": "BX-27",
+    "releaseWave": "BX-31",
     "description": {
-      "en": "A right-spin Balance Type Ratchet from the Basic Line with a medium 7mm height. Its four blades provide a balanced mix of attack, defense and stamina.",
-      "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line mit einer mittleren 7-mm-Höhe. Its four blades provide a balanced mix of attack, defense and stamina."
+      "en": "A right-spin Ratchet with four blades and a 7mm height, first released in BX-31. It sits between 4-60 and 4-80 in height and has a stronger lock than 4-60 but weaker than 4-80. The four blades are easy for opponents to strike, which raises burst risk compared to 3- or 9-bladed Ratchets. Weighs about 6.5 grams.",
+      "de": "Ein rechtsdrehendes Ratchet mit vier Klingen und 7 mm Höhe, erstmals in BX-31 veröffentlicht. Es liegt in der Höhe zwischen 4-60 und 4-80 und hat eine stärkere Verriegelung als 4-60, aber schwächer als 4-80. Die vier Klingen sind für Gegner leicht zu treffen, was das Burst-Risiko gegenüber Ratchets mit drei oder neun Klingen erhöht. Wiegt etwa 6,5 Gramm."
     },
     "assessment": {
-      "en": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Weight: 6.5g. Ratings based on community data.",
-      "de": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Gewicht: 6.5g. Ratings based on community data."
+      "en": "4-70 is a risky Ratchet. Beyblade Wiki notes that four-bladed Ratchets have poor burst resistance in general, and the 7mm height makes the blades even easier to hit. It can work in Attack or Balance combos with wide-shaft Bits, but 4-60 is usually preferred when available. Treat it as a situational middle-height option rather than a competitive staple.",
+      "de": "4-70 ist ein riskantes Ratchet. Das Beyblade Wiki vermerkt, dass vierklingige Ratchets generell eine schlechte Burst-Resistenz haben und die 7-mm-Höhe die Klingen noch leichter treffbar macht. Es kann in Attack- oder Balance-Combos mit breitschaftigen Bits funktionieren, aber 4-60 ist meist die bevorzugte Wahl, wenn verfügbar. Am besten als situationale Mittelhöhen-Option betrachtet, nicht als kompetitiver Grundpfeiler."
     },
     "officialStats": {
       "heightMm": 7,
@@ -343,9 +348,9 @@
     },
     "ratings": {
       "attack": 3,
-      "defense": 3.5,
+      "defense": 2.5,
       "stamina": 2,
-      "balance": 3
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -389,12 +394,12 @@
     "releaseDate": "2024-07-13",
     "releaseWave": "BX-34",
     "description": {
-      "en": "A right-spin Attack Type Ratchet from the Basic Line. It features two protrusions and debuted with Cobalt Dragoon 2-60C.",
-      "de": "Ein rechtsdrehender Attack-Typ-Ratchet aus der Basic Line. Er verfügt über two protrusions and debuted with Cobalt Dragoon 2-60C."
+      "en": "A low Attack Type Ratchet from the Basic Line with two large protrusions and a 6mm height. Its outer ring can be twisted to switch between left-spin and right-spin modes, making it one of the earlier dual-spin Ratchets in Beyblade X. The two prominent contact points add extra hit power to aggressive combinations, but also leave the lock more exposed than Ratchets with smaller or more numerous protrusions. Debuted with the BX-34 Cobalt Dragoon 2-60C Starter. Weight: about 6.2g.",
+      "de": "Ein niedriges Attack-Typ-Ratchet aus der Basic Line mit zwei großen Vorsprüngen und 6mm Höhe. Sein äußerer Ring lässt sich drehen, um zwischen Links- und Rechtsdrehung zu wechseln, was es zu einem der frühen Dual-Spin-Ratchets in Beyblade X macht. Die beiden markanten Kontaktpunkte verleihen aggressiven Kombinationen zusätzliche Schlagkraft, lassen die Verriegelung aber stärker exponiert als Ratchets mit kleineren oder zahlreicheren Vorsprüngen. Debüt mit dem BX-34 Cobalt Dragoon 2-60C Starter. Gewicht: etwa 6,2g."
     },
     "assessment": {
-      "en": "2-60 is an aggressive Ratchet with two contact points that complement attack Blades. Weight: 6.2g. Ratings based on community data.",
-      "de": "2-60 ist einn aggressive Ratchet with two contact points that complement attack Blades. Gewicht: 6.2g. Ratings based on community data."
+      "en": "2-60 is a high-risk, high-reward Ratchet. The two big protrusions boost attack potential and work well with hard-hitting Blades, but Beyblade Wiki notes that this Ratchet currently carries one of the highest burst risks in the game because the lock is easy to strike. It is best treated as a stock-combo piece or an aggressive specialist rather than a safe all-rounder. Community assessment.",
+      "de": "2-60 ist ein High-Risk-High-Reward-Ratchet. Die beiden großen Vorsprünge steigern das Angriffspotenzial und funktionieren gut mit hart schlagenden Blades, aber das Beyblade Wiki vermerkt, dass dieses Ratchet derzeit eines der höchsten Burst-Risiken im Spiel hat, weil die Verriegelung leicht getroffen werden kann. Es ist am besten als Stock-Combo-Teil oder aggressiver Spezialist zu betrachten, nicht als sicherer Allrounder. Community-Einschätzung."
     },
     "officialStats": {
       "heightMm": 6,
@@ -403,9 +408,9 @@
     },
     "ratings": {
       "attack": 4,
-      "defense": 2.5,
-      "stamina": 2,
-      "balance": 2.5
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -766,15 +771,15 @@
     "name": "M-85",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-m-85.png",
-    "releaseDate": "",
+    "releaseDate": "2025-06-28",
     "releaseWave": "BX",
     "description": {
-      "en": "The M-85 Ratchet.",
-      "de": "Das M-85-Ratchet."
+      "en": "M-85 is a right-spin Ratchet from the Basic Line and the first Ratchet to feature a metal ring riveted around its center. It has five protrusions like other '5' type Ratchets and sits at an intermediate height of 8.5 mm. The metal ring makes M-85 the heaviest Ratchet available and increases central weight distribution, which improves knock-out resistance. However, the tall posture and simple O-shaped lock reduce Burst resistance compared to standard-height Ratchets.",
+      "de": "M-85 ist ein rechtsspinnendes Ratchet aus der Basic Line und das erste Ratchet mit einem um die Mitte genieteten Metallring. Es hat wie andere '5'-Typ-Ratchets fünf Vorsprünge und sitzt auf einer mittleren Höhe von 8,5 mm. Der Metallring macht M-85 zum schwersten verfügbaren Ratchet und erhöht die zentrale Gewichtsverteilung, was den Knock-Out-Widerstand verbessert. Allerdings reduzieren die hohe Haltung und das einfache O-förmige Schloss die Burst-Resistenz im Vergleich zu Standardhöhen-Ratchets."
     },
     "assessment": {
-      "en": "M-85 is a right-spin Balance Type Ratchet. Weight: 10.6g. Height: 8.5mm. Manufactured by Takara Tomy.",
-      "de": "M-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 10.6g. Höhe: 8.5mm. Hergestellt von Takara Tomy."
+      "en": "M-85 offers unmatched weight and central weight distribution, but its extreme height makes it a Burst liability. It is best used in low-risk Defense experiments rather than competitive main decks.",
+      "de": "M-85 bietet unerreichtes Gewicht und zentrale Gewichtsverteilung, aber seine extreme Höhe macht es zu einem Burst-Risiko. Es ist am besten in risikoarmen Defense-Experimenten statt in kompetitiven Main-Decks einzusetzen."
     },
     "officialStats": {
       "heightMm": 8.5,
@@ -782,12 +787,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 2.2,
-      "defense": 5,
-      "stamina": 4.3,
-      "balance": 3.8
+      "attack": 1.0,
+      "defense": 4.0,
+      "stamina": 2.0,
+      "balance": 2.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "ratchet-6-70",
@@ -795,28 +801,29 @@
     "name": "6-70",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-6-70.png",
-    "releaseDate": "",
+    "releaseDate": "2025-08-09",
     "releaseWave": "BX",
     "description": {
-      "en": "The 6-70 Ratchet.",
-      "de": "Das 6-70-Ratchet."
+      "en": "6-70 is a right-spin Ratchet from the Basic Line with six protrusions, three of which are larger and three thinner, creating an overall circular outline. The 7.0 mm height sits 1 mm above the standard 60 mm Ratchets, giving it slightly better Burst resistance than 80-height Ratchets while remaining heavier than the 60 variant. The circular shape may help with Life-After-Death, although 5-60 remains the preferred option for that role.",
+      "de": "6-70 ist ein rechtsspinnendes Ratchet aus der Basic Line mit sechs Vorsprüngen, von denen drei größer und drei dünner sind, was einen insgesamt kreisförmigen Umriss ergibt. Die 7,0-mm-Höhe sitzt 1 mm über den Standard-60-mm-Ratchets, was ihm eine etwas bessere Burst-Resistenz als 80-Höhen-Ratchets verleiht, während es schwerer bleibt als die 60-Variante. Die kreisförmige Form kann beim Life-After-Death helfen, auch wenn 5-60 für diese Rolle weiterhin die bevorzugte Option ist."
     },
     "assessment": {
-      "en": "6-70 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 70mm. Manufactured by Takara Tomy.",
-      "de": "6-70 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 70mm. Hergestellt von Takara Tomy."
+      "en": "6-70 is a usable intermediate-height Ratchet, but it is not a preferred competitive choice. It works in casual combinations that need a bit more height and Burst safety than a 60 Ratchet without the extreme liability of an 80 Ratchet.",
+      "de": "6-70 ist ein brauchbares Ratchet mit mittlerer Höhe, aber keine bevorzugte kompetitive Wahl. Es funktioniert in Casual-Kombinationen, die etwas mehr Höhe und Burst-Sicherheit als ein 60-Ratchet benötigen, ohne die extreme Anfälligkeit eines 80-Ratchets."
     },
     "officialStats": {
-      "heightMm": 70,
+      "heightMm": 7,
       "weightGrams": 6.3,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.9,
-      "defense": 1.8,
-      "stamina": 3,
-      "balance": 2.9
+      "attack": 2.0,
+      "defense": 2.5,
+      "stamina": 2.5,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "ratchet-4-50",
@@ -824,28 +831,29 @@
     "name": "4-50",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-4-50.png",
-    "releaseDate": "",
+    "releaseDate": "2025-08-09",
     "releaseWave": "BX",
     "description": {
-      "en": "The 4-50 Ratchet.",
-      "de": "Das 4-50-Ratchet."
+      "en": "4-50 is a right-spin Ratchet from the Unique Line with four protrusions and a height of 5.0 mm, the lowest available in Beyblade X. The low profile lets combinations strike opponents from below, increasing Burst attack potential, while also making the Ratchet harder to hit. The lock is weaker than on 60-height Ratchets, so players must balance the offensive advantage against the slight Burst risk.",
+      "de": "4-50 ist ein rechtsspinnendes Ratchet aus der Unique Line mit vier Vorsprüngen und einer Höhe von 5,0 mm, der niedrigsten, die in Beyblade X verfügbar ist. Das niedrige Profil lässt Kombinationen Gegner von unten treffen, was das Burst-Attack-Potenzial erhöht, während das Ratchet selbst schwerer zu treffen ist. Das Schloss ist schwächer als bei 60-Höhen-Ratchets, sodass Spieler den offensiven Vorteil gegen das leichte Burst-Risiko abwägen müssen."
     },
     "assessment": {
-      "en": "4-50 is a right-spin Balance Type Ratchet. Weight: 5.9g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "4-50 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "4-50 is the go-to Ratchet for low, aggressive Attack combinations. It pairs naturally with Attack Blades that want to strike from below, but it is less safe than 60-height options and offers little stamina.",
+      "de": "4-50 ist das Ratchet der Wahl für niedrige, aggressive Attack-Kombinationen. Es passt naturgemäß zu Attack-Blades, die von unten zuschlagen wollen, ist aber weniger sicher als 60-Höhen-Optionen und bietet kaum Ausdauer."
     },
     "officialStats": {
-      "heightMm": 50,
-      "weightGrams": 5.9,
+      "heightMm": 5,
+      "weightGrams": 6.3,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 3.4,
-      "stamina": 1.7,
-      "balance": 2.8
+      "attack": 3.5,
+      "defense": 2.5,
+      "stamina": 1.0,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "ratchet-1-70",
@@ -1059,12 +1067,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The 3-60 Ratchet.",
-      "de": "Das 3-60-Ratchet."
+      "en": "A low right-spin Ratchet with three teeth and a 6mm height. Its compact profile pairs well with aggressive Bits, keeping the Bey close to the stadium floor for stable movement and reliable Xtreme Dash engagement.",
+      "de": "Ein niedriges, rechtsdrehendes Ratchet mit drei Zähnen und 6mm Höhe. Das kompakte Profil harmoniert gut mit aggressiven Bits und hält den Bey dicht am Stadionboden für stabile Bewegungen und zuverlässige Xtreme-Dash-Eingriffe."
     },
     "assessment": {
-      "en": "3-60 is a right-spin Balance Type Ratchet. Weight: 6.4g. Height: 6mm. Manufactured by Hasbro.",
-      "de": "3-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.4g. Höhe: 6mm. Hergestellt von Hasbro."
+      "en": "3-60 is a versatile starter Ratchet. Its low height helps attack combinations stay planted, though later Ratchets such as 1-60 and 4-60 offer more specialized weight distribution for competitive builds.",
+      "de": "3-60 ist ein vielseitiges Starter-Ratchet. Die geringe Höhe hilft Angriffskombinationen, bodennah zu bleiben, während spätere Ratchets wie 1-60 und 4-60 eine spezialisiertere Gewichtsverteilung für kompetitive Builds bieten."
     },
     "officialStats": {
       "heightMm": 6,
@@ -1072,12 +1080,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.2,
-      "defense": 2.4,
+      "attack": 4,
+      "defense": 2.5,
       "stamina": 2,
-      "balance": 2.9
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-3-80-hasbro",
@@ -1146,12 +1155,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "The 4-60 Ratchet.",
-      "de": "Das 4-60-Ratchet."
+      "en": "The Hasbro version of 4-60. A right-spin Ratchet with four teeth and a low profile. It sits between offensive and defensive profiles, offering slightly more outward weight distribution than 3-60, which makes it a natural partner for Balance and Stamina combinations that want extra stability without sacrificing too much mobility.",
+      "de": "Die Hasbro-Version von 4-60. Ein rechtsdrehendes Ratchet mit vier Zähnen und niedrigem Profil. Es liegt zwischen offensivem und defensivem Profil und bietet eine etwas weiter außen verteilte Gewichtsverteilung als 3-60, was es zu einem natürlichen Partner für Balance- und Stamina-Kombinationen macht, die zusätzliche Stabilität wollen, ohne zu viel Mobilität zu opfern."
     },
     "assessment": {
-      "en": "4-60 is a right-spin Balance Type Ratchet. Weight: 6.3g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "4-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.3g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "Hasbro's 4-60 performs identically to the Takara Tomy release. It is a dependable middle-ground Ratchet that helps Stamina and Balance Blades stay upright longer, while pure Attack builds usually prefer lower or lighter Ratchets.",
+      "de": "Hasbros 4-60 spielt identisch zur Takara-Tomy-Version. Es ist ein verlässliches Mittelweg-Ratchet, das Stamina- und Balance-Blades hilft, länger aufrecht zu bleiben, während reine Attack-Builds meist niedrigere oder leichtere Ratchets bevorzugen."
     },
     "officialStats": {
       "heightMm": 60,
@@ -1159,12 +1168,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.1,
-      "defense": 3.4,
+      "attack": 3,
+      "defense": 3.5,
       "stamina": 2,
-      "balance": 2.8
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-5-60-hasbro",
@@ -1175,12 +1185,12 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "The 5-60 Ratchet.",
-      "de": "Das 5-60-Ratchet."
+      "en": "The Hasbro version of 5-60. A low, right-spin Ratchet with five wide blades and a thicker outer locking piece than 3-60 or 4-60. The five 8mm-wide blades create a smoother perimeter that scrapes the stadium floor more evenly, improving stability for pointy Bits while adding extra weight for Defense-oriented combos.",
+      "de": "Die Hasbro-Version von 5-60. Ein niedriges, rechtsdrehendes Ratchet mit fünf breiten Blades und einem dickeren äußeren Verriegelungsteil als 3-60 oder 4-60. Die fünf 8 mm breiten Blades erzeugen einen glatteren Umfang, der den Stadionboden gleichmäßiger schrammt, die Stabilität für spitze Bits verbessert und zusätzliches Gewicht für defensorientierte Kombos bietet."
     },
     "assessment": {
-      "en": "5-60 is a right-spin Balance Type Ratchet. Weight: 6.6g. Height: 60mm. Manufactured by Hasbro.",
-      "de": "5-60 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.6g. Höhe: 60mm. Hergestellt von Hasbro."
+      "en": "Hasbro's 5-60 performs identically to the Takara Tomy release. Its extra weight and smoother perimeter make it a strong low-height choice for Defense combos and stationary setups on Needle or High Needle, at the cost of a small stamina loss on Ball-style Bits.",
+      "de": "Hasbros 5-60 spielt identisch zur Takara-Tomy-Version. Sein zusätzliches Gewicht und der glattere Umfang machen es zu einer starken Low-Height-Wahl für Defense-Combos und stationäre Setups auf Needle oder High Needle, auf Kosten eines geringen Stamina-Verlusts auf Ball-Bits."
     },
     "officialStats": {
       "heightMm": 60,
@@ -1188,12 +1198,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 2.4,
-      "stamina": 3,
-      "balance": 2.9
+      "attack": 3,
+      "defense": 3.5,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-1-60-hasbro",
@@ -1290,26 +1301,26 @@
     "name": "4-70",
     "manufacturer": "Hasbro",
     "imageUrl": "images/ratchets/ratchet-4-70-hasbro.png",
-    "releaseDate": "",
-    "releaseWave": "BX-27",
+    "releaseDate": "2024-11-16",
+    "releaseWave": "G1542",
     "description": {
-      "en": "A right-spin Balance Type Ratchet from the Basic Line, released by Hasbro in western countries with a medium 7mm height. Its four blades provide a balanced mix of attack, defense and stamina.",
-      "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht mit einer mittleren 7-mm-Höhe. Its four blades provide a balanced mix of attack, defense and stamina."
+      "en": "A right-spin Attack/Balance Type Ratchet with four blades at a 7mm height, released by Hasbro in western markets as part of the G1542 Beat Tyranno and Knife Shinobi Dual Pack. The four protrusions are easy for opponents to strike, which raises burst risk compared to 3- or 9-bladed Ratchets. Weighs about 6.4 grams.",
+      "de": "Ein rechtsdrehendes Attack/Balance-Typ-Ratchet mit vier Klingen in 7-mm-Höhe, von Hasbro in westlichen Märkten als Teil des G1542 Beat Tyranno and Knife Shinobi Dual Pack veröffentlicht. Die vier Vorsprünge sind für Gegner leicht zu treffen, was das Burst-Risiko gegenüber Ratchets mit drei oder neun Klingen erhöht. Wiegt etwa 6,4 Gramm."
     },
     "assessment": {
-      "en": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Weight: 6.5g. Ratings based on community data. (Hasbro release)",
-      "de": "4-70 offers a balanced stat spread and a medium height that works well in various combo types. Gewicht: 6.5g. Ratings based on community data. (Hasbro release)"
+      "en": "4-70 is a situational middle-height Ratchet. Its four blades make it vulnerable to bursts, but the 7mm height can help certain Attack or Balance combos find the right impact angle. Hasbro's molding is functionally similar to Takara Tomy's, so it shares the same competitive niche: a risky utility choice rather than a deck staple.",
+      "de": "4-70 ist ein situationales Mittelhöhen-Ratchet. Seine vier Klingen machen es burst-anfällig, aber die 7-mm-Höhe kann bestimmten Attack- oder Balance-Combos helfen, den richtigen Aufprallwinkel zu finden. Hasbros Guss ist funktional dem von Takara Tomy ähnlich, daher teilt es dieselbe kompetitive Nische: eine riskante Utility-Wahl, kein Deck-Grundpfeiler."
     },
     "officialStats": {
       "heightMm": 7,
-      "weightGrams": 6.5,
+      "weightGrams": 6.4,
       "spinDirection": "right"
     },
     "ratings": {
       "attack": 3,
-      "defense": 3.5,
+      "defense": 2.5,
       "stamina": 2,
-      "balance": 3
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -1378,15 +1389,15 @@
     "name": "9-60",
     "manufacturer": "Hasbro",
     "imageUrl": "images/ratchets/ratchet-9-60-hasbro.png",
-    "releaseDate": "",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX-23",
     "description": {
-      "en": "A right-spin Balance Type Ratchet from the Basic Line, released by Hasbro in western countries. It features nine blades, six of which barely protrude to increase burst resistance, while three larger blades can align with Blade contact points for attack potential.",
-      "de": "Ein rechtsdrehender Balance-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht. Er verfügt über nine blades, six of which barely protrude to increase burst resistance, while three larger blades can align with Blade contact points for attack potential."
+      "en": "The Hasbro version of 9-60. A low, right-spin Ratchet with nine blades along its perimeter. Six blades are barely protruding to increase burst resistance, while three slightly larger blades can be aligned with a Blade's contact points to add attack potential. Weighs about 6.1 grams.",
+      "de": "Die Hasbro-Version von 9-60. Ein niedriges, rechtsdrehendes Ratchet mit neun Klingen am Umfang. Sechs Klingen ragen kaum heraus, um die Burst-Resistenz zu erhöhen, während drei etwas größere Klingen mit den Kontaktpunkten eines Blades ausgerichtet werden können, um Angriffspotenzial hinzuzufügen. Wiegt etwa 6,1 Gramm."
     },
     "assessment": {
-      "en": "9-60 is a versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Weight: 6.1g. Ratings based on community data. (Hasbro release)",
-      "de": "9-60 ist ein versatile Ratchet with excellent burst resistance due to its mostly recessed blades. Gewicht: 6.1g. Ratings based on community data. (Hasbro release)"
+      "en": "Hasbro's 9-60 mirrors the Takara Tomy release. Its mostly recessed blades make it burst-safe, while the three larger blades can add attack potential when aligned with Blades like Phoenix Wing. A versatile choice for Attack and Balance combos.",
+      "de": "Hasbros 9-60 spiegelt die Takara-Tomy-Version. Die größtenteils versenkten Klingen machen es burst-sicher, während die drei größeren Klingen bei Ausrichtung mit Blades wie Phoenix Wing Angriffspotenzial hinzufügen können. Eine vielseitige Wahl für Attack- und Balance-Combos."
     },
     "officialStats": {
       "heightMm": 6,
@@ -1395,7 +1406,7 @@
     },
     "ratings": {
       "attack": 3.5,
-      "defense": 3,
+      "defense": 3.5,
       "stamina": 2,
       "balance": 3
     },
@@ -1614,28 +1625,29 @@
     "name": "5-80",
     "manufacturer": "Hasbro",
     "imageUrl": "images/ratchets/ratchet-5-80-hasbro.png",
-    "releaseDate": "2023-07-15",
+    "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The 5-80 Ratchet.",
-      "de": "Das 5-80-Ratchet."
+      "en": "The Hasbro release of 5-80. A tall, right-spin Ratchet with five wide 8mm blades and a stronger lock than 5-60. It lifts the Bey to an 8mm height and is often used to add stability and balance to stationary combinations with pointy Bits.",
+      "de": "Die Hasbro-Veröffentlichung von 5-80. Ein hohes, rechtsdrehendes Ratchet mit fünf breiten 8-mm-Klingen und einer stärkeren Verriegelung als 5-60. Es hebt den Bey auf eine Höhe von 8 mm und wird häufig verwendet, um Stationär-Kombinationen mit spitzen Bits mehr Stabilität und Balance zu verleihen."
     },
     "assessment": {
-      "en": "5-80 is a right-spin Balance Type Ratchet. Weight: 7.3g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "5-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 7.3g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "Hasbro's 5-80 offers the same utility as the Takara Tomy version: a stronger lock and extra stability for pointy Bits, at the cost of a taller, more exposed profile. It is a handy Ratchet for balance-focused builds, but not the first pick for pure stamina.",
+      "de": "Hasbros 5-80 bietet denselben Nutzen wie die Takara-Tomy-Version: eine stärkere Verriegelung und zusätzliche Stabilität für spitze Bits, auf Kosten eines höheren, stärker exponierten Profils. Es ist ein praktisches Ratchet für Balance-fokussierte Builds, aber nicht die erste Wahl für reine Stamina."
     },
     "officialStats": {
-      "heightMm": 80,
-      "weightGrams": 7.3,
+      "heightMm": 8,
+      "weightGrams": 7.15,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 2.1,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-4-50-hasbro",
@@ -1788,15 +1800,15 @@
     "name": "9-80",
     "manufacturer": "Hasbro",
     "imageUrl": "images/ratchets/ratchet-9-80-hasbro.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-11-16",
+    "releaseWave": "BX-27",
     "description": {
-      "en": "The 9-80 Ratchet.",
-      "de": "Das 9-80-Ratchet."
+      "en": "A right-spin Balance Type Ratchet released by Hasbro in western markets. It features nine identical protrusions at an 8.0mm height, matching the Takara Tomy design. The smooth perimeter supports stamina and balance combinations, while the tall profile avoids low attacks. Weighs about 6.9 grams.",
+      "de": "Ein rechtsdrehender Balance-Typ-Ratchet, von Hasbro auf westlichen Märkten veröffentlicht. Er verfügt über neun identische Vorsprünge in 8,0-mm-Höhe, die dem Takara-Tomy-Design entsprechen. Der glatte Umfang unterstützt Stamina- und Balance-Kombinationen, während das hohe Profil niedrigen Angriffen ausweicht. Wiegt etwa 6,9 Gramm."
     },
     "assessment": {
-      "en": "9-80 is a right-spin Balance Type Ratchet. Weight: 6.9g. Height: 80mm. Manufactured by Hasbro.",
-      "de": "9-80 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 6.9g. Höhe: 80mm. Hergestellt von Hasbro."
+      "en": "Hasbro's 9-80 performs like the Takara Tomy original. Its nine blades give it a smooth perimeter suited for Stamina and Balance combos, and the 8mm height helps avoid scrapes from lower Attackers. The tall stance still leaves it open to upper-attack knockouts, so pair it with round, low-recoil Blades.",
+      "de": "Hasbros 9-80 spielt wie das Takara-Tomy-Original. Seine neun Klingen verleihen ihm einen glatten Umfang, der sich für Stamina- und Balance-Compos eignet, und die 8-mm-Höhe hilft, Schrammen von niedrigeren Angreifern zu vermeiden. Die hohe Haltung macht ihn aber weiterhin anfällig für Upper-Attack-Knockouts, daher am besten mit runden, rückstoßarmen Blades kombinieren."
     },
     "officialStats": {
       "heightMm": 80,
@@ -1809,7 +1821,8 @@
       "stamina": 2.3,
       "balance": 2.8
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-7-55-hasbro",

@@ -10,9 +10,12 @@
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-flat",
     "assessment": {
-      "en": "Dran Sword 3-60F is the flagship Attack-type starter of Beyblade X, released by Takara Tomy as BX-01. Its right-spin Dran Sword Blade delivers aggressive smash attacks, while the 3-60 Ratchet and Flat Bit enable fast movement and strong Xtreme Dash strikes.",
-      "de": "Dran Sword 3-60F ist der Attack-Typ-Starter von Beyblade X, veröffentlicht von Takara Tomy als BX-01. Das rechtsdrehende Dran Sword Blade liefert aggressive Smash-Attacken, während 3-60 Ratchet und Flat Bit schnelle Bewegungen und starke Xtreme-Dash-Schläge ermöglichen."
-    }
+      "en": "BX-01 launched the X generation as its right-spin Attack starter. The three-sided Dran Sword Blade focuses all weight on aggressive smash contact, while the low 3-60 Ratchet and Flat Bit keep the combo planted and fast for Xtreme Dash knockouts. It is a fun collector's piece and a solid entry-level attacker, but it has been outclassed competitively by heavier Attack Blades released later in the line.",
+      "de": "BX-01 eröffnete die X-Generation als rechtsdrehender Attack-Starter. Das dreiseitige Dran Sword Blade konzentriert das Gewicht auf aggressive Smash-Kontakte, während das niedrige 3-60 Ratchet und der Flat Bit die Kombination bodennah und schnell halten für Xtreme-Dash-KOs. Für Sammler und Einsteiger eine solide Wahl, im heutigen WBO-X-Format aber von schwereren Attack-Blades überholt."
+    },
+    "priceJpy": 1788,
+    "priceUsd": 12,
+    "priceEur": 11
   },
   {
     "id": "hells-scythe4-60t-bx-02",
@@ -25,9 +28,12 @@
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-taper",
     "assessment": {
-      "en": "Hells Scythe 4-60T is a right-spin Balance-type starter released as BX-02. Its rounded Hells Scythe Blade and Taper Bit prioritize stamina and stability, making it a reliable choice for outspinning opponents.",
-      "de": "Hells Scythe 4-60T ist ein rechtsdrehender Balance-Typ-Starter, veröffentlicht als BX-02. Das runde Hells Scythe Blade und das Taper Bit setzen auf Ausdauer und Stabilität und eignen sich gut, um Gegner auszudrehen."
-    }
+      "en": "BX-02 introduced Hells Scythe as the line's right-spin Balance starter. Its round, four-sided Blade trades raw attack power for stability and stamina, while the 4-60 Ratchet and Taper Bit add controlled aggression. It is a forgiving choice for beginners and casual Stamina builds, though dedicated Stamina Blades like WizardRod have since pushed it out of the competitive spotlight.",
+      "de": "BX-02 führte Hells Scythe als rechtsdrehenden Balance-Starter der Line ein. Der runde, vierseitige Blade tauscht rohe Angriffskraft gegen Stabilität und Ausdauer ein, während 4-60 Ratchet und Taper Bit eine kontrollierte Aggression hinzufügen. Eine verzeihende Wahl für Anfänger und Casual-Stamina-Builds, auch wenn dedizierte Stamina-Blades wie WizardRod ihn seitdem aus dem kompetitiven Fokus verdrängt haben."
+    },
+    "priceJpy": 1680,
+    "priceUsd": 11,
+    "priceEur": 10.5
   },
   {
     "id": "knight-shield3-80n-bx-04",
@@ -40,9 +46,12 @@
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-needle",
     "assessment": {
-      "en": "Knight Shield 3-80N is a right-spin Defense-type starter released as BX-04. The wide Knight Shield Blade and Needle Bit provide strong KO resistance and stability, while the taller 3-80 Ratchet helps withstand attacks from lower opponents.",
-      "de": "Knight Shield 3-80N ist ein rechtsdrehender Defense-Typ-Starter, veröffentlicht als BX-04. Das breite Knight Shield Blade und das Needle Bit bieten starken KO-Widerstand und Stabilität, während das höhere 3-80 Ratchet Angriffen von niedrigeren Gegnern besser standhält."
-    }
+      "en": "BX-04 is the right-spin Defense starter of the Basic Line. Its wide Knight Shield Blade uses six impact-absorbing contact points to shrug off attacks, while the tall 3-80 Ratchet and Needle Bit add height and centering stability. It teaches the value of defensive positioning, though heavier Defense Blades released later offer more consistent knockout resistance.",
+      "de": "BX-04 ist der rechtsdrehende Defense-Starter der Basic Line. Das breite Knight Shield Blade nutzt sechs stoßabsorbierende Kontaktpunkte, um Angriffe abzufedern, während das hohe 3-80 Ratchet und der Needle Bit Höhe und zentrierende Stabilität hinzufügen. Er vermittelt das Prinzip defensiver Positionierung, auch wenn spätere, schwerere Defense-Blades einen konsistenteren KO-Widerstand bieten."
+    },
+    "priceJpy": 1980,
+    "priceUsd": 10,
+    "priceEur": 9.5
   },
   {
     "id": "wizard-arrow4-80b-bx-03",
@@ -55,9 +64,12 @@
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-ball",
     "assessment": {
-      "en": "Wizard Arrow 4-80B is a right-spin Balance-type starter released as BX-03. Its rounded Wizard Arrow Blade and Ball Bit offer a mix of stamina and stability, making it a well-rounded entry point for beginners.",
-      "de": "Wizard Arrow 4-80B ist ein rechtsdrehender Balance-Typ-Starter, veröffentlicht als BX-03. Das runde Wizard Arrow Blade und das Ball Bit bieten eine Mischung aus Ausdauer und Stabilität und sind ein solider Einstieg für Anfänger."
-    }
+      "en": "BX-03 hands the Basic Line its first dedicated Stamina starter. Wizard Arrow's wide, circular Blade generates long, smooth rotations, while the 4-80 Ratchet and Ball Bit keep the combo upright and centered. It rewards patient launch timing and remains one of the best beginner-friendly Stamina sets from the first wave.",
+      "de": "BX-03 bringt der Basic Line ihren ersten dedizierten Stamina-Starter. Wizard Arrows breiter, kreisförmiger Blade erzeugt lange, gleichmäßige Rotationen, während 4-80 Ratchet und Ball Bit die Kombination aufrecht und zentriert halten. Er belohnt geduldiges Launch-Timing und bleibt einer der einsteigerfreundlichsten Stamina-Sets aus der ersten Welle."
+    },
+    "priceJpy": 1980,
+    "priceUsd": 12,
+    "priceEur": 10.5
   },
   {
     "id": "knight-lance4-80hn-bx-13",
@@ -70,28 +82,16 @@
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-high-needle",
     "assessment": {
-      "en": "Knight Lance 4-80HN is a right-spin Defense-type booster released as BX-13. The Knight Lance Blade features a lance-like shape for deflecting hits, and the taller High Needle Bit increases stamina while maintaining defensive stability.",
-      "de": "Knight Lance 4-80HN ist ein rechtsdrehender Defense-Typ-Booster, veröffentlicht als BX-13. Das Knight Lance Blade hat eine lanzenartige Form, um Treffer abzuwehren, und das höhere High Needle Bit erhöht die Ausdauer bei gleichzeitig defensiver Stabilität."
-    }
-  },
-  {
-    "id": "shark-edge3-60lf-bx-06",
-    "name": "Shark Edge 3-60LF",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "images/beys/shark-edge3-60lf-bx-06.png",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX-06",
-    "bladeId": "shark-edge",
-    "ratchetId": "ratchet-3-60",
-    "bitId": "bit-low-flat",
-    "assessment": {
-      "en": "Shark Edge 3-60LF is a right-spin Attack-type prize Bey from Random Booster Vol. 1, released as BX-06. The six-sided Shark Edge Blade generates powerful smash attacks, and the Low Flat Bit keeps the combo low and fast for aggressive Xtreme Dash play.",
-      "de": "Shark Edge 3-60LF ist ein rechtsdrehender Attack-Typ-Prize-Bey aus Random Booster Vol. 1, veröffentlicht als BX-06. Das sechsseitige Shark Edge Blade erzeugt starke Smash-Attacken, und das Low Flat Bit hält die Kombination niedrig und schnell für aggressives Xtreme-Dash-Gameplay."
-    }
+      "en": "BX-13 is the first true counter-archetype stock combo in Beyblade X. Knight Lance’s three-sided shape absorbs and redirects attacks, while High Needle provides top-tier stamina that lets the combo out-spin aggressive opponents. The tall 4-80 Ratchet trades burst resistance for height, making the combo slightly fragile. BeyBase scored it 7.5/10 for its versatility and value.",
+      "de": "BX-13 ist das erste wahre Counter-Archetyp-Stock-Combo in Beyblade X. Die dreiseitige Form von Knight Lance absorbiert und lenkt Angriffe um, während High Needle Top-Tier-Ausdauer liefert, mit der das Combo aggressive Gegner ausdreht. Das hohe 4-80 Ratchet tauscht Burst-Resistenz gegen Höhe ein, wodurch das Combo etwas fragiler wird. BeyBase bewertete es mit 7,5/10 für Vielseitigkeit und Wert."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 10,
+    "priceEur": 11
   },
   {
     "id": "leon-claw5-60p-bx-15",
-    "name": "LeonClaw 5-60P",
+    "name": "Leon Claw 5-60P",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/leon-claw5-60p-bx-15.png",
     "releaseDate": "2023-10-07",
@@ -100,9 +100,12 @@
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-point",
     "assessment": {
-      "en": "LeonClaw 5-60P is a right-spin Balance-type starter released as BX-15. Its Leon Claw Blade combines attack and stamina traits, while the Point Bit provides steady contact with the stadium floor for consistent performance.",
-      "de": "LeonClaw 5-60P ist ein rechtsdrehender Balance-Typ-Starter, veröffentlicht als BX-15. Das Leon Claw Blade vereint Angriffs- und Ausdauereigenschaften, während das Point Bit einen stabilen Kontakt zum Stadionboden für gleichmäßige Leistung bietet."
-    }
+      "en": "BX-15 is a strong value starter: the 5-60 Ratchet and Point Bit are genuinely competitive parts, while the Leon Claw Blade is the weakest link. BeyBase scored the set 8.5/10 because the Ratchet and Bit alone justify the purchase. The stock combo can behave like a mobile Balance type when launched tilted or sit stationary when launched flat, but the light Blade struggles against specialized Attack or Stamina opponents.",
+      "de": "BX-15 ist ein starker Starter mit guten Wert: Das 5-60 Ratchet und das Point Bit sind echte konkurrenzfähige Teile, während das Leon Claw Blade das schwächste Glied ist. BeyBase bewertete das Set mit 8,5/10, weil Ratchet und Bit allein den Kauf rechtfertigen. Das Stock-Combo kann bei schrägem Launch wie ein mobiler Balance-Typ spielen oder bei flachem Launch stationär bleiben, aber der leichte Blade hat Probleme gegen spezialisierte Attack- oder Stamina-Gegner."
+    },
+    "priceJpy": 1980,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "dran-dagger4-60r-bx-20",
@@ -115,13 +118,34 @@
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-rush",
     "assessment": {
-      "en": "DranDagger 4-60R is a right-spin Attack-type deck set released as BX-20. The Dran Dagger Blade is built for rapid barrage attacks, and the Rush Bit maintains dash power to enable repeated Xtreme Dash strikes.",
-      "de": "DranDagger 4-60R ist ein rechtsdrehender Attack-Typ-Deck-Set, veröffentlicht als BX-20. Das Dran Dagger Blade ist auf schnelle Angriffssalven ausgelegt, und das Rush Bit erhält die Dash-Kraft für wiederholte Xtreme-Dash-Schläge."
-    }
+      "en": "BX-20's headline combo is a formidable Attack stock combo right out of the box. The Dran Dagger Blade's six blades provide repeated contact, the 4-60 Ratchet keeps the height moderate, and the Rush Bit adds control and extra Xtreme Dash attempts without the self-knockout risk of Flat or Low Flat. BeyBase recommends the Dran Dagger Deck Set because the combo can be as viable as Dran Sword 3-60F, while the included Shark Edge 3-80F and Knight Shield 4-80T add further value.",
+      "de": "Das Haupt-Combo von BX-20 ist ein formidable Attack-Stock-Combo direkt aus der Box. Die sechs Klingen des Dran Dagger Blades sorgen für wiederholten Kontakt, das 4-60 Ratchet hält die Höhe moderat, und das Rush Bit fügt Kontrolle und zusätzliche Xtreme-Dash-Versuche ohne das Selbst-Knockout-Risiko von Flat oder Low Flat hinzu. BeyBase empfiehlt das Dran Dagger Deck Set, weil das Combo so brauchbar wie Dran Sword 3-60F sein kann, während das enthaltene Shark Edge 3-80F und Knight Shield 4-80T zusätzlichen Wert bieten."
+    },
+    "priceJpy": 3960,
+    "priceUsd": 28,
+    "priceEur": 26
+  },
+  {
+    "id": "shark-edge3-80f-bx-20",
+    "name": "Shark Edge 3-80F",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "images/beys/shark-edge3-80f-bx-20.png",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX-20",
+    "bladeId": "shark-edge",
+    "ratchetId": "ratchet-3-80",
+    "bitId": "bit-flat",
+    "assessment": {
+      "en": "Shark Edge 3-80F is the second Attack combo in the BX-20 Dran Dagger Deck Set. The same aggressive Shark Edge Blade now sits on the taller 3-80 Ratchet and the standard Flat Bit, giving it a higher stance and stronger Xtreme Dash acceleration than the 3-60LF prize version. It is a generous secondary combo that makes the competitive Shark Edge Blade more accessible, though the taller Ratchet leaves it slightly more exposed to knock-outs.",
+      "de": "Shark Edge 3-80F ist das zweite Attack-Combo im BX-20 Dran Dagger Deck Set. Derselbe aggressive Shark Edge Blade sitzt nun auf dem höheren 3-80 Ratchet und dem standardmäßigen Flat Bit, was ihm eine höhere Haltung und stärkere Xtreme-Dash-Beschleunigung als die 3-60LF-Prize-Version verleiht. Es ist ein großzügiges Zweit-Combo, das den kompetitiven Shark Edge Blade zugänglicher macht, obwohl das höhere Ratchet es etwas anfälliger für Knockouts macht."
+    },
+    "priceJpy": 3960,
+    "priceUsd": 28,
+    "priceEur": 26
   },
   {
     "id": "hells-chain5-60ht-bx-21",
-    "name": "HellsChain 5-60HT",
+    "name": "Hells Chain 5-60HT",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/hells-chain5-60ht-bx-21.png",
     "releaseDate": "2023-11-02",
@@ -130,13 +154,64 @@
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-high-taper",
     "assessment": {
-      "en": "HellsChain 5-60HT is a right-spin Balance-type booster released as BX-21. It is a more endurance-focused variant of Hells Scythe, using the Hells Chain Blade and High Taper Bit to extend spin time while retaining decent defense.",
-      "de": "HellsChain 5-60HT ist ein rechtsdrehender Balance-Typ-Booster, veröffentlicht als BX-21. Es ist eine ausdauerorientierte Variante von Hells Scythe, die mit Hells Chain Blade und High Taper Bit die Drehzeit verlängert und gleichzeitig anständige Verteidigung bietet."
+      "en": "BX-21 Hells Chain 5-60HT is the flagship of the Hells Chain Deck Set and a more defense-minded evolution of the Hells line. The Hells Chain Blade's five chain-link contact points generate less recoil than Hells Scythe, letting the combo absorb and deflect mobile Attackers, while the 5-60 Ratchet stabilizes the Blade's wobble on the tall High Taper Bit. High Taper itself adds enough controlled aggression to keep the combo relevant on the X-Line without burning out like Flat or Low Flat. It is not a pure upgrade to Hells Scythe 4-60T, but a strong alternative for players who prefer a safer, counter-heavy Balance playstyle.",
+      "de": "BX-21 Hells Chain 5-60HT ist das Flaggschiff des Hells Chain Deck Sets und eine defensorientiertere Evolution der Hells-Linie. Die fünf kettenglied-förmigen Kontaktpunkte des Hells Chain Blades erzeugen weniger Rückstoß als Hells Scythe, sodass das Combo mobile Angreifer absorbieren und ablenken kann, während das 5-60 Ratchet das Wackeln des Blades auf dem hohen High Taper Bit stabilisiert. High Taper selbst fügt genug kontrollierte Aggression hinzu, um das Combo auf der X-Line relevant zu halten, ohne wie Flat oder Low Flat auszubrennen. Es ist kein direktes Upgrade zu Hells Scythe 4-60T, aber eine starke Alternative für Spieler, die einen sichereren, counter-lastigen Balance-Spielstil bevorzugen."
+    },
+    "priceJpy": 1320,
+    "priceUsd": 12,
+    "priceEur": 11,
+    "priceNote": {
+      "en": "Estimated single-Bey value from the BX-21 Hells Chain Deck Set (list price ¥3960). Individual resale prices vary widely.",
+      "de": "Geschätzter Einzelwert aus dem BX-21 Hells Chain Deck Set (UVP ¥3960). Einzelverkaufspreise schwanken stark."
+    }
+  },
+  {
+    "id": "knight-lance3-60lf-bx-21",
+    "name": "Knight Lance 3-60LF",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "images/beys/knight-lance3-60lf-bx-21.png",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX-21",
+    "bladeId": "knight-lance",
+    "ratchetId": "ratchet-3-60",
+    "bitId": "bit-low-flat",
+    "assessment": {
+      "en": "Knight Lance 3-60LF is the Attack-oriented repaint of the BX-21 Hells Chain Deck Set, cast in yellow. Pairing the counter-style Knight Lance Blade with the aggressive Low Flat Bit turns the usually defensive Blade into a fast, rail-rushing attacker: the lance-like contact points punish anything that tries to block it, while the low 3-60 Ratchet keeps the combo planted for Xtreme Dash hits. It is a fun, high-risk deck-set variant that rewards hard launches and punishes passive Stamina setups.",
+      "de": "Knight Lance 3-60LF ist die angriffsorientierte Neufassung des BX-21 Hells Chain Deck Sets in Gelb. Die Kombination des Counter-Blades Knight Lance mit dem aggressiven Low Flat Bit verwandelt den normalerweise defensiven Blade in einen schnellen, schienen-stürmenden Angreifer: Die lanzenförmigen Kontaktpunkte bestrafen alles, was ihn blockieren will, während das niedrige 3-60 Ratchet das Combo für Xtreme-Dash-Treffer bodennah hält. Es ist eine spaßige, high-risk Deck-Set-Variante, die harte Launches belohnt und passive Stamina-Aufstellungen bestraft."
+    },
+    "priceJpy": 1320,
+    "priceUsd": 11,
+    "priceEur": 10,
+    "priceNote": {
+      "en": "Estimated single-Bey value from the BX-21 Hells Chain Deck Set (list price ¥3960). Not sold individually by Takara Tomy.",
+      "de": "Geschätzter Einzelwert aus dem BX-21 Hells Chain Deck Set (UVP ¥3960). Nicht einzeln von Takara Tomy erhältlich."
+    }
+  },
+  {
+    "id": "wizard-arrow4-80n-bx-21",
+    "name": "Wizard Arrow 4-80N",
+    "manufacturer": "Takara Tomy",
+    "imageUrl": "images/beys/wizard-arrow4-80n-bx-21.png",
+    "releaseDate": "2023-11-02",
+    "releaseWave": "BX-21",
+    "bladeId": "wizard-arrow",
+    "ratchetId": "ratchet-4-80",
+    "bitId": "bit-needle",
+    "assessment": {
+      "en": "Wizard Arrow 4-80N is the Defense-oriented repaint of the BX-21 Hells Chain Deck Set, cast in orange. The round Wizard Arrow Blade already wants to outlast opponents, and the 4-80 Ratchet lifts it clear of the stadium floor while the Needle Bit provides a sharp, stable contact point. The result is a patient, stamina-leaning Defender that can stall out Attack combos and win by outspin. It is a straightforward, beginner-friendly combo and a useful source of duplicate 4-80 and Needle parts.",
+      "de": "Wizard Arrow 4-80N ist die defensorientierte Neufassung des BX-21 Hells Chain Deck Sets in Orange. Der runde Wizard Arrow Blade will Gegner ohnehin überdauern, und das 4-80 Ratchet hebt ihn über den Stadionboden, während das Needle Bit einen scharfen, stabilen Kontaktpunkt bietet. Das Ergebnis ist ein geduldiger, stamina-lastiger Defender, der Attack-Kombos hinauszögern und durch Ausdrehen gewinnen kann. Ein unkompliziertes, einsteigerfreundliches Combo und eine nützliche Quelle für doppelte 4-80- und Needle-Teile."
+    },
+    "priceJpy": 1320,
+    "priceUsd": 11,
+    "priceEur": 10,
+    "priceNote": {
+      "en": "Estimated single-Bey value from the BX-21 Hells Chain Deck Set (list price ¥3960). Not sold individually by Takara Tomy.",
+      "de": "Geschätzter Einzelwert aus dem BX-21 Hells Chain Deck Set (UVP ¥3960). Nicht einzeln von Takara Tomy erhältlich."
     }
   },
   {
     "id": "rhino-horn3-80s-bx-19",
-    "name": "RhinoHorn 3-80S",
+    "name": "Rhino Horn 3-80S",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/rhino-horn3-80s-bx-19.png",
     "releaseDate": "2023-11-02",
@@ -145,9 +220,12 @@
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-spike",
     "assessment": {
-      "en": "RhinoHorn 3-80S is a right-spin Defense-type booster released as BX-19. Its sturdy Rhino Horn Blade and Spike Bit offer strong KO resistance and stamina, making it a solid defensive choice for longer battles.",
-      "de": "RhinoHorn 3-80S ist ein rechtsdrehender Defense-Typ-Booster, veröffentlicht als BX-19. Das robuste Rhino Horn Blade und das Spike Bit bieten starken KO-Widerstand und Ausdauer und sind eine solide defensive Wahl für längere Kämpfe."
-    }
+      "en": "BX-19 Rhino Horn 3-80S is a defense-themed booster that struggles to live up to its type. The Rhino Horn Blade is too small and uneven to reliably absorb hits, and its stamina is noticeably worse than Hells Scythe or Wizard Arrow. The tall 3-80 Ratchet and Spike Bit lift the combo and give it some centered, stalling potential, but the tiny Spike tip is easy to knock out. BeyBase only recommends this release to players who specifically want to experiment with the Spike Bit. As a stock combo it is outclassed, though it can still create chaotic, entertaining battles in casual play.",
+      "de": "BX-19 Rhino Horn 3-80S ist ein defensiv thematisierter Booster, der seinem Typ nicht wirklich gerecht wird. Das Rhino Horn Blade ist zu klein und uneben, um Treffer zuverlässig zu absorbieren, und seine Ausdauer ist deutlich schlechter als bei Hells Scythe oder Wizard Arrow. Das hohe 3-80 Ratchet und das Spike Bit heben das Combo an und verleihen ihm etwas zentriertes Stalling-Potenzial, aber die winzige Spike-Spitze ist leicht aus dem Stadion zu werfen. BeyBase empfiehlt diesen Booster nur Spielern, die gezielt mit dem Spike Bit experimentieren wollen. Als Stock-Combo ist er überholt, kann aber im Casual-Play noch chaotische, unterhaltsame Kämpfe liefern."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "phoenix-feather3-60f-bx-00",
@@ -421,7 +499,7 @@
   },
   {
     "id": "shark-edge3-60lf-bx-14",
-    "name": "SharkEdge 3-60LF",
+    "name": "Shark Edge 3-60LF",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/shark-edge3-60lf-bx-14.png",
     "releaseDate": "2023-09-09",
@@ -430,9 +508,12 @@
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-low-flat",
     "assessment": {
-      "en": "SharkEdge 3-60LF is the prize Attack-type Bey from Random Booster Vol. 1, released as BX-14. The purple Shark Edge Blade and Low Flat Bit make it one of the most aggressive right-spin attackers in the early Basic Line.",
-      "de": "SharkEdge 3-60LF ist der Prize Attack-Typ-Bey aus Random Booster Vol. 1, veröffentlicht als BX-14. Das lila Shark Edge Blade und das Low Flat Bit machen ihn zu einem der aggressivsten Rechtsdreher-Angreifer der frühen Basic Line."
-    }
+      "en": "BX-14-01 is the prize Bey from Random Booster Vol. 1 and one of the most feared early Attack stock combos. Shark Edge's two heavy, upward-sloping blades deliver brutal Smash and Upper Attack, while the low 3-60 Ratchet and Low Flat Bit keep the combo planted and lightning-fast for Xtreme Dash knockouts. It must win early: its stamina is poor, and both the Blade contact points and Low Flat tip wear down quickly with aggressive play.",
+      "de": "BX-14-01 ist der Prize-Bey aus Random Booster Vol. 1 und eines der gefürchtetsten frühen Attack-Stock-Combos. Die zwei schweren, nach oben geneigten Klingen von Shark Edge liefern brutalen Smash- und Upper-Attack, während das niedrige 3-60 Ratchet und das Low Flat Bit die Kombination bodennah und blitzschnell für Xtreme-Dash-Knockouts halten. Es muss früh gewinnen: Die Stamina ist gering, und sowohl die Blade-Kontaktpunkte als auch die Low-Flat-Spitze verschleißen bei aggressivem Spiel schnell."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 8,
+    "priceEur": 8
   },
   {
     "id": "shark-edge4-80n-bx-14",
@@ -586,108 +667,133 @@
   },
   {
     "id": "phoenix-wing9-60gf-bx-23",
-    "name": "PhoenixWing 9-60GF",
+    "name": "Phoenix Wing 9-60GF",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/phoenix-wing9-60gf-bx-23.png",
-    "releaseDate": "2023-12-27",
+    "releaseDate": "2023-12-10",
     "releaseWave": "BX-23",
     "bladeId": "phoenix-wing",
     "ratchetId": "ratchet-9-60",
     "bitId": "bit-gear-flat",
     "assessment": {
-      "en": "PhoenixWing 9-60GF is a right-spin Attack-type starter released as BX-23. Its heavy metal-coated Phoenix Wing Blade and Gear Flat Bit deliver powerful Xtreme Dash attacks, making it one of the strongest early Basic Line attackers.",
-      "de": "PhoenixWing 9-60GF ist ein rechtsdrehender Attack-Typ-Starter, veröffentlicht als BX-23. Das schwere metallbeschichtete Phoenix Wing Blade und das Gear Flat Bit liefern starke Xtreme-Dash-Angriffe und machen es zu einem der stärksten frühen Basic-Line-Angreifer."
-    }
+      "en": "BX-23 Phoenix Wing 9-60GF arrived as a metagame-shifting Attack starter. The 39-gram Phoenix Wing Blade is one of the heaviest Basic Line Attack Blades, and its three upward-slanting contact points convert that mass into brutal Smash and Upper Attack. When paired with the low, burst-safe 9-60 Ratchet and the ferocious Gear Flat Bit, the combo can delete opponents in a single Xtreme Dash. The trade-off is control: Gear Flat accelerates hard and self-KOs often, so consistent launch technique is essential. It dominated early 2024 tournaments and remains a must-have heavy attacker, even if later Blades like Shark Scale have since pushed the ceiling higher.",
+      "de": "BX-23 Phoenix Wing 9-60GF kam als metaspielverändernder Attack-Starter. Der 39 Gramm schwere Phoenix Wing Blade ist einer der schwersten Attack-Blades der Basic Line, und seine drei nach oben geneigten Kontaktpunkte verwandeln diese Masse in brutalen Smash- und Upper-Attack. Gepaart mit dem niedrigen, burst-sicheren 9-60 Ratchet und dem wilden Gear Flat Bit kann das Combo Gegner in einem einzigen Xtreme Dash eliminieren. Der Nachteil ist die Kontrolle: Gear Flat beschleunigt stark und produziert häufig Selbst-KOs, daher ist eine konsistente Launch-Technik essenziell. Es dominierte frühe Turniere 2024 und bleibt ein Must-Have-schwerer Angreifer, auch wenn spätere Blades wie Shark Scale die Grenze weiter verschoben haben."
+    },
+    "priceJpy": 2100,
+    "priceUsd": 26,
+    "priceEur": 24
   },
   {
     "id": "wyvern-gale5-80gb-bx-24",
-    "name": "WyvernGale 5-80GB",
+    "name": "Wyvern Gale 5-80GB",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/wyvern-gale5-80gb-bx-24.png",
     "releaseDate": "2023-12-27",
-    "releaseWave": "BX-24",
+    "releaseWave": "BX-24-01",
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-gear-ball",
     "assessment": {
-      "en": "WyvernGale 5-80GB is the prize Stamina-type Bey from Random Booster Vol. 2, released as BX-24. Its round Wyvern Gale Blade and Gear Ball Bit provide excellent spin time and stability.",
-      "de": "WyvernGale 5-80GB ist der Prize Stamina-Typ-Bey aus Random Booster Vol. 2, veröffentlicht als BX-24. Das runde Wyvern Gale Blade und das Gear Ball Bit bieten exzellente Drehzeit und Stabilität."
+      "en": "BX-24-01 Wyvern Gale 5-80GB is the prize Stamina pull from Random Booster Vol. 2. The Wyvern Gale Blade has high raw stamina and low recoil on paper, but its light weight and raised contact points leave the plastic frame exposed, so the tall 5-80 Ratchet and Gear Ball Bit do not solve its knockout problem. Beyblade Wiki concludes that the stock combo is easily lifted and destabilized, and recommends swapping 5-80 for 9-60 or 3-60 and Gear Ball for Orb if you actually want to use Wyvern Gale competitively. As a prize piece it is decent but not dominant.",
+      "de": "BX-24-01 Wyvern Gale 5-80GB ist der Prize-Stamina-Pull aus Random Booster Vol. 2. Das Wyvern Gale Blade hat auf dem Papier hohe rohe Ausdauer und geringen Rückstoß, aber sein geringes Gewicht und die erhöhten Kontaktpunkte lassen den Kunststoffrahmen freiliegen, sodass das hohe 5-80 Ratchet und das Gear Ball Bit sein Knockout-Problem nicht lösen. Das Beyblade Wiki kommt zu dem Schluss, dass das Stock-Combo leicht angehoben und destabilisiert wird und empfiehlt, 5-80 gegen 9-60 oder 3-60 sowie Gear Ball gegen Orb zu tauschen, wenn man Wyvern Gale wirklich kompetitiv nutzen will. Als Prize-Piece ist es anständig, aber nicht dominant."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12,
+    "priceNote": {
+      "en": "Single random booster price. Prize Beys often sell for a premium on the secondary market.",
+      "de": "Einzelpreis eines Random Boosters. Prize-Beys werden auf dem Sekundärmarkt oft zu einem Aufpreis verkauft."
     }
   },
   {
     "id": "wyvern-gale3-60t-bx-24",
-    "name": "WyvernGale 3-60T",
+    "name": "Wyvern Gale 3-60T",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/wyvern-gale3-60t-bx-24.png",
     "releaseDate": "2023-12-27",
-    "releaseWave": "BX-24",
+    "releaseWave": "BX-24-02",
     "bladeId": "wyvern-gale",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-taper",
     "assessment": {
-      "en": "WyvernGale 3-60T is a right-spin Stamina-type pull from Random Booster Vol. 2, released as BX-24. The Taper Bit keeps the Wyvern Gale Blade steady in the center for long-lasting spin.",
-      "de": "WyvernGale 3-60T ist ein rechtsdrehender Stamina-Typ aus Random Booster Vol. 2, veröffentlicht als BX-24. Das Taper Bit hält das Wyvern Gale Blade in der Mitte stabil für eine langlebige Drehung."
-    }
+      "en": "BX-24-02 Wyvern Gale 3-60T keeps the Wyvern Gale Blade much lower than the prize combo, using the low 3-60 Ratchet and the balanced Taper Bit. This setup tries to reduce the exposed plastic frame problem by sitting closer to the stadium floor, while Taper provides a mix of controlled movement and stamina. It is still held back by the Blade's light weight, but it is a more practical stock use of Wyvern Gale than 5-80GB for players who want a less fragile stamina experience.",
+      "de": "BX-24-02 Wyvern Gale 3-60T hält das Wyvern Gale Blade viel niedriger als das Prize-Combo, mit dem niedrigen 3-60 Ratchet und dem balancierten Taper Bit. Dieses Setup versucht, das Problem des freiliegenden Kunststoffrahmens zu reduzieren, indem es dichter am Stadionboden sitzt, während Taper eine Mischung aus kontrollierter Bewegung und Ausdauer bietet. Es wird weiterhin vom geringen Gewicht des Blades gebremst, aber es ist eine praktischere Stock-Nutzung von Wyvern Gale als 5-80GB für Spieler, die ein weniger fragiles Stamina-Erlebnis wollen."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "knight-lance4-60gb-bx-24",
-    "name": "KnightLance 4-60GB",
+    "name": "Knight Lance 4-60GB",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/knight-lance4-60gb-bx-24.png",
     "releaseDate": "2023-12-27",
-    "releaseWave": "BX-24",
+    "releaseWave": "BX-24-03",
     "bladeId": "knight-lance",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-gear-ball",
     "assessment": {
-      "en": "KnightLance 4-60GB is a right-spin Defense-type pull from Random Booster Vol. 2, released as BX-24. The Knight Lance Blade combined with the Gear Ball Bit offers solid defense with improved stability.",
-      "de": "KnightLance 4-60GB ist ein rechtsdrehender Defense-Typ aus Random Booster Vol. 2, veröffentlicht als BX-24. Knight Lance Blade kombiniert mit Gear Ball Bit bietet solide Verteidigung mit verbesserter Stabilität."
-    }
+      "en": "BX-24-03 Knight Lance 4-60GB is a defensive redeco from Random Booster Vol. 2. The counter-style Knight Lance Blade works best when it can absorb and deflect hits, but the semi-mobile Gear Ball Bit sometimes pulls the combo out of position and the 4-60 Ratchet only offers average stability. It is a usable budget Defense combo against lighter Attackers, yet it cannot hang with the dedicated Defense staples of the format.",
+      "de": "BX-24-03 Knight Lance 4-60GB ist eine defensive Neufassung aus Random Booster Vol. 2. Der Counter-Blade Knight Lance funktioniert am besten, wenn er Treffer absorbieren und ablenken kann, aber das halbmobile Gear Ball Bit zieht das Combo manchmal aus der Position und das 4-60 Ratchet bietet nur durchschnittliche Stabilität. Es ist ein brauchbares Budget-Defense-Combo gegen leichtere Angreifer, kann aber nicht mit den dedizierten Defense-Grundpfeilern des Formats mithalten."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "viper-tail5-60f-bx-24",
-    "name": "ViperTail 5-60F",
+    "name": "Viper Tail 5-60F",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/viper-tail5-60f-bx-24.png",
     "releaseDate": "2023-12-27",
-    "releaseWave": "BX-24",
+    "releaseWave": "BX-24-04",
     "bladeId": "viper-tail",
     "ratchetId": "ratchet-5-60",
     "bitId": "bit-flat",
     "assessment": {
-      "en": "ViperTail 5-60F is a right-spin Attack-type pull from Random Booster Vol. 2, released as BX-24. The Flat Bit turns the Viper Tail Blade into a fast, mobile attacker.",
-      "de": "ViperTail 5-60F ist ein rechtsdrehender Attack-Typ aus Random Booster Vol. 2, veröffentlicht als BX-24. Das Flat Bit verwandelt das Viper Tail Blade in einen schnellen, beweglichen Angreifer."
-    }
+      "en": "BX-24-04 Viper Tail 5-60F is an aggressive redeco from Random Booster Vol. 2. Pairing the unpredictable Viper Tail Blade with the fast Flat Bit turns the combo into a coin-flip attacker: the shorter aggressive sections can catch opponents off guard and score sudden knockouts, while the smooth sections and low stamina often leave it stranded after the opening rush. The 5-60 Ratchet adds a bit of stability, but this is primarily a fun, high-variance combo rather than a consistent competitive choice.",
+      "de": "BX-24-04 Viper Tail 5-60F ist eine aggressive Neufassung aus Random Booster Vol. 2. Die Kombination des unberechenbaren Viper Tail Blades mit dem schnellen Flat Bit verwandelt das Combo in einen Münzwurf-Angreifer: Die kürzeren aggressiven Sektionen können Gegner überraschen und plötzliche Knockouts erzielen, während die glatten Sektionen und die geringe Ausdauer es nach dem Eröffnungsrush oft stranden lassen. Das 5-60 Ratchet fügt etwas Stabilität hinzu, aber es ist vor allem ein spaßiges, hochvarianzes Combo und keine konsistente kompetitive Wahl."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "leon-claw3-80hn-bx-24",
-    "name": "LeonClaw 3-80HN",
+    "name": "Leon Claw 3-80HN",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/leon-claw3-80hn-bx-24.png",
     "releaseDate": "2023-12-27",
-    "releaseWave": "BX-24",
+    "releaseWave": "BX-24-05",
     "bladeId": "leon-claw",
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-high-needle",
     "assessment": {
-      "en": "LeonClaw 3-80HN is a right-spin Balance-type pull from Random Booster Vol. 2, released as BX-24. The High Needle Bit raises the Leon Claw Blade for added stamina and defensive stability.",
-      "de": "LeonClaw 3-80HN ist ein rechtsdrehender Balance-Typ aus Random Booster Vol. 2, veröffentlicht als BX-24. Das High Needle Bit hebt das Leon Claw Blade für zusätzliche Ausdauer und defensiver Stabilität an."
-    }
+      "en": "BX-24-05 Leon Claw 3-80HN is a stamina-leaning redeco from Random Booster Vol. 2. The Leon Claw Blade already has solid stamina potential, and the tall High Needle Bit leans into that by keeping the combo centered and spinning for a long time. The 3-80 Ratchet adds height and a strong lock, but also exposes the combo to strikes from below. It is a straightforward Stamina build that works best when it can avoid early aggression and outlast the opponent.",
+      "de": "BX-24-05 Leon Claw 3-80HN ist eine stamina-lastige Neufassung aus Random Booster Vol. 2. Das Leon Claw Blade hat bereits solides Stamina-Potenzial, und das hohe High Needle Bit baut darauf auf, indem es das Combo zentriert und lange drehen lässt. Das 3-80 Ratchet fügt Höhe und eine starke Verriegelung hinzu, macht das Combo aber anfällig für Treffer von unten. Es ist ein geradliniger Stamina-Build, der am besten funktioniert, wenn er früher Aggression vermeiden und den Gegner überdauern kann."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "wizard-arrow4-80gb-bx-24",
-    "name": "WizardArrow 4-80GB",
+    "name": "Wizard Arrow 4-80GB",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/wizard-arrow4-80gb-bx-24.png",
     "releaseDate": "2023-12-27",
-    "releaseWave": "BX-24",
+    "releaseWave": "BX-24-06",
     "bladeId": "wizard-arrow",
     "ratchetId": "ratchet-4-80",
     "bitId": "bit-gear-ball",
     "assessment": {
-      "en": "WizardArrow 4-80GB is a right-spin Stamina-type pull from Random Booster Vol. 2, released as BX-24. The Gear Ball Bit supports the Wizard Arrow Blade for consistent, long-lasting spin.",
-      "de": "WizardArrow 4-80GB ist ein rechtsdrehender Stamina-Typ aus Random Booster Vol. 2, veröffentlicht als BX-24. Das Gear Ball Bit unterstützt das Wizard Arrow Blade für eine gleichmäßige, langlebige Drehung."
-    }
+      "en": "BX-24-06 Wizard Arrow 4-80GB is a tall, stamina-oriented redeco from Random Booster Vol. 2. The round Wizard Arrow Blade wants to sit in the center and outspin opponents, while the Gear Ball Bit adds semi-mobile dodge potential and easier X-Line access. The 4-80 Ratchet keeps the combo high and clear of the floor, but that same height makes it vulnerable to being struck from below. It is a usable Stamina variant for casual play, though dedicated Stamina builds usually prefer a simpler Bit like Ball or Orb over Gear Ball.",
+      "de": "BX-24-06 Wizard Arrow 4-80GB ist eine hohe, stamina-orientierte Neufassung aus Random Booster Vol. 2. Das runde Wizard Arrow Blade will in der Mitte sitzen und Gegner überdauern, während das Gear Ball Bit halbmobile Ausweichpotenzial und einfacheren X-Line-Zugang hinzufügt. Das 4-80 Ratchet hält das Combo hoch und frei vom Boden, aber dieselbe Höhe macht es verwundbar für Treffer von unten. Es ist eine brauchbare Stamina-Variante für Casual-Play, obwohl dedizierte Stamina-Builds meist ein einfacheres Bit wie Ball oder Orb gegenüber Gear Ball bevorzugen."
+    },
+    "priceJpy": 1540,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "tyranno-beat4-70q-bx-31",
@@ -699,10 +805,17 @@
     "bladeId": "tyranno-beat",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-quake",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade and the prize entry of BX-31 Random Booster Vol. 3, released in Japan on April 27, 2024. It combines the heavy, elliptical Tyranno Beat Blade with the 4-70 Ratchet and the Quake Bit. The Quake Bit's slanted tip makes the combo jump unpredictably during Xtreme Dash attacks. The complete Bey weighs about 45.7 grams.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade und der Prize-Eintrag des BX-31 Random Booster Vol. 3, veröffentlicht in Japan am 27. April 2024. Er kombiniert das schwere, elliptische Tyranno Beat Blade mit dem 4-70 Ratchet und dem Quake Bit. Die schräge Spitze des Quake Bits lässt die Kombination während Xtreme-Dash-Angriffen unvorhersehbar springen. Der komplette Bey wiegt etwa 45,7 Gramm."
+    },
     "assessment": {
-      "en": "TyrannoBeat 4-70Q is the prize Attack-type Bey from Random Booster Vol. 3, released as BX-31. Its Tyranno Beat Blade and Quake Bit create a jumping, aggressive attack pattern that excels at Xtreme Dash play.",
-      "de": "TyrannoBeat 4-70Q ist der Prize Attack-Typ-Bey aus Random Booster Vol. 3, veröffentlicht als BX-31. Tyranno Beat Blade und Quake Bit erzeugen ein springendes, aggressives Angriffsmuster, das sich bei Xtreme Dash hervortut."
-    }
+      "en": "TyrannoBeat 4-70Q is a visually striking Attack combo that lives and dies by its Quake Bit. The heavy Tyranno Beat Blade generates strong inertia and can counter opposing Attackers, while the Quake Bit's jumping gimmick creates occasional explosive knockouts. However, the gimmick is inconsistent, stamina is poor, and the 4-70 Ratchet's four blades raise burst risk. BeyBase and community testing agree that Tyranno Beat is better suited to anti-Attack or Balance roles than pure aggression, and Quake is outclassed by Rush or Low Rush for reliable tournament play. A fun prize piece, but not a top-tier competitive choice.",
+      "de": "TyrannoBeat 4-70Q ist eine optisch auffällige Attack-Kombination, die von ihrem Quake Bit lebt und stirbt. Das schwere Tyranno Beat Blade erzeugt eine hohe Trägheit und kann gegnerische Angreifer countern, während das Sprung-Gimmick des Quake Bits gelegentlich explosive Knockouts liefert. Allerdings ist das Gimmick inkonsistent, die Ausdauer schwach und die vier Klingen des 4-70 Ratchets erhöhen das Burst-Risiko. BeyBase und Community-Tests stimmen darin überein, dass Tyranno Beat besser für Anti-Attack- oder Balance-Rollen geeignet ist als für reine Aggression, und Quake wird für zuverlässiges Turnierspiel von Rush oder Low Rush übertroffen. Ein spaßiges Prize-Piece, aber keine Top-Tier-Wahl."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "tyranno-beat3-60s-bx-31",
@@ -714,10 +827,17 @@
     "bladeId": "tyranno-beat",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-spike",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade from BX-31 Random Booster Vol. 3, released on April 27, 2024. It pairs the heavy Tyranno Beat Blade with the low 3-60 Ratchet and the Spike Bit. Unlike the prize Quake variant, the Spike Bit trades the jumping gimmick for more centered stability and stamina. The complete Bey weighs about 45.4 grams.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade aus dem BX-31 Random Booster Vol. 3, veröffentlicht am 27. April 2024. Er paart das schwere Tyranno Beat Blade mit dem niedrigen 3-60 Ratchet und dem Spike Bit. Im Gegensatz zur Prize-Quake-Variante tauscht das Spike Bit das Sprung-Gimmick für mehr zentrierte Stabilität und Ausdauer ein. Der komplette Bey wiegt etwa 45,4 Gramm."
+    },
     "assessment": {
-      "en": "TyrannoBeat 3-60S is a right-spin Attack-type pull from Random Booster Vol. 3, released as BX-31. The Spike Bit gives the Tyranno Beat Blade more stability while keeping its offensive pressure.",
-      "de": "TyrannoBeat 3-60S ist ein rechtsdrehender Attack-Typ aus Random Booster Vol. 3, veröffentlicht als BX-31. Das Spike Bit gibt dem Tyranno Beat Blade mehr Stabilität bei gleichbleibendem Offensivdruck."
-    }
+      "en": "TyrannoBeat 3-60S takes a different path than its Quake-equipped prize sibling. The Spike Bit's sharp conical tip keeps the combo closer to the center and gives it more spin life, while the low 3-60 Ratchet keeps it planted against lower attackers. This makes it a more controlled, balance-leaning configuration that can stall out aggressive opponents and win by outspin. It still lacks the raw attack power and consistency of dedicated Stamina or Defense combos, but it is a useful alternative for players who find the Quake variant too erratic. Community assessment.",
+      "de": "TyrannoBeat 3-60S geht einen anderen Weg als sein mit Quake ausgestatteter Prize-Geschwister. Die scharfe konische Spitze des Spike Bits hält die Kombination näher an der Mitte und verleiht ihr mehr Spin-Lebensdauer, während das niedrige 3-60 Ratchet sie gegen niedrigere Angreifer bodennah hält. Das macht sie zu einer kontrollierteren, balance-lastigeren Konfiguration, die aggressive Gegner hinauszögern und durch Ausdrehen gewinnen kann. Es fehlt ihr weiterhin an roher Angriffskraft und Konsistenz im Vergleich zu dedizierten Stamina- oder Defense-Combos, aber sie ist eine nützliche Alternative für Spieler, die die Quake-Variante zu unberechenbar finden. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "hells-chain9-80o-bx-31",
@@ -729,10 +849,17 @@
     "bladeId": "hells-chain",
     "ratchetId": "ratchet-9-80",
     "bitId": "bit-orb",
+    "description": {
+      "en": "A right-spin Balance Type Beyblade from BX-31 Random Booster Vol. 3, released on April 27, 2024. It combines the chain-linked Hells Chain Blade with the tall 9-80 Ratchet and the Orb Bit. The result is a stamina-leaning Balance combo that uses height and low friction to avoid early hits and outlast opponents. The complete Bey weighs about 44 grams.",
+      "de": "Ein rechtsdrehender Balance-Typ-Beyblade aus dem BX-31 Random Booster Vol. 3, veröffentlicht am 27. April 2024. Er kombiniert das kettenglied-artige Hells Chain Blade mit dem hohen 9-80 Ratchet und dem Orb Bit. Das Ergebnis ist eine stamina-lastige Balance-Kombination, die Höhe und geringe Reibung nutzt, um frühen Treffern auszuweichen und Gegner zu überdauern. Der komplette Bey wiegt etwa 44 Gramm."
+    },
     "assessment": {
-      "en": "HellsChain 9-80O is a right-spin Balance-type pull from Random Booster Vol. 3, released as BX-31. The Orb Bit and 9-80 Ratchet help the Hells Chain Blade maintain a stable, long-lasting spin.",
-      "de": "HellsChain 9-80O ist ein rechtsdrehender Balance-Typ aus Random Booster Vol. 3, veröffentlicht als BX-31. Orb Bit und 9-80 Ratchet helfen dem Hells Chain Blade, eine stabile, langlebige Drehung beizubehalten."
-    }
+      "en": "HellsChain 9-80O leans into stamina rather than aggression. The Hells Chain Blade's round, heavy shape already favors controlled play, and the Orb Bit doubles down by reducing floor friction and extending spin life. The 9-80 Ratchet lifts the combo above low Attackers, though it remains vulnerable to upper-attack knockouts. BeyBase noted that Hells Chain shines on setups like 3-70/3-80 Orb, and this 9-80O variant offers a similar defensive, outspin-oriented game plan. It will not burst opponents often, but it can frustrate aggressive decks by simply refusing to fall first. Community assessment.",
+      "de": "HellsChain 9-80O setzt auf Ausdauer statt Aggression. Die runde, schwere Form des Hells Chain Blades begünstigt kontrolliertes Spiel, und das Orb Bit verstärkt dies, indem es die Bodenreibung reduziert und die Spin-Lebensdauer verlängert. Das 9-80 Ratchet hebt die Kombination über niedrige Angreifer, obwohl sie weiterhin für Upper-Attack-Knockouts anfällig bleibt. BeyBase stellte fest, dass Hells Chain in Setups wie 3-70/3-80 Orb glänzt, und diese 9-80O-Variante bietet einen ähnlichen defensiven, auf Ausdrehen ausgerichteten Spielplan. Sie wird Gegner nicht oft bursen, aber sie kann aggressive Decks frustrieren, indem sie einfach verweigert, als Erste zu fallen. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "dran-dagger4-70p-bx-31",
@@ -744,10 +871,17 @@
     "bladeId": "dran-dagger",
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-point",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade from BX-31 Random Booster Vol. 3, released on April 27, 2024. It combines the six-bladed Dran Dagger Blade with the 4-70 Ratchet and the Point Bit. The Point Bit's launch-dependent behavior lets this combo switch between aggressive Xtreme Dash attacks and more controlled center play. The complete Bey weighs about 43.4 grams.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade aus dem BX-31 Random Booster Vol. 3, veröffentlicht am 27. April 2024. Er kombiniert den sechsklingigen Dran Dagger Blade mit dem 4-70 Ratchet und dem Point Bit. Das launch-abhängige Verhalten des Point Bits erlaubt dieser Kombination, zwischen aggressiven Xtreme-Dash-Angriffen und kontrollierterem Spiel in der Mitte zu wechseln. Der komplette Bey wiegt etwa 43,4 Gramm."
+    },
     "assessment": {
-      "en": "DranDagger 4-70P is a right-spin Attack-type pull from Random Booster Vol. 3, released as BX-31. The Point Bit keeps the Dran Dagger Blade mobile and ready for repeated Xtreme Dash strikes.",
-      "de": "DranDagger 4-70P ist ein rechtsdrehender Attack-Typ aus Random Booster Vol. 3, veröffentlicht als BX-31. Das Point Bit hält das Dran Dagger Blade beweglich und bereit für wiederholte Xtreme-Dash-Schläge."
-    }
+      "en": "DranDagger 4-70P is one of the more flexible Attack pulls in BX-31. The Dran Dagger Blade's six blades already trade raw smash for consistency, and the Point Bit reinforces that identity: a flat launch can sit in the center and outspin reckless Attackers, while a tilted launch chases opponents around the stadium with Xtreme Dash. The 4-70 Ratchet's middle height and burst risk are the main weaknesses, but the combo rewards launch technique more than the Quake variants in the same booster. It is not the hardest-hitting Attack combo, but it is a solid pick for players who want a single Bey that can play multiple roles. Community assessment.",
+      "de": "DranDagger 4-70P ist einer der flexibleren Attack-Pulls im BX-31. Die sechs Klingen des Dran Dagger Blades tauschen rohen Smash bereits gegen Konsistenz ein, und das Point Bit verstärkt diese Identität: Ein flacher Launch kann sich in der Mitte niederlassen und rücksichtslose Angreifer ausdrehen, während ein schräger Launch Gegner mit Xtreme Dash um das Stadion jagt. Die mittlere Höhe und das Burst-Risiko des 4-70 Ratchets sind die Hauptschwächen, aber die Kombination belohnt Launch-Technik mehr als die Quake-Varianten desselben Boosters. Sie ist nicht die härteste Attack-Kombination, aber eine solide Wahl für Spieler, die einen einzelnen Bey wollen, der mehrere Rollen spielen kann. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "shark-edge1-60q-bx-31",
@@ -759,10 +893,17 @@
     "bladeId": "shark-edge",
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-quake",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade from BX-31 Random Booster Vol. 3, released on April 27, 2024. It pairs the heavy, twin-bladed Shark Edge Blade with the low 1-60 Ratchet and the Quake Bit. The black recolor gives it a stealthy look, while the Quake Bit's slanted tip adds unpredictable jumps to Shark Edge's already violent smash attacks. The complete Bey weighs about 42.7 grams.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade aus dem BX-31 Random Booster Vol. 3, veröffentlicht am 27. April 2024. Er paart den schweren, zweiklingigen Shark Edge Blade mit dem niedrigen 1-60 Ratchet und dem Quake Bit. Die schwarze Umfärbung verleiht ihm ein dezentes Aussehen, während die schräge Spitze des Quake Bits unvorhersehbare Sprünge zu Shark Edges ohnehin heftigen Smash-Angriffen hinzufügt. Der komplette Bey wiegt etwa 42,7 Gramm."
+    },
     "assessment": {
-      "en": "SharkEdge 1-60Q is a right-spin Attack-type Bey from Random Booster Vol. 3, released by Takara Tomy as BX-31 on April 27, 2024. The two large blades of SharkEdge produce heavy smash and upper attack, while the Quake Bit adds an occasional jumping gimmick that trades stamina for aggression. Community assessment.",
-      "de": "SharkEdge 1-60Q ist ein rechtsdrehender Attack-Typ aus Random Booster Vol. 3, veröffentlicht von Takara Tomy als BX-31 am 27. April 2024. Die beiden großen Klingen von SharkEdge erzeugen starken Smash- und Upper-Attack, während das Quake Bit mit seinem gelegentlichen Sprung-Gimmick Ausdauer gegen Aggression eintauscht. Community-Einschätzung."
-    }
+      "en": "SharkEdge 1-60Q is arguably the most aggressive pull in BX-31. Shark Edge's two large blades are already among the hardest-hitting in the Basic Line, and the 1-60 Ratchet's single protrusion adds a secondary contact point that can catch opponents from below. The Quake Bit's jumping gimmick is inconsistent, but when it activates it can deliver dramatic knockouts. The downside is poor stamina and higher burst risk from the one-bladed Ratchet and aggressive contact profile. This is a high-risk, high-reward combo for players who want explosive attacks rather than long, controlled battles. Community assessment.",
+      "de": "SharkEdge 1-60Q ist wohl der aggressivste Pull im BX-31. Die zwei großen Klingen von Shark Edge gehören bereits zu den härtesten Schlägern der Basic Line, und der einzelne Vorsprung des 1-60 Ratchets fügt einen sekundären Kontaktpunkt hinzu, der Gegner von unten erwischen kann. Das Sprung-Gimmick des Quake Bits ist inkonsistent, aber wenn es aktiviert wird, kann es dramatische Knockouts liefern. Der Nachteil sind schwache Ausdauer und ein höheres Burst-Risiko durch das einklingige Ratchet und das aggressive Kontaktprofil. Dies ist eine High-Risk, High-Reward-Kombination für Spieler, die explosive Angriffe wollen, anstatt lange, kontrollierte Kämpfe. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "rhino-horn5-80q-bx-31",
@@ -774,10 +915,17 @@
     "bladeId": "rhino-horn",
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-quake",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade from BX-31 Random Booster Vol. 3, released on April 27, 2024. It combines the compact Rhino Horn Blade with the tall 5-80 Ratchet and the Quake Bit. The purple recolor gives Rhino Horn a fresh look, while the Quake Bit tries to turn its defensive shape into an aggressive jumper. The complete Bey weighs about 42.4 grams.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade aus dem BX-31 Random Booster Vol. 3, veröffentlicht am 27. April 2024. Er kombiniert den kompakten Rhino Horn Blade mit dem hohen 5-80 Ratchet und dem Quake Bit. Die violette Umfärbung verleiht Rhino Horn einen frischen Look, während das Quake Bit versucht, seine defensive Form in einen aggressiven Springer zu verwandeln. Der komplette Bey wiegt etwa 42,4 Gramm."
+    },
     "assessment": {
-      "en": "RhinoHorn 5-80Q is a right-spin Attack-type Bey from Random Booster Vol. 3, released as BX-31. Its RhinoHorn Blade has a sturdy, angular shape that delivers controlled smash attacks, while the 5-80 Ratchet and Quake Bit keep the combo mobile and Xtreme Dash-capable. Estimated assessment based on part synergy.",
-      "de": "RhinoHorn 5-80Q ist ein rechtsdrehender Attack-Typ aus Random Booster Vol. 3, veröffentlicht als BX-31. Das RhinoHorn Blade hat eine robuste, kantige Form für kontrollierte Smash-Attacken, während 5-80 Ratchet und Quake Bit die Kombination beweglich und Xtreme-Dash-fähig halten. Geschätzte Einschätzung basierend auf der Teile-Synergie."
-    }
+      "en": "RhinoHorn 5-80Q is an oddball in BX-31. The Rhino Horn Blade is fundamentally a small, Defense-oriented piece with a compact shape meant to absorb hits, not deliver them. Pairing it with the Quake Bit and 5-80 Ratchet turns it into an Attack configuration, but the parts do not synergize well: Rhino Horn lacks the raw contact power of Shark Edge or Dran Dagger, and the Quake Bit's low stamina compounds the Blade's own stamina issues. It can score surprise knockouts when the jump gimmick lines up, yet it is generally outclassed by the other Attack options in the same booster. A fun novelty rather than a competitive pick. Community assessment.",
+      "de": "RhinoHorn 5-80Q ist ein Außenseiter im BX-31. Der Rhino Horn Blade ist im Grunde ein kleines, defensorientiertes Teil mit einer kompakten Form, die darauf ausgelegt ist, Treffer zu absorbieren, nicht zu verteilen. Die Kombination mit Quake Bit und 5-80 Ratchet macht ihn zu einer Attack-Konfiguration, aber die Teile harmonieren nicht gut: Rhino Horn fehlt die rohe Kontaktkraft von Shark Edge oder Dran Dagger, und die geringe Ausdauer des Quake Bits verstärkt die eigenen Ausdauerprobleme des Blades. Er kann Überraschungs-Knockouts erzielen, wenn das Sprung-Gimmick passt, ist aber im Allgemeinen von den anderen Attack-Optionen desselben Boosters übertroffen. Eine spaßige Neuheit, keine kompetitive Wahl. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 13,
+    "priceEur": 12
   },
   {
     "id": "weiss-tiger3-60u-bx-33",
@@ -789,10 +937,17 @@
     "bladeId": "weiss-tiger",
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-unite",
+    "description": {
+      "en": "A right-spin Balance Type Beyblade released as BX-33 on June 15, 2024. It combines the hybrid Weiss Tiger Blade with the low 3-60 Ratchet and the Unite Bit. The white tiger-themed Blade switches between smash and upper attacks, while Unite provides early aggression that settles into semi-mobile play. The complete Bey weighs about 43.1 grams.",
+      "de": "Ein rechtsdrehender Balance-Typ-Beyblade, veröffentlicht als BX-33 am 15. Juni 2024. Er kombiniert den hybriden Weiss Tiger Blade mit dem niedrigen 3-60 Ratchet und dem Unite Bit. Der weiße Tiger als Thema des Blades wechselt zwischen Smash- und Upper-Attacken, während Unite frühe Aggression bietet, die sich in semi-mobiles Spiel legt. Der komplette Bey wiegt etwa 43,1 Gramm."
+    },
     "assessment": {
-      "en": "WeissTiger 3-60U is a right-spin Balance-type Booster released as BX-33 on June 15, 2024. Its WeissTiger Blade mixes Upper, Damper and Smash blades, giving it adaptability between attack and defense. The Unite Bit behaves similarly to Taper, providing a balance of stability and mobility. Community assessment.",
-      "de": "WeissTiger 3-60U ist ein rechtsdrehender Balance-Typ-Booster, veröffentlicht als BX-33 am 15. Juni 2024. Das WeissTiger Blade mischt Upper-, Damper- und Smash-Klingen und ist damit zwischen Angriff und Verteidigung variabel. Das Unite Bit verhält sich ähnlich wie Taper und bietet eine Balance aus Stabilität und Mobilität. Community-Einschätzung."
-    }
+      "en": "WeissTiger 3-60U is a well-synergized stock combo. BeyBase and Beyblade Wiki agree that the 3-60 Ratchet is the strongest part here, while the Weiss Tiger Blade offers decent early smash but is outclassed by dedicated Attack Blades. The Unite Bit's hybrid behavior gives the combo flexibility: it can attack early, then settle into a more controlled stance. It is a solid casual and collection piece, but competitive players usually strip the 3-60 Ratchet for stronger Blades. Community assessment.",
+      "de": "WeissTiger 3-60U ist eine gut aufeinander abgestimmte Stock-Kombination. BeyBase und Beyblade Wiki stimmen darin überein, dass das 3-60 Ratchet hier das stärkste Teil ist, während der Weiss Tiger Blade einen anständigen frühen Smash bietet, aber von dedizierten Attack-Blades übertroffen wird. Das hybride Verhalten des Unite Bits verleiht der Kombination Flexibilität: Sie kann früh angreifen und sich dann in eine kontrolliertere Haltung legen. Es ist ein solides Casual- und Sammlerstück, aber kompetitive Spieler bauen meist das 3-60 Ratchet für stärkere Blades aus. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 15,
+    "priceEur": 14
   },
   {
     "id": "cobalt-dragoon2-60c-bx-34",
@@ -805,9 +960,12 @@
     "ratchetId": "ratchet-2-60",
     "bitId": "bit-cyclone",
     "assessment": {
-      "en": "CobaltDragoon 2-60C is a left-spin Attack-type Starter released as BX-34 on July 13, 2024, and the successor to CobaltDrake 4-60F. Its CobaltDragoon Blade uses four upward-slanting blades for strong upper attack, while the 2-60 Ratchet is known to create a higher burst risk due to its blocky protrusions. Community assessment.",
-      "de": "CobaltDragoon 2-60C ist ein linksdrehender Attack-Typ-Starter, veröffentlicht als BX-34 am 13. Juli 2024, und Nachfolger von CobaltDrake 4-60F. Das CobaltDragoon Blade nutzt vier nach oben geneigte Klingen für starken Upper-Attack, während das 2-60 Ratchet durch seine klobigen Vorsprünge ein erhöhtes Burst-Risiko birgt. Community-Einschätzung."
-    }
+      "en": "BX-34 is a historic release: the first left-spin Beyblade in Beyblade X. The stock combo Cobalt Dragoon 2-60C is best understood as a starter kit for the Blade, because the 2-60 Ratchet and Cyclone Bit together create a fragile, high-burst-risk attacker. With a Winder Launcher the combo is aggressive and surprisingly controllable; with the included String Launcher it can feel sluggish and struggles to land meaningful hits. The real competitive value lies in using the Cobalt Dragoon Blade with 5-60 Elevate, a spin-equalizing combination that counters the dominant Stamina meta. Community assessment based on Beyblade Wiki and BeyBase.",
+      "de": "BX-34 ist ein historischer Release: der erste linksdrehende Beyblade in Beyblade X. Das Stock-Combo Cobalt Dragoon 2-60C ist am besten als Starter-Set für den Blade zu verstehen, denn das 2-60 Ratchet und der Cyclone Bit zusammen erzeugen einen fragilen, hochbrisanten Angreifer. Mit einem Winder Launcher ist das Combo aggressiv und überraschend kontrollierbar; mit dem beigelegten String Launcher wirkt es träge und hat Mühe, bedeutende Treffer zu landen. Der echte kompetitive Wert liegt im Einsatz des Cobalt Dragoon Blades mit 5-60 Elevate, einem Spin-Equalizing-Combo, das die dominante Stamina-Meta kontert. Community-Einschätzung basierend auf Beyblade Wiki und BeyBase."
+    },
+    "priceJpy": 2200,
+    "priceUsd": 15,
+    "priceEur": 14
   },
   {
     "id": "black-shell4-60d-bx-35",
@@ -820,9 +978,12 @@
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-dot",
     "assessment": {
-      "en": "BlackShell 4-60D is a right-spin Defense-type prize Bey from Random Booster Vol. 4, released as BX-35. Its BlackShell Blade has a diamond shape with eight protrusions for high KO resistance, while the Dot Bit supports a stable, defensive center position. Community assessment.",
-      "de": "BlackShell 4-60D ist ein rechtsdrehender Defense-Typ-Prize-Bey aus Random Booster Vol. 4, veröffentlicht als BX-35. Das BlackShell Blade hat eine Diamantform mit acht Vorsprüngen für hohen KO-Widerstand, während das Dot Bit eine stabile, defensive Mittelposition unterstützt. Community-Einschätzung."
-    }
+      "en": "BX-35-01 is the prize pull of Random Booster Vol. 4. Takara Tomy markets it as a \"Low Defense\" combo: the downward-sloping Black Shell Blade, low 4-60 Ratchet and dotted Dot Bit are meant to weather attacks from a low stance. In practice the Blade is too light to stop heavy hitters consistently, and the 4-60 Ratchet's exposed protrusions raise burst risk. Beyblade Wiki recommends swapping 4-60 for 9-60 to make the combo safer. While not a tournament contender, the Draciel homage and unusual Dot behavior give it a distinct personality for casual collections. Community assessment.",
+      "de": "BX-35-01 ist der Prize-Pull des Random Booster Vol. 4. Takara Tomy vermarktet ihn als \"Low Defense\"-Combo: Der nach unten geneigte Black Shell Blade, das niedrige 4-60 Ratchet und der gepunktete Dot Bit sollen Angriffe aus einer niedrigen Position überstehen. In der Praxis ist der Blade zu leicht, um schwere Hitter konsistent zu stoppen, und die exponierten Vorsprünge des 4-60 Ratchets erhöhen das Burst-Risiko. Das Beyblade Wiki empfiehlt, 4-60 gegen 9-60 zu tauschen, um das Combo sicherer zu machen. Auch wenn er kein Turnier-Kandidat ist, geben die Draciel-Hommage und das ungewöhnliche Dot-Verhalten ihm eine eigene Persönlichkeit für Casual-Sammlungen. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 9,
+    "priceEur": 8.5
   },
   {
     "id": "black-shell9-80b-bx-35",
@@ -835,9 +996,12 @@
     "ratchetId": "ratchet-9-80",
     "bitId": "bit-ball",
     "assessment": {
-      "en": "BlackShell 9-80B is a right-spin Stamina-type Bey from Random Booster Vol. 4, released as BX-35. It pairs the robust BlackShell Blade with the tall 9-80 Ratchet and Ball Bit for a long-lasting, center-stable spin. Estimated assessment based on part synergy.",
-      "de": "BlackShell 9-80B ist ein rechtsdrehender Stamina-Typ aus Random Booster Vol. 4, veröffentlicht als BX-35. Es kombiniert das robuste BlackShell Blade mit dem hohen 9-80 Ratchet und Ball Bit für eine lange, zentrale und stabile Drehung. Geschätzte Einschätzung basierend auf der Teile-Synergie."
-    }
+      "en": "BX-35-02 is the yellow recolor of Black Shell paired with the tall 9-80 Ratchet and Ball Bit. This setup leans much harder into stamina than the prize 4-60D version: the 9-80 Ratchet lifts the Blade away from low attacks and the Ball Bit lets it settle in the center and out-spin opponents. The trade-off is the same light Blade weight and small diameter, which still leave it vulnerable to knock-outs from heavy Attack combos. It is a safer, more conventional Black Shell build than 4-60D, but it remains a casual pick rather than a competitive threat. Community assessment.",
+      "de": "BX-35-02 ist die gelbe Recolor-Version von Black Shell, kombiniert mit dem hohen 9-80 Ratchet und dem Ball Bit. Dieser Aufbau legt viel stärkeren Fokus auf Ausdauer als die Prize-Version 4-60D: Das 9-80 Ratchet hebt den Blade von niedrigen Angriffen weg und der Ball Bit lässt ihn in der Mitte setzen und Gegner ausdrehen. Der Nachteil ist dasselbe geringe Blade-Gewicht und der kleine Durchmesser, die ihn weiterhin gegen Knock-Outs durch schwere Attack-Combos verwundbar machen. Es ist ein sicherer, konventionellerer Black-Shell-Build als 4-60D, aber er bleibt ein Casual-Pick rather than eine kompetitive Bedrohung. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 9,
+    "priceEur": 8.5
   },
   {
     "id": "unicorn-sting3-70d-bx-35",
@@ -850,9 +1014,12 @@
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-dot",
     "assessment": {
-      "en": "UnicornSting 3-70D is a right-spin Balance-type Bey from Random Booster Vol. 4, released as BX-35. The asymmetric UnicornSting Blade shifts between attack and defense depending on launch angle, and the Dot Bit adds a stable centering option. Community assessment.",
-      "de": "UnicornSting 3-70D ist ein rechtsdrehender Balance-Typ aus Random Booster Vol. 4, veröffentlicht als BX-35. Das asymmetrische UnicornSting Blade wechselt je nach Launch-Winkel zwischen Angriff und Verteidigung, und das Dot Bit bietet eine stabile Zentrierung. Community-Einschätzung."
-    }
+      "en": "BX-35-03 dresses the versatile Unicorn Sting Blade in red and pairs it with the middle-height 3-70 Ratchet and the erratic Dot Bit. The result is a hybrid Balance/Defense combo that can counter-attack with the rugged half of the Blade while the smooth half absorbs hits. The 3-70 height keeps the combo above low attackers and the Dot Bit adds friction-based mobility, though it costs stamina. It is not as consistent as Unicorn Sting 5-60GP, but it is a fun alternative colorway and a useful source of the 3-70 Ratchet. Community assessment.",
+      "de": "BX-35-03 kleidet den vielseitigen Unicorn Sting Blade in Rot und kombiniert ihn mit dem mittelhohen 3-70 Ratchet und dem erratischen Dot Bit. Das Ergebnis ist ein hybrides Balance/Defense-Combo, das mit der rauen Hälfte des Blades kontern kann, während die glatte Hälfte Treffer absorbiert. Die 3-70-Höhe hält das Combo über niedrigen Angreifern und der Dot Bit fügt reibungsbasierte Mobilität hinzu, allerdings auf Kosten der Ausdauer. Es ist nicht so konsistent wie Unicorn Sting 5-60GP, aber es ist eine spaßige Alternative-Farbvariante und eine nützliche Quelle für das 3-70 Ratchet. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 9,
+    "priceEur": 8.5
   },
   {
     "id": "wizard-rod1-60r-bx-35",
@@ -865,9 +1032,12 @@
     "ratchetId": "ratchet-1-60",
     "bitId": "bit-rush",
     "assessment": {
-      "en": "WizardRod 1-60R is a right-spin Attack-type Bey from Random Booster Vol. 4, released as BX-35. Despite the Stamina-oriented WizardRod Blade, the 1-60 Ratchet and Rush Bit create an aggressive, Xtreme Dash-focused combo. WizardRod was later restricted in official B4 1on1 play due to its high performance. Community assessment.",
-      "de": "WizardRod 1-60R ist ein rechtsdrehender Attack-Typ aus Random Booster Vol. 4, veröffentlicht als BX-35. Trotz des staminaorientierten WizardRod Blades erzeugen 1-60 Ratchet und Rush Bit eine aggressive, Xtreme-Dash-fokussierte Kombination. WizardRod wurde später im offiziellen B4 1on1-Spiel wegen seiner hohen Leistung eingeschränkt. Community-Einschätzung."
-    }
+      "en": "BX-35-04 is one of the most interesting pulls in Random Booster Vol. 4: it takes the dominant Stamina Blade Wizard Rod and arms it with the aggressive 1-60 Ratchet and Rush Bit. The result is a fast, Xtreme-Dash-capable combo that uses the Blade's heavy weight and wide diameter to survive its own aggression better than lighter Attack Blades. It is not the pure Stamina build that made Wizard Rod famous, but it is a valuable source of the Blade for anyone who missed UX-03, and the 1-60 and Rush parts are competitive staples in their own right. Community assessment.",
+      "de": "BX-35-04 ist einer der interessantesten Pulls im Random Booster Vol. 4: Er nimmt den dominanten Stamina-Blade Wizard Rod und bewaffnet ihn mit dem aggressiven 1-60 Ratchet und dem Rush Bit. Das Ergebnis ist eine schnelle, Xtreme-Dash-fähige Kombination, die das hohe Gewicht und den großen Durchmesser des Blades nutzt, um ihre eigene Aggression besser zu überstehen als leichtere Attack-Blades. Es ist nicht der reine Stamina-Build, der Wizard Rod berühmt machte, aber es ist eine wertvolle Quelle für den Blade für alle, die UX-03 verpasst haben, und die Teile 1-60 und Rush sind eigene kompetitive Grundpfeiler. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 9,
+    "priceEur": 8.5
   },
   {
     "id": "phoenix-wing5-80h-bx-35",
@@ -880,9 +1050,12 @@
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-hexa",
     "assessment": {
-      "en": "PhoenixWing 5-80H is a right-spin Balance-type Bey from Random Booster Vol. 4, released as BX-35. The heavy PhoenixWing Blade is highly versatile and works for both attack and balance setups; the Hexa Bit supports self-uprighting stability and faster Xtreme Dashes through its 16 gears. Community assessment.",
-      "de": "PhoenixWing 5-80H ist ein rechtsdrehender Balance-Typ aus Random Booster Vol. 4, veröffentlicht als BX-35. Das schwere PhoenixWing Blade ist extrem vielseitig und funktioniert sowohl in Attack- als auch Balance-Aufbauten; das Hexa Bit unterstützt durch seine 16 Gänge ein selbstaufrichtendes Gleichgewicht und schnellere Xtreme Dashes. Community-Einschätzung."
-    }
+      "en": "BX-35-05 gives the heavy Attack Blade Phoenix Wing a Balance-oriented setup with the 5-80 Ratchet and Hexa Bit. The result is a surprisingly stable combo that can absorb hits, self-upright, and still deliver knockout power when it catches the X-Line. It is not as explosive as Phoenix Wing 9-60GF, but it is more forgiving and makes excellent use of the Hexa Bit's burst resistance. A strong pull from Random Booster Vol. 4 for players who want Phoenix Wing's weight with extra survivability. Community assessment.",
+      "de": "BX-35-05 gibt dem schweren Attack-Blade Phoenix Wing einen Balance-orientierten Aufbau mit dem 5-80 Ratchet und dem Hexa Bit. Das Ergebnis ist ein überraschend stabiles Combo, das Treffer absorbieren, sich selbst aufrichten und dennoch Knockout-Kraft liefern kann, wenn es die X-Line erwischt. Es ist nicht so explosiv wie Phoenix Wing 9-60GF, aber verzeihender und nutzt die Burst-Resistenz des Hexa Bits hervorragend. Ein starker Pull aus dem Random Booster Vol. 4 für Spieler, die Phoenix Wings Gewicht mit zusätzlicher Überlebensfähigkeit wollen. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 9,
+    "priceEur": 8.5
   },
   {
     "id": "viper-tail5-70d-bx-35",
@@ -895,9 +1068,12 @@
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-dot",
     "assessment": {
-      "en": "ViperTail 5-70D is a right-spin Defense-type Bey from Random Booster Vol. 4, released as BX-35. The downward-sloping ViperTail Blade is normally stamina-focused, but paired with the Dot Bit it gains a defensive, center-stable posture. Estimated assessment based on part synergy.",
-      "de": "ViperTail 5-70D ist ein rechtsdrehender Defense-Typ aus Random Booster Vol. 4, veröffentlicht als BX-35. Das abwärts geneigte ViperTail Blade ist normalerweise ausdauerorientiert, aber in Kombination mit dem Dot Bit nimmt es eine defensive, zentrale und stabile Haltung ein. Geschätzte Einschätzung basierend auf der Teile-Synergie."
-    }
+      "en": "BX-35-06 is the purple recolor of Viper Tail, mounted on the 5-70 Ratchet and Dot Bit. The tall 5-70 Ratchet lifts the already raised Viper Tail contact points even higher, which helps it strike over low opponents but also makes the plastic frame more vulnerable. The Dot Bit adds unpredictable, friction-based movement that can create sudden counter-attacks. This combo doubles down on Viper Tail's risky, high-variance identity: it can steal games against high-recoil opponents or fall apart against stable Stamina. Best suited for players who enjoy chaotic, unpredictable battles. Community assessment.",
+      "de": "BX-35-06 ist die lilafarbene Recolor-Version von Viper Tail, montiert auf dem 5-70 Ratchet und dem Dot Bit. Das hohe 5-70 Ratchet hebt die bereits erhöhten Viper-Tail-Kontaktpunkte noch höher, was ihm hilft, über niedrigen Gegnern zu treffen, aber auch den Kunststoffrahmen verwundbarer macht. Der Dot Bit fügt unvorhersehbare, reibungsbasierte Bewegung hinzu, die plötzliche Gegenangriffe erzeugen kann. Dieses Combo verdoppelt die riskante, hochvarianze Identität von Viper Tail: Es kann Spiele gegen High-Recoil-Gegner stehlen oder gegen stabile Stamina auseinanderfallen. Am besten für Spieler geeignet, die chaotische, unvorhersehbare Kämpfe genießen. Community-Einschätzung."
+    },
+    "priceJpy": 1400,
+    "priceUsd": 9,
+    "priceEur": 8.5
   },
   {
     "id": "whale-wave5-80e-bx-36",
@@ -910,8 +1086,8 @@
     "ratchetId": "ratchet-5-80",
     "bitId": "bit-elevate",
     "assessment": {
-      "en": "WhaleWave 5-80E is a right-spin Balance-type prize Bey from Random Booster WhaleWave Select, released as BX-36 on September 14, 2024. Its five large smashing blades generate high centrifugal force and enable overhead Press Attacks, while the tall 5-80 Ratchet and Elevate Bit let it pin opponents down in the endgame. Community assessment.",
-      "de": "WhaleWave 5-80E ist ein rechtsdrehender Balance-Typ-Prize-Bey aus Random Booster WhaleWave Select, veröffentlicht als BX-36 am 14. September 2024. Die fünf großen Smash-Klingen erzeugen hohe Fliehkraft und ermöglichen Overhead-Press-Attacken, während das hohe 5-80 Ratchet und Elevate Bit Gegner im Endgame festnageln. Community-Einschätzung."
+      "en": "Whale Wave 5-80E is the prize combination of the BX-36 Random Booster Whale Wave Select. On paper a right-spin Balance type, in practice it behaves like a hard-hitting Attack combo. The Whale Wave Blade delivers Barrage and Smash attacks, while Elevate adds stability and late-game L.A.D. The tall 5-80 Ratchet keeps the combo aggressive but also raises Burst risk, which is compounded by Elevate's weak Burst resistance. Results are explosive and inconsistent: it can KO or Burst opponents quickly, but it can also self-Burst. A strong source of the competitive Elevate Bit.",
+      "de": "Whale Wave 5-80E ist die Prize-Kombination des BX-36 Random Booster Whale Wave Select. Auf dem Papier ein rechtsspinnender Balance-Typ, in der Praxis verhält er sich wie ein hart schlagender Attack-Combo. Das Whale-Wave-Blade liefert Barrage- und Smash-Attacken, während Elevate Stabilität und L.A.D. im Endgame hinzufügt. Das hohe 5-80-Ratchet hält den Combo aggressiv, erhöht aber auch das Burst-Risiko, das durch Elevates schwache Burst-Resistenz noch verstärkt wird. Die Ergebnisse sind explosiv und inkonsistent: Er kann Gegner schnell KO-en oder Bursten, aber auch selbst brechen. Eine gute Quelle für den kompetitiven Elevate-Bit."
     }
   },
   {
@@ -925,8 +1101,8 @@
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-high-needle",
     "assessment": {
-      "en": "WhaleWave 4-70HN is a right-spin Defense-type pull from Random Booster WhaleWave Select, released as BX-36. The black recolor pairs the WhaleWave Blade with the 4-70 Ratchet and High Needle Bit for a stable, KO-resistant setup. Estimated assessment based on part synergy.",
-      "de": "WhaleWave 4-70HN ist ein rechtsdrehender Defense-Typ aus Random Booster WhaleWave Select, veröffentlicht als BX-36. Die schwarze Umfärbung kombiniert das WhaleWave Blade mit dem 4-70 Ratchet und High Needle Bit für ein stabiles, KO-resistentes Setup. Geschätzte Einschätzung basierend auf der Teile-Synergie."
+      "en": "Whale Wave 4-70HN is a right-spin Defense-type recolor from the BX-36 Random Booster Whale Wave Select. The lower 4-70 Ratchet and High Needle Bit give the combo a more grounded, stable posture than the stock 5-80E version, trading away some aggression for better Burst safety and KO resistance. Whale Wave's recoil still makes outcomes unpredictable, but this version is the more controllable of the three pulls.",
+      "de": "Whale Wave 4-70HN ist ein rechtsdrehender Defense-Typ-Recolor aus dem BX-36 Random Booster Whale Wave Select. Das niedrigere 4-70-Ratchet und das High-Needle-Bit verleihen dem Combo eine bodenständigere, stabilere Haltung als die Standard-5-80E-Version, wobei etwas Aggression gegen bessere Burst-Sicherheit und KO-Resistenz eingetauscht wird. Der Rückstoß von Whale Wave macht die Ergebnisse weiterhin unvorhersehbar, aber diese Version ist die kontrollierbarste der drei Pulls."
     }
   },
   {
@@ -940,8 +1116,8 @@
     "ratchetId": "ratchet-3-80",
     "bitId": "bit-gear-ball",
     "assessment": {
-      "en": "WhaleWave 3-80GB is a right-spin Stamina-type pull from Random Booster WhaleWave Select, released as BX-36. The white recolor uses the wider Gear Ball Bit, which is more mobile than standard Ball when hit, giving it a more aggressive stamina playstyle. Estimated assessment based on part synergy.",
-      "de": "WhaleWave 3-80GB ist ein rechtsdrehender Stamina-Typ aus Random Booster WhaleWave Select, veröffentlicht als BX-36. Die weiße Umfärbung nutzt das breitere Gear Ball Bit, das bei Treffern beweglicher ist als das Standard-Ball und einen aggressiveren Stamina-Spielstil ermöglicht. Geschätzte Einschätzung basierend auf der Teile-Synergie."
+      "en": "Whale Wave 3-80GB is a right-spin Stamina-type recolor from the BX-36 Random Booster Whale Wave Select. The 3-80 Ratchet and Gear Ball Bit lean into controlled movement and stamina, although Whale Wave's tall, recoil-heavy shape limits pure endurance. Compared with dedicated stamina combos it falls short, but it offers a more defensive, centering playstyle than the other Whale Wave variants.",
+      "de": "Whale Wave 3-80GB ist ein rechtsdrehender Stamina-Typ-Recolor aus dem BX-36 Random Booster Whale Wave Select. Das 3-80-Ratchet und das Gear-Ball-Bit setzen auf kontrolliertes Movement und Ausdauer, auch wenn die hohe, rückstoßreiche Form von Whale Wave die reine Ausdauer begrenzt. Im Vergleich zu reinen Stamina-Combos fällt er zurück, bietet aber einen defensiveren, zentrierteren Spielstil als die anderen Whale-Wave-Varianten."
     }
   },
   {
@@ -955,8 +1131,8 @@
     "ratchetId": "ratchet-4-70",
     "bitId": "bit-trans-point",
     "assessment": {
-      "en": "CrimsonGaruda 4-70TP is a right-spin Balance-type Booster released by Takara Tomy as BX-38 on November 2, 2024. Its Trans Point Bit can switch between High and Low Mode during Xtreme Dashes, giving the combo adaptability between aggressive movement and stable centering. Community assessment.",
-      "de": "CrimsonGaruda 4-70TP ist ein rechtsdrehender Balance-Typ-Booster, veröffentlicht von Takara Tomy als BX-38 am 2. November 2024. Das Trans Point Bit kann während Xtreme Dashes zwischen High- und Low-Mode wechseln und macht die Kombination zwischen aggressivem Movement und stabiler Zentrierung variabel. Community-Einschätzung."
+      "en": "Crimson Garuda 4-70TP is a right-spin Balance-type Booster released as BX-38 on November 2, 2024. The oval Crimson Garuda Blade alternates between Smash and Upper attacks, but its erratic movement and exposed Ratchet create a high Burst risk. Trans Point can switch between High and Low Mode, yet the mode change is unpredictable and rarely reliable in practice. The result is an interesting, toyetic combo that collectors will appreciate, but one that is outclassed in competitive play.",
+      "de": "Crimson Garuda 4-70TP ist ein rechtsdrehender Balance-Typ-Booster, veröffentlicht als BX-38 am 2. November 2024. Das ovale Crimson-Garuda-Blade wechselt zwischen Smash- und Upper-Attacken, aber sein erratisches Movement und das freigelegte Ratchet erzeugen ein hohes Burst-Risiko. Trans Point kann zwischen High- und Low-Mode wechseln, aber der Moduswechsel ist unvorhersehbar und in der Praxis selten zuverlässig. Das Ergebnis ist ein interessanter, spielzeugartiger Combo, den Sammler schätzen werden, der aber im kompetitiven Spiel outclassed ist."
     }
   },
   {
@@ -970,8 +1146,8 @@
     "ratchetId": "ratchet-7-80",
     "bitId": "bit-gear-point",
     "assessment": {
-      "en": "ShelterDrake 7-80GP is a right-spin Stamina-type pull from Random Booster ShelterDrake Select, released as BX-39. The tall 7-80 Ratchet and Gear Point Bit prioritize longevity and controlled movement, while the ShelterDrake Blade provides a rounded defensive shape. Estimated assessment based on part synergy.",
-      "de": "ShelterDrake 7-80GP ist ein rechtsdrehender Stamina-Typ aus Random Booster ShelterDrake Select, veröffentlicht als BX-39. Das hohe 7-80 Ratchet und Gear Point Bit setzen auf Langlebigkeit und kontrolliertes Movement, während das ShelterDrake Blade eine runde, defensive Form bietet. Geschätzte Einschätzung basierend auf der Teile-Synergie."
+      "en": "Shelter Drake 7-80GP is the rare prize combination of the BX-39 Random Booster Shelter Drake Select. The tall 7-80 Ratchet is brand new and raises the combo above most opponents, while Gear Point can be launched flat for stamina or angled for counter-attacks. Shelter Drake's rounded shape adds longevity, but the overall output is more controlled than explosive. A practical source of both the Shelter Drake Blade and the 7-80 Ratchet.",
+      "de": "Shelter Drake 7-80GP ist die seltene Prize-Kombination des BX-39 Random Booster Shelter Drake Select. Das hohe 7-80-Ratchet ist brandneu und hebt den Combo über die meisten Gegner, während Gear Point flach für Stamina oder schräg für Gegenangriffe gelauncht werden kann. Die abgerundete Form von Shelter Drake fügt Langlebigkeit hinzu, aber die Gesamtleistung ist kontrollierter als explosiv. Eine praktische Quelle für sowohl das Shelter-Drake-Blade als auch das 7-80-Ratchet."
     }
   },
   {
@@ -985,8 +1161,8 @@
     "ratchetId": "ratchet-5-70",
     "bitId": "bit-orb",
     "assessment": {
-      "en": "ShelterDrake 5-70O is a right-spin Stamina-type pull from Random Booster ShelterDrake Select, released as BX-39. The Orb Bit keeps the combo centered and stable, making it a stamina-focused setup. Estimated assessment based on part synergy.",
-      "de": "ShelterDrake 5-70O ist ein rechtsdrehender Stamina-Typ aus Random Booster ShelterDrake Select, veröffentlicht als BX-39. Das Orb Bit hält die Kombination zentriert und stabil und macht sie zu einem ausdauerfokussierten Setup. Geschätzte Einschätzung basierend auf der Teile-Synergie."
+      "en": "Shelter Drake 5-70O is a stamina-oriented pull from the BX-39 Random Booster Shelter Drake Select. The 5-70 Ratchet and Orb Bit keep the combo low and centered, letting Shelter Drake's rounded shape outlast aggressive opponents if it avoids early knock-outs. It is the safest and most predictable of the three Shelter Drake variants.",
+      "de": "Shelter Drake 5-70O ist ein ausdauerorientierter Pull aus dem BX-39 Random Booster Shelter Drake Select. Das 5-70-Ratchet und das Orb-Bit halten den Combo niedrig und zentriert, sodass Shelter Drakes abgerundete Form aggressive Gegner überdauern kann, wenn sie frühe Knockouts vermeidet. Er ist die sicherste und vorhersehbarste der drei Shelter-Drake-Varianten."
     }
   },
   {
@@ -1000,8 +1176,8 @@
     "ratchetId": "ratchet-3-60",
     "bitId": "bit-dot",
     "assessment": {
-      "en": "ShelterDrake 3-60D is a right-spin Defense-type prize Bey from Random Booster ShelterDrake Select, released as BX-39. The low 3-60 Ratchet and Dot Bit give it a stable, grounded posture, while the ShelterDrake Blade adds a wide, defensive shape. Estimated assessment based on part synergy.",
-      "de": "ShelterDrake 3-60D ist ein rechtsdrehender Defense-Typ-Prize-Bey aus Random Booster ShelterDrake Select, veröffentlicht als BX-39. Das niedrige 3-60 Ratchet und Dot Bit sorgen für eine stabile, bodennahe Haltung, während das ShelterDrake Blade eine breite, defensive Form hinzufügt. Geschätzte Einschätzung basierend auf der Teile-Synergie."
+      "en": "Shelter Drake 3-60D is the Defense-type prize Bey from the BX-39 Random Booster Shelter Drake Select. The low 3-60 Ratchet and Dot Bit plant the combo close to the stadium floor, while Shelter Drake's wide, rounded perimeter blocks and absorbs hits. Dot's dotted tip can create sudden counter-attacks, but it also makes movement erratic. The most defensive of the three pulls.",
+      "de": "Shelter Drake 3-60D ist der Defense-Typ-Prize-Bey aus dem BX-39 Random Booster Shelter Drake Select. Das niedrige 3-60-Ratchet und das Dot-Bit pflanzen den Combo nah am Stadionboden, während Shelter Drakes breiter, abgerundeter Umfiss Treffer blockiert und absorbiert. Die gepunktete Spitze von Dot kann plötzliche Gegenangriffe erzeugen, macht die Bewegung aber auch unberechenbar. Der defensivste der drei Pulls."
     }
   },
   {
@@ -1015,8 +1191,8 @@
     "ratchetId": "ratchet-M-85",
     "bitId": "bit-bound-spike",
     "assessment": {
-      "en": "TriceraPress M-85BS is a right-spin Defense-type Booster released by Takara Tomy as BX-44 on June 28, 2025. Its TriceraPress Blade concentrates weight toward the center with five contact points, and the metal M-85 Ratchet is currently the heaviest Ratchet available, offering excellent KO resistance. Community assessment.",
-      "de": "TriceraPress M-85BS ist ein rechtsdrehender Defense-Typ-Booster, veröffentlicht von Takara Tomy als BX-44 am 28. Juni 2025. Das TriceraPress Blade konzentriert das Gewicht mit fünf Kontaktpunkten zur Mitte, und das Metall-M-85 Ratchet ist aktuell das schwerste verfügbare Ratchet und bietet exzellenten KO-Widerstand. Community-Einschätzung."
+      "en": "Tricera Press M-85BS is a right-spin Defense-type Booster released as BX-44 on June 28, 2025. The Tricera Press Blade and metal M-85 Ratchet concentrate weight toward the center for knock-out resistance, but Bound Spike's retractable shaft makes the combo taller and easier to Burst. The stock setup therefore has poor synergy: it is one of the tallest released combinations and its own Bit undermines its defense. A decent source of the parts, yet outclassed as a stock combo.",
+      "de": "Tricera Press M-85BS ist ein rechtsdrehender Defense-Typ-Booster, veröffentlicht als BX-44 am 28. Juni 2025. Das Tricera-Press-Blade und das Metall-M-85-Ratchet konzentrieren das Gewicht zur Mitte für Knock-Out-Widerstand, aber der einziehbare Schaft von Bound Spike macht den Combo höher und leichter zu Bursten. Das Stock-Setup hat daher schlechte Synergie: Es ist eine der höchsten veröffentlichten Kombinationen und sein eigener Bit untergräbt die Defense. Eine brauchbare Quelle für die Teile, aber als Stock-Combo übertroffen."
     }
   },
   {
@@ -1030,8 +1206,8 @@
     "ratchetId": "ratchet-6-70",
     "bitId": "bit-merge",
     "assessment": {
-      "en": "SamuraiCalibur 6-70M is a right-spin Balance-type Booster released by Takara Tomy as BX-45 on August 9, 2025. Its SamuraiCalibur Blade opens the battle with small blades for rapid hits and stamina, then uses the Merge Bit's rubber grip in the late game to deliver heavy strikes when tilted. Community assessment.",
-      "de": "SamuraiCalibur 6-70M ist ein rechtsdrehender Balance-Typ-Booster, veröffentlicht von Takara Tomy als BX-45 am 9. August 2025. Das SamuraiCalibur Blade beginnt den Kampf mit kleinen Klingen für schnelle Treffer und Ausdauer, nutzt dann im Endgame den Gummi-Grip des Merge Bits, um bei Schräglage schwere Schläge zu landen. Community-Einschätzung."
+      "en": "Samurai Calibur 6-70M is a right-spin Balance-type Booster released as BX-45 on August 9, 2025. The Samurai Calibur Blade is a jack-of-all-trades that prefers anti-attack and anti-defense match-ups, the 6-70 Ratchet adds a touch of height and L.A.D. potential, and Merge's rubber ring can create sudden aggressive movement. Unfortunately, Merge's extreme height and poor stamina undermine the combo's consistency. An interesting source of parts, but the stock combination is outclassed.",
+      "de": "Samurai Calibur 6-70M ist ein rechtsdrehender Balance-Typ-Booster, veröffentlicht als BX-45 am 9. August 2025. Das Samurai-Calibur-Blade ist ein Alleskönner, der Anti-Attack- und Anti-Defense-Match-ups bevorzugt, das 6-70-Ratchet fügt etwas Höhe und L.A.D.-Potenzial hinzu, und der Gummiring von Merge kann plötzliches aggressives Movement erzeugen. Leider untergraben Merge's extreme Höhe und schwache Ausdauer die Konsistenz des Combos. Eine interessante Quelle für Teile, aber die Stock-Kombination ist übertroffen."
     }
   },
   {
@@ -1045,8 +1221,8 @@
     "ratchetId": "ratchet-4-50",
     "bitId": "bit-free-flat",
     "assessment": {
-      "en": "DranStrike 4-50FF is a right-spin Attack-type Starter released by Takara Tomy as BX-49 on May 16, 2026. It introduces the Basic Line Expand Blade: the metal frame runs through the center of the blade for extra rigidity, while the low 4-50 Ratchet and Free Flat Bit enable fast, repeated aggressive attacks. Community assessment.",
-      "de": "DranStrike 4-50FF ist ein rechtsdrehender Attack-Typ-Starter, veröffentlicht von Takara Tomy als BX-49 am 16. Mai 2026. Er führt das Basic Line Expand Blade ein: Der Metallrahmen läuft durch die Mitte des Blades für extra Steifigkeit, während das niedrige 4-50 Ratchet und Free Flat Bit schnelle, wiederholte Angriffe ermöglichen. Community-Einschätzung."
+      "en": "DranStrike 4-50FF is a right-spin Attack-type Starter released as BX-49 on May 16, 2026. It introduces the Basic Line Expand Blade: DranStrike's metal frame runs through the gear-chip area for extra rigidity and weight, while the low 4-50 Ratchet lets the combo strike from below, and Free Flat's free-spinning shaft keeps Xtreme Dashes efficient. The result is a fast, hard-hitting stock Attack combo built for early knock-outs.",
+      "de": "DranStrike 4-50FF ist ein rechtsdrehender Attack-Typ-Starter, veröffentlicht als BX-49 am 16. Mai 2026. Er führt das Basic Line Expand Blade ein: DranStrikes Metallrahmen läuft durch den Gear-Chip-Bereich für extra Steifigkeit und Gewicht, während das niedrige 4-50-Ratchet den Combo von unten zuschlagen lässt und Free Flats frei drehbarer Schaft Xtreme Dashes effizient hält. Das Ergebnis ist ein schneller, hart schlagender Stock-Attack-Combo für frühe Knockouts."
     }
   },
   {
@@ -2625,9 +2801,12 @@
     "ratchetId": "ratchet-5-60-hasbro",
     "bitId": "bit-point-hasbro",
     "assessment": {
-      "en": "Claw Leon 5-60P is Hasbro's western release of the BX-15 starter, released as G0193 in summer 2024. It is a right-spin Balance type with a lightweight pentagonal Leon Claw Blade marked by five embossed claws. The Point Bit makes the combo behavior launch-dependent: tilted launches produce aggressive Xtreme Dash movement, while flat launches settle into a stationary stamina pattern.",
-      "de": "Claw Leon 5-60P ist Hasbros westliche Veröffentlichung des BX-15-Starters, veröffentlicht als G0193 im Sommer 2024. Es ist ein rechtsdrehender Balance-Typ mit einem leichten pentagonalen Leon Claw Blade mit fünf geprägten Klauen. Das Point Bit macht das Verhalten der Kombination vom Launch abhängig: Schräge Launches erzeugen aggressives Xtreme-Dash-Movement, während flache Launches ein stationäres Ausdauermuster ergeben."
-    }
+      "en": "G0193 is Hasbro's western release of the BX-15 starter. Like its Japanese counterpart, the value lies in the 5-60 Ratchet and Point Bit, both of which are competitive in their niches. The Claw Leon Blade is a lightweight, niche anti-attack part that is fun for practicing launch angles but outclassed by dedicated Attack or Stamina Blades. A solid starter purchase for the included parts.",
+      "de": "G0193 ist Hasbros westliche Veröffentlichung des BX-15-Starters. Wie beim japanischen Pendant liegt der Wert im 5-60 Ratchet und im Point Bit, die beide in ihren Nischen konkurrenzfähig sind. Das Claw Leon Blade ist ein leichter, Nischen-Anti-Attack-Part, der zum Üben von Launch-Winkeln Spaß macht, aber von dedizierten Attack- oder Stamina-Blades übertroffen wird. Ein solider Starter-Kauf für die enthaltenen Teile."
+    },
+    "priceJpy": 1980,
+    "priceUsd": 11,
+    "priceEur": 10
   },
   {
     "id": "buster-dran-1-60a-g1536",
@@ -3283,10 +3462,16 @@
     "bladeId": "shark-edge-hasbro",
     "ratchetId": "ratchet-1-60-hasbro",
     "bitId": "bit-quake-hasbro",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade from Hasbro, released in early 2025 as the G1534 booster. It uses the Hasbro versions of Shark Edge, 1-60 and Quake, mirroring the Takara Tomy SharkEdge 1-60Q combo with the same aggressive twin blades and jumping Quake Bit. The complete Bey weighs about 42.7 grams.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade von Hasbro, veröffentlicht Anfang 2025 als G1534-Booster. Er verwendet die Hasbro-Versionen von Shark Edge, 1-60 und Quake und spiegelt die Takara-Tomy-Kombination SharkEdge 1-60Q mit denselben aggressiven Zwillingsklingen und dem springenden Quake Bit wider. Der komplette Bey wiegt etwa 42,7 Gramm."
+    },
     "assessment": {
-      "en": "Keel Shark is Hasbro's black recolor of the SharkEdge Blade, an Attack Type Bey built around two large, aggressive blades. The sloped shape generates both Smash Attack and Upper Attack, while the heavy weight boosts knockout and burst potential. The 1-60 Ratchet and Quake Bit keep the profile low and mobile.",
-      "de": "Keel Shark ist Hasbros schwarze Neuauflage der SharkEdge-Klinge, ein Attack-Type-Bey mit zwei großen, aggressiven Klingen. Die abgeschrägte Form erzeugt sowohl Smash- als auch Upper-Attack, während das hohe Gewicht das Knockout- und Burst-Potenzial steigert. Das 1-60-Ratchet und das Quake-Bit halten das Profil niedrig und beweglich."
-    }
+      "en": "Keel Shark 1-60Q is Hasbro's western release of SharkEdge 1-60Q. The black Shark Edge Blade is functionally identical to the Takara Tomy original, delivering heavy Smash and Upper Attack, while the 1-60 Ratchet adds a low, aggressive secondary contact point. The Quake Bit keeps the combo mobile and occasionally jumps for surprise knockouts, though it is inconsistent and stamina-poor. It is a budget-friendly way for western players to obtain the Shark Edge Blade and 1-60 Ratchet without importing. Community assessment.",
+      "de": "Keel Shark 1-60Q ist Hasbros westliche Veröffentlichung von SharkEdge 1-60Q. Der schwarze Shark Edge Blade ist funktional identisch mit dem Takara-Tomy-Original, liefert schweren Smash- und Upper-Attack, während das 1-60 Ratchet einen niedrigen, aggressiven sekundären Kontaktpunkt hinzufügt. Das Quake Bit hält die Kombination mobil und springt gelegentlich für Überraschungs-Knockouts, auch wenn es inkonsistent und ausdauerarm ist. Es ist ein preisgünstiger Weg für westliche Spieler, den Shark Edge Blade und das 1-60 Ratchet zu erhalten, ohne zu importieren. Community-Einschätzung."
+    },
+    "priceUsd": 10,
+    "priceEur": 9
   },
   {
     "id": "tide-whale-5-80e-g1669",
@@ -3712,19 +3897,21 @@
     "name": "Beat Tyranno 4-70Q",
     "manufacturer": "Hasbro",
     "imageUrl": "images/beys/beat-tyranno-4-70q-g1542.png",
-    "releaseDate": "2024-12-01",
+    "releaseDate": "2024-11-16",
     "releaseWave": "G1542",
     "bladeId": "tyranno-beat-hasbro",
     "ratchetId": "ratchet-4-70-hasbro",
     "bitId": "bit-quake-hasbro",
-    "assessment": {
-      "en": "Beat Tyranno 4-70Q is a right-spin factory-combined Beyblade from Hasbro, released as G1542. Parts: Tyranno Beat / 4-70 / Quake.",
-      "de": "Beat Tyranno 4-70Q ist ein rechtsdrehender, ab Werk kombinierter Beyblade von Hasbro, veröffentlicht als G1542. Teile: Tyranno Beat / 4-70 / Quake."
-    },
     "description": {
-      "de": "Beat Tyranno 4-70Q basiert auf Tyranno Beat und erschien im G1542 Dual Pack. Der schwere Attack-Typ zeigt einen Tyrannosaurus-Gear-Chip, aggressive Kontaktpunkte und ein Quake-Bit für springende, offensive Bewegungen.",
-      "en": "Beat Tyranno 4-70Q is based on Tyranno Beat and was released in the G1542 dual pack. This heavy Attack type features a Tyrannosaurus Gear Chip, aggressive contact points, and a Quake Bit for jumping, offensive movement."
-    }
+      "en": "A right-spin Attack Type Beyblade from Hasbro, released in western markets in November 2024 as part of the G1542 Beat Tyranno and Knife Shinobi Dual Pack. It uses the Hasbro versions of Tyranno Beat, 4-70 and Quake, delivering the same jumping Attack gimmick as the Takara Tomy original.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade von Hasbro, veröffentlicht auf westlichen Märkten im November 2024 als Teil des G1542 Beat Tyranno and Knife Shinobi Dual Pack. Er verwendet die Hasbro-Versionen von Tyranno Beat, 4-70 und Quake und bietet dasselbe springende Attack-Gimmick wie das Takara-Tomy-Original."
+    },
+    "assessment": {
+      "en": "Beat Tyranno 4-70Q is Hasbro's western release of TyrannoBeat, packaged in the G1542 dual pack with Knife Shinobi. It inherits the same heavy, elliptical Tyranno Beat Blade and Quake Bit, so its strengths and weaknesses mirror the Takara Tomy original: strong inertia, occasional jumping knockouts, but inconsistent gimmicks and poor stamina. As a Hasbro release, it offers easier access for western collectors who want the Tyranno Beat design without importing.",
+      "de": "Beat Tyranno 4-70Q ist Hasbros westliche Veröffentlichung von TyrannoBeat, verpackt im G1542 Dual Pack zusammen mit Knife Shinobi. Er erbt dasselbe schwere, elliptische Tyranno Beat Blade und Quake Bit, sodass sich Stärken und Schwächen spiegeln: hohe Trägheit, gelegentliche Spring-Knockouts, aber inkonsistente Gimmicks und schwache Ausdauer. Als Hasbro-Veröffentlichung bietet er westlichen Sammlern leichteren Zugang zum Tyranno-Beat-Design, ohne importieren zu müssen."
+    },
+    "priceUsd": 16,
+    "priceEur": 15
   },
   {
     "id": "knife-shinobi-4-80hn-g1542",
@@ -4535,14 +4722,16 @@
     "bladeId": "weiss-tiger-hasbro",
     "ratchetId": "ratchet-3-60-hasbro",
     "bitId": "bit-unite-hasbro",
-    "assessment": {
-      "en": "Pearl Tiger 3-60U is a right-spin factory-combined Beyblade from Hasbro, released as G1686. Parts: Weiss Tiger / 3-60 / Unite.",
-      "de": "Pearl Tiger 3-60U ist ein rechtsdrehender, ab Werk kombinierter Beyblade von Hasbro, veröffentlicht als G1686. Teile: Weiss Tiger / 3-60 / Unite."
-    },
     "description": {
-      "de": "Pearl Tiger 3-60U setzt mit perlmuttartigen Weiß- und Orangetönen einen hellen Akzent im Dual Pack mit Gill Shark 4-70O. Das Weiss Tiger Blade nutzt das Unite Bit, um offensive Vorstöße mit ausreichend Stamina zu verbinden.",
-      "en": "Pearl Tiger 3-60U brings a bright pearl-white and orange accent to the Gill Shark 4-70O dual pack. The Weiss Tiger Blade uses the Unite Bit to blend offensive strikes with enough stamina to stay in the fight."
-    }
+      "en": "A right-spin Balance Type Beyblade from Hasbro, released in mid-2025 as part of the G1686 dual pack with Gill Shark 4-70O. It uses the Hasbro versions of Weiss Tiger, 3-60 and Unite, pairing the hybrid Blade with a low Ratchet and a flexible Balance Bit. The pearl-white and orange color scheme distinguishes it from the Takara Tomy original.",
+      "de": "Ein rechtsdrehender Balance-Typ-Beyblade von Hasbro, veröffentlicht Mitte 2025 als Teil des G1686 Dual Packs mit Gill Shark 4-70O. Er verwendet die Hasbro-Versionen von Weiss Tiger, 3-60 und Unite und paart den hybriden Blade mit einem niedrigen Ratchet und einem flexiblen Balance-Bit. Das perlmutt-weiße und orange Farbschema unterscheidet ihn vom Takara-Tomy-Original."
+    },
+    "assessment": {
+      "en": "Pearl Tiger 3-60U is Hasbro's recolored take on WeissTiger 3-60U. It inherits the same strengths and weaknesses: decent early smash from the Weiss Tiger Blade, solid synergy with 3-60 and Unite, but outclassed by dedicated Attack and Stamina options. The Hasbro release offers western collectors an easier way to obtain the Weiss Tiger Blade and Unite Bit without importing.",
+      "de": "Pearl Tiger 3-60U ist Hasbros umgefärbte Version von WeissTiger 3-60U. Er erbt dieselben Stärken und Schwächen: anständiger früher Smash vom Weiss Tiger Blade, solide Synergie mit 3-60 und Unite, aber von dedizierten Attack- und Stamina-Optionen übertroffen. Die Hasbro-Veröffentlichung bietet westlichen Sammlern einen einfacheren Weg, den Weiss Tiger Blade und das Unite Bit zu erhalten, ohne zu importieren."
+    },
+    "priceUsd": 16,
+    "priceEur": 15
   },
   {
     "id": "gill-shark-4-70o-g1686",

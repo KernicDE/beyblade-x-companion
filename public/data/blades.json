@@ -38,12 +38,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A three-sided Attack Type Blade with upward-slanting blades and a Seiryū-themed Gear Chip. One of the first four Blades in the Basic Line.",
-      "de": "Ein dreiseitiger Attack-Type-Blade mit nach oben geneigten Klingen und einem Seiryū-Gear-Chip. Einer der ersten vier Blades der Basic Line."
+      "en": "A three-sided Attack Blade with upward-slanting contact points and a Seiryū-themed Gear Chip. Its light weight and aggressive shape made it a strong launch option in mid-2023, but heavier Attack Blades such as Dran Buster and Shark Scale have since surpassed it in raw knockout power.",
+      "de": "Ein dreiseitiger Attack-Blade mit nach oben geneigten Kontaktpunkten und einem Seiryū-Gear-Chip. Das geringe Gewicht und die aggressive Form machten ihn Mitte 2023 zu einer starken Launch-Option, doch schwerere Attack-Blades wie Dran Buster und Shark Scale haben ihn in puncto roher KO-Kraft mittlerweile überholt."
     },
     "assessment": {
-      "en": "Dran Sword was strong at launch but has been outclassed by heavier Attack Blades. It is no longer recommended for competitive WBO X format play.",
-      "de": "Dran Sword war zum Launch stark, wurde aber von schwereren Attack-Blades überholt. Für das kompetitive WBO-X-Format wird er nicht mehr empfohlen."
+      "en": "Dran Sword remains a recognizable face of Beyblade X and works well for casual play and learning aggressive launch techniques. In competitive WBO X format it has fallen behind because its low weight reduces knockout consistency against heavier opponents.",
+      "de": "Dran Sword bleibt ein bekanntes Gesicht von Beyblade X und eignet sich gut für Casual-Play sowie das Erlernen aggressiver Launch-Techniken. Im kompetitiven WBO-X-Format ist er zurückgefallen, da das geringe Gewicht die KO-Konsistenz gegen schwerere Gegner verringert."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -68,12 +68,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A round, four-sided Balance Type Blade with four smashing blades and a flaming-skull Gear Chip. Initially served as both a Balance and Stamina option.",
-      "de": "Ein runder, vierseitiger Balance-Type-Blade mit vier Schlagklingen und einem Totenkopf-Gear-Chip. Diente anfangs als Balance- und Stamina-Option."
+      "en": "A round, four-sided Balance Blade with four smashing contact points and a flaming-skull Gear Chip. Its smooth, circular perimeter gives it natural stamina and defense, while the protruding blades allow for occasional counter-attacks. It was one of the first four Blades in the Basic Line and initially served as both a Balance and Stamina option.",
+      "de": "Ein runder, vierseitiger Balance-Blade mit vier Schlagkontaktpunkten und einem Totenkopf-Gear-Chip. Der glatte, kreisförmige Umfang verleiht ihm natürliche Ausdauer und Verteidigung, während die hervorstehenden Klingen gelegentliche Gegenangriffe ermöglichen. Er war einer der ersten vier Blades der Basic Line und diente anfangs sowohl als Balance- als auch als Stamina-Option."
     },
     "assessment": {
-      "en": "Hells Scythe was a top-tier Stamina Blade early in the line, but it has been outclassed by WizardRod and SilverWolf. Not recommended for current competitive play.",
-      "de": "Hells Scythe war anfangs ein Top-Stamina-Blade, wurde aber von WizardRod und SilverWolf überholt. Für aktuelles kompetitives Spiel nicht empfohlen."
+      "en": "Hells Scythe is a comfortable all-rounder for newcomers: hard to knock over, decent stamina, and enough attack to punish reckless opponents. In competitive play it has been eclipsed by WizardRod's superior stamina and SilverWolf's heavier defense, but it remains a solid teaching tool for balance-oriented playstyles.",
+      "de": "Hells Scythe ist ein komfortabler Allrounder für Einsteiger: schwer umzuwerfen, mit anständiger Ausdauer und genug Angriff, um unvorsichtige Gegner zu bestrafen. Im kompetitiven Spiel wurde er von WizardRods überlegener Ausdauer und SilverWolfs schwererer Verteidigung in den Schatten gestellt, bleibt aber ein solides Lehrmittel für balance-orientierte Spielweisen."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -98,12 +98,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A round Defense Type Blade with six main contact points designed to absorb impacts. Features a knight-in-helm Gear Chip.",
-      "de": "Ein runder Defense-Type-Blade mit sechs Hauptkontaktpunkten, die Aufprall absorbieren sollen. Zeigt einen Ritter mit Helm als Gear Chip."
+      "en": "A round Defense Blade with six main contact points arranged to absorb and deflect impacts. The knight-helm Gear Chip reinforces its defensive identity. Its circular shape helps it settle in the center of the stadium, making it one of the earliest dedicated Defense options in the Basic Line.",
+      "de": "Ein runder Defense-Blade mit sechs Hauptkontaktpunkten, die Aufprall absorbieren und ablenken sollen. Das Ritterhelm-Gear-Chip unterstreicht seine defensive Ausrichtung. Die kreisförmige Form hilft ihm, sich in der Stadionmitte zu zentrieren, und macht ihn zu einer der ersten dedizierten Defense-Optionen der Basic Line."
     },
     "assessment": {
-      "en": "Knight Shield was competitive early on, but heavier Defense and Stamina Blades have surpassed it. It is not recommended for the current WBO X format.",
-      "de": "Knight Shield war anfangs konkurrenzfähig, wurde aber von schwereren Defense- und Stamina-Blades übertroffen. Für das aktuelle WBO-X-Format nicht empfohlen."
+      "en": "Knight Shield is a friendly introduction to defensive play: it survives longer than Attack starters and punishes opponents who overcommit. In today's metagame it lacks the weight to stop heavy hitters consistently, but it remains a useful reference point for understanding how round, low-recoil Blades behave.",
+      "de": "Knight Shield ist eine freundliche Einführung in das defensive Spiel: Er überlebt länger als Attack-Starter und bestraft übermütige Gegner. Im heutigen Metagame fehlt ihm das Gewicht, um schwere Hitter konsistent zu stoppen, aber er bleibt ein nützlicher Referenzpunkt, um zu verstehen, wie runde, rückstoßarme Blades sich verhalten."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -128,12 +128,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A round Stamina Type Blade with two large blades that create strong centrifugal force. Features a wizard-themed Gear Chip.",
-      "de": "Ein runder Stamina-Type-Blade mit zwei großen Klingen, die starke Fliehkraft erzeugen. Zeigt einen Zauberer als Gear Chip."
+      "en": "A wide, round Stamina Blade with two sweeping blades built to maximize centrifugal force. The wizard-themed Gear Chip sits at its center, giving the top a stable, low-recoil silhouette that prefers to outlast rather than overpower opponents.",
+      "de": "Ein breiter, runder Stamina-Blade mit zwei schwingenden Klingen, die die Fliehkraft maximieren sollen. Das zauberer-thematisierte Gear-Chip sitzt in der Mitte und verleiht dem Top eine stabile, rückstoßarme Silhouette, die lieber überdauert als überwältigt."
     },
     "assessment": {
-      "en": "Wizard Arrow offers solid Stamina for early-game combos. While later releases offer more Stamina, it remains a decent budget option.",
-      "de": "Wizard Arrow bietet solide Stamina für Einsteiger-Combos. Spätere Releases haben mehr Stamina, aber er bleibt eine brauchbare Budget-Option."
+      "en": "Wizard Arrow was one of the first competitively relevant Stamina Blades in X, popular in combos like Wizard Arrow 4-60B. Its light weight and smooth perimeter still make it a budget-friendly stamina choice, though heavier options such as WhaleWave and PhoenixRudder now dominate longer matches.",
+      "de": "Wizard Arrow war einer der ersten konkurrenzfähigen Stamina-Blades in X, beliebt in Combos wie Wizard Arrow 4-60B. Sein geringes Gewicht und der glatte Umfang machen ihn auch heute noch zu einer budgetfreundlichen Stamina-Wahl, obwohl schwerere Optionen wie WhaleWave und PhoenixRudder längere Matches mittlerweile dominieren."
     },
     "officialStats": {
       "weightGrams": 31.8,
@@ -188,12 +188,12 @@
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
-      "en": "A Defense Type Blade featuring an elongated lance-like shape for repelling opponents.",
-      "de": "Ein Defense-Type-Blade mit länglicher lanzenförmiger Form, um Gegner abzuwehren."
+      "en": "A three-sided Defense Type Blade with an elongated, lance-like silhouette built around a counter-archetype. Its protruding contact points are meant to deflect and punish incoming attacks, while the shape leaves enough outward weight to generate surprising stamina in same-spin matchups.",
+      "de": "Ein dreiseitiger Defense-Type-Blade mit länglicher, lanzenförmiger Silhouette im Counter-Archetyp. Die vorspringenden Kontaktpunkte sollen eingehende Treffer ablenken und bestrafen, während die Form genug Außengewicht lässt, um in Same-Spin-Duellen überraschende Ausdauer zu erzeugen."
     },
     "assessment": {
-      "en": "Knight Lance provides high Defense thanks to its weight and shape, but its Stamina is low. It works best in defensive combinations against Attack types.",
-      "de": "Knight Lance bietet dank Gewicht und Form hohe Defense, aber seine Stamina ist gering. Am besten in defensiven Kombinationen gegen Attack-Typen."
+      "en": "Knight Lance is the first dedicated counter-style Blade in X: it absorbs hits better than Knight Shield but still carries enough recoil to score occasional lucky knockouts against Stamina types. BeyBase rated the stock combo 7.5/10, praising its versatility. In today’s metagame it is no longer a top-tier defender, yet it remains a fun and educational choice for learning how counter-archetypes behave.",
+      "de": "Knight Lance ist der erste dedizierte Counter-Blade in X: Er absorbiert Treffer besser als Knight Shield, hat aber genug Rückstoß, um gelegentlich glückliche Knockouts gegen Stamina-Typen zu landen. BeyBase bewertete das Stock-Combo mit 7,5/10 und lobte seine Vielseitigkeit. Im heutigen Metagame ist er kein Top-Tier-Defender mehr, bleibt aber eine lehrreiche Wahl, um Counter-Archetypen zu verstehen."
     },
     "officialStats": {
       "weightGrams": 32.9,
@@ -201,9 +201,9 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1,
-      "defense": 5,
-      "stamina": 1,
+      "attack": 1.5,
+      "defense": 4,
+      "stamina": 2,
       "balance": 2
     },
     "ratingsDisclaimer": true,
@@ -215,15 +215,15 @@
     "name": "Shark Edge",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/shark-edge.png",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX",
+    "releaseDate": "2023-09-09",
+    "releaseWave": "BX-14",
     "description": {
-      "en": "An Attack Type Blade with two large, aggressive blades that produce massive Smash Attack and upward-sloping Upper Attack. Features a shark-head Gear Chip.",
-      "de": "Ein Attack-Type-Blade mit zwei großen, aggressiven Klingen, die massiven Smash-Attack und nach oben geneigten Upper-Attack erzeugen. Zeigt einen Haikopf als Gear Chip."
+      "en": "A right-spin Attack Type Blade first released in BX-14 Random Booster Vol. 1. Its two large blades dominate the perimeter, producing heavy Smash Attack and upward-sloping Upper Attack. The heavy weight creates high inertia that boosts knockout and burst potential, while the shark-head Gear Chip gives it an unmistakable look. Weighs about 34.5 grams.",
+      "de": "Ein rechtsdrehender Attack-Type-Blade, erstmals im BX-14 Random Booster Vol. 1 veröffentlicht. Seine zwei großen Klingen dominieren den Umfang und erzeugen schweren Smash-Attack sowie nach oben geneigten Upper-Attack. Das hohe Gewicht erzeugt eine große Trägheit, die Knockout- und Burst-Potenzial erhöht, während der Haikopf-Gear-Chip ein unverwechselbares Aussehen verleiht. Wiegt etwa 34,5 Gramm."
     },
     "assessment": {
-      "en": "Shark Edge is a staple Attack Blade with excellent Attack capabilities. It is considered a must-have for the WBO X format.",
-      "de": "Shark Edge ist ein klassischer Attack-Blade mit exzellenten Attack-Werten. Er gilt als Must-Have für das WBO-X-Format."
+      "en": "Shark Edge is a staple Attack Blade and widely considered a must-have for the WBO X format. Its two aggressive blades hit harder than almost anything in the early line, but the low stamina means it must end battles quickly. Beyblade Wiki recommends pairing it with Point or Rush to keep it mobile and dangerous. It is a defining piece of aggressive Beyblade X play.",
+      "de": "Shark Edge ist ein klassischer Attack-Blade und wird allgemein als Must-Have für das WBO-X-Format betrachtet. Seine zwei aggressiven Klingen treffen härter als fast alles andere in der frühen Line, aber die geringe Ausdauer bedeutet, dass Kämpfe schnell beendet werden müssen. Das Beyblade Wiki empfiehlt, ihn mit Point oder Rush zu kombinieren, um ihn mobil und gefährlich zu halten. Er ist ein prägendes Stück aggressiven Beyblade-X-Plays."
     },
     "officialStats": {
       "weightGrams": 34.5,
@@ -234,7 +234,7 @@
       "attack": 5,
       "defense": 1,
       "stamina": 1,
-      "balance": 2
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -248,23 +248,23 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "A Balance Type Blade with four main contact points and a lion-themed Gear Chip.",
-      "de": "Ein Balance-Type-Blade mit vier Hauptkontaktpunkten und einem löwen-thematisierten Gear Chip."
+      "en": "A lightweight, five-sided Balance Type Blade with five embossed claw contact points and a lion-head Gear Chip. Its pentagonal shape is intended to mix attack and defense traits, but the low weight of around 31.3 grams prevents it from delivering consistent results in either role.",
+      "de": "Ein leichter, fünfseitiger Balance-Type-Blade mit fünf geprägten Klauen-Kontaktpunkten und einem Löwenkopf-Gear-Chip. Die pentagonale Form soll Angriffs- und Verteidigungseigenschaften mischen, aber das geringe Gewicht von etwa 31,3 Gramm verhindert konsistente Ergebnisse in beiden Rollen."
     },
     "assessment": {
-      "en": "Leon Claw offers a balanced stat spread without excelling in any one area. It is usable for casual play but outclassed by specialized Blades.",
-      "de": "Leon Claw bietet eine ausgewogene Stat-Verteilung, ohne in einem Bereich herauszuragen. Für Casual-Spiel brauchbar, von spezialisierten Blades aber übertroffen."
+      "en": "Leon Claw is a niche anti-attack Blade that rewards creative launching but lacks the consistency of true Attack, Defense or Stamina options. BeyBase called it 'skippable' for competition: it is too light to outlast dedicated Stamina Blades and too irregular to replace Shark Edge or Dran Sword in Attack. It can bully high-recoil opponents in mirror matchups and is a fun practice piece for learning how launch angles expose different contact points.",
+      "de": "Leon Claw ist ein Nischen-Anti-Attack-Blade, der kreatives Launching belohnt, aber die Konsistenz echter Attack-, Defense- oder Stamina-Optionen fehlt. BeyBase bezeichnete ihn als 'skippable' für den Wettbewerb: Er ist zu leicht, um dedizierte Stamina-Blades auszusitzen, und zu unregelmäßig, um Shark Edge oder Dran Sword im Attack zu ersetzen. Er kann hochrückstoßige Gegner in Mirror-Matchups tyrannisieren und ist ein unterhaltsames Übungsteil, um zu lernen, wie Launch-Winkel verschiedene Kontaktpunkte exponieren."
     },
     "officialStats": {
-      "weightGrams": 31.4,
+      "weightGrams": 31.3,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 3
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -275,26 +275,26 @@
     "name": "Viper Tail",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/viper-tail.png",
-    "releaseDate": "2023-07-15",
-    "releaseWave": "BX",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX-16",
     "description": {
-      "en": "A Stamina Type Blade with a round shape and smooth contact points for minimal friction. Features a viper-themed Gear Chip.",
-      "de": "Ein Stamina-Type-Blade mit runder Form und glatten Kontaktpunkten für minimale Reibung. Zeigt eine Viper als Gear Chip."
+      "en": "A right-spin Stamina Type Blade first released in the BX-16 Random Booster Viper Tail Select. Its hexagonal shape has six contact points divided into two designs: three longer, smooth sections and three shorter, aggressive sections. The viper-head Gear Chip sits at the center. The raised, upward-facing contact points are unusual for a Stamina Blade and expose the plastic frame below. Weight: about 34.4g.",
+      "de": "Ein rechtsdrehender Stamina-Type-Blade, erstmals im BX-16 Random Booster Viper Tail Select veröffentlicht. Seine sechseckige Form hat sechs Kontaktpunkte in zwei Designs: drei längere, glatte Sektionen und drei kürzere, aggressive Sektionen. Das Viperkopf-Gear-Chip sitzt in der Mitte. Die erhöhten, nach oben gerichteten Kontaktpunkte sind ungewöhnlich für einen Stamina-Blade und freilegen den Kunststoffrahmen darunter. Gewicht: etwa 34,4g."
     },
     "assessment": {
-      "en": "Viper Tail provides good Stamina and is a reliable early-line option. It lacks the raw Stamina of later releases like WizardRod.",
-      "de": "Viper Tail bietet gute Stamina und ist eine zuverlässige Early-Line-Option. Die rohe Stamina späterer Releases wie WizardRod fehlt ihm."
+      "en": "Viper Tail is one of the most unpredictable Basic Line Blades. Beyblade Wiki notes that its mixed contact points can gently grind against opponents or suddenly repel them with surprising force, making it a risky counter-attack option rather than a pure stamina Blade. Its raised contact points also expose the plastic frame, so it is easy to lift and destabilize. It can challenge high-recoil Blades like Hells Scythe, but it loses cleanly to low-recoil stamina options like Wizard Arrow. Best treated as an experimental Balance/counter piece.",
+      "de": "Viper Tail ist einer der unberechenbarsten Basic-Line-Blades. Das Beyblade Wiki vermerkt, dass seine gemischten Kontaktpunkte entweder sanft gegen Gegner schleifen oder sie plötzlich mit überraschender Kraft zurückstoßen können, was ihn zu einer riskanten Counter-Attack-Option rather than einem reinen Stamina-Blade macht. Die erhöhten Kontaktpunkte freilegen außerdem den Kunststoffrahmen, sodass er leicht angehoben und destabilisiert werden kann. Er kann high-recoil-Blades wie Hells Scythe herausfordern, verliert aber klar gegen low-recoil-Stamina-Optionen wie Wizard Arrow. Am besten als experimentelles Balance-/Counter-Teil betrachtet."
     },
     "officialStats": {
-      "weightGrams": 34.7,
+      "weightGrams": 34.4,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 2,
+      "attack": 2.5,
       "defense": 2,
-      "stamina": 4,
-      "balance": 2
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -308,12 +308,12 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "An Attack Type Blade with six small blades and a Seiryū-themed Gear Chip. The Dagger Dran evolution in the Dran line.",
-      "de": "Ein Attack-Type-Blade mit sechs kleinen Klingen und einem Seiryū-Gear-Chip. Die Dagger-Dran-Evolution der Dran-Linie."
+      "en": "A right-spin Attack Type Blade with a circular yet aggressive shape and six prominent blades around its perimeter. The center features a dragon-head Gear Chip showing Seiryū exhaling fire. At around 34.8–35.3 grams depending on the mold, it is slightly heavier than Dran Sword and trades some raw Smash Attack for better stamina and repeated-attack consistency.",
+      "de": "Ein rechtsdrehender Attack-Type-Blade mit runder, aber aggressiver Form und sechs prominenten Klingen am Umfang. Die Mitte zeigt einen Drachenkopf-Gear-Chip, auf dem Seiryū Feuer speit. Mit etwa 34,8–35,3 Gramm je nach Guss ist er etwas schwerer als Dran Sword und tauscht etwas rohen Smash-Attack gegen bessere Ausdauer und Konsistenz bei wiederholten Angriffen ein."
     },
     "assessment": {
-      "en": "Dran Dagger offers consistent Attack power with its multi-blade design. It is a solid upgrade over Dran Sword for aggressive combos.",
-      "de": "Dran Dagger bietet durch sein Mehrklingen-Design konstante Attack-Power. Er ist eine solide Verbesserung gegenüber Dran Sword für aggressive Combos."
+      "en": "Dran Dagger is a competent alternative to Dran Sword and Shark Edge rather than a strict upgrade. Its six blades do not hit as hard in the opening seconds, but they give it better endurance and make it less dependent on a single perfect hit. BeyBase found it particularly effective with the Rush Bit, where the combo can perform multiple Xtreme Dashes while staying safer than Flat or Low Flat setups. It is a versatile Attack Blade that also has niche use in semi-mobile Stamina combinations.",
+      "de": "Dran Dagger ist eine kompetente Alternative zu Dran Sword und Shark Edge, keine strenge Verbesserung. Seine sechs Klingen treffen in den ersten Sekunden nicht so hart, geben ihm aber mehr Ausdauer und machen ihn weniger abhängig von einem einzelnen perfekten Treffer. BeyBase fand ihn besonders effektiv mit dem Rush Bit, wo das Combo mehrere Xtreme Dashes ausführen kann und dabei sicherer ist als Flat- oder Low-Flat-Setups. Er ist ein vielseitiger Attack-Blade, der auch Nischennutzung in semi-mobilen Stamina-Kombinationen hat."
     },
     "officialStats": {
       "weightGrams": 34.8,
@@ -323,8 +323,8 @@
     "ratings": {
       "attack": 4,
       "defense": 2,
-      "stamina": 2,
-      "balance": 2
+      "stamina": 2.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -338,23 +338,23 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "A round Balance Type Blade with five blades and chains as contact points. Features a flaming-skull Gear Chip.",
-      "de": "Ein runder Balance-Type-Blade mit fünf Klingen und Ketten als Kontaktpunkten. Zeigt einen Totenkopf-Gear-Chip."
+      "en": "A right-spin Balance Type Blade with five chain-link-shaped contact points, each split into a longer lower section and a shorter upward-angled section. The uneven weight distribution and thin underside make it mobile but wobble-prone on pointy Bits, while the lower recoil helps it defend against aggressive opponents. Features a flaming-skull Gear Chip and weighs about 33.25 grams.",
+      "de": "Ein rechtsdrehender Balance-Type-Blade mit fünf kettenglied-förmigen Kontaktpunkten, die jeweils in eine längere untere Sektion und eine kürzere, nach oben gewinkelte Sektion geteilt sind. Die ungleiche Gewichtsverteilung und die dünne Unterseite machen ihn mobil, aber kippanfällig auf spitzen Bits, während der geringere Rückstoß bei der Verteidigung gegen aggressive Gegner hilft. Zeigt einen Totenkopf-Gear-Chip und wiegt etwa 33,25 Gramm."
     },
     "assessment": {
-      "en": "Hells Chain provides a balanced mix of offense and defense. Its chained design can absorb hits while still delivering counter-attacks.",
-      "de": "Hells Chain bietet eine ausgewogene Mischung aus Offensive und Defense. Das Ketten-Design kann Treffer absorbieren und gleichzeitig Konter ausführen."
+      "en": "Hells Chain is a more defense-oriented Balance Blade than Hells Scythe. BeyBase found it excellent on conical Bits, where the 5-60 Ratchet can mitigate its wobble. It repels mobile Attack combos better than Hells Scythe but is vulnerable to being struck from below, so keeping the combo low is important. It is not a direct upgrade to Hells Scythe, but a strong alternative for players who want less recoil.",
+      "de": "Hells Chain ist ein defensorientierterer Balance-Blade als Hells Scythe. BeyBase stellte fest, dass er auf konischen Bits exzellent ist, wo das 5-60 Ratchet sein Wackeln mildern kann. Er weist mobile Attack-Compos besser ab als Hells Scythe, ist aber verwundbar für Treffer von unten, daher ist es wichtig, das Combo niedrig zu halten. Er ist kein direktes Upgrade zu Hells Scythe, aber eine starke Alternative für Spieler, die weniger Rückstoß wollen."
     },
     "officialStats": {
-      "weightGrams": 33.2,
+      "weightGrams": 33.25,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 3
+      "attack": 2.5,
+      "defense": 3.5,
+      "stamina": 2.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -368,23 +368,23 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "A compact Defense Type Blade with an inward center of gravity for stability. Features a rhinoceros-themed Gear Chip.",
-      "de": "Ein kompakter Defense-Type-Blade mit einem nach innen gerichteten Schwerpunkt für Stabilität. Zeigt ein Nashorn-Gear-Chip."
+      "en": "A small, right-spin Defense Type Blade with four bumpy sections and an inward center of gravity. Its compact, rugged shape is meant to dodge early hits and absorb shocks in the center of the stadium, while the rhinoceros-themed Gear Chip gives it a distinctive look. Weighs about 32.8 grams.",
+      "de": "Ein kleiner, rechtsdrehender Defense-Type-Blade mit vier unebenen Sektionen und einem nach innen gerichteten Schwerpunkt. Seine kompakte, robuste Form soll frühen Treffern ausweichen und Schläge in der Stadionmitte absorbieren, während das nashorn-thematisierte Gear-Chip ein markantes Aussehen verleiht. Wiegt etwa 32,8 Gramm."
     },
     "assessment": {
-      "en": "Rhino Horn is built to withstand strong hits. Its compact shape makes it a reliable defensive choice, though it offers limited Attack potential.",
-      "de": "Rhino Horn ist darauf ausgelegt, starke Treffer zu widerstehen. Seine kompakte Form macht ihn zu einer zuverlässigen Defensivwahl, obwohl das Attack-Potenzial begrenzt ist."
+      "en": "Rhino Horn is one of the weakest early Defense Blades in Beyblade X. Beyblade Wiki notes that it cannot reliably mitigate opposing attacks, suffers from poor stamina compared to Hells Scythe, and becomes erratic when paired with mobile Bits. Its small size can occasionally repel high-force Blades, but against dedicated Attackers it is usually knocked out quickly. It is not recommended for competitive play, though its chaotic behavior can make for fun casual battles.",
+      "de": "Rhino Horn ist einer der schwächsten frühen Defense-Blades in Beyblade X. Das Beyblade Wiki vermerkt, dass er gegnerische Angriffe nicht zuverlässig abfedern kann, im Vergleich zu Hells Scythe über schlechte Ausdauer verfügt und bei mobilen Bits unberechenbar wird. Seine geringe Größe kann gelegentlich hochkraftige Blades abwehren, aber gegen dedizierte Angreifer fliegt er meist schnell raus. Für kompetitives Spiel nicht empfohlen, obwohl sein chaotisches Verhalten für spaßige Casual-Kämpfe sorgen kann."
     },
     "officialStats": {
-      "weightGrams": 32.7,
+      "weightGrams": 32.8,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
       "attack": 1,
-      "defense": 4,
-      "stamina": 2,
-      "balance": 2
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -425,25 +425,25 @@
     "name": "Phoenix Wing",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/phoenix-wing.png",
-    "releaseDate": "",
+    "releaseDate": "2023-12-10",
     "releaseWave": "BX",
     "description": {
-      "en": "A heavy, three-sided Attack Type Blade with excellent Attack capabilities. Features a phoenix-spreading-its-wings Gear Chip.",
-      "de": "Ein schwerer, dreiseitiger Attack-Type-Blade mit exzellenten Attack-Werten. Zeigt einen Phönix mit ausgebreiteten Flügeln als Gear-Chip."
+      "en": "A heavyweight, right-spin Attack Type Blade first released with BX-23. It features three upward-slanting contact points and a phoenix-spreading-its-wings Gear Chip. The metal-coated paint adds mass, bringing the Blade to about 39 grams and making it one of the heaviest Basic Line Attack Blades at release, alongside Cobalt Drake.",
+      "de": "Ein schwerer, rechtsdrehender Attack-Type-Blade, erstmals mit BX-23 veröffentlicht. Er verfügt über drei nach oben geneigte Kontaktpunkte und einen Phönix-mit-ausgebreiteten-Flügeln-Gear-Chip. Die metallische Beschichtung fügt Masse hinzu und bringt den Blade auf etwa 39 Gramm, was ihn zum Zeitpunkt seines Releases zu einem der schwersten Attack-Blades der Basic Line machte, neben Cobalt Drake."
     },
     "assessment": {
-      "en": "Phoenix Wing is a staple Attack Blade due to its heavy weight and strong Attack. It is considered a must-have for the WBO X format.",
-      "de": "Phoenix Wing ist aufgrund seines hohen Gewichts und starken Attack-Werts ein klassischer Attack-Blade. Er gilt als Must-Have für das WBO-X-Format."
+      "en": "Phoenix Wing was a metagame-defining Attack Blade. Beyblade Wiki notes that its heavy weight and aggressive shape let it dominate earlier Blades like Hells Scythe, Dran Sword and Shark Edge, while its three sloping contact points create reliable Upper Attack and Xtreme Zone knockouts. It also has surprising stamina for an Attack Blade. Later releases such as Aero Pegasus, Shark Scale and Wyvern Hover eventually surpassed it, but it remains a strong, versatile attacker and a must-have for competitive collections.",
+      "de": "Phoenix Wing war ein metaspielprägender Attack-Blade. Das Beyblade Wiki vermerkt, dass sein hohes Gewicht und seine aggressive Form es erlaubten, frühere Blades wie Hells Scythe, Dran Sword und Shark Edge zu dominieren, während die drei geneigten Kontaktpunkte zuverlässigen Upper Attack und Xtreme-Zone-KOs ermöglichten. Er besitzt zudem überraschende Ausdauer für einen Attack-Blade. Spätere Releases wie Aero Pegasus, Shark Scale und Wyvern Hover haben ihn schließlich übertroffen, aber er bleibt ein starker, vielseitiger Angreifer und ein Must-Have für kompetitive Sammlungen."
     },
     "officialStats": {
-      "weightGrams": 38,
+      "weightGrams": 39,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
       "attack": 5,
       "defense": 2,
-      "stamina": 1,
+      "stamina": 1.5,
       "balance": 3
     },
     "ratingsDisclaimer": true,
@@ -455,25 +455,25 @@
     "name": "Wyvern Gale",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/wyvern-gale.png",
-    "releaseDate": "2023-09-09",
+    "releaseDate": "2023-12-27",
     "releaseWave": "BX",
     "description": {
-      "en": "A Stamina Type Blade with a smooth, round shape for minimal friction. Features a wyvern-themed Gear Chip.",
-      "de": "Ein Stamina-Type-Blade mit glatter, runder Form für minimale Reibung. Zeigt einen Wyvern-Gear-Chip."
+      "en": "A right-spin Stamina Type Blade first released in BX-24 Random Booster Vol. 2. It has a mostly circular shape with four contact points separated by fairly large gaps, which redirect airflow and improve weight distribution for longer spin times. The wyvern-themed Gear Chip sits at its center. Weighs about 32.15 grams.",
+      "de": "Ein rechtsdrehender Stamina-Type-Blade, erstmals im BX-24 Random Booster Vol. 2 veröffentlicht. Er hat eine weitgehend runde Form mit vier Kontaktpunkten, die durch ziemlich große Lücken getrennt sind, was die Luftumlenkung verbessert und die Gewichtsverteilung für längere Drehzeiten optimiert. Das Wyvern-thematisierte Gear-Chip sitzt in der Mitte. Wiegt etwa 32,15 Gramm."
     },
     "assessment": {
-      "en": "Wyvern Gale provides good Stamina and decent Defense for a Stamina Blade. It is a solid choice for outlasting opponents.",
-      "de": "Wyvern Gale bietet gute Stamina und anständige Defense für einen Stamina-Blade. Er ist eine solide Wahl, um Gegner auszusitzen."
+      "en": "Wyvern Gale offers genuine stamina potential: Beyblade Wiki found it can outspin Hells Scythe in isolation tests. Unfortunately, it is also light and has raised contact points that expose its plastic frame and Ratchet, making it easy to lift and destabilize. Against heavier Attack Blades like Phoenix Wing or Shark Edge it is usually dominated, but it can still produce decent results against other stamina or defense-oriented Blades such as Wizard Arrow or Viper Tail. A niche stamina pick, not a must-have.",
+      "de": "Wyvern Gale bietet echtes Stamina-Potenzial: Das Beyblade Wiki stellte fest, dass er Hells Scythe in Isolationstests überdauern kann. Leider ist er auch leicht und hat erhöhte Kontaktpunkte, die den Kunststoffrahmen und das Ratchet freilegen, sodass er leicht angehoben und destabilisiert werden kann. Gegen schwerere Attack-Blades wie Phoenix Wing oder Shark Edge wird er meist dominiert, aber gegen andere Stamina- oder defensorientierte Blades wie Wizard Arrow oder Viper Tail kann er noch anständige Ergebnisse liefern. Eine Nischen-Stamina-Wahl, kein Must-Have."
     },
     "officialStats": {
-      "weightGrams": 31.9,
+      "weightGrams": 32.15,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
       "attack": 1,
-      "defense": 3,
-      "stamina": 4,
+      "defense": 2.5,
+      "stamina": 4.5,
       "balance": 2
     },
     "ratingsDisclaimer": true,
@@ -486,25 +486,25 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/unicorn-sting.png",
     "releaseDate": "2024-01-27",
-    "releaseWave": "BX",
+    "releaseWave": "BX-26",
     "description": {
-      "en": "An asymmetrical Balance Type Blade with both Attack and Defense blades. Its performance changes depending on launch technique.",
-      "de": "Ein asymmetrischer Balance-Type-Blade mit Attack- und Defense-Klingen. Seine Leistung ändert sich je nach Launch-Technik."
+      "en": "A right-spin Balance Type Blade first released in the BX-26 Booster Unicorn Sting 5-60GP. Its circular shape is split into two distinct halves: one smooth half designed to absorb and deflect attacks, and one rugged half with seven small blades built for consecutive hits. This \"Double Style\" design gives it both defensive and offensive potential. The Blade is thick enough to cover its plastic frame, leaving the Ratchet less exposed. Weight: about 33.3g.",
+      "de": "Ein rechtsdrehender Balance-Type-Blade, erstmals im BX-26 Booster Unicorn Sting 5-60GP veröffentlicht. Seine kreisförmige Form ist in zwei unterschiedliche Hälften geteilt: eine glatte Hälfte, die Angriffe absorbieren und ablenken soll, und eine raue Hälfte mit sieben kleinen Klingen für konsecutive Treffer. Dieses \"Double-Style\"-Design verleiht ihm sowohl defensives als auch offensives Potenzial. Der Blade ist dick genug, um seinen Kunststoffrahmen zu bedecken, sodass das Ratchet weniger exponiert ist. Gewicht: etwa 33,3g."
     },
     "assessment": {
-      "en": "Unicorn Sting rewards skillful launching with versatile performance. It can switch between offensive and defensive behavior, making it unpredictable.",
-      "de": "Unicorn Sting belohnt geschicktes Launching mit vielseitiger Performance. Er kann zwischen offensivem und defensivem Verhalten wechseln und ist dadurch unberechenbar."
+      "en": "Unicorn Sting is a well-rounded, counter-oriented Balance Blade. Beyblade Wiki notes it can use the opponent's recoil against them, making it a consistent answer to Hells Scythe and a viable option against Phoenix Wing attack combos. It has good synergy with 5-60 for stationary stamina play, and its circular shape creates decent LAD. It is not as specialized as pure Attack or Stamina Blades, but its versatility makes it a must-have competitive and collection piece. Community assessment.",
+      "de": "Unicorn Sting ist ein vielseitiger, counter-orientierter Balance-Blade. Das Beyblade Wiki vermerkt, dass er den Rückstoß des Gegners gegen ihn selbst nutzen kann, was ihn zu einer konsistenten Antwort auf Hells Scythe und einer brauchbaren Option gegen Phoenix-Wing-Attack-Combos macht. Er hat gute Synergie mit 5-60 für stationären Stamina-Play, und seine kreisförmige Form erzeugt anständiges LAD. Er ist nicht so spezialisiert wie reine Attack- oder Stamina-Blades, aber seine Vielseitigkeit macht ihn zu einem Must-Have für Kompetitiv und Sammlung. Community-Einschätzung."
     },
     "officialStats": {
-      "weightGrams": 33.4,
+      "weightGrams": 33.3,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
       "attack": 3,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 3
+      "defense": 3.5,
+      "stamina": 2.5,
+      "balance": 3.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -605,26 +605,26 @@
     "name": "Wizard Rod",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/wizard-rod.png",
-    "releaseDate": "",
-    "releaseWave": "UX",
+    "releaseDate": "2024-03-30",
+    "releaseWave": "UX-03",
     "description": {
-      "en": "A heavy, wide circular Stamina Type Blade with five large blades that maximize centrifugal force. Features a wizard-themed Gear Chip.",
-      "de": "Ein schwerer, breit runder Stamina-Type-Blade mit fünf großen Klingen, die die Fliehkraft maximieren. Zeigt einen Zauberer-Gear-Chip."
+      "en": "A right-spin Stamina Type Blade from the Unique Line and one of the widest Blades in Beyblade X. Its circular perimeter features five gaps that maximize outward weight distribution and centrifugal force, while the resin launcher hooks of the Unique Line reduce weight at the center and push mass toward the outside. First released in the UX-03 Wizard Rod 5-70DB Starter. Weight: about 35.4g.",
+      "de": "Ein rechtsdrehender Stamina-Type-Blade aus der Unique Line und einer der breitesten Blades in Beyblade X. Der kreisförmige Umfang weist fünf Lücken auf, die die Außenlastverteilung und Fliehkraft maximieren, während die Harz-Launcher-Haken der Unique Line das Gewicht in der Mitte reduzieren und zur Außenseite drücken. Erstmals im UX-03 Wizard Rod 5-70DB Starter veröffentlicht. Gewicht: etwa 35,4g."
     },
     "assessment": {
-      "en": "WizardRod is a staple Stamina Blade due to its heavy weight and round shape. It is considered a must-have for the WBO X format.",
-      "de": "WizardRod ist aufgrund seines hohen Gewichts und der runden Form ein klassischer Stamina-Blade. Er gilt als Must-Have für das WBO-X-Format."
+      "en": "Wizard Rod redefined the Beyblade X metagame. Its extreme width and heavy weight give it top-tier stamina and surprising defense, making it difficult to knock out even with optimized Attack combos. Beyblade Wiki notes it is banned in B4 1on1 official tournaments but still allowed in 3on3, and that Cobalt Dragoon 5-60 Elevate is the most reliable counter. Combined with 9-60 Ball it became the dominant Stamina combo of its era. Community assessment.",
+      "de": "Wizard Rod hat das Beyblade-X-Metagame neu definiert. Seine extreme Breite und sein hohes Gewicht verleihen ihm Top-Tier-Ausdauer und überraschende Verteidigung, sodass er selbst mit optimierten Attack-Combos schwer zu knocken out ist. Das Beyblade Wiki vermerkt, dass er in offiziellen B4-1on1-Turnieren gebannt, aber in 3on3 weiter erlaubt ist, und dass Cobalt Dragoon 5-60 Elevate der zuverlässigste Counter ist. In Kombination mit 9-60 Ball wurde er zum dominanten Stamina-Combo seiner Ära. Community-Einschätzung."
     },
     "officialStats": {
-      "weightGrams": 35.3,
+      "weightGrams": 35.4,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
       "attack": 1,
-      "defense": 2,
+      "defense": 3,
       "stamina": 5,
-      "balance": 2
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -665,15 +665,15 @@
     "name": "Tyranno Beat",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/tyranno-beat.png",
-    "releaseDate": "",
+    "releaseDate": "2024-04-27",
     "releaseWave": "BX",
     "description": {
-      "en": "A heavy Attack Type Blade with aggressive Tyrannosaurus-themed contact points. Designed for powerful Smash Attack.",
-      "de": "Ein schwerer Attack-Type-Blade mit aggressiven Tyrannosaurus-Kontaktpunkten. Entwickelt für starken Smash-Attack."
+      "en": "A right-spin Attack Type Blade first released in BX-31 Random Booster Vol. 3. It has an elliptical shape formed by two large blades with a thick perimeter and small protrusions for an aggressive look. The protrusions wear down over time, gradually reducing the Blade's recoil and attack potential. Weighs about 37 grams.",
+      "de": "Ein rechtsdrehender Attack-Type-Blade, erstmals im BX-31 Random Booster Vol. 3 veröffentlicht. Er hat eine elliptische Form aus zwei großen Klingen mit dickem Umfang und kleinen Vorsprüngen für ein aggressives Erscheinungsbild. Die Vorsprünge nutzen sich im Laufe der Zeit ab, wodurch Rückstoß und Angriffspotenzial des Blades allmählich reduziert werden. Wiegt etwa 37 Gramm."
     },
     "assessment": {
-      "en": "TyrannoBeat delivers high Attack power thanks to its heavy weight and aggressive shape. (Estimated ratings based on type, weight and shape.)",
-      "de": "TyrannoBeat liefert hohe Attack-Power dank seines hohen Gewichts und der aggressiven Form. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "Tyranno Beat is an interesting anti-Attack Blade rather than a pure attacker. Beyblade Wiki notes that its heavy, elliptical shape and high inertia make it easy to control, and it can counter various meta Attack combinations when paired with Balance-type Bits. However, its stamina is poor and its raw attack output is not high enough to topple dedicated Stamina setups. The protrusions also wear flat with use, slowly turning it into a hybrid Attack/Balance piece. BeyBase praised it as a great anti-attack option, but it is outclassed as a main attacker.",
+      "de": "Tyranno Beat ist ein interessanter Anti-Attack-Blade rather than ein reiner Angreifer. Das Beyblade Wiki vermerkt, dass seine schwere, elliptische Form und hohe Trägheit ihn leicht kontrollierbar machen und er verschiedene Meta-Attack-Kombinationen counter kann, wenn er mit Balance-Typ-Bits kombiniert wird. Allerdings ist seine Ausdauer schlecht und seine rohe Angriffsleistung nicht hoch genug, um dedizierte Stamina-Setups zu stürzen. Die Vorsprünge nutzen sich bei Gebrauch ab und verwandeln ihn langsam in ein hybrides Attack/Balance-Teil. BeyBase lobte ihn als großartige Anti-Attack-Option, aber er ist als Hauptangreifer überholt."
     },
     "officialStats": {
       "weightGrams": 37,
@@ -681,13 +681,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 5,
-      "defense": 1,
-      "stamina": 1,
-      "balance": 2
+      "attack": 4,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "shinobi-shadow",
@@ -845,15 +845,15 @@
     "name": "Weiss Tiger",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/weiss-tiger.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-06-15",
+    "releaseWave": "BX-33",
     "description": {
-      "en": "A Balance Type Blade combining Upper, Damper and Smash blades for versatile performance.",
-      "de": "Ein Balance-Type-Blade, der Upper-, Damper- und Smash-Klingen für vielseitige Performance kombiniert."
+      "en": "A right-spin Balance Type Blade first released in BX-33. It mixes Upper, Damper and Smash blade sections around its perimeter, creating a hybrid contact pattern that can produce both smash attacks and upper attacks in quick succession. Features a white tiger-themed Gear Chip and weighs about 34.6 grams.",
+      "de": "Ein rechtsdrehender Balance-Type-Blade, erstmals im BX-33 veröffentlicht. Er mischt Upper-, Damper- und Smash-Klingensektionen am Umfang und erzeugt so ein hybrides Kontaktmuster, das sowohl Smash- als auch Upper-Attacken in schneller Folge liefern kann. Zeigt einen weißen Tiger als Gear-Chip und wiegt etwa 34,6 Gramm."
     },
     "assessment": {
-      "en": "WeissTiger provides versatile performance across Attack, Defense and Stamina, without dominating any single area. (Estimated ratings based on type, weight and shape.)",
-      "de": "WeissTiger bietet vielseitige Performance über Attack, Defense und Stamina, ohne einen Bereich zu dominieren. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "Weiss Tiger has meaningful early smash attack for a Balance Blade, but it struggles against top-tier threats like Wizard Rod. BeyBase notes it can serve as a decent third or fourth Attack option, though it is outclassed by Dran Buster, Phoenix Wing and Shark Edge. The 3-60 Ratchet and Unite Bit give the stock combo good synergy, but the Blade itself is more of a versatile collector's piece than a competitive staple. Community assessment.",
+      "de": "Weiss Tiger hat für einen Balance-Blade einen nennenswerten frühen Smash-Attack, kommt aber gegen Top-Bedrohungen wie Wizard Rod an seine Grenzen. BeyBase vermerkt, dass er als akzeptable dritte oder vierte Attack-Option dienen kann, obwohl er von Dran Buster, Phoenix Wing und Shark Edge übertroffen wird. Das 3-60 Ratchet und das Unite Bit verleihen der Stock-Kombination gute Synergie, aber der Blade selbst ist eher ein vielseitiges Sammlerstück als ein kompetitiver Grundpfeiler. Community-Einschätzung."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -867,7 +867,7 @@
       "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "cobalt-dragoon",
@@ -875,15 +875,15 @@
     "name": "Cobalt Dragoon",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/cobalt-dragoon.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-07-13",
+    "releaseWave": "BX-34",
     "description": {
-      "en": "A left-spin Attack Type Blade with four heavy, upward-slanting blades. Part of the Team Pendragon line.",
-      "de": "Ein left-spin Attack-Type-Blade mit vier schweren, nach oben geneigten Klingen. Teil der Team-Pendragon-Linie."
+      "en": "A left-spin Attack Type Blade and the first left-spin option in Beyblade X. Its four-sided shape carries four aggressive upward-slanting contact points split into smaller and larger sections, built to create upper attacks and destabilize opponents. Hollowed sections in the contact points make the Blade somewhat unbalanced, while its heavy weight of roughly 38 grams pushes hit power. Released on July 13, 2024 with the BX-34 Cobalt Dragoon 2-60C Starter.",
+      "de": "Ein linksdrehender Attack-Type-Blade und die erste Left-Spin-Option in Beyblade X. Die vierseitige Form trägt vier aggressive, nach oben geneigte Kontaktpunkte, die in kleinere und größere Abschnitte unterteilt sind und Upper Attack erzeugen sowie Gegner destabilisieren sollen. Ausgehöhlte Bereiche an den Kontaktpunkten machen den Blade etwas unausgewogen, während das hohe Gewicht von rund 38 Gramm die Schlagkraft treibt. Veröffentlicht am 13. Juli 2024 mit dem BX-34 Cobalt Dragoon 2-60C Starter."
     },
     "assessment": {
-      "en": "CobaltDragoon delivers powerful left-spin Attack with its heavy blades and aggressive angles. (Estimated ratings based on type, weight and shape.)",
-      "de": "CobaltDragoon liefert kraftvollen Left-Spin-Attack durch seine schweren Klingen und aggressiven Winkel. (Geschätzte Bewertungen auf Basis von Typ, Gewicht und Form.)"
+      "en": "Cobalt Dragoon is a must-have not because of raw attack, but because it is the only left-spin Blade in the game. Its real competitive home is the spin-equalizing combo Cobalt Dragoon 5-60 Elevate, where it counters Wizard Rod, Silver Wolf and other stamina titans by stealing spin in the late game. Used aggressively with Cyclone or Level it can score knockouts and bursts, especially with a Winder Launcher, but its poor stamina and stability make it inconsistent in longer battles. Community assessment based on Beyblade Wiki and BeyBase tournament usage.",
+      "de": "Cobalt Dragoon ist ein Must-Have, nicht wegen roher Angriffskraft, sondern weil er der einzige Left-Spin-Blade im Spiel ist. Sein echtes kompetitives Zuhause ist das Spin-Equalizing-Combo Cobalt Dragoon 5-60 Elevate, mit dem er Wizard Rod, Silver Wolf und andere Stamina-Titanen im Endgame durch Spin-Steal kontert. Aggressiv eingesetzt mit Cyclone oder Level kann er Knockouts und Bursts erzielen, besonders mit einem Winder Launcher, aber seine schwache Ausdauer und Stabilität machen ihn in längeren Kämpfen inkonsistent. Community-Einschätzung basierend auf Beyblade Wiki und BeyBase-Turniergebrauch."
     },
     "officialStats": {
       "weightGrams": 37.8,
@@ -892,12 +892,12 @@
     },
     "ratings": {
       "attack": 5,
-      "defense": 1,
-      "stamina": 2,
+      "defense": 1.5,
+      "stamina": 1,
       "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "black-shell",
@@ -906,14 +906,14 @@
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/black-shell.png",
     "releaseDate": "2024-07-13",
-    "releaseWave": "BX",
+    "releaseWave": "BX-35",
     "description": {
-      "en": "A right-spin Defense Type Blade from the Team Pendragon line, referencing Draciel from the Bakuten Shoot generation. Its compact shell shape and small size are designed to absorb impacts.",
-      "de": "Ein rechtsspinnender Defense-Type-Blade aus der Team-Pendragon-Linie, angelehnt an Draciel aus der Bakuten-Shoot-Generation. Seine kompakte Schalenform und geringe Größe sollen Aufprall absorbieren."
+      "en": "A right-spin Defense Type Blade from the Team Pendragon line, referencing Draciel and the Bladebreakers of the Bakuten Shoot generation. Its compact, eight-sided shell carries eight downward-sloping outer blades designed to hunker down and deflect incoming attacks. The Gear Chip carries the Bakuten Shoot Beyblade logo, just like the other Team Pendragon releases. First available in BX-35 Random Booster Vol. 4. Weight: about 32.4g.",
+      "de": "Ein rechtsdrehender Defense-Type-Blade aus der Team-Pendragon-Linie, angelehnt an Draciel und die Bladebreakers aus der Bakuten-Shoot-Generation. Seine kompakte, achtseitige Schale trägt acht nach unten geneigte Außenklingen, die sich ducken und eingehende Angriffe ablenken sollen. Das Gear-Chip trägt das Bakuten-Shoot-Beyblade-Logo wie die anderen Team-Pendragon-Releases. Erstmals im BX-35 Random Booster Vol. 4 erhältlich. Gewicht: etwa 32,4g."
     },
     "assessment": {
-      "en": "Black Shell is very light for a Defense Blade, giving it poor knock-out resistance and higher burst risk. Its unique Dot Bit pairing creates erratic movement, but it is not competitive in the WBO X format.",
-      "de": "Black Shell ist für einen Defense-Blade sehr leicht, was ihm schlechte Knock-Out-Resistenz und ein höheres Burst-Risiko gibt. Das einzigartige Dot-Bit-Paarung erzeugt erratische Bewegungen, aber es ist nicht konkurrenzfähig im WBO-X-Format."
+      "en": "Black Shell looks like a dedicated Defender, but its light weight and small diameter give it poor knock-out resistance and a slightly higher burst risk than heavier Defense Blades. Beyblade Wiki recommends pairing it with 9-60, 5-60 or 7-60 instead of 4-60 to improve burst safety, and notes it can be fun in attack-oriented or stamina/defense hybrid builds. It is not a competitive meta Blade, yet the Draciel homage and unique shape make it a fun collector's piece. Community assessment.",
+      "de": "Black Shell sieht wie ein dedicierter Defender aus, aber sein geringes Gewicht und der kleine Durchmesser verleihen ihm schlechten Knock-Out-Widerstand und ein etwas höheres Burst-Risiko als schwerere Defense-Blades. Das Beyblade Wiki empfiehlt, ihn mit 9-60, 5-60 oder 7-60 statt 4-60 zu kombinieren, um die Burst-Sicherheit zu verbessern, und vermerkt, dass er in angriffsorientierten oder Stamina/Defense-Hybrid-Builds Spaß machen kann. Es ist kein kompetitiver Meta-Blade, aber die Draciel-Hommage und die einzigartige Form machen ihn zu einem schönen Sammlerstück. Community-Einschätzung."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -922,12 +922,12 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 3,
-      "stamina": 1,
+      "defense": 3.5,
+      "stamina": 1.5,
       "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "optimus-prime",
@@ -1445,15 +1445,15 @@
     "name": "Whale Wave",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/blades/whale-wave.png",
-    "releaseDate": "2024-08-10",
+    "releaseDate": "2024-09-14",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Balance Type Blade with a wide, five-sided shape inspired by whale waves. It has strong, stable contact points and is designed for hybrid Attack-Defense builds.",
-      "de": "Ein rechtsspinnender Balance-Type-Blade mit einer breiten, fünfseitigen Form, inspiriert von Walwellen. Er hat starke, stabile Kontaktpunkte und ist für hybride Attack-Defense-Builds ausgelegt."
+      "en": "Whale Wave is a right-spin Balance Type Blade that behaves more like an Attack type. Its five-sided perimeter creates ten alternating contact points: the downward-sloping sections deliver Barrage attacks, while the stepped upper and lower sections create Smash/Force-Smash attacks that push opponents down. The heavy weight gives it genuine KO and Burst potential, but the tall, complex shape drains stamina and exposes the Ratchet, raising Burst risk. The recoil-heavy design produces swingy, unpredictable results, making it a fun surprise attacker rather than a reliable meta pick.",
+      "de": "Whale Wave ist ein rechtsspinnender Balance-Type-Blade, der sich eher wie ein Attack-Type verhält. Der fünfseitige Umriss erzeugt zehn abwechselnde Kontaktpunkte: die abfallenden Bereiche liefern Barrage-Attacken, während die gestuften oberen und unteren Abschnitte Smash-/Force-Smash-Attacken erzeugen, die Gegner nach unten drücken. Das hohe Gewicht verleiht ihm echtes KO- und Burst-Potenzial, aber die hohe, komplexe Form kostet Ausdauer und legt das Ratchet frei, was das Burst-Risiko erhöht. Das rückstoßreiche Design führt zu schwankenden, unvorhersehbaren Ergebnissen, weshalb er eher ein lustiger Überraschungs-Angreifer als ein verlässlicher Meta-Pick ist."
     },
     "assessment": {
-      "en": "Whale Wave is a heavy, versatile Blade with good Attack and decent Defense. Its wide shape and weight make it a solid choice for hybrid combinations, though it is not top-tier in any single role.",
-      "de": "Whale Wave ist ein schwerer, vielseitiger Blade mit gutem Attack und anständiger Defense. Seine breite Form und sein Gewicht machen ihn zu einer soliden Wahl für hybride Kombinationen, obwohl er in keiner einzelnen Rolle top-tier ist."
+      "en": "Whale Wave offers real offensive power through Barrage and Smash attacks, but its stamina is poor and the recoil makes it inconsistent. It is best treated as a niche Attack Blade that can occasionally shine, not as a balanced all-rounder.",
+      "de": "Whale Wave bietet echte Offensivkraft durch Barrage- und Smash-Attacken, aber seine Ausdauer ist schwach und der Rückstoß macht ihn inkonsistent. Er funktioniert am besten als Nischen-Attack-Blade, der gelegentlich glänzen kann, nicht jedoch als ausgewogener Allrounder."
     },
     "officialStats": {
       "weightGrams": 38.2,
@@ -1461,13 +1461,13 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 2,
-      "stamina": 1,
-      "balance": 3
+      "attack": 3.5,
+      "defense": 2.0,
+      "stamina": 1.5,
+      "balance": 2.0
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "l-drago-upper",
@@ -1628,12 +1628,12 @@
     "releaseDate": "2024-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Balance Type Blade with a five-sided, bird-inspired shape. It is designed to blend Attack, Defense and Stamina traits.",
-      "de": "Ein rechtsspinnender Balance-Type-Blade mit einer fünfseitigen, vogel-inspirierten Form. Er ist darauf ausgelegt, Attack-, Defense- und Stamina-Eigenschaften zu verbinden."
+      "en": "Crimson Garuda is a right-spin Balance Type Blade with an oval, bird-inspired shape divided into two large sections. Each section carries three different contact points: a small downward slope for Smash attacks, a thicker upward slope for Upper attacks, and a long upward blade for extra Upper-Attack potential. The oval perimeter exaggerates movement even with stationary Bits, making the combo feel aggressive but erratic. The raised contact points expose the Ratchet, increasing Burst risk.",
+      "de": "Crimson Garuda ist ein rechtsspinnender Balance-Type-Blade mit einer ovalen, vogelinspirierten Form, die in zwei große Abschnitte unterteilt ist. Jeder Abschnitt trägt drei verschiedene Kontaktpunkte: eine kleine Abwärtsneigung für Smash-Attacken, eine dickere Aufwärtsneigung für Upper-Attacken und eine lange Aufwärtsklinge für zusätzliches Upper-Attack-Potenzial. Der ovale Umfiss verstärkt das Movement selbst mit stationären Bits, was den Combo aggressiv, aber unberechenbar wirken lässt. Die erhöhten Kontaktpunkte legen das Ratchet frei und erhöhen das Burst-Risiko."
     },
     "assessment": {
-      "en": "Crimson Garuda is a versatile all-rounder with decent Attack and solid weight. It does not dominate any single role but works well in hybrid casual combinations.",
-      "de": "Crimson Garuda ist ein vielseitiger Allrounder mit anständigem Attack und solidem Gewicht. Er dominiert keine einzelne Rolle, funktioniert aber gut in hybriden Casual-Kombinationen."
+      "en": "Crimson Garuda has decent weight and real offensive tools, but its unpredictable behavior, poor Burst safety and outclassed stamina make it a casual or collection piece rather than a competitive choice.",
+      "de": "Crimson Garuda hat ordentliches Gewicht und echte offensive Werkzeuge, aber sein unberechenbares Verhalten, die geringe Burst-Sicherheit und die outclassed Ausdauer machen ihn eher zu einem Casual- oder Sammlerstück als zu einer kompetitiven Wahl."
     },
     "officialStats": {
       "weightGrams": 35,
@@ -1641,10 +1641,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 2,
-      "stamina": 2,
-      "balance": 3
+      "attack": 3.0,
+      "defense": 1.5,
+      "stamina": 1.5,
+      "balance": 2.0
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "estimated"
@@ -1838,12 +1838,12 @@
     "releaseDate": "2025-02-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Balance Type Blade from the Basic Line with a distinctive oval shape. It is an X-Over Project homage to Ultimate Dragoon and can deliver surprisingly strong smash attacks for a Balance part.",
-      "de": "Ein rechtsschwingender Balance-Type-Blade aus der Basic Line mit einer markanten ovalen Form. Er ist eine X-Over-Project-Hommage an Ultimate Dragoon und kann für einen Balance-Teil überraschend starke Smash-Angriffe liefern."
+      "en": "Shelter Drake is a right-spin Balance Type Blade from the Basic Line and an X-Over Project homage to Ultimate Dragoon. Its oval, rounded profile is built to absorb hits and destabilize opponents rather than deal raw smash damage. The shape favors a defensive, stamina-leaning playstyle, but it can still create surprise knock-outs when it catches an opponent off-balance.",
+      "de": "Shelter Drake ist ein rechtsspinnender Balance-Type-Blade aus der Basic Line und eine X-Over-Project-Hommage an Ultimate Dragoon. Sein ovales, abgerundetes Profil ist darauf ausgelegt, Treffer zu absorbieren und Gegner zu destabilisieren, anstatt rohen Smash-Schaden auszuteilen. Die Form begünstigt einen defensiven, ausdauerlastigen Spielstil, kann aber noch immer Überraschungs-Knockouts erzeugen, wenn ein Gegner aus dem Gleichgewicht gerät."
     },
     "assessment": {
-      "en": "Shelter Drake offers a mix of evasion, defense and decent stamina. Its oval profile creates random but exciting knockout potential. Weight: 32.6g. Ratings based on community data.",
-      "de": "Shelter Drake bietet eine Mischung aus Ausweichmanövern, Verteidigung und ordentlicher Stamina. Das ovale Profil sorgt für zufälliges, aber aufregendes Knockout-Potenzial. Gewicht: 32,6 g. Bewertungen basieren auf Community-Daten."
+      "en": "Shelter Drake leans toward Defense and Stamina for a Balance Blade. Its rounded shape and moderate weight make it safe and long-lasting, but it lacks the offensive punch and consistency needed to compete with top-tier Attack or Stamina options. Best used in defensive, outlasting combinations.",
+      "de": "Shelter Drake neigt bei einem Balance-Blade eher zu Defense und Stamina. Seine abgerundete Form und das moderate Gewicht machen ihn sicher und langlebig, aber ihm fehlt die offensive Wucht und Konsistenz, um mit Top-Tier-Attack- oder Stamina-Optionen zu konkurrieren. Am besten in defensiven, überdauernden Kombinationen eingesetzt."
     },
     "officialStats": {
       "weightGrams": 32.6,
@@ -1851,13 +1851,13 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.5,
-      "defense": 4,
-      "stamina": 3.5,
-      "balance": 3
+      "attack": 2.0,
+      "defense": 3.5,
+      "stamina": 3.0,
+      "balance": 3.0
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "dragoon-storm",
@@ -2078,12 +2078,12 @@
     "releaseDate": "2025-06-28",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Defense Type Blade from the Basic Line with a triceratops motif. Its launcher hooks double as additional contact points, giving it unexpected attack utility.",
-      "de": "Ein rechtsschwingender Defense-Type-Blade aus der Basic Line mit Triceratops-Motiv. Die Launcher-Haken dienen gleichzeitig als zusätzliche Kontaktpunkte und verleihen ihm unerwartete Attack-Nutzbarkeit."
+      "en": "Tricera Press is a right-spin Defense Type Blade from the Basic Line with a triceratops motif. Its pentagonal shape features five semi-aggressive primary contact points that create a bumpy perimeter, while thicker, heavier launcher hooks increase inward weight distribution to improve knock-out resistance. The trade-off is unpredictable recoil and low stamina.",
+      "de": "Tricera Press ist ein rechtsspinnender Defense-Type-Blade aus der Basic Line mit Triceratops-Motiv. Seine fünfeckige Form verfügt über fünf halb-aggressive primäre Kontaktpunkte, die einen unebenen Umfiss erzeugen, während dickere, schwerere Launcher-Haken die innere Gewichtsverteilung erhöhen, um den Knock-Out-Widerstand zu verbessern. Der Kompromiss ist unvorhersehbarer Rückstoß und geringe Ausdauer."
     },
     "assessment": {
-      "en": "Tricera Press is a well-balanced defensive Blade with unique design choices. It struggles to stand out in top-tier play but offers a solid option for defensive builds. Weight: 36.5g. Ratings estimated from type, weight and shape.",
-      "de": "Tricera Press ist ein gut ausbalancierter Defensiv-Blade mit einzigartigen Designentscheidungen. Er hat Schwierigkeiten, im Top-Tier-Bereich herauszustechen, bietet aber eine solide Option für defensive Builds. Gewicht: 36,5 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
+      "en": "Tricera Press is one of the heavier Defense Blades available and can repel some aggressive opponents, but its recoil is erratic and its stamina is poor. It is a usable Defense option for collectors and casual defense decks, yet it is outclassed by more reliable choices like Knight Mail.",
+      "de": "Tricera Press ist einer der schwereren verfügbaren Defense-Blades und kann einige aggressive Gegner abwehren, aber sein Rückstoß ist unregelmäßig und seine Ausdauer schwach. Er ist eine nutzbare Defense-Option für Sammler und Casual-Defense-Decks, wird aber von zuverlässigeren Optionen wie Knight Mail übertroffen."
     },
     "officialStats": {
       "weightGrams": 36.5,
@@ -2091,10 +2091,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 4,
-      "stamina": 1.5,
-      "balance": 2.5
+      "attack": 1.5,
+      "defense": 4.0,
+      "stamina": 1.0,
+      "balance": 2.0
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "estimated"
@@ -2138,12 +2138,12 @@
     "releaseDate": "2025-08-09",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Balance Type Blade from the Basic Line with a compact, dual-sided design. It offers a mix of offense, stamina and evasiveness, and was later released in western countries as Calibur Samurai.",
-      "de": "Ein rechtsschwingender Balance-Type-Blade aus der Basic Line mit einem kompakten, beidseitigen Design. Er bietet eine Mischung aus Offensive, Stamina und Ausweichfähigkeit und wurde im Westen als Calibur Samurai veröffentlicht."
+      "en": "Samurai Calibur is a right-spin Balance Type Blade from the Basic Line with a four-sided shape and four thick, flat primary contact points. Officially labeled Balance, it behaves as a jack-of-all-trades that leans toward anti-attack and anti-defense match-ups, since it lacks the recoil and stamina to pressure top-tier Stamina combinations. The design was later released by Hasbro as Calibur Samurai.",
+      "de": "Samurai Calibur ist ein rechtsspinnender Balance-Type-Blade aus der Basic Line mit einer viereitigen Form und vier dicken, flachen primären Kontaktpunkten. Offiziell als Balance ausgewiesen, verhält er sich als Alleskönner, der zu Anti-Attack- und Anti-Defense-Match-ups neigt, da ihm der Rückstoß und die Ausdauer fehlen, um Top-Tier-Stamina-Kombinationen unter Druck zu setzen. Das Design wurde später von Hasbro als Calibur Samurai veröffentlicht."
     },
     "assessment": {
-      "en": "Samurai Calibur is an inventive but inconsistent Balance Blade. Its dual-sided shape can deliver surprising attacks, but stamina is below average. Weight: 36g. Ratings estimated from type, weight and shape.",
-      "de": "Samurai Calibur ist ein erfinderischer, aber inkonsistenter Balance-Blade. Die beidseitige Form kann überraschende Angriffe liefern, aber die Stamina ist unterdurchschnittlich. Gewicht: 36 g. Bewertungen geschätzt anhand Typ, Gewicht und Form."
+      "en": "Samurai Calibur has decent weight and performs adequately against Attack and Defense combos, but it is outclassed by specialized Blades in every role. Its flat contact points struggle to destabilize or outspin top Stamina options, making it a collection or casual Balance piece rather than a meta pick.",
+      "de": "Samurai Calibur hat ordentliches Gewicht und schlägt sich gegen Attack- und Defense-Combos ausreichend, wird aber in jeder Rolle von spezialisierten Blades übertroffen. Seine flachen Kontaktpunkte haben Mühe, Top-Stamina-Optionen zu destabilisieren oder im Ausdauerduell zu schlagen, wodurch er eher ein Sammler- oder Casual-Balance-Teil als ein Meta-Pick ist."
     },
     "officialStats": {
       "weightGrams": 36,
@@ -2151,9 +2151,9 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2.5,
+      "attack": 3.0,
       "defense": 2.5,
-      "stamina": 2,
+      "stamina": 2.0,
       "balance": 2.5
     },
     "ratingsDisclaimer": true,
@@ -2768,12 +2768,12 @@
     "releaseDate": "2026-05-16",
     "releaseWave": "BX-49",
     "description": {
-      "en": "An Attack Type Expand Blade with a six-sided design and two sets of three wings. The metal extends beyond the launcher hooks for increased Smash Attack. It was the heaviest Basic Line Blade at release.",
-      "de": "Ein Attack-Type-Expand-Blade mit sechsseitigem Design und zwei Sätzen von drei Flügeln. Das Metall ragt über die Launcher-Hooks hinaus für stärkeren Smash-Attack. Zum Release war er der schwerste Basic-Line-Blade."
+      "en": "DranStrike is a right-spin Attack Type Expand Blade from the Basic Line. Its six-sided design groups six wings into two sets of three, and the metal frame extends through the gear-chip area to maximize rigidity and weight. This Expand Blade construction makes DranStrike one of the heaviest Basic Line Attack Blades and gives it strong Smash Attack potential.",
+      "de": "DranStrike ist ein rechtsspinnender Attack-Type-Expand-Blade aus der Basic Line. Sein sechsseitiges Design gruppiert sechs Flügel in zwei Sätzen zu je drei, und der Metallrahmen erstreckt sich durch den Gear-Chip-Bereich, um Steifigkeit und Gewicht zu maximieren. Diese Expand-Blade-Konstruktion macht DranStrike zu einem der schwersten Attack-Blades der Basic Line und verleiht ihm starkes Smash-Attack-Potenzial."
     },
     "assessment": {
-      "en": "DranStrike is one of the heaviest Attack Blades in the Basic Line and a top-tier Attack option. Its high weight and aggressive contact points make it a staple for Smash Attack combos.",
-      "de": "DranStrike ist einer der schwersten Attack-Blades der Basic Line und eine Top-Attack-Option. Sein hohes Gewicht und aggressive Kontaktpunkte machen ihn zum Standard für Smash-Attack-Combos."
+      "en": "DranStrike is a top-tier Basic Line Attack Blade. Its heavy, rigid Expand design delivers powerful Smash Attacks, and the weight helps it win head-to-head collisions. Stamina and Defense are naturally low, so it belongs in aggressive, fast-kill combinations.",
+      "de": "DranStrike ist ein Top-Tier-Attack-Blade der Basic Line. Sein schweres, steifes Expand-Design liefert kraftvolle Smash-Attacken, und das Gewicht hilft ihm, direkte Kollisionen zu gewinnen. Ausdauer und Defense sind naturgemäß niedrig, also gehört er in aggressive, schnell tötende Kombinationen."
     },
     "officialStats": {
       "weightGrams": 41.4,
@@ -2781,13 +2781,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 2,
-      "stamina": 1.5,
+      "attack": 4.5,
+      "defense": 1.5,
+      "stamina": 1.0,
       "balance": 2.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "community"
+    "ratingsSource": "estimated"
   },
   {
     "id": "ring-aether",
@@ -4088,23 +4088,23 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of Rhino Horn. A compact Defense Type Blade with an inward center of gravity for stability.",
-      "de": "Die Hasbro-Version von Rhino Horn. Ein kompakter Defense-Type-Blade mit einem nach innen gerichteten Schwerpunkt für Stabilität."
+      "en": "The Hasbro version of Rhino Horn. A small, right-spin Defense Type Blade with four bumpy sections and an inward center of gravity. Its compact, rugged shape is meant to dodge early hits and absorb shocks in the center of the stadium, while the rhinoceros-themed Gear Chip gives it a distinctive look.",
+      "de": "Die Hasbro-Version von Rhino Horn. Ein kleiner, rechtsdrehender Defense-Type-Blade mit vier unebenen Sektionen und einem nach innen gerichteten Schwerpunkt. Seine kompakte, robuste Form soll frühen Treffern ausweichen und Schläge in der Stadionmitte absorbieren, während das nashorn-thematisierte Gear-Chip ein markantes Aussehen verleiht."
     },
     "assessment": {
-      "en": "Hasbro's Rhino Horn performs identically to the Takara Tomy release. Its compact shape makes it a reliable defensive choice, though it offers limited Attack potential.",
-      "de": "Hasbros Rhino Horn spielt identisch zur Takara-Tomy-Version. Seine kompakte Form macht ihn zu einer verlässlichen defensiven Wahl, obwohl er begrenztes Attack-Potenzial bietet."
+      "en": "Hasbro's Rhino Horn mirrors the Takara Tomy release. It cannot reliably mitigate opposing attacks and suffers from poor stamina, becoming erratic with mobile Bits. Its small size can occasionally repel high-force Blades, but dedicated Attackers usually knock it out quickly. Not recommended for competitive play.",
+      "de": "Hasbros Rhino Horn spiegelt die Takara-Tomy-Version. Er kann gegnerische Angriffe nicht zuverlässig abfedern und leidet unter schlechter Ausdauer, wobei er bei mobilen Bits unberechenbar wird. Seine geringe Größe kann gelegentlich hochkraftige Blades abwehren, aber dedizierte Angreifer schicken ihn meist schnell raus. Für kompetitives Spiel nicht empfohlen."
     },
     "officialStats": {
-      "weightGrams": 32.7,
+      "weightGrams": 32.8,
       "spinDirection": "right",
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.5,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 2
+      "attack": 1,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4118,12 +4118,12 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of Shark Edge. An Attack Type Blade with two large, aggressive blades that produce massive Smash Attack and upward-sloping Upper Attack.",
-      "de": "Die Hasbro-Version von Shark Edge. Ein Attack-Type-Blade mit zwei großen, aggressiven Klingen, die massiven Smash-Attack und nach oben geneigten Upper-Attack erzeugen."
+      "en": "The Hasbro version of Shark Edge, released in western markets as Keel Shark. It is a right-spin Attack Type Blade with two large, upward-slanting blades that deliver heavy Smash and Upper Attack. The shark-head Gear Chip and overall mold match the Takara Tomy release.",
+      "de": "Die Hasbro-Version von Shark Edge, in westlichen Märkten als Keel Shark veröffentlicht. Ein rechtsdrehender Attack-Type-Blade mit zwei großen, nach oben geneigten Klingen für starken Smash- und Upper-Attack. Der Haikopf-Gear-Chip und der Gesamtguss entsprechen der Takara-Tomy-Version."
     },
     "assessment": {
-      "en": "Hasbro's Shark Edge performs identically to the Takara Tomy release. It is a staple Attack Blade and considered a must-have for the WBO X format.",
-      "de": "Hasbros Shark Edge spielt identisch zur Takara-Tomy-Version. Er ist ein Standard-Attack-Blade und gilt als Must-Have für das WBO-X-Format."
+      "en": "Hasbro's Keel Shark uses the same mold as Takara Tomy's Shark Edge and performs identically. It is a must-have Attack Blade in western releases, though the aggressive contact points wear down with repeated use just like the Japanese version.",
+      "de": "Hasbros Keel Shark nutzt denselben Guss wie Takara Tomys Shark Edge und spielt identisch. Er ist ein Must-Have-Attack-Blade in westlichen Veröffentlichungen, obwohl sich die aggressiven Kontaktpunkte wie bei der japanischen Version bei wiederholtem Gebrauch abnutzen."
     },
     "officialStats": {
       "weightGrams": 34.5,
@@ -4131,10 +4131,10 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 1.5,
-      "stamina": 1.5,
-      "balance": 2
+      "attack": 5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -4208,23 +4208,23 @@
     "releaseDate": "2024-07-09",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of LeonClaw. A Balance Type Blade with four main contact points and a lion-themed Gear Chip.",
-      "de": "Die Hasbro-Version von LeonClaw. Ein Balance-Type-Blade mit vier Hauptkontaktpunkten und einem löwen-thematisierten Gear Chip."
+      "en": "The Hasbro version of Leon Claw, released in western markets as Claw Leon. It is a lightweight, five-sided Balance Type Blade with five embossed claw contact points and a lion-head Gear Chip. The mold matches the Takara Tomy release.",
+      "de": "Die Hasbro-Version von Leon Claw, in westlichen Märkten als Claw Leon veröffentlicht. Ein leichter, fünfseitiger Balance-Type-Blade mit fünf geprägten Klauen-Kontaktpunkten und einem Löwenkopf-Gear-Chip. Der Guss entspricht der Takara-Tomy-Version."
     },
     "assessment": {
-      "en": "Hasbro's Leon Claw performs identically to the Takara Tomy release. It offers a balanced stat spread without excelling in any one area, making it usable for casual play but outclassed by specialized Blades.",
-      "de": "Hasbros Leon Claw spielt identisch zur Takara-Tomy-Version. Er bietet eine ausgewogene Stat-Verteilung, ohne in einem Bereich herauszuragen. Für Casual-Spiel brauchbar, von spezialisierten Blades aber übertroffen."
+      "en": "Hasbro's Claw Leon uses the same mold as Takara Tomy's Leon Claw and performs identically. It is a niche anti-attack Blade that lacks the consistency of specialized options, but it can be fun for practicing launch-angle control in casual play.",
+      "de": "Hasbros Claw Leon nutzt denselben Guss wie Takara Tomys Leon Claw und spielt identisch. Er ist ein Nischen-Anti-Attack-Blade, der die Konsistenz spezialisierter Optionen vermissen lässt, aber Spaß beim Üben von Launch-Winkel-Kontrolle im Casual-Spiel macht."
     },
     "officialStats": {
-      "weightGrams": 31.4,
+      "weightGrams": 31.3,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 3
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5108,23 +5108,23 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of DranDagger. An Attack Type Blade with six small blades and a Seiryū-themed Gear Chip.",
-      "de": "Die Hasbro-Version von DranDagger. Ein Attack-Type-Blade mit sechs kleinen Klingen und einem Seiryū-Gear-Chip."
+      "en": "The Hasbro version of Dran Dagger. A right-spin Attack Type Blade with a circular yet aggressive shape and six prominent blades around its perimeter. Later Hasbro molds added extra metal to address breakage, pushing the weight to around 36 grams and making the Blade slightly heavier and more durable than early Takara Tomy copies.",
+      "de": "Die Hasbro-Version von Dran Dagger. Ein rechtsdrehender Attack-Type-Blade mit runder, aber aggressiver Form und sechs prominenten Klingen am Umfang. Spätere Hasbro-Güsse fügten zusätzliches Metall hinzu, um Bruchprobleme zu beheben, was das Gewicht auf etwa 36 Gramm erhöht und den Blade etwas schwerer und haltbarer macht als frühe Takara-Tomy-Exemplare."
     },
     "assessment": {
-      "en": "Hasbro's Dran Dagger performs identically to the Takara Tomy release. It offers consistent Attack power and is a solid upgrade over Dran Sword for aggressive combos.",
-      "de": "Hasbros Dran Dagger spielt identisch zur Takara-Tomy-Version. Er bietet konsistente Attack-Power und ist ein solides Upgrade über Dran Sword für aggressive Combos."
+      "en": "Hasbro's Dran Dagger plays like the Takara Tomy version, with newer copies being slightly heavier due to the reinforced mold. It remains a competent Attack Blade with better endurance than raw Smash Attack, pairing well with Rush in controlled aggressive combos.",
+      "de": "Hasbros Dran Dagger spielt wie die Takara-Tomy-Version, wobei neuere Exemplare durch den verstärkten Guss etwas schwerer sind. Er bleibt ein kompetenter Attack-Blade mit besserer Ausdauer als rohem Smash-Attack und harmoniert gut mit Rush in kontrollierten aggressiven Combos."
     },
     "officialStats": {
-      "weightGrams": 34.8,
+      "weightGrams": 35.5,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
       "attack": 4,
       "defense": 2,
-      "stamina": 2,
-      "balance": 2
+      "stamina": 2.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5168,22 +5168,22 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of PhoenixWing. A heavy, three-sided Attack Type Blade with excellent Attack capabilities.",
-      "de": "Die Hasbro-Version von PhoenixWing. Ein schwerer, dreiseitiger Attack-Type-Blade mit exzellenten Attack-Fähigkeiten."
+      "en": "The Hasbro version of Phoenix Wing. A heavyweight, right-spin Attack Type Blade with three upward-slanting contact points and a phoenix-themed Gear Chip. The metal-coated paint adds mass, making it one of the heaviest Basic Line Attack Blades.",
+      "de": "Die Hasbro-Version von Phoenix Wing. Ein schwerer, rechtsdrehender Attack-Type-Blade mit drei nach oben geneigten Kontaktpunkten und einem phönix-thematisierten Gear-Chip. Die metallische Beschichtung fügt Masse hinzu und macht ihn zu einem der schwersten Attack-Blades der Basic Line."
     },
     "assessment": {
-      "en": "Hasbro's Phoenix Wing performs identically to the Takara Tomy release. It is a staple Attack Blade due to its heavy weight and strong Attack, considered a must-have for the WBO X format.",
-      "de": "Hasbros Phoenix Wing spielt identisch zur Takara-Tomy-Version. Er ist ein Standard-Attack-Blade aufgrund seines hohen Gewichts und starken Attacks und gilt als Must-Have für das WBO-X-Format."
+      "en": "Hasbro's Phoenix Wing mirrors the Takara Tomy release. Its heavy weight and aggressive shape let it dominate earlier Blades with reliable Upper Attack and Xtreme Zone knockouts, while retaining more stamina than most Attack Blades. Later releases eventually surpassed it, but it remains a strong, versatile attacker.",
+      "de": "Hasbros Phoenix Wing spiegelt die Takara-Tomy-Version. Sein hohes Gewicht und seine aggressive Form erlauben es ihm, frühere Blades mit zuverlässigem Upper Attack und Xtreme-Zone-KOs zu dominieren, während er mehr Ausdauer als die meisten Attack-Blades behält. Spätere Releases haben ihn schließlich übertroffen, aber er bleibt ein starker, vielseitiger Angreifer."
     },
     "officialStats": {
-      "weightGrams": 38,
+      "weightGrams": 39,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
     "ratings": {
       "attack": 5,
       "defense": 2,
-      "stamina": 1,
+      "stamina": 1.5,
       "balance": 3
     },
     "ratingsDisclaimer": true,
@@ -5318,12 +5318,12 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of HellsChain. A round Balance Type Blade with five blades and chains as contact points.",
-      "de": "Die Hasbro-Version von HellsChain. Ein runder Balance-Type-Blade mit fünf Klingen und Ketten als Kontaktpunkten."
+      "en": "The Hasbro version of Hells Chain. A right-spin Balance Type Blade with five chain-link-shaped contact points, each split into a longer lower section and a shorter upward-angled section. The uneven weight distribution makes it mobile but wobble-prone on pointy Bits, while the lower recoil helps it defend against aggressive opponents. Features a flaming-skull Gear Chip and weighs about 33.2 grams.",
+      "de": "Die Hasbro-Version von Hells Chain. Ein rechtsdrehender Balance-Type-Blade mit fünf kettenglied-förmigen Kontaktpunkten, die jeweils in eine längere untere Sektion und eine kürzere, nach oben gewinkelte Sektion geteilt sind. Die ungleiche Gewichtsverteilung macht ihn mobil, aber kippanfällig auf spitzen Bits, während der geringere Rückstoß bei der Verteidigung gegen aggressive Gegner hilft. Zeigt einen Totenkopf-Gear-Chip und wiegt etwa 33,2 Gramm."
     },
     "assessment": {
-      "en": "Hasbro's Hells Chain performs identically to the Takara Tomy release. Its chained design can absorb hits while still delivering counter-attacks.",
-      "de": "Hasbros Hells Chain spielt identisch zur Takara-Tomy-Version. Sein kettenartiges Design kann Treffer absorbieren und gleichzeitig Gegenangriffe liefern."
+      "en": "Hasbro's Hells Chain mirrors the Takara Tomy release in shape and weight. It is a more defense-oriented Balance Blade than Hells Scythe, repelling mobile Attack combos better while retaining decent counter-attack potential. Like the TT original, it is vulnerable to being struck from below, so keeping the combo low is important. A strong alternative for players who want less recoil than Hells Scythe.",
+      "de": "Hasbros Hells Chain spiegelt die Takara-Tomy-Version in Form und Gewicht wider. Er ist ein defensorientierterer Balance-Blade als Hells Scythe, weist mobile Attack-Compos besser ab und behält gleichzeitig anständiges Gegenangriffspotenzial. Wie das TT-Original ist er für Treffer von unten verwundbar, daher ist es wichtig, das Combo niedrig zu halten. Eine starke Alternative für Spieler, die weniger Rückstoß als Hells Scythe wollen."
     },
     "officialStats": {
       "weightGrams": 33.2,
@@ -5331,10 +5331,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 3,
-      "defense": 3,
-      "stamina": 2,
-      "balance": 3
+      "attack": 2.5,
+      "defense": 3.5,
+      "stamina": 2.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5348,23 +5348,23 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of ViperTail. A Stamina Type Blade with a round shape and smooth contact points for minimal friction.",
-      "de": "Die Hasbro-Version von ViperTail. Ein Stamina-Type-Blade mit runder Form und glatten Kontaktpunkten für minimale Reibung."
+      "en": "The Hasbro release of Viper Tail. A right-spin Stamina Type Blade with a hexagonal shape, three smooth long contact points and three shorter aggressive ones, plus a viper-head Gear Chip. Weighs about 34.4 grams.",
+      "de": "Die Hasbro-Veröffentlichung von Viper Tail. Ein rechtsdrehender Stamina-Type-Blade mit sechseckiger Form, drei glatten langen Kontaktpunkten und drei kürzeren aggressiven, plus einem Viperkopf-Gear-Chip. Wiegt etwa 34,4 Gramm."
     },
     "assessment": {
-      "en": "Hasbro's Viper Tail performs identically to the Takara Tomy release. It provides good Stamina and is a reliable early-line option, though it lacks the raw Stamina of later releases.",
-      "de": "Hasbros Viper Tail spielt identisch zur Takara-Tomy-Version. Er bietet gute Stamina und ist eine verlässliche frühe Option, fehlt ihm aber die reine Stamina späterer Veröffentlichungen."
+      "en": "Hasbro's Viper Tail inherits the same split personality as the Takara Tomy original. It can land surprisingly hard counter-hits against high-recoil opponents, but it is just as likely to be pushed back or lifted due to its raised contact points. It is not a reliable pure Stamina Blade; treat it as a curious Balance/counter experiment instead.",
+      "de": "Hasbros Viper Tail erbt dieselbe gespaltene Persönlichkeit wie das Takara-Tomy-Original. Er kann gegen high-recoil-Gegner überraschend harte Counter-Hits landen, ist aber genauso wahrscheinlich zurückgestoßen oder angehoben, weil seine Kontaktpunkte erhöht sind. Es ist kein zuverlässiger reiner Stamina-Blade; besser als kurioses Balance-/Counter-Experiment betrachten."
     },
     "officialStats": {
-      "weightGrams": 34.7,
+      "weightGrams": 34.4,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
-      "attack": 2,
+      "attack": 2.5,
       "defense": 2,
-      "stamina": 4,
-      "balance": 2
+      "stamina": 3.5,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -5408,22 +5408,22 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of WyvernGale. A Stamina Type Blade with a smooth, round shape for minimal friction.",
-      "de": "Die Hasbro-Version von WyvernGale. Ein Stamina-Type-Blade mit glatter, runder Form für minimale Reibung."
+      "en": "The Hasbro release of Wyvern Gale. A right-spin Stamina Type Blade with a mostly circular shape, four gap-separated contact points and a wyvern-themed Gear Chip. The gaps redirect airflow and improve weight distribution for longer spin times.",
+      "de": "Die Hasbro-Veröffentlichung von Wyvern Gale. Ein rechtsdrehender Stamina-Type-Blade mit einer weitgehend runden Form, vier lückengetrennten Kontaktpunkten und einem Wyvern-thematisierten Gear-Chip. Die Lücken lenken die Luft um und verbessern die Gewichtsverteilung für längere Drehzeiten."
     },
     "assessment": {
-      "en": "Hasbro's Wyvern Gale performs identically to the Takara Tomy release. It provides good Stamina and decent Defense for a Stamina Blade.",
-      "de": "Hasbros Wyvern Gale spielt identisch zur Takara-Tomy-Version. Er bietet gute Stamina und ordentliche Defense für einen Stamina-Blade."
+      "en": "Hasbro's Wyvern Gale carries the same strengths and weaknesses as the Takara Tomy original. It can outspin other stamina Blades in controlled conditions, but its light weight and raised contact points make it easy to lift and knock out against heavy Attackers. Best treated as a budget stamina option or a collection piece rather than a competitive staple.",
+      "de": "Hasbros Wyvern Gale trägt dieselben Stärken und Schwächen wie das Takara-Tomy-Original. Er kann andere Stamina-Blades unter kontrollierten Bedingungen überdauern, aber sein geringes Gewicht und die erhöhten Kontaktpunkte machen ihn gegen schwere Angreifer leicht anheb- und ausschaltbar. Am besten als budgetfreundliche Stamina-Option oder Sammlerstück betrachtet, nicht als kompetitiver Grundpfeiler."
     },
     "officialStats": {
-      "weightGrams": 31.9,
+      "weightGrams": 32.15,
       "spinDirection": "right",
       "typeTag": "Stamina"
     },
     "ratings": {
       "attack": 1,
-      "defense": 3,
-      "stamina": 4,
+      "defense": 2.5,
+      "stamina": 4.5,
       "balance": 2
     },
     "ratingsDisclaimer": true,
@@ -5438,12 +5438,12 @@
     "releaseDate": "2024-01-01",
     "releaseWave": "BX",
     "description": {
-      "en": "The Hasbro version of TyrannoBeat. A heavy Attack Type Blade with aggressive Tyrannosaurus-themed contact points.",
-      "de": "Die Hasbro-Version von TyrannoBeat. Ein schwerer Attack-Type-Blade mit aggressiven Tyrannosaurus-thematisierten Kontaktpunkten."
+      "en": "The Hasbro release of Tyranno Beat (marketed as Beat Tyranno). A right-spin Attack Type Blade with an elliptical shape formed by two large blades, a thick perimeter and small aggressive protrusions that wear down over time. Weighs about 37 grams.",
+      "de": "Die Hasbro-Veröffentlichung von Tyranno Beat (als Beat Tyranno vermarktet). Ein rechtsdrehender Attack-Type-Blade mit elliptischer Form aus zwei großen Klingen, dickem Umfang und kleinen aggressiven Vorsprüngen, die sich im Laufe der Zeit abnutzen. Wiegt etwa 37 Gramm."
     },
     "assessment": {
-      "en": "Hasbro's Tyranno Beat performs identically to the Takara Tomy release. It delivers high Attack power thanks to its heavy weight and aggressive shape.",
-      "de": "Hasbros Tyranno Beat spielt identisch zur Takara-Tomy-Version. Er liefert hohe Attack-Power dank seines hohen Gewichts und der aggressiven Form."
+      "en": "Hasbro's Tyranno Beat inherits the same anti-Attack niche as the Takara Tomy original. Its heavy, elliptical shape and high inertia let it control the center and counter meta Attackers when paired with Balance Bits, but poor stamina and modest raw attack keep it from being a top-tier main attacker. The protrusions wear flat with use, slowly shifting its identity toward Attack/Balance.",
+      "de": "Hasbros Tyranno Beat erbt dieselbe Anti-Attack-Nische wie das Takara-Tomy-Original. Seine schwere, elliptische Form und hohe Trägheit lassen ihn die Mitte kontrollieren und Meta-Angreifer counter, wenn er mit Balance-Bits kombiniert wird, aber schlechte Ausdauer und bescheidener roher Angriff halten ihn davon ab, ein Top-Tier-Hauptangreifer zu sein. Die Vorsprünge nutzen sich ab und verschieben seine Identität langsam Richtung Attack/Balance."
     },
     "officialStats": {
       "weightGrams": 37,
@@ -5451,13 +5451,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 5,
-      "defense": 1,
-      "stamina": 1,
-      "balance": 2
+      "attack": 4,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "leon-crest-hasbro",
@@ -5495,15 +5495,15 @@
     "name": "Weiss Tiger",
     "manufacturer": "Hasbro",
     "imageUrl": "images/blades/weiss-tiger-hasbro.png",
-    "releaseDate": "2024-01-01",
-    "releaseWave": "BX",
+    "releaseDate": "2024-06-15",
+    "releaseWave": "BX-33",
     "description": {
-      "en": "The Hasbro version of WeissTiger. A Balance Type Blade combining Upper, Damper and Smash blades for versatile performance.",
-      "de": "Die Hasbro-Version von WeissTiger. Ein Balance-Type-Blade, der Upper-, Damper- und Smash-Klingen für vielseitige Performance kombiniert."
+      "en": "The Hasbro release of Weiss Tiger. A right-spin Balance Type Blade combining Upper, Damper and Smash blade sections for a hybrid contact pattern. Features a white tiger-themed Gear Chip and weighs about 34.6 grams.",
+      "de": "Die Hasbro-Veröffentlichung von Weiss Tiger. Ein rechtsdrehender Balance-Type-Blade, der Upper-, Damper- und Smash-Klingensektionen für ein hybrides Kontaktmuster kombiniert. Zeigt einen weißen Tiger als Gear-Chip und wiegt etwa 34,6 Gramm."
     },
     "assessment": {
-      "en": "Hasbro's Weiss Tiger performs identically to the Takara Tomy release. It provides versatile performance across Attack, Defense and Stamina without dominating any single area.",
-      "de": "Hasbros Weiss Tiger spielt identisch zur Takara-Tomy-Version. Er bietet vielseitige Performance über Attack, Defense und Stamina, ohne einen einzelnen Bereich zu dominieren."
+      "en": "Hasbro's Weiss Tiger performs like the Takara Tomy release. It has decent early smash attack for a Balance Blade, but it is outclassed by dedicated Attack options like Shark Edge or Dran Duster. It works best as a versatile, collectible piece rather than a tournament staple.",
+      "de": "Hasbros Weiss Tiger spielt wie die Takara-Tomy-Version. Er hat für einen Balance-Blade einen anständigen frühen Smash-Attack, wird aber von dedizierten Attack-Optionen wie Shark Edge oder Dran Buster übertroffen. Er funktioniert am besten als vielseitiges Sammlerstück, nicht als Turnier-Grundpfeiler."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -5517,7 +5517,7 @@
       "balance": 3
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "ghost-circle-hasbro",
