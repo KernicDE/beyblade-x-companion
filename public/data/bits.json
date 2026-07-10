@@ -435,29 +435,30 @@
     "name": "Gear Needle",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-gear-needle.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-02-22",
+    "releaseWave": "BX-27",
     "description": {
-      "en": "The Gear Needle Bit.",
-      "de": "Der Gear Needle-Bit."
+      "en": "Gear Needle is a right-spin Defense Type Bit and the Gear variant of Needle. It features a conical tip with extended gears that make X-Line engagement easier, but the tip is less sharp than Needle or High Needle. The lower height sits about 0.5–1.5 mm below standard Bits. When launched hard, the combo circles in the center before settling, but the low friction creates poor knock-out resistance and the extended gears raise self-KO risk during Xtreme Dashes.",
+      "de": "Gear Needle ist ein rechtsdrehender Defense-Type-Bit und die Gear-Variante von Needle. Er verfügt über eine konische Spitze mit erweiterten Zahnrädern, die das X-Line-Engagement erleichtern, aber die Spitze ist weniger spitz als Needle oder High Needle. Die geringere Höhe liegt etwa 0,5–1,5 mm unter Standard-Bits. Bei hartem Launch kreist der Combo zunächst in der Mitte, bevor er sich setzt, aber die geringe Reibung sorgt für schlechten Knock-Out-Widerstand und die erweiterten Zahnräder erhöhen das Selbst-KO-Risiko während Xtreme Dashes."
     },
     "assessment": {
-      "en": "Gear Needle is a right-spin Defense Type Bit. Weight: 2g. Height: 1.5mm. Manufactured by Takara Tomy.",
-      "de": "Gear Needle ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2g. Höhe: 1.5mm. Hergestellt von Takara Tomy."
+      "en": "Gear Needle has decent pure stamina for a Defense Bit, but it is easy to destabilize and knock out. The extended gears help it ride the X-Line, yet that same trait makes self-KO more likely. It is outclassed for competitive use and best treated as a collection piece.",
+      "de": "Gear Needle hat eine ordentliche reine Ausdauer für einen Defense-Bit, ist aber leicht zu destabilisieren und zu knockouten. Die erweiterten Zahnräder helfen beim Fahren der X-Line, aber genau dieses Merkmal macht Selbst-KO wahrscheinlicher. Er ist für kompetitives Spiel übertroffen und am besten als Sammlerstück zu betrachten."
     },
     "officialStats": {
-      "heightMm": 1.5,
+      "heightMm": 29.2,
       "weightGrams": 2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.8,
-      "defense": 3.3,
-      "stamina": 0.8,
-      "balance": 2
+      "attack": 1.5,
+      "defense": 2.5,
+      "stamina": 2.0,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-accel",
@@ -465,29 +466,30 @@
     "name": "Accel",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-accel.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-03-30",
+    "releaseWave": "UX-01",
     "description": {
-      "en": "The Accel Bit.",
-      "de": "Der Accel-Bit."
+      "en": "Accel is a right-spin Attack Type Bit first released with UX-01 Dran Buster 1-60A. Its flat tip is identical to Flat, creating high friction for aggressive X-Line contact. The signature feature is 16 gears instead of the usual 12, which produces faster Xtreme Dash attacks at the cost of much higher stamina drain. The wider shaft increases Burst resistance, but the Bit wears quickly from repeated X-Line contact.",
+      "de": "Accel ist ein rechtsdrehender Attack-Type-Bit, erstmals mit UX-01 Dran Buster 1-60A veröffentlicht. Seine flache Spitze ist identisch mit Flat und erzeugt hohe Reibung für aggressiven X-Line-Kontakt. Das Markenzeichen sind 16 Zahnräder statt der üblichen 12, was schnellere Xtreme-Dash-Attacken auf Kosten eines viel höheren Ausdauerverbrauchs ermöglicht. Der breitere Schaft erhöht die Burst-Resistenz, aber der Bit verschleißt schnell durch wiederholten X-Line-Kontakt."
     },
     "assessment": {
-      "en": "Accel is a right-spin Attack Type Bit. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Accel ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.6g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Accel is a high-risk, high-reward Attack Bit. The 16-gear Xtreme Dash can deliver a devastating first strike, but stamina drops sharply afterwards and self-KO risk is high. It is too inconsistent for competitive play and mainly a collector's item.",
+      "de": "Accel ist ein High-Risk-High-Reward-Attack-Bit. Der 16-Gang-Xtreme-Dash kann einen verheerenden ersten Schlag liefern, aber die Ausdauer fällt danach stark ab und das Selbst-KO-Risiko ist hoch. Er ist zu inkonsistent für kompetitives Spiel und hauptsächlich ein Sammlerstück."
     },
     "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 2.6,
+      "heightMm": 29.5,
+      "weightGrams": 2.2,
       "typeTag": "Attack",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 0.8,
-      "stamina": 0.8,
-      "balance": 1.7
+      "attack": 4.0,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-hexa",
@@ -526,29 +528,30 @@
     "name": "Disk Ball",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-disk-ball.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-03-30",
+    "releaseWave": "UX-03",
     "description": {
-      "en": "The Disk Ball Bit.",
-      "de": "Der Disk Ball-Bit."
+      "en": "Disk Ball is a right-spin Stamina Type Bit first released with UX-03 Wizard Rod 5-70DB. It shares the same hemispherical tip as Ball, but adds a circular disc guard above the tip. This guard can create some L.A.D. potential when the combo tilts, yet it also keeps the Bey tilted and prevents clean re-stabilization. At 32.1 mm, Disk Ball is much taller than standard Bits, which increases Burst risk and reduces stability. Hard launches can push the combo onto the X-Line and drain stamina quickly.",
+      "de": "Disk Ball ist ein rechtsdrehender Stamina-Type-Bit, erstmals mit UX-03 Wizard Rod 5-70DB veröffentlicht. Er teilt sich die halbkugelförmige Spitze mit Ball, fügt aber einen kreisförmigen Scheibenschutz über der Spitze hinzu. Dieser Schutz kann etwas L.A.D.-Potenzial erzeugen, wenn der Combo sich neigt, hält ihn aber auch geneigt und verhindert eine saubere Re-Stabilisierung. Mit 32,1 mm ist Disk Ball viel höher als Standard-Bits, was das Burst-Risiko erhöht und die Stabilität reduziert. Harte Launches können den Combo auf die X-Line drücken und die Ausdauer schnell leeren."
     },
     "assessment": {
-      "en": "Disk Ball is a right-spin Stamina Type Bit. Weight: 3.2g. Height: 4mm. Manufactured by Takara Tomy.",
-      "de": "Disk Ball ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 3.2g. Höhe: 4mm. Hergestellt von Takara Tomy."
+      "en": "Disk Ball is too tall and unstable to compete with Ball in pure stamina. The disc gimmick sounds useful, but in practice it hurts re-stabilization and adds Burst risk. A collector's piece rather than a competitive choice.",
+      "de": "Disk Ball ist zu hoch und instabil, um in reiner Ausdauer mit Ball zu konkurrieren. Das Scheiben-Gimmick klingt nützlich, aber in der Praxis schadet es der Re-Stabilisierung und erhöht das Burst-Risiko. Ein Sammlerstück rather than eine kompetitive Wahl."
     },
     "officialStats": {
-      "heightMm": 4,
+      "heightMm": 32.1,
       "weightGrams": 3.2,
       "typeTag": "Stamina",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 1.7,
-      "stamina": 4.2,
-      "balance": 2.4
+      "attack": 1.0,
+      "defense": 1.5,
+      "stamina": 3.0,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-quake",
@@ -587,29 +590,30 @@
     "name": "Metal Needle",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-metal-needle.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-05-18",
+    "releaseWave": "UX-05",
     "description": {
-      "en": "The Metal Needle Bit.",
-      "de": "Der Metal Needle-Bit."
+      "en": "Metal Needle is a right-spin Defense Type Bit first released with UX-05 Shinobi Shadow 1-80MN. Its conical tip is made of metal, which creates very low friction and therefore decent stamina potential. However, the shape causes the combo to tilt and wobble quickly, making it easy to destabilize and knock out. The sharp metal tip can also dent or damage Xtreme Stadium floors, especially when launched from taller Ratchets.",
+      "de": "Metal Needle ist ein rechtsdrehender Defense-Type-Bit, erstmals mit UX-05 Shinobi Shadow 1-80MN veröffentlicht. Seine konische Spitze besteht aus Metall, was sehr geringe Reibung und daher ordentliches Ausdauerpotenzial erzeugt. Allerdings führt die Form dazu, dass der Combo schnell kippt und wackelt, was ihn leicht zu destabilisieren und zu knockouten macht. Die spitze Metallspitze kann außerdem Xtreme-Stadium-Böden eindellen oder beschädigen, besonders wenn sie von höheren Ratchets aus gelauncht wird."
     },
     "assessment": {
-      "en": "Metal Needle is a right-spin Defense Type Bit. Weight: 2.8g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Metal Needle ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 2.8g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Metal Needle has good stamina on paper, but the tilting issue and stadium-damage risk make it unusable in practice. It is recommended for collection purposes only.",
+      "de": "Metal Needle hat auf dem Papier gute Ausdauer, aber das Kippproblem und das Risiko von Stadionbeschädigungen machen ihn in der Praxis unbrauchbar. Er wird nur zu Sammlungszwecken empfohlen."
     },
     "officialStats": {
-      "heightMm": 2,
+      "heightMm": 29.5,
       "weightGrams": 2.8,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.7,
-      "defense": 4.8,
-      "stamina": 2.3,
-      "balance": 2.6
+      "attack": 0.5,
+      "defense": 2.5,
+      "stamina": 2.0,
+      "balance": 1.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-unite",
@@ -713,12 +717,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "The Glide Bit.",
-      "de": "Der Glide-Bit."
+      "en": "Glide is a low right-spin Stamina Bit with a broad, polished flat tip. The wide contact patch distributes weight evenly across the stadium floor, cutting friction and letting the Bey settle into a calm central spin. Its shape is deliberately simple: no protrusions, no gimmicks, just a clean surface that resists scraping even as stamina fades.",
+      "de": "Glide ist ein niedriger, rechtsdrehender Stamina-Bit mit einer breiten, polierten flachen Spitze. Die große Auflagefläche verteilt das Gewicht gleichmäßig auf den Stadionboden, reduziert die Reibung und lässt den Bey in eine ruhige Drehbewegung in der Mitte einpendeln. Die Form ist bewusst schlicht: keine Vorsprünge, keine Gimmicks, nur eine saubere Oberfläche, die auch bei nachlassender Ausdauer ein Schleifen verhindert."
     },
     "assessment": {
-      "en": "Glide is a right-spin Stamina Type Bit. Weight: 2.5g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Glide ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 2.5g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Glide is a honest Stamina Bit that trades aggression for raw spin time. It does not outclass Orb or Free Ball in pure endurance, but its low, stable posture makes it forgiving for beginners and a safe pick for round Stamina Blades that want to avoid self-KOs. Useful as a budget alternative when the top-tier Stamina Bits are unavailable.",
+      "de": "Glide ist ein ehrlicher Stamina-Bit, der Aggression gegen reine Drehzeit eintauscht. Er kann Orb oder Free Ball in reiner Ausdauer nicht schlagen, aber seine niedrige, stabile Haltung macht ihn fehlerverzeihend für Einsteiger und eine sichere Wahl für runde Stamina-Blades, die Selbst-KOs vermeiden wollen. Nützlich als günstige Alternative, wenn die Top-Stamina-Bits nicht verfügbar sind."
     },
     "officialStats": {
       "heightMm": 2,
@@ -727,12 +731,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.8,
-      "defense": 0.8,
-      "stamina": 4.2,
-      "balance": 2.3
+      "attack": 1.5,
+      "defense": 1.0,
+      "stamina": 4.5,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-elevate",
@@ -774,12 +779,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "The Free Ball Bit.",
-      "de": "Der Free Ball-Bit."
+      "en": "Free Ball is a low right-spin Stamina Bit that refines the classic Ball concept. A smaller, freer-rotating ball tip sits inside a compact housing, lowering friction against the stadium floor and helping the Bey maintain its central position longer. The reduced weight keeps the combination light and responsive without sacrificing the safety that ball tips are known for.",
+      "de": "Free Ball ist ein niedriger, rechtsdrehender Stamina-Bit, der das klassische Ball-Konzept verfeinert. Eine kleinere, frei drehbare Kugelspitze sitzt in einem kompakten Gehäuse, verringert die Reibung am Stadionboden und hilft dem Bey, seine zentrale Position länger zu halten. Das geringere Gewicht hält die Kombination leicht und reaktionsschnell, ohne die Sicherheit zu opfern, für die Kugelspitzen bekannt sind."
     },
     "assessment": {
-      "en": "Free Ball is a right-spin Stamina Type Bit. Weight: 1.9g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Free Ball ist ein rechtsdrehender Stamina-Typ Bit. Gewicht: 1.9g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Free Ball is a top-tier Stamina option for players who want reliability over flair. It pairs naturally with round, low-recoil Blades and outperforms the original Ball in pure spin time. The light weight slightly weakens Knock-Out defense, so it works best when the Blade itself can absorb hits rather than relying on the Bit.",
+      "de": "Free Ball ist eine Top-Stamina-Option für Spieler, die Zuverlässigkeit über Showeffekte schätzen. Er passt natürlich zu runden, rückstoßarmen Blades und übertrifft den ursprünglichen Ball in reiner Drehzeit. Das geringe Gewicht schwächt die Knock-Out-Verteidigung leicht, sodass er am besten funktioniert, wenn das Blade selbst Treffer absorbieren kann, anstatt sich auf den Bit zu verlassen."
     },
     "officialStats": {
       "heightMm": 2,
@@ -788,12 +793,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 2.1,
-      "stamina": 4.6,
+      "attack": 1.0,
+      "defense": 2.0,
+      "stamina": 4.5,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-trans-point",
@@ -835,12 +841,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "The Level Bit.",
-      "de": "Der Level-Bit."
+      "en": "Level is a low right-spin Attack Bit built around a wide, level flat tip. Unlike narrower Attack tips, the broad surface keeps the Bey upright during its initial flower pattern, making rush attacks more controlled and less prone to self-KO. Once the initial aggression fades, the flat tip still allows enough drift to pressure opponents in the center.",
+      "de": "Level ist ein niedriger, rechtsdrehender Attack-Bit mit einer breiten, ebenen flachen Spitze. Im Gegensatz zu schmaleren Attack-Spitzen hält die breite Oberfläche den Bey während des initialen Flower-Patterns aufrecht, was Rush-Attacken kontrollierter und weniger selbst-KO-anfällig macht. Sobald die anfängliche Aggression nachlässt, ermöglicht die flache Spitze immer noch genug Drift, um Gegner in der Mitte unter Druck zu setzen."
     },
     "assessment": {
-      "en": "Level is a right-spin Attack Type Bit. Weight: 2.7g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Level ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.7g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Level offers a middle ground between raw Attack Bits like Flat and safer Balance options. Its wide tip sacrifices some Xtreme Dash speed for consistency, making it a strong choice for Attack Blades that already hit hard and just need a reliable delivery system. Less explosive than top-tier Attack Bits, but far more forgiving.",
+      "de": "Level bietet einen Mittelweg zwischen rohen Attack-Bits wie Flat und sichereren Balance-Optionen. Seine breite Spitze opfert etwas Xtreme-Dash-Geschwindigkeit für Konsistenz, was ihn zur starken Wahl für Attack-Blades macht, die bereits hart zuschlagen und nur ein zuverlässiges Lieferystem brauchen. Weniger explosiv als Top-Attack-Bits, aber deutlich fehlerverzeihender."
     },
     "officialStats": {
       "heightMm": 2,
@@ -849,12 +855,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.6,
-      "defense": 0.4,
-      "stamina": 1.2,
-      "balance": 1.7
+      "attack": 4.0,
+      "defense": 0.5,
+      "stamina": 1.0,
+      "balance": 2.0
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-bound-spike",
@@ -927,12 +934,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "The Low Rush Bit.",
-      "de": "Der Low Rush-Bit."
+      "en": "Low Rush is an extremely low right-spin Attack Bit. Its tip sits just 1 mm above the stadium floor, giving the Bey a crouched, aggressive posture that grips the X-Line hard during Xtreme Dashes. The minimal height reduces the time opponents have to react and increases the impact force of rush attacks, though it also raises the risk of scraping when stamina drops.",
+      "de": "Low Rush ist ein extrem niedriger, rechtsdrehender Attack-Bit. Seine Spitze sitzt nur 1 mm über dem Stadionboden, was dem Bey eine geduckte, aggressive Haltung verleiht, die während Xtreme Dashes stark an der X-Line haftet. Die minimale Höhe reduziert die Reaktionszeit der Gegner und erhöht die Aufprallkraft von Rush-Attacken, erhöht aber auch die Gefahr des Schleifens, wenn die Ausdauer nachlässt."
     },
     "assessment": {
-      "en": "Low Rush is a right-spin Attack Type Bit. Weight: 1.9g. Height: 1mm. Manufactured by Takara Tomy.",
-      "de": "Low Rush ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 1.9g. Höhe: 1mm. Hergestellt von Takara Tomy."
+      "en": "Low Rush is a pure glass-cannon Bit. It delivers explosive speed and punishing first hits, but poor stamina and scrape resistance mean the game ends quickly one way or another. Best paired with light, hard-hitting Attack Blades and a launch technique that maximizes the first Xtreme Dash.",
+      "de": "Low Rush ist ein reiner Glass-Cannon-Bit. Er liefert explosive Geschwindigkeit und harte Ersttreffer, aber geringe Ausdauer und Schleif-Resistenz bedeuten, dass das Match schnell auf die eine oder andere Weise endet. Am besten mit leichten, hart zuschlagenden Attack-Blades kombiniert und einem Launch, der den ersten Xtreme Dash maximiert."
     },
     "officialStats": {
       "heightMm": 1,
@@ -941,12 +948,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.1,
-      "defense": 0.4,
-      "stamina": 1.2,
-      "balance": 1.9
+      "attack": 4.5,
+      "defense": 0.5,
+      "stamina": 1.0,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-under-needle",
@@ -957,25 +965,27 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "The Under Needle Bit.",
-      "de": "Der Under Needle-Bit."
+      "en": "Under Needle is a right-spin Defense Bit that hides a sharp needle tip beneath a protective surround. In steady rotation the surround takes the stadium contact, creating a stable, upright posture. When tilted or struck, the needle can drop lower to grip the floor and resist being pushed around. The result is a Bit that absorbs disruption without completely giving up counter-attack chances.",
+      "de": "Under Needle ist ein rechtsdrehender Defense-Bit, der eine scharfe Nadelspitze unter einem Schutzrand verbirgt. Bei gleichmäßiger Rotation nimmt der Rand den Kontakt zum Stadion auf und schafft eine stabile, aufrechte Haltung. Wenn der Bey geneigt oder getroffen wird, kann die Nadel tiefer greifen und dem Herumschieben widerstehen. Das Ergebnis ist ein Bit, der Störungen absorbiert, ohne vollständig auf Gegenangriffsmöglichkeiten zu verzichten."
     },
     "assessment": {
-      "en": "Under Needle is a right-spin Defense Type Bit. Weight: 1.9g. Manufactured by Takara Tomy.",
-      "de": "Under Needle ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 1.9g. Hergestellt von Takara Tomy."
+      "en": "Under Needle is a specialized Defense pick. It is most effective on heavy, low-recoil Blades that want to tank hits and stay in the center. The light weight limits raw Knock-Out defense compared to heavier Defense Bits, but the passive posture and grip recovery make it annoying for Attack combos to deal with.",
+      "de": "Under Needle ist eine spezialisierte Defense-Wahl. Er ist am effektivsten auf schweren, rückstoßarmen Blades, die Treffer einstecken und in der Mitte bleiben wollen. Das geringe Gewicht grenzt die reine Knock-Out-Verteidigung im Vergleich zu schwereren Defense-Bits ein, aber die passive Haltung und der Grip-Wiederherstellung machen ihn für Attack-Kombos lästig."
     },
     "officialStats": {
+      "heightMm": 2,
       "weightGrams": 1.9,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
-      "defense": 5,
+      "attack": 1.0,
+      "defense": 4.5,
       "stamina": 1.5,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-vortex",
@@ -986,12 +996,12 @@
     "releaseDate": "",
     "releaseWave": "BX",
     "description": {
-      "en": "The Vortex Bit.",
-      "de": "Der Vortex-Bit."
+      "en": "Vortex is a low right-spin Attack Bit with a spiralling, ridged tip. The grooves channel movement into tight, sweeping circles, giving the Bey a distinctive swirling attack pattern rather than a straight rush. That pattern makes it harder for stationary opponents to predict impact angles, though it also demands more launch precision to avoid self-KOs.",
+      "de": "Vortex ist ein niedriger, rechtsdrehender Attack-Bit mit einer gewellten, geriffelten Spitze. Die Rillen kanalisieren die Bewegung in enge, schwingende Kreise und verleihen dem Bey ein charakteristisches wirbelndes Angriffsmuster statt eines geraden Rushes. Dieses Muster macht es stationären Gegnern schwerer, Aufprallwinkel vorherzusagen, erfordert aber mehr Launch-Präzision, um Selbst-KOs zu vermeiden."
     },
     "assessment": {
-      "en": "Vortex is a right-spin Attack Type Bit. Weight: 2.2g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Vortex ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.2g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Vortex rewards players who can control its curved Xtreme Dash path. It is less consistent than Flat or Accel, but the unusual movement can catch defensive setups off guard. Best on Attack Blades with enough raw power to capitalize on the occasional clean hit rather than relying on sustained pressure.",
+      "de": "Vortex belohnt Spieler, die seinen gekrümmten Xtreme-Dash-Pfad kontrollieren können. Er ist weniger konsistent als Flat oder Accel, aber die ungewöhnliche Bewegung kann defensive Aufstellungen überraschen. Am besten auf Attack-Blades mit genügend roher Kraft, um den gelegentlichen sauberen Treffer auszunutzen, anstatt auf anhaltenden Druck zu setzen."
     },
     "officialStats": {
       "heightMm": 2,
@@ -1000,12 +1010,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4.1,
-      "defense": 0.8,
-      "stamina": 0.4,
-      "balance": 1.8
+      "attack": 4.0,
+      "defense": 1.0,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-low-orb",
