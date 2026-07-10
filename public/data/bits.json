@@ -8,12 +8,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A low right-spin Stamina Bit with a spherical tip. The ball shape reduces friction against the stadium floor, letting the Bey spin longer and drift gently toward the center instead of fighting the rails.",
-      "de": "Ein niedriger, rechtsdrehender Stamina-Bit mit einer kugelförmigen Spitze. Die Kugelform reduziert die Reibung am Stadionboden, sodass der Bey länger rotiert und sanft zur Mitte driftet, anstatt gegen die Schienen zu kämpfen."
+      "en": "Ball is a low right-spin Stamina Bit with a hemispherical tip. The rounded contact surface minimizes friction against the stadium floor, letting the Bey settle in the center and maintain a long, stable rotation. Its wide base also resists destabilization better than sharp-tipped Defense Bits, making it a reliable choice for pure endurance.",
+      "de": "Ball ist ein niedriger, rechtsdrehender Stamina-Bit mit einer halbkugelförmigen Spitze. Die gerundete Auflagefläche minimiert die Reibung am Stadionboden, sodass der Bey sich in der Mitte niederlassen und eine lange, stabile Rotation beibehalten kann. Seine breite Basis widersteht der Destabilisierung besser als scharfspitze Defense-Bits, was ihn zur zuverlässigen Wahl für reine Ausdauer macht."
     },
     "assessment": {
-      "en": "Ball is the benchmark starter Stamina Bit. It sacrifices aggression for endurance and works beautifully with round Blades that want to sit in the center. Later Bits like Orb and Free Ball refine the concept, but Ball remains an honest, easy-to-use option for any Stamina learner.",
-      "de": "Ball ist der Referenz-Starter-Stamina-Bit. Er opfert Aggression für Ausdauer und funktioniert wunderbar mit runden Blades, die sich in der Mitte aufhalten wollen. Spätere Bits wie Orb und Free Ball verfeinern das Konzept, aber Ball bleibt eine ehrliche, leicht zu nutzende Option für jeden Stamina-Einsteiger."
+      "en": "Ball is the benchmark Stamina Bit of the Basic Line. It made Hells Scythe 4-80 Ball one of the best combos of the BX-01 to BX-12 era and remains a safe pick for any round Stamina Blade. Later Bits like Orb and Free Ball refine the concept with lower friction, but Ball's forgiving, easy-to-use shape keeps it relevant for learners and casual players.",
+      "de": "Ball ist der Referenz-Stamina-Bit der Basic Line. Er machte Hells Scythe 4-80 Ball zu einem der besten Combos der BX-01-bis-BX-12-Ära und bleibt eine sichere Wahl für jeden runden Stamina-Blade. Spätere Bits wie Orb und Free Ball verfeinern das Konzept mit geringerer Reibung, aber Balls verzeihende, leicht zu nutzende Form hält ihn für Einsteiger und Casual-Spieler relevant."
     },
     "officialStats": {
       "heightMm": 2,
@@ -27,7 +27,8 @@
       "stamina": 4,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-flat",
@@ -38,12 +39,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A low right-spin Attack Bit with a flat tip designed for speed and Xtreme Dash acceleration. The flat surface grips the stadium floor aggressively and enables quick rail-to-center transitions, at the cost of stamina.",
-      "de": "Ein niedriger, rechtsdrehender Attack-Bit mit einer flachen Spitze für Geschwindigkeit und Xtreme-Dash-Beschleunigung. Die flache Oberfläche greift aggressiv in den Stadionboden und ermöglicht schnelle Übergänge von der Schiene in die Mitte – auf Kosten der Ausdauer."
+      "en": "Flat is a low right-spin Attack Bit built around a wide, flat plastic tip. The broad contact surface grips the Xtreme Stadium floor hard, translating launch power into rapid rail rides and sudden center rushes. It has almost no stamina recovery: once the initial burst of speed fades, the Bey slows down quickly.",
+      "de": "Flat ist ein niedriger, rechtsdrehender Attack-Bit mit einer breiten, flachen Plastikspitze. Die große Auflagefläche greift hart in den Xtreme-Stadionboden und wandelt Launch-Kraft in schnelle Schienenfahrten und plötzliche Mittelstürze um. Es gibt kaum Stamina-Erholung: Sobald der initiale Geschwindigkeitsschub nachlässt, verlangsamt sich der Bey schnell."
     },
     "assessment": {
-      "en": "Flat is the signature fast-attack Bit of the Basic Line. It delivers strong early-game aggression and is essential for learning Xtreme Dash play, though its poor stamina makes it risky in longer battles.",
-      "de": "Flat ist der markante Schnellangriffs-Bit der Basic Line. Er liefert starke Early-Game-Aggression und ist essenziell, um Xtreme-Dash-Play zu erlernen, obwohl die schwache Ausdauer ihn in längeren Kämpfen riskant macht."
+      "en": "Flat is the archetypal Basic Line attack Bit. It made Dran Sword 3-60F a household combo in the first wave and remains the clearest example of how Xtreme Dash speed wins games. The lack of stamina makes it unforgiving, but no other starter Bit teaches aggressive launching as effectively.",
+      "de": "Flat ist der archetypische Attack-Bit der Basic Line. Er machte Dran Sword 3-60F in der ersten Welle zum bekannten Combo und bleibt das klarste Beispiel dafür, wie Xtreme-Dash-Geschwindigkeit Spiele gewinnt. Der Mangel an Ausdauer macht ihn unverzeihend, aber kein anderer Starter-Bit lehrt aggressives Launching so effektiv."
     },
     "officialStats": {
       "heightMm": 2,
@@ -52,12 +53,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.5,
-      "defense": 1.5,
-      "stamina": 1,
-      "balance": 2
+      "attack": 4,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-needle",
@@ -68,12 +70,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A low right-spin Defense Bit with a sharp conical tip. Needle balances gripping friction with a small contact patch, giving Defense and Stamina combinations both centering stability and enough spin life to outlast aggressive opponents.",
-      "de": "Ein niedriger, rechtsdrehender Defense-Bit mit einer scharfen konischen Spitze. Needle balanciert Reibung mit einer kleinen Auflagefläche aus und verleiht Defense- und Stamina-Kombinationen sowohl zentrierende Stabilität als auch genug Spin-Lebensdauer, um aggressive Gegner zu überdauern."
+      "en": "Needle is a low right-spin Defense Bit with a sharp conical tip. The small contact point creates just enough friction to keep the Bey centered while letting it spin for a surprisingly long time. Its simple shape makes it easy to control, though it is prone to tilting and sudden knock-outs if destabilized.",
+      "de": "Needle ist ein niedriger, rechtsdrehender Defense-Bit mit einer scharfen konischen Spitze. Der kleine Kontaktpunkt erzeugt gerade genug Reibung, um den Bey zentriert zu halten, während er ihn überraschend lange drehen lässt. Seine einfache Form macht ihn leicht kontrollierbar, obwohl er beim Destabilisieren zum Kippen und plötzlichen Knockout neigt."
     },
     "assessment": {
-      "en": "Needle is one of the most reliable starter Defense Bits. It does not have the raw grip of later options like Gear Needle or the burst resistance of Hexa, but its simple design makes it an excellent choice for learning how to stall out Attack types and win by outspin.",
-      "de": "Needle ist einer der verlässlichsten Starter-Defense-Bits. Er hat nicht den rohen Grip späterer Optionen wie Gear Needle oder die Burst-Resistance von Hexa, aber sein schlichtes Design macht ihn zur ausgezeichneten Wahl, um zu lernen, wie man Attack-Typen hinauszögert und durch Ausdrehen gewinnt."
+      "en": "Needle is the classic starter Defense Bit. It pairs naturally with Knight Shield and Wizard Arrow, offering a stable, center-hugging posture that teaches the basics of out-spinning Attack types. It lacks the burst safety of later Defense Bits like Hexa and the raw stamina of High Needle, but it remains a dependable first step into defensive play.",
+      "de": "Needle ist der klassische Starter-Defense-Bit. Er passt natürlich zu Knight Shield und Wizard Arrow, bietet eine stabile, mitte-umarmende Haltung und lehrt die Grundlagen, wie man Attack-Typen ausdreht. Er mangelt an der Burst-Sicherheit späterer Defense-Bits wie Hexa und der rohen Ausdauer von High Needle, aber er bleibt ein verlässlicher erster Schritt ins defensive Spiel."
     },
     "officialStats": {
       "heightMm": 2,
@@ -87,7 +89,8 @@
       "stamina": 2.5,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-taper",
@@ -98,12 +101,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A low right-spin Balance Bit with a flat tip that creates aggressive movement, rounded by a curved outer surface that adds stamina and control. Taper tries to offer the best of both Attack and Stamina worlds, making it a good learning Bit for balance-focused combinations.",
-      "de": "Ein niedriger, rechtsdrehender Balance-Bit mit einer flachen Spitze, die aggressive Bewegung erzeugt, abgerundet durch eine geschwungene Außenfläche, die Ausdauer und Kontrolle hinzufügt. Taper versucht, das Beste aus Angriff und Ausdauer zu vereinen, und ist damit ein guter Lern-Bit für balance-fokussierte Kombinationen."
+      "en": "Taper is a low right-spin Balance Bit that combines a flat center with a rounded outer edge. The flat section creates movement and Xtreme Dash potential, while the curved rim softens contact and extends spin life compared to pure Attack Bits. It is the bridge between Flat's aggression and Ball's endurance.",
+      "de": "Taper ist ein niedriger, rechtsdrehender Balance-Bit, der eine flache Mitte mit einer abgerundeten Außenkante kombiniert. Der flache Bereich erzeugt Bewegung und Xtreme-Dash-Potenzial, während der gebogene Rand Kontakte abschwächt und die Drehzeit im Vergleich zu reinen Attack-Bits verlängert. Er ist die Brücke zwischen Flats Aggression und Balls Ausdauer."
     },
     "assessment": {
-      "en": "Taper is the starter Balance Bit of choice: faster than Needle or Ball, more controllable than Flat, and a solid partner for Hells Scythe in casual play. Its hybrid design means it loses to specialized Bits in both attack speed and pure stamina, but it is excellent for understanding how movement shapes a match.",
-      "de": "Taper ist der Starter-Balance-Bit der Wahl: schneller als Needle oder Ball, kontrollierbarer als Flat und ein solider Partner für Hells Scythe im Casual-Play. Das hybride Design bedeutet, dass er gegen spezialisierte Bits sowohl in Angriffsgeschwindigkeit als auch in reiner Ausdauer verliert, aber er ist hervorragend geeignet, um zu verstehen, wie Bewegung einen Kampf prägt."
+      "en": "Taper shines on Balance Blades that want to move without self-destructing. It gave Hells Scythe 4-60T its identity as a mobile all-rounder and remains a safe choice when Flat is too wild and Ball is too passive. Competitive players eventually moved to more specialized Bits, but Taper still defines the Basic Line Balance archetype.",
+      "de": "Taper brilliert auf Balance-Blades, die sich bewegen wollen, ohne sich selbst zu zerstören. Er gab Hells Scythe 4-60T seine Identität als mobiler Allrounder und bleibt eine sichere Wahl, wenn Flat zu wild und Ball zu passiv ist. Kompetitive Spieler wechselten schließlich zu spezialisierteren Bits, aber Taper definiert immer noch den Balance-Archetyp der Basic Line."
     },
     "officialStats": {
       "heightMm": 2,
@@ -114,10 +117,11 @@
     "ratings": {
       "attack": 3,
       "defense": 1.5,
-      "stamina": 1.5,
-      "balance": 2
+      "stamina": 2,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-high-needle",
@@ -252,16 +256,16 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Attack Type Bit with a round, flat tip that is narrower than Flat or Low Flat, creating less friction with the stadium floor. Its gear design uses ten shorter gears instead of twelve, reducing Xtreme Dash acceleration and attack power slightly but allowing the combination to ride the X-Line more often and more predictably.",
-      "de": "Ein rechtsdrehender Attack-Typ Bit mit einer runden, flachen Spitze, die schmaler ist als Flat oder Low Flat und weniger Reibung am Stadionboden erzeugt. Sein Zahnrad-Design verwendet zehn kürzere Zahnräder statt zwölf, was Xtreme-Dash-Beschleunigung und Angriffskraft leicht reduziert, aber der Kombination erlaubt, die X-Line häufiger und vorhersehbarer zu fahren."
+      "en": "A right-spin Attack Type Bit with a round, flat tip that is narrower than Flat or Low Flat, creating less friction with the stadium floor. Its gear design uses a ten-tooth gear instead of Flat's twelve, reducing the speed of each Xtreme Dash but increasing their frequency and lowering stamina consumption during X-Line contact.",
+      "de": "Ein rechtsdrehender Attack-Typ-Bit mit einer runden, flachen Spitze, die schmaler ist als Flat oder Low Flat und weniger Reibung am Stadionboden erzeugt. Sein Zahnrad-Design verwendet ein Zehn-Zahn-Rad statt Flats zwölf Zähnen, was die Geschwindigkeit jedes Xtreme Dashes reduziert, aber ihre Häufigkeit erhöht und den Ausdauerverbrauch beim X-Line-Kontakt senkt."
     },
     "assessment": {
-      "en": "Rush is the most popular competitive Attack Bit of the early line. It trades a small amount of raw speed and power for significantly more control and stamina than Flat or Low Flat, letting players launch harder without self-knockout anxiety. Repeated Xtreme Dash use still wears the tip and gears quickly, so competitive players keep spare copies. It pairs beautifully with heavy or erratic Attack Blades like Dran Dagger and Shark Edge.",
-      "de": "Rush ist das beliebteste kompetitive Attack-Bit der frühen Line. Er tauscht einen kleinen Teil an roher Geschwindigkeit und Kraft für deutlich mehr Kontrolle und Ausdauer als Flat oder Low Flat ein, sodass Spieler härter launchen können, ohne Angst vor Selbst-Knockouts zu haben. Wiederholter Xtreme-Dash-Einsatz verschleißt Spitze und Zahnräder dennoch schnell, daher halten kompetitive Spieler Ersatzkopen bereit. Er harmoniert wunderbar mit schweren oder unberechenbaren Attack-Blades wie Dran Dagger und Shark Edge."
+      "en": "Rush is a staple Attack Bit since its release. The smaller tip and reduced gear count give it the best stamina of any early Attack Bit while still delivering top-tier attack performance, and the controlled speed makes self-knockouts less likely than on Flat or Low Flat. The WBO X format calls it a must-have, and BeyBase testing found it easier to control than Flat with comparable speed. Competitive players still keep spare copies because the tip and gears wear quickly under repeated Xtreme Dashes.",
+      "de": "Rush ist seit seinem Release ein festegronnener Attack-Bit. Die kleinere Spitze und die reduzierte Zahnradzahl verleihen ihm die beste Ausdauer aller frühen Attack-Bits, während er weiterhin Top-Angriffsleistung bietet, und die kontrollierte Geschwindigkeit macht Selbst-Knockouts weniger wahrscheinlich als auf Flat oder Low Flat. Das WBO-X-Format bezeichnet ihn als Must-Have, und BeyBase-Tests fanden ihn leichter kontrollierbar als Flat bei vergleichbarer Geschwindigkeit. Kompetitive Spieler halten dennoch Ersatzkopien bereit, weil Spitze und Zahnräder unter wiederholtem Xtreme-Dash-Einsatz schnell verschleißen."
     },
     "officialStats": {
       "heightMm": 2,
-      "weightGrams": 2.1,
+      "weightGrams": 2.0,
       "typeTag": "Attack",
       "spinDirection": "right"
     },
@@ -292,7 +296,7 @@
     },
     "officialStats": {
       "heightMm": 3,
-      "weightGrams": 2.28,
+      "weightGrams": 2.3,
       "typeTag": "Balance",
       "spinDirection": "right"
     },
@@ -2637,7 +2641,7 @@
     },
     "officialStats": {
       "heightMm": 3,
-      "weightGrams": 2.28,
+      "weightGrams": 2.3,
       "typeTag": "Balance",
       "spinDirection": "right"
     },

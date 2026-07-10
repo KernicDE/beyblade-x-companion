@@ -8,12 +8,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A low right-spin Ratchet with three teeth and a 6mm height. Its compact profile pairs well with aggressive Bits, keeping the Bey close to the stadium floor for stable movement and reliable Xtreme Dash engagement.",
-      "de": "Ein niedriges, rechtsdrehendes Ratchet mit drei Zähnen und 6mm Höhe. Das kompakte Profil harmoniert gut mit aggressiven Bits und hält den Bey dicht am Stadionboden für stabile Bewegungen und zuverlässige Xtreme-Dash-Eingriffe."
+      "en": "3-60 is a low right-spin Ratchet with three teeth and a 6mm profile. Its compact design sits the Blade just above the stadium floor, shortening the distance to opponents and making Xtreme Dash contact more direct. The three-tooth pattern is lighter than four-tooth designs, giving Attack combinations a snappier launch feel.",
+      "de": "3-60 ist ein niedriges, rechtsdrehendes Ratchet mit drei Zähnen und einem 6-mm-Profil. Das kompakte Design setzt den Blade knapp über den Stadionboden, verkürzt den Abstand zu Gegnern und macht Xtreme-Dash-Kontakte direkter. Das Drei-Zahn-Muster ist leichter als Vier-Zahn-Designs und verleiht Attack-Kombinationen ein schnelleres Launch-Gefühl."
     },
     "assessment": {
-      "en": "3-60 is a versatile starter Ratchet. Its low height helps attack combinations stay planted, though later Ratchets such as 1-60 and 4-60 offer more specialized weight distribution for competitive builds.",
-      "de": "3-60 ist ein vielseitiges Starter-Ratchet. Die geringe Höhe hilft Angriffskombinationen, bodennah zu bleiben, während spätere Ratchets wie 1-60 und 4-60 eine spezialisiertere Gewichtsverteilung für kompetitive Builds bieten."
+      "en": "3-60 became the default Ratchet for early Attack builds because it keeps the Bey low and responsive. It is not as stable as 4-60 or as specialized as 1-60, but its simplicity makes it a reliable partner for aggressive Blades that want to strike first. A staple part that still sees use in budget Attack combos.",
+      "de": "3-60 wurde zum Standard-Ratchet für frühe Attack-Builds, weil es den Bey niedrig und reaktionsschnell hält. Es ist nicht so stabil wie 4-60 oder so spezialisiert wie 1-60, aber seine Einfachheit macht es zu einem zuverlässigen Partner für aggressive Blades, die zuerst zuschlagen wollen. Ein Standardteil, das auch heute noch in Budget-Attack-Kombos zum Einsatz kommt."
     },
     "officialStats": {
       "heightMm": 6,
@@ -26,7 +26,8 @@
       "stamina": 2,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-3-80",
@@ -45,7 +46,7 @@
       "de": "Die Höhe von 3-80 ist sein bestimmendes Merkmal. Es passt natürlich zu runden Defense- oder Stamina-Blades, die vermeiden wollen, von niedrigeren Attack-Kombos geschrammt zu werden. Der Nachteil ist eine erhöhte Anfälligkeit für Upper-Attack-KOs, sodass die Launch-Technik wichtiger ist als bei kürzeren Ratchets."
     },
     "officialStats": {
-      "heightMm": 80,
+      "heightMm": 8,
       "weightGrams": 7.1,
       "spinDirection": "right"
     },
@@ -55,7 +56,8 @@
       "stamina": 2.5,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-4-60",
@@ -66,25 +68,26 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Ratchet with four teeth and a 6mm height. The 4-60 Ratchet sits between offensive and defensive profiles, offering slightly more weight distribution toward the outside than 3-60. This makes it a natural partner for Balance and Stamina combinations that want extra stability without sacrificing too much mobility.",
-      "de": "Ein rechtsdrehendes Ratchet mit vier Zähnen und 6mm Höhe. Das 4-60 Ratchet liegt zwischen offensivem und defensivem Profil und bietet eine etwas weiter außen verteilte Gewichtsverteilung als 3-60. Das macht es zu einem natürlichen Partner für Balance- und Stamina-Kombinationen, die zusätzliche Stabilität wollen, ohne zu viel Mobilität zu opfern."
+      "en": "4-60 is a right-spin Ratchet with four teeth and a 6mm height. The four-tooth layout spreads weight slightly further from the center than 3-60, producing a more stable rotation without dulling the launch response. It sits at the same low height as 3-60, so it still benefits from direct contact and scrape avoidance.",
+      "de": "4-60 ist ein rechtsdrehendes Ratchet mit vier Zähnen und 6mm Höhe. Das Vier-Zahn-Layout verteilt das Gewicht etwas weiter vom Zentrum als 3-60 und erzeugt eine stabilere Rotation, ohne die Launch-Antwort zu trüben. Es sitzt auf derselben niedrigen Höhe wie 3-60 und profitiert daher weiterhin von direktem Kontakt und Schleifvermeidung."
     },
     "assessment": {
-      "en": "4-60 is a dependable middle-ground Ratchet. It does not excel in any single role, but its balanced weight spread helps Stamina and Balance Blades stay upright longer. For pure Attack builds, lower or lighter Ratchets are usually preferred.",
-      "de": "4-60 ist ein verlässliches Mittelweg-Ratchet. Es glänzt in keiner einzelnen Rolle, aber die ausgewogene Gewichtsverteilung hilft Stamina- und Balance-Blades, länger aufrecht zu bleiben. Für reine Attack-Builds werden meist niedrigere oder leichtere Ratchets bevorzugt."
+      "en": "4-60 is the workhorse Ratchet of the first wave. It does not specialize as hard as 1-60 or 9-60, but its balanced footprint makes it equally comfortable on Stamina, Balance and even lighter Attack setups. For players who want one Ratchet that does a little bit of everything, 4-60 is the safest pick from the BX-01 era.",
+      "de": "4-60 ist das Arbeitstier-Ratchet der ersten Welle. Es spezialisiert sich nicht so stark wie 1-60 oder 9-60, aber seine ausgewogene Basis macht es gleichermaßen komfortabel auf Stamina-, Balance- und sogar leichteren Attack-Aufbauten. Für Spieler, die ein Ratchet wollen, das ein bisschen von allem kann, ist 4-60 die sicherste Wahl aus der BX-01-Ära."
     },
     "officialStats": {
-      "heightMm": 60,
+      "heightMm": 6,
       "weightGrams": 6.3,
       "spinDirection": "right"
     },
     "ratings": {
       "attack": 3,
       "defense": 3.5,
-      "stamina": 2,
-      "balance": 3
+      "stamina": 2.5,
+      "balance": 3.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-4-80",
@@ -103,7 +106,7 @@
       "de": "4-80 ist das höhere Geschwister von 4-60. Die zusätzliche Höhe ist willkommen für Stamina-Builds, die Bodenkontakt vermeiden wollen, kann aber zur Schwäche gegen Attack-Kombos werden, die einen höheren Schwerpunkt ausnutzen. Eine solide Wahl in Kombination mit runden, rückstoßarmen Blades."
     },
     "officialStats": {
-      "heightMm": 80,
+      "heightMm": 8,
       "weightGrams": 7,
       "spinDirection": "right"
     },
@@ -113,7 +116,8 @@
       "stamina": 2.5,
       "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-5-60",
@@ -132,7 +136,7 @@
       "de": "5-60 ist eines der besten Low-Height-Ratchets im frühen Metagame. Sein zusätzliches Gewicht macht es zur technischen Wahl für Defense-Combos, und der glattere Umfang hilft stationären Kombos auf Needle oder High Needle, länger aufrecht zu bleiben. Der Nachteil ist ein geringer Stamina-Verlust auf Ball-Bits und ein etwas höheres Burst-Risiko, weil die breiteren Blades leichter getroffen werden. BeyBase bezeichnet es als Must-Have, um ein Low-Height-Deck abzurunden."
     },
     "officialStats": {
-      "heightMm": 60,
+      "heightMm": 6,
       "weightGrams": 6.6,
       "spinDirection": "right"
     },

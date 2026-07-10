@@ -38,12 +38,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A three-sided Attack Blade with upward-slanting contact points and a Seiryū-themed Gear Chip. Its light weight and aggressive shape made it a strong launch option in mid-2023, but heavier Attack Blades such as Dran Buster and Shark Scale have since surpassed it in raw knockout power.",
-      "de": "Ein dreiseitiger Attack-Blade mit nach oben geneigten Kontaktpunkten und einem Seiryū-Gear-Chip. Das geringe Gewicht und die aggressive Form machten ihn Mitte 2023 zu einer starken Launch-Option, doch schwerere Attack-Blades wie Dran Buster und Shark Scale haben ihn in puncto roher KO-Kraft mittlerweile überholt."
+      "en": "Dran Sword is a three-sided right-spin Attack Blade crowned by a Seiryū Gear Chip. Its perimeter rises into sharp, upward-slanting blades that concentrate mass at the contact points, turning every Xtreme Dash into a potential knockout or burst. The molded edges are deliberately exposed, trading defensive smoothness for raw striking power.",
+      "de": "Dran Sword ist ein dreiseitiger, rechtsdrehender Attack-Blade mit einem Seiryū-Gear-Chip. Sein Umfang erhebt sich zu scharfen, nach oben geneigten Klingen, die die Masse an den Kontaktpunkten konzentrieren und jeden Xtreme Dash in ein potenzielles Knockout oder Burst verwandeln. Die geformten Kanten sind bewusst exponiert und tauschen defensive Glätte gegen rohe Schlagkraft ein."
     },
     "assessment": {
-      "en": "Dran Sword remains a recognizable face of Beyblade X and works well for casual play and learning aggressive launch techniques. In competitive WBO X format it has fallen behind because its low weight reduces knockout consistency against heavier opponents.",
-      "de": "Dran Sword bleibt ein bekanntes Gesicht von Beyblade X und eignet sich gut für Casual-Play sowie das Erlernen aggressiver Launch-Techniken. Im kompetitiven WBO-X-Format ist er zurückgefallen, da das geringe Gewicht die KO-Konsistenz gegen schwerere Gegner verringert."
+      "en": "Dran Sword was the face of early Beyblade X aggression. In the BX-01 to BX-12 metagame it could knockout or burst almost anything when paired with Flat, and it remains a fun, recognizable choice for casual play. Its light weight and recoil leave it behind modern heavy Attack Blades like Shark Scale or Dran Buster, but as a teaching tool for Xtreme Dash timing it still has value.",
+      "de": "Dran Sword war das Gesicht der frühen Beyblade-X-Aggression. Im Meta von BX-01 bis BX-12 konnte er fast alles knockoutsen oder burstern, wenn er mit Flat kombiniert wurde, und er bleibt eine lustige, wiedererkennbare Wahl für Casual-Play. Sein geringes Gewicht und Rückstoß lassen ihn hinter modernen schweren Attack-Blades wie Shark Scale oder Dran Buster zurück, aber als Lehrmittel für Xtreme-Dash-Timing hat er immer noch Wert."
     },
     "officialStats": {
       "weightGrams": 34.6,
@@ -51,7 +51,7 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3,
+      "attack": 4,
       "defense": 1,
       "stamina": 1,
       "balance": 2
@@ -68,12 +68,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A round, four-sided Balance Blade with four smashing contact points and a flaming-skull Gear Chip. Its smooth, circular perimeter gives it natural stamina and defense, while the protruding blades allow for occasional counter-attacks. It was one of the first four Blades in the Basic Line and initially served as both a Balance and Stamina option.",
-      "de": "Ein runder, vierseitiger Balance-Blade mit vier Schlagkontaktpunkten und einem Totenkopf-Gear-Chip. Der glatte, kreisförmige Umfang verleiht ihm natürliche Ausdauer und Verteidigung, während die hervorstehenden Klingen gelegentliche Gegenangriffe ermöglichen. Er war einer der ersten vier Blades der Basic Line und diente anfangs sowohl als Balance- als auch als Stamina-Option."
+      "en": "Hells Scythe is a round, four-sided right-spin Balance Blade built around a flaming skull Gear Chip. Its perimeter alternates between smooth curves and short protruding blades, giving it enough stamina to outlast aggressive opponents while retaining occasional counter-attack bite. The circular shape keeps it upright, but the exposed contact points create recoil against hard-hitting Attack types.",
+      "de": "Hells Scythe ist ein runder, vierseitiger, rechtsdrehender Balance-Blade mit einem brennenden Totenkopf-Gear-Chip. Sein Umfang wechselt zwischen glatten Kurven und kurzen hervorstehenden Klingen, was ihm genug Ausdauer verleiht, um aggressive Gegner zu überdauern, während er gelegentlich mit Gegenangriffen beißen kann. Die kreisförmige Form hält ihn aufrecht, aber die exponierten Kontaktpunkte erzeugen Rückstoß gegen hart zuschlagende Attack-Typen."
     },
     "assessment": {
-      "en": "Hells Scythe is a comfortable all-rounder for newcomers: hard to knock over, decent stamina, and enough attack to punish reckless opponents. In competitive play it has been eclipsed by WizardRod's superior stamina and SilverWolf's heavier defense, but it remains a solid teaching tool for balance-oriented playstyles.",
-      "de": "Hells Scythe ist ein komfortabler Allrounder für Einsteiger: schwer umzuwerfen, mit anständiger Ausdauer und genug Angriff, um unvorsichtige Gegner zu bestrafen. Im kompetitiven Spiel wurde er von WizardRods überlegener Ausdauer und SilverWolfs schwererer Verteidigung in den Schatten gestellt, bleibt aber ein solides Lehrmittel für balance-orientierte Spielweisen."
+      "en": "Hells Scythe was the go-to Balance option when Beyblade X launched. It pairs naturally with Ball for stamina or Taper for a more mobile balance style, and it taught an entire generation of players how to punish reckless Attack launches. Competing today is harder because WizardRod outspins it and SilverWolf out-tanks it, yet it remains one of the most forgiving Blades for learning match-up fundamentals.",
+      "de": "Hells Scythe war die Balance-Option schlechthin beim Launch von Beyblade X. Er passt natürlich zu Ball für Ausdauer oder Taper für einen mobileren Balance-Stil und lehrte eine ganze Generation von Spielern, wie man unvorsichtige Attack-Launches bestraft. Heute ist der Wettkampf schwieriger, weil WizardRod ihn ausdreht und SilverWolf ihn übertrumpft, aber er bleibt einer der verzeihendsten Blades, um Match-up-Grundlagen zu lernen."
     },
     "officialStats": {
       "weightGrams": 32.7,
@@ -84,7 +84,7 @@
       "attack": 2,
       "defense": 2,
       "stamina": 3,
-      "balance": 2
+      "balance": 3
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -98,12 +98,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A round Defense Blade with six main contact points arranged to absorb and deflect impacts. The knight-helm Gear Chip reinforces its defensive identity. Its circular shape helps it settle in the center of the stadium, making it one of the earliest dedicated Defense options in the Basic Line.",
-      "de": "Ein runder Defense-Blade mit sechs Hauptkontaktpunkten, die Aufprall absorbieren und ablenken sollen. Das Ritterhelm-Gear-Chip unterstreicht seine defensive Ausrichtung. Die kreisförmige Form hilft ihm, sich in der Stadionmitte zu zentrieren, und macht ihn zu einer der ersten dedizierten Defense-Optionen der Basic Line."
+      "en": "Knight Shield is a round right-spin Defense Blade with six protective contact points arranged around a knight-helm Gear Chip. The perimeter is built to absorb and redirect impacts rather than strike back, and the circular silhouette helps the combo settle in the center of the stadium. It was one of the first dedicated Defense Blades in the Basic Line.",
+      "de": "Knight Shield ist ein runder, rechtsdrehender Defense-Blade mit sechs schützenden Kontaktpunkten, die um einen Ritterhelm-Gear-Chip angeordnet sind. Der Umfang ist darauf ausgelegt, Aufprall zu absorbieren und umzuleiten, statt zurückzuschlagen, und die kreisförmige Silhouette hilft dem Combo, sich in der Stadionmitte niederzulassen. Er war einer der ersten dedizierten Defense-Blades der Basic Line."
     },
     "assessment": {
-      "en": "Knight Shield is a friendly introduction to defensive play: it survives longer than Attack starters and punishes opponents who overcommit. In today's metagame it lacks the weight to stop heavy hitters consistently, but it remains a useful reference point for understanding how round, low-recoil Blades behave.",
-      "de": "Knight Shield ist eine freundliche Einführung in das defensive Spiel: Er überlebt länger als Attack-Starter und bestraft übermütige Gegner. Im heutigen Metagame fehlt ihm das Gewicht, um schwere Hitter konsistent zu stoppen, aber er bleibt ein nützlicher Referenzpunkt, um zu verstehen, wie runde, rückstoßarme Blades sich verhalten."
+      "en": "Knight Shield is an accessible introduction to defensive play. It survives longer than Attack starters and punishes opponents who overcommit, but its light weight limits its ability to stop modern heavy hitters consistently. It remains a useful reference for understanding how round, low-recoil Blades control the center.",
+      "de": "Knight Shield ist ein zugänglicher Einstieg in das defensive Spiel. Er überlebt länger als Attack-Starter und bestraft übermütige Gegner, aber sein geringes Gewicht grenzt seine Fähigkeit ein, moderne schwere Hitter konsistent zu stoppen. Er bleibt eine nützliche Referenz, um zu verstehen, wie runde, rückstoßarme Blades die Mitte kontrollieren."
     },
     "officialStats": {
       "weightGrams": 32.4,
@@ -112,9 +112,9 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 3,
+      "defense": 3.5,
       "stamina": 2,
-      "balance": 2
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -128,12 +128,12 @@
     "releaseDate": "2023-07-15",
     "releaseWave": "BX",
     "description": {
-      "en": "A wide, round Stamina Blade with two sweeping blades built to maximize centrifugal force. The wizard-themed Gear Chip sits at its center, giving the top a stable, low-recoil silhouette that prefers to outlast rather than overpower opponents.",
-      "de": "Ein breiter, runder Stamina-Blade mit zwei schwingenden Klingen, die die Fliehkraft maximieren sollen. Das zauberer-thematisierte Gear-Chip sitzt in der Mitte und verleiht dem Top eine stabile, rückstoßarme Silhouette, die lieber überdauert als überwältigt."
+      "en": "Wizard Arrow is a wide, round right-spin Stamina Blade with a spell-casting wizard Gear Chip at its center. Two long, sweeping blades make up most of the perimeter, creating a smooth, low-recoil silhouette that banks on centrifugal force rather than aggressive contact. The shape prefers to absorb hits and keep spinning rather than fight back.",
+      "de": "Wizard Arrow ist ein breiter, runder, rechtsdrehender Stamina-Blade mit einem zaubernden Wizard-Gear-Chip in der Mitte. Zwei lange, schwingende Klingen bilden den Großteil des Umfangs und schaffen eine glatte, rückstoßarme Silhouette, die auf Fliehkraft setzt statt auf aggressiven Kontakt. Die Form zieht es vor, Treffer zu absorbieren und weiterzudrehen, statt zurückzuschlagen."
     },
     "assessment": {
-      "en": "Wizard Arrow was one of the first competitively relevant Stamina Blades in X, popular in combos like Wizard Arrow 4-60B. Its light weight and smooth perimeter still make it a budget-friendly stamina choice, though heavier options such as WhaleWave and PhoenixRudder now dominate longer matches.",
-      "de": "Wizard Arrow war einer der ersten konkurrenzfähigen Stamina-Blades in X, beliebt in Combos wie Wizard Arrow 4-60B. Sein geringes Gewicht und der glatte Umfang machen ihn auch heute noch zu einer budgetfreundlichen Stamina-Wahl, obwohl schwerere Optionen wie WhaleWave und PhoenixRudder längere Matches mittlerweile dominieren."
+      "en": "Wizard Arrow was one of the first Stamina Blades to matter competitively in Beyblade X, famously used in Wizard Arrow 4-60B. Its light weight and smooth perimeter make it a reliable budget stamina choice, though heavier later Blades such as WhaleWave and PhoenixRudder outlast it in long matches. It remains an excellent first Stamina Blade for learning how to stall out Attack types.",
+      "de": "Wizard Arrow war einer der ersten Stamina-Blades, die in Beyblade X kompetitiv relevant waren, berühmt eingesetzt in Wizard Arrow 4-60B. Sein geringes Gewicht und der glatte Umfang machen ihn zur zuverlässigen Budget-Stamina-Wahl, auch wenn spätere, schwerere Blades wie WhaleWave und PhoenixRudder ihn in langen Matches überdauern. Er bleibt ein ausgezeichneter erster Stamina-Blade, um zu lernen, wie man Attack-Typen hinauszögert."
     },
     "officialStats": {
       "weightGrams": 31.8,
@@ -142,9 +142,9 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 2,
+      "defense": 2.5,
       "stamina": 4,
-      "balance": 2
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -188,12 +188,12 @@
     "releaseDate": "2023-08-10",
     "releaseWave": "BX",
     "description": {
-      "en": "A three-sided Defense Type Blade with an elongated, lance-like silhouette built around a counter-archetype. Its protruding contact points are meant to deflect and punish incoming attacks, while the shape leaves enough outward weight to generate surprising stamina in same-spin matchups.",
-      "de": "Ein dreiseitiger Defense-Type-Blade mit länglicher, lanzenförmiger Silhouette im Counter-Archetyp. Die vorspringenden Kontaktpunkte sollen eingehende Treffer ablenken und bestrafen, während die Form genug Außengewicht lässt, um in Same-Spin-Duellen überraschende Ausdauer zu erzeugen."
+      "en": "Knight Lance is a compact, three-sided right-spin Defense Blade with an elongated, lance-like silhouette. Its protruding contact points are shaped to deflect incoming attacks and punish opponents that overcommit, while the tight circular core helps the combo stay centered. The design carries enough outward weight to generate surprising stamina in same-spin matchups.",
+      "de": "Knight Lance ist ein kompakter, dreiseitiger, rechtsdrehender Defense-Blade mit einer länglichen, lanzenartigen Silhouette. Seine vorspringenden Kontaktpunkte sind darauf geformt, eingehende Angriffe abzulenken und übermütige Gegner zu bestrafen, während der feste kreisförmige Kern hilft, das Combo zentriert zu halten. Das Design trägt genug Außengewicht, um in Same-Spin-Duellen überraschende Ausdauer zu erzeugen."
     },
     "assessment": {
-      "en": "Knight Lance is the first dedicated counter-style Blade in X: it absorbs hits better than Knight Shield but still carries enough recoil to score occasional lucky knockouts against Stamina types. BeyBase rated the stock combo 7.5/10, praising its versatility. In today’s metagame it is no longer a top-tier defender, yet it remains a fun and educational choice for learning how counter-archetypes behave.",
-      "de": "Knight Lance ist der erste dedizierte Counter-Blade in X: Er absorbiert Treffer besser als Knight Shield, hat aber genug Rückstoß, um gelegentlich glückliche Knockouts gegen Stamina-Typen zu landen. BeyBase bewertete das Stock-Combo mit 7,5/10 und lobte seine Vielseitigkeit. Im heutigen Metagame ist er kein Top-Tier-Defender mehr, bleibt aber eine lehrreiche Wahl, um Counter-Archetypen zu verstehen."
+      "en": "Knight Lance is the first dedicated counter-style Blade in Beyblade X. It absorbs hits better than Knight Shield and still carries enough recoil to score occasional knockouts against Stamina types. BeyBase rated the stock combo 7.5/10 for versatility. In today's metagame it is no longer a top-tier defender, but it remains a fun and educational choice for learning how counter-archetypes behave.",
+      "de": "Knight Lance ist der erste dedizierte Counter-Blade in Beyblade X. Er absorbiert Treffer besser als Knight Shield und hat immer noch genug Rückstoß, um gelegentlich Knockouts gegen Stamina-Typen zu landen. BeyBase bewertete das Stock-Combo mit 7,5/10 für Vielseitigkeit. Im heutigen Metagame ist er kein Top-Tier-Defender mehr, aber er bleibt eine lustige und lehrreiche Wahl, um zu verstehen, wie Counter-Archetypen sich verhalten."
     },
     "officialStats": {
       "weightGrams": 32.9,
@@ -201,10 +201,10 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 1.5,
+      "attack": 2,
       "defense": 4,
       "stamina": 2,
-      "balance": 2
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -248,12 +248,12 @@
     "releaseDate": "2023-10-07",
     "releaseWave": "BX",
     "description": {
-      "en": "A lightweight, five-sided Balance Type Blade with five embossed claw contact points and a lion-head Gear Chip. Its pentagonal shape is intended to mix attack and defense traits, but the low weight of around 31.3 grams prevents it from delivering consistent results in either role.",
-      "de": "Ein leichter, fünfseitiger Balance-Type-Blade mit fünf geprägten Klauen-Kontaktpunkten und einem Löwenkopf-Gear-Chip. Die pentagonale Form soll Angriffs- und Verteidigungseigenschaften mischen, aber das geringe Gewicht von etwa 31,3 Gramm verhindert konsistente Ergebnisse in beiden Rollen."
+      "en": "Leon Claw is a lightweight, five-sided right-spin Balance Blade with five embossed claw contact points and a lion-head Gear Chip. Its pentagonal shape tries to blend attack and defense traits, but the low weight of around 31.3 grams prevents it from excelling in either role.",
+      "de": "Leon Claw ist ein leichter, fünfseitiger, rechtsdrehender Balance-Blade mit fünf geprägten Klauen-Kontaktpunkten und einem Löwenkopf-Gear-Chip. Seine pentagonale Form versucht, Angriffs- und Verteidigungseigenschaften zu mischen, aber das geringe Gewicht von etwa 31,3 Gramm verhindert, dass er in einer der beiden Rollen herausragt."
     },
     "assessment": {
-      "en": "Leon Claw is a niche anti-attack Blade that rewards creative launching but lacks the consistency of true Attack, Defense or Stamina options. BeyBase called it 'skippable' for competition: it is too light to outlast dedicated Stamina Blades and too irregular to replace Shark Edge or Dran Sword in Attack. It can bully high-recoil opponents in mirror matchups and is a fun practice piece for learning how launch angles expose different contact points.",
-      "de": "Leon Claw ist ein Nischen-Anti-Attack-Blade, der kreatives Launching belohnt, aber die Konsistenz echter Attack-, Defense- oder Stamina-Optionen fehlt. BeyBase bezeichnete ihn als 'skippable' für den Wettbewerb: Er ist zu leicht, um dedizierte Stamina-Blades auszusitzen, und zu unregelmäßig, um Shark Edge oder Dran Sword im Attack zu ersetzen. Er kann hochrückstoßige Gegner in Mirror-Matchups tyrannisieren und ist ein unterhaltsames Übungsteil, um zu lernen, wie Launch-Winkel verschiedene Kontaktpunkte exponieren."
+      "en": "Leon Claw is a niche anti-attack Blade that rewards creative launching but lacks the consistency of true Attack, Defense or Stamina options. BeyBase called the stock combo skippable for pure competition: the Blade is too light to outlast dedicated Stamina Blades and too irregular to replace Shark Edge or Dran Sword in Attack. It can bully high-recoil opponents in mirror matchups and remains a fun practice piece for learning how launch angles expose different contact points.",
+      "de": "Leon Claw ist ein Nischen-Anti-Attack-Blade, der kreatives Launching belohnt, aber die Konsistenz echter Attack-, Defense- oder Stamina-Optionen fehlt. BeyBase bezeichnete das Stock-Combo für reinen Wettbewerb als überspringbar: Der Blade ist zu leicht, um dedizierte Stamina-Blades auszusitzen, und zu unregelmäßig, um Shark Edge oder Dran Sword im Attack zu ersetzen. Er kann hochrückstoßige Gegner in Mirror-Matchups tyrannisieren und bleibt ein unterhaltsames Übungsteil, um zu lernen, wie Launch-Winkel verschiedene Kontaktpunkte exponieren."
     },
     "officialStats": {
       "weightGrams": 31.3,
@@ -308,15 +308,15 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Attack Type Blade with a circular yet aggressive shape and six prominent blades around its perimeter. The center features a dragon-head Gear Chip showing Seiryū exhaling fire. At around 34.8–35.3 grams depending on the mold, it is slightly heavier than Dran Sword and trades some raw Smash Attack for better stamina and repeated-attack consistency.",
-      "de": "Ein rechtsdrehender Attack-Type-Blade mit runder, aber aggressiver Form und sechs prominenten Klingen am Umfang. Die Mitte zeigt einen Drachenkopf-Gear-Chip, auf dem Seiryū Feuer speit. Mit etwa 34,8–35,3 Gramm je nach Guss ist er etwas schwerer als Dran Sword und tauscht etwas rohen Smash-Attack gegen bessere Ausdauer und Konsistenz bei wiederholten Angriffen ein."
+      "en": "A right-spin Attack Type Blade with a circular yet aggressive shape and six prominent blades around its perimeter. The center features a dragon-head Gear Chip showing Seiryū exhaling fire. BeyBase measured it at about 35.3 grams, placing it among the heaviest Basic Line Attack Blades and giving it serious knockout momentum.",
+      "de": "Ein rechtsdrehender Attack-Type-Blade mit runder, aber aggressiver Form und sechs prominenten Klingen am Umfang. Die Mitte zeigt einen Drachenkopf-Gear-Chip, auf dem Seiryū Feuer speit. BeyBase wog ihn bei etwa 35,3 Gramm, was ihn zu einem der schwersten Attack-Blades der Basic Line macht und ihm ernsthaften Knockout-Schwung verleiht."
     },
     "assessment": {
-      "en": "Dran Dagger is a competent alternative to Dran Sword and Shark Edge rather than a strict upgrade. Its six blades do not hit as hard in the opening seconds, but they give it better endurance and make it less dependent on a single perfect hit. BeyBase found it particularly effective with the Rush Bit, where the combo can perform multiple Xtreme Dashes while staying safer than Flat or Low Flat setups. It is a versatile Attack Blade that also has niche use in semi-mobile Stamina combinations.",
-      "de": "Dran Dagger ist eine kompetente Alternative zu Dran Sword und Shark Edge, keine strenge Verbesserung. Seine sechs Klingen treffen in den ersten Sekunden nicht so hart, geben ihm aber mehr Ausdauer und machen ihn weniger abhängig von einem einzelnen perfekten Treffer. BeyBase fand ihn besonders effektiv mit dem Rush Bit, wo das Combo mehrere Xtreme Dashes ausführen kann und dabei sicherer ist als Flat- oder Low-Flat-Setups. Er ist ein vielseitiger Attack-Blade, der auch Nischennutzung in semi-mobilen Stamina-Kombinationen hat."
+      "en": "Dran Dagger is a competent alternative to Dran Sword rather than a strict upgrade. Its six blades do not hit as hard in the opening seconds as Dran Sword's tri-wing design, but the extra weight and distributed contact give it better endurance and make it less dependent on a single perfect hit. BeyBase testing showed it can match or exceed a worn Dran Sword against common Stamina combos, though it struggles more against mobile Knight Shield on Point. It pairs beautifully with Rush and has niche use in semi-mobile Stamina combinations.",
+      "de": "Dran Dagger ist eine kompetente Alternative zu Dran Sword, keine strenge Verbesserung. Seine sechs Klingen treffen in den ersten Sekunden nicht so hart wie Dran Swords Drei-Flügel-Design, aber das zusätzliche Gewicht und die verteilten Kontaktpunkte geben ihm mehr Ausdauer und machen ihn weniger abhängig von einem einzelnen perfekten Treffer. BeyBase-Tests zeigten, dass er gegen gängige Stamina-Combos mit einem abgenutzten Dran Sword mithalten oder ihn übertreffen kann, gegen mobiles Knight Shield auf Point aber mehr Probleme hat. Er harmoniert wunderbar mit Rush und hat Nischennutzung in semi-mobilen Stamina-Kombinationen."
     },
     "officialStats": {
-      "weightGrams": 34.8,
+      "weightGrams": 35.3,
       "spinDirection": "right",
       "typeTag": "Attack"
     },
@@ -338,15 +338,15 @@
     "releaseDate": "2023-11-02",
     "releaseWave": "BX",
     "description": {
-      "en": "A right-spin Balance Type Blade with five chain-link-shaped contact points, each split into a longer lower section and a shorter upward-angled section. The uneven weight distribution and thin underside make it mobile but wobble-prone on pointy Bits, while the lower recoil helps it defend against aggressive opponents. Features a flaming-skull Gear Chip and weighs about 33.25 grams.",
-      "de": "Ein rechtsdrehender Balance-Type-Blade mit fünf kettenglied-förmigen Kontaktpunkten, die jeweils in eine längere untere Sektion und eine kürzere, nach oben gewinkelte Sektion geteilt sind. Die ungleiche Gewichtsverteilung und die dünne Unterseite machen ihn mobil, aber kippanfällig auf spitzen Bits, während der geringere Rückstoß bei der Verteidigung gegen aggressive Gegner hilft. Zeigt einen Totenkopf-Gear-Chip und wiegt etwa 33,25 Gramm."
+      "en": "A right-spin Balance Type Blade with five chain-link-shaped contact points, each split into a longer lower section and a shorter upward-angled section. The uneven weight distribution and thin underside make it mobile but wobble-prone on pointy Bits, while the lower recoil helps it defend against aggressive opponents. Features a flaming-skull Gear Chip and weighs about 33.3 grams.",
+      "de": "Ein rechtsdrehender Balance-Type-Blade mit fünf kettenglied-förmigen Kontaktpunkten, die jeweils in eine längere untere Sektion und eine kürzere, nach oben gewinkelte Sektion geteilt sind. Die ungleiche Gewichtsverteilung und die dünne Unterseite machen ihn mobil, aber kippanfällig auf spitzen Bits, während der geringere Rückstoß bei der Verteidigung gegen aggressive Gegner hilft. Zeigt einen Totenkopf-Gear-Chip und wiegt etwa 33,3 Gramm."
     },
     "assessment": {
       "en": "Hells Chain is a more defense-oriented Balance Blade than Hells Scythe. BeyBase found it excellent on conical Bits, where the 5-60 Ratchet can mitigate its wobble. It repels mobile Attack combos better than Hells Scythe but is vulnerable to being struck from below, so keeping the combo low is important. It is not a direct upgrade to Hells Scythe, but a strong alternative for players who want less recoil.",
       "de": "Hells Chain ist ein defensorientierterer Balance-Blade als Hells Scythe. BeyBase stellte fest, dass er auf konischen Bits exzellent ist, wo das 5-60 Ratchet sein Wackeln mildern kann. Er weist mobile Attack-Compos besser ab als Hells Scythe, ist aber verwundbar für Treffer von unten, daher ist es wichtig, das Combo niedrig zu halten. Er ist kein direktes Upgrade zu Hells Scythe, aber eine starke Alternative für Spieler, die weniger Rückstoß wollen."
     },
     "officialStats": {
-      "weightGrams": 33.25,
+      "weightGrams": 33.3,
       "spinDirection": "right",
       "typeTag": "Balance"
     },
