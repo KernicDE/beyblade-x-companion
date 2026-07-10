@@ -69,6 +69,11 @@ const mockDatabase: Database = {
   ],
   launchers: [],
   beys: [],
+  meta: {
+    topCombos: [],
+    metaParts: [],
+    recommendedPurchases: [],
+  },
 };
 
 describe('calculateComboRatings', () => {

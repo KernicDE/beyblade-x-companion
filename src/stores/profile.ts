@@ -3,13 +3,17 @@ import { persist } from 'zustand/middleware';
 import type { Creation, Profile } from '../types';
 
 const PROFILE_KEY = 'beyblade-x-profile';
-const CURRENT_VERSION = 2;
+const CURRENT_VERSION = 3;
 
 interface ProfileState extends Profile {
   setUsername: (username: string) => void;
+  setCurrency: (currency: Profile['currency']) => void;
+  setAutoOwnParts: (value: boolean) => void;
   toggleOwnedBey: (beyId: string) => void;
+  toggleOwnedProduct: (productId: string, partIds?: string[]) => void;
   toggleOwnedPart: (partId: string) => void;
   isOwnedBey: (beyId: string) => boolean;
+  isOwnedProduct: (productId: string) => boolean;
   isOwnedPart: (partId: string) => boolean;
   addCreation: (creation: Omit<Creation, 'id' | 'createdAt' | 'updatedAt'>) => Creation;
   updateCreation: (id: string, updates: Partial<Creation>) => void;
@@ -24,12 +28,13 @@ function createId(): string {
 
 function isProfile(value: unknown): value is Profile {
   if (typeof value !== 'object' || value === null) return false;
-  const profile = value as Record<string, unknown>;
+  const raw = value as unknown as Record<string, unknown>;
   return (
-    typeof profile.version === 'number' &&
-    Array.isArray(profile.creations) &&
-    Array.isArray(profile.ownedBeyIds ?? []) &&
-    Array.isArray(profile.ownedPartIds ?? [])
+    typeof raw.version === 'number' &&
+    Array.isArray(raw.creations) &&
+    Array.isArray(raw.ownedBeyIds ?? []) &&
+    Array.isArray(raw.ownedProductIds ?? []) &&
+    Array.isArray(raw.ownedPartIds ?? [])
   );
 }
 
@@ -39,12 +44,23 @@ function migrateProfile(value: unknown): Profile {
     return {
       version: CURRENT_VERSION,
       username: typeof raw.username === 'string' ? raw.username : undefined,
-      ownedBeyIds: Array.isArray(raw.ownedBeyIds) ? raw.ownedBeyIds as string[] : [],
-      ownedPartIds: Array.isArray(raw.ownedPartIds) ? raw.ownedPartIds as string[] : [],
-      creations: Array.isArray(raw.creations) ? raw.creations as Creation[] : [],
+      ownedBeyIds: Array.isArray(raw.ownedBeyIds) ? (raw.ownedBeyIds as string[]) : [],
+      ownedProductIds: Array.isArray(raw.ownedProductIds) ? (raw.ownedProductIds as string[]) : [],
+      ownedPartIds: Array.isArray(raw.ownedPartIds) ? (raw.ownedPartIds as string[]) : [],
+      currency: (raw.currency as Profile['currency']) ?? 'EUR',
+      autoOwnParts: typeof raw.autoOwnParts === 'boolean' ? raw.autoOwnParts : true,
+      creations: Array.isArray(raw.creations) ? (raw.creations as Creation[]) : [],
     };
   }
-  return { version: CURRENT_VERSION, ownedBeyIds: [], ownedPartIds: [], creations: [] };
+  return {
+    version: CURRENT_VERSION,
+    ownedBeyIds: [],
+    ownedProductIds: [],
+    ownedPartIds: [],
+    currency: 'EUR',
+    autoOwnParts: true,
+    creations: [],
+  };
 }
 
 export const useProfileStore = create<ProfileState>()(
@@ -53,11 +69,22 @@ export const useProfileStore = create<ProfileState>()(
       version: CURRENT_VERSION,
       username: undefined,
       ownedBeyIds: [],
+      ownedProductIds: [],
       ownedPartIds: [],
+      currency: 'EUR',
+      autoOwnParts: true,
       creations: [],
 
       setUsername: (username) => {
         set({ username: username.trim() || undefined });
+      },
+
+      setCurrency: (currency) => {
+        set({ currency });
+      },
+
+      setAutoOwnParts: (value) => {
+        set({ autoOwnParts: value });
       },
 
       toggleOwnedBey: (beyId) => {
@@ -66,6 +93,31 @@ export const useProfileStore = create<ProfileState>()(
             ? state.ownedBeyIds.filter((id) => id !== beyId)
             : [...state.ownedBeyIds, beyId],
         }));
+      },
+
+      toggleOwnedProduct: (productId, partIds) => {
+        set((state) => {
+          const alreadyOwned = state.ownedProductIds.includes(productId);
+          const nextProductIds = alreadyOwned
+            ? state.ownedProductIds.filter((id) => id !== productId)
+            : [...state.ownedProductIds, productId];
+
+          let nextPartIds = state.ownedPartIds;
+          if (state.autoOwnParts && partIds) {
+            const partSet = new Set(nextPartIds);
+            if (alreadyOwned) {
+              partIds.forEach((id) => partSet.delete(id));
+            } else {
+              partIds.forEach((id) => partSet.add(id));
+            }
+            nextPartIds = Array.from(partSet);
+          }
+
+          return {
+            ownedProductIds: nextProductIds,
+            ownedPartIds: nextPartIds,
+          };
+        });
       },
 
       toggleOwnedPart: (partId) => {
@@ -77,6 +129,7 @@ export const useProfileStore = create<ProfileState>()(
       },
 
       isOwnedBey: (beyId) => get().ownedBeyIds.includes(beyId),
+      isOwnedProduct: (productId) => get().ownedProductIds.includes(productId),
       isOwnedPart: (partId) => get().ownedPartIds.includes(partId),
 
       addCreation: (creationData) => {
@@ -138,4 +191,4 @@ export const useProfileStore = create<ProfileState>()(
       },
     }
   )
-);
+)

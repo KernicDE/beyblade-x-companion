@@ -1,0 +1,32 @@
+{
+  "topCombos": [
+    { "beyId": "wizard-rod1-60r-bx-35", "appearances": 242, "metaScore": 1639 },
+    { "beyId": "shark-scale4-50uf-ux-15", "appearances": 116, "metaScore": 782 },
+    { "beyId": "phoenix-rudder4-70lf-cx-05-05", "appearances": 50, "metaScore": 318 },
+    { "beyId": "dran-buster1-60a-ux-01", "appearances": 48, "metaScore": 305 },
+    { "beyId": "whale-wave5-80e-bx-36", "appearances": 42, "metaScore": 280 },
+    { "beyId": "cobalt-dragoon4-55wb-cx-08-06", "appearances": 35, "metaScore": 240 }
+  ],
+  "metaParts": [
+    { "partId": "ratchet-1-60", "category": "ratchet", "appearances": 435 },
+    { "partId": "wizard-rod", "category": "blade", "appearances": 343 },
+    { "partId": "shark-scale", "category": "blade", "appearances": 336 },
+    { "partId": "bit-low-flat", "category": "bit", "appearances": 316 },
+    { "partId": "bit-hexa", "category": "bit", "appearances": 308 },
+    { "partId": "phoenix-rudder", "category": "blade", "appearances": 295 },
+    { "partId": "ratchet-3-60", "category": "ratchet", "appearances": 270 },
+    { "partId": "dran-buster", "category": "blade", "appearances": 260 },
+    { "partId": "bit-needle", "category": "bit", "appearances": 245 },
+    { "partId": "ratchet-9-60", "category": "ratchet", "appearances": 230 },
+    { "partId": "whale-wave", "category": "blade", "appearances": 215 },
+    { "partId": "bit-high-needle", "category": "bit", "appearances": 205 }
+  ],
+  "recommendedPurchases": [
+    { "releaseWave": "BX-35", "priority": 1 },
+    { "releaseWave": "BX-31", "priority": 2 },
+    { "releaseWave": "BX-48", "priority": 3 },
+    { "releaseWave": "CX-05", "priority": 4 },
+    { "releaseWave": "CX-08", "priority": 5 },
+    { "releaseWave": "UX-18", "priority": 6 }
+  ]
+}

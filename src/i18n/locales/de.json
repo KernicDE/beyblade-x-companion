@@ -7,6 +7,8 @@
     "beys": "Beys",
     "parts": "Teile",
     "configurator": "Builder",
+    "dashboard": "Dashboard",
+    "simulator": "Simulator",
     "profile": "Mein Profil"
   },
   "theme": {
@@ -44,6 +46,10 @@
       "partsDatabaseDesc": "Blades, Ratchets, Bits, Launcher",
       "configurator": "Builder",
       "configuratorDesc": "Teile kombinieren",
+      "dashboard": "Dashboard",
+      "dashboardDesc": "Meta, Sammlung & Empfehlungen",
+      "simulator": "Simulator",
+      "simulatorDesc": "Zwei Beys gegeneinander simulieren",
       "myProfile": "Mein Profil",
       "myProfileDesc": "Gespeicherte Kreationen"
     }
@@ -81,7 +87,11 @@
     "right": "rechts",
     "left": "links",
     "both": "beide",
-    "noAssistBlade": "Kein Assist Blade"
+    "noAssistBlade": "Kein Assist Blade",
+    "markOwned": "Als im Besitz markieren",
+    "owned": "Im Besitz",
+    "availableInSets": "Erhältlich in Sets",
+    "metaAppearances": "Meta-Auftritte"
   },
   "radar": {
     "attack": "ATK",
@@ -114,10 +124,57 @@
     "availableIn": "Erhältlich in",
     "noSetFound": "Kein Factory-Set gefunden"
   },
+  "dashboard": {
+    "title": "Dashboard",
+    "quickInsights": "Quick Insights",
+    "metaCoverage": "Meta-Abdeckung",
+    "remainingMetaGap": "Verbleibende Meta-Lücke",
+    "priority": "Priorität #1",
+    "mostUsefulPurchase": "Nützlichster Kauf",
+    "topMetaCombos": "Top-Meta-Combos",
+    "appearances": "Auftritte",
+    "metaScore": "Meta-Score",
+    "recommendedPurchases": "Empfohlene Käufe",
+    "mainGaps": "Hauptlücken",
+    "topMissingMetaParts": "Top fehlende Meta-Teile",
+    "collectionDistribution": "Sammlungsverteilung",
+    "partsByType": "Teile nach Typ",
+    "ownedBladeTypes": "Blade-Typen im Besitz",
+    "strongestParts": "Stärkste Teile",
+    "ownedProducts": "Beys im Besitz",
+    "uniqueParts": "Einzelteile im Besitz",
+    "estimatedValue": "Geschätzter Wert",
+    "seriesCompletion": "Serien-Fortschritt",
+    "viewAllMeta": "Alle Meta-Stats ansehen",
+    "viewProduct": "Produkt ansehen",
+    "metaPartsNotOwned": "NOCH NICHT IM BESITZ",
+    "noRecommendations": "Keine Empfehlungen verfügbar.",
+    "noMissingMetaParts": "Keine fehlenden Meta-Teile.",
+    "attack": "ANGRIFF",
+    "defense": "VERTEIDIGUNG",
+    "stamina": "AUSDAUER"
+  },
+  "simulator": {
+    "title": "Simulator",
+    "beyA": "Bey A",
+    "beyB": "Bey B",
+    "vs": "VS",
+    "selectBey": "Bey auswählen",
+    "predictedWinner": "Voraussichtlicher Sieger",
+    "reason": "Begründung",
+    "battle": "Kampf simulieren",
+    "reset": "Zurücksetzen",
+    "tie": "Unentschieden",
+    "advantage": "Vorteil",
+    " matchupHint": "Wähle zwei Beys für eine regelbasierte Prognose."
+  },
   "profile": {
     "title": "Mein Profil",
     "username": "Profilname",
     "usernamePlaceholder": "Dein Name",
+    "currency": "Währung",
+    "autoOwnParts": "Teile automatisch im Besitz",
+    "autoOwnPartsDesc": "Beim Markieren eines Bey werden seine Teile automatisch als im Besitz gesetzt.",
     "exportProfile": "Profil exportieren",
     "exportCopied": "Profil-Export-Link in die Zwischenablage kopiert.",
     "shareCopied": "Teilen-Link in die Zwischenablage kopiert.",
@@ -128,7 +185,14 @@
     "delete": "Löschen",
     "deleteConfirm": "\"{{name}}\" löschen?",
     "confirm": "Bestätigen",
-    "cancel": "Abbrechen"
+    "cancel": "Abbrechen",
+    "ownedProducts": "Beys im Besitz",
+    "uniqueParts": "Einzelteile im Besitz",
+    "inYourCollection": "in deiner Sammlung",
+    "estimatedValue": "Geschätzter Wert",
+    "basedOnKnownPrices": "Basierend auf bekannten Preisen",
+    "seriesCompletion": "Serien-Fortschritt",
+    "creations": "Gespeicherte Kreationen"
   },
   "import": {
     "invalidLink": "Ungültiger Import-Link",

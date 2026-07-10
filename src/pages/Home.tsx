@@ -8,6 +8,8 @@ export function Home() {
     { to: '/beys', label: t('home.cards.beyDatabase'), desc: t('home.cards.beyDatabaseDesc') },
     { to: '/parts', label: t('home.cards.partsDatabase'), desc: t('home.cards.partsDatabaseDesc') },
     { to: '/configurator', label: t('home.cards.configurator'), desc: t('home.cards.configuratorDesc') },
+    { to: '/dashboard', label: t('home.cards.dashboard'), desc: t('home.cards.dashboardDesc') },
+    { to: '/simulator', label: t('home.cards.simulator'), desc: t('home.cards.simulatorDesc') },
     { to: '/profile', label: t('home.cards.myProfile'), desc: t('home.cards.myProfileDesc') },
   ];
 
@@ -36,7 +38,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
           <Link
             key={card.to}

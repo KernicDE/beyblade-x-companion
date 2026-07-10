@@ -1,6 +1,6 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { getPartById } from '../utils/data';
+import { getPartById, findBeysContainingPart } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
@@ -8,6 +8,7 @@ import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
+import { useProfileStore } from '../stores/profile';
 import type { PartCategory, LocalizedString } from '../types';
 import { calculateTier, buildTypeScores, getPartTypeScores } from '../utils/data';
 
@@ -27,6 +28,7 @@ export function PartDetail() {
   const { t, locale } = useTranslation();
   const { category, id } = useParams<{ category: string; id: string }>();
   const { database, loading, error } = useData();
+  const { isOwnedPart, toggleOwnedPart } = useProfileStore();
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -127,6 +129,37 @@ export function PartDetail() {
             {part.officialStats.typeTag && (
               <p className="text-[var(--muted)]">{t('partDetail.type')}: {t(`partDetail.${part.officialStats.typeTag.toLowerCase()}`)}</p>
             )}
+            <button
+              type="button"
+              onClick={() => toggleOwnedPart(part.id)}
+              className={`mt-2 rounded-md px-3 py-1.5 text-sm font-medium transition ${
+                isOwnedPart(part.id)
+                  ? 'bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-900/50'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600'
+              }`}
+            >
+              {isOwnedPart(part.id) ? t('partDetail.owned') : t('partDetail.markOwned')}
+            </button>
+          </div>
+
+          <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+            <h3 className="mb-2 text-sm font-semibold">{t('partDetail.availableInSets')}</h3>
+            {(() => {
+              const beys = findBeysContainingPart(database, part.id);
+              if (beys.length === 0) return <p className="text-sm text-[var(--muted)]">{t('configurator.noSetFound')}</p>;
+              return (
+                <ul className="space-y-1">
+                  {beys.slice(0, 10).map((bey) => (
+                    <li key={bey.id}>
+                      <Link to={`/beys/${bey.id}`} className="text-sm text-blue-600 hover:underline dark:text-blue-400">
+                        {bey.name} ({bey.releaseWave})
+                      </Link>
+                    </li>
+                  ))}
+                  {beys.length > 10 && <p className="text-xs text-[var(--muted)]">+{beys.length - 10} weitere</p>}
+                </ul>
+              );
+            })()}
           </div>
         </div>
 

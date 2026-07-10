@@ -39,6 +39,8 @@ export function Layout({ children }: { children: ReactNode }) {
     { to: '/beys', label: t('nav.beys') },
     { to: '/parts', label: t('nav.parts') },
     { to: '/configurator', label: t('nav.configurator') },
+    { to: '/dashboard', label: t('nav.dashboard') },
+    { to: '/simulator', label: t('nav.simulator') },
     { to: '/profile', label: t('nav.profile') },
   ];
 

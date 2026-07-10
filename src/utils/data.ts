@@ -12,6 +12,29 @@ import type {
   Tier,
 } from '../types';
 
+export interface MetaCombo {
+  beyId: string;
+  appearances: number;
+  metaScore: number;
+}
+
+export interface MetaPart {
+  partId: string;
+  category: PartCategory;
+  appearances: number;
+}
+
+export interface RecommendedPurchase {
+  releaseWave: string;
+  priority: number;
+}
+
+export interface MetaData {
+  topCombos: MetaCombo[];
+  metaParts: MetaPart[];
+  recommendedPurchases: RecommendedPurchase[];
+}
+
 export interface Database {
   blades: Blade[];
   assistBlades: AssistBlade[];
@@ -19,6 +42,15 @@ export interface Database {
   bits: Bit[];
   launchers: Launcher[];
   beys: Bey[];
+  meta: MetaData;
+}
+
+export interface PriceMap {
+  [releaseWave: string]: {
+    jpy?: number;
+    usd?: number;
+    eur?: number;
+  };
 }
 
 async function loadJson<T>(path: string): Promise<T> {
@@ -31,16 +63,33 @@ async function loadJson<T>(path: string): Promise<T> {
 
 export async function loadDatabase(): Promise<Database> {
   const base = import.meta.env.BASE_URL;
-  const [blades, assistBlades, ratchets, bits, launchers, beys] = await Promise.all([
+  const [blades, assistBlades, ratchets, bits, launchers, beys, prices, meta] = await Promise.all([
     loadJson<Blade[]>(`${base}data/blades.json`),
     loadJson<AssistBlade[]>(`${base}data/assistBlades.json`),
     loadJson<Ratchet[]>(`${base}data/ratchets.json`),
     loadJson<Bit[]>(`${base}data/bits.json`),
     loadJson<Launcher[]>(`${base}data/launchers.json`),
     loadJson<Bey[]>(`${base}data/beys.json`),
+    loadJson<PriceMap>(`${base}data/prices.json`).catch(() => ({} as PriceMap)),
+    loadJson<MetaData>(`${base}data/meta.json`).catch(() => ({
+      topCombos: [],
+      metaParts: [],
+      recommendedPurchases: [],
+    } as MetaData)),
   ]);
 
-  return { blades, assistBlades, ratchets, bits, launchers, beys };
+  const beysWithPrices = beys.map((bey) => {
+    const price = prices[bey.releaseWave];
+    if (!price) return bey;
+    return {
+      ...bey,
+      priceJpy: price.jpy,
+      priceUsd: price.usd,
+      priceEur: price.eur,
+    };
+  });
+
+  return { blades, assistBlades, ratchets, bits, launchers, beys: beysWithPrices, meta };
 }
 
 export function getPartById(

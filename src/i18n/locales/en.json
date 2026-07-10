@@ -7,6 +7,8 @@
     "beys": "Beys",
     "parts": "Parts",
     "configurator": "Builder",
+    "dashboard": "Dashboard",
+    "simulator": "Simulator",
     "profile": "My Profile"
   },
   "theme": {
@@ -44,6 +46,10 @@
       "partsDatabaseDesc": "Blades, ratchets, bits, launchers",
       "configurator": "Builder",
       "configuratorDesc": "Mix & match parts",
+      "dashboard": "Dashboard",
+      "dashboardDesc": "Meta, collection & recommendations",
+      "simulator": "Simulator",
+      "simulatorDesc": "Pit two Beys against each other",
       "myProfile": "My Profile",
       "myProfileDesc": "Saved creations"
     }
@@ -81,7 +87,11 @@
     "right": "right",
     "left": "left",
     "both": "both",
-    "noAssistBlade": "No Assist Blade"
+    "noAssistBlade": "No Assist Blade",
+    "markOwned": "Mark as owned",
+    "owned": "Owned",
+    "availableInSets": "Available in sets",
+    "metaAppearances": "Meta appearances"
   },
   "radar": {
     "attack": "ATK",
@@ -114,10 +124,57 @@
     "availableIn": "Available in",
     "noSetFound": "No factory set found"
   },
+  "dashboard": {
+    "title": "Dashboard",
+    "quickInsights": "Quick insights",
+    "metaCoverage": "Meta coverage",
+    "remainingMetaGap": "Remaining meta gap",
+    "priority": "Priority #1",
+    "mostUsefulPurchase": "Most useful purchase",
+    "topMetaCombos": "Top meta combos",
+    "appearances": "appearances",
+    "metaScore": "Meta Score",
+    "recommendedPurchases": "Recommended purchases",
+    "mainGaps": "Main gaps",
+    "topMissingMetaParts": "Top missing meta parts",
+    "collectionDistribution": "Collection distribution",
+    "partsByType": "Parts by type",
+    "ownedBladeTypes": "Owned blade types",
+    "strongestParts": "Your strongest parts",
+    "ownedProducts": "Owned Beys",
+    "uniqueParts": "Owned unique parts",
+    "estimatedValue": "Estimated value",
+    "seriesCompletion": "Series completion",
+    "viewAllMeta": "View all meta stats",
+    "viewProduct": "View product",
+    "metaPartsNotOwned": "META PARTS NOT OWNED YET",
+    "noRecommendations": "No recommendations available.",
+    "noMissingMetaParts": "No missing meta parts.",
+    "attack": "ATTACK",
+    "defense": "DEFENSE",
+    "stamina": "STAMINA"
+  },
+  "simulator": {
+    "title": "Simulator",
+    "beyA": "Bey A",
+    "beyB": "Bey B",
+    "vs": "VS",
+    "selectBey": "Select Bey",
+    "predictedWinner": "Predicted winner",
+    "reason": "Reason",
+    "battle": "Simulate battle",
+    "reset": "Reset",
+    "tie": "Tie",
+    "advantage": "Advantage",
+    "matchupHint": "Select two Beys for a rule-based prediction."
+  },
   "profile": {
     "title": "My Profile",
     "username": "Profile name",
     "usernamePlaceholder": "Your name",
+    "currency": "Currency",
+    "autoOwnParts": "Auto-own parts",
+    "autoOwnPartsDesc": "When marking a Bey as owned, its parts are automatically marked as owned too.",
     "exportProfile": "Export Profile",
     "exportCopied": "Profile export link copied to clipboard.",
     "shareCopied": "Share link copied to clipboard.",
@@ -128,7 +185,14 @@
     "delete": "Delete",
     "deleteConfirm": "Delete \"{{name}}\"?",
     "confirm": "Confirm",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "ownedProducts": "Owned Beys",
+    "uniqueParts": "Owned unique parts",
+    "inYourCollection": "in your collection",
+    "estimatedValue": "Estimated value",
+    "basedOnKnownPrices": "Based on known prices",
+    "seriesCompletion": "Series completion",
+    "creations": "Saved creations"
   },
   "import": {
     "invalidLink": "Invalid import link",

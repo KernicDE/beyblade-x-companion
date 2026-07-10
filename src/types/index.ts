@@ -63,6 +63,9 @@ export interface Bey {
   imageUrl: string;
   releaseDate: string;
   releaseWave: string;
+  priceJpy?: number;
+  priceUsd?: number;
+  priceEur?: number;
   bladeId: string;
   assistBladeId?: string;
   ratchetId: string;
@@ -88,7 +91,10 @@ export interface Profile {
   version: number;
   username?: string;
   ownedBeyIds: string[];
+  ownedProductIds: string[];
   ownedPartIds: string[];
+  currency: 'EUR' | 'USD' | 'JPY';
+  autoOwnParts: boolean;
   creations: Creation[];
 }
 
