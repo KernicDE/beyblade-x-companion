@@ -6,7 +6,7 @@
     "home": "Home",
     "beys": "Beys",
     "parts": "Parts",
-    "configurator": "Configurator",
+    "configurator": "Builder",
     "profile": "My Profile"
   },
   "theme": {
@@ -22,6 +22,7 @@
     "activeFilters": "Active filters"
   },
   "sort": {
+    "label": "Sort by",
     "name": "Name",
     "releaseDate": "Release",
     "type": "Type",
@@ -35,13 +36,13 @@
   "home": {
     "tagline": "Browse official Beys and parts, build custom combinations, and share your creations — all offline in your browser.",
     "browseBeys": "Browse Beys",
-    "openConfigurator": "Open Configurator",
+    "openConfigurator": "Open Builder",
     "cards": {
       "beyDatabase": "Bey Database",
       "beyDatabaseDesc": "Official factory combos",
       "partsDatabase": "Parts Database",
       "partsDatabaseDesc": "Blades, ratchets, bits, launchers",
-      "configurator": "Configurator",
+      "configurator": "Builder",
       "configuratorDesc": "Mix & match parts",
       "myProfile": "My Profile",
       "myProfileDesc": "Saved creations"
@@ -98,7 +99,7 @@
     "communityRatings": "Community Ratings"
   },
   "configurator": {
-    "title": "Configurator",
+    "title": "Builder",
     "resultingRatings": "Resulting Ratings",
     "saveCreation": "Save Creation",
     "name": "Name",
@@ -112,7 +113,7 @@
     "exportProfile": "Export Profile",
     "exportCopied": "Profile export link copied to clipboard.",
     "shareCopied": "Share link copied to clipboard.",
-    "noCreations": "No saved creations yet. Build one in the configurator.",
+    "noCreations": "No saved creations yet. Build one in the builder.",
     "edit": "Edit",
     "duplicate": "Duplicate",
     "share": "Share",

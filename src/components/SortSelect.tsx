@@ -22,17 +22,20 @@ const OPTIONS: { key: SortKey; labelKey: string }[] = [
 export function SortSelect({ value, onChange }: SortSelectProps) {
   const { t } = useTranslation();
   return (
-    <select
-      value={value}
-      onChange={(e) => onChange(e.target.value as SortKey)}
-      className="rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
-    >
-      {OPTIONS.map((opt) => (
-        <option key={opt.key} value={opt.key}>
-          {t(opt.labelKey)}
-        </option>
-      ))}
-    </select>
+    <div className="flex items-center gap-2 rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500">
+      <span className="whitespace-nowrap text-[var(--muted)]">{t('sort.label')}</span>
+      <select
+        value={value}
+        onChange={(e) => onChange(e.target.value as SortKey)}
+        className="bg-transparent text-[var(--text)] focus:outline-none"
+      >
+        {OPTIONS.map((opt) => (
+          <option key={opt.key} value={opt.key}>
+            {t(opt.labelKey)}
+          </option>
+        ))}
+      </select>
+    </div>
   );
 }
 

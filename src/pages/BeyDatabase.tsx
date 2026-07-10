@@ -147,39 +147,41 @@ export function BeyDatabase() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <SearchInput value={query} onChange={setQuery} />
-          <SortSelect value={sortBy} onChange={setSortBy} />
-        </div>
-        <div className="flex flex-wrap gap-3">
-          <FilterDropdown
-            label={t('sort.type')}
-            options={allTypes}
-            selected={selectedTypes}
-            onChange={setSelectedTypes}
-          />
-          <FilterDropdown
-            label={t('sort.batch')}
-            options={allBatches}
-            selected={selectedBatches}
-            onChange={setSelectedBatches}
-          />
-          <FilterDropdown
-            label="Tier"
-            options={allTiers}
-            selected={selectedTiers}
-            onChange={setSelectedTiers}
-          />
-          <FilterDropdown
-            label={t('partsDatabase.spin')}
-            options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-            selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
-            onChange={(selected) =>
-              setSelectedSpins(
-                selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
-              )
-            }
-          />
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+            <SearchInput value={query} onChange={setQuery} />
+            <SortSelect value={sortBy} onChange={setSortBy} />
+          </div>
+          <div className="flex flex-wrap gap-3 lg:justify-end">
+            <FilterDropdown
+              label={t('sort.type')}
+              options={allTypes}
+              selected={selectedTypes}
+              onChange={setSelectedTypes}
+            />
+            <FilterDropdown
+              label={t('sort.batch')}
+              options={allBatches}
+              selected={selectedBatches}
+              onChange={setSelectedBatches}
+            />
+            <FilterDropdown
+              label="Tier"
+              options={allTiers}
+              selected={selectedTiers}
+              onChange={setSelectedTiers}
+            />
+            <FilterDropdown
+              label={t('partsDatabase.spin')}
+              options={allSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+              selected={selectedSpins.map((s) => (s === 'both' ? 'R/L' : s === 'right' ? 'R' : 'L'))}
+              onChange={(selected) =>
+                setSelectedSpins(
+                  selected.map((s) => (s === 'R/L' ? 'both' : s === 'R' ? 'right' : 'left'))
+                )
+              }
+            />
+          </div>
         </div>
       </div>
 

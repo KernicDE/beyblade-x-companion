@@ -6,7 +6,7 @@
     "home": "Startseite",
     "beys": "Beys",
     "parts": "Teile",
-    "configurator": "Konfigurator",
+    "configurator": "Builder",
     "profile": "Mein Profil"
   },
   "theme": {
@@ -22,6 +22,7 @@
     "activeFilters": "Aktive Filter"
   },
   "sort": {
+    "label": "Sortieren nach",
     "name": "Name",
     "releaseDate": "Release",
     "type": "Typ",
@@ -35,13 +36,13 @@
   "home": {
     "tagline": "Durchsuche offizielle Beys und Teile, baue eigene Kombinationen und teile deine Kreationen — alles offline im Browser.",
     "browseBeys": "Beys durchsuchen",
-    "openConfigurator": "Konfigurator öffnen",
+    "openConfigurator": "Builder öffnen",
     "cards": {
       "beyDatabase": "Bey-Datenbank",
       "beyDatabaseDesc": "Offizielle Factory-Combos",
       "partsDatabase": "Teile-Datenbank",
       "partsDatabaseDesc": "Blades, Ratchets, Bits, Launcher",
-      "configurator": "Konfigurator",
+      "configurator": "Builder",
       "configuratorDesc": "Teile kombinieren",
       "myProfile": "Mein Profil",
       "myProfileDesc": "Gespeicherte Kreationen"
@@ -98,7 +99,7 @@
     "communityRatings": "Community-Bewertungen"
   },
   "configurator": {
-    "title": "Konfigurator",
+    "title": "Builder",
     "resultingRatings": "Ergebnis-Bewertungen",
     "saveCreation": "Kreation speichern",
     "name": "Name",
@@ -112,7 +113,7 @@
     "exportProfile": "Profil exportieren",
     "exportCopied": "Profil-Export-Link in die Zwischenablage kopiert.",
     "shareCopied": "Teilen-Link in die Zwischenablage kopiert.",
-    "noCreations": "Noch keine gespeicherten Kreationen. Baue eine im Konfigurator.",
+    "noCreations": "Noch keine gespeicherten Kreationen. Baue eine im Builder.",
     "edit": "Bearbeiten",
     "duplicate": "Duplizieren",
     "share": "Teilen",
