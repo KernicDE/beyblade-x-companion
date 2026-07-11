@@ -435,23 +435,23 @@ Siehe `docs/manual-review-instructions.md`. Diese Datei wird alle 5 Beys neu gel
   - [x] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
   - [x] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
   - [x] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **MeteorDragoon 3-70J** (Takara Tomy) – `meteor-dragoon3-70j-ux-17` (in_progress)
-  - [ ] Blade: Meteor Dragoon (Takara Tomy) – `meteor-dragoon`
-  - [ ] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
-  - [ ] Bit: Jolt (Takara Tomy) – `bit-jolt`
-- [ ] **MummyCurse 7-55W** (Takara Tomy) – `mummy-curse7-55w-ux-18-01`
-  - [ ] Blade: Mummy Curse (Takara Tomy) – `mummy-curse`
-  - [ ] Ratchet: 7-55 (Takara Tomy) – `ratchet-7-55`
-  - [ ] Bit: Wedge (Takara Tomy) – `bit-wedge`
-- [ ] **MummyCurse 4-60C** (Takara Tomy) – `mummy-curse4-60c-ux-18-02`
-  - [ ] Blade: Mummy Curse (Takara Tomy) – `mummy-curse`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Cyclone (Takara Tomy) – `bit-cyclone`
-- [ ] **PegasusBrush M3-85W** (Takara Tomy) – `pegasus-brush-m3-85w-ux-18-03`
-  - [ ] Blade: PegasusBrush (Takara Tomy) – `pegasus-brush`
-  - [ ] Assist Blade: Massive (Takara Tomy) – `massive`
-  - [ ] Ratchet: 3-85 (Takara Tomy) – `ratchet-3-85`
-  - [ ] Bit: Wedge (Takara Tomy) – `bit-wedge`
+- [x] **MeteorDragoon 3-70J** (Takara Tomy) – `meteor-dragoon3-70j-ux-17`
+  - [x] Blade: Meteor Dragoon (Takara Tomy) – `meteor-dragoon`
+  - [x] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
+  - [x] Bit: Jolt (Takara Tomy) – `bit-jolt`
+- [x] **MummyCurse 7-55W** (Takara Tomy) – `mummy-curse7-55w-ux-18-01`
+  - [x] Blade: Mummy Curse (Takara Tomy) – `mummy-curse`
+  - [x] Ratchet: 7-55 (Takara Tomy) – `ratchet-7-55`
+  - [x] Bit: Wedge (Takara Tomy) – `bit-wedge`
+- [x] **MummyCurse 4-60C** (Takara Tomy) – `mummy-curse4-60c-ux-18-02`
+  - [x] Blade: Mummy Curse (Takara Tomy) – `mummy-curse`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Cyclone (Takara Tomy) – `bit-cyclone`
+- [x] **PegasusBrush M3-85W** (Takara Tomy) – `pegasus-brush-m3-85w-ux-18-03`
+  - [x] Blade: PegasusBrush (Takara Tomy) – `pegasus-brush`
+  - [x] Assist Blade: Massive (Takara Tomy) – `massive`
+  - [x] Ratchet: 3-85 (Takara Tomy) – `ratchet-3-85`
+  - [x] Bit: Wedge (Takara Tomy) – `bit-wedge`
 - [ ] **SolBrave C9-70TP** (Takara Tomy) – `sol-brave-c9-70tp-ux-18-04`
   - [ ] Blade: SolBrave (Takara Tomy) – `sol-brave`
   - [ ] Assist Blade: Charge (Takara Tomy) – `charge`

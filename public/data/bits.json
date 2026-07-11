@@ -1058,29 +1058,30 @@
     "name": "Wedge",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-wedge.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-03",
     "description": {
-      "en": "The Wedge Bit.",
-      "de": "Der Wedge-Bit."
+      "en": "Wedge is a right-spin Defense Type Bit from the Custom Line that debuted with PerseusDark B6-80W. It features a low-angle conical tip that produces high stamina for a Defense Bit, along with ten gear teeth instead of the usual twelve. The reduced gear count slows Xtreme Dash acceleration but also lowers stamina loss during X-Line contact.",
+      "de": "Wedge ist ein rechtsdrehender Defense-Type-Bit aus der Custom Line, der mit PerseusDark B6-80W debütierte. Er verfügt über eine flachwinklige konische Spitze, die für einen Defense-Bit eine hohe Ausdauer erzeugt, sowie über zehn Zahnradzähne statt der üblichen zwölf. Die reduzierte Zahnzahl verlangsamt die Xtreme-Dash-Beschleunigung, senkt aber auch den Ausdauerverlust bei X-Line-Kontakt."
     },
     "assessment": {
-      "en": "Wedge is a right-spin Defense Type Bit. Weight: 1.8g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Wedge ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 1.8g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Wedge behaves more like a stamina-leaning Defense Bit than a pure wall. Beyblade Wiki notes that the conical tip lets it outspin Needle and High Needle in defensive matchups, while the low angle still provides decent stability. The trade-off is reduced KO resistance: the pointy tip is easier to knock off balance than Ball or Orb, and Wedge combos tilt earlier than Ball-based ones. It is best on round, low-center-of-gravity Blades that want to outlast rather than repel opponents.",
+      "de": "Wedge verhält sich eher wie ein ausdauerlastiger Defense-Bit als eine reine Mauer. Das Beyblade Wiki vermerkt, dass die konische Spitze ihn in defensiven Match-ups gegen Needle und High Needle ausdrehen lässt, während der flache Winkel immer noch eine anständige Stabilität bietet. Die Abwägung ist eine geringere KO-Resistenz: Die spitze Spitze ist leichter aus dem Gleichgewicht zu bringen als Ball oder Orb, und Wedge-Combos kippen früher als Ball-basierte. Am besten auf runden, niedrigschwerpunktigen Blades, die Gegner überdauern statt zurückzustoßen wollen."
     },
     "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 1.8,
+      "heightMm": 29.5,
+      "weightGrams": 2.2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
       "attack": 0.5,
-      "defense": 4.6,
-      "stamina": 2.3,
+      "defense": 4,
+      "stamina": 3,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-wedge-hasbro",
@@ -1088,29 +1089,30 @@
     "name": "Wedge",
     "manufacturer": "Hasbro",
     "imageUrl": "images/bits/bit-wedge-hasbro.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2025-03-29",
+    "releaseWave": "CX-03",
     "description": {
-      "en": "The Wedge Bit.",
-      "de": "Der Wedge-Bit."
+      "en": "Wedge is a right-spin Defense Type Bit from the Custom Line that debuted with PerseusDark B6-80W. It features a low-angle conical tip that produces high stamina for a Defense Bit, along with ten gear teeth instead of the usual twelve. The reduced gear count slows Xtreme Dash acceleration but also lowers stamina loss during X-Line contact.",
+      "de": "Wedge ist ein rechtsdrehender Defense-Type-Bit aus der Custom Line, der mit PerseusDark B6-80W debütierte. Er verfügt über eine flachwinklige konische Spitze, die für einen Defense-Bit eine hohe Ausdauer erzeugt, sowie über zehn Zahnradzähne statt der üblichen zwölf. Die reduzierte Zahnzahl verlangsamt die Xtreme-Dash-Beschleunigung, senkt aber auch den Ausdauerverlust bei X-Line-Kontakt."
     },
     "assessment": {
-      "en": "Wedge is a right-spin Defense Type Bit. Weight: 1.8g. Height: 2mm. Manufactured by Hasbro.",
-      "de": "Wedge ist ein rechtsdrehender Defense-Typ Bit. Gewicht: 1,8 g. Höhe: 2 mm. Hergestellt von Hasbro."
+      "en": "Wedge behaves more like a stamina-leaning Defense Bit than a pure wall. Beyblade Wiki notes that the conical tip lets it outspin Needle and High Needle in defensive matchups, while the low angle still provides decent stability. The trade-off is reduced KO resistance: the pointy tip is easier to knock off balance than Ball or Orb, and Wedge combos tilt earlier than Ball-based ones. It is best on round, low-center-of-gravity Blades that want to outlast rather than repel opponents.",
+      "de": "Wedge verhält sich eher wie ein ausdauerlastiger Defense-Bit als eine reine Mauer. Das Beyblade Wiki vermerkt, dass die konische Spitze ihn in defensiven Match-ups gegen Needle und High Needle ausdrehen lässt, während der flache Winkel immer noch eine anständige Stabilität bietet. Die Abwägung ist eine geringere KO-Resistenz: Die spitze Spitze ist leichter aus dem Gleichgewicht zu bringen als Ball oder Orb, und Wedge-Combos kippen früher als Ball-basierte. Am besten auf runden, niedrigschwerpunktigen Blades, die Gegner überdauern statt zurückzustoßen wollen."
     },
     "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 1.8,
+      "heightMm": 29.5,
+      "weightGrams": 2.2,
       "typeTag": "Defense",
       "spinDirection": "right"
     },
     "ratings": {
       "attack": 0.5,
-      "defense": 4.6,
-      "stamina": 2.3,
+      "defense": 4,
+      "stamina": 3,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-kick",
@@ -1331,29 +1333,30 @@
     "name": "Jolt",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/bits/bit-jolt.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-17",
     "description": {
-      "en": "The Jolt Bit.",
-      "de": "Der Jolt-Bit."
+      "en": "Jolt is a left-spin Attack Type Bit from the Unique Line that debuted with MeteorDragoon 3-70J. It uses a flat, thin tip with a center indentation and 16 gear teeth instead of the usual 12, producing faster Xtreme Dash acceleration than standard Attack Bits. The tip shape creates aggressive early movement but transitions into a more conservative circular pattern once the initial rush fades.",
+      "de": "Jolt ist ein linksdrehender Attack-Type-Bit aus der Unique Line, der mit MeteorDragoon 3-70J debütierte. Er nutzt eine flache, dünne Spitze mit einer Mittelvertiefung und 16 Zahnradzähnen statt der üblichen 12, was eine schnellere Xtreme-Dash-Beschleunigung als Standard-Attack-Bits erzeugt. Die Spitzenform sorgt für aggressives frühes Movement, wechselt aber zu einem konservativeren Kreismuster, sobald der initiale Rush nachlässt."
     },
     "assessment": {
-      "en": "Jolt is a right-spin Attack Type Bit. Weight: 2.6g. Height: 2mm. Manufactured by Takara Tomy.",
-      "de": "Jolt ist ein rechtsdrehender Attack-Typ Bit. Gewicht: 2.6g. Höhe: 2mm. Hergestellt von Takara Tomy."
+      "en": "Jolt's 16 gears make Xtreme Dashes noticeably faster, but the thin indented tip trades stability and KO resistance for that speed. Beyblade Wiki notes that after a few attacks it settles into a circular pattern around the center, where the indented tip actually recovers some stamina. The result is a Bit that feels like a hybrid between Rush and Level: explosive early on, then evasive, but never quite as reliable as either dedicated option. Ratings are based on community data.",
+      "de": "Jolts 16 Zahnräder machen Xtreme Dashes spürbar schneller, aber die dünne vertiefte Spitze tauscht Stabilität und KO-Resistenz gegen diese Geschwindigkeit ein. Das Beyblade Wiki vermerkt, dass er nach einigen Attacken in ein Kreismuster in der Mitte übergeht, wo die vertiefte Spitze tatsächlich etwas Ausdauer zurückgewinnt. Das Ergebnis ist ein Bit, der sich wie ein Hybrid aus Rush und Level anfühlt: anfangs explosiv, dann ausweichend, aber nie ganz so zuverlässig wie eine der beiden dedizierten Optionen. Die Bewertungen basieren auf Community-Daten."
     },
     "officialStats": {
-      "heightMm": 2,
-      "weightGrams": 2.6,
+      "heightMm": 29.5,
+      "weightGrams": 2.5,
       "typeTag": "Attack",
-      "spinDirection": "right"
+      "spinDirection": "left"
     },
     "ratings": {
-      "attack": 3.2,
-      "defense": 0.8,
-      "stamina": 1.2,
-      "balance": 1.7
+      "attack": 4.5,
+      "defense": 1,
+      "stamina": 2,
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-wall-wedge",

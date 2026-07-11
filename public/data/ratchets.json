@@ -544,15 +544,15 @@
     "name": "3-85",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-3-85.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2024-11-02",
+    "releaseWave": "UX-10",
     "description": {
-      "en": "3-85 is a right-spin Ratchet from the Unique Line. It has three small protrusions at an 8.5 mm height and uses a Simple Type O-joint that snaps directly onto the Blade.",
-      "de": "3-85 ist ein rechtsdrehender Ratchet aus der Unique Line. Er besitzt drei kleine Protrusionen in einer Höhe von 8,5 mm und verwendet einen Simple-Type-O-Joint, der direkt auf den Blade schnappt."
+      "en": "3-85 is a right-spin Simple Type Ratchet from the Unique Line with three small protrusions at an 8.5 mm height. It debuted with KnightMail 3-85BS and uses an O-shaped joint that snaps directly onto compatible Blades. At just 4.7g it is one of the lightest Ratchets in the game, trading weight and burst resistance for extreme height and unique attack angles.",
+      "de": "3-85 ist ein rechtsdrehendes Simple-Type-Ratchet aus der Unique Line mit drei kleinen Protrusionen in einer Höhe von 8,5 mm. Es debütierte mit KnightMail 3-85BS und nutzt einen O-förmigen Joint, der direkt auf kompatible Blades schnappt. Mit nur 4,7g ist es eines der leichtesten Ratchets im Spiel und tauscht Gewicht und Burst-Resistenz gegen extreme Höhe und einzigartige Angriffswinkel ein."
     },
     "assessment": {
-      "en": "3-85 is the tallest Ratchet in the early Unique Line lineup and one of the lightest at just 4.7 g. Its extreme height opens up Upper and Lower Attack angles, yet it also exposes the Ratchet to direct hits and noticeably weakens Burst resistance. On Defense combos like KnightMail it exaggerates vulnerability rather than providing stability, while on aggressive customizations the height can be an asset. It is a specialized part: useful for experimentation, risky as a default choice.",
-      "de": "3-85 ist der höchste Ratchet im frühen Unique-Line-Sortiment und mit nur 4,7 g einer der leichtesten. Seine extreme Höhe ermöglicht Upper- und Lower-Attack-Winkel, macht den Ratchet aber auch direkten Treffern ausgesetzt und schwächt die Burst-Resistenz spürbar. Bei Defense-Combos wie KnightMail vergrößert er die Verwundbarkeit anstatt Stabilität zu bieten, während er bei aggressiven Customizations die Höhe als Vorteil nutzen kann. Er ist ein spezialisiertes Teil: nützlich zum Experimentieren, riskant als Standardwahl."
+      "en": "3-85 is the tallest Ratchet in the early Unique Line and a specialized part. Its 8.5mm height opens up Upper and Lower Attack angles that shorter Ratchets cannot reach, but the light O-joint weakens burst resistance and the exposed shaft becomes a target for aggressive opponents. It works best on tall Blades that benefit from the height or on experimental combos where reaching over opponents matters more than surviving direct hits. Use it with caution as a default Ratchet.",
+      "de": "3-85 ist das höchste Ratchet im frühen Unique Line und ein spezialisiertes Teil. Seine 8,5-mm-Höhe ermöglicht Upper- und Lower-Attack-Winkel, die kürzere Ratchets nicht erreichen können, aber der leichte O-Joint schwächt die Burst-Resistenz und der exponierte Schaft wird zum Ziel aggressiver Gegner. Es funktioniert am besten auf hohen Blades, die von der Höhe profitieren, oder in experimentellen Combos, bei denen das Erreichen über Gegner wichtiger ist als das Überleben direkter Treffer. Vorsicht als Standard-Ratchet einsetzen."
     },
     "officialStats": {
       "heightMm": 85,
@@ -560,10 +560,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 3.9,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 1.5,
+      "defense": 4,
+      "stamina": 3,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "estimated"
@@ -960,28 +960,29 @@
     "name": "7-55",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/ratchets/ratchet-7-55.png",
-    "releaseDate": "",
-    "releaseWave": "BX",
+    "releaseDate": "2025-12-27",
+    "releaseWave": "UX-18",
     "description": {
-      "en": "The 7-55 Ratchet.",
-      "de": "Das 7-55-Ratchet."
+      "en": "7-55 is a low right-spin Simple Type Ratchet with seven identical protrusions arranged around a 5.5mm profile. Unlike the single-protrusion 7-60, its circular footprint makes it harder for opponents to strike cleanly. It uses an O-shaped lock, making it lighter than standard-lock Ratchets, and debuted as part of the UX-18 Random Booster Vol. 8.",
+      "de": "7-55 ist ein niedriges, rechtsdrehendes Simple-Type-Ratchet mit sieben identischen Protrusions um ein 5,5-mm-Profil. Im Gegensatz zum Einzel-Protrusion-7-60 ist seine kreisförmige Aufstandsfläche für Gegner schwieriger sauber zu treffen. Es nutzt einen O-förmigen Lock und ist dadurch leichter als Standard-Lock-Ratchets; es debütierte im UX-18 Random Booster Vol. 8."
     },
     "assessment": {
-      "en": "7-55 is a right-spin Balance Type Ratchet. Weight: 5.2g. Height: 55mm. Manufactured by Takara Tomy.",
-      "de": "7-55 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 5.2g. Höhe: 55mm. Hergestellt von Takara Tomy."
+      "en": "7-55 is the first intermediate-height Ratchet in the 7-series and a genuine utility piece. Beyblade Wiki found that the O-lock does not improve burst resistance as advertised, but the low 5.5mm height and circular shape make the combo surprisingly hard to burst in practice. Its standout use is lowering tall Blades like Clock Mirage to reduce their burst vulnerability while preserving stamina, as in the Clock Mirage 7-55 Low Orb combo. It is also light enough to pair with Stamina builds without dragging them down. A strong addition for competitive experimentation.",
+      "de": "7-55 ist das erste Intermediate-Height-Ratchet der 7er-Reihe und ein echtes Utility-Teil. Das Beyblade Wiki stellte fest, dass der O-Lock die Burst-Resistenz nicht wie beworben verbessert, aber die niedrige 5,5-mm-Höhe und die kreisförmige Form machen den Combo in der Praxis überraschend schwer zu bursten. Sein herausragender Einsatzzweck ist das Absenken hoher Blades wie Clock Mirage, um deren Burst-Anfälligkeit zu reduzieren und gleichzeitig Stamina zu erhalten, wie im Combo Clock Mirage 7-55 Low Orb. Es ist auch leicht genug, um Stamina-Builds nicht auszubremsen. Eine starke Ergänzung für kompetitives Experimentieren."
     },
     "officialStats": {
       "heightMm": 55,
-      "weightGrams": 5.2,
+      "weightGrams": 5.3,
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.7,
-      "defense": 3.7,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 2,
+      "defense": 3.5,
+      "stamina": 3.5,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-1-50",

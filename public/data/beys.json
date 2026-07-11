@@ -2224,14 +2224,19 @@
     "name": "MeteorDragoon 3-70J",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/beys/meteor-dragoon3-70j-ux-17.png",
-    "releaseDate": "2025-05-17",
+    "releaseDate": "2025-12-27",
     "releaseWave": "UX-17",
     "bladeId": "meteor-dragoon",
     "ratchetId": "ratchet-3-70",
     "bitId": "bit-jolt",
+    "prices": {
+      "jpy": 2300,
+      "usd": 17,
+      "eur": 15
+    },
     "assessment": {
-      "en": "Released as the UX-17 Starter on December 27, 2025, MeteorDragoon 3-70J is a left-spin Attack type built around a 39 g MeteorDragoon Blade with a large rubber jaw. The rubber contact point absorbs spin from right-spin opponents and sets up powerful One Hit Kill strikes. Takara Tomy distributes the Blade's metal toward the outer edge to boost attack power, while the included Dragon Winder and Winder Launcher L support strong left-spin launches. The combo is heavy and hard-hitting, though the unbalanced design can be inconsistent.",
-      "de": "Als UX-17-Starter am 27. Dezember 2025 erschienen, ist MeteorDragoon 3-70J ein linksdrehender Attack-Typ um ein 39 g schweres MeteorDragoon-Blade mit großem Gummikiefer. Der Gummi-Kontaktpunkt absorbiert Spin von rechtsdrehenden Gegnern und bereitet mächtige One-Hit-Kill-Schläge vor. Takara Tomy verteilt das Metall des Blades zum Außenrand, um die Angriffskraft zu erhöhen; der beigefügte Dragon-Winder und Winder-Launcher L ermöglichen starke Linksdreh-Launches. Die Kombi ist schwer und hart schlagend, aber das unausgewogene Design kann inkonsistent sein."
+      "en": "The UX-17 Starter, released on December 27, 2025, is a 48.05 g left-spin Attack Bey built around the MeteorDragoon Blade. The rubber jaw on the Blade steals spin from right-spin opponents and lines up heavy counter-attacks, while the 3-70 Ratchet and Jolt Bit keep the combo mobile enough to chase opponents down. It is a hard-hitting, visually striking package, though the asymmetric Blade and Jolt's unstable late-game movement make it less consistent than top-tier Attack options.",
+      "de": "Der UX-17-Starter vom 27. Dezember 2025 ist ein 48,05 g schwerer linksdrehender Attack-Bey um das MeteorDragoon-Blade. Der Gummikiefer am Blade stiehlt rechtsdrehenden Gegnern Spin und liefert schwere Gegenangriffe, während das 3-70-Ratchet und der Jolt-Bit dem Combo genug Mobilität verleihen, um Gegner zu verfolgen. Es ist ein hart schlagendes, optisch auffälliges Paket, obwohl das asymmetrische Blade und Jolts instabiles Endspiel-Movement es weniger konsistent machen als Top-Attack-Optionen."
     }
   },
   {
@@ -2244,6 +2249,11 @@
     "bladeId": "mummy-curse",
     "ratchetId": "ratchet-7-55",
     "bitId": "bit-wedge",
+    "prices": {
+      "jpy": 1600,
+      "usd": 11,
+      "eur": 10
+    },
     "assessment": {
       "en": "The bronze prize Bey of Random Booster Vol. 8 (UX-18, December 27, 2025), MummyCurse 7-55W is a 44.65 g right-spin Defense type. Its four-sided MummyCurse Blade switches between Counter Form at high RPM, extending plastic counter blades to repel attackers, and Guard Form at lower RPM for pure defense. The O-type-lock 7-55 Ratchet and Wedge bit add stamina and a stable center position, making it the most sought-after defensive pull of the set.",
       "de": "Der bronzefarbene Prize-Bey des Random Booster Vol. 8 (UX-18, 27. Dezember 2025), MummyCurse 7-55W, ist ein 44,65 g schwerer Rechtsdreh-Defense-Typ. Das vierseitige MummyCurse-Blade wechselt bei hohen Umdrehungen in die Counter Form, bei der Kunststoff-Gegenangriffsklingen ausfahren, und bei niedrigeren Umdrehungen in die Guard Form für reine Verteidigung. Das 7-55-Ratchet mit O-Lock und das Wedge-Bit sorgen für Stamina und eine stabile Mittelposition, was ihn zur begehrtesten Defensiv-Ziehung des Sets macht."
@@ -2259,6 +2269,11 @@
     "bladeId": "mummy-curse",
     "ratchetId": "ratchet-4-60",
     "bitId": "bit-cyclone",
+    "prices": {
+      "jpy": 1600,
+      "usd": 11,
+      "eur": 10
+    },
     "assessment": {
       "en": "A green Attack-type variant of MummyCurse from Random Booster Vol. 8 (UX-18, December 27, 2025), weighing 45.66 g. It uses the same mode-changing MummyCurse Blade—Counter Form at high RPM, Guard Form at low RPM—but mounts it on a lower 4-60 Ratchet and an aggressive Cyclone bit. The result is a hybrid that can surprise opponents with counterattacks while pressing forward, though the defensive-oriented Blade limits pure attack consistency.",
       "de": "Eine grüne Attack-Variante von MummyCurse aus dem Random Booster Vol. 8 (UX-18, 27. Dezember 2025) mit 45,66 g Gewicht. Sie nutzt dasselbe moduswechselnde MummyCurse-Blade – Counter Form bei hohen Umdrehungen, Guard Form bei niedrigen –, montiert jedoch auf einem niedrigeren 4-60-Ratchet und einem aggressiven Cyclone-Bit. Das Ergebnis ist ein Hybrid, der Gegner mit Gegenangriffen überraschen und gleichzeitig offensiv drängen kann, wobei das defensiv ausgelegte Blade die reine Attack-Konsistenz begrenzt."
@@ -2275,9 +2290,14 @@
     "assistBladeId": "massive",
     "ratchetId": "ratchet-3-85",
     "bitId": "bit-wedge",
+    "prices": {
+      "jpy": 1600,
+      "usd": 11,
+      "eur": 10
+    },
     "assessment": {
-      "en": "PegasusBrush M3-85W is a right-spin Defense type from Random Booster Vol. 8 (UX-18, December 27, 2025). It combines the lightweight Brush main Blade with the Massive Assist Blade, a tall 3-85 Ratchet and a Wedge bit. The Custom Line setup favors stability and centering over raw knockout resistance; the 8.5 mm height is unusual for a defensive combo and can expose the Ratchet to upper attacks, making it more of a collector-oriented configuration than a meta defender.",
-      "de": "PegasusBrush M3-85W ist ein rechtsdrehender Defense-Typ aus dem Random Booster Vol. 8 (UX-18, 27. Dezember 2025). Er kombiniert das leichte Brush-Main-Blade mit dem Massive-Assist-Blade, einem hohen 3-85-Ratchet und einem Wedge-Bit. Das Custom-Line-Setup setzt auf Stabilität und Zentrierung statt auf reine Knockout-Resistenz; die 8,5 mm Höhe ist ungewöhnlich für einen Defensiv-Combo und kann das Ratchet für Upper-Attacken exponieren, was ihn eher zu einer sammlerfreundlichen Konfiguration als zu einem Meta-Defender macht."
+      "en": "PegasusBrush M3-85W is a 43.79g right-spin Defense type from Random Booster Vol. 8 (UX-18, December 27, 2025). The lightweight Brush Main Blade and rounded Massive Assist Blade are an odd couple: the combo favors stability and centering over raw knockout resistance, while the tall 3-85 Ratchet and Wedge bit add stamina. The 8.5mm height is unusual for a defensive setup and exposes the Ratchet to upper attacks, making this more of a collector-oriented or experimental configuration than a meta defender.",
+      "de": "PegasusBrush M3-85W ist ein 43,79g schwerer rechtsdrehender Defense-Typ aus dem Random Booster Vol. 8 (UX-18, 27. Dezember 2025). Der leichte Brush-Main-Blade und der runde Massive-Assist-Blade sind ein ungewöhnliches Paar: Das Combo setzt auf Stabilität und Zentrierung statt auf reine Knockout-Resistenz, während das hohe 3-85-Ratchet und das Wedge-Bit Ausdauer hinzufügen. Die 8,5-mm-Höhe ist ungewöhnlich für einen defensiven Aufbau und exponiert das Ratchet für Upper-Attacken, was diesen eher zu einer sammlerorientierten oder experimentellen Konfiguration als zu einem Meta-Defender macht."
     }
   },
   {

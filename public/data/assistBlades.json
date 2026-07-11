@@ -276,15 +276,15 @@
     "name": "Massive",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/assist-blades/massive.png",
-    "releaseDate": "",
-    "releaseWave": "CX",
+    "releaseDate": "2025-07-19",
+    "releaseWave": "CX-08",
     "description": {
-      "en": "The Massive Assist Blade.",
-      "de": "Das Massive-Assist-Blade."
+      "en": "Massive is a right-spin Balance Type Assist Blade from the Custom Line. It debuted in the CX-08 Random Booster Vol. 7 as part of WhaleFlame M3-85HT and was later reused in PegasusBrush M3-85W. Its 5.3g weight and 60mm height give it a mid-sized, rounded profile designed to add stability and contact surface without dominating the combo's behavior.",
+      "de": "Massive ist ein rechtsdrehender Balance-Type-Assist-Blade aus der Custom Line. Es debütierte im CX-08 Random Booster Vol. 7 als Teil von WhaleFlame M3-85HT und wurde später in PegasusBrush M3-85W wiederverwendet. Sein 5,3g-Gewicht und seine 60mm Höhe verleihen ihm ein mittelgroßes, rundes Profil, das Stabilität und Kontaktfläche hinzufügen soll, ohne das Verhalten des Combos zu dominieren."
     },
     "assessment": {
-      "en": "Massive is a right-spin Balance Type Assist Blade. Weight: 5.3g. Height: 60mm. Manufactured by Takara Tomy.",
-      "de": "Massive ist ein rechtsdrehender Balance-Typ Assist Blade. Gewicht: 5.3g. Höhe: 60mm. Hergestellt von Takara Tomy."
+      "en": "Massive sits in the middle of the Assist Blade spectrum: not as aggressive as Jaggy or Assault, not as defensive as Bumper or Wheel. Its rounded shape adds a small amount of stability and extra contact points, but the 5.3g weight is too light to turn a combo defensive on its own. It pairs best with lightweight Main Blades like Brush, where it can round out the contact profile without dragging down speed. No deep community testing is available, so ratings are estimated from its stats and role.",
+      "de": "Massive sitzt in der Mitte des Assist-Blade-Spektrums: nicht so aggressiv wie Jaggy oder Assault, nicht so defensiv wie Bumper oder Wheel. Seine runde Form fügt eine kleine Menge Stabilität und zusätzliche Kontaktpunkte hinzu, aber das 5,3g-Gewicht ist zu leicht, um ein Combo allein defensiv zu machen. Es harmoniert am besten mit leichten Main Blades wie Brush, wo es das Kontaktprofil abrunden kann, ohne die Geschwindigkeit zu bremsen. Da keine tiefgreifenden Community-Tests verfügbar sind, sind die Bewertungen anhand seiner Werte und Rolle geschätzt."
     },
     "officialStats": {
       "weightGrams": 5.3,
@@ -298,7 +298,8 @@
       "stamina": 2,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "dual-u",
