@@ -185,15 +185,15 @@
     "name": "Jaggy",
     "manufacturer": "Takara Tomy",
     "imageUrl": "images/assist-blades/jaggy.png",
-    "releaseDate": "",
-    "releaseWave": "CX",
+    "releaseDate": "2025-05-17",
+    "releaseWave": "CX-06",
     "description": {
-      "en": "The Jaggy Assist Blade.",
-      "de": "Das Jaggy-Assist-Blade."
+      "en": "Jaggy is a low right-spin Attack Type Assist Blade from the Custom Line. It debuted in the CX-06 Random Booster FoxBrush Select as part of Fox Brush J9-70GR. At just 50mm tall and 4.9g, it is one of the lighter Assist Blades, built to extend and sharpen the main contact points of an Attack Blade without adding much mass or drag.",
+      "de": "Jaggy ist ein niedriger, rechtsdrehender Attack-Type-Assist-Blade aus der Custom Line. Es debütierte im CX-06 Random Booster FoxBrush Select als Teil von Fox Brush J9-70GR. Mit nur 50mm Höhe und 4,9g gehört es zu den leichteren Assist Blades und wurde entwickelt, um die Hauptkontaktpunkte eines Attack-Blades zu verlängern und zu schärfen, ohne viel Masse oder Widerstand hinzuzufügen."
     },
     "assessment": {
-      "en": "Jaggy is a right-spin Attack Type Assist Blade. Weight: 4.9g. Height: 50mm. Manufactured by Takara Tomy.",
-      "de": "Jaggy ist ein rechtsdrehender Attack-Typ Assist Blade. Gewicht: 4.9g. Höhe: 50mm. Hergestellt von Takara Tomy."
+      "en": "Jaggy's jagged edges sit below the Main Blade and add extra scraping, lifting contact points that help Upper Attack and Xtreme Dash activation. Its light weight keeps the combo fast, but it offers little defensive stability or stamina. It pairs best with aggressive Main Blades that already have strong slopes, such as Brave, where it can turn a smooth upper-attack shape into a more threatening contact profile. BeyBase lists 4.9g and 50mm; ratings follow the Attack Type bias.",
+      "de": "Jaggys gezackte Kanten sitzen unterhalb des Main Blades und fügen zusätzliche schaufelnde, anhebende Kontaktpunkte hinzu, die Upper Attack und Xtreme-Dash-Aktivierung unterstützen. Sein geringes Gewicht hält das Combo schnell, bietet aber kaum defensive Stabilität oder Ausdauer. Es harmoniert am besten mit aggressiven Main Blades, die bereits starke Neigungen aufweisen, wie Brave, wo es eine glatte Upper-Attack-Form in ein bedrohlicheres Kontaktprofil verwandeln kann. BeyBase nennt 4,9g und 50mm; die Bewertungen folgen der Attack-Type-Neigung."
     },
     "officialStats": {
       "weightGrams": 4.9,
@@ -202,12 +202,13 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 3,
+      "attack": 4,
+      "defense": 2.5,
       "stamina": 1,
-      "balance": 2.4
+      "balance": 2
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "assault",

@@ -42,388 +42,400 @@ Siehe `docs/manual-review-instructions.md`. Diese Datei wird alle 5 Beys neu gel
   - [x] Blade: Hells Chain (Takara Tomy) – `hells-chain`
   - [x] Ratchet: 5-60 (Takara Tomy) – `ratchet-5-60`
   - [x] Bit: High Taper (Takara Tomy) – `bit-high-taper`
-- [ ] **Knight Lance 3-60LF** (Takara Tomy) – `knight-lance3-60lf-bx-21`
-  - [ ] Blade: Knight Lance (Takara Tomy) – `knight-lance`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
-- [ ] **Wizard Arrow 4-80N** (Takara Tomy) – `wizard-arrow4-80n-bx-21`
-  - [ ] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Needle (Takara Tomy) – `bit-needle`
-- [ ] **Rhino Horn 3-80S** (Takara Tomy) – `rhino-horn3-80s-bx-19`
-  - [ ] Blade: Rhino Horn (Takara Tomy) – `rhino-horn`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Spike (Takara Tomy) – `bit-spike`
-- [ ] **PhoenixFeather 3-60F** (Takara Tomy) – `phoenix-feather3-60f-bx-00`
-  - [ ] Blade: Phoenix Feather (Takara Tomy) – `phoenix-feather`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **WyvernGale 2-60S** (Takara Tomy) – `wyvern-gale2-60s-bx-14`
-  - [ ] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
-  - [ ] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
-  - [ ] Bit: Spike (Takara Tomy) – `bit-spike`
-- [ ] **UnicornSting 5-60GP** (Takara Tomy) – `unicorn-sting5-60gp-bx-26`
-  - [ ] Blade: Unicorn Sting (Takara Tomy) – `unicorn-sting`
-  - [ ] Ratchet: 5-60 (Takara Tomy) – `ratchet-5-60`
-  - [ ] Bit: Gear Point (Takara Tomy) – `bit-gear-point`
-- [ ] **SphinxCowl 4-80HT** (Takara Tomy) – `sphinx-cowl4-80ht-bx-27`
-  - [ ] Blade: Sphinx Cowl (Takara Tomy) – `sphinx-cowl`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: High Taper (Takara Tomy) – `bit-high-taper`
-- [ ] **ViperTail 5-80O** (Takara Tomy) – `viper-tail5-80o-bx-16`
-  - [ ] Blade: Viper Tail (Takara Tomy) – `viper-tail`
-  - [ ] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
-  - [ ] Bit: Orb (Takara Tomy) – `bit-orb`
-- [ ] **Sword Dran 3-60F** (Hasbro) – `sword-dran3-60f-f9580`
-  - [ ] Blade: Dran Sword (Hasbro) – `dran-sword-hasbro`
-  - [ ] Ratchet: 3-60 (Hasbro) – `ratchet-3-60-hasbro`
-  - [ ] Bit: Flat (Hasbro) – `bit-flat-hasbro`
-- [ ] **Helm Knight 3-80N** (Hasbro) – `helm-knight3-80n-f9581`
-  - [ ] Blade: Knight Shield (Hasbro) – `knight-shield-hasbro`
-  - [ ] Ratchet: 3-80 (Hasbro) – `ratchet-3-80-hasbro`
-  - [ ] Bit: Needle (Hasbro) – `bit-needle-hasbro`
-- [ ] **Arrow Wizard 4-80B** (Hasbro) – `arrow-wizard4-80b-f9582`
-  - [ ] Blade: Wizard Arrow (Hasbro) – `wizard-arrow-hasbro`
-  - [ ] Ratchet: 4-80 (Hasbro) – `ratchet-4-80-hasbro`
-  - [ ] Bit: Ball (Hasbro) – `bit-ball-hasbro`
-- [ ] **Scythe Incendio 4-60T** (Hasbro) – `scythe-incendio4-60t-f9583`
-  - [ ] Blade: Hells Scythe (Hasbro) – `hells-scythe-hasbro`
-  - [ ] Ratchet: 4-60 (Hasbro) – `ratchet-4-60-hasbro`
-  - [ ] Bit: Taper (Hasbro) – `bit-taper-hasbro`
-- [ ] **Steel Samurai 4-80T** (Hasbro) – `steel-samurai4-80t-g0188`
-  - [ ] Blade: Steel Samurai (Hasbro) – `samurai-steel-hasbro`
-  - [ ] Ratchet: 4-80 (Hasbro) – `ratchet-4-80-hasbro`
-  - [ ] Bit: Taper (Hasbro) – `bit-taper-hasbro`
-- [ ] **Horn Rhino 3-80S** (Hasbro) – `horn-rhino3-80s-g0192`
-  - [ ] Blade: Rhino Horn (Hasbro) – `rhino-horn-hasbro`
-  - [ ] Ratchet: 3-80 (Hasbro) – `ratchet-3-80-hasbro`
-  - [ ] Bit: Spike (Hasbro) – `bit-spike-hasbro`
-- [ ] **Keel Shark 3-60LF** (Hasbro) – `keel-shark3-60lf-g0194`
-  - [ ] Blade: Shark Edge (Hasbro) – `shark-edge-hasbro`
-  - [ ] Ratchet: 3-60 (Hasbro) – `ratchet-3-60-hasbro`
-  - [ ] Bit: Low Flat (Hasbro) – `bit-low-flat-hasbro`
-- [ ] **Talon Ptera 3-80B** (Hasbro) – `talon-ptera3-80b-g0195`
-  - [ ] Blade: Talon Ptera (Hasbro) – `ptera-swing-hasbro`
-  - [ ] Ratchet: 3-80 (Hasbro) – `ratchet-3-80-hasbro`
-  - [ ] Bit: Ball (Hasbro) – `bit-ball-hasbro`
-- [ ] **WizardArrow 4-80B** (Takara Tomy) – `wizard-arrow4-80b-bx-05`
-  - [ ] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **KnightShield 3-80N** (Takara Tomy) – `knight-shield3-80n-bx-06`
-  - [ ] Blade: Knight Shield (Takara Tomy) – `knight-shield`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Needle (Takara Tomy) – `bit-needle`
-- [ ] **HellsScythe 3-80B** (Takara Tomy) – `hells-scythe3-80b-bx-08`
-  - [ ] Blade: Hells Scythe (Takara Tomy) – `hells-scythe`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **WizardArrow 4-60N** (Takara Tomy) – `wizard-arrow4-60n-bx-08`
-  - [ ] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Needle (Takara Tomy) – `bit-needle`
-- [ ] **KnightShield 4-80T** (Takara Tomy) – `knight-shield4-80t-bx-08`
-  - [ ] Blade: Knight Shield (Takara Tomy) – `knight-shield`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Taper (Takara Tomy) – `bit-taper`
-- [ ] **Shark Edge 3-60LF** (Takara Tomy) – `shark-edge3-60lf-bx-14`
-  - [ ] Blade: Shark Edge (Takara Tomy) – `shark-edge`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
-- [ ] **SharkEdge 4-80N** (Takara Tomy) – `shark-edge4-80n-bx-14`
-  - [ ] Blade: Shark Edge (Takara Tomy) – `shark-edge`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Needle (Takara Tomy) – `bit-needle`
-- [ ] **DranSword 3-80B** (Takara Tomy) – `dran-sword3-80b-bx-14`
-  - [ ] Blade: Dran Sword (Takara Tomy) – `dran-sword`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **HellsScythe 4-80LF** (Takara Tomy) – `hells-scythe4-80lf-bx-14`
-  - [ ] Blade: Hells Scythe (Takara Tomy) – `hells-scythe`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
-- [ ] **KnightShield 4-60LF** (Takara Tomy) – `knight-shield4-60lf-bx-14`
-  - [ ] Blade: Knight Shield (Takara Tomy) – `knight-shield`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
-- [ ] **WizardArrow 3-60T** (Takara Tomy) – `wizard-arrow3-60t-bx-14`
-  - [ ] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Taper (Takara Tomy) – `bit-taper`
-- [ ] **ViperTail 4-60F** (Takara Tomy) – `viper-tail4-60f-bx-16`
-  - [ ] Blade: Viper Tail (Takara Tomy) – `viper-tail`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **ViperTail 3-80HN** (Takara Tomy) – `viper-tail3-80hn-bx-16`
-  - [ ] Blade: Viper Tail (Takara Tomy) – `viper-tail`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: High Needle (Takara Tomy) – `bit-high-needle`
-- [ ] **DranSword 3-60F** (Takara Tomy) – `dran-sword3-60f-bx-17`
-  - [ ] Blade: Dran Sword (Takara Tomy) – `dran-sword`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **WizardArrow 4-80B** (Takara Tomy) – `wizard-arrow4-80b-bx-17`
-  - [ ] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **DranSword 3-60F** (Takara Tomy) – `dran-sword3-60f-bx-22`
-  - [ ] Blade: Dran Sword (Takara Tomy) – `dran-sword`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **Phoenix Wing 9-60GF** (Takara Tomy) – `phoenix-wing9-60gf-bx-23`
-  - [ ] Blade: Phoenix Wing (Takara Tomy) – `phoenix-wing`
-  - [ ] Ratchet: 9-60 (Takara Tomy) – `ratchet-9-60`
-  - [ ] Bit: Gear Flat (Takara Tomy) – `bit-gear-flat`
-- [ ] **Wyvern Gale 5-80GB** (Takara Tomy) – `wyvern-gale5-80gb-bx-24`
-  - [ ] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
-  - [ ] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
-  - [ ] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
-- [ ] **Wyvern Gale 3-60T** (Takara Tomy) – `wyvern-gale3-60t-bx-24`
-  - [ ] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Taper (Takara Tomy) – `bit-taper`
-- [ ] **Knight Lance 4-60GB** (Takara Tomy) – `knight-lance4-60gb-bx-24`
-  - [ ] Blade: Knight Lance (Takara Tomy) – `knight-lance`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
-- [ ] **Viper Tail 5-60F** (Takara Tomy) – `viper-tail5-60f-bx-24`
-  - [ ] Blade: Viper Tail (Takara Tomy) – `viper-tail`
-  - [ ] Ratchet: 5-60 (Takara Tomy) – `ratchet-5-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **Leon Claw 3-80HN** (Takara Tomy) – `leon-claw3-80hn-bx-24`
-  - [ ] Blade: Leon Claw (Takara Tomy) – `leon-claw`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: High Needle (Takara Tomy) – `bit-high-needle`
-- [ ] **Wizard Arrow 4-80GB** (Takara Tomy) – `wizard-arrow4-80gb-bx-24`
-  - [ ] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
-  - [ ] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
-  - [ ] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
-- [ ] **TyrannoBeat 4-70Q** (Takara Tomy) – `tyranno-beat4-70q-bx-31`
-  - [ ] Blade: Tyranno Beat (Takara Tomy) – `tyranno-beat`
-  - [ ] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
-  - [ ] Bit: Quake (Takara Tomy) – `bit-quake`
-- [ ] **TyrannoBeat 3-60S** (Takara Tomy) – `tyranno-beat3-60s-bx-31`
-  - [ ] Blade: Tyranno Beat (Takara Tomy) – `tyranno-beat`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Spike (Takara Tomy) – `bit-spike`
-- [ ] **HellsChain 9-80O** (Takara Tomy) – `hells-chain9-80o-bx-31`
-  - [ ] Blade: Hells Chain (Takara Tomy) – `hells-chain`
-  - [ ] Ratchet: 9-80 (Takara Tomy) – `ratchet-9-80`
-  - [ ] Bit: Orb (Takara Tomy) – `bit-orb`
-- [ ] **DranDagger 4-70P** (Takara Tomy) – `dran-dagger4-70p-bx-31`
-  - [ ] Blade: Dran Dagger (Takara Tomy) – `dran-dagger`
-  - [ ] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
-  - [ ] Bit: Point (Takara Tomy) – `bit-point`
-- [ ] **SharkEdge 1-60Q** (Takara Tomy) – `shark-edge1-60q-bx-31`
-  - [ ] Blade: Shark Edge (Takara Tomy) – `shark-edge`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Quake (Takara Tomy) – `bit-quake`
-- [ ] **RhinoHorn 5-80Q** (Takara Tomy) – `rhino-horn5-80q-bx-31`
-  - [ ] Blade: Rhino Horn (Takara Tomy) – `rhino-horn`
-  - [ ] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
-  - [ ] Bit: Quake (Takara Tomy) – `bit-quake`
-- [ ] **WeissTiger 3-60U** (Takara Tomy) – `weiss-tiger3-60u-bx-33`
-  - [ ] Blade: Weiss Tiger (Takara Tomy) – `weiss-tiger`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Unite (Takara Tomy) – `bit-unite`
-- [ ] **CobaltDragoon 2-60C** (Takara Tomy) – `cobalt-dragoon2-60c-bx-34`
-  - [ ] Blade: Cobalt Dragoon (Takara Tomy) – `cobalt-dragoon`
-  - [ ] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
-  - [ ] Bit: Cyclone (Takara Tomy) – `bit-cyclone`
-- [ ] **BlackShell 4-60D** (Takara Tomy) – `black-shell4-60d-bx-35`
-  - [ ] Blade: Black Shell (Takara Tomy) – `black-shell`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Dot (Takara Tomy) – `bit-dot`
-- [ ] **BlackShell 9-80B** (Takara Tomy) – `black-shell9-80b-bx-35`
-  - [ ] Blade: Black Shell (Takara Tomy) – `black-shell`
-  - [ ] Ratchet: 9-80 (Takara Tomy) – `ratchet-9-80`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **UnicornSting 3-70D** (Takara Tomy) – `unicorn-sting3-70d-bx-35`
-  - [ ] Blade: Unicorn Sting (Takara Tomy) – `unicorn-sting`
-  - [ ] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
-  - [ ] Bit: Dot (Takara Tomy) – `bit-dot`
-- [ ] **WizardRod 1-60R** (Takara Tomy) – `wizard-rod1-60r-bx-35`
-  - [ ] Blade: Wizard Rod (Takara Tomy) – `wizard-rod`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Rush (Takara Tomy) – `bit-rush`
-- [ ] **PhoenixWing 5-80H** (Takara Tomy) – `phoenix-wing5-80h-bx-35`
-  - [ ] Blade: Phoenix Wing (Takara Tomy) – `phoenix-wing`
-  - [ ] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
-  - [ ] Bit: Hexa (Takara Tomy) – `bit-hexa`
-- [ ] **ViperTail 5-70D** (Takara Tomy) – `viper-tail5-70d-bx-35`
-  - [ ] Blade: Viper Tail (Takara Tomy) – `viper-tail`
-  - [ ] Ratchet: 5-70 (Takara Tomy) – `ratchet-5-70`
-  - [ ] Bit: Dot (Takara Tomy) – `bit-dot`
-- [ ] **WhaleWave 5-80E** (Takara Tomy) – `whale-wave5-80e-bx-36`
-  - [ ] Blade: Whale Wave (Takara Tomy) – `whale-wave`
-  - [ ] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
-  - [ ] Bit: Elevate (Takara Tomy) – `bit-elevate`
-- [ ] **WhaleWave 4-70HN** (Takara Tomy) – `whale-wave4-70hn-bx-36`
-  - [ ] Blade: Whale Wave (Takara Tomy) – `whale-wave`
-  - [ ] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
-  - [ ] Bit: High Needle (Takara Tomy) – `bit-high-needle`
-- [ ] **WhaleWave 3-80GB** (Takara Tomy) – `whale-wave3-80gb-bx-36`
-  - [ ] Blade: Whale Wave (Takara Tomy) – `whale-wave`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
-- [ ] **CrimsonGaruda 4-70TP** (Takara Tomy) – `crimson-garuda4-70tp-bx-38`
-  - [ ] Blade: Crimson Garuda (Takara Tomy) – `crimson-garuda`
-  - [ ] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
-  - [ ] Bit: Trans Point (Takara Tomy) – `bit-trans-point`
-- [ ] **ShelterDrake 7-80GP** (Takara Tomy) – `shelter-drake7-80gp-bx-39`
-  - [ ] Blade: Shelter Drake (Takara Tomy) – `shelter-drake`
-  - [ ] Ratchet: 7-80 (Takara Tomy) – `ratchet-7-80`
-  - [ ] Bit: Gear Point (Takara Tomy) – `bit-gear-point`
-- [ ] **ShelterDrake 5-70O** (Takara Tomy) – `shelter-drake5-70o-bx-39`
-  - [ ] Blade: Shelter Drake (Takara Tomy) – `shelter-drake`
-  - [ ] Ratchet: 5-70 (Takara Tomy) – `ratchet-5-70`
-  - [ ] Bit: Orb (Takara Tomy) – `bit-orb`
-- [ ] **ShelterDrake 3-60D** (Takara Tomy) – `shelter-drake3-60d-bx-39`
-  - [ ] Blade: Shelter Drake (Takara Tomy) – `shelter-drake`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Dot (Takara Tomy) – `bit-dot`
-- [ ] **TriceraPress M-85BS** (Takara Tomy) – `tricera-press-m-85bs-bx-44`
-  - [ ] Blade: Tricera Press (Takara Tomy) – `tricera-press`
-  - [ ] Ratchet: M-85 (Takara Tomy) – `ratchet-M-85`
-  - [ ] Bit: Bound Spike (Takara Tomy) – `bit-bound-spike`
-- [ ] **SamuraiCalibur 6-70M** (Takara Tomy) – `samurai-calibur6-70m-bx-45`
-  - [ ] Blade: Samurai Calibur (Takara Tomy) – `samurai-calibur`
-  - [ ] Ratchet: 6-70 (Takara Tomy) – `ratchet-6-70`
-  - [ ] Bit: Merge (Takara Tomy) – `bit-merge`
-- [ ] **DranStrike 4-50FF** (Takara Tomy) – `dran-strike4-50ff-bx-49`
-  - [ ] Blade: DranStrike (Takara Tomy) – `dran-strike`
-  - [ ] Ratchet: 4-50 (Takara Tomy) – `ratchet-4-50`
-  - [ ] Bit: Free Flat (Takara Tomy) – `bit-free-flat`
-- [ ] **CobaltDrake 4-60F** (Takara Tomy) – `cobalt-drake4-60f-bx-00`
-  - [ ] Blade: Cobalt Drake (Takara Tomy) – `cobalt-drake`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **DranzerSpiral 3-80T** (Takara Tomy) – `dranzer-spiral3-80t-bx-00`
-  - [ ] Blade: Dranzer Spiral (Takara Tomy) – `dranzer-spiral`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Taper (Takara Tomy) – `bit-taper`
-- [ ] **Lightning L-Drago 1-60F (Upper Type)** (Takara Tomy) – `lightning-l-drago1-60f-upper-bx-00`
-  - [ ] Blade: L-Drago: Upper (Takara Tomy) – `l-drago-upper`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **Lightning L-Drago 1-60F (Rapid Hit Type)** (Takara Tomy) – `lightning-l-drago1-60f-rapid-hit-bx-00`
-  - [ ] Blade: L-Drago: Rapid Hit (Takara Tomy) – `l-drago-rapid-hit`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **Dragoon Storm 4-60RA** (Takara Tomy) – `dragoon-storm4-60ra-bx-00`
-  - [ ] Blade: Dragoon Storm (Takara Tomy) – `dragoon-storm`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Rubber Accel (Takara Tomy) – `bit-rubber-accel`
-- [ ] **Storm Pegasis 3-70RA** (Takara Tomy) – `storm-pegasis3-70ra-bx-00`
-  - [ ] Blade: Storm Pegasis (Takara Tomy) – `storm-pegasis`
-  - [ ] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
-  - [ ] Bit: Rubber Accel (Takara Tomy) – `bit-rubber-accel`
-- [ ] **Victory Valkyrie 2-60RA** (Takara Tomy) – `victory-valkyrie2-60ra-bx-00`
-  - [ ] Blade: Victory Valkyrie (Takara Tomy) – `victory-valkyrie`
-  - [ ] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
-  - [ ] Bit: Rubber Accel (Takara Tomy) – `bit-rubber-accel`
-- [ ] **DranBuster 1-60A** (Takara Tomy) – `dran-buster1-60a-ux-01`
-  - [ ] Blade: Dran Buster (Takara Tomy) – `dran-buster`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Accel (Takara Tomy) – `bit-accel`
-- [ ] **HellsHammer 3-70H** (Takara Tomy) – `hells-hammer3-70h-ux-02`
-  - [ ] Blade: Hells Hammer (Takara Tomy) – `hells-hammer`
-  - [ ] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
-  - [ ] Bit: Hexa (Takara Tomy) – `bit-hexa`
-- [ ] **WizardRod 5-70DB** (Takara Tomy) – `wizard-rod5-70db-ux-03`
-  - [ ] Blade: Wizard Rod (Takara Tomy) – `wizard-rod`
-  - [ ] Ratchet: 5-70 (Takara Tomy) – `ratchet-5-70`
-  - [ ] Bit: Disk Ball (Takara Tomy) – `bit-disk-ball`
-- [ ] **DranBuster 1-60A (Special Ver.)** (Takara Tomy) – `dran-buster1-60a-ux-04`
-  - [ ] Blade: Dran Buster (Takara Tomy) – `dran-buster`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Accel (Takara Tomy) – `bit-accel`
-- [ ] **ShinobiShadow 9-60LF** (Takara Tomy) – `shinobi-shadow9-60lf-ux-05`
-  - [ ] Blade: Shinobi Shadow (Takara Tomy) – `shinobi-shadow`
-  - [ ] Ratchet: 9-60 (Takara Tomy) – `ratchet-9-60`
-  - [ ] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
-- [ ] **LeonCrest 7-60GN** (Takara Tomy) – `leon-crest7-60gn-ux-06`
-  - [ ] Blade: Leon Crest (Takara Tomy) – `leon-crest`
-  - [ ] Ratchet: 7-60 (Takara Tomy) – `ratchet-7-60`
-  - [ ] Bit: Gear Needle (Takara Tomy) – `bit-gear-needle`
-- [ ] **PhoenixRudder 9-70G** (Takara Tomy) – `phoenix-rudder9-70g-ux-07`
-  - [ ] Blade: Phoenix Rudder (Takara Tomy) – `phoenix-rudder`
-  - [ ] Ratchet: 9-70 (Takara Tomy) – `ratchet-9-70`
-  - [ ] Bit: Glide (Takara Tomy) – `bit-glide`
-- [ ] **SilverWolf 3-80FB** (Takara Tomy) – `silver-wolf3-80fb-ux-08`
-  - [ ] Blade: Silver Wolf (Takara Tomy) – `silver-wolf`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Free Ball (Takara Tomy) – `bit-free-ball`
-- [ ] **SamuraiSaber 2-70L** (Takara Tomy) – `samurai-saber2-70l-ux-09`
-  - [ ] Blade: Samurai Saber (Takara Tomy) – `samurai-saber`
-  - [ ] Ratchet: 2-70 (Takara Tomy) – `ratchet-2-70`
-  - [ ] Bit: Level (Takara Tomy) – `bit-level`
-- [ ] **KnightMail 3-85BS** (Takara Tomy) – `knight-mail3-85bs-ux-10`
-  - [ ] Blade: Knight Mail (Takara Tomy) – `knight-mail`
-  - [ ] Ratchet: 3-85 (Takara Tomy) – `ratchet-3-85`
-  - [ ] Bit: Bound Spike (Takara Tomy) – `bit-bound-spike`
-- [ ] **ImpactDrake 9-60LR** (Takara Tomy) – `impact-drake9-60lr-ux-11`
-  - [ ] Blade: Impact Drake (Takara Tomy) – `impact-drake`
-  - [ ] Ratchet: 9-60 (Takara Tomy) – `ratchet-9-60`
-  - [ ] Bit: Low Rush (Takara Tomy) – `bit-low-rush`
-- [ ] **GhostCircle 0-80GB** (Takara Tomy) – `ghost-circle0-80gb-ux-12-01`
-  - [ ] Blade: Ghost Circle (Takara Tomy) – `ghost-circle`
-  - [ ] Ratchet: 0-80 (Takara Tomy) – `ratchet-0-80`
-  - [ ] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
-- [ ] **GhostCircle 4-60H** (Takara Tomy) – `ghost-circle4-60h-ux-12-02`
-  - [ ] Blade: Ghost Circle (Takara Tomy) – `ghost-circle`
-  - [ ] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
-  - [ ] Bit: Hexa (Takara Tomy) – `bit-hexa`
-- [ ] **ShinobiShadow 3-80F** (Takara Tomy) – `shinobi-shadow3-80f-ux-12-03`
-  - [ ] Blade: Shinobi Shadow (Takara Tomy) – `shinobi-shadow`
-  - [ ] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
-  - [ ] Bit: Flat (Takara Tomy) – `bit-flat`
-- [ ] **LeonClaw 0-80E** (Takara Tomy) – `leon-claw0-80e-ux-12-04`
-  - [ ] Blade: Leon Claw (Takara Tomy) – `leon-claw`
-  - [ ] Ratchet: 0-80 (Takara Tomy) – `ratchet-0-80`
-  - [ ] Bit: Elevate (Takara Tomy) – `bit-elevate`
-- [ ] **PhoenixFeather 2-60N** (Takara Tomy) – `phoenix-feather2-60n-ux-12-05`
-  - [ ] Blade: Phoenix Feather (Takara Tomy) – `phoenix-feather`
-  - [ ] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
-  - [ ] Bit: Needle (Takara Tomy) – `bit-needle`
-- [ ] **WyvernGale 0-80C** (Takara Tomy) – `wyvern-gale0-80c-ux-12-06`
-  - [ ] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
-  - [ ] Ratchet: 0-80 (Takara Tomy) – `ratchet-0-80`
-  - [ ] Bit: Cyclone (Takara Tomy) – `bit-cyclone`
-- [ ] **GolemRock 1-60UN** (Takara Tomy) – `golem-rock1-60un-ux-13`
-  - [ ] Blade: Golem Rock (Takara Tomy) – `golem-rock`
-  - [ ] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
-  - [ ] Bit: Unite (Takara Tomy) – `bit-unite`
-- [ ] **ScorpioSpear 0-70Z** (Takara Tomy) – `scorpio-spear0-70z-ux-14`
-  - [ ] Blade: Scorpio Spear (Takara Tomy) – `scorpio-spear`
-  - [ ] Ratchet: 0-70 (Takara Tomy) – `ratchet-0-70`
-  - [ ] Bit: Zap (Takara Tomy) – `bit-zap`
-- [ ] **SharkScale 4-50UF** (Takara Tomy) – `shark-scale4-50uf-ux-15`
-  - [ ] Blade: Shark Scale (Takara Tomy) – `shark-scale`
-  - [ ] Ratchet: 4-50 (Takara Tomy) – `ratchet-4-50`
-  - [ ] Bit: Under Flat (Takara Tomy) – `bit-under-flat`
-- [ ] **TyrannoRoar 1-70L** (Takara Tomy) – `tyranno-roar1-70l-ux-15`
-  - [ ] Blade: TyrannoRoar (Takara Tomy) – `tyranno-roar`
-  - [ ] Ratchet: 1-70 (Takara Tomy) – `ratchet-1-70`
-  - [ ] Bit: Level (Takara Tomy) – `bit-level`
-- [ ] **HellsBrave J3-60GF** (Takara Tomy) – `hells-brave-j3-60gf-ux-15`
-  - [ ] Blade: HellsBrave (Takara Tomy) – `hells-brave`
-  - [ ] Assist Blade: Jaggy (Takara Tomy) – `jaggy`
-  - [ ] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
-  - [ ] Bit: Gear Flat (Takara Tomy) – `bit-gear-flat`
-- [ ] **ClockMirage 9-65B (Prize)** (Takara Tomy) – `clock-mirage9-65b-ux-16-01`
-  - [ ] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
-  - [ ] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **ClockMirage 9-65B (Gray/White Ver.)** (Takara Tomy) – `clock-mirage9-65b-ux-16-02`
-  - [ ] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
-  - [ ] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **ClockMirage 9-65B (Pink/Yellow Ver.)** (Takara Tomy) – `clock-mirage9-65b-ux-16-03`
-  - [ ] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
-  - [ ] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
-  - [ ] Bit: Ball (Takara Tomy) – `bit-ball`
-- [ ] **MeteorDragoon 3-70J** (Takara Tomy) – `meteor-dragoon3-70j-ux-17`
+- [x] **Knight Lance 3-60LF** (Takara Tomy) – `knight-lance3-60lf-bx-21`
+  - [x] Blade: Knight Lance (Takara Tomy) – `knight-lance`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
+- [x] **Wizard Arrow 4-80N** (Takara Tomy) – `wizard-arrow4-80n-bx-21`
+  - [x] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Needle (Takara Tomy) – `bit-needle`
+- [x] **Rhino Horn 3-80S** (Takara Tomy) – `rhino-horn3-80s-bx-19`
+  - [x] Blade: Rhino Horn (Takara Tomy) – `rhino-horn`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Spike (Takara Tomy) – `bit-spike`
+- [x] **PhoenixFeather 3-60F** (Takara Tomy) – `phoenix-feather3-60f-bx-00`
+  - [x] Blade: Phoenix Feather (Takara Tomy) – `phoenix-feather`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **WyvernGale 2-60S** (Takara Tomy) – `wyvern-gale2-60s-bx-14`
+  - [x] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
+  - [x] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
+  - [x] Bit: Spike (Takara Tomy) – `bit-spike`
+- [x] **UnicornSting 5-60GP** (Takara Tomy) – `unicorn-sting5-60gp-bx-26`
+  - [x] Blade: Unicorn Sting (Takara Tomy) – `unicorn-sting`
+  - [x] Ratchet: 5-60 (Takara Tomy) – `ratchet-5-60`
+  - [x] Bit: Gear Point (Takara Tomy) – `bit-gear-point`
+- [x] **SphinxCowl 4-80HT** (Takara Tomy) – `sphinx-cowl4-80ht-bx-27`
+  - [x] Blade: Sphinx Cowl (Takara Tomy) – `sphinx-cowl`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: High Taper (Takara Tomy) – `bit-high-taper`
+- [x] **ViperTail 5-80O** (Takara Tomy) – `viper-tail5-80o-bx-16`
+  - [x] Blade: Viper Tail (Takara Tomy) – `viper-tail`
+  - [x] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
+  - [x] Bit: Orb (Takara Tomy) – `bit-orb`
+- [x] **Sword Dran 3-60F** (Hasbro) – `sword-dran3-60f-f9580`
+  - [x] Blade: Dran Sword (Hasbro) – `dran-sword-hasbro`
+  - [x] Ratchet: 3-60 (Hasbro) – `ratchet-3-60-hasbro`
+  - [x] Bit: Flat (Hasbro) – `bit-flat-hasbro`
+- [x] **Helm Knight 3-80N** (Hasbro) – `helm-knight3-80n-f9581`
+  - [x] Blade: Knight Shield (Hasbro) – `knight-shield-hasbro`
+  - [x] Ratchet: 3-80 (Hasbro) – `ratchet-3-80-hasbro`
+  - [x] Bit: Needle (Hasbro) – `bit-needle-hasbro`
+- [x] **Arrow Wizard 4-80B** (Hasbro) – `arrow-wizard4-80b-f9582`
+  - [x] Blade: Wizard Arrow (Hasbro) – `wizard-arrow-hasbro`
+  - [x] Ratchet: 4-80 (Hasbro) – `ratchet-4-80-hasbro`
+  - [x] Bit: Ball (Hasbro) – `bit-ball-hasbro`
+- [x] **Scythe Incendio 4-60T** (Hasbro) – `scythe-incendio4-60t-f9583`
+  - [x] Blade: Hells Scythe (Hasbro) – `hells-scythe-hasbro`
+  - [x] Ratchet: 4-60 (Hasbro) – `ratchet-4-60-hasbro`
+  - [x] Bit: Taper (Hasbro) – `bit-taper-hasbro`
+- [x] **Steel Samurai 4-80T** (Hasbro) – `steel-samurai4-80t-g0188`
+  - [x] Blade: Steel Samurai (Hasbro) – `samurai-steel-hasbro`
+  - [x] Ratchet: 4-80 (Hasbro) – `ratchet-4-80-hasbro`
+  - [x] Bit: Taper (Hasbro) – `bit-taper-hasbro`
+- [x] **Horn Rhino 3-80S** (Hasbro) – `horn-rhino3-80s-g0192`
+  - [x] Blade: Rhino Horn (Hasbro) – `rhino-horn-hasbro`
+  - [x] Ratchet: 3-80 (Hasbro) – `ratchet-3-80-hasbro`
+  - [x] Bit: Spike (Hasbro) – `bit-spike-hasbro`
+- [x] **Keel Shark 3-60LF** (Hasbro) – `keel-shark3-60lf-g0194`
+  - [x] Blade: Shark Edge (Hasbro) – `shark-edge-hasbro`
+  - [x] Ratchet: 3-60 (Hasbro) – `ratchet-3-60-hasbro`
+  - [x] Bit: Low Flat (Hasbro) – `bit-low-flat-hasbro`
+- [x] **Talon Ptera 3-80B** (Hasbro) – `talon-ptera3-80b-g0195`
+  - [x] Blade: Talon Ptera (Hasbro) – `ptera-swing-hasbro`
+  - [x] Ratchet: 3-80 (Hasbro) – `ratchet-3-80-hasbro`
+  - [x] Bit: Ball (Hasbro) – `bit-ball-hasbro`
+- [x] **WizardArrow 4-80B** (Takara Tomy) – `wizard-arrow4-80b-bx-05`
+  - [x] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] **KnightShield 3-80N** (Takara Tomy) – `knight-shield3-80n-bx-06`
+  - [x] Blade: Knight Shield (Takara Tomy) – `knight-shield`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Needle (Takara Tomy) – `bit-needle`
+- [x] **HellsScythe 3-80B** (Takara Tomy) – `hells-scythe3-80b-bx-08`
+  - [x] Blade: Hells Scythe (Takara Tomy) – `hells-scythe`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] **WizardArrow 4-60N** (Takara Tomy) – `wizard-arrow4-60n-bx-08`
+  - [x] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Needle (Takara Tomy) – `bit-needle`
+- [x] **KnightShield 4-80T** (Takara Tomy) – `knight-shield4-80t-bx-08`
+  - [x] Blade: Knight Shield (Takara Tomy) – `knight-shield`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Taper (Takara Tomy) – `bit-taper`
+- [x] **Shark Edge 3-60LF** (Takara Tomy) – `shark-edge3-60lf-bx-14`
+  - [x] Blade: Shark Edge (Takara Tomy) – `shark-edge`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
+- [x] **SharkEdge 4-80N** (Takara Tomy) – `shark-edge4-80n-bx-14`
+  - [x] Blade: Shark Edge (Takara Tomy) – `shark-edge`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Needle (Takara Tomy) – `bit-needle`
+- [x] **DranSword 3-80B** (Takara Tomy) – `dran-sword3-80b-bx-14`
+  - [x] Blade: Dran Sword (Takara Tomy) – `dran-sword`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] **HellsScythe 4-80LF** (Takara Tomy) – `hells-scythe4-80lf-bx-14`
+  - [x] Blade: Hells Scythe (Takara Tomy) – `hells-scythe`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
+- [x] **KnightShield 4-60LF** (Takara Tomy) – `knight-shield4-60lf-bx-14`
+  - [x] Blade: Knight Shield (Takara Tomy) – `knight-shield`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
+- [x] **WizardArrow 3-60T** (Takara Tomy) – `wizard-arrow3-60t-bx-14`
+  - [x] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Taper (Takara Tomy) – `bit-taper`
+- [x] **ViperTail 4-60F** (Takara Tomy) – `viper-tail4-60f-bx-16`
+  - [x] Blade: Viper Tail (Takara Tomy) – `viper-tail`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **ViperTail 3-80HN** (Takara Tomy) – `viper-tail3-80hn-bx-16`
+  - [x] Blade: Viper Tail (Takara Tomy) – `viper-tail`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: High Needle (Takara Tomy) – `bit-high-needle`
+- [x] **DranSword 3-60F** (Takara Tomy) – `dran-sword3-60f-bx-17`
+  - [x] Blade: Dran Sword (Takara Tomy) – `dran-sword`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **WizardArrow 4-80B** (Takara Tomy) – `wizard-arrow4-80b-bx-17` (in_progress)
+  - [x] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] **DranSword 3-60F** (Takara Tomy) – `dran-sword3-60f-bx-22` (in_progress)
+  - [x] Blade: Dran Sword (Takara Tomy) – `dran-sword`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **Phoenix Wing 9-60GF** (Takara Tomy) – `phoenix-wing9-60gf-bx-23` (in_progress)
+  - [x] Blade: Phoenix Wing (Takara Tomy) – `phoenix-wing`
+  - [x] Ratchet: 9-60 (Takara Tomy) – `ratchet-9-60`
+  - [x] Bit: Gear Flat (Takara Tomy) – `bit-gear-flat`
+- [x] **Wyvern Gale 5-80GB** (Takara Tomy) – `wyvern-gale5-80gb-bx-24` (in_progress)
+  - [x] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
+  - [x] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
+  - [x] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
+- [x] **Wyvern Gale 3-60T** (Takara Tomy) – `wyvern-gale3-60t-bx-24` (in_progress)
+  - [x] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Taper (Takara Tomy) – `bit-taper`
+- [x] **Knight Lance 4-60GB** (Takara Tomy) – `knight-lance4-60gb-bx-24`
+  - [x] Blade: Knight Lance (Takara Tomy) – `knight-lance`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
+- [x] **Viper Tail 5-60F** (Takara Tomy) – `viper-tail5-60f-bx-24`
+  - [x] Blade: Viper Tail (Takara Tomy) – `viper-tail`
+  - [x] Ratchet: 5-60 (Takara Tomy) – `ratchet-5-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **Leon Claw 3-80HN** (Takara Tomy) – `leon-claw3-80hn-bx-24` (in_progress)
+  - [x] Blade: Leon Claw (Takara Tomy) – `leon-claw`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: High Needle (Takara Tomy) – `bit-high-needle`
+- [x] **Wizard Arrow 4-80GB** (Takara Tomy) – `wizard-arrow4-80gb-bx-24` (in_progress)
+  - [x] Blade: Wizard Arrow (Takara Tomy) – `wizard-arrow`
+  - [x] Ratchet: 4-80 (Takara Tomy) – `ratchet-4-80`
+  - [x] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
+- [x] **TyrannoBeat 4-70Q** (Takara Tomy) – `tyranno-beat4-70q-bx-31`
+  - [x] Blade: Tyranno Beat (Takara Tomy) – `tyranno-beat`
+  - [x] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
+  - [x] Bit: Quake (Takara Tomy) – `bit-quake`
+- [x] **TyrannoBeat 3-60S** (Takara Tomy) – `tyranno-beat3-60s-bx-31` (in_progress)
+  - [x] Blade: Tyranno Beat (Takara Tomy) – `tyranno-beat`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Spike (Takara Tomy) – `bit-spike`
+- [x] **HellsChain 9-80O** (Takara Tomy) – `hells-chain9-80o-bx-31` (in_progress)
+  - [x] Blade: Hells Chain (Takara Tomy) – `hells-chain`
+  - [x] Ratchet: 9-80 (Takara Tomy) – `ratchet-9-80`
+  - [x] Bit: Orb (Takara Tomy) – `bit-orb`
+- [x] **DranDagger 4-70P** (Takara Tomy) – `dran-dagger4-70p-bx-31` (in_progress)
+  - [x] Blade: Dran Dagger (Takara Tomy) – `dran-dagger`
+  - [x] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
+  - [x] Bit: Point (Takara Tomy) – `bit-point`
+- [x] **SharkEdge 1-60Q** (Takara Tomy) – `shark-edge1-60q-bx-31` (in_progress)
+  - [x] Blade: Shark Edge (Takara Tomy) – `shark-edge`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Quake (Takara Tomy) – `bit-quake`
+- [x] **RhinoHorn 5-80Q** (Takara Tomy) – `rhino-horn5-80q-bx-31`
+  - [x] Blade: Rhino Horn (Takara Tomy) – `rhino-horn`
+  - [x] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
+  - [x] Bit: Quake (Takara Tomy) – `bit-quake`
+- [x] **WeissTiger 3-60U** (Takara Tomy) – `weiss-tiger3-60u-bx-33`
+  - [x] Blade: Weiss Tiger (Takara Tomy) – `weiss-tiger`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Unite (Takara Tomy) – `bit-unite`
+- [x] **CobaltDragoon 2-60C** (Takara Tomy) – `cobalt-dragoon2-60c-bx-34`
+  - [x] Blade: Cobalt Dragoon (Takara Tomy) – `cobalt-dragoon`
+  - [x] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
+  - [x] Bit: Cyclone (Takara Tomy) – `bit-cyclone`
+- [x] **BlackShell 4-60D** (Takara Tomy) – `black-shell4-60d-bx-35`
+  - [x] Blade: Black Shell (Takara Tomy) – `black-shell`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Dot (Takara Tomy) – `bit-dot`
+- [x] **BlackShell 9-80B** (Takara Tomy) – `black-shell9-80b-bx-35`
+  - [x] Blade: Black Shell (Takara Tomy) – `black-shell`
+  - [x] Ratchet: 9-80 (Takara Tomy) – `ratchet-9-80`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] Checkpoint: Guide neu lesen und letzte 5 Beys prüfen (RhinoHorn bis BlackShell 9-80B)
+- [x] **UnicornSting 3-70D** (Takara Tomy) – `unicorn-sting3-70d-bx-35`
+  - [x] Blade: Unicorn Sting (Takara Tomy) – `unicorn-sting`
+  - [x] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
+  - [x] Bit: Dot (Takara Tomy) – `bit-dot`
+- [x] **WizardRod 1-60R** (Takara Tomy) – `wizard-rod1-60r-bx-35`
+  - [x] Blade: Wizard Rod (Takara Tomy) – `wizard-rod`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Rush (Takara Tomy) – `bit-rush`
+- [x] **PhoenixWing 5-80H** (Takara Tomy) – `phoenix-wing5-80h-bx-35`
+  - [x] Blade: Phoenix Wing (Takara Tomy) – `phoenix-wing`
+  - [x] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
+  - [x] Bit: Hexa (Takara Tomy) – `bit-hexa`
+- [x] **ViperTail 5-70D** (Takara Tomy) – `viper-tail5-70d-bx-35`
+  - [x] Blade: Viper Tail (Takara Tomy) – `viper-tail`
+  - [x] Ratchet: 5-70 (Takara Tomy) – `ratchet-5-70`
+  - [x] Bit: Dot (Takara Tomy) – `bit-dot`
+- [x] **WhaleWave 5-80E** (Takara Tomy) – `whale-wave5-80e-bx-36`
+  - [x] Blade: Whale Wave (Takara Tomy) – `whale-wave`
+  - [x] Ratchet: 5-80 (Takara Tomy) – `ratchet-5-80`
+  - [x] Bit: Elevate (Takara Tomy) – `bit-elevate`
+- [x] Checkpoint: Guide neu lesen und letzte 5 Beys prüfen (UnicornSting bis WhaleWave 5-80E)
+- [x] **WhaleWave 4-70HN** (Takara Tomy) – `whale-wave4-70hn-bx-36`
+  - [x] Blade: Whale Wave (Takara Tomy) – `whale-wave`
+  - [x] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
+  - [x] Bit: High Needle (Takara Tomy) – `bit-high-needle`
+- [x] **WhaleWave 3-80GB** (Takara Tomy) – `whale-wave3-80gb-bx-36`
+  - [x] Blade: Whale Wave (Takara Tomy) – `whale-wave`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
+- [x] **CrimsonGaruda 4-70TP** (Takara Tomy) – `crimson-garuda4-70tp-bx-38`
+  - [x] Blade: Crimson Garuda (Takara Tomy) – `crimson-garuda`
+  - [x] Ratchet: 4-70 (Takara Tomy) – `ratchet-4-70`
+  - [x] Bit: Trans Point (Takara Tomy) – `bit-trans-point`
+- [x] **ShelterDrake 7-80GP** (Takara Tomy) – `shelter-drake7-80gp-bx-39`
+  - [x] Blade: Shelter Drake (Takara Tomy) – `shelter-drake`
+  - [x] Ratchet: 7-80 (Takara Tomy) – `ratchet-7-80`
+  - [x] Bit: Gear Point (Takara Tomy) – `bit-gear-point`
+- [x] **ShelterDrake 5-70O** (Takara Tomy) – `shelter-drake5-70o-bx-39`
+  - [x] Blade: Shelter Drake (Takara Tomy) – `shelter-drake`
+  - [x] Ratchet: 5-70 (Takara Tomy) – `ratchet-5-70`
+  - [x] Bit: Orb (Takara Tomy) – `bit-orb`
+- [x] **ShelterDrake 3-60D** (Takara Tomy) – `shelter-drake3-60d-bx-39`
+  - [x] Blade: Shelter Drake (Takara Tomy) – `shelter-drake`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Dot (Takara Tomy) – `bit-dot`
+- [x] **TriceraPress M-85BS** (Takara Tomy) – `tricera-press-m-85bs-bx-44`
+  - [x] Blade: Tricera Press (Takara Tomy) – `tricera-press`
+  - [x] Ratchet: M-85 (Takara Tomy) – `ratchet-M-85`
+  - [x] Bit: Bound Spike (Takara Tomy) – `bit-bound-spike`
+- [x] **SamuraiCalibur 6-70M** (Takara Tomy) – `samurai-calibur6-70m-bx-45`
+  - [x] Blade: Samurai Calibur (Takara Tomy) – `samurai-calibur`
+  - [x] Ratchet: 6-70 (Takara Tomy) – `ratchet-6-70`
+  - [x] Bit: Merge (Takara Tomy) – `bit-merge`
+- [x] **DranStrike 4-50FF** (Takara Tomy) – `dran-strike4-50ff-bx-49`
+  - [x] Blade: DranStrike (Takara Tomy) – `dran-strike`
+  - [x] Ratchet: 4-50 (Takara Tomy) – `ratchet-4-50`
+  - [x] Bit: Free Flat (Takara Tomy) – `bit-free-flat`
+- [x] **CobaltDrake 4-60F** (Takara Tomy) – `cobalt-drake4-60f-bx-00`
+  - [x] Blade: Cobalt Drake (Takara Tomy) – `cobalt-drake`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **DranzerSpiral 3-80T** (Takara Tomy) – `dranzer-spiral3-80t-bx-00`
+  - [x] Blade: Dranzer Spiral (Takara Tomy) – `dranzer-spiral`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Taper (Takara Tomy) – `bit-taper`
+- [x] **Lightning L-Drago 1-60F (Upper Type)** (Takara Tomy) – `lightning-l-drago1-60f-upper-bx-00`
+  - [x] Blade: L-Drago: Upper (Takara Tomy) – `l-drago-upper`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **Lightning L-Drago 1-60F (Rapid Hit Type)** (Takara Tomy) – `lightning-l-drago1-60f-rapid-hit-bx-00`
+  - [x] Blade: L-Drago: Rapid Hit (Takara Tomy) – `l-drago-rapid-hit`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+
+## Checkpoint (letzte 5 Beys: DranStrike 4-50FF bis Lightning L-Drago 1-60F Rapid Hit Type)
+
+- [x] Guide `docs/manual-review-instructions.md` neu gelesen
+- [x] DranStrike 4-50FF geprüft
+- [x] CobaltDrake 4-60F geprüft
+- [x] DranzerSpiral 3-80T geprüft
+- [x] Lightning L-Drago 1-60F (Upper Type) geprüft
+- [x] Lightning L-Drago 1-60F (Rapid Hit Type) geprüft
+
+- [x] **Dragoon Storm 4-60RA** (Takara Tomy) – `dragoon-storm4-60ra-bx-00`
+  - [x] Blade: Dragoon Storm (Takara Tomy) – `dragoon-storm`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Rubber Accel (Takara Tomy) – `bit-rubber-accel`
+- [x] **Storm Pegasis 3-70RA** (Takara Tomy) – `storm-pegasis3-70ra-bx-00`
+  - [x] Blade: Storm Pegasis (Takara Tomy) – `storm-pegasis`
+  - [x] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
+  - [x] Bit: Rubber Accel (Takara Tomy) – `bit-rubber-accel`
+- [x] **Victory Valkyrie 2-60RA** (Takara Tomy) – `victory-valkyrie2-60ra-bx-00`
+  - [x] Blade: Victory Valkyrie (Takara Tomy) – `victory-valkyrie`
+  - [x] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
+  - [x] Bit: Rubber Accel (Takara Tomy) – `bit-rubber-accel`
+- [x] **DranBuster 1-60A** (Takara Tomy) – `dran-buster1-60a-ux-01`
+  - [x] Blade: Dran Buster (Takara Tomy) – `dran-buster`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Accel (Takara Tomy) – `bit-accel`
+- [x] **HellsHammer 3-70H** (Takara Tomy) – `hells-hammer3-70h-ux-02`
+  - [x] Blade: Hells Hammer (Takara Tomy) – `hells-hammer`
+  - [x] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
+  - [x] Bit: Hexa (Takara Tomy) – `bit-hexa`
+- [x] **WizardRod 5-70DB** (Takara Tomy) – `wizard-rod5-70db-ux-03`
+  - [x] Blade: Wizard Rod (Takara Tomy) – `wizard-rod`
+  - [x] Ratchet: 5-70 (Takara Tomy) – `ratchet-5-70`
+  - [x] Bit: Disk Ball (Takara Tomy) – `bit-disk-ball`
+- [x] **DranBuster 1-60A (Special Ver.)** (Takara Tomy) – `dran-buster1-60a-ux-04`
+  - [x] Blade: Dran Buster (Takara Tomy) – `dran-buster`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Accel (Takara Tomy) – `bit-accel`
+- [x] **ShinobiShadow 9-60LF** (Takara Tomy) – `shinobi-shadow9-60lf-ux-05`
+  - [x] Blade: Shinobi Shadow (Takara Tomy) – `shinobi-shadow`
+  - [x] Ratchet: 9-60 (Takara Tomy) – `ratchet-9-60`
+  - [x] Bit: Low Flat (Takara Tomy) – `bit-low-flat`
+- [x] **LeonCrest 7-60GN** (Takara Tomy) – `leon-crest7-60gn-ux-06`
+  - [x] Blade: Leon Crest (Takara Tomy) – `leon-crest`
+  - [x] Ratchet: 7-60 (Takara Tomy) – `ratchet-7-60`
+  - [x] Bit: Gear Needle (Takara Tomy) – `bit-gear-needle`
+- [x] **PhoenixRudder 9-70G** (Takara Tomy) – `phoenix-rudder9-70g-ux-07`
+  - [x] Blade: Phoenix Rudder (Takara Tomy) – `phoenix-rudder`
+  - [x] Ratchet: 9-70 (Takara Tomy) – `ratchet-9-70`
+  - [x] Bit: Glide (Takara Tomy) – `bit-glide`
+- [x] **SilverWolf 3-80FB** (Takara Tomy) – `silver-wolf3-80fb-ux-08`
+  - [x] Blade: Silver Wolf (Takara Tomy) – `silver-wolf`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Free Ball (Takara Tomy) – `bit-free-ball`
+- [x] **SamuraiSaber 2-70L** (Takara Tomy) – `samurai-saber2-70l-ux-09`
+  - [x] Blade: Samurai Saber (Takara Tomy) – `samurai-saber`
+  - [x] Ratchet: 2-70 (Takara Tomy) – `ratchet-2-70`
+  - [x] Bit: Level (Takara Tomy) – `bit-level`
+- [x] **KnightMail 3-85BS** (Takara Tomy) – `knight-mail3-85bs-ux-10`
+  - [x] Blade: Knight Mail (Takara Tomy) – `knight-mail`
+  - [x] Ratchet: 3-85 (Takara Tomy) – `ratchet-3-85`
+  - [x] Bit: Bound Spike (Takara Tomy) – `bit-bound-spike`
+- [x] **ImpactDrake 9-60LR** (Takara Tomy) – `impact-drake9-60lr-ux-11`
+  - [x] Blade: Impact Drake (Takara Tomy) – `impact-drake`
+  - [x] Ratchet: 9-60 (Takara Tomy) – `ratchet-9-60`
+  - [x] Bit: Low Rush (Takara Tomy) – `bit-low-rush`
+- [x] **GhostCircle 0-80GB** (Takara Tomy) – `ghost-circle0-80gb-ux-12-01`
+  - [x] Blade: Ghost Circle (Takara Tomy) – `ghost-circle`
+  - [x] Ratchet: 0-80 (Takara Tomy) – `ratchet-0-80`
+  - [x] Bit: Gear Ball (Takara Tomy) – `bit-gear-ball`
+- [x] **GhostCircle 4-60H** (Takara Tomy) – `ghost-circle4-60h-ux-12-02`
+  - [x] Blade: Ghost Circle (Takara Tomy) – `ghost-circle`
+  - [x] Ratchet: 4-60 (Takara Tomy) – `ratchet-4-60`
+  - [x] Bit: Hexa (Takara Tomy) – `bit-hexa`
+- [x] **ShinobiShadow 3-80F** (Takara Tomy) – `shinobi-shadow3-80f-ux-12-03`
+  - [x] Blade: Shinobi Shadow (Takara Tomy) – `shinobi-shadow`
+  - [x] Ratchet: 3-80 (Takara Tomy) – `ratchet-3-80`
+  - [x] Bit: Flat (Takara Tomy) – `bit-flat`
+- [x] **LeonClaw 0-80E** (Takara Tomy) – `leon-claw0-80e-ux-12-04`
+  - [x] Blade: Leon Claw (Takara Tomy) – `leon-claw`
+  - [x] Ratchet: 0-80 (Takara Tomy) – `ratchet-0-80`
+  - [x] Bit: Elevate (Takara Tomy) – `bit-elevate`
+- [x] **PhoenixFeather 2-60N** (Takara Tomy) – `phoenix-feather2-60n-ux-12-05`
+  - [x] Blade: Phoenix Feather (Takara Tomy) – `phoenix-feather`
+  - [x] Ratchet: 2-60 (Takara Tomy) – `ratchet-2-60`
+  - [x] Bit: Needle (Takara Tomy) – `bit-needle`
+- [x] **WyvernGale 0-80C** (Takara Tomy) – `wyvern-gale0-80c-ux-12-06`
+  - [x] Blade: Wyvern Gale (Takara Tomy) – `wyvern-gale`
+  - [x] Ratchet: 0-80 (Takara Tomy) – `ratchet-0-80`
+  - [x] Bit: Cyclone (Takara Tomy) – `bit-cyclone`
+- [x] **GolemRock 1-60UN** (Takara Tomy) – `golem-rock1-60un-ux-13`
+  - [x] Blade: Golem Rock (Takara Tomy) – `golem-rock`
+  - [x] Ratchet: 1-60 (Takara Tomy) – `ratchet-1-60`
+  - [x] Bit: Under Needle (Takara Tomy) – `bit-under-needle`
+- [x] **ScorpioSpear 0-70Z** (Takara Tomy) – `scorpio-spear0-70z-ux-14`
+  - [x] Blade: Scorpio Spear (Takara Tomy) – `scorpio-spear`
+  - [x] Ratchet: 0-70 (Takara Tomy) – `ratchet-0-70`
+  - [x] Bit: Zap (Takara Tomy) – `bit-zap`
+- [x] **SharkScale 4-50UF** (Takara Tomy) – `shark-scale4-50uf-ux-15`
+  - [x] Blade: Shark Scale (Takara Tomy) – `shark-scale`
+  - [x] Ratchet: 4-50 (Takara Tomy) – `ratchet-4-50`
+  - [x] Bit: Under Flat (Takara Tomy) – `bit-under-flat`
+- [x] **TyrannoRoar 1-70L** (Takara Tomy) – `tyranno-roar1-70l-ux-15`
+  - [x] Blade: TyrannoRoar (Takara Tomy) – `tyranno-roar`
+  - [x] Ratchet: 1-70 (Takara Tomy) – `ratchet-1-70`
+  - [x] Bit: Level (Takara Tomy) – `bit-level`
+- [x] **HellsBrave J3-60GF** (Takara Tomy) – `hells-brave-j3-60gf-ux-15`
+  - [x] Blade: HellsBrave (Takara Tomy) – `hells-brave`
+  - [x] Assist Blade: Jaggy (Takara Tomy) – `jaggy`
+  - [x] Ratchet: 3-60 (Takara Tomy) – `ratchet-3-60`
+  - [x] Bit: Gear Flat (Takara Tomy) – `bit-gear-flat`
+- [x] **ClockMirage 9-65B (Prize)** (Takara Tomy) – `clock-mirage9-65b-ux-16-01`
+  - [x] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
+  - [x] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] **ClockMirage 9-65B (Gray/White Ver.)** (Takara Tomy) – `clock-mirage9-65b-ux-16-02`
+  - [x] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
+  - [x] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [x] **ClockMirage 9-65B (Pink/Yellow Ver.)** (Takara Tomy) – `clock-mirage9-65b-ux-16-03`
+  - [x] Blade: Clock Mirage (Takara Tomy) – `clock-mirage`
+  - [x] Ratchet: 9-65 (Takara Tomy) – `ratchet-9-65`
+  - [x] Bit: Ball (Takara Tomy) – `bit-ball`
+- [ ] **MeteorDragoon 3-70J** (Takara Tomy) – `meteor-dragoon3-70j-ux-17` (in_progress)
   - [ ] Blade: Meteor Dragoon (Takara Tomy) – `meteor-dragoon`
   - [ ] Ratchet: 3-70 (Takara Tomy) – `ratchet-3-70`
   - [ ] Bit: Jolt (Takara Tomy) – `bit-jolt`
