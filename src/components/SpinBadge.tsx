@@ -8,9 +8,14 @@ export function SpinBadge({ spin, size = 'sm' }: SpinBadgeProps) {
 
   const label = spin === 'both' ? 'R/L' : spin === 'right' ? 'R' : 'L';
 
+  const colors =
+    spin === 'left'
+      ? 'border border-gray-400 bg-white text-gray-500 dark:border-gray-500 dark:bg-gray-200 dark:text-gray-600'
+      : 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200';
+
   return (
     <span
-      className={`inline-flex items-center justify-center rounded-full bg-gray-100 font-bold text-gray-700 dark:bg-gray-700 dark:text-gray-200 ${
+      className={`inline-flex items-center justify-center rounded-full font-bold ${colors} ${
         size === 'sm' ? 'h-5 w-5 text-[10px]' : 'h-6 w-6 text-xs'
       }`}
       title={spin === 'both' ? 'Right / Left spin' : `${spin === 'right' ? 'Right' : 'Left'} spin`}
