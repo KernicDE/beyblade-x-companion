@@ -2,12 +2,13 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { PartPicker } from '../components/PartPicker';
+import { PartIcon } from '../components/PartIcon';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { useConfiguratorStore } from '../stores/configurator';
 import { useProfileStore } from '../stores/profile';
 import { useCreationsStore } from '../stores/creations';
-import { buildPersonalRatingsMap, calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
+import { calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
 import type { Part } from '../types';
 
@@ -32,12 +33,10 @@ export function Configurator() {
     () => profile?.ownedParts.map((p) => p.partId) ?? [],
     [profile]
   );
-  const personalRatingsMap = useMemo(() => buildPersonalRatingsMap(profile), [profile]);
 
   const [saveName, setSaveName] = useState('');
   const [savedMessage, setSavedMessage] = useState('');
   const [ownedOnly, setOwnedOnly] = useState(false);
-  const [useMyRatings, setUseMyRatings] = useState(false);
 
   const editingId = searchParams.get('edit');
 
@@ -73,19 +72,25 @@ export function Configurator() {
     }
   }, [editingId, creations, loadCombo]);
 
+  const selectedParts = useMemo(() => {
+    if (!database) return [];
+    const result: { part: Part; label: string }[] = [];
+    const blade = database.blades.find((p) => p.id === bladeId);
+    const assistBlade = database.assistBlades.find((p) => p.id === assistBladeId);
+    const ratchet = database.ratchets.find((p) => p.id === ratchetId);
+    const bit = database.bits.find((p) => p.id === bitId);
+    if (blade) result.push({ part: blade, label: t('beyDetail.blade') });
+    if (assistBlade) result.push({ part: assistBlade, label: t('beyDetail.assistBlade') });
+    if (ratchet) result.push({ part: ratchet, label: t('beyDetail.ratchet') });
+    if (bit) result.push({ part: bit, label: t('beyDetail.bit') });
+    return result;
+  }, [database, bladeId, assistBladeId, ratchetId, bitId, t]);
+
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
   const combo = { bladeId, assistBladeId, ratchetId, bitId };
-  const comboHasPersonalRatings = [bladeId, assistBladeId, ratchetId, bitId].some(
-    (id) => id && personalRatingsMap[id]
-  );
-  const myRatingsActive = useMyRatings && comboHasPersonalRatings;
-  const ratings = calculateComboRatings(
-    database,
-    combo,
-    myRatingsActive ? personalRatingsMap : undefined
-  );
+  const ratings = calculateComboRatings(database, combo);
   const estimated = isComboEstimated(database, combo);
   const canSave = bladeId && ratchetId && bitId && saveName.trim();
 
@@ -121,17 +126,6 @@ export function Configurator() {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-2xl font-bold">{t('configurator.title')}</h1>
         <div className="flex flex-wrap gap-3">
-          {profile && Object.keys(personalRatingsMap).length > 0 && (
-            <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
-              <input
-                type="checkbox"
-                checked={useMyRatings}
-                onChange={(e) => setUseMyRatings(e.target.checked)}
-                className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-              />
-              {t('configurator.useMyRatings')}
-            </label>
-          )}
           <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
             <input
               type="checkbox"
@@ -176,6 +170,40 @@ export function Configurator() {
         />
       </div>
 
+      {selectedParts.length > 0 && (
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {selectedParts.map(({ part, label }) => (
+            <div
+              key={part.id}
+              className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition-colors"
+            >
+              <div className="flex items-center gap-3">
+                {part.imageUrl ? (
+                  <img
+                    src={part.imageUrl}
+                    alt=""
+                    className={
+                      part.category === 'bit'
+                        ? 'h-16 w-10 object-contain'
+                        : 'h-16 w-16 object-contain'
+                    }
+                  />
+                ) : (
+                  <PartIcon category={part.category} size={64} />
+                )}
+                <div className="min-w-0">
+                  <p className="text-xs text-[var(--muted)]">{label}</p>
+                  <p className="truncate text-sm font-semibold text-[var(--text)]">{part.name}</p>
+                </div>
+              </div>
+              <div className="mt-3">
+                <RatingBars ratings={part.ratings} size="sm" />
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
       {missingSources.length > 0 && (
         <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
           <h2 className="mb-3 text-lg font-semibold">{t('configurator.missingParts')}</h2>
@@ -202,11 +230,6 @@ export function Configurator() {
             <h2 className="text-lg font-semibold">
               {estimated ? t('partDetail.estimatedRatings') : t('configurator.resultingRatings')}
             </h2>
-            {myRatingsActive && (
-              <span className="rounded-full bg-purple-100 px-2 py-0.5 text-xs font-medium text-purple-700 dark:bg-purple-900/30 dark:text-purple-300">
-                {t('configurator.myRatingsBadge')}
-              </span>
-            )}
           </div>
           <div className="mx-auto w-full max-w-[320px]">
             <RadarChart ratings={ratings} size={320} />
@@ -219,29 +242,29 @@ export function Configurator() {
           </p>
         </div>
 
-        <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
-          <h2 className="text-lg font-semibold">{t('configurator.saveCreation')}</h2>
-          <div className="flex flex-col gap-2">
-            <label htmlFor="creation-name" className="text-sm font-medium text-[var(--muted)]">
-              {t('configurator.name')}
-            </label>
+        <div className="flex h-fit flex-col gap-3 rounded-xl bg-[var(--surface)] p-4 shadow-sm transition-colors">
+          <h2 className="text-base font-semibold">
+            {editingId ? t('configurator.updateCreation') : t('configurator.saveCreation')}
+          </h2>
+          <div className="flex gap-2">
             <input
               id="creation-name"
               type="text"
               value={saveName}
               onChange={(e) => setSaveName(e.target.value)}
               placeholder={t('configurator.placeholder')}
-              className="rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
+              aria-label={t('configurator.name')}
+              className="min-w-0 flex-1 rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
             />
+            <button
+              type="button"
+              onClick={handleSave}
+              disabled={!canSave}
+              className="shrink-0 rounded-md bg-blue-600 px-3 py-2 text-sm text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-400"
+            >
+              {t('configurator.save')}
+            </button>
           </div>
-          <button
-            type="button"
-            onClick={handleSave}
-            disabled={!canSave}
-            className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-400"
-          >
-            {editingId ? t('configurator.updateCreation') : t('configurator.saveCreation')}
-          </button>
           {savedMessage && (
             <p className="text-sm text-green-600">{savedMessage}</p>
           )}

@@ -21,6 +21,17 @@ export interface LocalizedString {
   de: string;
 }
 
+export interface LocalizedList {
+  en: string[];
+  de: string[];
+}
+
+export interface BeyHighlights {
+  pro: LocalizedList;
+  con: LocalizedList;
+  trivia: LocalizedList;
+}
+
 export interface Part {
   id: string;
   category: PartCategory;
@@ -71,6 +82,7 @@ export interface Bey {
   ratchetId: string;
   bitId: string;
   assessment: LocalizedString;
+  highlights?: BeyHighlights;
   ratingsSource?: 'community' | 'estimated';
   tier?: Tier;
 }
@@ -98,7 +110,6 @@ export interface OwnedBey {
   /** Original CHF amount, kept for transparency when the purchase was made in CHF. */
   priceChf?: number;
   setName?: string;
-  personalRatings?: Ratings;
   note?: string;
 }
 
@@ -107,7 +118,6 @@ export interface OwnedPart {
   category: PartCategory;
   obtainedFrom?: string;
   purchaseDate?: string;
-  personalRatings?: Ratings;
   note?: string;
 }
 

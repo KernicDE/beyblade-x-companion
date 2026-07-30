@@ -113,24 +113,4 @@ describe('calculateComboRatings', () => {
 
     expect(ratings).toEqual({ attack: 0, defense: 0, stamina: 0, balance: 0 });
   });
-
-  it('uses personal ratings as override when provided', () => {
-    const ratings = calculateComboRatings(
-      mockDatabase,
-      {
-        bladeId: 'blade-a',
-        ratchetId: 'ratchet-a',
-        bitId: 'bit-a',
-      },
-      {
-        'blade-a': { attack: 5, defense: 5, stamina: 5, balance: 5 },
-      }
-    );
-
-    // blade-a is overridden (5/5/5/5), ratchet-a (3/3/3/3) and bit-a (1/4/4/3) keep community values
-    expect(ratings.attack).toBe(3);
-    expect(ratings.defense).toBe(4);
-    expect(ratings.stamina).toBe(4);
-    expect(ratings.balance).toBeCloseTo(3.67, 2);
-  });
 });

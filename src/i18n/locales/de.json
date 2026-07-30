@@ -82,8 +82,6 @@
     "set": "Set",
     "note": "Notiz",
     "obtainedFrom": "Erhalten aus",
-    "myRatings": "Meine Bewertung",
-    "notRated": "Noch nicht bewertet.",
     "winRate": "Winrate"
   },
   "matches": {
@@ -166,20 +164,22 @@
     "myCopy": "Mein Exemplar",
     "myRecord": "Meine Bilanz",
     "recordWith": "Mit diesem Bey",
-    "recordAgainst": "Gegen diesen Bey"
+    "recordAgainst": "Gegen diesen Bey",
+    "pro": "Stärken",
+    "con": "Schwächen",
+    "trivia": "Trivia"
   },
   "configurator": {
     "title": "Builder",
     "resultingRatings": "Ergebnis-Bewertungen",
     "saveCreation": "Kreation speichern",
+    "save": "Speichern",
     "name": "Name",
     "placeholder": "Meine Custom-Combo",
     "updateCreation": "Kreation aktualisieren",
     "creationSaved": "Kreation gespeichert.",
     "creationUpdated": "Kreation aktualisiert.",
     "ownedOnly": "Nur eigene Teile",
-    "useMyRatings": "Meine Bewertungen verwenden",
-    "myRatingsBadge": "Eigene Werte",
     "missingParts": "Fehlende Teile",
     "availableIn": "Erhältlich in",
     "noSetFound": "Kein Factory-Set gefunden"

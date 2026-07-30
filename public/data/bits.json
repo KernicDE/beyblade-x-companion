@@ -22,10 +22,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 0.5,
-      "stamina": 0.5,
-      "balance": 1.5
+      "attack": 4.5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -114,10 +114,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 1.7,
-      "stamina": 4.2,
-      "balance": 2.4
+      "attack": 1,
+      "defense": 2,
+      "stamina": 4.8,
+      "balance": 2.8
     },
     "ratingsDisclaimer": true
   },
@@ -144,7 +144,7 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 4,
+      "attack": 4.5,
       "defense": 1,
       "stamina": 2,
       "balance": 2.5
@@ -206,10 +206,10 @@
       "spinDirection": "left"
     },
     "ratings": {
-      "attack": 4,
-      "defense": 0.5,
-      "stamina": 0.5,
-      "balance": 1.5
+      "attack": 4.5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"

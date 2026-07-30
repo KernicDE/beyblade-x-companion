@@ -113,8 +113,7 @@ export function getPartById(
 
 export function calculateComboRatings(
   database: Database,
-  combo: ComboParts,
-  personalRatingsByPartId?: Record<string, Ratings>
+  combo: ComboParts
 ): Ratings {
   const parts: Part[] = [
     getPartById(database, combo.bladeId, 'blade'),
@@ -131,7 +130,7 @@ export function calculateComboRatings(
 
   const sum = parts.reduce(
     (acc, part) => {
-      const ratings = personalRatingsByPartId?.[part.id] ?? part.ratings;
+      const ratings = part.ratings;
       return {
         attack: acc.attack + ratings.attack,
         defense: acc.defense + ratings.defense,
@@ -148,17 +147,6 @@ export function calculateComboRatings(
     stamina: Number((sum.stamina / parts.length).toFixed(2)),
     balance: Number((sum.balance / parts.length).toFixed(2)),
   };
-}
-
-/** Personal 4-axis ratings per owned part, used to override community ratings. */
-export function buildPersonalRatingsMap(
-  profile: { ownedParts: { partId: string; personalRatings?: Ratings }[] } | null
-): Record<string, Ratings> {
-  const map: Record<string, Ratings> = {};
-  profile?.ownedParts.forEach((part) => {
-    if (part.personalRatings) map[part.partId] = part.personalRatings;
-  });
-  return map;
 }
 
 export function getBeyParts(bey: Bey): ComboParts {
@@ -212,94 +200,20 @@ function getTypeScore(ratings: Ratings, typeTag?: string): number {
       if (values.length === 0) return 0;
       const average = values.reduce((a, b) => a + b, 0) / values.length;
       const max = Math.max(...values);
-      return (average + max) / 2;
+      // Untyped parts (e.g. ratchets): blend average and peak, scaled to the same 0–20 range.
+      return ((average + max) / 2) * 4;
     }
   }
 }
 
-export interface TypeScores {
-  bey: Record<string, number[]>;
-  blade: Record<string, number[]>;
-  assistBlade: Record<string, number[]>;
-  ratchet: Record<string, number[]>;
-  bit: Record<string, number[]>;
-}
-
-export function buildTypeScores(database: Database): TypeScores {
-  const beyScores: Record<string, number[]> = {};
-  const bladeScores: Record<string, number[]> = {};
-  const assistBladeScores: Record<string, number[]> = {};
-  const ratchetScores: Record<string, number[]> = {};
-  const bitScores: Record<string, number[]> = {};
-
-  const addScore = (
-    target: Record<string, number[]>,
-    typeTag: string | undefined,
-    ratings: Ratings
-  ) => {
-    if (!typeTag) return;
-    const score = getTypeScore(ratings, typeTag);
-    if (!target[typeTag]) target[typeTag] = [];
-    target[typeTag].push(score);
-  };
-
-  database.beys.forEach((bey) => {
-    const blade = database.blades.find((b) => b.id === bey.bladeId);
-    const ratings = calculateComboRatings(database, getBeyParts(bey));
-    addScore(beyScores, blade?.officialStats.typeTag, ratings);
-  });
-
-  database.blades.forEach((part) => addScore(bladeScores, part.officialStats.typeTag, part.ratings));
-  database.assistBlades.forEach((part) => addScore(assistBladeScores, part.officialStats.typeTag, part.ratings));
-  database.ratchets.forEach((part) => addScore(ratchetScores, part.officialStats.typeTag, part.ratings));
-  database.bits.forEach((part) => addScore(bitScores, part.officialStats.typeTag, part.ratings));
-
-  return { bey: beyScores, blade: bladeScores, assistBlade: assistBladeScores, ratchet: ratchetScores, bit: bitScores };
-}
-
-export function getPartTypeScores(
-  typeScores: TypeScores,
-  category: PartCategory
-): Record<string, number[]> {
-  switch (category) {
-    case 'blade':
-      return typeScores.blade;
-    case 'assistBlade':
-      return typeScores.assistBlade;
-    case 'ratchet':
-      return typeScores.ratchet;
-    case 'bit':
-      return typeScores.bit;
-    default:
-      return {};
-  }
-}
-
-export function calculateTier(
-  ratings: Ratings,
-  typeTag?: string,
-  typeScores?: Record<string, number[]>
-): Tier {
+export function calculateTier(ratings: Ratings, typeTag?: string): Tier {
+  // Absolute thresholds on the normalized type score (0–20 scale).
+  // Relative-to-catalog tiering breaks down on small, personal catalogs.
   const score = getTypeScore(ratings, typeTag);
-
-  if (typeTag && typeScores?.[typeTag]?.length) {
-    const scores = typeScores[typeTag];
-    const typeMax = Math.max(...scores);
-    const typeMin = Math.min(...scores);
-    const range = typeMax - typeMin;
-
-    if (range === 0) return 'S';
-
-    if (score >= typeMax - range * 0.1) return 'S';
-    if (score >= typeMax - range * 0.2) return 'A';
-    if (score >= typeMax - range * 0.3) return 'B';
-    if (score >= typeMax - range * 0.4) return 'C';
-    return 'F';
-  }
-
-  if (score >= 4.25) return 'S';
-  if (score >= 3.75) return 'A';
-  if (score >= 3.25) return 'B';
-  if (score >= 2.25) return 'C';
+  const pct = score / 20;
+  if (pct >= 0.8) return 'S';
+  if (pct >= 0.7) return 'A';
+  if (pct >= 0.6) return 'B';
+  if (pct >= 0.5) return 'C';
   return 'F';
 }

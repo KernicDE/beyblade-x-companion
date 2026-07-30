@@ -51,7 +51,7 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3,
+      "attack": 3.5,
       "defense": 3.5,
       "stamina": 2.5,
       "balance": 3.5
@@ -81,10 +81,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.3,
-      "defense": 2.1,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 2,
+      "defense": 2.5,
+      "stamina": 3.6,
+      "balance": 3.2
     },
     "ratingsDisclaimer": true
   },
@@ -110,10 +110,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 3.5,
+      "attack": 4,
       "defense": 3.5,
-      "stamina": 2,
-      "balance": 3
+      "stamina": 2.5,
+      "balance": 3.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"

@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "bumper-hasbro",
+    "category": "assistBlade",
+    "name": "Bumper",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1684",
+    "description": {
+      "en": "The Bumper Assist Blade from the Hasbro Custom Line, featured in Antler Stag B 2-60HN. A thick, defense-flavored Assist Blade.",
+      "de": "Die Bumper-Assist-Blade aus der Hasbro Custom Line, enthalten in Antler Stag B 2-60HN. Eine dicke, defensiv ausgelegte Assist Blade."
+    },
+    "assessment": {
+      "en": "Bumper is the thick Custom Line assist blade with a stamina/defense flavor. Community consensus so far: no competitive use found yet — possibly the hardest assist blade to make work.",
+      "de": "Bumper ist die dicke Custom-Line-Assist-Blade mit Stamina/Defense-Ausrichtung. Community-Konsens bisher: kein kompetitiver Einsatz gefunden — womöglich die schwierigste Assist Blade überhaupt."
+    },
+    "officialStats": {
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 0.5,
+      "defense": 2,
+      "stamina": 2.5,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
+  },
+  {
+    "id": "slash-hasbro",
+    "category": "assistBlade",
+    "name": "Slash",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2025-08-01",
+    "releaseWave": "G1683",
+    "description": {
+      "en": "The Slash Assist Blade from the Hasbro Custom Line, featured in Wriggle Kraken S 3-85O. A thin, attack-flavored Assist Blade.",
+      "de": "Die Slash-Assist-Blade aus der Hasbro Custom Line, enthalten in Wriggle Kraken S 3-85O. Eine dünne, offensiv ausgelegte Assist Blade."
+    },
+    "assessment": {
+      "en": "Slash is the thin Custom Line assist blade with decent burst potential for attack combos, though no established competitive niche yet.",
+      "de": "Slash ist die dünne Custom-Line-Assist-Blade mit ordentlichem Burst-Potenzial für Angriffs-Combos, bisher aber ohne etablierte kompetitive Nische."
+    },
+    "officialStats": {
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 2.5,
+      "defense": 1,
+      "stamina": 1.5,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
+  }
+]

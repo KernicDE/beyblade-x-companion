@@ -6,7 +6,6 @@ import {
   getPartById,
   isComboEstimated,
   calculateTier,
-  buildTypeScores,
 } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
@@ -23,6 +22,10 @@ function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
 }
 
+function localizedList(list: { en: string[]; de: string[] }, locale: string) {
+  return list[(locale as 'en' | 'de')] || list.en;
+}
+
 export function BeyDetail() {
   const { t, locale } = useTranslation();
   const { id } = useParams<{ id: string }>();
@@ -35,7 +38,6 @@ export function BeyDetail() {
   const bey = database.beys.find((b) => b.id === id);
   if (!bey) return <p className="text-red-600">{t('beyDetail.beyNotFound')}</p>;
 
-  const typeScores = buildTypeScores(database).bey;
   const parts = getBeyParts(bey);
   const blade = getPartById(database, parts.bladeId, 'blade');
   const assistBlade = parts.assistBladeId
@@ -45,7 +47,7 @@ export function BeyDetail() {
   const bit = getPartById(database, parts.bitId, 'bit');
   const ratings = calculateComboRatings(database, parts);
   const estimated = isComboEstimated(database, parts);
-  const tier = calculateTier(ratings, blade?.officialStats.typeTag, typeScores);
+  const tier = calculateTier(ratings, blade?.officialStats.typeTag);
 
   const owned = profile?.ownedBeys.find((b) => b.beyId === bey.id);
   const recordWith = profile ? recordWithBey(profile.matches, bey.id) : null;
@@ -94,6 +96,21 @@ export function BeyDetail() {
           </div>
 
           <p className="text-[var(--text)]">{localized(bey.assessment, locale)}</p>
+
+          {bey.highlights && (
+            <div className="space-y-3">
+              {(['pro', 'con', 'trivia'] as const).map((section) => (
+                <div key={section}>
+                  <h3 className="text-sm font-semibold text-[var(--text)]">{t(`beyDetail.${section}`)}</h3>
+                  <ul className="list-disc space-y-1 pl-5 text-sm text-[var(--text)]">
+                    {localizedList(bey.highlights![section], locale).map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          )}
 
           <div className="space-y-2 text-sm">
             <p><ManufacturerBadge manufacturer={bey.manufacturer} size="md" /></p>
@@ -174,14 +191,6 @@ export function BeyDetail() {
                 </div>
               )}
             </dl>
-            {owned.personalRatings && (
-              <div>
-                <p className="mb-2 text-xs font-semibold uppercase text-[var(--muted)]">
-                  {t('collection.myRatings')}
-                </p>
-                <RatingBars ratings={owned.personalRatings} size="md" />
-              </div>
-            )}
           </div>
         </section>
       )}

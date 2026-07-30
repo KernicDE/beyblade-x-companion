@@ -1,10 +1,16 @@
 import { create } from 'zustand';
 import type { PersonalProfile } from '../types';
-import { decryptJson, isEncryptedPayload } from '../utils/crypto';
+import { decryptJson, isEncryptedPayload, type EncryptedPayload } from '../utils/crypto';
 
 const REMEMBER_KEY = 'bx-remembered-profile';
 
 export type ProfileStatus = 'loading' | 'no-profile' | 'locked' | 'unlocking' | 'unlocked';
+
+interface RememberedEntry {
+  profile: PersonalProfile;
+  /** Fingerprint of the encrypted payload the remembered profile came from. */
+  payloadHash: string;
+}
 
 interface ProfileState {
   status: ProfileStatus;
@@ -32,12 +38,19 @@ export function isPersonalProfile(value: unknown): value is PersonalProfile {
   );
 }
 
-function readRemembered(): PersonalProfile | null {
+function payloadHash(payload: EncryptedPayload): string {
+  return payload.data;
+}
+
+function readRemembered(): RememberedEntry | null {
   try {
     const stored = localStorage.getItem(REMEMBER_KEY);
     if (!stored) return null;
-    const parsed: unknown = JSON.parse(stored);
-    return isPersonalProfile(parsed) ? parsed : null;
+    const parsed = JSON.parse(stored) as Partial<RememberedEntry>;
+    if (!isPersonalProfile(parsed.profile) || typeof parsed.payloadHash !== 'string') {
+      return null;
+    }
+    return { profile: parsed.profile, payloadHash: parsed.payloadHash };
   } catch {
     return null;
   }
@@ -45,7 +58,10 @@ function readRemembered(): PersonalProfile | null {
 
 async function fetchEncryptedProfile(): Promise<unknown | null> {
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}data/profile.enc.json`);
+    // Bypass the HTTP cache so a redeployed profile is picked up immediately.
+    const response = await fetch(`${import.meta.env.BASE_URL}data/profile.enc.json`, {
+      cache: 'no-cache',
+    });
     if (!response.ok) return null;
     return (await response.json()) as unknown;
   } catch {
@@ -59,25 +75,29 @@ export const useProfileStore = create<ProfileState>()((set, get) => ({
   remembered: false,
 
   init: async () => {
-    const rememberedProfile = readRemembered();
+    const remembered = readRemembered();
     const payload = await fetchEncryptedProfile();
 
-    if (payload === null) {
-      // No encrypted profile shipped yet — nothing to unlock.
-      set({ status: rememberedProfile ? 'unlocked' : 'no-profile', profile: rememberedProfile, remembered: rememberedProfile !== null });
-      return;
-    }
-
     if (!isEncryptedPayload(payload)) {
-      set({ status: 'no-profile', profile: rememberedProfile, remembered: rememberedProfile !== null });
+      // No encrypted profile shipped — fall back to the remembered copy if any.
+      set({
+        status: remembered ? 'unlocked' : 'no-profile',
+        profile: remembered?.profile ?? null,
+        remembered: remembered !== null,
+      });
       return;
     }
 
-    if (rememberedProfile) {
-      set({ status: 'unlocked', profile: rememberedProfile, remembered: true });
+    if (remembered && remembered.payloadHash === payloadHash(payload)) {
+      set({ status: 'unlocked', profile: remembered.profile, remembered: true });
       return;
     }
 
+    // Shipped profile changed (or nothing remembered): drop the stale copy and
+    // require a fresh unlock so the latest data is always shown.
+    if (remembered) {
+      localStorage.removeItem(REMEMBER_KEY);
+    }
     set({ status: 'locked', profile: null, remembered: false });
   },
 
@@ -95,7 +115,8 @@ export const useProfileStore = create<ProfileState>()((set, get) => ({
         return false;
       }
       if (remember) {
-        localStorage.setItem(REMEMBER_KEY, JSON.stringify(decrypted));
+        const entry: RememberedEntry = { profile: decrypted, payloadHash: payloadHash(payload) };
+        localStorage.setItem(REMEMBER_KEY, JSON.stringify(entry));
       }
       set({ status: 'unlocked', profile: decrypted, remembered: remember });
       return true;

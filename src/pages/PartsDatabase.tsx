@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
 import type { Part } from '../types';
-import { calculateTier, buildTypeScores, getPartTypeScores } from '../utils/data';
-import type { TypeScores } from '../utils/data';
+import { calculateTier } from '../utils/data';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
@@ -23,7 +22,7 @@ function getBatchPrefix(wave: string): string {
   return match ? match[0].toUpperCase() : '?';
 }
 
-function sortParts(parts: Part[], sortBy: SortKey, typeScores: TypeScores) {
+function sortParts(parts: Part[], sortBy: SortKey) {
   const sorted = [...parts];
   sorted.sort((a, b) => {
     switch (sortBy) {
@@ -37,10 +36,8 @@ function sortParts(parts: Part[], sortBy: SortKey, typeScores: TypeScores) {
         return getBatchPrefix(a.releaseWave).localeCompare(getBatchPrefix(b.releaseWave));
       case 'tier': {
         const tierOrder = ['S','A','B','C','F'];
-        const scoresA = getPartTypeScores(typeScores, a.category);
-        const scoresB = getPartTypeScores(typeScores, b.category);
-        const tierA = calculateTier(a.ratings, a.officialStats.typeTag, scoresA);
-        const tierB = calculateTier(b.ratings, b.officialStats.typeTag, scoresB);
+        const tierA = calculateTier(a.ratings, a.officialStats.typeTag);
+        const tierB = calculateTier(b.ratings, b.officialStats.typeTag);
         return tierOrder.indexOf(tierB) - tierOrder.indexOf(tierA);
       }
       case 'attack':
@@ -84,8 +81,6 @@ export function PartsDatabase() {
     );
   };
 
-  const typeScores = useMemo(() => (database ? buildTypeScores(database) : { bey: {}, blade: {}, assistBlade: {}, ratchet: {}, bit: {} }), [database]);
-
   const allTypes = useMemo(() => {
     if (!database) return [];
     const set = new Set<string>();
@@ -110,11 +105,10 @@ export function PartsDatabase() {
     const set = new Set<string>();
     const tierOrder = ['S', 'A', 'B', 'C', 'F'];
     [...database.blades, ...database.assistBlades, ...database.ratchets, ...database.bits].forEach((p) => {
-      const scores = getPartTypeScores(typeScores, p.category);
-      set.add(calculateTier(p.ratings, p.officialStats.typeTag, scores));
+      set.add(calculateTier(p.ratings, p.officialStats.typeTag));
     });
     return Array.from(set).sort((a, b) => tierOrder.indexOf(a) - tierOrder.indexOf(b));
-  }, [database, typeScores]);
+  }, [database]);
 
   const allSpins = useMemo(() => {
     if (!database) return [];
@@ -130,8 +124,7 @@ export function PartsDatabase() {
     if (!selectedMf.includes(p.manufacturer)) return false;
     if (selectedTypes.length > 0 && !selectedTypes.includes(p.officialStats.typeTag ?? '')) return false;
     if (selectedBatches.length > 0 && !selectedBatches.includes(getBatchPrefix(p.releaseWave))) return false;
-    const scores = getPartTypeScores(typeScores, p.category);
-    if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(p.ratings, p.officialStats.typeTag, scores))) return false;
+    if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(p.ratings, p.officialStats.typeTag))) return false;
     if (selectedSpins.length > 0 && !selectedSpins.includes(p.officialStats.spinDirection ?? '')) return false;
     if (ownership === 'owned' && !ownedPartIds.includes(p.id)) return false;
     if (ownership === 'missing' && ownedPartIds.includes(p.id)) return false;
@@ -214,15 +207,14 @@ export function PartsDatabase() {
       </div>
 
       {groups.map((group) => {
-        const filtered = sortParts(group.parts.filter(filterPart), sortBy, typeScores);
+        const filtered = sortParts(group.parts.filter(filterPart), sortBy);
         if (filtered.length === 0) return null;
         return (
           <section key={group.category}>
             <h2 className="mb-4 text-xl font-semibold">{t(group.titleKey)}</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {filtered.map((part) => {
-                const scores = getPartTypeScores(typeScores, part.category);
-                const tier = calculateTier(part.ratings, part.officialStats.typeTag, scores);
+                const tier = calculateTier(part.ratings, part.officialStats.typeTag);
                 return (
                   <Link
                     key={part.id}

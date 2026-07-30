@@ -1,14 +1,11 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { useData } from '../hooks/useData';
 import { useTranslation } from '../i18n';
-import { useProfileStore } from '../stores/profile';
 import {
-  buildPersonalRatingsMap,
   calculateComboRatings,
   getBeyParts,
   getPartById,
   calculateTier,
-  buildTypeScores,
 } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
@@ -47,11 +44,10 @@ function typeAdvantage(attackerType: string, defenderType: string): number {
 function simulateBattle(
   database: Database,
   a: Bey,
-  b: Bey,
-  personalRatingsByPartId?: Record<string, Ratings>
+  b: Bey
 ): MatchupResult {
-  const aRatings = calculateComboRatings(database, getBeyParts(a), personalRatingsByPartId);
-  const bRatings = calculateComboRatings(database, getBeyParts(b), personalRatingsByPartId);
+  const aRatings = calculateComboRatings(database, getBeyParts(a));
+  const bRatings = calculateComboRatings(database, getBeyParts(b));
   const aType = getTypeTag(database, a) ?? 'Balance';
   const bType = getTypeTag(database, b) ?? 'Balance';
   const aSpin = getSpinDirection(database, a) ?? 'right';
@@ -126,13 +122,8 @@ function simulateBattle(
 export function Simulator() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const { profile } = useProfileStore();
   const [aId, setAId] = useState<string>('');
   const [bId, setBId] = useState<string>('');
-  const [useMyRatings, setUseMyRatings] = useState(false);
-
-  const typeScores = useMemo(() => (database ? buildTypeScores(database).bey : null), [database]);
-  const personalRatingsMap = useMemo(() => buildPersonalRatingsMap(profile), [profile]);
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -141,27 +132,15 @@ export function Simulator() {
   const beyA = database.beys.find((b) => b.id === aId);
   const beyB = database.beys.find((b) => b.id === bId);
 
-  const override = useMyRatings ? personalRatingsMap : undefined;
-  const result = beyA && beyB ? simulateBattle(database, beyA, beyB, override) : null;
-  const aRatings = beyA ? calculateComboRatings(database, getBeyParts(beyA), override) : null;
-  const bRatings = beyB ? calculateComboRatings(database, getBeyParts(beyB), override) : null;
+  const result = beyA && beyB ? simulateBattle(database, beyA, beyB) : null;
+  const aRatings = beyA ? calculateComboRatings(database, getBeyParts(beyA)) : null;
+  const bRatings = beyB ? calculateComboRatings(database, getBeyParts(beyB)) : null;
 
   return (
     <div className="space-y-8">
       <div className="space-y-1">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h1 className="text-2xl font-bold">{t('simulator.title')}</h1>
-          {profile && Object.keys(personalRatingsMap).length > 0 && (
-            <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
-              <input
-                type="checkbox"
-                checked={useMyRatings}
-                onChange={(e) => setUseMyRatings(e.target.checked)}
-                className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-              />
-              {t('configurator.useMyRatings')}
-            </label>
-          )}
         </div>
         <p className="text-sm text-[var(--muted)]">{t('simulator.matchupHint')}</p>
       </div>
@@ -210,7 +189,7 @@ export function Simulator() {
                 )}
                 <p className="mt-2 font-semibold">{beyA.name}</p>
                 <div className="mt-1 flex items-center justify-center gap-2">
-                  <TierBadge tier={calculateTier(aRatings, getTypeTag(database, beyA), typeScores || undefined)} size="sm" />
+                  <TierBadge tier={calculateTier(aRatings, getTypeTag(database, beyA))} size="sm" />
                   {getSpinDirection(database, beyA) && (
                     <SpinBadge spin={getSpinDirection(database, beyA)! as 'right' | 'left' | 'both'} size="sm" />
                   )}
@@ -228,7 +207,7 @@ export function Simulator() {
                 )}
                 <p className="mt-2 font-semibold">{beyB.name}</p>
                 <div className="mt-1 flex items-center justify-center gap-2">
-                  <TierBadge tier={calculateTier(bRatings, getTypeTag(database, beyB), typeScores || undefined)} size="sm" />
+                  <TierBadge tier={calculateTier(bRatings, getTypeTag(database, beyB))} size="sm" />
                   {getSpinDirection(database, beyB) && (
                     <SpinBadge spin={getSpinDirection(database, beyB)! as 'right' | 'left' | 'both'} size="sm" />
                   )}

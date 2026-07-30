@@ -7,15 +7,14 @@ This file is for AI coding agents. It describes the project as it currently exis
 Beyblade X Tracker is a **personal** static tracker app for one user's Beyblade X collection. It is no longer a general companion site. The owner uses it to:
 
 - Track owned Beys (purchase date, shop, price, set for Random Booster pulls) and owned parts (which set they came from, purchase date).
-- Keep personal 4-axis ratings (Attack/Defense/Stamina/Balance) per owned Bey and part, independent of catalog community ratings.
-- Combine parts freely in the builder and see predicted scores — optionally computed from personal ratings instead of community ratings. Combos can be saved locally as drafts.
+- Combine parts freely in the builder and see predicted scores. Combos can be saved locally as drafts.
 - Track matches: own Bey (stock or saved combo) vs. any opponent (catalog Bey or free-text name for unknown Beys), result and finish type (Xtreme/Over/Burst/Spin), with statistics (win rate, streak, finish distribution, nemesis).
 
 There is intentionally no account system or backend. The site is a static Vite build on GitHub Pages.
 
 ## Architecture: how personal data works (important)
 
-The personal profile (collection, matches, personal ratings, saved creations) lives **encrypted inside the repo** as a static file:
+The personal profile (collection, matches, saved creations) lives **encrypted inside the repo** as a static file:
 
 - `public/data/profile.enc.json` — AES-256-GCM encrypted, committed, shipped with the site. PBKDF2-SHA-256 (250k iterations) derives the key from the owner's password.
 - `.tmp/profile.plain.json` — plaintext working copy. **Gitignored (`.tmp/`), never commit it.**
@@ -60,8 +59,8 @@ Reference catalog data (Beys, parts, launchers) ships as static JSON under `publ
 
 ### Personal profile (encrypted, `PersonalProfile` in `src/types/index.ts`)
 
-- **OwnedBey**: `beyId` (catalog ref), `purchaseDate`, `shop`, `priceEur` (canonical), `priceChf` (original, if paid in CHF), `setName` (for Random Booster pulls), `personalRatings` (4 axes), `note`.
-- **OwnedPart**: `partId`, `category`, `obtainedFrom` (beyId, set name, or "Einzelkauf"), `purchaseDate`, `personalRatings`, `note`.
+- **OwnedBey**: `beyId` (catalog ref), `purchaseDate`, `shop`, `priceEur` (canonical), `priceChf` (original, if paid in CHF), `setName` (for Random Booster pulls), `note`.
+- **OwnedPart**: `partId`, `category`, `obtainedFrom` (beyId, set name, or "Einzelkauf"), `purchaseDate`, `note`.
 - **Match**: `id`, `date`, `myBey` (`{source:'bey',beyId}` or `{source:'creation',creationId}`), `opponent` (`name` always; `beyId`/`combo` optional), `result` (win/loss), `finishType` (`xtreme|over|burst|spin`, optional), `note`.
 - **Creation**: saved combo (`id`, `name`, part IDs, timestamps) — both in the encrypted profile and as local drafts.
 - Match statistics are computed, not stored: `src/utils/matches.ts` (records, streaks, finish distributions, opponent stats).
@@ -72,17 +71,17 @@ Reference catalog data (Beys, parts, launchers) ships as static JSON under `publ
 - **Launcher**: informational only; no ratings.
 - **Bey**: factory combo linking part IDs, plus catalog prices (`priceEur` etc.).
 
-A combo's displayed rating per dimension is the simple average across selected parts. Personal ratings can override community ratings per part (`calculateComboRatings` third parameter, `buildPersonalRatingsMap`).
+A combo's displayed rating per dimension is the simple average across selected parts.
 
 ## Pages & navigation
 
 - `/` — personal hub (gated): collection overview, match quick stats, quick links.
-- `/collection` — owned Beys/parts with purchase info and personal ratings (gated).
+- `/collection` — owned Beys/parts with purchase info (gated).
 - `/matches` — match history + statistics (gated).
 - `/beys`, `/beys/:id` — catalog; detail pages also show "Mein Exemplar" and personal record with/against that Bey when unlocked.
 - `/parts`, `/parts/:category/:id` — catalog; detail shows "Mein Exemplar" when unlocked.
-- `/configurator` — builder with optional personal-ratings override; saves local drafts.
-- `/simulator` — Bey-vs-Bey prediction with optional personal-ratings override.
+- `/configurator` — builder; saves local drafts.
+- `/simulator` — Bey-vs-Bey prediction.
 - `/profile` — local drafts management, export/import links, lock/forget-device.
 - `/import?d=<compressed>`, `/view/<compressed>` — creation share links.
 
@@ -107,7 +106,7 @@ Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt u
 
 ## Testing instructions
 
-- Unit tests: rating calculation + personal override (`src/utils/data.test.ts`), link compression (`src/utils/links.test.ts`), match statistics (`src/utils/matches.test.ts`), encryption round-trip (`src/utils/crypto.test.ts`).
+- Unit tests: rating calculation (`src/utils/data.test.ts`), link compression (`src/utils/links.test.ts`), match statistics (`src/utils/matches.test.ts`), encryption round-trip (`src/utils/crypto.test.ts`).
 - Run tests with `npm test`.
 - Manually verify lock/unlock and service worker caching on GitHub Pages after deployment.
 

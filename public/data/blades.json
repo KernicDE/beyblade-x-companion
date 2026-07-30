@@ -82,9 +82,9 @@
     },
     "ratings": {
       "attack": 1,
-      "defense": 2,
+      "defense": 3.5,
       "stamina": 5,
-      "balance": 2
+      "balance": 3.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
@@ -111,9 +111,9 @@
       "typeTag": "Attack"
     },
     "ratings": {
-      "attack": 4,
+      "attack": 3.5,
       "defense": 2,
-      "stamina": 2.5,
+      "stamina": 2,
       "balance": 2.5
     },
     "ratingsDisclaimer": true,
@@ -141,10 +141,10 @@
       "typeTag": "Balance"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 3,
+      "attack": 1.5,
+      "defense": 2,
       "stamina": 2,
-      "balance": 2
+      "balance": 1.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "estimated"
@@ -172,8 +172,8 @@
     },
     "ratings": {
       "attack": 5,
-      "defense": 2,
-      "stamina": 1.5,
+      "defense": 2.5,
+      "stamina": 2,
       "balance": 3
     },
     "ratingsDisclaimer": true,

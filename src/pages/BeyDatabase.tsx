@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { calculateComboRatings, getBeyParts, calculateTier, buildTypeScores } from '../utils/data';
+import { calculateComboRatings, getBeyParts, calculateTier } from '../utils/data';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { ManufacturerBadge } from '../components/ManufacturerBadge';
@@ -33,8 +33,6 @@ export function BeyDatabase() {
 
   const q = query.trim().toLowerCase();
 
-  const typeScores = useMemo(() => (database ? buildTypeScores(database).bey : {}), [database]);
-
   const allTypes = useMemo(() => {
     if (!database) return [];
     const set = new Set<string>();
@@ -62,10 +60,10 @@ export function BeyDatabase() {
     database.beys.forEach((b) => {
       const blade = database.blades.find((blade) => blade.id === b.bladeId);
       const ratings = calculateComboRatings(database, getBeyParts(b));
-      set.add(calculateTier(ratings, blade?.officialStats.typeTag, typeScores));
+      set.add(calculateTier(ratings, blade?.officialStats.typeTag));
     });
     return Array.from(set).sort((a, b) => tierOrder.indexOf(a) - tierOrder.indexOf(b));
-  }, [database, typeScores]);
+  }, [database]);
 
   const allSpins = useMemo(() => {
     if (!database) return [];
@@ -85,7 +83,7 @@ export function BeyDatabase() {
       const ratings = calculateComboRatings(database, getBeyParts(b));
       if (selectedTypes.length > 0 && !selectedTypes.includes(blade?.officialStats.typeTag ?? '')) return false;
       if (selectedBatches.length > 0 && !selectedBatches.includes(getBatchPrefix(b.releaseWave))) return false;
-      if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(ratings, blade?.officialStats.typeTag, typeScores))) return false;
+      if (selectedTiers.length > 0 && !selectedTiers.includes(calculateTier(ratings, blade?.officialStats.typeTag))) return false;
       if (selectedSpins.length > 0 && !selectedSpins.includes(blade?.officialStats.spinDirection ?? '')) return false;
       if (!q) return true;
       return (
@@ -116,8 +114,8 @@ export function BeyDatabase() {
           const rb = calculateComboRatings(database, getBeyParts(b));
           const ta = database.blades.find((blade) => blade.id === a.bladeId)?.officialStats.typeTag;
           const tb = database.blades.find((blade) => blade.id === b.bladeId)?.officialStats.typeTag;
-          const tierA = calculateTier(ra, ta, typeScores);
-          const tierB = calculateTier(rb, tb, typeScores);
+          const tierA = calculateTier(ra, ta);
+          const tierB = calculateTier(rb, tb);
           return tierOrder.indexOf(tierB) - tierOrder.indexOf(tierA);
         }
         case 'attack':
@@ -134,7 +132,7 @@ export function BeyDatabase() {
     });
 
     return items;
-  }, [database, selectedMf, selectedTypes, selectedBatches, selectedTiers, selectedSpins, q, sortBy, typeScores]);
+  }, [database, selectedMf, selectedTypes, selectedBatches, selectedTiers, selectedSpins, q, sortBy]);
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -193,7 +191,7 @@ export function BeyDatabase() {
         {filteredBeys.map((bey) => {
           const ratings = calculateComboRatings(database, getBeyParts(bey));
           const blade = database.blades.find((b) => b.id === bey.bladeId);
-          const tier = calculateTier(ratings, blade?.officialStats.typeTag, typeScores);
+          const tier = calculateTier(ratings, blade?.officialStats.typeTag);
           return (
             <Link
               key={bey.id}

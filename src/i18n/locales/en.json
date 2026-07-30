@@ -82,8 +82,6 @@
     "set": "Set",
     "note": "Note",
     "obtainedFrom": "Obtained from",
-    "myRatings": "My rating",
-    "notRated": "Not rated yet.",
     "winRate": "win rate"
   },
   "matches": {
@@ -166,20 +164,22 @@
     "myCopy": "My copy",
     "myRecord": "My record",
     "recordWith": "With this Bey",
-    "recordAgainst": "Against this Bey"
+    "recordAgainst": "Against this Bey",
+    "pro": "Strengths",
+    "con": "Weaknesses",
+    "trivia": "Trivia"
   },
   "configurator": {
     "title": "Builder",
     "resultingRatings": "Resulting Ratings",
     "saveCreation": "Save Creation",
+    "save": "Save",
     "name": "Name",
     "placeholder": "My custom combo",
     "updateCreation": "Update Creation",
     "creationSaved": "Creation saved.",
     "creationUpdated": "Creation updated.",
     "ownedOnly": "Owned parts only",
-    "useMyRatings": "Use my ratings",
-    "myRatingsBadge": "My values",
     "missingParts": "Missing parts",
     "availableIn": "Available in",
     "noSetFound": "No factory set found"

@@ -10,7 +10,7 @@ import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import { useProfileStore } from '../stores/profile';
 import type { PartCategory, LocalizedString } from '../types';
-import { calculateTier, buildTypeScores, getPartTypeScores } from '../utils/data';
+import { calculateTier } from '../utils/data';
 
 function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
@@ -80,9 +80,7 @@ export function PartDetail() {
     ? database.beys.find((b) => b.id === owned.obtainedFrom)
     : undefined;
 
-  const typeScores = buildTypeScores(database);
-  const partScores = getPartTypeScores(typeScores, part.category);
-  const tier = calculateTier(part.ratings, part.officialStats.typeTag, partScores);
+  const tier = calculateTier(part.ratings, part.officialStats.typeTag);
 
   return (
     <div className="space-y-6">
@@ -211,14 +209,6 @@ export function PartDetail() {
                 </div>
               )}
             </dl>
-            {owned.personalRatings && (
-              <div>
-                <p className="mb-2 text-xs font-semibold uppercase text-[var(--muted)]">
-                  {t('collection.myRatings')}
-                </p>
-                <RatingBars ratings={owned.personalRatings} size="md" />
-              </div>
-            )}
           </div>
         </section>
       )}

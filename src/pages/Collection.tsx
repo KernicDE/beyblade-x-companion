@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
 import { UnlockGate } from '../components/UnlockGate';
-import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { useTranslation } from '../i18n';
 import { recordWithBey } from '../utils/matches';
@@ -136,14 +135,6 @@ function CollectionContent() {
                       </div>
                     )}
                   </dl>
-                  {owned.personalRatings ? (
-                    <div className="mt-3">
-                      <p className="mb-1 text-xs font-semibold uppercase text-[var(--muted)]">{t('collection.myRatings')}</p>
-                      <RatingBars ratings={owned.personalRatings} size="sm" />
-                    </div>
-                  ) : (
-                    <p className="mt-3 text-xs text-[var(--muted)]">{t('collection.notRated')}</p>
-                  )}
                   {owned.note && <p className="mt-2 text-xs text-[var(--muted)]">{owned.note}</p>}
                 </div>
               );
@@ -192,14 +183,6 @@ function CollectionContent() {
                       </div>
                     )}
                   </dl>
-                  {owned.personalRatings ? (
-                    <div className="mt-3">
-                      <p className="mb-1 text-xs font-semibold uppercase text-[var(--muted)]">{t('collection.myRatings')}</p>
-                      <RatingBars ratings={owned.personalRatings} size="sm" />
-                    </div>
-                  ) : (
-                    <p className="mt-3 text-xs text-[var(--muted)]">{t('collection.notRated')}</p>
-                  )}
                 </div>
               );
             })}
