@@ -87,14 +87,62 @@ export interface Creation {
   updatedAt: string;
 }
 
-export interface Profile {
+export type FinishType = 'xtreme' | 'over' | 'burst' | 'spin';
+
+export interface OwnedBey {
+  beyId: string;
+  purchaseDate?: string;
+  shop?: string;
+  /** Canonical price in EUR. CHF purchases are converted at the purchase-date rate on data entry. */
+  priceEur?: number;
+  /** Original CHF amount, kept for transparency when the purchase was made in CHF. */
+  priceChf?: number;
+  setName?: string;
+  personalRatings?: Ratings;
+  note?: string;
+}
+
+export interface OwnedPart {
+  partId: string;
+  category: PartCategory;
+  obtainedFrom?: string;
+  purchaseDate?: string;
+  personalRatings?: Ratings;
+  note?: string;
+}
+
+export type MyBeyRef =
+  | { source: 'bey'; beyId: string }
+  | { source: 'creation'; creationId: string };
+
+export interface MatchOpponent {
+  name: string;
+  beyId?: string;
+  combo?: ComboParts;
+}
+
+export interface Match {
+  id: string;
+  date: string;
+  myBey: MyBeyRef;
+  opponent: MatchOpponent;
+  result: 'win' | 'loss';
+  finishType?: FinishType;
+  note?: string;
+}
+
+export interface PersonalProfile {
+  version: 1;
+  username?: string;
+  ownedBeys: OwnedBey[];
+  ownedParts: OwnedPart[];
+  creations: Creation[];
+  matches: Match[];
+}
+
+export interface CreationsExport {
   version: number;
   username?: string;
-  ownedBeyIds: string[];
-  ownedProductIds: string[];
-  ownedPartIds: string[];
-  currency: 'EUR' | 'USD' | 'JPY';
-  autoOwnParts: boolean;
   creations: Creation[];
 }
 

@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
+import { UnlockGate } from '../components/UnlockGate';
 import { useTranslation } from '../i18n';
 import {
   calculateComboRatings,
@@ -37,6 +38,8 @@ function formatPrice(amount: number, currency: string): string {
   return `€${amount.toFixed(2)}`;
 }
 
+const CURRENCY = 'EUR';
+
 function getPartName(database: Database, category: PartCategory, id: string): string {
   const part = getPartById(database, id, category);
   return part?.name ?? id;
@@ -48,14 +51,27 @@ function getPartImage(database: Database, category: PartCategory, id: string): s
 }
 
 export function Dashboard() {
+  return (
+    <UnlockGate>
+      <DashboardContent />
+    </UnlockGate>
+  );
+}
+
+function DashboardContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const {
-    username,
-    currency,
-    ownedProductIds,
-    ownedPartIds,
-  } = useProfileStore();
+  const { profile } = useProfileStore();
+  const username = profile?.username;
+  const currency = CURRENCY;
+  const ownedProductIds = useMemo(
+    () => profile?.ownedBeys.map((b) => b.beyId) ?? [],
+    [profile]
+  );
+  const ownedPartIds = useMemo(
+    () => profile?.ownedParts.map((p) => p.partId) ?? [],
+    [profile]
+  );
 
   const typeScores = useMemo(() => (database ? buildTypeScores(database) : null), [database]);
 
@@ -104,10 +120,10 @@ export function Dashboard() {
   const ownedProductsCount = ownedProductIds.length;
   const uniquePartsCount = ownedPartIds.length;
 
-  const estimatedValue = ownedProductIds.reduce((sum, productId) => {
-    const bey = database.beys.find((b) => b.id === productId);
-    const price = currency === 'JPY' ? bey?.priceJpy : currency === 'USD' ? bey?.priceUsd : bey?.priceEur;
-    return price ? sum + price : sum;
+  const estimatedValue = (profile?.ownedBeys ?? []).reduce((sum, owned) => {
+    if (owned.priceEur !== undefined) return sum + owned.priceEur;
+    const bey = database.beys.find((b) => b.id === owned.beyId);
+    return bey?.priceEur ? sum + bey.priceEur : sum;
   }, 0);
 
   const seriesCompletion = Object.entries(
@@ -145,11 +161,7 @@ export function Dashboard() {
       const missingInWave = metaParts.filter(
         (mp) => metaPartIdsInWave.has(mp.partId) && !ownedPartIds.includes(mp.partId)
       );
-      const price = currency === 'JPY'
-        ? beysInWave[0]?.priceJpy
-        : currency === 'USD'
-          ? beysInWave[0]?.priceUsd
-          : beysInWave[0]?.priceEur;
+      const price = beysInWave[0]?.priceEur;
       return {
         ...rec,
         beysInWave,

@@ -1,15 +1,17 @@
 {
   "app": {
-    "title": "Beyblade X Companion"
+    "title": "Beyblade X Tracker"
   },
   "nav": {
-    "home": "Startseite",
+    "home": "Start",
+    "collection": "Sammlung",
+    "matches": "Matches",
     "beys": "Beys",
     "parts": "Teile",
     "configurator": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
-    "profile": "Mein Profil"
+    "profile": "Profil"
   },
   "theme": {
     "auto": "Auto",
@@ -39,24 +41,72 @@
     "stamina": "STA",
     "balance": "BAL"
   },
+  "unlock": {
+    "loading": "Profil wird geladen…",
+    "title": "Profil entsperren",
+    "desc": "Deine Sammlung und Matches sind verschlüsselt. Gib dein Passwort ein, um sie anzuzeigen.",
+    "password": "Passwort",
+    "remember": "Auf diesem Gerät merken",
+    "wrong": "Falsches Passwort.",
+    "submit": "Entsperren",
+    "noProfileTitle": "Noch kein Profil",
+    "noProfileDesc": "Es wurde noch kein persönliches Profil veröffentlicht. Sobald deine Daten eingepflegt sind, erscheinen sie hier."
+  },
   "home": {
-    "tagline": "Durchsuche offizielle Beys und Teile, baue eigene Kombinationen und teile deine Kreationen — alles offline im Browser.",
-    "browseBeys": "Beys durchsuchen",
-    "openConfigurator": "Builder öffnen",
-    "cards": {
-      "beyDatabase": "Bey-Datenbank",
-      "beyDatabaseDesc": "Offizielle Factory-Combos",
-      "partsDatabase": "Teile-Datenbank",
-      "partsDatabaseDesc": "Blades, Ratchets, Bits, Launcher",
+    "tagline": "Deine Sammlung, deine Matches, deine Combos — alles an einem Ort.",
+    "greeting": "Hallo, {{name}}",
+    "ownedBeys": "Beys im Besitz",
+    "ownedParts": "Teile im Besitz",
+    "recentlyAdded": "Zuletzt hinzugefügt",
+    "recentMatches": "Letzte Matches",
+    "links": {
+      "collection": "Sammlung",
+      "matches": "Matches",
       "configurator": "Builder",
-      "configuratorDesc": "Teile kombinieren",
-      "dashboard": "Dashboard",
-      "dashboardDesc": "Meta, Sammlung & Empfehlungen",
       "simulator": "Simulator",
-      "simulatorDesc": "Zwei Beys gegeneinander simulieren",
-      "myProfile": "Mein Profil",
-      "myProfileDesc": "Gespeicherte Kreationen"
+      "beys": "Bey-Katalog",
+      "parts": "Teile-Katalog"
     }
+  },
+  "collection": {
+    "title": "Meine Sammlung",
+    "tab": {
+      "beys": "Beys",
+      "parts": "Teile"
+    },
+    "empty": "Noch keine Einträge in deiner Sammlung.",
+    "purchaseDate": "Gekauft am",
+    "shop": "Gekauft bei",
+    "price": "Preis",
+    "set": "Set",
+    "note": "Notiz",
+    "obtainedFrom": "Erhalten aus",
+    "myRatings": "Meine Bewertung",
+    "notRated": "Noch nicht bewertet.",
+    "winRate": "Winrate"
+  },
+  "matches": {
+    "title": "Match Tracker",
+    "empty": "Noch keine Matches erfasst.",
+    "overall": "Bilanz",
+    "battles": "Battles",
+    "winRate": "Winrate",
+    "streak": "Serie",
+    "nemesis": "Nemesis",
+    "finishWon": "So gewinnst du",
+    "finishLost": "So verlierst du",
+    "finish": {
+      "xtreme": "Xtreme Finish",
+      "over": "Over Finish",
+      "burst": "Burst Finish",
+      "spin": "Spin Finish"
+    },
+    "byBey": "Bilanz pro Bey",
+    "opponents": "Gegner",
+    "history": "Match-Verlauf",
+    "vs": "vs.",
+    "win": "Sieg",
+    "loss": "Niederlage"
   },
   "beyDatabase": {
     "title": "Bey-Datenbank"
@@ -92,10 +142,10 @@
     "left": "links",
     "both": "beide",
     "noAssistBlade": "Kein Assist Blade",
-    "markOwned": "Als im Besitz markieren",
     "owned": "Im Besitz",
     "availableInSets": "Erhältlich in Sets",
-    "metaAppearances": "Meta-Auftritte"
+    "metaAppearances": "Meta-Auftritte",
+    "myCopy": "Mein Exemplar"
   },
   "radar": {
     "attack": "ATK",
@@ -111,8 +161,11 @@
     "ratchet": "Ratchet",
     "bit": "Bit",
     "communityRatings": "Community-Bewertungen",
-    "markOwned": "Als im Besitz markieren",
-    "owned": "Im Besitz"
+    "owned": "Im Besitz",
+    "myCopy": "Mein Exemplar",
+    "myRecord": "Meine Bilanz",
+    "recordWith": "Mit diesem Bey",
+    "recordAgainst": "Gegen diesen Bey"
   },
   "configurator": {
     "title": "Builder",
@@ -124,6 +177,8 @@
     "creationSaved": "Kreation gespeichert.",
     "creationUpdated": "Kreation aktualisiert.",
     "ownedOnly": "Nur eigene Teile",
+    "useMyRatings": "Meine Bewertungen verwenden",
+    "myRatingsBadge": "Eigene Werte",
     "missingParts": "Fehlende Teile",
     "availableIn": "Erhältlich in",
     "noSetFound": "Kein Factory-Set gefunden"
@@ -170,17 +225,12 @@
     "reset": "Zurücksetzen",
     "tie": "Unentschieden",
     "advantage": "Vorteil",
-    " matchupHint": "Wähle zwei Beys für eine regelbasierte Prognose."
+    "matchupHint": "Wähle zwei Beys für eine regelbasierte Prognose."
   },
   "profile": {
-    "title": "Mein Profil",
-    "username": "Profilname",
-    "usernamePlaceholder": "Dein Name",
-    "currency": "Währung",
-    "autoOwnParts": "Teile automatisch im Besitz",
-    "autoOwnPartsDesc": "Beim Markieren eines Bey werden seine Teile automatisch als im Besitz gesetzt.",
-    "exportProfile": "Profil exportieren",
-    "exportCopied": "Profil-Export-Link in die Zwischenablage kopiert.",
+    "title": "Profil",
+    "exportProfile": "Kreationen exportieren",
+    "exportCopied": "Export-Link in die Zwischenablage kopiert.",
     "shareCopied": "Teilen-Link in die Zwischenablage kopiert.",
     "noCreations": "Noch keine gespeicherten Kreationen. Baue eine im Builder.",
     "edit": "Bearbeiten",
@@ -190,13 +240,11 @@
     "deleteConfirm": "\"{{name}}\" löschen?",
     "confirm": "Bestätigen",
     "cancel": "Abbrechen",
-    "ownedProducts": "Beys im Besitz",
-    "uniqueParts": "Einzelteile im Besitz",
-    "inYourCollection": "in deiner Sammlung",
-    "estimatedValue": "Geschätzter Wert",
-    "basedOnKnownPrices": "Basierend auf bekannten Preisen",
-    "seriesCompletion": "Serien-Fortschritt",
-    "creations": "Gespeicherte Kreationen"
+    "creations": "Gespeicherte Kreationen",
+    "draftsHint": "Lokale Entwürfe aus dem Builder — nur auf diesem Gerät. Sammlung und Matches werden zentral gepflegt.",
+    "lock": "Sperren",
+    "forgetDevice": "Dieses Gerät vergessen",
+    "rememberedHint": "Dein Profil ist auf diesem Gerät gespeichert und entsperrt sich automatisch."
   },
   "import": {
     "invalidLink": "Ungültiger Import-Link",

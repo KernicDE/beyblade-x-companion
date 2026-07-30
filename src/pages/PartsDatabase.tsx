@@ -58,7 +58,11 @@ function sortParts(parts: Part[], sortBy: SortKey, typeScores: TypeScores) {
 export function PartsDatabase() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const { ownedPartIds } = useProfileStore();
+  const { profile } = useProfileStore();
+  const ownedPartIds = useMemo(
+    () => profile?.ownedParts.map((p) => p.partId) ?? [],
+    [profile]
+  );
   const [selectedMf, setSelectedMf] = useState<string[]>([...MANUFACTURERS]);
   const [query, setQuery] = useState('');
   const [sortBy, setSortBy] = useState<SortKey>('name');

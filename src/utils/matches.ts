@@ -1,0 +1,158 @@
+import type { Creation, FinishType, Match, MyBeyRef, PersonalProfile } from '../types';
+
+export interface WinLossRecord {
+  matches: number;
+  wins: number;
+  losses: number;
+  winRate: number;
+}
+
+function emptyRecord(): WinLossRecord {
+  return { matches: 0, wins: 0, losses: 0, winRate: 0 };
+}
+
+function addMatch(record: WinLossRecord, result: 'win' | 'loss'): void {
+  record.matches += 1;
+  if (result === 'win') record.wins += 1;
+  else record.losses += 1;
+  record.winRate = record.wins / record.matches;
+}
+
+function sortByDateAsc(matches: Match[]): Match[] {
+  return [...matches].sort((a, b) => a.date.localeCompare(b.date));
+}
+
+export function sortByDateDesc(matches: Match[]): Match[] {
+  return [...matches].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+export function overallRecord(matches: Match[]): WinLossRecord {
+  const record = emptyRecord();
+  matches.forEach((match) => addMatch(record, match.result));
+  return record;
+}
+
+export interface Streak {
+  type: 'win' | 'loss' | 'none';
+  count: number;
+}
+
+export function currentStreak(matches: Match[]): Streak {
+  const sorted = sortByDateAsc(matches);
+  if (sorted.length === 0) return { type: 'none', count: 0 };
+  const last = sorted[sorted.length - 1].result;
+  let count = 0;
+  for (let i = sorted.length - 1; i >= 0; i -= 1) {
+    if (sorted[i].result !== last) break;
+    count += 1;
+  }
+  return { type: last, count };
+}
+
+export function myBeyKey(ref: MyBeyRef): string {
+  return ref.source === 'bey' ? `bey:${ref.beyId}` : `creation:${ref.creationId}`;
+}
+
+export interface BeyRecordEntry extends WinLossRecord {
+  key: string;
+  ref: MyBeyRef;
+}
+
+export function recordsByMyBey(matches: Match[]): BeyRecordEntry[] {
+  const map = new Map<string, BeyRecordEntry>();
+  matches.forEach((match) => {
+    const key = myBeyKey(match.myBey);
+    let entry = map.get(key);
+    if (!entry) {
+      entry = { key, ref: match.myBey, ...emptyRecord() };
+      map.set(key, entry);
+    }
+    addMatch(entry, match.result);
+  });
+  return Array.from(map.values()).sort(
+    (a, b) => b.matches - a.matches || b.winRate - a.winRate
+  );
+}
+
+/** Record achieved *with* a specific catalog bey as my bey. */
+export function recordWithBey(matches: Match[], beyId: string): WinLossRecord {
+  const record = emptyRecord();
+  matches.forEach((match) => {
+    if (match.myBey.source === 'bey' && match.myBey.beyId === beyId) {
+      addMatch(record, match.result);
+    }
+  });
+  return record;
+}
+
+/** Record achieved *against* a specific catalog bey as opponent. */
+export function recordAgainstBey(matches: Match[], beyId: string): WinLossRecord {
+  const record = emptyRecord();
+  matches.forEach((match) => {
+    if (match.opponent.beyId === beyId) {
+      addMatch(record, match.result);
+    }
+  });
+  return record;
+}
+
+export type FinishDistribution = { [K in FinishType]: number };
+
+export function finishDistribution(matches: Match[], result?: 'win' | 'loss'): FinishDistribution {
+  const dist: FinishDistribution = { xtreme: 0, over: 0, burst: 0, spin: 0 };
+  matches.forEach((match) => {
+    if (result && match.result !== result) return;
+    if (match.finishType) dist[match.finishType] += 1;
+  });
+  return dist;
+}
+
+export interface OpponentEntry extends WinLossRecord {
+  name: string;
+  beyId?: string;
+}
+
+export function opponentStats(matches: Match[]): OpponentEntry[] {
+  const map = new Map<string, OpponentEntry>();
+  matches.forEach((match) => {
+    const key = match.opponent.beyId ?? match.opponent.name;
+    let entry = map.get(key);
+    if (!entry) {
+      entry = {
+        name: match.opponent.name,
+        beyId: match.opponent.beyId,
+        ...emptyRecord(),
+      };
+      map.set(key, entry);
+    }
+    addMatch(entry, match.result);
+  });
+  return Array.from(map.values()).sort(
+    (a, b) => b.matches - a.matches || a.winRate - b.winRate
+  );
+}
+
+/** Display name for my bey: catalog bey name, creation name, or the raw id as fallback. */
+export function resolveMyBeyName(
+  ref: MyBeyRef,
+  beyNameById: (beyId: string) => string | undefined,
+  creations: Creation[]
+): string {
+  if (ref.source === 'bey') {
+    return beyNameById(ref.beyId) ?? ref.beyId;
+  }
+  return creations.find((c) => c.id === ref.creationId)?.name ?? ref.creationId;
+}
+
+/** All creations that matches can reference: profile creations plus local drafts. */
+export function allCreations(profile: PersonalProfile | null, localCreations: Creation[]): Creation[] {
+  const seen = new Set<string>();
+  const result: Creation[] = [];
+  [...(profile?.creations ?? []), ...localCreations].forEach((creation) => {
+    if (!seen.has(creation.id)) {
+      seen.add(creation.id);
+      result.push(creation);
+    }
+  });
+  return result;
+}

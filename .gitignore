@@ -1,4 +1,5 @@
 .superpowers/
+.tmp/
 
 # Logs
 logs

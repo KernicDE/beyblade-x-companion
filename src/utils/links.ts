@@ -1,17 +1,17 @@
 import LZString from 'lz-string';
-import type { Profile, Creation } from '../types';
+import type { Creation, CreationsExport } from '../types';
 
-export function compressProfile(profile: Profile): string {
+export function compressProfile(profile: CreationsExport): string {
   const json = JSON.stringify(profile);
   return LZString.compressToEncodedURIComponent(json);
 }
 
-export function decompressProfile(compressed: string): Profile | null {
+export function decompressProfile(compressed: string): CreationsExport | null {
   try {
     const json = LZString.decompressFromEncodedURIComponent(compressed);
     if (!json) return null;
     const parsed = JSON.parse(json) as unknown;
-    if (!isProfile(parsed)) return null;
+    if (!isCreationsExport(parsed)) return null;
     return parsed;
   } catch {
     return null;
@@ -35,15 +35,13 @@ export function decompressCreation(compressed: string): Creation | null {
   }
 }
 
-function isProfile(value: unknown): value is Profile {
+function isCreationsExport(value: unknown): value is CreationsExport {
   if (typeof value !== 'object' || value === null) return false;
   const profile = value as Record<string, unknown>;
   return (
     typeof profile.version === 'number' &&
     Array.isArray(profile.creations) &&
     profile.creations.every(isCreation) &&
-    (profile.ownedBeyIds === undefined || Array.isArray(profile.ownedBeyIds)) &&
-    (profile.ownedPartIds === undefined || Array.isArray(profile.ownedPartIds)) &&
     (profile.username === undefined || typeof profile.username === 'string')
   );
 }

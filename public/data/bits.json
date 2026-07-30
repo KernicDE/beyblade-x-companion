@@ -2904,5 +2904,36 @@
       "balance": 2.3
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "bit-cyclone-hasbro",
+    "category": "bit",
+    "name": "Cyclone",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/bits/bit-cyclone.png",
+    "releaseDate": "2025-01-01",
+    "releaseWave": "G1491",
+    "description": {
+      "en": "Hasbro's release of the Cyclone Bit: a flat, counter-clockwise spiral tip for left-spin Beys, reminiscent of Metal Fight's Left Flat. Released in the G1491 Cobalt Dragoon Deluxe Left-Spin String Launcher Set.",
+      "de": "Hasbros Version des Cyclone Bits: eine flache, gegen den Uhrzeigersinn gewundene Spiralspitze für linksdrehende Beys, die an Left Flat aus Metal Fight erinnert. Erschienen im G1491 Cobalt Dragoon Deluxe Left-Spin String Launcher Set."
+    },
+    "assessment": {
+      "en": "Same mold as the Takara Tomy original; the signature Bit of Cobalt Dragoon.",
+      "de": "Gleiche Form wie das Takara-Tomy-Original; der Signature-Bit von Cobalt Dragoon."
+    },
+    "officialStats": {
+      "heightMm": 29.5,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "left"
+    },
+    "ratings": {
+      "attack": 4,
+      "defense": 0.5,
+      "stamina": 0.5,
+      "balance": 1.5
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   }
 ]

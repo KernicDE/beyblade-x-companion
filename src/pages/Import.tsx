@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { useProfileStore } from '../stores/profile';
+import { useCreationsStore } from '../stores/creations';
 import { decompressProfile } from '../utils/links';
 import { useTranslation } from '../i18n';
 
@@ -8,7 +8,7 @@ export function Import() {
   const { t } = useTranslation();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  const { creations, replaceProfile } = useProfileStore();
+  const { creations, replaceCreations } = useCreationsStore();
   const [status, setStatus] = useState<'idle' | 'confirm' | 'imported' | 'error'>('idle');
   const [incomingCount, setIncomingCount] = useState(0);
 
@@ -28,19 +28,19 @@ export function Import() {
     setIncomingCount(profile.creations.length);
 
     if (creations.length === 0) {
-      replaceProfile(profile);
+      replaceCreations(profile.creations);
       setStatus('imported');
     } else {
       setStatus('confirm');
     }
-  }, [searchParams, creations.length, replaceProfile]);
+  }, [searchParams, creations.length, replaceCreations]);
 
   const handleConfirm = () => {
     const compressed = searchParams.get('d');
     if (!compressed) return;
     const profile = decompressProfile(compressed);
     if (!profile) return;
-    replaceProfile(profile);
+    replaceCreations(profile.creations);
     setStatus('imported');
   };
 

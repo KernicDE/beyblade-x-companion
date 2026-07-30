@@ -1,15 +1,17 @@
 {
   "app": {
-    "title": "Beyblade X Companion"
+    "title": "Beyblade X Tracker"
   },
   "nav": {
     "home": "Home",
+    "collection": "Collection",
+    "matches": "Matches",
     "beys": "Beys",
     "parts": "Parts",
     "configurator": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
-    "profile": "My Profile"
+    "profile": "Profile"
   },
   "theme": {
     "auto": "Auto",
@@ -39,24 +41,72 @@
     "stamina": "STA",
     "balance": "BAL"
   },
+  "unlock": {
+    "loading": "Loading profile…",
+    "title": "Unlock profile",
+    "desc": "Your collection and matches are encrypted. Enter your password to view them.",
+    "password": "Password",
+    "remember": "Remember on this device",
+    "wrong": "Wrong password.",
+    "submit": "Unlock",
+    "noProfileTitle": "No profile yet",
+    "noProfileDesc": "No personal profile has been published yet. Once your data is entered, it will show up here."
+  },
   "home": {
-    "tagline": "Browse official Beys and parts, build custom combinations, and share your creations — all offline in your browser.",
-    "browseBeys": "Browse Beys",
-    "openConfigurator": "Open Builder",
-    "cards": {
-      "beyDatabase": "Bey Database",
-      "beyDatabaseDesc": "Official factory combos",
-      "partsDatabase": "Parts Database",
-      "partsDatabaseDesc": "Blades, ratchets, bits, launchers",
+    "tagline": "Your collection, your matches, your combos — all in one place.",
+    "greeting": "Hello, {{name}}",
+    "ownedBeys": "Owned Beys",
+    "ownedParts": "Owned parts",
+    "recentlyAdded": "Recently added",
+    "recentMatches": "Recent matches",
+    "links": {
+      "collection": "Collection",
+      "matches": "Matches",
       "configurator": "Builder",
-      "configuratorDesc": "Mix & match parts",
-      "dashboard": "Dashboard",
-      "dashboardDesc": "Meta, collection & recommendations",
       "simulator": "Simulator",
-      "simulatorDesc": "Pit two Beys against each other",
-      "myProfile": "My Profile",
-      "myProfileDesc": "Saved creations"
+      "beys": "Bey catalog",
+      "parts": "Parts catalog"
     }
+  },
+  "collection": {
+    "title": "My Collection",
+    "tab": {
+      "beys": "Beys",
+      "parts": "Parts"
+    },
+    "empty": "No entries in your collection yet.",
+    "purchaseDate": "Purchased",
+    "shop": "Shop",
+    "price": "Price",
+    "set": "Set",
+    "note": "Note",
+    "obtainedFrom": "Obtained from",
+    "myRatings": "My rating",
+    "notRated": "Not rated yet.",
+    "winRate": "win rate"
+  },
+  "matches": {
+    "title": "Match Tracker",
+    "empty": "No matches recorded yet.",
+    "overall": "Record",
+    "battles": "battles",
+    "winRate": "Win rate",
+    "streak": "Streak",
+    "nemesis": "Nemesis",
+    "finishWon": "How you win",
+    "finishLost": "How you lose",
+    "finish": {
+      "xtreme": "Xtreme Finish",
+      "over": "Over Finish",
+      "burst": "Burst Finish",
+      "spin": "Spin Finish"
+    },
+    "byBey": "Record per Bey",
+    "opponents": "Opponents",
+    "history": "Match history",
+    "vs": "vs.",
+    "win": "Win",
+    "loss": "Loss"
   },
   "beyDatabase": {
     "title": "Bey Database"
@@ -92,10 +142,10 @@
     "left": "left",
     "both": "both",
     "noAssistBlade": "No Assist Blade",
-    "markOwned": "Mark as owned",
     "owned": "Owned",
     "availableInSets": "Available in sets",
-    "metaAppearances": "Meta appearances"
+    "metaAppearances": "Meta appearances",
+    "myCopy": "My copy"
   },
   "radar": {
     "attack": "ATK",
@@ -111,8 +161,11 @@
     "ratchet": "Ratchet",
     "bit": "Bit",
     "communityRatings": "Community Ratings",
-    "markOwned": "Mark as owned",
-    "owned": "Owned"
+    "owned": "Owned",
+    "myCopy": "My copy",
+    "myRecord": "My record",
+    "recordWith": "With this Bey",
+    "recordAgainst": "Against this Bey"
   },
   "configurator": {
     "title": "Builder",
@@ -124,6 +177,8 @@
     "creationSaved": "Creation saved.",
     "creationUpdated": "Creation updated.",
     "ownedOnly": "Owned parts only",
+    "useMyRatings": "Use my ratings",
+    "myRatingsBadge": "My values",
     "missingParts": "Missing parts",
     "availableIn": "Available in",
     "noSetFound": "No factory set found"
@@ -173,14 +228,9 @@
     "matchupHint": "Select two Beys for a rule-based prediction."
   },
   "profile": {
-    "title": "My Profile",
-    "username": "Profile name",
-    "usernamePlaceholder": "Your name",
-    "currency": "Currency",
-    "autoOwnParts": "Auto-own parts",
-    "autoOwnPartsDesc": "When marking a Bey as owned, its parts are automatically marked as owned too.",
-    "exportProfile": "Export Profile",
-    "exportCopied": "Profile export link copied to clipboard.",
+    "title": "Profile",
+    "exportProfile": "Export creations",
+    "exportCopied": "Export link copied to clipboard.",
     "shareCopied": "Share link copied to clipboard.",
     "noCreations": "No saved creations yet. Build one in the builder.",
     "edit": "Edit",
@@ -190,13 +240,11 @@
     "deleteConfirm": "Delete \"{{name}}\"?",
     "confirm": "Confirm",
     "cancel": "Cancel",
-    "ownedProducts": "Owned Beys",
-    "uniqueParts": "Owned unique parts",
-    "inYourCollection": "in your collection",
-    "estimatedValue": "Estimated value",
-    "basedOnKnownPrices": "Based on known prices",
-    "seriesCompletion": "Series completion",
-    "creations": "Saved creations"
+    "creations": "Saved creations",
+    "draftsHint": "Local drafts from the builder — this device only. Collection and matches are maintained centrally.",
+    "lock": "Lock",
+    "forgetDevice": "Forget this device",
+    "rememberedHint": "Your profile is stored on this device and unlocks automatically."
   },
   "import": {
     "invalidLink": "Invalid import link",

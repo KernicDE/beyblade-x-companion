@@ -28,7 +28,7 @@ export function PartDetail() {
   const { t, locale } = useTranslation();
   const { category, id } = useParams<{ category: string; id: string }>();
   const { database, loading, error } = useData();
-  const { isOwnedPart, toggleOwnedPart } = useProfileStore();
+  const { profile } = useProfileStore();
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -74,6 +74,11 @@ export function PartDetail() {
 
   const part = getPartById(database, id ?? '', category as PartCategory);
   if (!part) return <p className="text-red-600">{t('partDetail.partNotFound')}</p>;
+
+  const owned = profile?.ownedParts.find((p) => p.partId === part.id);
+  const obtainedFromBey = owned?.obtainedFrom
+    ? database.beys.find((b) => b.id === owned.obtainedFrom)
+    : undefined;
 
   const typeScores = buildTypeScores(database);
   const partScores = getPartTypeScores(typeScores, part.category);
@@ -129,17 +134,11 @@ export function PartDetail() {
             {part.officialStats.typeTag && (
               <p className="text-[var(--muted)]">{t('partDetail.type')}: {t(`partDetail.${part.officialStats.typeTag.toLowerCase()}`)}</p>
             )}
-            <button
-              type="button"
-              onClick={() => toggleOwnedPart(part.id)}
-              className={`mt-2 rounded-md px-3 py-1.5 text-sm font-medium transition ${
-                isOwnedPart(part.id)
-                  ? 'bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-900/50'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600'
-              }`}
-            >
-              {isOwnedPart(part.id) ? t('partDetail.owned') : t('partDetail.markOwned')}
-            </button>
+            {owned && (
+              <span className="mt-2 inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800 dark:bg-green-900/30 dark:text-green-300">
+                {t('partDetail.owned')}
+              </span>
+            )}
           </div>
 
           <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
@@ -185,6 +184,44 @@ export function PartDetail() {
           </p>
         </div>
       </div>
+
+      {owned && (
+        <section className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+          <h2 className="mb-4 text-lg font-semibold">{t('partDetail.myCopy')}</h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <dl className="space-y-2 text-sm">
+              {owned.obtainedFrom && (
+                <div className="flex justify-between gap-4">
+                  <dt className="text-[var(--muted)]">{t('collection.obtainedFrom')}</dt>
+                  <dd className="text-right">
+                    {obtainedFromBey ? obtainedFromBey.name : owned.obtainedFrom}
+                  </dd>
+                </div>
+              )}
+              {owned.purchaseDate && (
+                <div className="flex justify-between">
+                  <dt className="text-[var(--muted)]">{t('collection.purchaseDate')}</dt>
+                  <dd>{owned.purchaseDate}</dd>
+                </div>
+              )}
+              {owned.note && (
+                <div className="flex justify-between gap-4">
+                  <dt className="text-[var(--muted)]">{t('collection.note')}</dt>
+                  <dd className="text-right">{owned.note}</dd>
+                </div>
+              )}
+            </dl>
+            {owned.personalRatings && (
+              <div>
+                <p className="mb-2 text-xs font-semibold uppercase text-[var(--muted)]">
+                  {t('collection.myRatings')}
+                </p>
+                <RatingBars ratings={owned.personalRatings} size="md" />
+              </div>
+            )}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

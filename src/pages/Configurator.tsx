@@ -6,7 +6,8 @@ import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { useConfiguratorStore } from '../stores/configurator';
 import { useProfileStore } from '../stores/profile';
-import { calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
+import { useCreationsStore } from '../stores/creations';
+import { buildPersonalRatingsMap, calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
 import type { Part } from '../types';
 
@@ -25,11 +26,18 @@ export function Configurator() {
     setBit,
     loadCombo,
   } = useConfiguratorStore();
-  const { addCreation, updateCreation, creations, ownedPartIds } = useProfileStore();
+  const { addCreation, updateCreation, creations } = useCreationsStore();
+  const { profile } = useProfileStore();
+  const ownedPartIds = useMemo(
+    () => profile?.ownedParts.map((p) => p.partId) ?? [],
+    [profile]
+  );
+  const personalRatingsMap = useMemo(() => buildPersonalRatingsMap(profile), [profile]);
 
   const [saveName, setSaveName] = useState('');
   const [savedMessage, setSavedMessage] = useState('');
   const [ownedOnly, setOwnedOnly] = useState(false);
+  const [useMyRatings, setUseMyRatings] = useState(false);
 
   const editingId = searchParams.get('edit');
 
@@ -69,7 +77,15 @@ export function Configurator() {
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
   const combo = { bladeId, assistBladeId, ratchetId, bitId };
-  const ratings = calculateComboRatings(database, combo);
+  const comboHasPersonalRatings = [bladeId, assistBladeId, ratchetId, bitId].some(
+    (id) => id && personalRatingsMap[id]
+  );
+  const myRatingsActive = useMyRatings && comboHasPersonalRatings;
+  const ratings = calculateComboRatings(
+    database,
+    combo,
+    myRatingsActive ? personalRatingsMap : undefined
+  );
   const estimated = isComboEstimated(database, combo);
   const canSave = bladeId && ratchetId && bitId && saveName.trim();
 
@@ -104,15 +120,28 @@ export function Configurator() {
     <div className="space-y-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-2xl font-bold">{t('configurator.title')}</h1>
-        <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
-          <input
-            type="checkbox"
-            checked={ownedOnly}
-            onChange={(e) => setOwnedOnly(e.target.checked)}
-            className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-          />
-          {t('configurator.ownedOnly')}
-        </label>
+        <div className="flex flex-wrap gap-3">
+          {profile && Object.keys(personalRatingsMap).length > 0 && (
+            <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
+              <input
+                type="checkbox"
+                checked={useMyRatings}
+                onChange={(e) => setUseMyRatings(e.target.checked)}
+                className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              {t('configurator.useMyRatings')}
+            </label>
+          )}
+          <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
+            <input
+              type="checkbox"
+              checked={ownedOnly}
+              onChange={(e) => setOwnedOnly(e.target.checked)}
+              className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            {t('configurator.ownedOnly')}
+          </label>
+        </div>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -169,9 +198,16 @@ export function Configurator() {
 
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
-          <h2 className="mb-4 text-lg font-semibold">
-            {estimated ? t('partDetail.estimatedRatings') : t('configurator.resultingRatings')}
-          </h2>
+          <div className="mb-4 flex items-center gap-2">
+            <h2 className="text-lg font-semibold">
+              {estimated ? t('partDetail.estimatedRatings') : t('configurator.resultingRatings')}
+            </h2>
+            {myRatingsActive && (
+              <span className="rounded-full bg-purple-100 px-2 py-0.5 text-xs font-medium text-purple-700 dark:bg-purple-900/30 dark:text-purple-300">
+                {t('configurator.myRatingsBadge')}
+              </span>
+            )}
+          </div>
           <div className="mx-auto w-full max-w-[320px]">
             <RadarChart ratings={ratings} size={320} />
           </div>

@@ -17,6 +17,7 @@ import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import type { LocalizedString, PartCategory } from '../types';
 import { useProfileStore } from '../stores/profile';
+import { recordAgainstBey, recordWithBey } from '../utils/matches';
 
 function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
@@ -26,7 +27,7 @@ export function BeyDetail() {
   const { t, locale } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const { database, loading, error } = useData();
-  const { isOwnedProduct, toggleOwnedProduct } = useProfileStore();
+  const { profile } = useProfileStore();
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -45,6 +46,10 @@ export function BeyDetail() {
   const ratings = calculateComboRatings(database, parts);
   const estimated = isComboEstimated(database, parts);
   const tier = calculateTier(ratings, blade?.officialStats.typeTag, typeScores);
+
+  const owned = profile?.ownedBeys.find((b) => b.beyId === bey.id);
+  const recordWith = profile ? recordWithBey(profile.matches, bey.id) : null;
+  const recordAgainst = profile ? recordAgainstBey(profile.matches, bey.id) : null;
 
   const partLink = (category: string, partId: string | undefined, label: string) => {
     if (!partId) return null;
@@ -96,24 +101,11 @@ export function BeyDetail() {
               <span className="text-[var(--muted)]">{t('partDetail.spinDirection')}:</span>
               {spinDirection ? <SpinBadge spin={spinDirection} size="md" /> : <span className="text-[var(--muted)]">-</span>}
             </div>
-            <button
-              type="button"
-              onClick={() =>
-                toggleOwnedProduct(bey.id, [
-                  parts.bladeId,
-                  parts.assistBladeId,
-                  parts.ratchetId,
-                  parts.bitId,
-                ].filter(Boolean) as string[])
-              }
-              className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
-                isOwnedProduct(bey.id)
-                  ? 'bg-green-100 text-green-800 hover:bg-green-200 dark:bg-green-900/30 dark:text-green-300 dark:hover:bg-green-900/50'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600'
-              }`}
-            >
-              {isOwnedProduct(bey.id) ? t('beyDetail.owned') : t('beyDetail.markOwned')}
-            </button>
+            {owned && (
+              <span className="inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800 dark:bg-green-900/30 dark:text-green-300">
+                {t('beyDetail.owned')}
+              </span>
+            )}
             <h2 className="font-semibold text-[var(--text)]">{t('beyDetail.parts')}</h2>
             <div className="flex flex-wrap gap-2">
               {blade && partLink('blade', blade.id, t('beyDetail.blade'))}
@@ -142,6 +134,83 @@ export function BeyDetail() {
           </p>
         </div>
       </div>
+
+      {owned && (
+        <section className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+          <h2 className="mb-4 text-lg font-semibold">{t('beyDetail.myCopy')}</h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <dl className="space-y-2 text-sm">
+              {owned.purchaseDate && (
+                <div className="flex justify-between">
+                  <dt className="text-[var(--muted)]">{t('collection.purchaseDate')}</dt>
+                  <dd>{owned.purchaseDate}</dd>
+                </div>
+              )}
+              {owned.shop && (
+                <div className="flex justify-between">
+                  <dt className="text-[var(--muted)]">{t('collection.shop')}</dt>
+                  <dd>{owned.shop}</dd>
+                </div>
+              )}
+              {owned.priceEur !== undefined && (
+                <div className="flex justify-between">
+                  <dt className="text-[var(--muted)]">{t('collection.price')}</dt>
+                  <dd>
+                    €{owned.priceEur.toFixed(2)}
+                    {owned.priceChf !== undefined && ` (CHF ${owned.priceChf.toFixed(2)})`}
+                  </dd>
+                </div>
+              )}
+              {owned.setName && (
+                <div className="flex justify-between">
+                  <dt className="text-[var(--muted)]">{t('collection.set')}</dt>
+                  <dd>{owned.setName}</dd>
+                </div>
+              )}
+              {owned.note && (
+                <div className="flex justify-between gap-4">
+                  <dt className="text-[var(--muted)]">{t('collection.note')}</dt>
+                  <dd className="text-right">{owned.note}</dd>
+                </div>
+              )}
+            </dl>
+            {owned.personalRatings && (
+              <div>
+                <p className="mb-2 text-xs font-semibold uppercase text-[var(--muted)]">
+                  {t('collection.myRatings')}
+                </p>
+                <RatingBars ratings={owned.personalRatings} size="md" />
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {recordWith && recordAgainst && (recordWith.matches > 0 || recordAgainst.matches > 0) && (
+        <section className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+          <h2 className="mb-4 text-lg font-semibold">{t('beyDetail.myRecord')}</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {recordWith.matches > 0 && (
+              <div className="rounded-lg bg-[var(--muted)]/5 p-4">
+                <p className="text-sm text-[var(--muted)]">{t('beyDetail.recordWith')}</p>
+                <p className="text-xl font-bold">{recordWith.wins}-{recordWith.losses}</p>
+                <p className="text-xs text-[var(--muted)]">
+                  {Math.round(recordWith.winRate * 100)}% {t('matches.winRate')}
+                </p>
+              </div>
+            )}
+            {recordAgainst.matches > 0 && (
+              <div className="rounded-lg bg-[var(--muted)]/5 p-4">
+                <p className="text-sm text-[var(--muted)]">{t('beyDetail.recordAgainst')}</p>
+                <p className="text-xl font-bold">{recordAgainst.wins}-{recordAgainst.losses}</p>
+                <p className="text-xs text-[var(--muted)]">
+                  {Math.round(recordAgainst.winRate * 100)}% {t('matches.winRate')}
+                </p>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

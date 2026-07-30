@@ -113,7 +113,8 @@ export function getPartById(
 
 export function calculateComboRatings(
   database: Database,
-  combo: ComboParts
+  combo: ComboParts,
+  personalRatingsByPartId?: Record<string, Ratings>
 ): Ratings {
   const parts: Part[] = [
     getPartById(database, combo.bladeId, 'blade'),
@@ -129,12 +130,15 @@ export function calculateComboRatings(
   }
 
   const sum = parts.reduce(
-    (acc, part) => ({
-      attack: acc.attack + part.ratings.attack,
-      defense: acc.defense + part.ratings.defense,
-      stamina: acc.stamina + part.ratings.stamina,
-      balance: acc.balance + part.ratings.balance,
-    }),
+    (acc, part) => {
+      const ratings = personalRatingsByPartId?.[part.id] ?? part.ratings;
+      return {
+        attack: acc.attack + ratings.attack,
+        defense: acc.defense + ratings.defense,
+        stamina: acc.stamina + ratings.stamina,
+        balance: acc.balance + ratings.balance,
+      };
+    },
     { attack: 0, defense: 0, stamina: 0, balance: 0 }
   );
 
@@ -144,6 +148,17 @@ export function calculateComboRatings(
     stamina: Number((sum.stamina / parts.length).toFixed(2)),
     balance: Number((sum.balance / parts.length).toFixed(2)),
   };
+}
+
+/** Personal 4-axis ratings per owned part, used to override community ratings. */
+export function buildPersonalRatingsMap(
+  profile: { ownedParts: { partId: string; personalRatings?: Ratings }[] } | null
+): Record<string, Ratings> {
+  const map: Record<string, Ratings> = {};
+  profile?.ownedParts.forEach((part) => {
+    if (part.personalRatings) map[part.partId] = part.personalRatings;
+  });
+  return map;
 }
 
 export function getBeyParts(bey: Bey): ComboParts {

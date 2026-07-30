@@ -5854,5 +5854,65 @@
       "de": "Quetzalcoatlus 4-55D ist eine Jurassic-World-Collab, die an den Flugsaurier erinnert und im Multipack mit Spinosaurus 3-85A erschien. Als Stamina-Typ mit niedrigem 4-55 Ratchet und Dot Bit ist er auf lange Drehzeiten ausgelegt.",
       "en": "Quetzalcoatlus 4-55D is a Jurassic World collab inspired by the pterosaur and launched in the Spinosaurus 3-85A multipack. As a Stamina Type with the low 4-55 Ratchet and Dot Bit, it is built for long spin times."
     }
+  },
+  {
+    "id": "dagger-dran-4-60r-f9588",
+    "name": "Dagger Dran 4-60R",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/dran-dagger4-60r-bx-20.png",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "F9588",
+    "bladeId": "dran-dagger-hasbro",
+    "ratchetId": "ratchet-4-60-hasbro",
+    "bitId": "bit-rush-hasbro",
+    "assessment": {
+      "en": "Attack Type from Hasbro's Xtreme Battle Set (F9588, Summer 2024), bundled with Tusk Mammoth 3-60T, the Xtreme Beystadium and two launchers. Same combo as Takara Tomy's BX-20 DranDagger 4-60R; reprints since June 2025 use the reinforced, heavier mold.",
+      "de": "Attack-Type aus Hasbros Xtreme Battle Set (F9588, Sommer 2024), zusammen mit Tusk Mammoth 3-60T, dem Xtreme Beystadium und zwei Launchern. Gleiche Combo wie Takara Tomys BX-20 DranDagger 4-60R; Reprints seit Juni 2025 verwenden die verstärkte, schwerere Form."
+    }
+  },
+  {
+    "id": "tusk-mammoth-3-60t-f9588",
+    "name": "Tusk Mammoth 3-60T",
+    "manufacturer": "Hasbro",
+    "imageUrl": "",
+    "releaseDate": "2024-08-01",
+    "releaseWave": "F9588",
+    "bladeId": "mammoth-tusk-hasbro",
+    "ratchetId": "ratchet-3-60-hasbro",
+    "bitId": "bit-taper-hasbro",
+    "assessment": {
+      "en": "Balance Type from Hasbro's Xtreme Battle Set (F9588, Summer 2024), bundled with Dagger Dran 4-60R, the Xtreme Beystadium and two launchers. Hasbro's release of the MammothTusk Blade with the 3-60 Ratchet and Taper Bit.",
+      "de": "Balance-Type aus Hasbros Xtreme Battle Set (F9588, Sommer 2024), zusammen mit Dagger Dran 4-60R, dem Xtreme Beystadium und zwei Launchern. Hasbros Version des MammothTusk Blades mit 3-60 Ratchet und Taper Bit."
+    }
+  },
+  {
+    "id": "soar-phoenix-9-60f-hasbro",
+    "name": "Soar Phoenix 9-60F",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/phoenix-wing9-60gf-bx-23.png",
+    "releaseDate": "",
+    "releaseWave": "Hasbro",
+    "bladeId": "phoenix-wing-hasbro",
+    "ratchetId": "ratchet-9-60-hasbro",
+    "bitId": "bit-flat-hasbro",
+    "assessment": {
+      "en": "Hasbro's Soar Phoenix (Phoenix Wing Blade) with the 9-60 Ratchet and Flat Bit — an Attack Type combo known from the anime.",
+      "de": "Hasbros Soar Phoenix (Phoenix Wing Blade) mit 9-60 Ratchet und Flat Bit — eine aus dem Anime bekannte Attack-Type-Combo."
+    }
+  },
+  {
+    "id": "cobalt-dragoon-2-60c-g1491",
+    "name": "Cobalt Dragoon 2-60C",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/cobalt-dragoon2-60c-bx-34.png",
+    "releaseDate": "2025-01-01",
+    "releaseWave": "G1491",
+    "bladeId": "cobalt-dragoon-hasbro",
+    "ratchetId": "ratchet-2-60-hasbro",
+    "bitId": "bit-cyclone-hasbro",
+    "assessment": {
+      "en": "Hasbro's release of CobaltDragoon 2-60C in the G1491 Cobalt Dragoon Deluxe Left-Spin String Launcher Set (USD $19.99). The only left-spin Attack Type in Beyblade X.",
+      "de": "Hasbros Version von CobaltDragoon 2-60C im G1491 Cobalt Dragoon Deluxe Left-Spin String Launcher Set (USD 19,99). Der einzige linksdrehende Attack-Type in Beyblade X."
+    }
   }
 ]

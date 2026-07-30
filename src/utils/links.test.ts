@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { compressCreation, decompressCreation, compressProfile, decompressProfile } from './links';
-import type { Creation, Profile } from '../types';
+import type { Creation, CreationsExport } from '../types';
 
 const mockCreation: Creation = {
   id: 'creation-1',
@@ -13,14 +13,9 @@ const mockCreation: Creation = {
   updatedAt: '2023-01-01T00:00:00.000Z',
 };
 
-const mockProfile: Profile = {
-  version: 3,
+const mockProfile: CreationsExport = {
+  version: 1,
   username: 'Test User',
-  ownedBeyIds: [],
-  ownedProductIds: [],
-  ownedPartIds: [],
-  currency: 'EUR',
-  autoOwnParts: true,
   creations: [mockCreation],
 };
 

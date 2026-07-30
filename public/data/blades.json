@@ -6388,5 +6388,35 @@
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
+  },
+  {
+    "id": "cobalt-dragoon-hasbro",
+    "category": "blade",
+    "name": "Cobalt Dragoon",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/blades/cobalt-dragoon.png",
+    "releaseDate": "2025-01-01",
+    "releaseWave": "G1491",
+    "description": {
+      "en": "Hasbro's release of CobaltDragoon, the first left-spin Blade in Beyblade X. Four upward-slanting contact points produce upper attacks; the heavy ~38g Blade is the only left-spin option in the game. Released in the G1491 Cobalt Dragoon Deluxe Left-Spin String Launcher Set.",
+      "de": "Hasbros Version von CobaltDragoon, dem ersten linksdrehenden Blade in Beyblade X. Vier nach oben geneigte Kontaktpunkte erzeugen Upper Attacks; der rund 38 g schwere Blade ist die einzige Left-Spin-Option im Spiel. Erschienen im G1491 Cobalt Dragoon Deluxe Left-Spin String Launcher Set."
+    },
+    "assessment": {
+      "en": "Same mold as the Takara Tomy original: a must-have for spin-equalizing combos thanks to its unique left spin.",
+      "de": "Gleiche Form wie das Takara-Tomy-Original: Dank des einzigartigen Linksdralls ein Muss für Spin-Equalizing-Combos."
+    },
+    "officialStats": {
+      "weightGrams": 37.8,
+      "spinDirection": "left",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 5,
+      "defense": 1.5,
+      "stamina": 1,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   }
 ]
