@@ -131,6 +131,12 @@ export interface Match {
   note?: string;
 }
 
+export interface OwnedLauncher {
+  launcherId: string;
+  quantity?: number;
+  note?: string;
+}
+
 export interface PersonalProfile {
   version: 1;
   username?: string;
@@ -138,6 +144,7 @@ export interface PersonalProfile {
   ownedParts: OwnedPart[];
   creations: Creation[];
   matches: Match[];
+  ownedLaunchers?: OwnedLauncher[];
 }
 
 export interface CreationsExport {

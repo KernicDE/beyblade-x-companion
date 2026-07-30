@@ -29,7 +29,7 @@ function CollectionContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
   const { profile } = useProfileStore();
-  const [tab, setTab] = useState<'beys' | 'parts'>('beys');
+  const [tab, setTab] = useState<'beys' | 'parts' | 'launchers'>('beys');
 
   const beyNameById = useMemo(() => {
     const map = new Map<string, string>();
@@ -47,6 +47,7 @@ function CollectionContent() {
   const ownedParts = [...profile.ownedParts].sort((a, b) =>
     (b.purchaseDate ?? '').localeCompare(a.purchaseDate ?? '')
   );
+  const ownedLaunchers = profile.ownedLaunchers ?? [];
 
   const partLookup = (owned: OwnedPart) => {
     const lists = {
@@ -63,7 +64,7 @@ function CollectionContent() {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-2xl font-bold">{t('collection.title')}</h1>
         <div className="flex gap-2">
-          {(['beys', 'parts'] as const).map((key) => (
+          {(['beys', 'parts', 'launchers'] as const).map((key) => (
             <button
               key={key}
               type="button"
@@ -75,7 +76,7 @@ function CollectionContent() {
               }`}
             >
               {t(`collection.tab.${key}`)}
-              {' '}({key === 'beys' ? ownedBeys.length : ownedParts.length})
+              {' '}({key === 'beys' ? ownedBeys.length : key === 'parts' ? ownedParts.length : ownedLaunchers.length})
             </button>
           ))}
         </div>
@@ -199,6 +200,49 @@ function CollectionContent() {
                   ) : (
                     <p className="mt-3 text-xs text-[var(--muted)]">{t('collection.notRated')}</p>
                   )}
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+
+      {tab === 'launchers' && (
+        <>
+          {ownedLaunchers.length === 0 && <p className="text-[var(--muted)]">{t('collection.empty')}</p>}
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {ownedLaunchers.map((owned) => {
+              const launcher = database.launchers.find((l) => l.id === owned.launcherId);
+              return (
+                <div key={owned.launcherId} className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+                  <div className="flex items-start gap-3">
+                    {launcher?.imageUrl ? (
+                      <img src={launcher.imageUrl} alt="" className="h-12 w-12 rounded-lg object-contain" />
+                    ) : (
+                      <PartIcon category="launcher" size={48} />
+                    )}
+                    <div className="min-w-0 flex-1">
+                      <Link
+                        to={`/parts/launcher/${owned.launcherId}`}
+                        className="font-semibold hover:text-blue-600 dark:hover:text-blue-400"
+                      >
+                        {launcher?.name ?? owned.launcherId}
+                      </Link>
+                      <p className="text-xs text-[var(--muted)]">
+                        {launcher?.spinCapability === 'left'
+                          ? t('partDetail.left')
+                          : launcher?.spinCapability === 'both'
+                            ? t('partDetail.both')
+                            : t('partDetail.right')}
+                      </p>
+                    </div>
+                    {owned.quantity !== undefined && owned.quantity > 1 && (
+                      <span className="rounded-full bg-blue-100 px-2 py-0.5 text-xs font-bold text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">
+                        ×{owned.quantity}
+                      </span>
+                    )}
+                  </div>
+                  {owned.note && <p className="mt-2 text-xs text-[var(--muted)]">{owned.note}</p>}
                 </div>
               );
             })}

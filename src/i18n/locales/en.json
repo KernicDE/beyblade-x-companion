@@ -72,7 +72,8 @@
     "title": "My Collection",
     "tab": {
       "beys": "Beys",
-      "parts": "Parts"
+      "parts": "Parts",
+      "launchers": "Launchers"
     },
     "empty": "No entries in your collection yet.",
     "purchaseDate": "Purchased",

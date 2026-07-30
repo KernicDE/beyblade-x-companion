@@ -1,85 +1,5 @@
 [
   {
-    "id": "winder-launcher",
-    "name": "Winder Launcher",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "images/launchers/winder-launcher.png",
-    "releaseDate": "2023-07-15",
-    "description": {
-      "en": "A compact ripcord-style launcher included with starter sets.",
-      "de": "Ein kompakter Zugseil-Launcher, der Starter-Sets beiliegt."
-    },
-    "assessment": {
-      "en": "Winder Launcher is a right-spin launcher from the Beyblade X toyline. It launches right-spin Beys using a short ripcord mechanism.",
-      "de": "Der Winder Launcher ist ein rechtsdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er startet rechtsdrehende Beys über einen kurzen Rippcord-Mechanismus."
-    },
-    "spinCapability": "right"
-  },
-  {
-    "id": "winder-launcher-l",
-    "name": "Winder Launcher L",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "images/launchers/winder-launcher-l.png",
-    "releaseDate": "2025-03-29",
-    "description": {
-      "en": "A left-spin variant of the Winder Launcher.",
-      "de": "Eine linksdrehende Variante des Winder Launchers."
-    },
-    "assessment": {
-      "en": "Winder Launcher L is a left-spin launcher from the Beyblade X toyline. It enables the use of left-spin Beys.",
-      "de": "Der Winder Launcher L ist ein linksdrehender Launcher aus der Beyblade X-Spielzeuglinie. Er ermöglicht den Einsatz von linksspinnenden Beys."
-    },
-    "spinCapability": "left"
-  },
-  {
-    "id": "string-launcher",
-    "name": "String Launcher",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "images/launchers/string-launcher.png",
-    "releaseDate": "2023-10-07",
-    "description": {
-      "en": "A string-pull launcher for strong, consistent launches.",
-      "de": "Ein Schnurzug-Launcher für starke, gleichmäßige Starts."
-    },
-    "assessment": {
-      "en": "String Launcher is a right-spin launcher from the Beyblade X toyline. It produces more power and torque than a ripcord launcher.",
-      "de": "Der String Launcher ist ein rechtsdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er erzeugt mehr Kraft und Drehmoment als ein Rippcord-Launcher."
-    },
-    "spinCapability": "right"
-  },
-  {
-    "id": "string-launcher-l",
-    "name": "String Launcher L",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "images/launchers/string-launcher-l.png",
-    "releaseDate": "2025-10-11",
-    "description": {
-      "en": "A left-spin string-pull launcher.",
-      "de": "Ein linksdrehender Schnurzug-Launcher."
-    },
-    "assessment": {
-      "en": "String Launcher L is a left-spin launcher from the Beyblade X toyline. It offers the same performance as the right-spin version for left-spin Beys.",
-      "de": "Der String Launcher L ist ein linksdrehender Schnurzug-Launcher aus der Beyblade X-Spielzeuglinie. Er bietet die gleiche Leistung wie die rechte Version für linksspinnende Beys."
-    },
-    "spinCapability": "left"
-  },
-  {
-    "id": "custom-launcher",
-    "name": "Custom Launcher",
-    "manufacturer": "Takara Tomy",
-    "imageUrl": "images/launchers/custom-launcher.png",
-    "releaseDate": "",
-    "description": {
-      "en": "A modular launcher used with the Custom Line system.",
-      "de": "Ein modularer Launcher für das Custom-Line-System."
-    },
-    "assessment": {
-      "en": "Custom Launcher is a modular right-spin launcher for the Beyblade X Custom Line. It can be extended with grips and other accessories.",
-      "de": "Der Custom Launcher ist ein modularer rechtsdrehender Launcher für die Beyblade X Custom Line. Er lässt sich mit Griffen und anderen Zubehörteilen erweitern."
-    },
-    "spinCapability": "right"
-  },
-  {
     "id": "winder-launcher-hasbro",
     "name": "Winder Launcher",
     "manufacturer": "Hasbro",
@@ -96,34 +16,18 @@
     "spinCapability": "right"
   },
   {
-    "id": "winder-launcher-l-hasbro",
-    "name": "Winder Launcher L",
+    "id": "winder-launcher-white-hasbro",
+    "name": "Winder Launcher (White Ver.)",
     "manufacturer": "Hasbro",
-    "imageUrl": "images/launchers/winder-launcher-l-hasbro.png",
-    "releaseDate": "2025-07-24",
-    "description": {
-      "en": "A left-spin variant of the Hasbro Winder Launcher.",
-      "de": "Eine linksdrehende Variante des Hasbro Winder Launchers."
-    },
-    "assessment": {
-      "en": "The Hasbro Winder Launcher L is the western left-spin ripcord launcher for left-spin Beys.",
-      "de": "Der Hasbro Winder Launcher L ist der westliche linksdrehende Rippcord-Launcher für linksspinnende Beys."
-    },
-    "spinCapability": "left"
-  },
-  {
-    "id": "string-launcher-hasbro",
-    "name": "String Launcher",
-    "manufacturer": "Hasbro",
-    "imageUrl": "images/launchers/string-launcher-hasbro.png",
+    "imageUrl": "images/launchers/winder-launcher-hasbro.png",
     "releaseDate": "2024-05-30",
     "description": {
-      "en": "A string-pull launcher for strong, consistent launches.",
-      "de": "Ein Schnurzug-Launcher für starke, gleichmäßige Starts."
+      "en": "White color variant of Hasbro's compact ripcord launcher.",
+      "de": "Weiße Farbvariante von Hasbros kompaktem Zugseil-Launcher."
     },
     "assessment": {
-      "en": "The Hasbro String Launcher is the western release of the string-pull launcher. It launches right-spin Beys.",
-      "de": "Der Hasbro String Launcher ist die westliche Version des Schnurzug-Launchers. Er startet rechtsdrehende Beys."
+      "en": "Same mold as the standard Hasbro Winder Launcher, in white. Launches right-spin Beys.",
+      "de": "Gleiche Form wie der Standard-Winder-Launcher von Hasbro, in Weiß. Startet rechtsdrehende Beys."
     },
     "spinCapability": "right"
   },
@@ -144,18 +48,18 @@
     "spinCapability": "left"
   },
   {
-    "id": "custom-launcher-hasbro",
-    "name": "Custom Launcher",
+    "id": "string-launcher-hasbro",
+    "name": "String Launcher",
     "manufacturer": "Hasbro",
-    "imageUrl": "images/launchers/custom-launcher-hasbro.png",
-    "releaseDate": "2025-06-01",
+    "imageUrl": "images/launchers/string-launcher-hasbro.png",
+    "releaseDate": "2024-05-30",
     "description": {
-      "en": "A modular launcher used with the Custom Line system.",
-      "de": "Ein modularer Launcher für das Custom-Line-System."
+      "en": "Hasbro's right-spin string-pull launcher, included with deluxe launcher sets.",
+      "de": "Hasbros rechtsdrehender Schnurzug-Launcher, enthalten in Deluxe-Launcher-Sets."
     },
     "assessment": {
-      "en": "The Hasbro Custom Launcher is the western release of the modular Custom Line launcher. It launches right-spin Beys.",
-      "de": "Der Hasbro Custom Launcher ist die westliche Version des modularen Custom-Line-Launchers. Er startet rechtsdrehende Beys."
+      "en": "The Hasbro String Launcher is the western right-spin string launcher; longer, steadier pulls than the winder launcher.",
+      "de": "Der Hasbro String Launcher ist der westliche rechtsdrehende Schnurzug-Launcher; längere, ruhigere Züge als der Winder Launcher."
     },
     "spinCapability": "right"
   }
