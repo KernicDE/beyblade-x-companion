@@ -11,7 +11,6 @@ import { BeyDetail } from './pages/BeyDetail';
 import { PartsDatabase } from './pages/PartsDatabase';
 import { PartDetail } from './pages/PartDetail';
 import { Configurator } from './pages/Configurator';
-import { Dashboard } from './pages/Dashboard';
 import { Simulator } from './pages/Simulator';
 import { Profile } from './pages/Profile';
 import { Import } from './pages/Import';
@@ -35,7 +34,6 @@ function App() {
             <Route path="/parts" element={<PartsDatabase />} />
             <Route path="/parts/:category/:id" element={<PartDetail />} />
             <Route path="/configurator" element={<Configurator />} />
-            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/simulator" element={<Simulator />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/import" element={<Import />} />

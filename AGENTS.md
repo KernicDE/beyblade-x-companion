@@ -83,7 +83,6 @@ A combo's displayed rating per dimension is the simple average across selected p
 - `/parts`, `/parts/:category/:id` — catalog; detail shows "Mein Exemplar" when unlocked.
 - `/configurator` — builder with optional personal-ratings override; saves local drafts.
 - `/simulator` — Bey-vs-Bey prediction with optional personal-ratings override.
-- `/dashboard` — meta/collection insights (gated).
 - `/profile` — local drafts management, export/import links, lock/forget-device.
 - `/import?d=<compressed>`, `/view/<compressed>` — creation share links.
 
