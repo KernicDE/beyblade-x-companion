@@ -25,6 +25,12 @@ export function MyBeySelect({ database, value, onChange, placeholder, id }: MyBe
   const localBuilds = useBuildsStore((s) => s.builds);
 
   const builds = useMemo(() => allBuilds(profile, localBuilds), [profile, localBuilds]);
+  // Local drafts whose name already exists as a profile build get a "local"
+  // suffix so the two copies stay distinguishable in the list.
+  const duplicateLocalIds = useMemo(() => {
+    const profileNames = new Set((profile?.builds ?? []).map((b) => b.name));
+    return new Set(localBuilds.filter((b) => profileNames.has(b.name)).map((b) => b.id));
+  }, [profile, localBuilds]);
   const sortedBeys = useMemo(
     () => [...database.beys].sort((a, b) => a.name.localeCompare(b.name)),
     [database]
@@ -58,7 +64,7 @@ export function MyBeySelect({ database, value, onChange, placeholder, id }: MyBe
         <optgroup label={t('beySource.builds')}>
           {builds.map((build) => (
             <option key={build.id} value={myBeyRefValue({ source: 'creation', creationId: build.id })}>
-              {build.name}
+              {duplicateLocalIds.has(build.id) ? `${build.name} (${t('beySource.local')})` : build.name}
             </option>
           ))}
         </optgroup>

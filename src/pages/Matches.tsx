@@ -268,10 +268,13 @@ function MatchesContent() {
           <h2 className="mb-3 font-semibold">{t('matches.addMatch')}</h2>
           <MatchForm
             database={database}
-            // New matches prefer the owned copy when one exists.
+            // New matches prefer the most recently added owned copy, if any.
             initialMyBey={
-              profile.ownedBeys[0]
-                ? myBeyRefValue({ source: 'ownedBey', ownedBeyId: profile.ownedBeys[0].id })
+              profile.ownedBeys.length > 0
+                ? myBeyRefValue({
+                    source: 'ownedBey',
+                    ownedBeyId: profile.ownedBeys[profile.ownedBeys.length - 1].id,
+                  })
                 : ''
             }
             onSave={(input) => {
@@ -283,7 +286,7 @@ function MatchesContent() {
         </div>
       )}
 
-      {matches.length === 0 ? (
+      {matches.length === 0 && !adding ? (
         <p className="text-[var(--muted)]">{t('matches.empty')}</p>
       ) : (
         <>

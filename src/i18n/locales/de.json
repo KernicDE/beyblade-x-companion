@@ -99,7 +99,8 @@
   "beySource": {
     "owned": "Eigene Exemplare",
     "builds": "Builds",
-    "catalog": "Katalog"
+    "catalog": "Katalog",
+    "local": "lokal"
   },
   "matches": {
     "title": "Match Tracker",

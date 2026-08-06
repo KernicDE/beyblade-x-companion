@@ -99,7 +99,8 @@
   "beySource": {
     "owned": "Owned copies",
     "builds": "Builds",
-    "catalog": "Catalog"
+    "catalog": "Catalog",
+    "local": "local"
   },
   "matches": {
     "title": "Match Tracker",
