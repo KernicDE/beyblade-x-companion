@@ -1,5 +1,73 @@
-import { describe, it, expect } from 'vitest';
-import { isPersonalProfile, migrateProfile } from './profile';
+import { describe, it, expect, beforeEach } from 'vitest';
+import { isPersonalProfile, migrateProfile, useProfileStore } from './profile';
+import type { PersonalProfile } from '../types';
+
+function testProfile(): PersonalProfile {
+  return {
+    version: 2,
+    ownedBeys: [
+      { id: 'owned-1', beyId: 'bey-a', shop: 'Shop A' },
+      { id: 'owned-2', beyId: 'bey-a', shop: 'Shop B' },
+    ],
+    ownedParts: [],
+    builds: [],
+    matches: [],
+  };
+}
+
+describe('owned bey store operations', () => {
+  beforeEach(() => {
+    useProfileStore.setState({ profile: testProfile(), status: 'unlocked', remembered: false });
+  });
+
+  it('addOwnedBey assigns a unique id and allows duplicate catalog beys', () => {
+    const first = useProfileStore.getState().addOwnedBey({ beyId: 'bey-a', priceEur: 12.99 });
+    const second = useProfileStore.getState().addOwnedBey({ beyId: 'bey-a' });
+
+    expect(first).not.toBeNull();
+    expect(second).not.toBeNull();
+    expect(first!.id).toBeTruthy();
+    expect(first!.id).not.toBe(second!.id);
+
+    const { ownedBeys } = useProfileStore.getState().profile!;
+    expect(ownedBeys).toHaveLength(4);
+    expect(new Set(ownedBeys.map((o) => o.id)).size).toBe(4);
+    expect(ownedBeys[2]).toMatchObject({ beyId: 'bey-a', priceEur: 12.99 });
+  });
+
+  it('addOwnedBey returns null without an unlocked profile', () => {
+    useProfileStore.setState({ profile: null, status: 'locked' });
+    expect(useProfileStore.getState().addOwnedBey({ beyId: 'bey-a' })).toBeNull();
+  });
+
+  it('updateOwnedBey patches a single copy by id and keeps its id', () => {
+    useProfileStore.getState().updateOwnedBey('owned-1', { shop: 'Neuer Shop', note: 'N' });
+
+    const { ownedBeys } = useProfileStore.getState().profile!;
+    expect(ownedBeys.find((o) => o.id === 'owned-1')).toMatchObject({
+      id: 'owned-1',
+      beyId: 'bey-a',
+      shop: 'Neuer Shop',
+      note: 'N',
+    });
+    // The other copy of the same catalog bey stays untouched.
+    expect(ownedBeys.find((o) => o.id === 'owned-2')).toMatchObject({ shop: 'Shop B' });
+  });
+
+  it('updateOwnedBey cannot overwrite the exemplar id', () => {
+    useProfileStore.getState().updateOwnedBey('owned-1', { id: 'hijacked' } as never);
+    const { ownedBeys } = useProfileStore.getState().profile!;
+    expect(ownedBeys.find((o) => o.beyId === 'bey-a')!.id).toBe('owned-1');
+  });
+
+  it('removeOwnedBey removes only the matching copy', () => {
+    useProfileStore.getState().removeOwnedBey('owned-1');
+
+    const { ownedBeys } = useProfileStore.getState().profile!;
+    expect(ownedBeys).toHaveLength(1);
+    expect(ownedBeys[0].id).toBe('owned-2');
+  });
+});
 
 describe('profile migration', () => {
   it('migrates a version-1 profile to version 2', () => {

@@ -4,7 +4,7 @@ import { decryptJson, isEncryptedPayload, type EncryptedPayload } from '../utils
 
 const REMEMBER_KEY = 'bx-remembered-profile';
 
-function generateId(): string {
+export function generateId(): string {
   if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
     return crypto.randomUUID();
   }
@@ -54,6 +54,12 @@ interface ProfileState {
   lock: () => void;
   /** Forget the remembered plaintext on this device. */
   forgetDevice: () => void;
+  /** Add a new owned bey copy. Assigns a fresh unique id. Returns the created entry. */
+  addOwnedBey: (input: Omit<OwnedBey, 'id'>) => OwnedBey | null;
+  /** Update a single owned bey copy by its exemplar id. */
+  updateOwnedBey: (id: string, patch: Partial<Omit<OwnedBey, 'id'>>) => void;
+  /** Remove a single owned bey copy by its exemplar id. */
+  removeOwnedBey: (id: string) => void;
 }
 
 export function isPersonalProfile(value: unknown): value is PersonalProfile {
@@ -103,7 +109,22 @@ async function fetchEncryptedProfile(): Promise<unknown | null> {
   }
 }
 
-export const useProfileStore = create<ProfileState>()((set, get) => ({
+export const useProfileStore = create<ProfileState>()((set, get) => {
+  /** Replace the unlocked profile in memory and sync the remembered copy, if any. */
+  const commitProfile = (profile: PersonalProfile) => {
+    set({ profile });
+    if (get().remembered) {
+      try {
+        const stored = localStorage.getItem(REMEMBER_KEY);
+        const parsed = stored ? (JSON.parse(stored) as Record<string, unknown>) : {};
+        localStorage.setItem(REMEMBER_KEY, JSON.stringify({ ...parsed, profile }));
+      } catch {
+        // Remembered copy is best-effort; ignore storage failures.
+      }
+    }
+  };
+
+  return {
   status: 'loading',
   profile: null,
   remembered: false,
@@ -177,4 +198,33 @@ export const useProfileStore = create<ProfileState>()((set, get) => ({
       set({ remembered: false });
     }
   },
-}));
+
+  addOwnedBey: (input) => {
+    const { profile } = get();
+    if (!profile) return null;
+    const owned: OwnedBey = { ...input, id: generateId() };
+    commitProfile({ ...profile, ownedBeys: [...profile.ownedBeys, owned] });
+    return owned;
+  },
+
+  updateOwnedBey: (id, patch) => {
+    const { profile } = get();
+    if (!profile) return;
+    commitProfile({
+      ...profile,
+      ownedBeys: profile.ownedBeys.map((owned) =>
+        owned.id === id ? { ...owned, ...patch, id: owned.id } : owned
+      ),
+    });
+  },
+
+  removeOwnedBey: (id) => {
+    const { profile } = get();
+    if (!profile) return;
+    commitProfile({
+      ...profile,
+      ownedBeys: profile.ownedBeys.filter((owned) => owned.id !== id),
+    });
+  },
+  };
+});

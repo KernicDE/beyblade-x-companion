@@ -83,7 +83,20 @@
     "set": "Set",
     "note": "Notiz",
     "obtainedFrom": "Erhalten aus",
-    "winRate": "Winrate"
+    "winRate": "Winrate",
+    "addBey": "Bey hinzufügen",
+    "edit": "Bearbeiten",
+    "remove": "Entfernen",
+    "removeConfirm": "Dieses Exemplar entfernen?",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "form": {
+      "bey": "Bey",
+      "selectBey": "Bey auswählen …",
+      "priceEur": "Preis (EUR)",
+      "priceChf": "Preis (CHF)"
+    }
   },
   "matches": {
     "title": "Match Tracker",

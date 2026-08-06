@@ -7,12 +7,166 @@ import { PartIcon } from '../components/PartIcon';
 import { useTranslation } from '../i18n';
 import { recordWithBey } from '../utils/matches';
 import { getPartById } from '../utils/data';
-import type { OwnedBey, OwnedPart, PartCategory } from '../types';
+import type { Bey, OwnedBey, OwnedPart, PartCategory } from '../types';
 
 export function formatPurchasePrice(owned: OwnedBey): string {
   if (owned.priceEur === undefined) return '';
   const eur = `€${owned.priceEur.toFixed(2)}`;
   return owned.priceChf !== undefined ? `${eur} (CHF ${owned.priceChf.toFixed(2)})` : eur;
+}
+
+const inputClass =
+  'w-full rounded-md border border-gray-300 bg-[var(--surface)] px-3 py-1.5 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none dark:border-slate-600';
+
+interface OwnedBeyFormProps {
+  beys: Bey[];
+  initial?: OwnedBey;
+  onSave: (values: Omit<OwnedBey, 'id'>) => void;
+  onCancel: () => void;
+}
+
+function OwnedBeyForm({ beys, initial, onSave, onCancel }: OwnedBeyFormProps) {
+  const { t } = useTranslation();
+  const [beyId, setBeyId] = useState(initial?.beyId ?? '');
+  const [purchaseDate, setPurchaseDate] = useState(initial?.purchaseDate ?? '');
+  const [shop, setShop] = useState(initial?.shop ?? '');
+  const [priceEur, setPriceEur] = useState(initial?.priceEur?.toString() ?? '');
+  const [priceChf, setPriceChf] = useState(initial?.priceChf?.toString() ?? '');
+  const [setName, setSetName] = useState(initial?.setName ?? '');
+  const [note, setNote] = useState(initial?.note ?? '');
+
+  const sortedBeys = useMemo(
+    () => [...beys].sort((a, b) => a.name.localeCompare(b.name)),
+    [beys]
+  );
+
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    if (!beyId) return;
+    const eur = parseFloat(priceEur);
+    const chf = parseFloat(priceChf);
+    onSave({
+      beyId,
+      purchaseDate: purchaseDate || undefined,
+      shop: shop.trim() || undefined,
+      priceEur: Number.isFinite(eur) ? eur : undefined,
+      priceChf: Number.isFinite(chf) ? chf : undefined,
+      setName: setName.trim() || undefined,
+      note: note.trim() || undefined,
+    });
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-3">
+      <div>
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+          {t('collection.form.bey')}
+        </label>
+        <select
+          value={beyId}
+          onChange={(e) => setBeyId(e.target.value)}
+          required
+          className={inputClass}
+        >
+          <option value="" disabled>
+            {t('collection.form.selectBey')}
+          </option>
+          {sortedBeys.map((bey) => (
+            <option key={bey.id} value={bey.id}>
+              {bey.name}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="grid grid-cols-2 gap-3">
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('collection.purchaseDate')}
+          </label>
+          <input
+            type="date"
+            value={purchaseDate}
+            onChange={(e) => setPurchaseDate(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('collection.shop')}
+          </label>
+          <input
+            type="text"
+            value={shop}
+            onChange={(e) => setShop(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('collection.form.priceEur')}
+          </label>
+          <input
+            type="number"
+            min="0"
+            step="0.01"
+            value={priceEur}
+            onChange={(e) => setPriceEur(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('collection.form.priceChf')}
+          </label>
+          <input
+            type="number"
+            min="0"
+            step="0.01"
+            value={priceChf}
+            onChange={(e) => setPriceChf(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+      </div>
+      <div>
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+          {t('collection.set')}
+        </label>
+        <input
+          type="text"
+          value={setName}
+          onChange={(e) => setSetName(e.target.value)}
+          className={inputClass}
+        />
+      </div>
+      <div>
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">
+          {t('collection.note')}
+        </label>
+        <input
+          type="text"
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+          className={inputClass}
+        />
+      </div>
+      <div className="flex gap-2">
+        <button
+          type="submit"
+          className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          {t('collection.save')}
+        </button>
+        <button
+          type="button"
+          onClick={onCancel}
+          className="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+        >
+          {t('collection.cancel')}
+        </button>
+      </div>
+    </form>
+  );
 }
 
 function RecordBadge({ wins, losses, winRate }: { wins: number; losses: number; winRate: number }) {
@@ -28,8 +182,11 @@ function RecordBadge({ wins, losses, winRate }: { wins: number; losses: number; 
 function CollectionContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const { profile } = useProfileStore();
+  const { profile, addOwnedBey, updateOwnedBey, removeOwnedBey } = useProfileStore();
   const [tab, setTab] = useState<'beys' | 'parts' | 'launchers'>('beys');
+  const [adding, setAdding] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [confirmRemoveId, setConfirmRemoveId] = useState<string | null>(null);
 
   const beyNameById = useMemo(() => {
     const map = new Map<string, string>();
@@ -84,11 +241,52 @@ function CollectionContent() {
 
       {tab === 'beys' && (
         <>
+          <div className="flex justify-end">
+            <button
+              type="button"
+              onClick={() => {
+                setAdding(true);
+                setEditingId(null);
+              }}
+              className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+            >
+              {t('collection.addBey')}
+            </button>
+          </div>
+          {adding && (
+            <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+              <h2 className="mb-3 font-semibold">{t('collection.addBey')}</h2>
+              <OwnedBeyForm
+                beys={database.beys}
+                onSave={(values) => {
+                  addOwnedBey(values);
+                  setAdding(false);
+                }}
+                onCancel={() => setAdding(false)}
+              />
+            </div>
+          )}
           {ownedBeys.length === 0 && <p className="text-[var(--muted)]">{t('collection.empty')}</p>}
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ownedBeys.map((owned) => {
               const bey = database.beys.find((b) => b.id === owned.beyId);
               const record = recordWithBey(profile.matches, owned.beyId, profile.ownedBeys);
+              if (editingId === owned.id) {
+                return (
+                  <div key={owned.id} className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+                    <h2 className="mb-3 font-semibold">{bey?.name ?? owned.beyId}</h2>
+                    <OwnedBeyForm
+                      beys={database.beys}
+                      initial={owned}
+                      onSave={(values) => {
+                        updateOwnedBey(owned.id, values);
+                        setEditingId(null);
+                      }}
+                      onCancel={() => setEditingId(null)}
+                    />
+                  </div>
+                );
+              }
               return (
                 <div key={owned.id} className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
                   <div className="flex items-start gap-3">
@@ -160,6 +358,52 @@ function CollectionContent() {
                     )}
                   </dl>
                   {owned.note && <p className="mt-2 text-xs text-[var(--muted)]">{owned.note}</p>}
+                  <div className="mt-3 flex gap-2">
+                    {confirmRemoveId === owned.id ? (
+                      <>
+                        <span className="flex-1 self-center text-xs text-[var(--muted)]">
+                          {t('collection.removeConfirm')}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            removeOwnedBey(owned.id);
+                            setConfirmRemoveId(null);
+                          }}
+                          className="rounded-md bg-red-600 px-2 py-1 text-xs font-medium text-white hover:bg-red-700"
+                        >
+                          {t('collection.confirm')}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setConfirmRemoveId(null)}
+                          className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+                        >
+                          {t('collection.cancel')}
+                        </button>
+                      </>
+                    ) : (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setEditingId(owned.id);
+                            setAdding(false);
+                          }}
+                          className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+                        >
+                          {t('collection.edit')}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setConfirmRemoveId(owned.id)}
+                          className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-red-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-red-400 dark:hover:bg-gray-600"
+                        >
+                          {t('collection.remove')}
+                        </button>
+                      </>
+                    )}
+                  </div>
                 </div>
               );
             })}
