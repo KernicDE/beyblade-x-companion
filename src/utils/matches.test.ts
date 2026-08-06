@@ -9,7 +9,7 @@ import {
   recordWithBey,
   resolveMyBeyName,
 } from './matches';
-import type { Creation, Match } from '../types';
+import type { Build, Match, OwnedBey } from '../types';
 
 function makeMatch(overrides: Partial<Match>): Match {
   return {
@@ -71,7 +71,7 @@ describe('match statistics', () => {
   });
 
   it('resolves display names for my bey', () => {
-    const creations: Creation[] = [
+    const builds: Build[] = [
       {
         id: 'c-1',
         name: 'My Combo',
@@ -83,8 +83,27 @@ describe('match statistics', () => {
       },
     ];
     const beyName = (id: string) => (id === 'bey-a' ? 'Dran Sword' : undefined);
-    expect(resolveMyBeyName({ source: 'bey', beyId: 'bey-a' }, beyName, creations)).toBe('Dran Sword');
-    expect(resolveMyBeyName({ source: 'creation', creationId: 'c-1' }, beyName, creations)).toBe('My Combo');
-    expect(resolveMyBeyName({ source: 'creation', creationId: 'missing' }, beyName, creations)).toBe('missing');
+    expect(resolveMyBeyName({ source: 'bey', beyId: 'bey-a' }, beyName, builds)).toBe('Dran Sword');
+    expect(resolveMyBeyName({ source: 'creation', creationId: 'c-1' }, beyName, builds)).toBe('My Combo');
+    expect(resolveMyBeyName({ source: 'creation', creationId: 'missing' }, beyName, builds)).toBe('missing');
+  });
+
+  it('resolves ownedBey refs via the owned copy to the catalog bey', () => {
+    const ownedBeys: OwnedBey[] = [{ id: 'owned-1', beyId: 'bey-a' }];
+    const beyName = (id: string) => (id === 'bey-a' ? 'Dran Sword' : undefined);
+    const ref = { source: 'ownedBey', ownedBeyId: 'owned-1' } as const;
+
+    expect(resolveMyBeyName(ref, beyName, [], ownedBeys)).toBe('Dran Sword');
+    // Falls back to the ownedBey id when the copy is unknown.
+    expect(resolveMyBeyName({ source: 'ownedBey', ownedBeyId: 'missing' }, beyName, [], ownedBeys)).toBe('missing');
+
+    // Statistics count ownedBey matches toward the catalog bey.
+    const ownedMatches = [
+      ...matches,
+      makeMatch({ date: '2026-01-05', result: 'loss', myBey: { source: 'ownedBey', ownedBeyId: 'owned-1' } }),
+    ];
+    expect(recordWithBey(ownedMatches, 'bey-a', ownedBeys)).toMatchObject({ matches: 3, wins: 2, losses: 1 });
+    const byBey = recordsByMyBey(ownedMatches, ownedBeys);
+    expect(byBey.find((e) => e.key === 'bey:bey-a')).toMatchObject({ matches: 3, wins: 2, losses: 1 });
   });
 });

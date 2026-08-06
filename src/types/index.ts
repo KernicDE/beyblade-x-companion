@@ -88,7 +88,7 @@ export interface Bey {
   tier?: Tier;
 }
 
-export interface Creation {
+export interface Build {
   id: string;
   name: string;
   note?: string;
@@ -103,6 +103,8 @@ export interface Creation {
 export type FinishType = 'xtreme' | 'over' | 'burst' | 'spin';
 
 export interface OwnedBey {
+  /** Unique id of this owned copy (a bey can be owned multiple times). */
+  id: string;
   beyId: string;
   purchaseDate?: string;
   shop?: string;
@@ -124,7 +126,8 @@ export interface OwnedPart {
 
 export type MyBeyRef =
   | { source: 'bey'; beyId: string }
-  | { source: 'creation'; creationId: string };
+  | { source: 'creation'; creationId: string }
+  | { source: 'ownedBey'; ownedBeyId: string };
 
 export interface MatchOpponent {
   name: string;
@@ -149,19 +152,19 @@ export interface OwnedLauncher {
 }
 
 export interface PersonalProfile {
-  version: 1;
+  version: 2;
   username?: string;
   ownedBeys: OwnedBey[];
   ownedParts: OwnedPart[];
-  creations: Creation[];
+  builds: Build[];
   matches: Match[];
   ownedLaunchers?: OwnedLauncher[];
 }
 
-export interface CreationsExport {
+export interface BuildsExport {
   version: number;
   username?: string;
-  creations: Creation[];
+  builds: Build[];
 }
 
 export interface ComboParts {

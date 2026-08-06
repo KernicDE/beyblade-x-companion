@@ -1,63 +1,70 @@
 import LZString from 'lz-string';
-import type { Creation, CreationsExport } from '../types';
+import type { Build, BuildsExport } from '../types';
 
-export function compressProfile(profile: CreationsExport): string {
+export function compressProfile(profile: BuildsExport): string {
   const json = JSON.stringify(profile);
   return LZString.compressToEncodedURIComponent(json);
 }
 
-export function decompressProfile(compressed: string): CreationsExport | null {
+export function decompressProfile(compressed: string): BuildsExport | null {
   try {
     const json = LZString.decompressFromEncodedURIComponent(compressed);
     if (!json) return null;
     const parsed = JSON.parse(json) as unknown;
-    if (!isCreationsExport(parsed)) return null;
-    return parsed;
+    return normalizeBuildsExport(parsed);
   } catch {
     return null;
   }
 }
 
-export function compressCreation(creation: Creation): string {
-  const json = JSON.stringify(creation);
+export function compressBuild(build: Build): string {
+  const json = JSON.stringify(build);
   return LZString.compressToEncodedURIComponent(json);
 }
 
-export function decompressCreation(compressed: string): Creation | null {
+export function decompressBuild(compressed: string): Build | null {
   try {
     const json = LZString.decompressFromEncodedURIComponent(compressed);
     if (!json) return null;
     const parsed = JSON.parse(json) as unknown;
-    if (!isCreation(parsed)) return null;
+    if (!isBuild(parsed)) return null;
     return parsed;
   } catch {
     return null;
   }
 }
 
-function isCreationsExport(value: unknown): value is CreationsExport {
-  if (typeof value !== 'object' || value === null) return false;
+/** Accepts both current (`builds`) and legacy (`creations`) export payloads. */
+function normalizeBuildsExport(value: unknown): BuildsExport | null {
+  if (typeof value !== 'object' || value === null) return null;
   const profile = value as Record<string, unknown>;
-  return (
-    typeof profile.version === 'number' &&
-    Array.isArray(profile.creations) &&
-    profile.creations.every(isCreation) &&
-    (profile.username === undefined || typeof profile.username === 'string')
-  );
+  if (typeof profile.version !== 'number') return null;
+  if (profile.username !== undefined && typeof profile.username !== 'string') return null;
+
+  if (Array.isArray(profile.builds) && profile.builds.every(isBuild)) {
+    return { version: profile.version, username: profile.username as string | undefined, builds: profile.builds };
+  }
+  if (Array.isArray(profile.creations) && profile.creations.every(isBuild)) {
+    return {
+      version: profile.version,
+      username: profile.username as string | undefined,
+      builds: profile.creations,
+    };
+  }
+  return null;
 }
 
-function isCreation(value: unknown): value is Creation {
+function isBuild(value: unknown): value is Build {
   if (typeof value !== 'object' || value === null) return false;
-  const creation = value as Record<string, unknown>;
+  const build = value as Record<string, unknown>;
   return (
-    typeof creation.id === 'string' &&
-    typeof creation.name === 'string' &&
-    typeof creation.bladeId === 'string' &&
-    (creation.assistBladeId === undefined ||
-      typeof creation.assistBladeId === 'string') &&
-    typeof creation.ratchetId === 'string' &&
-    typeof creation.bitId === 'string' &&
-    typeof creation.createdAt === 'string' &&
-    typeof creation.updatedAt === 'string'
+    typeof build.id === 'string' &&
+    typeof build.name === 'string' &&
+    typeof build.bladeId === 'string' &&
+    (build.assistBladeId === undefined || typeof build.assistBladeId === 'string') &&
+    typeof build.ratchetId === 'string' &&
+    typeof build.bitId === 'string' &&
+    typeof build.createdAt === 'string' &&
+    typeof build.updatedAt === 'string'
   );
 }

@@ -2,12 +2,12 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
-import { useCreationsStore } from '../stores/creations';
+import { useBuildsStore } from '../stores/builds';
 import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
 import { useTranslation } from '../i18n';
 import {
-  allCreations,
+  allBuilds,
   currentStreak,
   overallRecord,
   resolveMyBeyName,
@@ -18,11 +18,11 @@ function HomeContent() {
   const { t } = useTranslation();
   const { database } = useData();
   const { profile } = useProfileStore();
-  const localCreations = useCreationsStore((s) => s.creations);
+  const localBuilds = useBuildsStore((s) => s.builds);
 
-  const creations = useMemo(
-    () => allCreations(profile, localCreations),
-    [profile, localCreations]
+  const builds = useMemo(
+    () => allBuilds(profile, localBuilds),
+    [profile, localBuilds]
   );
 
   if (!profile || !database) return null;
@@ -101,7 +101,7 @@ function HomeContent() {
               {recentBeys.map((owned) => {
                 const bey = database.beys.find((b) => b.id === owned.beyId);
                 return (
-                  <div key={owned.beyId} className="flex items-center gap-3">
+                  <div key={owned.id} className="flex items-center gap-3">
                     {bey?.imageUrl ? (
                       <img src={bey.imageUrl} alt="" className="h-10 w-10 rounded-lg object-contain" />
                     ) : (
@@ -143,7 +143,7 @@ function HomeContent() {
                     {match.result === 'win' ? 'W' : 'L'}
                   </span>
                   <span className="min-w-0 flex-1 truncate">
-                    {resolveMyBeyName(match.myBey, beyName, creations)}
+                    {resolveMyBeyName(match.myBey, beyName, builds, profile.ownedBeys)}
                     <span className="text-[var(--muted)]"> {t('matches.vs')} </span>
                     {match.opponent.name}
                   </span>

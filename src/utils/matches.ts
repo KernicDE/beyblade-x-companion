@@ -1,4 +1,4 @@
-import type { Creation, FinishType, Match, MyBeyRef, PersonalProfile } from '../types';
+import type { Build, FinishType, Match, MyBeyRef, OwnedBey, PersonalProfile } from '../types';
 
 export interface WinLossRecord {
   matches: number;
@@ -49,8 +49,12 @@ export function currentStreak(matches: Match[]): Streak {
   return { type: last, count };
 }
 
-export function myBeyKey(ref: MyBeyRef): string {
-  return ref.source === 'bey' ? `bey:${ref.beyId}` : `creation:${ref.creationId}`;
+export function myBeyKey(ref: MyBeyRef, ownedBeys: OwnedBey[] = []): string {
+  if (ref.source === 'bey') return `bey:${ref.beyId}`;
+  if (ref.source === 'creation') return `creation:${ref.creationId}`;
+  // An ownedBey match counts toward its catalog bey.
+  const beyId = ownedBeys.find((owned) => owned.id === ref.ownedBeyId)?.beyId;
+  return beyId ? `bey:${beyId}` : `ownedBey:${ref.ownedBeyId}`;
 }
 
 export interface BeyRecordEntry extends WinLossRecord {
@@ -58,10 +62,10 @@ export interface BeyRecordEntry extends WinLossRecord {
   ref: MyBeyRef;
 }
 
-export function recordsByMyBey(matches: Match[]): BeyRecordEntry[] {
+export function recordsByMyBey(matches: Match[], ownedBeys: OwnedBey[] = []): BeyRecordEntry[] {
   const map = new Map<string, BeyRecordEntry>();
   matches.forEach((match) => {
-    const key = myBeyKey(match.myBey);
+    const key = myBeyKey(match.myBey, ownedBeys);
     let entry = map.get(key);
     if (!entry) {
       entry = { key, ref: match.myBey, ...emptyRecord() };
@@ -74,12 +78,20 @@ export function recordsByMyBey(matches: Match[]): BeyRecordEntry[] {
   );
 }
 
-/** Record achieved *with* a specific catalog bey as my bey. */
-export function recordWithBey(matches: Match[], beyId: string): WinLossRecord {
+/** Record achieved *with* a specific catalog bey as my bey (including owned copies). */
+export function recordWithBey(
+  matches: Match[],
+  beyId: string,
+  ownedBeys: OwnedBey[] = []
+): WinLossRecord {
   const record = emptyRecord();
   matches.forEach((match) => {
     if (match.myBey.source === 'bey' && match.myBey.beyId === beyId) {
       addMatch(record, match.result);
+    } else if (match.myBey.source === 'ownedBey') {
+      const ownedBeyId = match.myBey.ownedBeyId;
+      const owned = ownedBeys.find((o) => o.id === ownedBeyId);
+      if (owned?.beyId === beyId) addMatch(record, match.result);
     }
   });
   return record;
@@ -132,26 +144,31 @@ export function opponentStats(matches: Match[]): OpponentEntry[] {
   );
 }
 
-/** Display name for my bey: catalog bey name, creation name, or the raw id as fallback. */
+/** Display name for my bey: catalog bey name, build name, or the raw id as fallback. */
 export function resolveMyBeyName(
   ref: MyBeyRef,
   beyNameById: (beyId: string) => string | undefined,
-  creations: Creation[]
+  builds: Build[],
+  ownedBeys: OwnedBey[] = []
 ): string {
   if (ref.source === 'bey') {
     return beyNameById(ref.beyId) ?? ref.beyId;
   }
-  return creations.find((c) => c.id === ref.creationId)?.name ?? ref.creationId;
+  if (ref.source === 'ownedBey') {
+    const beyId = ownedBeys.find((owned) => owned.id === ref.ownedBeyId)?.beyId;
+    return (beyId && beyNameById(beyId)) ?? beyId ?? ref.ownedBeyId;
+  }
+  return builds.find((b) => b.id === ref.creationId)?.name ?? ref.creationId;
 }
 
-/** All creations that matches can reference: profile creations plus local drafts. */
-export function allCreations(profile: PersonalProfile | null, localCreations: Creation[]): Creation[] {
+/** All builds that matches can reference: profile builds plus local drafts. */
+export function allBuilds(profile: PersonalProfile | null, localBuilds: Build[]): Build[] {
   const seen = new Set<string>();
-  const result: Creation[] = [];
-  [...(profile?.creations ?? []), ...localCreations].forEach((creation) => {
-    if (!seen.has(creation.id)) {
-      seen.add(creation.id);
-      result.push(creation);
+  const result: Build[] = [];
+  [...(profile?.builds ?? []), ...localBuilds].forEach((build) => {
+    if (!seen.has(build.id)) {
+      seen.add(build.id);
+      result.push(build);
     }
   });
   return result;

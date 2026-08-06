@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { useCreationsStore } from '../stores/creations';
+import { useBuildsStore } from '../stores/builds';
 import { decompressProfile } from '../utils/links';
 import { useTranslation } from '../i18n';
 
@@ -8,7 +8,7 @@ export function Import() {
   const { t } = useTranslation();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  const { creations, replaceCreations } = useCreationsStore();
+  const { builds, replaceBuilds } = useBuildsStore();
   const [status, setStatus] = useState<'idle' | 'confirm' | 'imported' | 'error'>('idle');
   const [incomingCount, setIncomingCount] = useState(0);
 
@@ -25,22 +25,22 @@ export function Import() {
       return;
     }
 
-    setIncomingCount(profile.creations.length);
+    setIncomingCount(profile.builds.length);
 
-    if (creations.length === 0) {
-      replaceCreations(profile.creations);
+    if (builds.length === 0) {
+      replaceBuilds(profile.builds);
       setStatus('imported');
     } else {
       setStatus('confirm');
     }
-  }, [searchParams, creations.length, replaceCreations]);
+  }, [searchParams, builds.length, replaceBuilds]);
 
   const handleConfirm = () => {
     const compressed = searchParams.get('d');
     if (!compressed) return;
     const profile = decompressProfile(compressed);
     if (!profile) return;
-    replaceCreations(profile.creations);
+    replaceBuilds(profile.builds);
     setStatus('imported');
   };
 
@@ -75,8 +75,8 @@ export function Import() {
         <h1 className="text-xl font-bold">{t('import.title')}</h1>
         <p className="mt-2 text-gray-700 dark:text-gray-300">
           {t('import.replaceDesc', {
-            local: creations.length,
-            localS: creations.length === 1 ? '' : 'n',
+            local: builds.length,
+            localS: builds.length === 1 ? '' : 'n',
             incoming: incomingCount,
             incomingS: incomingCount === 1 ? '' : 'n',
           })}

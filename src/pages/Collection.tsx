@@ -88,9 +88,9 @@ function CollectionContent() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ownedBeys.map((owned) => {
               const bey = database.beys.find((b) => b.id === owned.beyId);
-              const record = recordWithBey(profile.matches, owned.beyId);
+              const record = recordWithBey(profile.matches, owned.beyId, profile.ownedBeys);
               return (
-                <div key={owned.beyId} className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+                <div key={owned.id} className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
                   <div className="flex items-start gap-3">
                     {bey?.imageUrl ? (
                       <img src={bey.imageUrl} alt="" className="h-16 w-16 rounded-lg object-contain" />

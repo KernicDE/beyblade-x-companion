@@ -7,7 +7,7 @@ import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { useConfiguratorStore } from '../stores/configurator';
 import { useProfileStore } from '../stores/profile';
-import { useCreationsStore } from '../stores/creations';
+import { useBuildsStore } from '../stores/builds';
 import { calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
 import type { Part } from '../types';
@@ -27,7 +27,7 @@ export function Configurator() {
     setBit,
     loadCombo,
   } = useConfiguratorStore();
-  const { addCreation, updateCreation, creations } = useCreationsStore();
+  const { addBuild, updateBuild, builds } = useBuildsStore();
   const { profile } = useProfileStore();
   const ownedPartIds = useMemo(
     () => profile?.ownedParts.map((p) => p.partId) ?? [],
@@ -59,18 +59,18 @@ export function Configurator() {
 
   useEffect(() => {
     if (editingId) {
-      const creation = creations.find((c) => c.id === editingId);
-      if (creation) {
+      const build = builds.find((c) => c.id === editingId);
+      if (build) {
         loadCombo({
-          bladeId: creation.bladeId,
-          assistBladeId: creation.assistBladeId,
-          ratchetId: creation.ratchetId,
-          bitId: creation.bitId,
+          bladeId: build.bladeId,
+          assistBladeId: build.assistBladeId,
+          ratchetId: build.ratchetId,
+          bitId: build.bitId,
         });
-        setSaveName(creation.name);
+        setSaveName(build.name);
       }
     }
-  }, [editingId, creations, loadCombo]);
+  }, [editingId, builds, loadCombo]);
 
   const selectedParts = useMemo(() => {
     if (!database) return [];
@@ -110,12 +110,12 @@ export function Configurator() {
     };
 
     if (editingId) {
-      updateCreation(editingId, data);
-      setSavedMessage(t('configurator.creationUpdated'));
+      updateBuild(editingId, data);
+      setSavedMessage(t('configurator.buildUpdated'));
     } else {
-      const creation = addCreation(data);
-      setSearchParams({ edit: creation.id });
-      setSavedMessage(t('configurator.creationSaved'));
+      const build = addBuild(data);
+      setSearchParams({ edit: build.id });
+      setSavedMessage(t('configurator.buildSaved'));
     }
 
     setTimeout(() => setSavedMessage(''), 3000);
@@ -244,11 +244,11 @@ export function Configurator() {
 
         <div className="flex h-fit flex-col gap-3 rounded-xl bg-[var(--surface)] p-4 shadow-sm transition-colors">
           <h2 className="text-base font-semibold">
-            {editingId ? t('configurator.updateCreation') : t('configurator.saveCreation')}
+            {editingId ? t('configurator.updateBuild') : t('configurator.saveBuild')}
           </h2>
           <div className="flex gap-2">
             <input
-              id="creation-name"
+              id="build-name"
               type="text"
               value={saveName}
               onChange={(e) => setSaveName(e.target.value)}

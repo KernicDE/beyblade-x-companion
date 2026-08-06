@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { RatingBars } from '../components/RatingBars';
 import { useProfileStore } from '../stores/profile';
-import { useCreationsStore } from '../stores/creations';
+import { useBuildsStore } from '../stores/builds';
 import { calculateComboRatings } from '../utils/data';
-import { compressCreation, compressProfile } from '../utils/links';
+import { compressBuild, compressProfile } from '../utils/links';
 import { useTranslation } from '../i18n';
 
 export function Profile() {
@@ -13,14 +13,14 @@ export function Profile() {
   const navigate = useNavigate();
   const { database } = useData();
   const { status, profile, remembered, lock, forgetDevice } = useProfileStore();
-  const { creations, deleteCreation, duplicateCreation } = useCreationsStore();
+  const { builds, deleteBuild, duplicateBuild } = useBuildsStore();
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
   const [exportMessage, setExportMessage] = useState('');
 
-  const handleShare = async (creationId: string) => {
-    const creation = creations.find((c) => c.id === creationId);
-    if (!creation) return;
-    const compressed = compressCreation(creation);
+  const handleShare = async (buildId: string) => {
+    const build = builds.find((c) => c.id === buildId);
+    if (!build) return;
+    const compressed = compressBuild(build);
     const url = `${window.location.origin}${window.location.pathname}#/view/${compressed}`;
     await navigator.clipboard.writeText(url);
     setExportMessage(t('profile.shareCopied'));
@@ -29,9 +29,9 @@ export function Profile() {
 
   const handleExport = async () => {
     const compressed = compressProfile({
-      version: 1,
+      version: 2,
       username: profile?.username,
-      creations,
+      builds,
     });
     const url = `${window.location.origin}${window.location.pathname}#/import?d=${compressed}`;
     await navigator.clipboard.writeText(url);
@@ -84,24 +84,24 @@ export function Profile() {
       )}
 
       <section>
-        <h2 className="mb-2 text-lg font-semibold">{t('profile.creations')}</h2>
+        <h2 className="mb-2 text-lg font-semibold">{t('profile.builds')}</h2>
         <p className="mb-4 text-sm text-[var(--muted)]">{t('profile.draftsHint')}</p>
-        {creations.length === 0 ? (
-          <p className="text-gray-600 dark:text-gray-400">{t('profile.noCreations')}</p>
+        {builds.length === 0 ? (
+          <p className="text-gray-600 dark:text-gray-400">{t('profile.noBuilds')}</p>
         ) : (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {creations.map((creation) => {
+            {builds.map((build) => {
               const ratings = database
-                ? calculateComboRatings(database, creation)
+                ? calculateComboRatings(database, build)
                 : { attack: 0, defense: 0, stamina: 0, balance: 0 };
 
               return (
-                <div key={creation.id} className="rounded-xl bg-white p-4 shadow-sm dark:bg-gray-800">
+                <div key={build.id} className="rounded-xl bg-white p-4 shadow-sm dark:bg-gray-800">
                   <div className="flex items-start justify-between">
                     <div>
-                      <h2 className="font-semibold text-gray-900 dark:text-gray-100">{creation.name}</h2>
-                      {creation.note && (
-                        <p className="text-sm text-gray-500 dark:text-gray-400">{creation.note}</p>
+                      <h2 className="font-semibold text-gray-900 dark:text-gray-100">{build.name}</h2>
+                      {build.note && (
+                        <p className="text-sm text-gray-500 dark:text-gray-400">{build.note}</p>
                       )}
                     </div>
                     <RatingBars ratings={ratings} size="sm" />
@@ -110,44 +110,44 @@ export function Profile() {
                   <div className="mt-4 flex flex-wrap gap-2">
                     <button
                       type="button"
-                      onClick={() => navigate(`/configurator?edit=${creation.id}`)}
+                      onClick={() => navigate(`/configurator?edit=${build.id}`)}
                       className="rounded-md bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-300 dark:hover:bg-blue-900/50"
                     >
                       {t('profile.edit')}
                     </button>
                     <button
                       type="button"
-                      onClick={() => duplicateCreation(creation.id)}
+                      onClick={() => duplicateBuild(build.id)}
                       className="rounded-md bg-gray-100 px-3 py-1 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
                     >
                       {t('profile.duplicate')}
                     </button>
                     <button
                       type="button"
-                      onClick={() => handleShare(creation.id)}
+                      onClick={() => handleShare(build.id)}
                       className="rounded-md bg-gray-100 px-3 py-1 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
                     >
                       {t('profile.share')}
                     </button>
                     <button
                       type="button"
-                      onClick={() => setConfirmDelete(creation.id)}
+                      onClick={() => setConfirmDelete(build.id)}
                       className="rounded-md bg-red-100 px-3 py-1 text-sm font-medium text-red-700 hover:bg-red-200 dark:bg-red-900/30 dark:text-red-300 dark:hover:bg-red-900/50"
                     >
                       {t('profile.delete')}
                     </button>
                   </div>
 
-                  {confirmDelete === creation.id && (
+                  {confirmDelete === build.id && (
                     <div className="mt-4 rounded-md bg-red-50 p-3 dark:bg-red-900/20">
                       <p className="text-sm text-red-800 dark:text-red-300">
-                        {t('profile.deleteConfirm', { name: creation.name })}
+                        {t('profile.deleteConfirm', { name: build.name })}
                       </p>
                       <div className="mt-2 flex gap-2">
                         <button
                           type="button"
                           onClick={() => {
-                            deleteCreation(creation.id);
+                            deleteBuild(build.id);
                             setConfirmDelete(null);
                           }}
                           className="rounded-md bg-red-600 px-3 py-1 text-sm text-white hover:bg-red-700"

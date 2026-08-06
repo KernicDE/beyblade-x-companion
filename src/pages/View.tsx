@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { RadarChart } from '../components/RadarChart';
 import { PartIcon } from '../components/PartIcon';
-import { decompressCreation } from '../utils/links';
+import { decompressBuild } from '../utils/links';
 import { calculateComboRatings, getPartById, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
 
@@ -14,19 +14,19 @@ export function View() {
   if (loading) return <p className="text-gray-600 dark:text-gray-400">{t('view.loading')}</p>;
   if (error || !database) return <p className="text-red-600 dark:text-red-400">{t('errors.failedDatabase')}</p>;
 
-  const creation = compressed ? decompressCreation(compressed) : null;
-  if (!creation) {
+  const build = compressed ? decompressBuild(compressed) : null;
+  if (!build) {
     return <p className="text-red-600 dark:text-red-400">{t('view.invalidLink')}</p>;
   }
 
-  const blade = getPartById(database, creation.bladeId, 'blade');
-  const assistBlade = creation.assistBladeId
-    ? getPartById(database, creation.assistBladeId, 'assistBlade')
+  const blade = getPartById(database, build.bladeId, 'blade');
+  const assistBlade = build.assistBladeId
+    ? getPartById(database, build.assistBladeId, 'assistBlade')
     : undefined;
-  const ratchet = getPartById(database, creation.ratchetId, 'ratchet');
-  const bit = getPartById(database, creation.bitId, 'bit');
-  const ratings = calculateComboRatings(database, creation);
-  const estimated = isComboEstimated(database, creation);
+  const ratchet = getPartById(database, build.ratchetId, 'ratchet');
+  const bit = getPartById(database, build.bitId, 'bit');
+  const ratings = calculateComboRatings(database, build);
+  const estimated = isComboEstimated(database, build);
 
   return (
     <div className="space-y-6">
@@ -35,8 +35,8 @@ export function View() {
           <div className="flex items-center gap-4">
             <PartIcon category="bey" size={96} />
             <div>
-              <h1 className="text-2xl font-bold">{creation.name}</h1>
-              {creation.note && <p className="text-gray-700 dark:text-gray-300">{creation.note}</p>}
+              <h1 className="text-2xl font-bold">{build.name}</h1>
+              {build.note && <p className="text-gray-700 dark:text-gray-300">{build.note}</p>}
             </div>
           </div>
 

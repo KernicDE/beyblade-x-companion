@@ -1,8 +1,38 @@
 import { create } from 'zustand';
-import type { PersonalProfile } from '../types';
+import type { OwnedBey, PersonalProfile } from '../types';
 import { decryptJson, isEncryptedPayload, type EncryptedPayload } from '../utils/crypto';
 
 const REMEMBER_KEY = 'bx-remembered-profile';
+
+function generateId(): string {
+  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+    return crypto.randomUUID();
+  }
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+/**
+ * Migrate a decrypted profile to the current version (2):
+ * - v1 `creations` becomes `builds`
+ * - every OwnedBey without an id gets a generated one
+ */
+export function migrateProfile(value: Record<string, unknown>): Record<string, unknown> {
+  const migrated = { ...value };
+  if (migrated.version === 1) {
+    migrated.builds = Array.isArray(migrated.builds)
+      ? migrated.builds
+      : Array.isArray(migrated.creations)
+        ? migrated.creations
+        : [];
+    delete migrated.creations;
+    const ownedBeys = Array.isArray(migrated.ownedBeys) ? (migrated.ownedBeys as OwnedBey[]) : [];
+    migrated.ownedBeys = ownedBeys.map((owned) =>
+      typeof owned.id === 'string' && owned.id.length > 0 ? owned : { ...owned, id: generateId() }
+    );
+    migrated.version = 2;
+  }
+  return migrated;
+}
 
 export type ProfileStatus = 'loading' | 'no-profile' | 'locked' | 'unlocking' | 'unlocked';
 
@@ -30,10 +60,10 @@ export function isPersonalProfile(value: unknown): value is PersonalProfile {
   if (typeof value !== 'object' || value === null) return false;
   const raw = value as Record<string, unknown>;
   return (
-    raw.version === 1 &&
+    raw.version === 2 &&
     Array.isArray(raw.ownedBeys) &&
     Array.isArray(raw.ownedParts) &&
-    Array.isArray(raw.creations) &&
+    Array.isArray(raw.builds) &&
     Array.isArray(raw.matches)
   );
 }
@@ -47,10 +77,14 @@ function readRemembered(): RememberedEntry | null {
     const stored = localStorage.getItem(REMEMBER_KEY);
     if (!stored) return null;
     const parsed = JSON.parse(stored) as Partial<RememberedEntry>;
-    if (!isPersonalProfile(parsed.profile) || typeof parsed.payloadHash !== 'string') {
+    const profile =
+      typeof parsed.profile === 'object' && parsed.profile !== null
+        ? migrateProfile(parsed.profile as unknown as Record<string, unknown>)
+        : parsed.profile;
+    if (!isPersonalProfile(profile) || typeof parsed.payloadHash !== 'string') {
       return null;
     }
-    return { profile: parsed.profile, payloadHash: parsed.payloadHash };
+    return { profile, payloadHash: parsed.payloadHash };
   } catch {
     return null;
   }
@@ -110,15 +144,19 @@ export const useProfileStore = create<ProfileState>()((set, get) => ({
     }
     try {
       const decrypted: unknown = await decryptJson(payload, password);
-      if (!isPersonalProfile(decrypted)) {
+      const migrated =
+        typeof decrypted === 'object' && decrypted !== null
+          ? migrateProfile(decrypted as Record<string, unknown>)
+          : decrypted;
+      if (!isPersonalProfile(migrated)) {
         set({ status: 'locked', profile: null });
         return false;
       }
       if (remember) {
-        const entry: RememberedEntry = { profile: decrypted, payloadHash: payloadHash(payload) };
+        const entry: RememberedEntry = { profile: migrated, payloadHash: payloadHash(payload) };
         localStorage.setItem(REMEMBER_KEY, JSON.stringify(entry));
       }
-      set({ status: 'unlocked', profile: decrypted, remembered: remember });
+      set({ status: 'unlocked', profile: migrated, remembered: remember });
       return true;
     } catch {
       set({ status: 'locked', profile: null });

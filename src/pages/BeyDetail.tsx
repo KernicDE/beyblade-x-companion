@@ -50,7 +50,7 @@ export function BeyDetail() {
   const tier = calculateTier(ratings, blade?.officialStats.typeTag);
 
   const owned = profile?.ownedBeys.find((b) => b.beyId === bey.id);
-  const recordWith = profile ? recordWithBey(profile.matches, bey.id) : null;
+  const recordWith = profile ? recordWithBey(profile.matches, bey.id, profile.ownedBeys) : null;
   const recordAgainst = profile ? recordAgainstBey(profile.matches, bey.id) : null;
 
   const partLink = (category: string, partId: string | undefined, label: string) => {

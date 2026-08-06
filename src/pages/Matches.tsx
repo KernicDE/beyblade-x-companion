@@ -2,11 +2,11 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
-import { useCreationsStore } from '../stores/creations';
+import { useBuildsStore } from '../stores/builds';
 import { UnlockGate } from '../components/UnlockGate';
 import { useTranslation } from '../i18n';
 import {
-  allCreations,
+  allBuilds,
   currentStreak,
   finishDistribution,
   opponentStats,
@@ -40,11 +40,11 @@ function MatchesContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
   const { profile } = useProfileStore();
-  const localCreations = useCreationsStore((s) => s.creations);
+  const localBuilds = useBuildsStore((s) => s.builds);
 
-  const creations = useMemo(
-    () => allCreations(profile, localCreations),
-    [profile, localCreations]
+  const builds = useMemo(
+    () => allBuilds(profile, localBuilds),
+    [profile, localBuilds]
   );
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
@@ -54,11 +54,11 @@ function MatchesContent() {
   const matches = profile.matches;
   const beyName = (beyId: string) => database.beys.find((b) => b.id === beyId)?.name;
   const myBeyName = (ref: Parameters<typeof resolveMyBeyName>[0]) =>
-    resolveMyBeyName(ref, beyName, creations);
+    resolveMyBeyName(ref, beyName, builds, profile.ownedBeys);
 
   const overall = overallRecord(matches);
   const streak = currentStreak(matches);
-  const byBey = recordsByMyBey(matches);
+  const byBey = recordsByMyBey(matches, profile.ownedBeys);
   const opponents = opponentStats(matches);
   const wonFinishes = finishDistribution(matches, 'win');
   const lostFinishes = finishDistribution(matches, 'loss');

@@ -14,7 +14,7 @@ There is intentionally no account system or backend. The site is a static Vite b
 
 ## Architecture: how personal data works (important)
 
-The personal profile (collection, matches, saved creations) lives **encrypted inside the repo** as a static file:
+The personal profile (collection, matches, saved builds) lives **encrypted inside the repo** as a static file:
 
 - `public/data/profile.enc.json` — AES-256-GCM encrypted, committed, shipped with the site. PBKDF2-SHA-256 (250k iterations) derives the key from the owner's password.
 - `.tmp/profile.plain.json` — plaintext working copy. **Gitignored (`.tmp/`), never commit it.**
@@ -36,16 +36,16 @@ The tracker pages are **read-only** in the app. When the owner reports new purch
 
 **Prices**: EUR is the canonical currency. CHF purchases are converted to EUR at the purchase-date exchange rate on data entry (the agent looks up the historical rate); both values are stored (`priceEur`, `priceChf`).
 
-Local-only data: combo drafts saved in the builder live in `localStorage` (`src/stores/creations.ts`) and are device-local. Important combos can be merged into the encrypted profile on request.
+Local-only data: combo drafts saved in the builder live in `localStorage` (`src/stores/builds.ts`) and are device-local. Important combos can be merged into the encrypted profile on request.
 
 ## Technology stack
 
 - **Hosting**: GitHub Pages static site (`kernicde.github.io/beyblade-x-companion`), deploy via `.github/workflows/deploy.yml` on push to `master`.
 - **Build tool**: Vite 8, `base: '/beyblade-x-companion/'`.
 - **UI**: React 19 + TypeScript 6 (strict), React Router v7 in `HashRouter` mode (required for GitHub Pages).
-- **State**: Zustand 5. Two stores: `src/stores/profile.ts` (encrypted personal profile, lock/unlock lifecycle) and `src/stores/creations.ts` (local combo drafts, persisted to `localStorage`).
+- **State**: Zustand 5. Two stores: `src/stores/profile.ts` (encrypted personal profile, lock/unlock lifecycle) and `src/stores/builds.ts` (local combo drafts, persisted to `localStorage`).
 - **PWA**: `vite-plugin-pwa` (service worker + manifest).
-- **Link sharing**: `lz-string` for creation share/import links (`src/utils/links.ts`, `CreationsExport` format).
+- **Link sharing**: `lz-string` for build share/import links (`src/utils/links.ts`, `BuildsExport` format; legacy `creations` payloads still accepted on import).
 - **Charts**: custom SVG radar/bars components. No charting library.
 - **Styling**: Tailwind CSS v4 via `@tailwindcss/vite`; theme CSS variables in `src/index.css`.
 - **Linting**: oxlint via `.oxlintrc.json`.
@@ -59,10 +59,10 @@ Reference catalog data (Beys, parts, launchers) ships as static JSON under `publ
 
 ### Personal profile (encrypted, `PersonalProfile` in `src/types/index.ts`)
 
-- **OwnedBey**: `beyId` (catalog ref), `purchaseDate`, `shop`, `priceEur` (canonical), `priceChf` (original, if paid in CHF), `setName` (for Random Booster pulls), `note`.
+- **OwnedBey**: `id` (unique per owned copy, generated on migration), `beyId` (catalog ref; multiple copies of the same bey allowed), `purchaseDate`, `shop`, `priceEur` (canonical), `priceChf` (original, if paid in CHF), `setName` (for Random Booster pulls), `note`.
 - **OwnedPart**: `partId`, `category`, `obtainedFrom` (beyId, set name, or "Einzelkauf"), `purchaseDate`, `note`.
-- **Match**: `id`, `date`, `myBey` (`{source:'bey',beyId}` or `{source:'creation',creationId}`), `opponent` (`name` always; `beyId`/`combo` optional), `result` (win/loss), `finishType` (`xtreme|over|burst|spin`, optional), `note`.
-- **Creation**: saved combo (`id`, `name`, part IDs, timestamps) — both in the encrypted profile and as local drafts.
+- **Match**: `id`, `date`, `myBey` (`{source:'bey',beyId}`, `{source:'creation',creationId}` or `{source:'ownedBey',ownedBeyId}`), `opponent` (`name` always; `beyId`/`combo` optional), `result` (win/loss), `finishType` (`xtreme|over|burst|spin`, optional), `note`.
+- **Build**: saved combo (`id`, `name`, part IDs, timestamps) — both in the encrypted profile and as local drafts.
 - Match statistics are computed, not stored: `src/utils/matches.ts` (records, streaks, finish distributions, opponent stats).
 
 ### Catalog (public, unchanged)
@@ -84,7 +84,7 @@ A combo's displayed rating per dimension is the simple average across selected p
 - `/simulator` — Bey-vs-Bey prediction.
 - `/deck` — auto-builder for a WBO-style 3-Bey deck from owned parts (gated).
 - `/profile` — local drafts management, export/import links, lock/forget-device.
-- `/import?d=<compressed>`, `/view/<compressed>` — creation share links.
+- `/import?d=<compressed>`, `/view/<compressed>` — build share links.
 
 Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt until unlocked). Catalog and builder/simulator stay public; `/deck` uses the profile and is gated.
 
