@@ -6,7 +6,8 @@ import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
 import { useTranslation } from '../i18n';
 import { recordWithBey } from '../utils/matches';
-import type { OwnedBey, OwnedPart } from '../types';
+import { getPartById } from '../utils/data';
+import type { OwnedBey, OwnedPart, PartCategory } from '../types';
 
 export function formatPurchasePrice(owned: OwnedBey): string {
   if (owned.priceEur === undefined) return '';
@@ -109,6 +110,29 @@ function CollectionContent() {
                       </div>
                     </div>
                   </div>
+                  {bey && (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {[
+                        { cat: 'blade', id: bey.bladeId, label: t('beyDetail.blade') },
+                        { cat: 'assistBlade', id: bey.assistBladeId, label: t('beyDetail.assistBlade') },
+                        { cat: 'ratchet', id: bey.ratchetId, label: t('beyDetail.ratchet') },
+                        { cat: 'bit', id: bey.bitId, label: t('beyDetail.bit') },
+                      ].map(({ cat, id, label }) => {
+                        if (!id) return null;
+                        const part = getPartById(database, id, cat as PartCategory);
+                        return (
+                          <Link
+                            key={`${cat}-${id}`}
+                            to={`/parts/${cat}/${id}`}
+                            className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+                          >
+                            {label}:
+                            <span className="text-blue-700 dark:text-blue-300">{part?.name ?? id}</span>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  )}
                   <dl className="mt-3 space-y-1 text-sm">
                     {owned.purchaseDate && (
                       <div className="flex justify-between">
@@ -170,9 +194,18 @@ function CollectionContent() {
                   <dl className="mt-3 space-y-1 text-sm">
                     {owned.obtainedFrom && (
                       <div className="flex justify-between gap-2">
-                        <dt className="text-[var(--muted)]">{t('collection.obtainedFrom')}</dt>
+                        <dt className="text-[var(--muted)]">{t('collection.set')}</dt>
                         <dd className="text-right">
-                          {beyNameById.get(owned.obtainedFrom) ?? owned.obtainedFrom}
+                          {beyNameById.get(owned.obtainedFrom) ? (
+                            <Link
+                              to={`/beys/${owned.obtainedFrom}`}
+                              className="text-blue-600 hover:underline dark:text-blue-400"
+                            >
+                              {beyNameById.get(owned.obtainedFrom)}
+                            </Link>
+                          ) : (
+                            owned.obtainedFrom
+                          )}
                         </dd>
                       </div>
                     )}
