@@ -6,12 +6,10 @@
     "home": "Home",
     "collection": "Collection",
     "matches": "Matches",
-    "beys": "Beys",
     "parts": "Parts",
-    "configurator": "Builder",
+    "builder": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
-    "deck": "Deck",
     "profile": "Profile"
   },
   "theme": {
@@ -63,9 +61,9 @@
     "links": {
       "collection": "Collection",
       "matches": "Matches",
-      "configurator": "Builder",
+      "builder": "Builder",
+      "builds": "Builds",
       "simulator": "Simulator",
-      "beys": "Bey catalog",
       "parts": "Parts catalog"
     }
   },
@@ -121,8 +119,11 @@
     "win": "Win",
     "loss": "Loss"
   },
-  "beyDatabase": {
-    "title": "Bey Database"
+  "builder": {
+    "tabs": {
+      "builder": "Builder",
+      "deck": "Deck"
+    }
   },
   "partsDatabase": {
     "title": "Parts Database",
@@ -184,7 +185,6 @@
     "trivia": "Trivia"
   },
   "configurator": {
-    "title": "Builder",
     "resultingRatings": "Resulting Ratings",
     "saveBuild": "Save Build",
     "save": "Save",
@@ -229,7 +229,6 @@
     "stamina": "STAMINA"
   },
   "deckBuilder": {
-    "title": "Deck Builder",
     "focus": {
       "slot": "Slot {{slot}}",
       "auto": "Best decks",
@@ -240,7 +239,19 @@
     "rules": "WBO deck rules: 3 Beys, each part only once per deck (color/brand variants with the same name count as the same part).",
     "empty": "Not enough unique owned parts to build a 3-Bey deck.",
     "deckScore": "Deck score",
-    "combo": "Combo"
+    "combo": "Combo",
+    "deckName": "Deck {{n}}",
+    "saveAsBuilds": "Save this deck as 3 builds",
+    "buildsSaved": "3 builds saved"
+  },
+  "builds": {
+    "title": "Builds",
+    "viewAll": "View all builds",
+    "profileBuilds": "From the profile",
+    "profileHint": "Stored in the encrypted profile — centrally maintained and read-only. Editing or duplicating creates a local draft.",
+    "unlockHint": "Unlock your profile to see profile builds.",
+    "localBuilds": "Local drafts",
+    "copiedToDrafts": "Copied to local drafts."
   },
   "simulator": {
     "title": "Simulator",

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { RatingBars } from '../components/RatingBars';
 import { useProfileStore } from '../stores/profile';
@@ -84,7 +84,15 @@ export function Profile() {
       )}
 
       <section>
-        <h2 className="mb-2 text-lg font-semibold">{t('profile.builds')}</h2>
+        <div className="mb-2 flex items-center justify-between">
+          <h2 className="text-lg font-semibold">{t('profile.builds')}</h2>
+          <Link
+            to="/builds"
+            className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-400"
+          >
+            {t('builds.viewAll')}
+          </Link>
+        </div>
         <p className="mb-4 text-sm text-[var(--muted)]">{t('profile.draftsHint')}</p>
         {builds.length === 0 ? (
           <p className="text-gray-600 dark:text-gray-400">{t('profile.noBuilds')}</p>
@@ -110,7 +118,7 @@ export function Profile() {
                   <div className="mt-4 flex flex-wrap gap-2">
                     <button
                       type="button"
-                      onClick={() => navigate(`/configurator?edit=${build.id}`)}
+                      onClick={() => navigate(`/builder?edit=${build.id}`)}
                       className="rounded-md bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-300 dark:hover:bg-blue-900/50"
                     >
                       {t('profile.edit')}

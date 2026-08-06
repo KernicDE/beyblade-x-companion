@@ -78,15 +78,15 @@ A combo's displayed rating per dimension is the simple average across selected p
 - `/` — personal hub (gated): collection overview, match quick stats, quick links.
 - `/collection` — owned Beys/parts with purchase info (gated).
 - `/matches` — match history + statistics (gated).
-- `/beys`, `/beys/:id` — catalog; detail pages also show "Mein Exemplar" and personal record with/against that Bey when unlocked.
+- `/beys/:id` — catalog detail only (the `/beys` list was removed); shows "Mein Exemplar" and personal record with/against that Bey when unlocked.
 - `/parts`, `/parts/:category/:id` — catalog; detail shows "Mein Exemplar" when unlocked.
-- `/configurator` — builder; saves local drafts.
+- `/builder` — builder with two tabs (`?tab=deck` for the deck tab); saves local drafts. `/configurator` and `/deck` redirect here.
+- `/builds` — all builds grouped by source: encrypted-profile builds (read-only; edit/duplicate create a local draft) and local drafts (edit/duplicate/share/delete).
 - `/simulator` — Bey-vs-Bey prediction.
-- `/deck` — auto-builder for a WBO-style 3-Bey deck from owned parts (gated).
 - `/profile` — local drafts management, export/import links, lock/forget-device.
 - `/import?d=<compressed>`, `/view/<compressed>` — build share links.
 
-Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt until unlocked). Catalog and builder/simulator stay public; `/deck` uses the profile and is gated.
+Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt until unlocked). Catalog and builder/simulator stay public; the deck tab uses the profile and is gated.
 
 ## Build and test commands
 

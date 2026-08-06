@@ -1,12 +1,13 @@
 import { useMemo, useState } from 'react';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
+import { useBuildsStore } from '../stores/builds';
 import { useTranslation } from '../i18n';
 import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
 import { RatingBars } from '../components/RatingBars';
 import { TierBadge } from '../components/TierBadge';
-import { buildDecks, scoreCombo, type DeckFocus } from '../utils/deck';
+import { buildDecks, scoreCombo, type Deck, type DeckFocus } from '../utils/deck';
 import type { PartCategory, Part } from '../types';
 
 const FOCUS_OPTIONS: { value: DeckFocus; labelKey: string }[] = [
@@ -81,6 +82,8 @@ function DeckBuilderContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
   const { profile } = useProfileStore();
+  const { addBuild } = useBuildsStore();
+  const [savedDecks, setSavedDecks] = useState<Set<number>>(new Set());
   const [slotFocuses, setSlotFocuses] = useState<[DeckFocus, DeckFocus, DeckFocus]>([
     'auto',
     'auto',
@@ -88,6 +91,7 @@ function DeckBuilderContent() {
   ]);
 
   const setSlotFocus = (index: number, focus: DeckFocus) => {
+    setSavedDecks(new Set());
     setSlotFocuses((prev) => {
       const next: [DeckFocus, DeckFocus, DeckFocus] = [...prev] as [DeckFocus, DeckFocus, DeckFocus];
       next[index] = focus;
@@ -116,13 +120,25 @@ function DeckBuilderContent() {
     return buildDecks(database, profile.ownedParts, slotFocuses, 3, 100);
   }, [database, profile, slotFocuses]);
 
+  const handleSaveDeck = (deck: Deck, index: number) => {
+    deck.beys.forEach((bey) => {
+      addBuild({
+        name: `${t('deckBuilder.deckName', { n: index + 1 })} – ${bey.bladeName}`,
+        bladeId: bey.combo.bladeId,
+        assistBladeId: bey.combo.assistBladeId,
+        ratchetId: bey.combo.ratchetId,
+        bitId: bey.combo.bitId,
+      });
+    });
+    setSavedDecks((prev) => new Set(prev).add(index));
+  };
+
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <h1 className="text-2xl font-bold">{t('deckBuilder.title')}</h1>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-end">
         <div className="flex flex-wrap items-center gap-3">
           <SlotFocusSelect
             slot={1}
@@ -168,10 +184,22 @@ function DeckBuilderContent() {
                   <p className="text-lg font-bold leading-none">{deck.score.toFixed(1)}</p>
                 </div>
               </div>
-              <div className="flex gap-2">
-                {deck.beys.map((bey, i) => (
-                  <TierBadge key={i} tier={bey.tier} size="sm" />
-                ))}
+              <div className="flex items-center gap-2">
+                <div className="flex gap-2">
+                  {deck.beys.map((bey, i) => (
+                    <TierBadge key={i} tier={bey.tier} size="sm" />
+                  ))}
+                </div>
+                <button
+                  type="button"
+                  onClick={() => handleSaveDeck(deck, index)}
+                  disabled={savedDecks.has(index)}
+                  className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-400"
+                >
+                  {savedDecks.has(index)
+                    ? t('deckBuilder.buildsSaved')
+                    : t('deckBuilder.saveAsBuilds')}
+                </button>
               </div>
             </div>
 

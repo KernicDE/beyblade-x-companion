@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { DataProvider } from './components/DataProvider';
 import { Layout } from './components/Layout';
@@ -6,13 +6,12 @@ import { useProfileStore } from './stores/profile';
 import { Home } from './pages/Home';
 import { Collection } from './pages/Collection';
 import { Matches } from './pages/Matches';
-import { BeyDatabase } from './pages/BeyDatabase';
 import { BeyDetail } from './pages/BeyDetail';
 import { PartsDatabase } from './pages/PartsDatabase';
 import { PartDetail } from './pages/PartDetail';
-import { Configurator } from './pages/Configurator';
+import { Builder } from './pages/Builder';
+import { Builds } from './pages/Builds';
 import { Simulator } from './pages/Simulator';
-import { DeckBuilder } from './pages/DeckBuilder';
 import { Profile } from './pages/Profile';
 import { Import } from './pages/Import';
 import { View } from './pages/View';
@@ -30,13 +29,14 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/collection" element={<Collection />} />
             <Route path="/matches" element={<Matches />} />
-            <Route path="/beys" element={<BeyDatabase />} />
             <Route path="/beys/:id" element={<BeyDetail />} />
             <Route path="/parts" element={<PartsDatabase />} />
             <Route path="/parts/:category/:id" element={<PartDetail />} />
-            <Route path="/configurator" element={<Configurator />} />
+            <Route path="/builder" element={<Builder />} />
+            <Route path="/builds" element={<Builds />} />
+            <Route path="/configurator" element={<Navigate to="/builder" replace />} />
+            <Route path="/deck" element={<Navigate to="/builder?tab=deck" replace />} />
             <Route path="/simulator" element={<Simulator />} />
-            <Route path="/deck" element={<DeckBuilder />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/import" element={<Import />} />
             <Route path="/view/:compressed" element={<View />} />

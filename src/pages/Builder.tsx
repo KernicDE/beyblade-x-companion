@@ -10,9 +10,42 @@ import { useProfileStore } from '../stores/profile';
 import { useBuildsStore } from '../stores/builds';
 import { calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
+import { DeckBuilder } from './DeckBuilder';
 import type { Part } from '../types';
 
-export function Configurator() {
+export function Builder() {
+  const { t } = useTranslation();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const tab = searchParams.get('tab') === 'deck' ? 'deck' : 'builder';
+
+  const selectTab = (next: 'builder' | 'deck') => {
+    setSearchParams(next === 'deck' ? { tab: 'deck' } : {});
+  };
+
+  return (
+    <div className="space-y-6">
+      <div className="flex gap-2 border-b border-gray-200 dark:border-slate-700">
+        {(['builder', 'deck'] as const).map((key) => (
+          <button
+            key={key}
+            type="button"
+            onClick={() => selectTab(key)}
+            className={`-mb-px border-b-2 px-4 py-2 text-sm font-medium transition-colors ${
+              tab === key
+                ? 'border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400'
+                : 'border-transparent text-[var(--muted)] hover:text-blue-600 dark:hover:text-blue-400'
+            }`}
+          >
+            {t(`builder.tabs.${key}`)}
+          </button>
+        ))}
+      </div>
+      {tab === 'deck' ? <DeckBuilder /> : <BuilderTab />}
+    </div>
+  );
+}
+
+function BuilderTab() {
   const { t } = useTranslation();
   const [searchParams, setSearchParams] = useSearchParams();
   const { database, loading, error } = useData();
@@ -123,8 +156,7 @@ export function Configurator() {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <h1 className="text-2xl font-bold">{t('configurator.title')}</h1>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-end">
         <div className="flex flex-wrap gap-3">
           <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
             <input

@@ -37,12 +37,10 @@ export function Layout({ children }: { children: ReactNode }) {
   const nav = [
     { to: '/', label: t('nav.home') },
     { to: '/collection', label: t('nav.collection') },
-    { to: '/matches', label: t('nav.matches') },
-    { to: '/configurator', label: t('nav.configurator') },
-    { to: '/simulator', label: t('nav.simulator') },
-    { to: '/deck', label: t('nav.deck') },
-    { to: '/beys', label: t('nav.beys') },
     { to: '/parts', label: t('nav.parts') },
+    { to: '/builder', label: t('nav.builder') },
+    { to: '/matches', label: t('nav.matches') },
+    { to: '/simulator', label: t('nav.simulator') },
     { to: '/profile', label: t('nav.profile') },
   ];
 

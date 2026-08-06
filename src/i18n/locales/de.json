@@ -6,12 +6,10 @@
     "home": "Start",
     "collection": "Sammlung",
     "matches": "Matches",
-    "beys": "Beys",
     "parts": "Teile",
-    "configurator": "Builder",
+    "builder": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
-    "deck": "Deck",
     "profile": "Profil"
   },
   "theme": {
@@ -63,9 +61,9 @@
     "links": {
       "collection": "Sammlung",
       "matches": "Matches",
-      "configurator": "Builder",
+      "builder": "Builder",
+      "builds": "Builds",
       "simulator": "Simulator",
-      "beys": "Bey-Katalog",
       "parts": "Teile-Katalog"
     }
   },
@@ -121,8 +119,11 @@
     "win": "Sieg",
     "loss": "Niederlage"
   },
-  "beyDatabase": {
-    "title": "Bey-Datenbank"
+  "builder": {
+    "tabs": {
+      "builder": "Builder",
+      "deck": "Deck"
+    }
   },
   "partsDatabase": {
     "title": "Teile-Datenbank",
@@ -184,7 +185,6 @@
     "trivia": "Trivia"
   },
   "configurator": {
-    "title": "Builder",
     "resultingRatings": "Ergebnis-Bewertungen",
     "saveBuild": "Build speichern",
     "save": "Speichern",
@@ -229,7 +229,6 @@
     "stamina": "AUSDAUER"
   },
   "deckBuilder": {
-    "title": "Deck-Builder",
     "focus": {
       "slot": "Slot {{slot}}",
       "auto": "Beste Decks",
@@ -240,7 +239,19 @@
     "rules": "WBO-Deck-Regeln: 3 Beys, jedes Teil max. 1× deckweit (Farb- und Markenvarianten mit gleichem Namen zählen als dasselbe Teil).",
     "empty": "Nicht genug eindeutige Teile im Besitz, um ein 3er-Deck zu bilden.",
     "deckScore": "Deck-Score",
-    "combo": "Combo"
+    "combo": "Combo",
+    "deckName": "Deck {{n}}",
+    "saveAsBuilds": "Dieses Deck als 3 Builds speichern",
+    "buildsSaved": "3 Builds gespeichert"
+  },
+  "builds": {
+    "title": "Builds",
+    "viewAll": "Alle Builds anzeigen",
+    "profileBuilds": "Aus dem Profil",
+    "profileHint": "Im verschlüsselten Profil gespeichert — zentral gepflegt und schreibgeschützt. Bearbeiten und Duplizieren legen einen lokalen Entwurf an.",
+    "unlockHint": "Profil entsperren, um Profil-Builds zu sehen.",
+    "localBuilds": "Lokale Entwürfe",
+    "copiedToDrafts": "Als lokaler Entwurf kopiert."
   },
   "simulator": {
     "title": "Simulator",

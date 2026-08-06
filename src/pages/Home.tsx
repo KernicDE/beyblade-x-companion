@@ -38,9 +38,9 @@ function HomeContent() {
   const quickLinks = [
     { to: '/collection', label: t('home.links.collection') },
     { to: '/matches', label: t('home.links.matches') },
-    { to: '/configurator', label: t('home.links.configurator') },
+    { to: '/builder', label: t('home.links.builder') },
+    { to: '/builds', label: t('home.links.builds') },
     { to: '/simulator', label: t('home.links.simulator') },
-    { to: '/beys', label: t('home.links.beys') },
     { to: '/parts', label: t('home.links.parts') },
   ];
 
