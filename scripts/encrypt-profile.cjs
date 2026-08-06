@@ -42,13 +42,13 @@ try {
 if (
   typeof profile !== 'object' ||
   profile === null ||
-  profile.version !== 1 ||
+  ![1, 2].includes(profile.version) ||
   !Array.isArray(profile.ownedBeys) ||
   !Array.isArray(profile.ownedParts) ||
-  !Array.isArray(profile.creations) ||
+  !Array.isArray(profile.version === 2 ? profile.builds : profile.creations) ||
   !Array.isArray(profile.matches)
 ) {
-  fail('input does not look like a PersonalProfile (version: 1 + ownedBeys/ownedParts/creations/matches arrays).');
+  fail('input does not look like a PersonalProfile (version 1/2 + ownedBeys/ownedParts/builds|creations/matches arrays).');
 }
 
 const salt = crypto.randomBytes(16);
