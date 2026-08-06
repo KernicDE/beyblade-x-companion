@@ -165,6 +165,36 @@ export function resolveMyBeyName(
   return builds.find((b) => b.id === ref.creationId)?.name ?? ref.creationId;
 }
 
+/**
+ * Distinguishing label for a single owned copy, e.g. "Dran Sword (Shop A, 2026-01-01)".
+ * Falls back to the note, then to the plain bey name, then to the catalog id.
+ */
+export function ownedBeyLabel(owned: OwnedBey, beyName?: string): string {
+  const base = beyName ?? owned.beyId;
+  const detail = [owned.shop, owned.purchaseDate].filter(Boolean).join(', ') || owned.note;
+  return detail ? `${base} (${detail})` : base;
+}
+
+/** Serialize a MyBeyRef for use as a select-option value. */
+export function myBeyRefValue(ref: MyBeyRef): string {
+  if (ref.source === 'bey') return `bey:${ref.beyId}`;
+  if (ref.source === 'ownedBey') return `ownedBey:${ref.ownedBeyId}`;
+  return `creation:${ref.creationId}`;
+}
+
+/** Parse a value produced by myBeyRefValue back into a MyBeyRef. */
+export function parseMyBeyRefValue(value: string): MyBeyRef | null {
+  const sep = value.indexOf(':');
+  if (sep <= 0) return null;
+  const source = value.slice(0, sep);
+  const id = value.slice(sep + 1);
+  if (!id) return null;
+  if (source === 'bey') return { source: 'bey', beyId: id };
+  if (source === 'ownedBey') return { source: 'ownedBey', ownedBeyId: id };
+  if (source === 'creation') return { source: 'creation', creationId: id };
+  return null;
+}
+
 /** All builds that matches can reference: profile builds plus local drafts. */
 export function allBuilds(profile: PersonalProfile | null, localBuilds: Build[]): Build[] {
   const seen = new Set<string>();

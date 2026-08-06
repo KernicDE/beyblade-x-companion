@@ -2,8 +2,11 @@ import { describe, it, expect } from 'vitest';
 import {
   currentStreak,
   finishDistribution,
+  myBeyRefValue,
   opponentStats,
   overallRecord,
+  ownedBeyLabel,
+  parseMyBeyRefValue,
   recordAgainstBey,
   recordsByMyBey,
   recordWithBey,
@@ -119,5 +122,31 @@ describe('match statistics', () => {
     expect(byBey).toHaveLength(1);
     expect(byBey[0].key).toBe('ownedBey:unknown-copy');
     expect(byBey[0]).toMatchObject({ matches: 1, wins: 1 });
+  });
+
+  it('labels owned copies distinguishably', () => {
+    expect(ownedBeyLabel({ id: 'o1', beyId: 'bey-a', shop: 'Shop A', purchaseDate: '2026-01-01' }, 'Dran Sword'))
+      .toBe('Dran Sword (Shop A, 2026-01-01)');
+    // Falls back to the note when shop and date are missing.
+    expect(ownedBeyLabel({ id: 'o2', beyId: 'bey-a', note: 'Turnier' }, 'Dran Sword'))
+      .toBe('Dran Sword (Turnier)');
+    // Without any detail just the bey name; without a name the catalog id.
+    expect(ownedBeyLabel({ id: 'o3', beyId: 'bey-a' }, 'Dran Sword')).toBe('Dran Sword');
+    expect(ownedBeyLabel({ id: 'o4', beyId: 'bey-a' })).toBe('bey-a');
+  });
+
+  it('round-trips myBey refs through select values', () => {
+    const refs = [
+      { source: 'bey', beyId: 'bey-a' },
+      { source: 'ownedBey', ownedBeyId: 'owned-1' },
+      { source: 'creation', creationId: 'c-1' },
+    ] as const;
+    refs.forEach((ref) => {
+      expect(parseMyBeyRefValue(myBeyRefValue(ref))).toEqual(ref);
+    });
+    expect(parseMyBeyRefValue('')).toBeNull();
+    expect(parseMyBeyRefValue('nonsense')).toBeNull();
+    expect(parseMyBeyRefValue('bey:')).toBeNull();
+    expect(parseMyBeyRefValue('unknown:x')).toBeNull();
   });
 });

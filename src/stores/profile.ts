@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { OwnedBey, PersonalProfile } from '../types';
+import type { Match, OwnedBey, PersonalProfile } from '../types';
 import { decryptJson, isEncryptedPayload, type EncryptedPayload } from '../utils/crypto';
 
 const REMEMBER_KEY = 'bx-remembered-profile';
@@ -60,6 +60,8 @@ interface ProfileState {
   updateOwnedBey: (id: string, patch: Partial<Omit<OwnedBey, 'id'>>) => void;
   /** Remove a single owned bey copy by its exemplar id. */
   removeOwnedBey: (id: string) => void;
+  /** Add a new match. Assigns a fresh unique id. Returns the created entry. */
+  addMatch: (input: Omit<Match, 'id'>) => Match | null;
 }
 
 export function isPersonalProfile(value: unknown): value is PersonalProfile {
@@ -225,6 +227,14 @@ export const useProfileStore = create<ProfileState>()((set, get) => {
       ...profile,
       ownedBeys: profile.ownedBeys.filter((owned) => owned.id !== id),
     });
+  },
+
+  addMatch: (input) => {
+    const { profile } = get();
+    if (!profile) return null;
+    const match: Match = { ...input, id: generateId() };
+    commitProfile({ ...profile, matches: [...profile.matches, match] });
+    return match;
   },
   };
 });

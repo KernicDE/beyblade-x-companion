@@ -96,6 +96,11 @@
       "priceChf": "Preis (CHF)"
     }
   },
+  "beySource": {
+    "owned": "Eigene Exemplare",
+    "builds": "Builds",
+    "catalog": "Katalog"
+  },
   "matches": {
     "title": "Match Tracker",
     "empty": "Noch keine Matches erfasst.",
@@ -117,7 +122,21 @@
     "history": "Match-Verlauf",
     "vs": "vs.",
     "win": "Sieg",
-    "loss": "Niederlage"
+    "loss": "Niederlage",
+    "addMatch": "Match hinzufügen",
+    "myBey": "Mein Bey",
+    "selectMyBey": "Bey auswählen",
+    "opponent": "Gegner",
+    "opponentName": "Name des Gegners",
+    "opponentCatalog": "Katalog-Bey (optional)",
+    "noCatalogBey": "Kein Katalog-Bezug",
+    "date": "Datum",
+    "result": "Ergebnis",
+    "finishType": "Finish-Typ (optional)",
+    "noFinish": "Kein Finish",
+    "note": "Notiz (optional)",
+    "save": "Speichern",
+    "cancel": "Abbrechen"
   },
   "builder": {
     "tabs": {

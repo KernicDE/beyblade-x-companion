@@ -1,23 +1,203 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
 import { useBuildsStore } from '../stores/builds';
 import { UnlockGate } from '../components/UnlockGate';
+import { MyBeySelect } from '../components/MyBeySelect';
 import { useTranslation } from '../i18n';
 import {
   allBuilds,
   currentStreak,
   finishDistribution,
+  myBeyRefValue,
   opponentStats,
   overallRecord,
+  parseMyBeyRefValue,
   recordsByMyBey,
   resolveMyBeyName,
   sortByDateDesc,
 } from '../utils/matches';
-import type { FinishType } from '../types';
+import type { Database } from '../utils/data';
+import type { FinishType, Match } from '../types';
 
 const FINISH_TYPES: FinishType[] = ['xtreme', 'over', 'burst', 'spin'];
+
+const inputClass =
+  'w-full rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none';
+
+function today(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+interface MatchFormProps {
+  database: Database;
+  initialMyBey: string;
+  onSave: (input: Omit<Match, 'id'>) => void;
+  onCancel: () => void;
+}
+
+function MatchForm({ database, initialMyBey, onSave, onCancel }: MatchFormProps) {
+  const { t } = useTranslation();
+  const [myBey, setMyBey] = useState(initialMyBey);
+  const [date, setDate] = useState(today());
+  const [opponentBeyId, setOpponentBeyId] = useState('');
+  const [opponentName, setOpponentName] = useState('');
+  const [result, setResult] = useState<'win' | 'loss'>('win');
+  const [finishType, setFinishType] = useState<FinishType | ''>('');
+  const [note, setNote] = useState('');
+
+  const sortedBeys = useMemo(
+    () => [...database.beys].sort((a, b) => a.name.localeCompare(b.name)),
+    [database]
+  );
+
+  const canSave = parseMyBeyRefValue(myBey) !== null && date !== '' && opponentName.trim() !== '';
+
+  const submit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const ref = parseMyBeyRefValue(myBey);
+    if (!ref || !date || opponentName.trim() === '') return;
+    onSave({
+      date,
+      myBey: ref,
+      opponent: {
+        name: opponentName.trim(),
+        ...(opponentBeyId ? { beyId: opponentBeyId } : {}),
+      },
+      result,
+      ...(finishType ? { finishType } : {}),
+      ...(note.trim() ? { note: note.trim() } : {}),
+    });
+  };
+
+  return (
+    <form onSubmit={submit} className="space-y-3">
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div>
+          <label htmlFor="match-my-bey" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('matches.myBey')}
+          </label>
+          <MyBeySelect
+            id="match-my-bey"
+            database={database}
+            value={myBey}
+            onChange={setMyBey}
+            placeholder={t('matches.selectMyBey')}
+          />
+        </div>
+        <div>
+          <label htmlFor="match-date" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('matches.date')}
+          </label>
+          <input
+            id="match-date"
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div>
+          <label htmlFor="match-opponent-bey" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('matches.opponentCatalog')}
+          </label>
+          <select
+            id="match-opponent-bey"
+            value={opponentBeyId}
+            onChange={(e) => {
+              const beyId = e.target.value;
+              setOpponentBeyId(beyId);
+              if (beyId) {
+                setOpponentName(database.beys.find((b) => b.id === beyId)?.name ?? '');
+              }
+            }}
+            className={inputClass}
+          >
+            <option value="">{t('matches.noCatalogBey')}</option>
+            {sortedBeys.map((bey) => (
+              <option key={bey.id} value={bey.id}>{bey.name}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="match-opponent-name" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('matches.opponentName')}
+          </label>
+          <input
+            id="match-opponent-name"
+            type="text"
+            value={opponentName}
+            onChange={(e) => setOpponentName(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div>
+          <label htmlFor="match-result" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('matches.result')}
+          </label>
+          <select
+            id="match-result"
+            value={result}
+            onChange={(e) => setResult(e.target.value as 'win' | 'loss')}
+            className={inputClass}
+          >
+            <option value="win">{t('matches.win')}</option>
+            <option value="loss">{t('matches.loss')}</option>
+          </select>
+        </div>
+        <div>
+          <label htmlFor="match-finish" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+            {t('matches.finishType')}
+          </label>
+          <select
+            id="match-finish"
+            value={finishType}
+            onChange={(e) => setFinishType(e.target.value as FinishType | '')}
+            className={inputClass}
+          >
+            <option value="">{t('matches.noFinish')}</option>
+            {FINISH_TYPES.map((finish) => (
+              <option key={finish} value={finish}>{t(`matches.finish.${finish}`)}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+      <div>
+        <label htmlFor="match-note" className="mb-1 block text-xs font-medium text-[var(--muted)]">
+          {t('matches.note')}
+        </label>
+        <input
+          id="match-note"
+          type="text"
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+          className={inputClass}
+        />
+      </div>
+      <div className="flex gap-2">
+        <button
+          type="submit"
+          disabled={!canSave}
+          className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+        >
+          {t('matches.save')}
+        </button>
+        <button
+          type="button"
+          onClick={onCancel}
+          className="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+        >
+          {t('matches.cancel')}
+        </button>
+      </div>
+    </form>
+  );
+}
 
 function FinishBar({ label, count, total, color }: { label: string; count: number; total: number; color: string }) {
   return (
@@ -39,8 +219,9 @@ function FinishBar({ label, count, total, color }: { label: string; count: numbe
 function MatchesContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const { profile } = useProfileStore();
+  const { profile, addMatch } = useProfileStore();
   const localBuilds = useBuildsStore((s) => s.builds);
+  const [adding, setAdding] = useState(false);
 
   const builds = useMemo(
     () => allBuilds(profile, localBuilds),
@@ -69,7 +250,38 @@ function MatchesContent() {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-2xl font-bold">{t('matches.title')}</h1>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <h1 className="text-2xl font-bold">{t('matches.title')}</h1>
+        {!adding && (
+          <button
+            type="button"
+            onClick={() => setAdding(true)}
+            className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+          >
+            {t('matches.addMatch')}
+          </button>
+        )}
+      </div>
+
+      {adding && (
+        <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+          <h2 className="mb-3 font-semibold">{t('matches.addMatch')}</h2>
+          <MatchForm
+            database={database}
+            // New matches prefer the owned copy when one exists.
+            initialMyBey={
+              profile.ownedBeys[0]
+                ? myBeyRefValue({ source: 'ownedBey', ownedBeyId: profile.ownedBeys[0].id })
+                : ''
+            }
+            onSave={(input) => {
+              addMatch(input);
+              setAdding(false);
+            }}
+            onCancel={() => setAdding(false)}
+          />
+        </div>
+      )}
 
       {matches.length === 0 ? (
         <p className="text-[var(--muted)]">{t('matches.empty')}</p>

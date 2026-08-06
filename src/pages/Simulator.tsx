@@ -1,5 +1,7 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useData } from '../hooks/useData';
+import { useProfileStore } from '../stores/profile';
+import { useBuildsStore } from '../stores/builds';
 import { useTranslation } from '../i18n';
 import {
   calculateComboRatings,
@@ -7,12 +9,14 @@ import {
   getPartById,
   calculateTier,
 } from '../utils/data';
+import { allBuilds, ownedBeyLabel, parseMyBeyRefValue } from '../utils/matches';
+import { MyBeySelect } from '../components/MyBeySelect';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { PartIcon } from '../components/PartIcon';
 import { TierBadge } from '../components/TierBadge';
 import { SpinBadge } from '../components/SpinBadge';
-import type { Bey, Ratings } from '../types';
+import type { Build, ComboParts, OwnedBey, Ratings } from '../types';
 import type { Database } from '../utils/data';
 
 interface MatchupResult {
@@ -23,12 +27,53 @@ interface MatchupResult {
   advantage: number;
 }
 
-function getTypeTag(database: Database, bey: Bey): string | undefined {
-  return getPartById(database, bey.bladeId, 'blade')?.officialStats.typeTag;
+/** A simulator contender: any selectable bey source resolved to its combo. */
+interface Combatant {
+  name: string;
+  parts: ComboParts;
+  imageUrl?: string;
 }
 
-function getSpinDirection(database: Database, bey: Bey): string | undefined {
-  return getPartById(database, bey.bladeId, 'blade')?.officialStats.spinDirection;
+/** Resolve a MyBeySelect value (catalog bey, owned copy, or build) to its combo. */
+function resolveCombatant(
+  database: Database,
+  value: string,
+  builds: Build[],
+  ownedBeys: OwnedBey[]
+): Combatant | null {
+  const ref = parseMyBeyRefValue(value);
+  if (!ref) return null;
+  if (ref.source === 'bey') {
+    const bey = database.beys.find((b) => b.id === ref.beyId);
+    return bey ? { name: bey.name, parts: getBeyParts(bey), imageUrl: bey.imageUrl } : null;
+  }
+  if (ref.source === 'ownedBey') {
+    const owned = ownedBeys.find((o) => o.id === ref.ownedBeyId);
+    const bey = owned && database.beys.find((b) => b.id === owned.beyId);
+    return owned && bey
+      ? { name: ownedBeyLabel(owned, bey.name), parts: getBeyParts(bey), imageUrl: bey.imageUrl }
+      : null;
+  }
+  const build = builds.find((b) => b.id === ref.creationId);
+  return build
+    ? {
+        name: build.name,
+        parts: {
+          bladeId: build.bladeId,
+          assistBladeId: build.assistBladeId,
+          ratchetId: build.ratchetId,
+          bitId: build.bitId,
+        },
+      }
+    : null;
+}
+
+function getTypeTag(database: Database, parts: ComboParts): string | undefined {
+  return getPartById(database, parts.bladeId, 'blade')?.officialStats.typeTag;
+}
+
+function getSpinDirection(database: Database, parts: ComboParts): string | undefined {
+  return getPartById(database, parts.bladeId, 'blade')?.officialStats.spinDirection;
 }
 
 function typeAdvantage(attackerType: string, defenderType: string): number {
@@ -43,15 +88,15 @@ function typeAdvantage(attackerType: string, defenderType: string): number {
 
 function simulateBattle(
   database: Database,
-  a: Bey,
-  b: Bey
+  a: Combatant,
+  b: Combatant
 ): MatchupResult {
-  const aRatings = calculateComboRatings(database, getBeyParts(a));
-  const bRatings = calculateComboRatings(database, getBeyParts(b));
-  const aType = getTypeTag(database, a) ?? 'Balance';
-  const bType = getTypeTag(database, b) ?? 'Balance';
-  const aSpin = getSpinDirection(database, a) ?? 'right';
-  const bSpin = getSpinDirection(database, b) ?? 'right';
+  const aRatings = calculateComboRatings(database, a.parts);
+  const bRatings = calculateComboRatings(database, b.parts);
+  const aType = getTypeTag(database, a.parts) ?? 'Balance';
+  const bType = getTypeTag(database, b.parts) ?? 'Balance';
+  const aSpin = getSpinDirection(database, a.parts) ?? 'right';
+  const bSpin = getSpinDirection(database, b.parts) ?? 'right';
 
   const spinBonus = aSpin === bSpin ? 0 : 0.5;
 
@@ -122,19 +167,23 @@ function simulateBattle(
 export function Simulator() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
+  const profile = useProfileStore((s) => s.profile);
+  const localBuilds = useBuildsStore((s) => s.builds);
   const [aId, setAId] = useState<string>('');
   const [bId, setBId] = useState<string>('');
+
+  const builds = useMemo(() => allBuilds(profile, localBuilds), [profile, localBuilds]);
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
-  const sortedBeys = [...database.beys].sort((a, b) => a.name.localeCompare(b.name));
-  const beyA = database.beys.find((b) => b.id === aId);
-  const beyB = database.beys.find((b) => b.id === bId);
+  const ownedBeys = profile?.ownedBeys ?? [];
+  const beyA = resolveCombatant(database, aId, builds, ownedBeys);
+  const beyB = resolveCombatant(database, bId, builds, ownedBeys);
 
   const result = beyA && beyB ? simulateBattle(database, beyA, beyB) : null;
-  const aRatings = beyA ? calculateComboRatings(database, getBeyParts(beyA)) : null;
-  const bRatings = beyB ? calculateComboRatings(database, getBeyParts(beyB)) : null;
+  const aRatings = beyA ? calculateComboRatings(database, beyA.parts) : null;
+  const bRatings = beyB ? calculateComboRatings(database, beyB.parts) : null;
 
   return (
     <div className="space-y-8">
@@ -148,32 +197,24 @@ export function Simulator() {
       <div className="grid gap-4 md:grid-cols-2">
         <div className="space-y-2 rounded-xl bg-[var(--surface)] p-4 shadow-sm">
           <label htmlFor="sim-a" className="block text-sm font-medium text-[var(--muted)]">{t('simulator.beyA')}</label>
-          <select
+          <MyBeySelect
             id="sim-a"
+            database={database}
             value={aId}
-            onChange={(e) => setAId(e.target.value)}
-            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
-          >
-            <option value="">{t('simulator.selectBey')}</option>
-            {sortedBeys.map((bey) => (
-              <option key={bey.id} value={bey.id}>{bey.name}</option>
-            ))}
-          </select>
+            onChange={setAId}
+            placeholder={t('simulator.selectBey')}
+          />
         </div>
 
         <div className="space-y-2 rounded-xl bg-[var(--surface)] p-4 shadow-sm">
           <label htmlFor="sim-b" className="block text-sm font-medium text-[var(--muted)]">{t('simulator.beyB')}</label>
-          <select
+          <MyBeySelect
             id="sim-b"
+            database={database}
             value={bId}
-            onChange={(e) => setBId(e.target.value)}
-            className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
-          >
-            <option value="">{t('simulator.selectBey')}</option>
-            {sortedBeys.map((bey) => (
-              <option key={bey.id} value={bey.id}>{bey.name}</option>
-            ))}
-          </select>
+            onChange={setBId}
+            placeholder={t('simulator.selectBey')}
+          />
         </div>
       </div>
 
@@ -189,9 +230,9 @@ export function Simulator() {
                 )}
                 <p className="mt-2 font-semibold">{beyA.name}</p>
                 <div className="mt-1 flex items-center justify-center gap-2">
-                  <TierBadge tier={calculateTier(aRatings, getTypeTag(database, beyA))} size="sm" />
-                  {getSpinDirection(database, beyA) && (
-                    <SpinBadge spin={getSpinDirection(database, beyA)! as 'right' | 'left' | 'both'} size="sm" />
+                  <TierBadge tier={calculateTier(aRatings, getTypeTag(database, beyA.parts))} size="sm" />
+                  {getSpinDirection(database, beyA.parts) && (
+                    <SpinBadge spin={getSpinDirection(database, beyA.parts)! as 'right' | 'left' | 'both'} size="sm" />
                   )}
                 </div>
                 <p className="mt-1 text-2xl font-bold">{result.aScore}</p>
@@ -207,9 +248,9 @@ export function Simulator() {
                 )}
                 <p className="mt-2 font-semibold">{beyB.name}</p>
                 <div className="mt-1 flex items-center justify-center gap-2">
-                  <TierBadge tier={calculateTier(bRatings, getTypeTag(database, beyB))} size="sm" />
-                  {getSpinDirection(database, beyB) && (
-                    <SpinBadge spin={getSpinDirection(database, beyB)! as 'right' | 'left' | 'both'} size="sm" />
+                  <TierBadge tier={calculateTier(bRatings, getTypeTag(database, beyB.parts))} size="sm" />
+                  {getSpinDirection(database, beyB.parts) && (
+                    <SpinBadge spin={getSpinDirection(database, beyB.parts)! as 'right' | 'left' | 'both'} size="sm" />
                   )}
                 </div>
                 <p className="mt-1 text-2xl font-bold">{result.bScore}</p>

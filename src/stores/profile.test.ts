@@ -162,3 +162,43 @@ describe('profile migration', () => {
     ).toBe(true);
   });
 });
+
+describe('match store operations', () => {
+  beforeEach(() => {
+    localStorage.clear();
+    useProfileStore.setState({ profile: testProfile(), status: 'unlocked', remembered: false });
+  });
+
+  it('addMatch assigns a unique id and appends the match', () => {
+    const created = useProfileStore.getState().addMatch({
+      date: '2026-02-01',
+      myBey: { source: 'ownedBey', ownedBeyId: 'owned-1' },
+      opponent: { name: 'Foe' },
+      result: 'win',
+      finishType: 'burst',
+    });
+
+    expect(created).not.toBeNull();
+    expect(created!.id).toBeTruthy();
+    const { matches } = useProfileStore.getState().profile!;
+    expect(matches).toHaveLength(1);
+    expect(matches[0]).toMatchObject({
+      date: '2026-02-01',
+      myBey: { source: 'ownedBey', ownedBeyId: 'owned-1' },
+      result: 'win',
+      finishType: 'burst',
+    });
+  });
+
+  it('addMatch returns null without an unlocked profile', () => {
+    useProfileStore.setState({ profile: null, status: 'locked' });
+    expect(
+      useProfileStore.getState().addMatch({
+        date: '2026-02-01',
+        myBey: { source: 'bey', beyId: 'bey-a' },
+        opponent: { name: 'Foe' },
+        result: 'loss',
+      })
+    ).toBeNull();
+  });
+});
