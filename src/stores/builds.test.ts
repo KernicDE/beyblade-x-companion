@@ -29,6 +29,23 @@ describe('builds store', () => {
     expect(localStorage.getItem('bx-creations')).toBeNull();
   });
 
+  it('removes the legacy bx-creations key even when persisted state exists', async () => {
+    localStorage.setItem('bx-builds', JSON.stringify({ state: { builds: [] } }));
+    localStorage.setItem('bx-creations', JSON.stringify({ state: { creations: [legacyBuild] } }));
+    await importFreshStore();
+
+    expect(localStorage.getItem('bx-creations')).toBeNull();
+  });
+
+  it('falls back to builds from the pre-tracker beyblade-x-profile store', async () => {
+    localStorage.setItem('beyblade-x-profile', JSON.stringify({ state: { creations: [legacyBuild] } }));
+    const { useBuildsStore } = await importFreshStore();
+
+    expect(useBuildsStore.getState().builds).toEqual([legacyBuild]);
+    // The legacy profile store is intentionally kept.
+    expect(localStorage.getItem('beyblade-x-profile')).not.toBeNull();
+  });
+
   it('adds, updates, duplicates and deletes builds', async () => {
     const { useBuildsStore } = await importFreshStore();
     const store = useBuildsStore.getState();

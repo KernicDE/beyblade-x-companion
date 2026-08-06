@@ -70,6 +70,10 @@ export function recordsByMyBey(matches: Match[], ownedBeys: OwnedBey[] = []): Be
     if (!entry) {
       entry = { key, ref: match.myBey, ...emptyRecord() };
       map.set(key, entry);
+    } else if (match.myBey.source === 'bey') {
+      // Prefer the catalog-bey ref so grouped entries (e.g. ownedBey matches
+      // merged into their catalog bey) can link to the bey detail page.
+      entry.ref = match.myBey;
     }
     addMatch(entry, match.result);
   });

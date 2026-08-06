@@ -98,16 +98,19 @@ export const useBuildsStore = create<BuildsState>()(
     {
       name: BUILDS_KEY,
       merge: (persisted, current) => {
+        // The legacy creations key is always consumed/removed here — the new
+        // key is written right after merge by persist itself.
+        const legacyKeyBuilds = readLegacyBuildsKey();
+        localStorage.removeItem(LEGACY_CREATIONS_KEY);
         const state = persisted as { builds?: Build[] } | undefined;
         if (state?.builds && state.builds.length > 0) {
           return { ...current, builds: state.builds };
         }
-        const legacyKeyBuilds = readLegacyBuildsKey();
         if (legacyKeyBuilds.length > 0) {
-          localStorage.removeItem(LEGACY_CREATIONS_KEY);
           return { ...current, builds: legacyKeyBuilds };
         }
-        localStorage.removeItem(LEGACY_CREATIONS_KEY);
+        // NOTE: LEGACY_PROFILE_KEY ('beyblade-x-profile') is intentionally kept
+        // — it may hold data the owner has not migrated elsewhere yet.
         const legacy = readLegacyProfileBuilds();
         return { ...current, builds: legacy };
       },

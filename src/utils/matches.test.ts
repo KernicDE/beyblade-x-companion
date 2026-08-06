@@ -104,6 +104,20 @@ describe('match statistics', () => {
     ];
     expect(recordWithBey(ownedMatches, 'bey-a', ownedBeys)).toMatchObject({ matches: 3, wins: 2, losses: 1 });
     const byBey = recordsByMyBey(ownedMatches, ownedBeys);
-    expect(byBey.find((e) => e.key === 'bey:bey-a')).toMatchObject({ matches: 3, wins: 2, losses: 1 });
+    const beyAEntry = byBey.find((e) => e.key === 'bey:bey-a');
+    expect(beyAEntry).toMatchObject({ matches: 3, wins: 2, losses: 1 });
+    // The merged entry prefers the catalog-bey ref (linkable in the UI).
+    expect(beyAEntry?.ref).toEqual({ source: 'bey', beyId: 'bey-a' });
+  });
+
+  it('keeps matches with unknown ownedBeyId in a separate ownedBey:<id> entry', () => {
+    const ownedBeys: OwnedBey[] = [{ id: 'owned-1', beyId: 'bey-a' }];
+    const unknownMatches = [
+      makeMatch({ date: '2026-01-05', result: 'win', myBey: { source: 'ownedBey', ownedBeyId: 'unknown-copy' } }),
+    ];
+    const byBey = recordsByMyBey(unknownMatches, ownedBeys);
+    expect(byBey).toHaveLength(1);
+    expect(byBey[0].key).toBe('ownedBey:unknown-copy');
+    expect(byBey[0]).toMatchObject({ matches: 1, wins: 1 });
   });
 });
