@@ -5,6 +5,7 @@ import { useProfileStore } from '../stores/profile';
 import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
 import { useTranslation } from '../i18n';
+import { inputClass } from '../components/formStyles';
 import { recordWithBey } from '../utils/matches';
 import { getPartById } from '../utils/data';
 import type { Bey, OwnedBey, OwnedPart, PartCategory } from '../types';
@@ -14,9 +15,6 @@ export function formatPurchasePrice(owned: OwnedBey): string {
   const eur = `€${owned.priceEur.toFixed(2)}`;
   return owned.priceChf !== undefined ? `${eur} (CHF ${owned.priceChf.toFixed(2)})` : eur;
 }
-
-const inputClass =
-  'w-full rounded-md border border-gray-300 bg-[var(--surface)] px-3 py-1.5 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none dark:border-slate-600';
 
 interface OwnedBeyFormProps {
   beys: Bey[];
@@ -238,6 +236,8 @@ function CollectionContent() {
           ))}
         </div>
       </div>
+
+      <p className="text-sm text-[var(--muted)]">{t('collection.localEditsHint')}</p>
 
       {tab === 'beys' && (
         <>

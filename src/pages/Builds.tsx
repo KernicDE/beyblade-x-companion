@@ -9,7 +9,7 @@ import { compressBuild } from '../utils/links';
 import { useTranslation } from '../i18n';
 import type { Build } from '../types';
 
-function BuildCard({
+export function BuildCard({
   build,
   database,
   onEdit,

@@ -26,7 +26,7 @@ Because the file ships with the site, the same profile is available on every dev
 
 ### Data maintenance workflow (core duty of the agent)
 
-The tracker pages are **read-only** in the app. When the owner reports new purchases, ratings, or matches (e.g. after a match day), the agent:
+In-app edits (collection, matches) are **device-local**: they live in the in-memory store plus the remembered-device localStorage copy and are **never written to `profile.enc.json`**. Central updates still go through the decrypt → edit → encrypt workflow below; the agent can merge device-local changes into the encrypted profile on request. When the owner reports new purchases, ratings, or matches (e.g. after a match day), the agent:
 
 1. Decrypts: `BX_PROFILE_PASSWORD=<pw> node scripts/decrypt-profile.cjs` (skip if `.tmp/profile.plain.json` is already current).
 2. If new Beys/parts are missing from the catalog, adds them to `public/data/*.json` (+ images) first.
@@ -61,7 +61,7 @@ Reference catalog data (Beys, parts, launchers) ships as static JSON under `publ
 
 - **OwnedBey**: `id` (unique per owned copy, generated on migration), `beyId` (catalog ref; multiple copies of the same bey allowed), `purchaseDate`, `shop`, `priceEur` (canonical), `priceChf` (original, if paid in CHF), `setName` (for Random Booster pulls), `note`.
 - **OwnedPart**: `partId`, `category`, `obtainedFrom` (beyId, set name, or "Einzelkauf"), `purchaseDate`, `note`.
-- **Match**: `id`, `date`, `myBey` (`{source:'bey',beyId}`, `{source:'creation',creationId}` or `{source:'ownedBey',ownedBeyId}`), `opponent` (`name` always; `beyId`/`combo` optional), `result` (win/loss), `finishType` (`xtreme|over|burst|spin`, optional), `note`.
+- **Match**: `id`, `date`, `myBey` (`{source:'bey',beyId}`, `{source:'creation',creationId}` or `{source:'ownedBey',ownedBeyId}`; `source:'creation'` is kept for compatibility but references Build IDs), `opponent` (`name` always; `beyId`/`combo` optional), `result` (win/loss), `finishType` (`xtreme|over|burst|spin`, optional), `note`.
 - **Build**: saved combo (`id`, `name`, part IDs, timestamps) — both in the encrypted profile and as local drafts.
 - Match statistics are computed, not stored: `src/utils/matches.ts` (records, streaks, finish distributions, opponent stats).
 
@@ -107,7 +107,7 @@ Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt u
 
 ## Testing instructions
 
-- Unit tests: rating calculation (`src/utils/data.test.ts`), link compression (`src/utils/links.test.ts`), match statistics (`src/utils/matches.test.ts`), encryption round-trip (`src/utils/crypto.test.ts`).
+- Unit tests: rating calculation (`src/utils/data.test.ts`), link compression (`src/utils/links.test.ts`), match statistics (`src/utils/matches.test.ts`), encryption round-trip (`src/utils/crypto.test.ts`), stores (`src/stores/builds.test.ts`, `src/stores/profile.test.ts`).
 - Run tests with `npm test`.
 - Manually verify lock/unlock and service worker caching on GitHub Pages after deployment.
 
@@ -122,7 +122,7 @@ Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt u
 ## Out of scope
 
 - Backend, database, live sync (updates happen via agent + redeploy).
-- In-app editing of collection/matches (read-only by design).
+- In-app editing/deletion of matches; automatic persistence of in-app edits into the encrypted profile.
 - Match sets with points (only single battles).
 - Login / cloud accounts, community features, battle simulation, licensed artwork guarantees.
 

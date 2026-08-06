@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { useProfileStore } from '../stores/profile';
 import { useBuildsStore } from '../stores/builds';
 import { useTranslation } from '../i18n';
+import { inputClass } from './formStyles';
 import { allBuilds, myBeyRefValue, ownedBeyLabel } from '../utils/matches';
 import type { Database } from '../utils/data';
 
@@ -48,7 +49,7 @@ export function MyBeySelect({ database, value, onChange, placeholder, id }: MyBe
       id={id}
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      className="w-full rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none"
+      className={inputClass}
     >
       <option value="">{placeholder}</option>
       {ownedBeys.length > 0 && (

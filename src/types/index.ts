@@ -126,6 +126,8 @@ export interface OwnedPart {
 
 export type MyBeyRef =
   | { source: 'bey'; beyId: string }
+  // Kept named 'creation' for backward compatibility with stored data/links,
+  // but it references a Build id (profile build or local draft).
   | { source: 'creation'; creationId: string }
   | { source: 'ownedBey'; ownedBeyId: string };
 

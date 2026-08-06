@@ -69,6 +69,7 @@
   },
   "collection": {
     "title": "My Collection",
+    "localEditsHint": "Changes made here only apply on this device until they are merged into the central profile.",
     "tab": {
       "beys": "Beys",
       "parts": "Parts",
@@ -104,6 +105,7 @@
   },
   "matches": {
     "title": "Match Tracker",
+    "localEditsHint": "Changes made here only apply on this device until they are merged into the central profile.",
     "empty": "No matches recorded yet.",
     "overall": "Record",
     "battles": "battles",
@@ -301,7 +303,7 @@
     "confirm": "Confirm",
     "cancel": "Cancel",
     "builds": "Saved builds",
-    "draftsHint": "Local drafts from the builder — this device only. Collection and matches are maintained centrally.",
+    "draftsHint": "Local drafts from the builder — this device only. Collection and match changes made in the app also apply on this device only, until they are merged into the central profile.",
     "lock": "Lock",
     "forgetDevice": "Forget this device",
     "rememberedHint": "Your profile is stored on this device and unlocks automatically."

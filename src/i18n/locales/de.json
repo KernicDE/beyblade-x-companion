@@ -69,6 +69,7 @@
   },
   "collection": {
     "title": "Meine Sammlung",
+    "localEditsHint": "Hier erfasste Änderungen gelten nur auf diesem Gerät, bis sie ins zentrale Profil übernommen werden.",
     "tab": {
       "beys": "Beys",
       "parts": "Teile",
@@ -104,6 +105,7 @@
   },
   "matches": {
     "title": "Match Tracker",
+    "localEditsHint": "Hier erfasste Änderungen gelten nur auf diesem Gerät, bis sie ins zentrale Profil übernommen werden.",
     "empty": "Noch keine Matches erfasst.",
     "overall": "Bilanz",
     "battles": "Battles",
@@ -301,7 +303,7 @@
     "confirm": "Bestätigen",
     "cancel": "Abbrechen",
     "builds": "Gespeicherte Builds",
-    "draftsHint": "Lokale Entwürfe aus dem Builder — nur auf diesem Gerät. Sammlung und Matches werden zentral gepflegt.",
+    "draftsHint": "Lokale Entwürfe aus dem Builder — nur auf diesem Gerät. In der App erfasste Änderungen an Sammlung und Matches gelten ebenfalls nur auf diesem Gerät, bis sie ins zentrale Profil übernommen werden.",
     "lock": "Sperren",
     "forgetDevice": "Dieses Gerät vergessen",
     "rememberedHint": "Dein Profil ist auf diesem Gerät gespeichert und entsperrt sich automatisch."

@@ -6,6 +6,7 @@ import { useBuildsStore } from '../stores/builds';
 import { UnlockGate } from '../components/UnlockGate';
 import { MyBeySelect } from '../components/MyBeySelect';
 import { useTranslation } from '../i18n';
+import { inputClass } from '../components/formStyles';
 import {
   allBuilds,
   currentStreak,
@@ -22,9 +23,6 @@ import type { Database } from '../utils/data';
 import type { FinishType, Match } from '../types';
 
 const FINISH_TYPES: FinishType[] = ['xtreme', 'over', 'burst', 'spin'];
-
-const inputClass =
-  'w-full rounded-md border border-gray-300 dark:border-slate-600 bg-[var(--surface)] px-3 py-2 text-sm text-[var(--text)] focus:border-blue-500 focus:outline-none';
 
 function today(): string {
   return new Date().toISOString().slice(0, 10);
@@ -262,6 +260,8 @@ function MatchesContent() {
           </button>
         )}
       </div>
+
+      <p className="text-sm text-[var(--muted)]">{t('matches.localEditsHint')}</p>
 
       {adding && (
         <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
