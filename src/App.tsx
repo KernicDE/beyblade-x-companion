@@ -12,6 +12,7 @@ import { PartsDatabase } from './pages/PartsDatabase';
 import { PartDetail } from './pages/PartDetail';
 import { Configurator } from './pages/Configurator';
 import { Simulator } from './pages/Simulator';
+import { DeckBuilder } from './pages/DeckBuilder';
 import { Profile } from './pages/Profile';
 import { Import } from './pages/Import';
 import { View } from './pages/View';
@@ -35,6 +36,7 @@ function App() {
             <Route path="/parts/:category/:id" element={<PartDetail />} />
             <Route path="/configurator" element={<Configurator />} />
             <Route path="/simulator" element={<Simulator />} />
+            <Route path="/deck" element={<DeckBuilder />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/import" element={<Import />} />
             <Route path="/view/:compressed" element={<View />} />

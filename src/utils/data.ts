@@ -184,7 +184,7 @@ export function findBeysContainingPart(database: Database, partId: string): Bey[
   });
 }
 
-function getTypeScore(ratings: Ratings, typeTag?: string): number {
+export function getTypeScore(ratings: Ratings, typeTag?: string): number {
   const { attack, defense, stamina, balance } = ratings;
   switch (typeTag) {
     case 'Attack':

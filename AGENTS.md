@@ -82,10 +82,11 @@ A combo's displayed rating per dimension is the simple average across selected p
 - `/parts`, `/parts/:category/:id` — catalog; detail shows "Mein Exemplar" when unlocked.
 - `/configurator` — builder; saves local drafts.
 - `/simulator` — Bey-vs-Bey prediction.
+- `/deck` — auto-builder for a WBO-style 3-Bey deck from owned parts (gated).
 - `/profile` — local drafts management, export/import links, lock/forget-device.
 - `/import?d=<compressed>`, `/view/<compressed>` — creation share links.
 
-Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt until unlocked). Catalog and builder/simulator stay public.
+Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt until unlocked). Catalog and builder/simulator stay public; `/deck` uses the profile and is gated.
 
 ## Build and test commands
 

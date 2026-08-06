@@ -11,6 +11,7 @@
     "configurator": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
+    "deck": "Deck",
     "profile": "Profile"
   },
   "theme": {
@@ -213,6 +214,20 @@
     "attack": "ATTACK",
     "defense": "DEFENSE",
     "stamina": "STAMINA"
+  },
+  "deckBuilder": {
+    "title": "Deck Builder",
+    "focus": {
+      "slot": "Slot {{slot}}",
+      "auto": "Best decks",
+      "attack": "Attack",
+      "defense": "Defense",
+      "stamina": "Stamina"
+    },
+    "rules": "WBO deck rules: 3 Beys, each part only once per deck (color/brand variants with the same name count as the same part).",
+    "empty": "Not enough unique owned parts to build a 3-Bey deck.",
+    "deckScore": "Deck score",
+    "combo": "Combo"
   },
   "simulator": {
     "title": "Simulator",

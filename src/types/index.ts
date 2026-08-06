@@ -47,6 +47,7 @@ export interface Part {
   ratingsDisclaimer: true;
   ratingsSource?: 'community' | 'estimated';
   tier?: Tier;
+  customLine?: boolean;
 }
 
 export type Blade = Part & { category: 'blade' };

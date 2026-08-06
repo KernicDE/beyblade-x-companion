@@ -27,7 +27,8 @@
       "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "estimated",
+    "customLine": true
   },
   {
     "id": "antler-stag",
@@ -57,7 +58,8 @@
       "balance": 1.5
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "estimated",
+    "customLine": true
   },
   {
     "id": "wizard-rod-hasbro",

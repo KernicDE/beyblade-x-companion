@@ -11,6 +11,7 @@
     "configurator": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
+    "deck": "Deck",
     "profile": "Profil"
   },
   "theme": {
@@ -213,6 +214,20 @@
     "attack": "ANGRIFF",
     "defense": "VERTEIDIGUNG",
     "stamina": "AUSDAUER"
+  },
+  "deckBuilder": {
+    "title": "Deck-Builder",
+    "focus": {
+      "slot": "Slot {{slot}}",
+      "auto": "Beste Decks",
+      "attack": "Angriff",
+      "defense": "Verteidigung",
+      "stamina": "Ausdauer"
+    },
+    "rules": "WBO-Deck-Regeln: 3 Beys, jedes Teil max. 1× deckweit (Farb- und Markenvarianten mit gleichem Namen zählen als dasselbe Teil).",
+    "empty": "Nicht genug eindeutige Teile im Besitz, um ein 3er-Deck zu bilden.",
+    "deckScore": "Deck-Score",
+    "combo": "Combo"
   },
   "simulator": {
     "title": "Simulator",
