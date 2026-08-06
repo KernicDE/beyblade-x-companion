@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { PartPicker } from '../components/PartPicker';
@@ -19,16 +19,26 @@ export function Builder() {
   const tab = searchParams.get('tab') === 'deck' ? 'deck' : 'builder';
 
   const selectTab = (next: 'builder' | 'deck') => {
-    setSearchParams(next === 'deck' ? { tab: 'deck' } : {});
+    setSearchParams((prev) => {
+      const params = new URLSearchParams(prev);
+      if (next === 'deck') {
+        params.set('tab', 'deck');
+      } else {
+        params.delete('tab');
+      }
+      return params;
+    });
   };
 
   return (
     <div className="space-y-6">
-      <div className="flex gap-2 border-b border-gray-200 dark:border-slate-700">
+      <div role="tablist" className="flex gap-2 border-b border-gray-200 dark:border-slate-700">
         {(['builder', 'deck'] as const).map((key) => (
           <button
             key={key}
             type="button"
+            role="tab"
+            aria-selected={tab === key}
             onClick={() => selectTab(key)}
             className={`-mb-px border-b-2 px-4 py-2 text-sm font-medium transition-colors ${
               tab === key
@@ -72,6 +82,10 @@ function BuilderTab() {
   const [ownedOnly, setOwnedOnly] = useState(false);
 
   const editingId = searchParams.get('edit');
+  const editingBuild = useMemo(
+    () => (editingId ? builds.find((b) => b.id === editingId) : undefined),
+    [builds, editingId]
+  );
 
   const missingSources = useMemo(() => {
     if (!database) return [];
@@ -90,20 +104,38 @@ function BuilderTab() {
     }));
   }, [database, bladeId, assistBladeId, ratchetId, bitId, ownedPartIds]);
 
+  const loadedEditRef = useRef<string | null>(null);
+
   useEffect(() => {
-    if (editingId) {
-      const build = builds.find((c) => c.id === editingId);
-      if (build) {
-        loadCombo({
-          bladeId: build.bladeId,
-          assistBladeId: build.assistBladeId,
-          ratchetId: build.ratchetId,
-          bitId: build.bitId,
-        });
-        setSaveName(build.name);
-      }
+    if (!editingId) {
+      loadedEditRef.current = null;
+      return;
     }
-  }, [editingId, builds, loadCombo]);
+    if (!editingBuild) {
+      // Unknown build id: drop the stale edit param and treat as new build.
+      loadedEditRef.current = null;
+      setSearchParams(
+        (prev) => {
+          const params = new URLSearchParams(prev);
+          params.delete('edit');
+          return params;
+        },
+        { replace: true }
+      );
+      return;
+    }
+    // Load the combo only once per edit target — later store updates
+    // (e.g. duplicating or saving other builds) must not reset this session.
+    if (loadedEditRef.current === editingId) return;
+    loadedEditRef.current = editingId;
+    loadCombo({
+      bladeId: editingBuild.bladeId,
+      assistBladeId: editingBuild.assistBladeId,
+      ratchetId: editingBuild.ratchetId,
+      bitId: editingBuild.bitId,
+    });
+    setSaveName(editingBuild.name);
+  }, [editingId, editingBuild, loadCombo, setSearchParams]);
 
   const selectedParts = useMemo(() => {
     if (!database) return [];
@@ -142,8 +174,8 @@ function BuilderTab() {
       bitId,
     };
 
-    if (editingId) {
-      updateBuild(editingId, data);
+    if (editingBuild) {
+      updateBuild(editingBuild.id, data);
       setSavedMessage(t('configurator.buildUpdated'));
     } else {
       const build = addBuild(data);
@@ -276,7 +308,7 @@ function BuilderTab() {
 
         <div className="flex h-fit flex-col gap-3 rounded-xl bg-[var(--surface)] p-4 shadow-sm transition-colors">
           <h2 className="text-base font-semibold">
-            {editingId ? t('configurator.updateBuild') : t('configurator.saveBuild')}
+            {editingBuild ? t('configurator.updateBuild') : t('configurator.saveBuild')}
           </h2>
           <div className="flex gap-2">
             <input

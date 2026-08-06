@@ -83,15 +83,24 @@ function DeckBuilderContent() {
   const { database, loading, error } = useData();
   const { profile } = useProfileStore();
   const { addBuild } = useBuildsStore();
-  const [savedDecks, setSavedDecks] = useState<Set<number>>(new Set());
+  // Keyed by deck content fingerprint, so the "saved" mark never points at a
+  // different deck after focus/profile/database changes.
+  const [savedDecks, setSavedDecks] = useState<Set<string>>(new Set());
   const [slotFocuses, setSlotFocuses] = useState<[DeckFocus, DeckFocus, DeckFocus]>([
     'auto',
     'auto',
     'auto',
   ]);
 
+  const deckKey = (deck: Deck) =>
+    deck.beys
+      .map(
+        (b) =>
+          `${b.combo.bladeId}/${b.combo.assistBladeId ?? ''}/${b.combo.ratchetId}/${b.combo.bitId}`
+      )
+      .join('|');
+
   const setSlotFocus = (index: number, focus: DeckFocus) => {
-    setSavedDecks(new Set());
     setSlotFocuses((prev) => {
       const next: [DeckFocus, DeckFocus, DeckFocus] = [...prev] as [DeckFocus, DeckFocus, DeckFocus];
       next[index] = focus;
@@ -130,7 +139,7 @@ function DeckBuilderContent() {
         bitId: bey.combo.bitId,
       });
     });
-    setSavedDecks((prev) => new Set(prev).add(index));
+    setSavedDecks((prev) => new Set(prev).add(deckKey(deck)));
   };
 
   if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
@@ -193,10 +202,10 @@ function DeckBuilderContent() {
                 <button
                   type="button"
                   onClick={() => handleSaveDeck(deck, index)}
-                  disabled={savedDecks.has(index)}
+                  disabled={savedDecks.has(deckKey(deck))}
                   className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-400"
                 >
-                  {savedDecks.has(index)
+                  {savedDecks.has(deckKey(deck))
                     ? t('deckBuilder.buildsSaved')
                     : t('deckBuilder.saveAsBuilds')}
                 </button>
