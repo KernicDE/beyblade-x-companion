@@ -17,6 +17,7 @@ function testProfile(): PersonalProfile {
 
 describe('owned bey store operations', () => {
   beforeEach(() => {
+    localStorage.clear();
     useProfileStore.setState({ profile: testProfile(), status: 'unlocked', remembered: false });
   });
 
@@ -66,6 +67,42 @@ describe('owned bey store operations', () => {
     const { ownedBeys } = useProfileStore.getState().profile!;
     expect(ownedBeys).toHaveLength(1);
     expect(ownedBeys[0].id).toBe('owned-2');
+  });
+
+  it('syncs profile updates into the remembered localStorage copy', () => {
+    localStorage.setItem(
+      'bx-remembered-profile',
+      JSON.stringify({ profile: testProfile(), payloadHash: 'hash-abc' })
+    );
+    useProfileStore.setState({ profile: testProfile(), status: 'unlocked', remembered: true });
+
+    const created = useProfileStore.getState().addOwnedBey({ beyId: 'bey-b', priceEur: 9.99 });
+
+    const remembered = JSON.parse(localStorage.getItem('bx-remembered-profile')!) as {
+      profile: PersonalProfile;
+      payloadHash: string;
+    };
+    expect(remembered.payloadHash).toBe('hash-abc');
+    expect(remembered.profile.ownedBeys).toHaveLength(3);
+    expect(remembered.profile.ownedBeys[2]).toMatchObject({
+      id: created!.id,
+      beyId: 'bey-b',
+      priceEur: 9.99,
+    });
+  });
+
+  it('leaves the remembered copy untouched when not remembered', () => {
+    localStorage.setItem(
+      'bx-remembered-profile',
+      JSON.stringify({ profile: testProfile(), payloadHash: 'hash-abc' })
+    );
+
+    useProfileStore.getState().addOwnedBey({ beyId: 'bey-b' });
+
+    const remembered = JSON.parse(localStorage.getItem('bx-remembered-profile')!) as {
+      profile: PersonalProfile;
+    };
+    expect(remembered.profile.ownedBeys).toHaveLength(2);
   });
 });
 
