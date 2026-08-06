@@ -129,6 +129,7 @@ Personal pages are wrapped in `src/components/UnlockGate.tsx` (password prompt u
 ## Useful paths
 
 - `docs/superpowers/specs/2026-07-09-beyblade-x-companion-design.md` — original design spec (pre-pivot, historical)
+- `docs/plan-collection-builds-navigation.md` — approved plan for merging collection/beys, builder/deck, and introducing builds (in progress)
 - `docs/manual-review-instructions.md` — rules for curating catalog data (ratings in 0.5 steps, always set `ratingsSource`)
 - `docs/manual-review-todo.md` — todo list of catalog entries under manual review
 - `docs/kimi-continuation-guide.md` — continuation guide for another Kimi instance
