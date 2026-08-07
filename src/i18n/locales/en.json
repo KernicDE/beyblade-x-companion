@@ -139,7 +139,16 @@
     "noFinish": "No finish",
     "note": "Note (optional)",
     "save": "Save",
-    "cancel": "Cancel"
+    "update": "Update",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "editMatch": "Edit match",
+    "remove": "Remove",
+    "removeConfirm": "Remove this match?",
+    "confirm": "Confirm",
+    "exportAi": "Export for AI",
+    "exportCopied": "Export copied to clipboard.",
+    "exportFailed": "Could not copy export."
   },
   "builder": {
     "tabs": {

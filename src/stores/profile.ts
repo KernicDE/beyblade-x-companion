@@ -62,6 +62,10 @@ interface ProfileState {
   removeOwnedBey: (id: string) => void;
   /** Add a new match. Assigns a fresh unique id. Returns the created entry. */
   addMatch: (input: Omit<Match, 'id'>) => Match | null;
+  /** Update an existing match by id. */
+  updateMatch: (id: string, patch: Partial<Omit<Match, 'id'>>) => void;
+  /** Remove an existing match by id. */
+  removeMatch: (id: string) => void;
 }
 
 export function isPersonalProfile(value: unknown): value is PersonalProfile {
@@ -235,6 +239,26 @@ export const useProfileStore = create<ProfileState>()((set, get) => {
     const match: Match = { ...input, id: generateId() };
     commitProfile({ ...profile, matches: [...profile.matches, match] });
     return match;
+  },
+
+  updateMatch: (id, patch) => {
+    const { profile } = get();
+    if (!profile) return;
+    commitProfile({
+      ...profile,
+      matches: profile.matches.map((match) =>
+        match.id === id ? { ...match, ...patch } : match
+      ),
+    });
+  },
+
+  removeMatch: (id) => {
+    const { profile } = get();
+    if (!profile) return;
+    commitProfile({
+      ...profile,
+      matches: profile.matches.filter((match) => match.id !== id),
+    });
   },
   };
 });

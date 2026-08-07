@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
 import { useBuildsStore } from '../stores/builds';
@@ -53,13 +54,13 @@ function PartTile({
   category,
   label,
 }: {
-  part: { name: string; imageUrl?: string; ratings?: { attack: number; defense: number; stamina: number; balance: number } } | undefined;
+  part: { id: string; name: string; imageUrl?: string; ratings?: { attack: number; defense: number; stamina: number; balance: number } } | undefined;
   category: PartCategory;
   label: string;
 }) {
   if (!part) return null;
-  return (
-    <div className="flex items-center gap-2 rounded-lg border border-[var(--muted)]/20 bg-[var(--bg)] p-2">
+  const content = (
+    <>
       {part.imageUrl ? (
         <img
           src={part.imageUrl}
@@ -73,9 +74,24 @@ function PartTile({
         <p className="text-[10px] uppercase text-[var(--muted)]">{label}</p>
         <p className="truncate text-xs font-medium text-[var(--text)]">{part.name}</p>
       </div>
-      {part.ratings && <RatingBars ratings={part.ratings} size="sm" />}
-    </div>
+      {part.ratings && (
+        <div className="w-28">
+          <RatingBars ratings={part.ratings} size="sm" />
+        </div>
+      )}
+    </>
   );
+  const className =
+    'flex items-center gap-2 rounded-lg border border-[var(--muted)]/20 bg-[var(--bg)] p-2' +
+    (part.id ? ' transition-colors hover:bg-[var(--bg)]/80' : '');
+  if (part.id) {
+    return (
+      <Link to={`/parts/${category}/${part.id}`} className={className}>
+        {content}
+      </Link>
+    );
+  }
+  return <div className={className}>{content}</div>;
 }
 
 function DeckBuilderContent() {
@@ -245,6 +261,9 @@ function DeckBuilderContent() {
                       )}
                       <PartTile part={ratchet} category="ratchet" label={t('beyDetail.ratchet')} />
                       <PartTile part={bit} category="bit" label={t('beyDetail.bit')} />
+                    </div>
+                    <div className="mt-3">
+                      <RatingBars ratings={bey.ratings} size="sm" />
                     </div>
                   </div>
                 );

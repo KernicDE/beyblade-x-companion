@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { PartPicker } from '../components/PartPicker';
 import { PartIcon } from '../components/PartIcon';
@@ -79,7 +79,6 @@ function BuilderTab() {
 
   const [saveName, setSaveName] = useState('');
   const [savedMessage, setSavedMessage] = useState('');
-  const [ownedOnly, setOwnedOnly] = useState(false);
 
   const editingId = searchParams.get('edit');
   const editingBuild = useMemo(
@@ -158,10 +157,15 @@ function BuilderTab() {
   const ratings = calculateComboRatings(database, combo);
   const estimated = isComboEstimated(database, combo);
   const canSave = bladeId && ratchetId && bitId && saveName.trim();
+  const blade = database.blades.find((p) => p.id === bladeId);
+  const allowsAssistBlade = blade?.customLine === true;
 
-  const filterParts = (parts: Part[], selectedId?: string) => {
-    if (!ownedOnly) return parts;
-    return parts.filter((p) => p.id === selectedId || ownedPartIds.includes(p.id));
+  const handleSetBlade = (id: string) => {
+    setBlade(id);
+    const next = database.blades.find((p) => p.id === id);
+    if (next && !next.customLine) {
+      setAssistBlade(undefined);
+    }
   };
 
   const handleSave = () => {
@@ -188,82 +192,69 @@ function BuilderTab() {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-end">
-        <div className="flex flex-wrap gap-3">
-          <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--muted)]/30 bg-[var(--surface)] px-3 py-2 text-sm font-medium text-[var(--text)]">
-            <input
-              type="checkbox"
-              checked={ownedOnly}
-              onChange={(e) => setOwnedOnly(e.target.checked)}
-              className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-            />
-            {t('configurator.ownedOnly')}
-          </label>
-        </div>
-      </div>
-
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         <PartPicker
           category="blade"
           label={t('beyDetail.blade')}
-          parts={filterParts(database.blades, bladeId)}
+          parts={database.blades}
           selectedId={bladeId}
-          onSelect={(id) => id && setBlade(id)}
+          onSelect={(id) => id && handleSetBlade(id)}
         />
-        <PartPicker
-          category="assistBlade"
-          label={t('beyDetail.assistBlade')}
-          parts={filterParts(database.assistBlades, assistBladeId)}
-          selectedId={assistBladeId}
-          onSelect={setAssistBlade}
-          allowNone
-        />
+        {allowsAssistBlade && (
+          <PartPicker
+            category="assistBlade"
+            label={t('beyDetail.assistBlade')}
+            parts={database.assistBlades}
+            selectedId={assistBladeId}
+            onSelect={setAssistBlade}
+            allowNone
+          />
+        )}
         <PartPicker
           category="ratchet"
           label={t('beyDetail.ratchet')}
-          parts={filterParts(database.ratchets, ratchetId)}
+          parts={database.ratchets}
           selectedId={ratchetId}
           onSelect={(id) => id && setRatchet(id)}
         />
         <PartPicker
           category="bit"
           label={t('beyDetail.bit')}
-          parts={filterParts(database.bits, bitId)}
+          parts={database.bits}
           selectedId={bitId}
           onSelect={(id) => id && setBit(id)}
         />
       </div>
 
       {selectedParts.length > 0 && (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="space-y-3">
           {selectedParts.map(({ part, label }) => (
-            <div
+            <Link
               key={part.id}
-              className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition-colors"
+              to={`/parts/${part.category}/${part.id}`}
+              className="flex items-center gap-4 rounded-xl bg-[var(--surface)] p-3 shadow-sm transition-colors hover:bg-[var(--surface)]/80"
             >
-              <div className="flex items-center gap-3">
-                {part.imageUrl ? (
-                  <img
-                    src={part.imageUrl}
-                    alt=""
-                    className={
-                      part.category === 'bit'
-                        ? 'h-16 w-10 object-contain'
-                        : 'h-16 w-16 object-contain'
-                    }
-                  />
-                ) : (
-                  <PartIcon category={part.category} size={64} />
-                )}
-                <div className="min-w-0">
-                  <p className="text-xs text-[var(--muted)]">{label}</p>
-                  <p className="truncate text-sm font-semibold text-[var(--text)]">{part.name}</p>
-                </div>
+              {part.imageUrl ? (
+                <img
+                  src={part.imageUrl}
+                  alt=""
+                  className={
+                    part.category === 'bit'
+                      ? 'h-14 w-10 object-contain'
+                      : 'h-14 w-14 object-contain'
+                  }
+                />
+              ) : (
+                <PartIcon category={part.category} size={56} />
+              )}
+              <div className="min-w-0 flex-1">
+                <p className="text-xs text-[var(--muted)]">{label}</p>
+                <p className="truncate text-sm font-semibold text-[var(--text)]">{part.name}</p>
               </div>
-              <div className="mt-3">
+              <div className="w-40 sm:w-48">
                 <RatingBars ratings={part.ratings} size="sm" />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       )}
@@ -274,7 +265,12 @@ function BuilderTab() {
           <ul className="space-y-2">
             {missingSources.map(({ part, beys }) => (
               <li key={part.id} className="text-sm">
-                <span className="font-medium">{part.name}</span>
+                <Link
+                  to={`/parts/${part.category}/${part.id}`}
+                  className="font-medium hover:text-blue-600 dark:hover:text-blue-400"
+                >
+                  {part.name}
+                </Link>
                 {beys.length > 0 ? (
                   <span className="text-[var(--muted)]">
                     {' '}— {t('configurator.availableIn')}: {beys.map((b) => b.name).join(', ')}

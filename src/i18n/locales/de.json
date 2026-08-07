@@ -139,7 +139,16 @@
     "noFinish": "Kein Finish",
     "note": "Notiz (optional)",
     "save": "Speichern",
-    "cancel": "Abbrechen"
+    "update": "Aktualisieren",
+    "cancel": "Abbrechen",
+    "edit": "Bearbeiten",
+    "editMatch": "Match bearbeiten",
+    "remove": "Entfernen",
+    "removeConfirm": "Dieses Match entfernen?",
+    "confirm": "Bestätigen",
+    "exportAi": "Für KI exportieren",
+    "exportCopied": "Export in die Zwischenablage kopiert.",
+    "exportFailed": "Export konnte nicht kopiert werden."
   },
   "builder": {
     "tabs": {

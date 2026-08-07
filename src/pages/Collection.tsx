@@ -4,10 +4,11 @@ import { useData } from '../hooks/useData';
 import { useProfileStore } from '../stores/profile';
 import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
+import { RatingBars } from '../components/RatingBars';
 import { useTranslation } from '../i18n';
 import { inputClass } from '../components/formStyles';
 import { recordWithBey } from '../utils/matches';
-import { getPartById } from '../utils/data';
+import { calculateComboRatings, getPartById } from '../utils/data';
 import type { Bey, OwnedBey, OwnedPart, PartCategory } from '../types';
 
 export function formatPurchasePrice(owned: OwnedBey): string {
@@ -306,6 +307,11 @@ function CollectionContent() {
                       <div className="mt-1">
                         <RecordBadge wins={record.wins} losses={record.losses} winRate={record.winRate} />
                       </div>
+                      {bey && (
+                        <div className="mt-2">
+                          <RatingBars ratings={calculateComboRatings(database, bey)} size="sm" />
+                        </div>
+                      )}
                     </div>
                   </div>
                   {bey && (
@@ -433,6 +439,11 @@ function CollectionContent() {
                         {part?.name ?? owned.partId}
                       </Link>
                       <p className="text-xs text-[var(--muted)]">{t(`partsDatabase.${owned.category}s`)}</p>
+                      {part && (
+                        <div className="mt-2">
+                          <RatingBars ratings={part.ratings} size="sm" />
+                        </div>
+                      )}
                     </div>
                   </div>
                   <dl className="mt-3 space-y-1 text-sm">

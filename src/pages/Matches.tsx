@@ -30,20 +30,21 @@ function today(): string {
 
 interface MatchFormProps {
   database: Database;
-  initialMyBey: string;
+  initial?: Match;
+  initialMyBey?: string;
   onSave: (input: Omit<Match, 'id'>) => void;
   onCancel: () => void;
 }
 
-function MatchForm({ database, initialMyBey, onSave, onCancel }: MatchFormProps) {
+function MatchForm({ database, initial, initialMyBey, onSave, onCancel }: MatchFormProps) {
   const { t } = useTranslation();
-  const [myBey, setMyBey] = useState(initialMyBey);
-  const [date, setDate] = useState(today());
-  const [opponentBeyId, setOpponentBeyId] = useState('');
-  const [opponentName, setOpponentName] = useState('');
-  const [result, setResult] = useState<'win' | 'loss'>('win');
-  const [finishType, setFinishType] = useState<FinishType | ''>('');
-  const [note, setNote] = useState('');
+  const [myBey, setMyBey] = useState(initial ? myBeyRefValue(initial.myBey) : initialMyBey ?? '');
+  const [date, setDate] = useState(initial?.date ?? today());
+  const [opponentBeyId, setOpponentBeyId] = useState(initial?.opponent.beyId ?? '');
+  const [opponentName, setOpponentName] = useState(initial?.opponent.name ?? '');
+  const [result, setResult] = useState<'win' | 'loss'>(initial?.result ?? 'win');
+  const [finishType, setFinishType] = useState<FinishType | ''>(initial?.finishType ?? '');
+  const [note, setNote] = useState(initial?.note ?? '');
 
   const sortedBeys = useMemo(
     () => [...database.beys].sort((a, b) => a.name.localeCompare(b.name)),
@@ -183,7 +184,7 @@ function MatchForm({ database, initialMyBey, onSave, onCancel }: MatchFormProps)
           disabled={!canSave}
           className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
         >
-          {t('matches.save')}
+          {initial ? t('matches.update') : t('matches.save')}
         </button>
         <button
           type="button"
@@ -217,9 +218,12 @@ function FinishBar({ label, count, total, color }: { label: string; count: numbe
 function MatchesContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const { profile, addMatch } = useProfileStore();
+  const { profile, addMatch, updateMatch, removeMatch } = useProfileStore();
   const localBuilds = useBuildsStore((s) => s.builds);
   const [adding, setAdding] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [confirmRemoveId, setConfirmRemoveId] = useState<string | null>(null);
+  const [exportMessage, setExportMessage] = useState('');
 
   const builds = useMemo(
     () => allBuilds(profile, localBuilds),
@@ -246,19 +250,60 @@ function MatchesContent() {
   const sorted = sortByDateDesc(matches);
   const nemesis = opponents.filter((o) => o.losses > 0).sort((a, b) => a.winRate - b.winRate || b.matches - a.matches)[0];
 
+  const handleExport = async () => {
+    const rows = sortByDateDesc(matches).map((match) => ({
+      date: match.date,
+      myBey: myBeyName(match.myBey),
+      opponent: match.opponent.name,
+      opponentBey: match.opponent.beyId ? beyName(match.opponent.beyId) ?? match.opponent.beyId : '',
+      result: match.result,
+      finish: match.finishType ? t(`matches.finish.${match.finishType}`) : '',
+      note: match.note ?? '',
+    }));
+    const header = ['Datum', 'Eigener Bey', 'Gegner', 'Gegner-Bey', 'Ergebnis', 'Finish', 'Notiz'].join('\t');
+    const lines = rows.map((r) =>
+      [r.date, r.myBey, r.opponent, r.opponentBey, r.result, r.finish, r.note].join('\t')
+    );
+    const text = [header, ...lines].join('\n');
+    try {
+      await navigator.clipboard.writeText(text);
+      setExportMessage(t('matches.exportCopied'));
+    } catch {
+      setExportMessage(t('matches.exportFailed'));
+    }
+    setTimeout(() => setExportMessage(''), 3000);
+  };
+
+  const editingMatch = editingId ? matches.find((m) => m.id === editingId) : undefined;
+
   return (
     <div className="space-y-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-2xl font-bold">{t('matches.title')}</h1>
-        {!adding && (
+        <div className="flex flex-wrap items-center gap-2">
+          {!adding && (
+            <button
+              type="button"
+              onClick={() => {
+                setAdding(true);
+                setEditingId(null);
+              }}
+              className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+            >
+              {t('matches.addMatch')}
+            </button>
+          )}
           <button
             type="button"
-            onClick={() => setAdding(true)}
-            className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+            onClick={handleExport}
+            className="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
           >
-            {t('matches.addMatch')}
+            {t('matches.exportAi')}
           </button>
-        )}
+          {exportMessage && (
+            <span className="text-sm text-green-600">{exportMessage}</span>
+          )}
+        </div>
       </div>
 
       <p className="text-sm text-[var(--muted)]">{t('matches.localEditsHint')}</p>
@@ -268,7 +313,6 @@ function MatchesContent() {
           <h2 className="mb-3 font-semibold">{t('matches.addMatch')}</h2>
           <MatchForm
             database={database}
-            // New matches prefer the most recently added owned copy, if any.
             initialMyBey={
               profile.ownedBeys.length > 0
                 ? myBeyRefValue({
@@ -282,6 +326,21 @@ function MatchesContent() {
               setAdding(false);
             }}
             onCancel={() => setAdding(false)}
+          />
+        </div>
+      )}
+
+      {editingMatch && (
+        <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
+          <h2 className="mb-3 font-semibold">{t('matches.editMatch')}</h2>
+          <MatchForm
+            database={database}
+            initial={editingMatch}
+            onSave={(input) => {
+              updateMatch(editingMatch.id, input);
+              setEditingId(null);
+            }}
+            onCancel={() => setEditingId(null)}
           />
         </div>
       )}
@@ -434,6 +493,48 @@ function MatchesContent() {
                     </span>
                   )}
                   {match.note && <span className="text-xs text-[var(--muted)]">— {match.note}</span>}
+                  {confirmRemoveId === match.id ? (
+                    <>
+                      <span className="text-xs text-[var(--muted)]">{t('matches.removeConfirm')}</span>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          removeMatch(match.id);
+                          setConfirmRemoveId(null);
+                        }}
+                        className="rounded-md bg-red-600 px-2 py-1 text-xs font-medium text-white hover:bg-red-700"
+                      >
+                        {t('matches.confirm')}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setConfirmRemoveId(null)}
+                        className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+                      >
+                        {t('matches.cancel')}
+                      </button>
+                    </>
+                  ) : (
+                    <>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setEditingId(match.id);
+                          setAdding(false);
+                        }}
+                        className="ml-auto rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+                      >
+                        {t('matches.edit')}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setConfirmRemoveId(match.id)}
+                        className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-red-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-red-400 dark:hover:bg-gray-600"
+                      >
+                        {t('matches.remove')}
+                      </button>
+                    </>
+                  )}
                 </div>
               ))}
             </div>
