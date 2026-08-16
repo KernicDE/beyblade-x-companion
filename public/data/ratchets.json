@@ -165,7 +165,7 @@
       "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.7g. Höhe: 85mm. Hergestellt von Hasbro."
     },
     "officialStats": {
-      "heightMm": 85,
+      "heightMm": 8.5,
       "weightGrams": 4.7,
       "spinDirection": "right"
     },
@@ -224,7 +224,7 @@
       "de": "Hasbros 5-60 spielt identisch zur Takara-Tomy-Version. Sein zusätzliches Gewicht und der glattere Umfang machen es zu einer starken Low-Height-Wahl für Defense-Combos und stationäre Setups auf Needle oder High Needle, auf Kosten eines geringen Stamina-Verlusts auf Ball-Bits."
     },
     "officialStats": {
-      "heightMm": 60,
+      "heightMm": 6,
       "weightGrams": 6.6,
       "spinDirection": "right"
     },

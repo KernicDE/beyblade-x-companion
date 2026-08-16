@@ -268,10 +268,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 5,
-      "defense": 1.3,
-      "stamina": 0.4,
-      "balance": 2.2
+      "attack": 3.5,
+      "defense": 1,
+      "stamina": 1,
+      "balance": 2
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"

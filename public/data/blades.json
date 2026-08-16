@@ -293,13 +293,13 @@
       "typeTag": "Defense"
     },
     "ratings": {
-      "attack": 2,
-      "defense": 3,
-      "stamina": 2,
+      "attack": 2.5,
+      "defense": 2,
+      "stamina": 1.5,
       "balance": 2
     },
     "ratingsDisclaimer": true,
-    "ratingsSource": "estimated"
+    "ratingsSource": "community"
   },
   {
     "id": "tyranno-beat-hasbro",
