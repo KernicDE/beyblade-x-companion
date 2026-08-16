@@ -210,5 +210,125 @@
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
+  },
+  {
+    "id": "knight-lance-hasbro",
+    "category": "blade",
+    "name": "Knight Lance",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/blades/knight-lance-hasbro.png",
+    "releaseDate": "2024-01-01",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Hasbro version of Knight Lance. A Defense Type Blade featuring an elongated lance-like shape for repelling opponents.",
+      "de": "Die Hasbro-Version von Knight Lance. Ein Defense-Type-Blade mit einer länglichen lanzengleichen Form zum Abwehren von Gegnern."
+    },
+    "assessment": {
+      "en": "Hasbro's Knight Lance performs identically to the Takara Tomy release. It provides high Defense thanks to its weight and shape, but its Stamina is low.",
+      "de": "Hasbros Knight Lance spielt identisch zur Takara-Tomy-Version. Er bietet hohe Defense dank Gewicht und Form, aber seine Stamina ist gering."
+    },
+    "officialStats": {
+      "weightGrams": 32.9,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 1.5,
+      "defense": 3.5,
+      "stamina": 1.5,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
+  },
+  {
+    "id": "leon-claw-hasbro",
+    "category": "blade",
+    "name": "Leon Claw",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/blades/leon-claw-hasbro.png",
+    "releaseDate": "2024-07-09",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Hasbro version of Leon Claw, released in western markets as Claw Leon. It is a lightweight, five-sided Balance Type Blade with five embossed claw contact points and a lion-head Gear Chip. The mold matches the Takara Tomy release.",
+      "de": "Die Hasbro-Version von Leon Claw, in westlichen Märkten als Claw Leon veröffentlicht. Ein leichter, fünfseitiger Balance-Type-Blade mit fünf geprägten Klauen-Kontaktpunkten und einem Löwenkopf-Gear-Chip. Der Guss entspricht der Takara-Tomy-Version."
+    },
+    "assessment": {
+      "en": "Hasbro's Claw Leon uses the same mold as Takara Tomy's Leon Claw and performs identically. It is a niche anti-attack Blade that lacks the consistency of specialized options, but it can be fun for practicing launch-angle control in casual play.",
+      "de": "Hasbros Claw Leon nutzt denselben Guss wie Takara Tomys Leon Claw und spielt identisch. Er ist ein Nischen-Anti-Attack-Blade, der die Konsistenz spezialisierter Optionen vermissen lässt, aber Spaß beim Üben von Launch-Winkel-Kontrolle im Casual-Spiel macht."
+    },
+    "officialStats": {
+      "weightGrams": 31.3,
+      "spinDirection": "right",
+      "typeTag": "Balance"
+    },
+    "ratings": {
+      "attack": 2.5,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 2.5
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
+  },
+  {
+    "id": "shinobi-knife-hasbro",
+    "category": "blade",
+    "name": "Knife Shinobi",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/blades/shinobi-knife-hasbro.png",
+    "releaseDate": "2025-02-26",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Hasbro version of ShinobiKnife. A lightweight Defense Type Blade with sharp, ninja-knife-like contact points.",
+      "de": "Die Hasbro-Version von ShinobiKnife. Ein leichter Defense-Type-Blade mit scharfen, ninja-messer-ähnlichen Kontaktpunkten."
+    },
+    "assessment": {
+      "en": "Hasbro's Knife Shinobi performs identically to the Takara Tomy release. Its sharp edges and low weight favor speed and disruption over raw knock-out resistance.",
+      "de": "Hasbros Knife Shinobi spielt identisch zur Takara-Tomy-Version. Seine scharfen Kanten und das geringe Gewicht favorisieren Geschwindigkeit und Störung gegenüber reiner Knockout-Resistenz."
+    },
+    "officialStats": {
+      "weightGrams": 30.9,
+      "spinDirection": "right",
+      "typeTag": "Defense"
+    },
+    "ratings": {
+      "attack": 2,
+      "defense": 3,
+      "stamina": 2,
+      "balance": 2
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
+  },
+  {
+    "id": "tyranno-beat-hasbro",
+    "category": "blade",
+    "name": "Tyranno Beat",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/blades/tyranno-beat-hasbro.png",
+    "releaseDate": "2024-01-01",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Hasbro release of Tyranno Beat (marketed as Beat Tyranno). A right-spin Attack Type Blade with an elliptical shape formed by two large blades, a thick perimeter and small aggressive protrusions that wear down over time. Weighs about 37 grams.",
+      "de": "Die Hasbro-Veröffentlichung von Tyranno Beat (als Beat Tyranno vermarktet). Ein rechtsdrehender Attack-Type-Blade mit elliptischer Form aus zwei großen Klingen, dickem Umfang und kleinen aggressiven Vorsprüngen, die sich im Laufe der Zeit abnutzen. Wiegt etwa 37 Gramm."
+    },
+    "assessment": {
+      "en": "Hasbro's Tyranno Beat inherits the same anti-Attack niche as the Takara Tomy original. Its heavy, elliptical shape and high inertia let it control the center and counter meta Attackers when paired with Balance Bits, but poor stamina and modest raw attack keep it from being a top-tier main attacker. The protrusions wear flat with use, slowly shifting its identity toward Attack/Balance.",
+      "de": "Hasbros Tyranno Beat erbt dieselbe Anti-Attack-Nische wie das Takara-Tomy-Original. Seine schwere, elliptische Form und hohe Trägheit lassen ihn die Mitte kontrollieren und Meta-Angreifer counter, wenn er mit Balance-Bits kombiniert wird, aber schlechte Ausdauer und bescheidener roher Angriff halten ihn davon ab, ein Top-Tier-Hauptangreifer zu sein. Die Vorsprünge nutzen sich ab und verschieben seine Identität langsam Richtung Attack/Balance."
+    },
+    "officialStats": {
+      "weightGrams": 37,
+      "spinDirection": "right",
+      "typeTag": "Attack"
+    },
+    "ratings": {
+      "attack": 4,
+      "defense": 2.5,
+      "stamina": 1.5,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   }
 ]

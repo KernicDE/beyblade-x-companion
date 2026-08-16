@@ -335,5 +335,78 @@
         ]
       }
     }
+  },
+  {
+    "id": "lance-knight-4-80hn-g0184",
+    "name": "Lance Knight 4-80HN",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/lance-knight-4-80hn-g0184.png",
+    "releaseDate": "2024-07-01",
+    "releaseWave": "G0184",
+    "bladeId": "knight-lance-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-high-needle-hasbro",
+    "assessment": {
+      "en": "Lance Knight 4-80HN is Hasbro's western release of the BX-13 booster, released as G0184 in summer 2024. It is a right-spin Defense-type starter with a green, three-sided Knight Lance Blade that offers a mix of counter-attack potential and decent stamina. The tall 4-80 Ratchet and High Needle Bit add height and stability, helping the combo absorb hits while outlasting lighter attackers.",
+      "de": "Lance Knight 4-80HN ist Hasbros westliche Veröffentlichung des BX-13-Boosters, veröffentlicht als G0184 im Sommer 2024. Es ist ein rechtsdrehender Defense-Typ-Starter mit einem grünen, dreiseitigen Knight Lance Blade, das ein Gemisch aus Konter-Angriffspotenzial und anständiger Ausdauer bietet. Das hohe 4-80 Ratchet und das High Needle Bit geben zusätzliche Höhe und Stabilität, sodass die Kombination Treffer absorbieren und leichtere Angreifer überdauern kann."
+    }
+  },
+  {
+    "id": "claw-leon-5-60p-g0193",
+    "name": "Claw Leon 5-60P",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/claw-leon-5-60p-g0193.png",
+    "releaseDate": "2024-07-01",
+    "releaseWave": "G0193",
+    "bladeId": "leon-claw-hasbro",
+    "ratchetId": "ratchet-5-60-hasbro",
+    "bitId": "bit-point-hasbro",
+    "assessment": {
+      "en": "G0193 is Hasbro's western release of the BX-15 starter. Like its Japanese counterpart, the value lies in the 5-60 Ratchet and Point Bit, both of which are competitive in their niches. The Claw Leon Blade is a lightweight, niche anti-attack part that is fun for practicing launch angles but outclassed by dedicated Attack or Stamina Blades. A solid starter purchase for the included parts.",
+      "de": "G0193 ist Hasbros westliche Veröffentlichung des BX-15-Starters. Wie beim japanischen Pendant liegt der Wert im 5-60 Ratchet und im Point Bit, die beide in ihren Nischen konkurrenzfähig sind. Das Claw Leon Blade ist ein leichter, Nischen-Anti-Attack-Part, der zum Üben von Launch-Winkeln Spaß macht, aber von dedizierten Attack- oder Stamina-Blades übertroffen wird. Ein solider Starter-Kauf für die enthaltenen Teile."
+    },
+    "priceJpy": 1980,
+    "priceUsd": 11,
+    "priceEur": 10
+  },
+  {
+    "id": "beat-tyranno-4-70q-g1542",
+    "name": "Beat Tyranno 4-70Q",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/beat-tyranno-4-70q-g1542.png",
+    "releaseDate": "2024-11-16",
+    "releaseWave": "G1542",
+    "bladeId": "tyranno-beat-hasbro",
+    "ratchetId": "ratchet-4-70-hasbro",
+    "bitId": "bit-quake-hasbro",
+    "description": {
+      "en": "A right-spin Attack Type Beyblade from Hasbro, released in western markets in November 2024 as part of the G1542 Beat Tyranno and Knife Shinobi Dual Pack. It uses the Hasbro versions of Tyranno Beat, 4-70 and Quake, delivering the same jumping Attack gimmick as the Takara Tomy original.",
+      "de": "Ein rechtsdrehender Attack-Typ-Beyblade von Hasbro, veröffentlicht auf westlichen Märkten im November 2024 als Teil des G1542 Beat Tyranno and Knife Shinobi Dual Pack. Er verwendet die Hasbro-Versionen von Tyranno Beat, 4-70 und Quake und bietet dasselbe springende Attack-Gimmick wie das Takara-Tomy-Original."
+    },
+    "assessment": {
+      "en": "Beat Tyranno 4-70Q is Hasbro's western release of TyrannoBeat, packaged in the G1542 dual pack with Knife Shinobi. It inherits the same heavy, elliptical Tyranno Beat Blade and Quake Bit, so its strengths and weaknesses mirror the Takara Tomy original: strong inertia, occasional jumping knockouts, but inconsistent gimmicks and poor stamina. As a Hasbro release, it offers easier access for western collectors who want the Tyranno Beat design without importing.",
+      "de": "Beat Tyranno 4-70Q ist Hasbros westliche Veröffentlichung von TyrannoBeat, verpackt im G1542 Dual Pack zusammen mit Knife Shinobi. Er erbt dasselbe schwere, elliptische Tyranno Beat Blade und Quake Bit, sodass sich Stärken und Schwächen spiegeln: hohe Trägheit, gelegentliche Spring-Knockouts, aber inkonsistente Gimmicks und schwache Ausdauer. Als Hasbro-Veröffentlichung bietet er westlichen Sammlern leichteren Zugang zum Tyranno-Beat-Design, ohne importieren zu müssen."
+    },
+    "priceUsd": 16,
+    "priceEur": 15
+  },
+  {
+    "id": "knife-shinobi-4-80hn-g1542",
+    "name": "Knife Shinobi 4-80HN",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/beys/knife-shinobi-4-80hn-g1542.png",
+    "releaseDate": "2024-12-01",
+    "releaseWave": "G1542",
+    "bladeId": "shinobi-knife-hasbro",
+    "ratchetId": "ratchet-4-80-hasbro",
+    "bitId": "bit-high-needle-hasbro",
+    "assessment": {
+      "en": "Knife Shinobi 4-80HN is a right-spin factory-combined Beyblade from Hasbro, released as G1542. Parts: Shinobi Knife / 4-80 / High Needle.",
+      "de": "Knife Shinobi 4-80HN ist ein rechtsdrehender, ab Werk kombinierter Beyblade von Hasbro, veröffentlicht als G1542. Teile: Shinobi Knife / 4-80 / High Needle."
+    },
+    "description": {
+      "de": "Knife Shinobi 4-80HN ist ein Hasbro-exklusiver Defense-Typ, der erstmals im Anime auftauchte und im G1542 Dual Pack erneut erschien. Das kompakte, violette Design mit vier Kunai-Klingen und High-Needle-Bit zielt auf Abwehr und Stabilität ab.",
+      "en": "Knife Shinobi 4-80HN is a Hasbro-exclusive Defense type that first appeared in the anime and was re-released in the G1542 dual pack. Its compact purple design with four kunai-like blades and High Needle Bit focuses on defense and stability."
+    }
   }
 ]

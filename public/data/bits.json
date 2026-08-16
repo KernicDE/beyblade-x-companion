@@ -213,5 +213,67 @@
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"
+  },
+  {
+    "id": "bit-point-hasbro",
+    "category": "bit",
+    "name": "Point",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/bits/bit-point-hasbro.png",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Hasbro version of Point. A right-spin Balance Type Bit built around a small central ball tip barely protruding from a thin flat ring. Its behavior is launch-dependent: a flat launch settles on the ball for stationary Stamina/Defense play, while a tilted launch lands on the flat ring for aggressive movement and Xtreme Dash. The wider shaft gives it solid burst resistance.",
+      "de": "Die Hasbro-Version von Point. Ein rechtsdrehender Balance-Typ Bit, der um eine kleine zentrale Kugelspitze aufgebaut ist, die kaum aus einem dünnen flachen Ring herausragt. Sein Verhalten hängt vom Launch ab: Ein flacher Launch lässt ihn auf der Kugel landen für stationären Stamina/Defense-Play, während ein schräger Launch auf dem flachen Ring landet für aggressive Bewegung und Xtreme Dash. Der breitere Schaft bietet solide Burst-Resistenz."
+    },
+    "assessment": {
+      "en": "Hasbro's Point performs identically to the Takara Tomy release. It is a versatile but demanding Bit that works as a safer Attack alternative to Flat or Low Flat and as a mobile Defense option on round Blades. Launch technique determines everything.",
+      "de": "Hasbros Point spielt identisch zur Takara-Tomy-Version. Er ist ein vielseitiges, aber anspruchsvolles Bit, das als sicherere Attack-Alternative zu Flat oder Low Flat und als mobile Defense-Option auf runden Blades funktioniert. Die Launch-Technik bestimmt alles."
+    },
+    "officialStats": {
+      "heightMm": 2,
+      "weightGrams": 2.2,
+      "typeTag": "Balance",
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2.5,
+      "balance": 3.5
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
+  },
+  {
+    "id": "bit-quake-hasbro",
+    "category": "bit",
+    "name": "Quake",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/bits/bit-quake-hasbro.png",
+    "releaseDate": "2024-11-16",
+    "releaseWave": "G1542",
+    "description": {
+      "en": "The Hasbro release of Quake, identical in shape to the Takara Tomy version. It is a right-spin Attack Type Bit with a slanted, asymmetrical tip that makes the Bey jump unpredictably during battle.",
+      "de": "Die Hasbro-Veröffentlichung von Quake, formgleich zur Takara-Tomy-Version. Es ist ein rechtsdrehender Attack-Typ-Bit mit einer schiefen, asymmetrischen Spitze, die den Bey im Kampf unvorhersehbar springen lässt."
+    },
+    "assessment": {
+      "en": "Hasbro's Quake behaves like the Takara Tomy original: a fun but inconsistent Attack Bit that jumps when launched at an angle. Its low stamina and unpredictable movement keep it out of the competitive meta, where Rush and Low Rush are preferred.",
+      "de": "Hasbros Quake verhält sich wie das Takara-Tomy-Original: ein spaßiger, aber inkonsistenter Attack-Bit, der bei schrägem Launch springt. Seine geringe Ausdauer und unvorhersehbare Bewegung halten ihn außerhalb des kompetitiven Metas, in dem Rush und Low Rush bevorzugt werden."
+    },
+    "officialStats": {
+      "heightMm": 2.5,
+      "weightGrams": 2.2,
+      "typeTag": "Attack",
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 5,
+      "defense": 1.3,
+      "stamina": 0.4,
+      "balance": 2.2
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   }
 ]

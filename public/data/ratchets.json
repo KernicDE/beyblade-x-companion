@@ -176,5 +176,95 @@
       "balance": 2.9
     },
     "ratingsDisclaimer": true
+  },
+  {
+    "id": "ratchet-4-80-hasbro",
+    "category": "ratchet",
+    "name": "4-80",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/ratchets/ratchet-4-80-hasbro.png",
+    "releaseDate": "2024-06-01",
+    "releaseWave": "BX",
+    "description": {
+      "en": "Hasbro's 4-80 is a tall right-spin Ratchet with four teeth and an 8mm height. The four-tooth layout spreads weight slightly further from the center than 3-80, while the extra elevation lifts the Bey away from the stadium floor to reduce scraping on Stamina and Defense combos.",
+      "de": "Hasbros 4-80 ist ein hohes, rechtsdrehendes Ratchet mit vier Zähnen und 8 mm Höhe. Das Vier-Zahn-Layout verteilt das Gewicht etwas weiter vom Zentrum als 3-80, während die zusätzliche Höhe den Bey vom Stadionboden weghebt, um Schleifkontakte bei Stamina- und Defense-Combos zu reduzieren."
+    },
+    "assessment": {
+      "en": "Hasbro 4-80 is the taller sibling of 4-60 and functionally matches the Takara Tomy release. The extra height helps round Stamina Blades spin freely without floor contact, but it raises the center of gravity and can be exploited by upper-attack setups. It pairs naturally with Wizard Arrow and other low-recoil Blades that want clearance and a stable footprint.",
+      "de": "Hasbro 4-80 ist das höhere Geschwister von 4-60 und funktioniert wie die Takara-Tomy-Version. Die zusätzliche Höhe hilft runden Stamina-Blades, frei zu rotieren, ohne den Boden zu berühren, aber sie erhöht den Schwerpunkt und kann von Upper-Attack-Aufbauten ausgenutzt werden. Es passt natürlich zu Wizard Arrow und anderen rückstoßarmen Blades, die Freiraum und eine stabile Basis wollen."
+    },
+    "officialStats": {
+      "heightMm": 8,
+      "weightGrams": 7,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3,
+      "stamina": 2.5,
+      "balance": 3
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
+  },
+  {
+    "id": "ratchet-5-60-hasbro",
+    "category": "ratchet",
+    "name": "5-60",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/ratchets/ratchet-5-60-hasbro.png",
+    "releaseDate": "2023-10-07",
+    "releaseWave": "BX",
+    "description": {
+      "en": "The Hasbro version of 5-60. A low, right-spin Ratchet with five wide blades and a thicker outer locking piece than 3-60 or 4-60. The five 8mm-wide blades create a smoother perimeter that scrapes the stadium floor more evenly, improving stability for pointy Bits while adding extra weight for Defense-oriented combos.",
+      "de": "Die Hasbro-Version von 5-60. Ein niedriges, rechtsdrehendes Ratchet mit fünf breiten Blades und einem dickeren äußeren Verriegelungsteil als 3-60 oder 4-60. Die fünf 8 mm breiten Blades erzeugen einen glatteren Umfang, der den Stadionboden gleichmäßiger schrammt, die Stabilität für spitze Bits verbessert und zusätzliches Gewicht für defensorientierte Kombos bietet."
+    },
+    "assessment": {
+      "en": "Hasbro's 5-60 performs identically to the Takara Tomy release. Its extra weight and smoother perimeter make it a strong low-height choice for Defense combos and stationary setups on Needle or High Needle, at the cost of a small stamina loss on Ball-style Bits.",
+      "de": "Hasbros 5-60 spielt identisch zur Takara-Tomy-Version. Sein zusätzliches Gewicht und der glattere Umfang machen es zu einer starken Low-Height-Wahl für Defense-Combos und stationäre Setups auf Needle oder High Needle, auf Kosten eines geringen Stamina-Verlusts auf Ball-Bits."
+    },
+    "officialStats": {
+      "heightMm": 60,
+      "weightGrams": 6.6,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 3.5,
+      "stamina": 2.5,
+      "balance": 3.5
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
+  },
+  {
+    "id": "ratchet-4-70-hasbro",
+    "category": "ratchet",
+    "name": "4-70",
+    "manufacturer": "Hasbro",
+    "imageUrl": "images/ratchets/ratchet-4-70-hasbro.png",
+    "releaseDate": "2024-11-16",
+    "releaseWave": "G1542",
+    "description": {
+      "en": "A right-spin Attack/Balance Type Ratchet with four blades at a 7mm height, released by Hasbro in western markets as part of the G1542 Beat Tyranno and Knife Shinobi Dual Pack. The four protrusions are easy for opponents to strike, which raises burst risk compared to 3- or 9-bladed Ratchets. Weighs about 6.4 grams.",
+      "de": "Ein rechtsdrehendes Attack/Balance-Typ-Ratchet mit vier Klingen in 7-mm-Höhe, von Hasbro in westlichen Märkten als Teil des G1542 Beat Tyranno and Knife Shinobi Dual Pack veröffentlicht. Die vier Vorsprünge sind für Gegner leicht zu treffen, was das Burst-Risiko gegenüber Ratchets mit drei oder neun Klingen erhöht. Wiegt etwa 6,4 Gramm."
+    },
+    "assessment": {
+      "en": "4-70 is a situational middle-height Ratchet. Its four blades make it vulnerable to bursts, but the 7mm height can help certain Attack or Balance combos find the right impact angle. Hasbro's molding is functionally similar to Takara Tomy's, so it shares the same competitive niche: a risky utility choice rather than a deck staple.",
+      "de": "4-70 ist ein situationales Mittelhöhen-Ratchet. Seine vier Klingen machen es burst-anfällig, aber die 7-mm-Höhe kann bestimmten Attack- oder Balance-Combos helfen, den richtigen Aufprallwinkel zu finden. Hasbros Guss ist funktional dem von Takara Tomy ähnlich, daher teilt es dieselbe kompetitive Nische: eine riskante Utility-Wahl, kein Deck-Grundpfeiler."
+    },
+    "officialStats": {
+      "heightMm": 7,
+      "weightGrams": 6.4,
+      "spinDirection": "right"
+    },
+    "ratings": {
+      "attack": 3,
+      "defense": 2.5,
+      "stamina": 2,
+      "balance": 2.5
+    },
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   }
 ]
