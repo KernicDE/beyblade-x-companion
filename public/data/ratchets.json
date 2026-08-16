@@ -82,11 +82,12 @@
     },
     "ratings": {
       "attack": 2,
-      "defense": 2.5,
-      "stamina": 3.6,
-      "balance": 3.2
+      "defense": 3.5,
+      "stamina": 3.5,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-9-60-hasbro",
@@ -128,11 +129,11 @@
     "releaseWave": "BX-34",
     "description": {
       "en": "A right-spin Attack Type Ratchet from the Basic Line, released by Hasbro in western countries. It features two protrusions and debuted with Cobalt Dragoon 2-60C.",
-      "de": "Ein rechtsdrehender Attack-Typ Ratchet from the Basic Line, von Hasbro in westlichen Ländern veröffentlicht. Er verfügt über two protrusions and debuted with Cobalt Dragoon 2-60C."
+      "de": "Ein rechtsdrehender Attack-Type-Ratchet aus der Basic Line, von Hasbro in westlichen Ländern veröffentlicht. Er hat zwei Vorsprünge und debütierte mit Cobalt Dragoon 2-60C."
     },
     "assessment": {
       "en": "2-60 is an aggressive Ratchet with two contact points that complement attack Blades. Weight: 6.2g. Ratings based on community data. (Hasbro release)",
-      "de": "2-60 ist einn aggressive Ratchet with two contact points that complement attack Blades. Gewicht: 6.2g. Ratings based on community data. (Hasbro release)"
+      "de": "2-60 ist ein aggressiver Ratchet mit zwei Kontaktpunkten, der gut zu Attack-Blades passt. Gewicht: 6,2g. Die Bewertungen basieren auf Community-Daten. (Hasbro-Release)"
     },
     "officialStats": {
       "heightMm": 6,
@@ -161,8 +162,8 @@
       "de": "Das 3-85-Ratchet."
     },
     "assessment": {
-      "en": "3-85 is a right-spin Balance Type Ratchet. Weight: 4.7g. Height: 85mm. Manufactured by Hasbro.",
-      "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.7g. Höhe: 85mm. Hergestellt von Hasbro."
+      "en": "3-85 is a right-spin Balance Type Ratchet. Weight: 4.7g. Height: 8.5mm. Manufactured by Hasbro.",
+      "de": "3-85 ist ein rechtsdrehender Balance-Typ Ratchet. Gewicht: 4.7g. Höhe: 8,5mm. Hergestellt von Hasbro."
     },
     "officialStats": {
       "heightMm": 8.5,
@@ -170,12 +171,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 3.9,
-      "stamina": 3.3,
-      "balance": 2.9
+      "attack": 1,
+      "defense": 3,
+      "stamina": 3,
+      "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "ratchet-4-80-hasbro",

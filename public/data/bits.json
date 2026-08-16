@@ -84,12 +84,13 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 1.4,
-      "defense": 4.6,
+      "attack": 1.5,
+      "defense": 4.5,
       "stamina": 1.5,
       "balance": 2.5
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "community"
   },
   {
     "id": "bit-disk-ball-hasbro",
@@ -116,10 +117,11 @@
     "ratings": {
       "attack": 1,
       "defense": 2,
-      "stamina": 4.8,
-      "balance": 2.8
+      "stamina": 4.5,
+      "balance": 3
     },
-    "ratingsDisclaimer": true
+    "ratingsDisclaimer": true,
+    "ratingsSource": "estimated"
   },
   {
     "id": "bit-rush-hasbro",
@@ -175,10 +177,10 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.9,
+      "attack": 1,
       "defense": 2.5,
-      "stamina": 3.8,
-      "balance": 2.4
+      "stamina": 4,
+      "balance": 2.5
     },
     "ratingsDisclaimer": true,
     "ratingsSource": "community"

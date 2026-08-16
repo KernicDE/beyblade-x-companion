@@ -19,7 +19,7 @@
       "spinDirection": "right"
     },
     "ratings": {
-      "attack": 0.5,
+      "attack": 1,
       "defense": 2,
       "stamina": 2.5,
       "balance": 2
