@@ -61,7 +61,7 @@ jobs:
 
       - name: Make GHCR package public
         run: |
-          gh api --method PATCH /users/KernicDE/packages/container/beyblade-x-database \
+          gh api --method PATCH /repos/${{ github.repository }}/packages/container/beyblade-x-database \
             -f visibility=public \
             --silent
         env:
