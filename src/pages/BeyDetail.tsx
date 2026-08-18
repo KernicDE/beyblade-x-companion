@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { useData } from '../hooks/useData';
 import {
   calculateComboRatings,
@@ -16,7 +17,10 @@ import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import type { LocalizedString, PartCategory } from '../types';
 import { useProfileStore } from '../stores/profile';
+import { useAuthStore } from '../stores/auth';
+import { getBey, rateBey } from '../api/client';
 import { recordAgainstBey, recordWithBey } from '../utils/matches';
+import type { Ratings } from '../types';
 
 function localized(text: LocalizedString, locale: string) {
   return text[(locale as 'en' | 'de')] || text.en;
@@ -31,6 +35,22 @@ export function BeyDetail() {
   const { id } = useParams<{ id: string }>();
   const { database, loading, error } = useData();
   const { profile } = useProfileStore();
+  const { user } = useAuthStore();
+  const [backendRatings, setBackendRatings] = useState<Ratings & { count: number } | null>(null);
+  const [userRating, setUserRating] = useState<Ratings | null>(null);
+  const [ratingError, setRatingError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!id) return;
+    getBey(id)
+      .then((data) => {
+        setBackendRatings(data.ratings);
+        setUserRating(data.userRating || null);
+      })
+      .catch(() => {
+        // Backend ratings are optional; fall back to calculated ratings.
+      });
+  }, [id]);
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -70,6 +90,30 @@ export function BeyDetail() {
 
   const typeTag = blade?.officialStats.typeTag;
   const spinDirection = blade?.officialStats.spinDirection;
+
+  const displayRatings = backendRatings && backendRatings.count > 0
+    ? { attack: backendRatings.attack, defense: backendRatings.defense, stamina: backendRatings.stamina, balance: backendRatings.balance }
+    : ratings;
+
+  const handleRate = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!id || !user) return;
+    const form = e.currentTarget;
+    const values: Ratings = {
+      attack: Number(form.attack.value),
+      defense: Number(form.defense.value),
+      stamina: Number(form.stamina.value),
+      balance: Number(form.balance.value),
+    };
+    setRatingError(null);
+    try {
+      const data = await rateBey(id, values);
+      setBackendRatings(data.ratings);
+      setUserRating(values);
+    } catch (err) {
+      setRatingError(err instanceof Error ? err.message : 'Rating failed');
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -136,19 +180,56 @@ export function BeyDetail() {
         <div className="flex flex-col items-center rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="mb-4 flex items-center gap-2">
             <h2 className="text-lg font-semibold">
-              {estimated ? t('partDetail.estimatedRatings') : t('beyDetail.communityRatings')}
+              {backendRatings && backendRatings.count > 0
+                ? `Community ratings (${backendRatings.count})`
+                : estimated
+                  ? t('partDetail.estimatedRatings')
+                  : t('beyDetail.communityRatings')}
             </h2>
             <TierBadge tier={tier} />
           </div>
           <div className="w-full max-w-[280px]">
-            <RadarChart ratings={ratings} size={280} />
+            <RadarChart ratings={displayRatings} size={280} />
           </div>
           <div className="mt-4 w-full max-w-[280px]">
-            <RatingBars ratings={ratings} size="md" />
+            <RatingBars ratings={displayRatings} size="md" />
           </div>
           <p className="mt-4 text-xs text-[var(--muted)]">
-            {estimated ? t('partDetail.estimatedRatingsDisclaimer') : t('partDetail.ratingsDisclaimer')}
+            {backendRatings && backendRatings.count > 0
+              ? 'Ratings from the community.'
+              : estimated
+                ? t('partDetail.estimatedRatingsDisclaimer')
+                : t('partDetail.ratingsDisclaimer')}
           </p>
+
+          {user && (
+            <form onSubmit={handleRate} className="mt-6 w-full max-w-[280px] space-y-2">
+              <p className="text-sm font-medium">Your rating</p>
+              <div className="grid grid-cols-2 gap-2">
+                {(['attack', 'defense', 'stamina', 'balance'] as const).map((dim) => (
+                  <label key={dim} className="block text-xs">
+                    {dim}
+                    <input
+                      type="number"
+                      name={dim}
+                      min="0"
+                      max="5"
+                      step="0.5"
+                      defaultValue={userRating?.[dim] ?? displayRatings[dim]}
+                      className="mt-1 w-full rounded border border-gray-300 dark:border-slate-600 bg-[var(--bg)] px-2 py-1"
+                    />
+                  </label>
+                ))}
+              </div>
+              {ratingError && <p className="text-xs text-red-600">{ratingError}</p>}
+              <button
+                type="submit"
+                className="w-full rounded bg-blue-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-700"
+              >
+                Submit rating
+              </button>
+            </form>
+          )}
         </div>
       </div>
 
