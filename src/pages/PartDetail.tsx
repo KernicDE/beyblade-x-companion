@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { useData } from '../hooks/useData';
 import { getPartById, findBeysContainingPart } from '../utils/data';
 import { RadarChart } from '../components/RadarChart';
@@ -9,7 +10,9 @@ import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import { useProfileStore } from '../stores/profile';
-import type { PartCategory, LocalizedString } from '../types';
+import { useAuthStore } from '../stores/auth';
+import { getPart, ratePart } from '../api/client';
+import type { PartCategory, LocalizedString, Ratings } from '../types';
 import { calculateTier } from '../utils/data';
 
 function localized(text: LocalizedString, locale: string) {
@@ -29,6 +32,10 @@ export function PartDetail() {
   const { category, id } = useParams<{ category: string; id: string }>();
   const { database, loading, error } = useData();
   const { profile } = useProfileStore();
+  const { user } = useAuthStore();
+  const [backendRatings, setBackendRatings] = useState<Ratings & { count: number } | null>(null);
+  const [userRating, setUserRating] = useState<Ratings | null>(null);
+  const [ratingError, setRatingError] = useState<string | null>(null);
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -74,6 +81,40 @@ export function PartDetail() {
 
   const part = getPartById(database, id ?? '', category as PartCategory);
   if (!part) return <p className="text-red-600">{t('partDetail.partNotFound')}</p>;
+
+  useEffect(() => {
+    if (!category || !id) return;
+    getPart(category, id)
+      .then((data) => {
+        setBackendRatings(data.ratings);
+        setUserRating(data.userRating || null);
+      })
+      .catch(() => {});
+  }, [category, id]);
+
+  const displayRatings = backendRatings && backendRatings.count > 0
+    ? { attack: backendRatings.attack, defense: backendRatings.defense, stamina: backendRatings.stamina, balance: backendRatings.balance }
+    : part.ratings;
+
+  const handleRate = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!category || !id || !user) return;
+    const form = e.currentTarget;
+    const values: Ratings = {
+      attack: Number(form.attack.value),
+      defense: Number(form.defense.value),
+      stamina: Number(form.stamina.value),
+      balance: Number(form.balance.value),
+    };
+    setRatingError(null);
+    try {
+      const data = await ratePart(category, id, values);
+      setBackendRatings(data.ratings);
+      setUserRating(values);
+    } catch (err) {
+      setRatingError(err instanceof Error ? err.message : 'Rating failed');
+    }
+  };
 
   const owned = profile?.ownedParts.find((p) => p.partId === part.id);
   const obtainedFromBey = owned?.obtainedFrom
@@ -163,23 +204,56 @@ export function PartDetail() {
         <div className="flex flex-col items-center rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
           <div className="mb-4 flex items-center gap-2">
             <h2 className="text-lg font-semibold">
-              {part.ratingsSource === 'estimated'
-                ? t('partDetail.estimatedRatings')
-                : t('partDetail.communityRatings')}
+              {backendRatings && backendRatings.count > 0
+                ? `Community ratings (${backendRatings.count})`
+                : part.ratingsSource === 'estimated'
+                  ? t('partDetail.estimatedRatings')
+                  : t('partDetail.communityRatings')}
             </h2>
             <TierBadge tier={tier} />
           </div>
           <div className="w-full max-w-[280px]">
-            <RadarChart ratings={part.ratings} size={280} />
+            <RadarChart ratings={displayRatings} size={280} />
           </div>
           <div className="mt-4 w-full max-w-[280px]">
-            <RatingBars ratings={part.ratings} size="md" />
+            <RatingBars ratings={displayRatings} size="md" />
           </div>
           <p className="mt-4 text-xs text-[var(--muted)]">
-            {part.ratingsSource === 'estimated'
-              ? t('partDetail.estimatedRatingsDisclaimer')
-              : t('partDetail.ratingsDisclaimer')}
+            {backendRatings && backendRatings.count > 0
+              ? 'Ratings from the community.'
+              : part.ratingsSource === 'estimated'
+                ? t('partDetail.estimatedRatingsDisclaimer')
+                : t('partDetail.ratingsDisclaimer')}
           </p>
+
+          {user && (
+            <form onSubmit={handleRate} className="mt-6 w-full max-w-[280px] space-y-2">
+              <p className="text-sm font-medium">Your rating</p>
+              <div className="grid grid-cols-2 gap-2">
+                {(['attack', 'defense', 'stamina', 'balance'] as const).map((dim) => (
+                  <label key={dim} className="block text-xs">
+                    {dim}
+                    <input
+                      type="number"
+                      name={dim}
+                      min="0"
+                      max="5"
+                      step="0.5"
+                      defaultValue={userRating?.[dim] ?? displayRatings[dim]}
+                      className="mt-1 w-full rounded border border-gray-300 dark:border-slate-600 bg-[var(--bg)] px-2 py-1"
+                    />
+                  </label>
+                ))}
+              </div>
+              {ratingError && <p className="text-xs text-red-600">{ratingError}</p>}
+              <button
+                type="submit"
+                className="w-full rounded bg-blue-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-700"
+              >
+                Submit rating
+              </button>
+            </form>
+          )}
         </div>
       </div>
 
