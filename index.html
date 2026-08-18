@@ -5,6 +5,24 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyblade X Database</title>
+    <script>
+      // Aggressively recover from a stuck service worker after deployments.
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function (regs) {
+          var count = 0;
+          regs.forEach(function (r) {
+            if (r.scope && r.scope.includes(location.host)) {
+              r.unregister();
+              count++;
+            }
+          });
+          if (count > 0 && !sessionStorage.getItem('bx-sw-cleared')) {
+            sessionStorage.setItem('bx-sw-cleared', '1');
+            location.reload();
+          }
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
