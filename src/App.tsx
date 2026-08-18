@@ -16,6 +16,7 @@ import { Simulator } from './pages/Simulator';
 import { Profile } from './pages/Profile';
 import { Import } from './pages/Import';
 import { View } from './pages/View';
+import { Scan } from './pages/Scan';
 
 function App() {
   useEffect(() => {
@@ -42,6 +43,7 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/import" element={<Import />} />
             <Route path="/view/:compressed" element={<View />} />
+            <Route path="/scan" element={<Scan />} />
           </Routes>
         </Layout>
       </DataProvider>

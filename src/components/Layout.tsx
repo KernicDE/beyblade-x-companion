@@ -42,6 +42,7 @@ export function Layout({ children }: { children: ReactNode }) {
     { to: '/builder', label: t('nav.builder') },
     { to: '/matches', label: t('nav.matches') },
     { to: '/simulator', label: t('nav.simulator') },
+    { to: '/scan', label: 'Scan' },
     { to: '/profile', label: t('nav.profile') },
   ];
 
