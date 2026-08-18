@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { useAuthStore } from '../stores/auth';
+import { useTranslation } from '../i18n';
 
 export function AuthBar() {
+  const { t } = useTranslation();
   const { user, loading, login, register, logout, error, clearError } = useAuthStore();
   const [mode, setMode] = useState<'login' | 'register'>('login');
   const [open, setOpen] = useState(false);
@@ -23,7 +25,7 @@ export function AuthBar() {
           onClick={() => logout()}
           className="rounded-full border border-gray-300 dark:border-slate-600 px-3 py-1 text-xs font-medium text-[var(--muted)] hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
         >
-          Logout
+          {t('auth.logout')}
         </button>
       </div>
     );
@@ -58,18 +60,18 @@ export function AuthBar() {
         }}
         className="rounded-full bg-blue-600 px-3 py-1 text-xs font-medium text-white hover:bg-blue-700 transition-colors"
       >
-        Login
+        {t('auth.login')}
       </button>
 
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
           <div className="w-full max-w-sm rounded-lg bg-[var(--surface)] p-6 shadow-xl">
             <h2 className="mb-4 text-lg font-bold">
-              {mode === 'login' ? 'Login' : 'Register'}
+              {mode === 'login' ? t('auth.login') : t('auth.register')}
             </h2>
             <form onSubmit={handleSubmit} className="space-y-3">
               <div>
-                <label className="block text-sm font-medium">Username</label>
+                <label className="block text-sm font-medium">{t('auth.username')}</label>
                 <input
                   type="text"
                   value={username}
@@ -80,7 +82,7 @@ export function AuthBar() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium">Password</label>
+                <label className="block text-sm font-medium">{t('auth.password')}</label>
                 <input
                   type="password"
                   value={password}
@@ -92,7 +94,7 @@ export function AuthBar() {
               </div>
               {mode === 'register' && (
                 <div>
-                  <label className="block text-sm font-medium">Email (optional)</label>
+                  <label className="block text-sm font-medium">{t('auth.email')}</label>
                   <input
                     type="email"
                     value={email}
@@ -111,7 +113,7 @@ export function AuthBar() {
                   }}
                   className="text-xs text-blue-600 hover:underline"
                 >
-                  {mode === 'login' ? 'Create account' : 'Already have an account?'}
+                  {mode === 'login' ? t('auth.createAccount') : t('auth.alreadyHaveAccount')}
                 </button>
                 <div className="flex gap-2">
                   <button
@@ -119,14 +121,14 @@ export function AuthBar() {
                     onClick={() => setOpen(false)}
                     className="rounded border border-gray-300 dark:border-slate-600 px-3 py-1.5 text-xs font-medium"
                   >
-                    Cancel
+                    {t('auth.cancel')}
                   </button>
                   <button
                     type="submit"
                     disabled={submitting}
                     className="rounded bg-blue-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-700 disabled:opacity-50"
                   >
-                    {submitting ? '…' : mode === 'login' ? 'Login' : 'Register'}
+                    {submitting ? '…' : mode === 'login' ? t('auth.login') : t('auth.register')}
                   </button>
                 </div>
               </div>

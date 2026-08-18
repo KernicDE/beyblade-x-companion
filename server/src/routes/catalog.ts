@@ -60,10 +60,10 @@ router.get('/parts/:category/:id', (req, res) => {
 });
 
 const ratingSchema = z.object({
-  attack: z.number().min(0).max(5),
-  defense: z.number().min(0).max(5),
-  stamina: z.number().min(0).max(5),
-  balance: z.number().min(0).max(5),
+  attack: z.number().int().min(0).max(5),
+  defense: z.number().int().min(0).max(5),
+  stamina: z.number().int().min(0).max(5),
+  balance: z.number().int().min(0).max(5),
 });
 
 router.post(

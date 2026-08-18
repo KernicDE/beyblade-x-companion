@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Beyblade X Tracker"
+    "title": "Beyblade X Database"
   },
   "nav": {
     "home": "Home",
@@ -10,6 +10,7 @@
     "builder": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
+    "scan": "Scan",
     "profile": "Profile"
   },
   "theme": {
@@ -343,5 +344,36 @@
     "loadingDatabase": "Loading database…",
     "failedDatabase": "Failed to load database."
   },
-  "footer": "Ratings shown are community and AI estimates, not official Takara Tomy stats."
+  "footer": "Ratings shown are community and AI estimates, not official Takara Tomy stats.",
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email (optional)",
+    "cancel": "Cancel",
+    "createAccount": "Create account",
+    "alreadyHaveAccount": "Already have an account?",
+    "submit": "Submit"
+  },
+  "scan": {
+    "title": "Scan",
+    "description": "Enter a Beyblade barcode to look up the matching catalog entry.",
+    "placeholder": "Barcode",
+    "lookup": "Lookup",
+    "notFound": "Barcode not found.",
+    "noBeyLinked": "Barcode found, but no Bey linked.",
+    "addToCollection": "Add to collection"
+  },
+  "ratings": {
+    "community": "Community ratings",
+    "count": "{{count}} ratings",
+    "yourRating": "Your rating",
+    "submit": "Submit rating",
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL"
+  }
 }

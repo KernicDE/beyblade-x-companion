@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Beyblade X Tracker"
+    "title": "Beyblade X Database"
   },
   "nav": {
     "home": "Start",
@@ -10,6 +10,7 @@
     "builder": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
+    "scan": "Scan",
     "profile": "Profil"
   },
   "theme": {
@@ -343,5 +344,36 @@
     "loadingDatabase": "Datenbank wird geladen…",
     "failedDatabase": "Datenbank konnte nicht geladen werden."
   },
-  "footer": "Die angezeigten Bewertungen sind Community- und KI-Schätzungen, keine offiziellen Takara Tomy-Werte."
+  "footer": "Die angezeigten Bewertungen sind Community- und KI-Schätzungen, keine offiziellen Takara Tomy-Werte.",
+  "auth": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "email": "E-Mail (optional)",
+    "cancel": "Abbrechen",
+    "createAccount": "Konto erstellen",
+    "alreadyHaveAccount": "Bereits ein Konto?",
+    "submit": "Absenden"
+  },
+  "scan": {
+    "title": "Scan",
+    "description": "Gib einen Beyblade-Barcode ein, um den passenden Katalog-Eintrag zu finden.",
+    "placeholder": "Barcode",
+    "lookup": "Suchen",
+    "notFound": "Barcode nicht gefunden.",
+    "noBeyLinked": "Barcode gefunden, aber kein Bey verknüpft.",
+    "addToCollection": "Zur Sammlung hinzufügen"
+  },
+  "ratings": {
+    "community": "Community-Bewertungen",
+    "count": "{{count}} Bewertungen",
+    "yourRating": "Deine Bewertung",
+    "submit": "Bewertung abgeben",
+    "attack": "ATK",
+    "defense": "DEF",
+    "stamina": "STA",
+    "balance": "BAL"
+  }
 }

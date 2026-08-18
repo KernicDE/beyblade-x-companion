@@ -1,9 +1,11 @@
 import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { scanBarcode } from '../api/client';
+import { useTranslation } from '../i18n';
 import type { Bey } from '../types';
 
 export function Scan() {
+  const { t } = useTranslation();
   const [code, setCode] = useState('');
   const [bey, setBey] = useState<Bey | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -20,10 +22,10 @@ export function Scan() {
       const { barcode } = await scanBarcode(code.trim());
       setBey(barcode.bey || null);
       if (!barcode.bey) {
-        setError('Barcode found, but no Bey linked.');
+        setError(t('scan.noBeyLinked'));
       }
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Lookup failed');
+      setError(err instanceof Error ? err.message : t('scan.notFound'));
     } finally {
       setLoading(false);
       inputRef.current?.focus();
@@ -32,10 +34,8 @@ export function Scan() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold">Scan</h1>
-      <p className="text-[var(--muted)]">
-        Enter a Beyblade barcode to look up the matching catalog entry.
-      </p>
+      <h1 className="text-2xl font-bold">{t('scan.title')}</h1>
+      <p className="text-[var(--muted)]">{t('scan.description')}</p>
 
       <form onSubmit={handleSubmit} className="flex max-w-md gap-2">
         <input
@@ -43,7 +43,7 @@ export function Scan() {
           type="text"
           value={code}
           onChange={(e) => setCode(e.target.value)}
-          placeholder="Barcode"
+          placeholder={t('scan.placeholder')}
           className="flex-1 rounded border border-gray-300 dark:border-slate-600 bg-[var(--bg)] px-3 py-2 text-sm"
         />
         <button
@@ -51,7 +51,7 @@ export function Scan() {
           disabled={loading || !code.trim()}
           className="rounded bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
         >
-          {loading ? '…' : 'Lookup'}
+          {loading ? '…' : t('scan.lookup')}
         </button>
       </form>
 
@@ -74,7 +74,7 @@ export function Scan() {
                 to={`/beys/${bey.id}`}
                 className="text-sm text-blue-600 hover:underline"
               >
-                View details →
+                {t('scan.addToCollection')} →
               </Link>
             </div>
           </div>

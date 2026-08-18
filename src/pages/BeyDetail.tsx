@@ -181,7 +181,7 @@ export function BeyDetail() {
           <div className="mb-4 flex items-center gap-2">
             <h2 className="text-lg font-semibold">
               {backendRatings && backendRatings.count > 0
-                ? `Community ratings (${backendRatings.count})`
+                ? t('ratings.community') + ` (${backendRatings.count})`
                 : estimated
                   ? t('partDetail.estimatedRatings')
                   : t('beyDetail.communityRatings')}
@@ -196,7 +196,7 @@ export function BeyDetail() {
           </div>
           <p className="mt-4 text-xs text-[var(--muted)]">
             {backendRatings && backendRatings.count > 0
-              ? 'Ratings from the community.'
+              ? t('ratings.count', { count: backendRatings.count })
               : estimated
                 ? t('partDetail.estimatedRatingsDisclaimer')
                 : t('partDetail.ratingsDisclaimer')}
@@ -204,17 +204,17 @@ export function BeyDetail() {
 
           {user && (
             <form onSubmit={handleRate} className="mt-6 w-full max-w-[280px] space-y-2">
-              <p className="text-sm font-medium">Your rating</p>
+              <p className="text-sm font-medium">{t('ratings.yourRating')}</p>
               <div className="grid grid-cols-2 gap-2">
                 {(['attack', 'defense', 'stamina', 'balance'] as const).map((dim) => (
                   <label key={dim} className="block text-xs">
-                    {dim}
+                    {t(`ratings.${dim}`)}
                     <input
                       type="number"
                       name={dim}
                       min="0"
                       max="5"
-                      step="0.5"
+                      step="1"
                       defaultValue={userRating?.[dim] ?? displayRatings[dim]}
                       className="mt-1 w-full rounded border border-gray-300 dark:border-slate-600 bg-[var(--bg)] px-2 py-1"
                     />
@@ -226,7 +226,7 @@ export function BeyDetail() {
                 type="submit"
                 className="w-full rounded bg-blue-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-700"
               >
-                Submit rating
+                {t('ratings.submit')}
               </button>
             </form>
           )}
