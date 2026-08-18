@@ -364,7 +364,8 @@
     "lookup": "Suchen",
     "notFound": "Barcode nicht gefunden.",
     "noBeyLinked": "Barcode gefunden, aber kein Bey verknüpft.",
-    "addToCollection": "Zur Sammlung hinzufügen"
+    "addToCollection": "Zur Sammlung hinzufügen",
+    "added": "Hinzugefügt"
   },
   "ratings": {
     "community": "Community-Bewertungen",

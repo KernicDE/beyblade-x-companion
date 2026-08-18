@@ -1,15 +1,19 @@
 import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { scanBarcode } from '../api/client';
+import { scanBarcode, addOwnedBey } from '../api/client';
+import { useAuthStore } from '../stores/auth';
 import { useTranslation } from '../i18n';
 import type { Bey } from '../types';
 
 export function Scan() {
   const { t } = useTranslation();
+  const { user } = useAuthStore();
   const [code, setCode] = useState('');
   const [bey, setBey] = useState<Bey | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [adding, setAdding] = useState(false);
+  const [added, setAdded] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -18,6 +22,7 @@ export function Scan() {
     setLoading(true);
     setError(null);
     setBey(null);
+    setAdded(false);
     try {
       const { barcode } = await scanBarcode(code.trim());
       setBey(barcode.bey || null);
@@ -29,6 +34,20 @@ export function Scan() {
     } finally {
       setLoading(false);
       inputRef.current?.focus();
+    }
+  };
+
+  const handleAddToCollection = async () => {
+    if (!bey || !user) return;
+    setAdding(true);
+    setError(null);
+    try {
+      await addOwnedBey({ beyId: bey.id });
+      setAdded(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to add');
+    } finally {
+      setAdding(false);
     }
   };
 
@@ -67,15 +86,30 @@ export function Scan() {
                 className="h-24 w-24 object-contain"
               />
             )}
-            <div>
+            <div className="flex-1">
               <h2 className="text-lg font-semibold">{bey.name}</h2>
               <p className="text-sm text-[var(--muted)]">{bey.releaseWave}</p>
-              <Link
-                to={`/beys/${bey.id}`}
-                className="text-sm text-blue-600 hover:underline"
-              >
-                {t('scan.addToCollection')} →
-              </Link>
+              <div className="mt-2 flex items-center gap-3">
+                <Link
+                  to={`/beys/${bey.id}`}
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  View details →
+                </Link>
+                {user && !added && (
+                  <button
+                    type="button"
+                    onClick={handleAddToCollection}
+                    disabled={adding}
+                    className="rounded bg-green-600 px-3 py-1 text-xs font-medium text-white hover:bg-green-700 disabled:opacity-50"
+                  >
+                    {adding ? '…' : t('scan.addToCollection')}
+                  </button>
+                )}
+                {added && (
+                  <span className="text-xs text-green-600 font-medium">{t('scan.added')} ✓</span>
+                )}
+              </div>
             </div>
           </div>
         </div>
