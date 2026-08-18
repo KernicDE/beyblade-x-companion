@@ -59,11 +59,3 @@ jobs:
           subject-digest: ${{ steps.build.outputs.digest }}
           push-to-registry: true
 
-      - name: Make GHCR package public
-        run: |
-          gh api --method PATCH /repos/${{ github.repository }}/packages/container/beyblade-x-database \
-            -f visibility=public \
-            --silent
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
