@@ -65,7 +65,9 @@ export function createApp(): express.Application {
       cookie: {
         maxAge: SESSION_MAX_AGE_MS,
         httpOnly: true,
-        secure: IS_PRODUCTION,
+        // 'auto' sets the Secure flag when Express considers the connection
+        // secure (including behind a trusted reverse proxy).
+        secure: IS_PRODUCTION ? 'auto' : false,
         sameSite: 'strict',
       },
     })
