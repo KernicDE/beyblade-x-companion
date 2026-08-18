@@ -6,6 +6,14 @@ import { toPublicUser } from '../utils/user.js';
 import { generateId } from '../utils/id.js';
 import { validateBody } from '../middleware/validate.js';
 import { requireAuth } from '../middleware/requireAuth.js';
+import { rateLimit } from '../middleware/rateLimit.js';
+import { createAuditLog } from '../db.js';
+
+const authRateLimit = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  maxRequests: 10,
+  keyGenerator: (req) => req.body?.username?.toLowerCase() ?? req.ip ?? 'unknown',
+});
 
 const router = Router();
 
@@ -20,7 +28,7 @@ const registerSchema = z.object({
   password: z.string().min(8, 'Password must be at least 8 characters').max(128),
 });
 
-router.post('/register', validateBody(registerSchema), async (req, res, next) => {
+router.post('/register', authRateLimit, validateBody(registerSchema), async (req, res, next) => {
   try {
     const { username, email, password } = req.body as z.infer<typeof registerSchema>;
 
@@ -40,6 +48,14 @@ router.post('/register', validateBody(registerSchema), async (req, res, next) =>
     });
 
     req.session.userId = user.id;
+    createAuditLog({
+      id: generateId(),
+      actorId: user.id,
+      action: 'register',
+      targetType: 'user',
+      targetId: user.id,
+      createdAt: new Date().toISOString(),
+    });
     res.status(201).json({ user: toPublicUser(user) });
   } catch (err) {
     next(err);
@@ -51,7 +67,7 @@ const loginSchema = z.object({
   password: z.string().min(1),
 });
 
-router.post('/login', validateBody(loginSchema), async (req, res, next) => {
+router.post('/login', authRateLimit, validateBody(loginSchema), async (req, res, next) => {
   try {
     const { username, password } = req.body as z.infer<typeof loginSchema>;
 
@@ -73,6 +89,14 @@ router.post('/login', validateBody(loginSchema), async (req, res, next) => {
     }
 
     req.session.userId = user.id;
+    createAuditLog({
+      id: generateId(),
+      actorId: user.id,
+      action: 'login',
+      targetType: 'user',
+      targetId: user.id,
+      createdAt: new Date().toISOString(),
+    });
     res.json({ user: toPublicUser(user) });
   } catch (err) {
     next(err);
@@ -107,6 +131,14 @@ router.post('/password', requireAuth, validateBody(passwordSchema), async (req, 
 
     const hash = await hashPassword(newPassword);
     updatePassword(user.id, hash);
+    createAuditLog({
+      id: generateId(),
+      actorId: user.id,
+      action: 'change_password',
+      targetType: 'user',
+      targetId: user.id,
+      createdAt: new Date().toISOString(),
+    });
     res.json({ ok: true });
   } catch (err) {
     next(err);

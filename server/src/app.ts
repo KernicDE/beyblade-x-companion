@@ -19,12 +19,27 @@ import collectionRoutes from './routes/collection.js';
 import buildsRoutes from './routes/builds.js';
 import matchesRoutes from './routes/matches.js';
 import { errorHandler } from './middleware/errorHandler.js';
+import { rateLimit } from './middleware/rateLimit.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SqliteStore = createSqliteStore(session);
 
 export function createApp(): express.Application {
   const app = express();
+
+  app.use((req, res, next) => {
+    res.setHeader(
+      'Content-Security-Policy',
+      "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';"
+    );
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-Frame-Options', 'DENY');
+    res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+    res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+    next();
+  });
+
+  app.use(rateLimit({ windowMs: 60 * 1000, maxRequests: 120 }));
 
   app.use(express.json());
 
