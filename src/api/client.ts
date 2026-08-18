@@ -102,6 +102,10 @@ export async function getBeyMarketPrice(id: string): Promise<{ beyId: string; av
   return request(`/beys/${id}/market-price`);
 }
 
+export async function getBeyPriceHistory(id: string): Promise<{ beyId: string; history: { date: string; priceEur: number | null; priceChf: number | null; priceUsd: number | null }[] }> {
+  return request(`/beys/${id}/price-history`);
+}
+
 export async function getMarketPrices(): Promise<{ prices: Record<string, number> }> {
   return request('/market-prices');
 }

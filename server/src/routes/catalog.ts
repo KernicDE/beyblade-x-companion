@@ -15,6 +15,7 @@ import {
   listComments,
   createComment,
   getBeyMarketPrices,
+  getBeyPriceHistory,
 } from '../db.js';
 import { requireAuth } from '../middleware/requireAuth.js';
 import { requireRole } from '../middleware/requireRole.js';
@@ -53,6 +54,15 @@ router.get('/beys/:id/market-price', (req, res) => {
   }
   const prices = getBeyMarketPrices('priceEur', 3);
   res.json({ beyId: id, averagePriceEur: prices[id] ?? null });
+});
+
+router.get('/beys/:id/price-history', (req, res) => {
+  const id = req.params.id as string;
+  if (!getBeyById(id)) {
+    res.status(404).json({ error: 'Bey not found' });
+    return;
+  }
+  res.json({ beyId: id, history: getBeyPriceHistory(id) });
 });
 
 router.get('/market-prices', (_req, res) => {

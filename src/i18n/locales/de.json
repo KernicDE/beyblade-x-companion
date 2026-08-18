@@ -234,6 +234,8 @@
     "myRecord": "Meine Bilanz",
     "recordWith": "Mit diesem Bey",
     "recordAgainst": "Gegen diesen Bey",
+    "priceHistory": "Preisverlauf",
+    "noPriceHistory": "Noch keine Preisdaten vorhanden.",
     "pro": "Stärken",
     "con": "Schwächen",
     "trivia": "Trivia"

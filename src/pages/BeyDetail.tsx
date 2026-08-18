@@ -19,9 +19,10 @@ import type { LocalizedString, PartCategory } from '../types';
 import { useAuthStore } from '../stores/auth';
 import { useCollectionStore } from '../stores/collection';
 import { useMatchesStore } from '../stores/matches';
-import { getBey, rateBey } from '../api/client';
+import { getBey, rateBey, getBeyPriceHistory } from '../api/client';
 import { recordAgainstBey, recordWithBey } from '../utils/matches';
 import { Comments } from '../components/Comments';
+import { PriceChart } from '../components/PriceChart';
 import type { Ratings } from '../types';
 
 function localized(text: LocalizedString, locale: string) {
@@ -42,6 +43,7 @@ export function BeyDetail() {
   const [backendRatings, setBackendRatings] = useState<Ratings & { count: number } | null>(null);
   const [userRating, setUserRating] = useState<Ratings | null>(null);
   const [ratingError, setRatingError] = useState<string | null>(null);
+  const [priceHistory, setPriceHistory] = useState<{ date: string; priceEur: number | null; priceChf: number | null; priceUsd: number | null }[]>([]);
 
   useEffect(() => {
     if (!id) return;
@@ -53,6 +55,9 @@ export function BeyDetail() {
       .catch(() => {
         // Backend ratings are optional; fall back to calculated ratings.
       });
+    getBeyPriceHistory(id)
+      .then((data) => setPriceHistory(data.history))
+      .catch(() => {});
   }, [id]);
 
   useEffect(() => {
@@ -311,6 +316,11 @@ export function BeyDetail() {
           </div>
         </section>
       )}
+
+      <section className="rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
+        <h2 className="mb-4 text-lg font-semibold">{t('beyDetail.priceHistory')}</h2>
+        <PriceChart history={priceHistory} currency="EUR" />
+      </section>
 
       {bey && <Comments targetType="bey" targetId={bey.id} />}
     </div>

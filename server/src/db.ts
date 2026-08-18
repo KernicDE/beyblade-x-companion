@@ -487,6 +487,18 @@ export function deleteOwnedBey(userId: string, id: string): boolean {
   return result.changes > 0;
 }
 
+export function getBeyPriceHistory(beyId: string): { date: string; priceEur: number | null; priceChf: number | null; priceUsd: number | null }[] {
+  const database = getDb();
+  return database
+    .prepare(
+      `SELECT purchaseDate AS date, priceEur, priceChf, priceUsd
+       FROM owned_beys
+       WHERE beyId = ? AND purchaseDate IS NOT NULL AND (priceEur IS NOT NULL OR priceChf IS NOT NULL OR priceUsd IS NOT NULL)
+       ORDER BY purchaseDate ASC`
+    )
+    .all(beyId) as { date: string; priceEur: number | null; priceChf: number | null; priceUsd: number | null }[];
+}
+
 export function getBeyMarketPrices(currency: 'priceEur' | 'priceChf' | 'priceUsd' = 'priceEur', months = 3): Record<string, number> {
   const database = getDb();
   const since = new Date();

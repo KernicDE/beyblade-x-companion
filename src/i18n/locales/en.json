@@ -234,6 +234,8 @@
     "myRecord": "My record",
     "recordWith": "With this Bey",
     "recordAgainst": "Against this Bey",
+    "priceHistory": "Price history",
+    "noPriceHistory": "No price data available yet.",
     "pro": "Strengths",
     "con": "Weaknesses",
     "trivia": "Trivia"
