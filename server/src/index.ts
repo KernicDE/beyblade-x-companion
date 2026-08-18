@@ -3,6 +3,7 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { createApp } from './app.js';
 import { getDb, migrate, closeDb } from './db.js';
+import { seedCatalog } from './seed.js';
 import { DATA_DIR, UPLOADS_DIR, PORT } from './config.js';
 
 mkdirSync(DATA_DIR, { recursive: true });
@@ -13,6 +14,7 @@ const migrationsDir = join(__dirname, '../migrations');
 
 getDb();
 await migrate(migrationsDir);
+seedCatalog();
 
 const app = createApp();
 const server = app.listen(PORT, () => {

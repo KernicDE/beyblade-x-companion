@@ -2,7 +2,8 @@ import Database from 'better-sqlite3';
 import { readdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { DATABASE_PATH } from './config.js';
-import type { Role, User } from './types/index.js';
+import { generateId } from './utils/id.js';
+import type { Role, User, Part, Bey, PartRating, BeyRating, BeyBarcode } from './types/index.js';
 
 export type { User, Role };
 
@@ -151,4 +152,199 @@ export function createAuditLog(input: {
       input.meta ? JSON.stringify(input.meta) : null,
       input.createdAt
     );
+}
+
+function parsePart(row: unknown): Part {
+  const r = row as Record<string, unknown>;
+  return {
+    ...r,
+    description: r.description ? JSON.parse(r.description as string) : null,
+    assessment: r.assessment ? JSON.parse(r.assessment as string) : null,
+    officialStats: r.officialStats ? JSON.parse(r.officialStats as string) : null,
+    baselineRatings: r.baselineRatings ? JSON.parse(r.baselineRatings as string) : null,
+  } as Part;
+}
+
+function parseBey(row: unknown): Bey {
+  const r = row as Record<string, unknown>;
+  return {
+    ...r,
+    assessment: r.assessment ? JSON.parse(r.assessment as string) : null,
+    highlights: r.highlights ? JSON.parse(r.highlights as string) : null,
+  } as Bey;
+}
+
+export function getCatalog(): { parts: Part[]; beys: Bey[] } {
+  const database = getDb();
+  const partRows = database.prepare("SELECT * FROM parts WHERE status = 'approved' ORDER BY category, name").all();
+  const beyRows = database.prepare("SELECT * FROM beys WHERE status = 'approved' ORDER BY name").all();
+  return {
+    parts: partRows.map(parsePart),
+    beys: beyRows.map(parseBey),
+  };
+}
+
+export function listParts(category?: string): Part[] {
+  const database = getDb();
+  if (category) {
+    const rows = database.prepare("SELECT * FROM parts WHERE category = ? AND status = 'approved' ORDER BY name").all(category);
+    return rows.map(parsePart);
+  }
+  const rows = database.prepare("SELECT * FROM parts WHERE status = 'approved' ORDER BY category, name").all();
+  return rows.map(parsePart);
+}
+
+export function getPartById(category: string, id: string): Part | undefined {
+  const database = getDb();
+  const row = database
+    .prepare("SELECT * FROM parts WHERE category = ? AND id = ? AND status = 'approved'")
+    .get(category, id);
+  if (!row) return undefined;
+  return parsePart(row as Record<string, unknown>);
+}
+
+export function listBeys(): Bey[] {
+  const database = getDb();
+  const rows = database.prepare("SELECT * FROM beys WHERE status = 'approved' ORDER BY name").all();
+  return rows.map(parseBey);
+}
+
+export function getBeyById(id: string): Bey | undefined {
+  const database = getDb();
+  const row = database.prepare("SELECT * FROM beys WHERE id = ? AND status = 'approved'").get(id);
+  if (!row) return undefined;
+  return parseBey(row as Record<string, unknown>);
+}
+
+export function getUserPartRating(userId: string, partId: string): PartRating | undefined {
+  const database = getDb();
+  return database
+    .prepare('SELECT * FROM part_ratings WHERE userId = ? AND partId = ?')
+    .get(userId, partId) as PartRating | undefined;
+}
+
+export function getUserBeyRating(userId: string, beyId: string): BeyRating | undefined {
+  const database = getDb();
+  return database
+    .prepare('SELECT * FROM bey_ratings WHERE userId = ? AND beyId = ?')
+    .get(userId, beyId) as BeyRating | undefined;
+}
+
+export function upsertPartRating(
+  userId: string,
+  partId: string,
+  ratings: { attack: number; defense: number; stamina: number; balance: number },
+  role: Role
+): PartRating {
+  const database = getDb();
+  const now = new Date().toISOString();
+  const countsInAverage = role === 'Blader' || role === 'Council' || role === 'Referee' ? 1 : 0;
+  const existing = database.prepare('SELECT id FROM part_ratings WHERE userId = ? AND partId = ?').get(userId, partId);
+  if (existing) {
+    database
+      .prepare(
+        'UPDATE part_ratings SET attack = ?, defense = ?, stamina = ?, balance = ?, countsInAverage = ?, updatedAt = ? WHERE userId = ? AND partId = ?'
+      )
+      .run(ratings.attack, ratings.defense, ratings.stamina, ratings.balance, countsInAverage, now, userId, partId);
+  } else {
+    database
+      .prepare(
+        'INSERT INTO part_ratings (id, userId, partId, attack, defense, stamina, balance, countsInAverage, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+      )
+      .run(generateId(), userId, partId, ratings.attack, ratings.defense, ratings.stamina, ratings.balance, countsInAverage, now, now);
+  }
+  return getUserPartRating(userId, partId)!;
+}
+
+export function upsertBeyRating(
+  userId: string,
+  beyId: string,
+  ratings: { attack: number; defense: number; stamina: number; balance: number },
+  role: Role
+): BeyRating {
+  const database = getDb();
+  const now = new Date().toISOString();
+  const countsInAverage = role === 'Blader' || role === 'Council' || role === 'Referee' ? 1 : 0;
+  const existing = database.prepare('SELECT id FROM bey_ratings WHERE userId = ? AND beyId = ?').get(userId, beyId);
+  if (existing) {
+    database
+      .prepare(
+        'UPDATE bey_ratings SET attack = ?, defense = ?, stamina = ?, balance = ?, countsInAverage = ?, updatedAt = ? WHERE userId = ? AND beyId = ?'
+      )
+      .run(ratings.attack, ratings.defense, ratings.stamina, ratings.balance, countsInAverage, now, userId, beyId);
+  } else {
+    database
+      .prepare(
+        'INSERT INTO bey_ratings (id, userId, beyId, attack, defense, stamina, balance, countsInAverage, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+      )
+      .run(generateId(), userId, beyId, ratings.attack, ratings.defense, ratings.stamina, ratings.balance, countsInAverage, now, now);
+  }
+  return getUserBeyRating(userId, beyId)!;
+}
+
+export interface RatingSummary {
+  attack: number;
+  defense: number;
+  stamina: number;
+  balance: number;
+  count: number;
+}
+
+export function getPartRatingSummary(partId: string): RatingSummary {
+  const database = getDb();
+  const row = database
+    .prepare(
+      'SELECT AVG(attack) AS attack, AVG(defense) AS defense, AVG(stamina) AS stamina, AVG(balance) AS balance, COUNT(*) AS count FROM part_ratings WHERE partId = ? AND countsInAverage = 1'
+    )
+    .get(partId) as { attack: number; defense: number; stamina: number; balance: number; count: number };
+  return {
+    attack: row.attack ? Math.round(row.attack * 100) / 100 : 0,
+    defense: row.defense ? Math.round(row.defense * 100) / 100 : 0,
+    stamina: row.stamina ? Math.round(row.stamina * 100) / 100 : 0,
+    balance: row.balance ? Math.round(row.balance * 100) / 100 : 0,
+    count: row.count,
+  };
+}
+
+export function getBeyRatingSummary(beyId: string): RatingSummary {
+  const database = getDb();
+  const row = database
+    .prepare(
+      'SELECT AVG(attack) AS attack, AVG(defense) AS defense, AVG(stamina) AS stamina, AVG(balance) AS balance, COUNT(*) AS count FROM bey_ratings WHERE beyId = ? AND countsInAverage = 1'
+    )
+    .get(beyId) as { attack: number; defense: number; stamina: number; balance: number; count: number };
+  return {
+    attack: row.attack ? Math.round(row.attack * 100) / 100 : 0,
+    defense: row.defense ? Math.round(row.defense * 100) / 100 : 0,
+    stamina: row.stamina ? Math.round(row.stamina * 100) / 100 : 0,
+    balance: row.balance ? Math.round(row.balance * 100) / 100 : 0,
+    count: row.count,
+  };
+}
+
+export function getBarcodeByCode(code: string): (BeyBarcode & { bey?: Bey }) | undefined {
+  const database = getDb();
+  const row = database.prepare('SELECT * FROM bey_barcodes WHERE code = ?').get(code) as BeyBarcode | undefined;
+  if (!row) return undefined;
+  const bey = getBeyById(row.beyId);
+  return { ...row, bey };
+}
+
+export function createBeyBarcode(input: {
+  id: string;
+  code: string;
+  format?: string;
+  manufacturer?: string;
+  beyId: string;
+  source?: string;
+  createdBy?: string;
+  createdAt: string;
+}): BeyBarcode {
+  const database = getDb();
+  database
+    .prepare(
+      'INSERT INTO bey_barcodes (id, code, format, manufacturer, beyId, source, createdBy, createdAt) VALUES (?, ?, ?, ?, ?, ?, ?, ?)'
+    )
+    .run(input.id, input.code, input.format ?? null, input.manufacturer ?? null, input.beyId, input.source ?? null, input.createdBy ?? null, input.createdAt);
+  return getBarcodeByCode(input.code) as BeyBarcode;
 }
