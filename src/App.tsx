@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { DataProvider } from './components/DataProvider';
 import { Layout } from './components/Layout';
@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <DataProvider>
         <Layout>
           <Routes>
@@ -43,7 +43,7 @@ function App() {
           </Routes>
         </Layout>
       </DataProvider>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

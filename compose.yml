@@ -1,0 +1,29 @@
+services:
+  beycom:
+    image: ghcr.io/kernicde/beyblade-x-database:master
+    build: .
+    container_name: beycom
+    restart: unless-stopped
+    pull_policy: always
+    env_file: .env
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATA_DIR=/app/data
+    volumes:
+      - ./data:/app/data
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.beycom.rule=Host(`bey.dlivr.it`)"
+      - "traefik.http.routers.beycom.entrypoints=websecure"
+      - "traefik.http.routers.beycom.tls.certresolver=letsencrypt"
+      - "traefik.http.services.beycom.loadbalancer.server.port=3000"
+    # Localhost-only fallback if Traefik is not used yet
+    ports:
+      - "127.0.0.1:3000:3000"
+
+networks:
+  traefik:
+    external: true

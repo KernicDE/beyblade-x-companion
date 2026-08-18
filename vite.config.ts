@@ -5,16 +5,16 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/beyblade-x-companion/',
+  base: '/',
   plugins: [
     react(),
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Beyblade X Companion',
-        short_name: 'BX Companion',
-        description: 'Browse Beys, mix parts, and share custom combos offline.',
+        name: 'Beyblade X Database',
+        short_name: 'BX Database',
+        description: 'Community-driven Beyblade X catalog, collection and match database.',
         theme_color: '#3b82f6',
         background_color: '#f9fafb',
         display: 'standalone',
@@ -30,7 +30,23 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
+        runtimeCaching: [
+          {
+            urlPattern: /^https?:\/\/[^/]+\/api\/catalog$/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'catalog-api',
+              expiration: { maxEntries: 1, maxAgeSeconds: 60 * 60 * 24 },
+            },
+          },
+        ],
       },
     }),
   ],
+  server: {
+    proxy: {
+      '/api': 'http://localhost:3000',
+      '/uploads': 'http://localhost:3000',
+    },
+  },
 })

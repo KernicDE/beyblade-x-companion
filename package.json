@@ -1,14 +1,17 @@
 {
-  "name": "beyblade-x-companion",
+  "name": "beyblade-x-database",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server": "cd server && npm run dev",
     "build": "tsc -b && vite build",
+    "build:server": "cd server && npm run build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "test:server": "cd server && npm test"
   },
   "dependencies": {
     "lz-string": "^1.5.0",
