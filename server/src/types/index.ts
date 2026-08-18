@@ -159,3 +159,62 @@ export interface BeyBarcode {
   createdBy: string | null;
   createdAt: string;
 }
+
+export type FinishType = 'xtreme' | 'over' | 'burst' | 'spin';
+
+export interface OwnedBey {
+  id: string;
+  userId: string;
+  beyId: string;
+  purchaseDate: string | null;
+  shop: string | null;
+  priceEur: number | null;
+  priceChf: number | null;
+  setName: string | null;
+  note: string | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface OwnedPart {
+  id: string;
+  userId: string;
+  partId: string;
+  category: PartCategory;
+  obtainedFrom: string | null;
+  purchaseDate: string | null;
+  note: string | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Build {
+  id: string;
+  userId: string;
+  name: string;
+  note: string | null;
+  bladeId: string;
+  assistBladeId: string | null;
+  ratchetId: string;
+  bitId: string;
+  isPublic: number;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Match {
+  id: string;
+  userId: string;
+  date: string;
+  myBeySource: 'bey' | 'ownedBey' | 'build';
+  myBeyId: string;
+  opponentName: string;
+  opponentBeyId: string | null;
+  opponentCombo: string | null;
+  result: 'win' | 'loss';
+  finishType: FinishType | null;
+  note: string | null;
+  countsInStats: number;
+  createdAt: string;
+  updatedAt: string;
+}

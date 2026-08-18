@@ -3,7 +3,21 @@ import { readdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { DATABASE_PATH } from './config.js';
 import { generateId } from './utils/id.js';
-import type { Role, User, Part, Bey, PartRating, BeyRating, BeyBarcode } from './types/index.js';
+import type {
+  Role,
+  User,
+  Part,
+  Bey,
+  PartRating,
+  BeyRating,
+  BeyBarcode,
+  OwnedBey,
+  OwnedPart,
+  Build,
+  Match,
+  PartCategory,
+  FinishType,
+} from './types/index.js';
 
 export type { User, Role };
 
@@ -347,4 +361,379 @@ export function createBeyBarcode(input: {
     )
     .run(input.id, input.code, input.format ?? null, input.manufacturer ?? null, input.beyId, input.source ?? null, input.createdBy ?? null, input.createdAt);
   return getBarcodeByCode(input.code) as BeyBarcode;
+}
+
+export function listOwnedBeys(userId: string): OwnedBey[] {
+  const database = getDb();
+  return database.prepare('SELECT * FROM owned_beys WHERE userId = ? ORDER BY createdAt DESC').all(userId) as OwnedBey[];
+}
+
+export function getOwnedBeyById(userId: string, id: string): OwnedBey | undefined {
+  const database = getDb();
+  return database.prepare('SELECT * FROM owned_beys WHERE userId = ? AND id = ?').get(userId, id) as OwnedBey | undefined;
+}
+
+export function createOwnedBey(input: {
+  id: string;
+  userId: string;
+  beyId: string;
+  purchaseDate?: string | null;
+  shop?: string | null;
+  priceEur?: number | null;
+  priceChf?: number | null;
+  setName?: string | null;
+  note?: string | null;
+  createdAt: string;
+}): OwnedBey {
+  const database = getDb();
+  const now = input.createdAt;
+  database
+    .prepare(
+      `INSERT INTO owned_beys (id, userId, beyId, purchaseDate, shop, priceEur, priceChf, setName, note, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(
+      input.id,
+      input.userId,
+      input.beyId,
+      input.purchaseDate ?? null,
+      input.shop ?? null,
+      input.priceEur ?? null,
+      input.priceChf ?? null,
+      input.setName ?? null,
+      input.note ?? null,
+      now,
+      now
+    );
+  return getOwnedBeyById(input.userId, input.id)!;
+}
+
+export function updateOwnedBey(
+  userId: string,
+  id: string,
+  input: {
+    beyId?: string;
+    purchaseDate?: string | null;
+    shop?: string | null;
+    priceEur?: number | null;
+    priceChf?: number | null;
+    setName?: string | null;
+    note?: string | null;
+  }
+): OwnedBey | undefined {
+  const database = getDb();
+  const existing = getOwnedBeyById(userId, id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare(
+      `UPDATE owned_beys SET
+        beyId = ?, purchaseDate = ?, shop = ?, priceEur = ?, priceChf = ?, setName = ?, note = ?, updatedAt = ?
+       WHERE userId = ? AND id = ?`
+    )
+    .run(
+      input.beyId ?? existing.beyId,
+      input.purchaseDate !== undefined ? input.purchaseDate : existing.purchaseDate,
+      input.shop !== undefined ? input.shop : existing.shop,
+      input.priceEur !== undefined ? input.priceEur : existing.priceEur,
+      input.priceChf !== undefined ? input.priceChf : existing.priceChf,
+      input.setName !== undefined ? input.setName : existing.setName,
+      input.note !== undefined ? input.note : existing.note,
+      now,
+      userId,
+      id
+    );
+  return getOwnedBeyById(userId, id);
+}
+
+export function deleteOwnedBey(userId: string, id: string): boolean {
+  const database = getDb();
+  const result = database.prepare('DELETE FROM owned_beys WHERE userId = ? AND id = ?').run(userId, id);
+  return result.changes > 0;
+}
+
+export function listOwnedParts(userId: string): OwnedPart[] {
+  const database = getDb();
+  return database.prepare('SELECT * FROM owned_parts WHERE userId = ? ORDER BY createdAt DESC').all(userId) as OwnedPart[];
+}
+
+export function getOwnedPartById(userId: string, id: string): OwnedPart | undefined {
+  const database = getDb();
+  return database.prepare('SELECT * FROM owned_parts WHERE userId = ? AND id = ?').get(userId, id) as OwnedPart | undefined;
+}
+
+export function createOwnedPart(input: {
+  id: string;
+  userId: string;
+  partId: string;
+  category: PartCategory;
+  obtainedFrom?: string | null;
+  purchaseDate?: string | null;
+  note?: string | null;
+  createdAt: string;
+}): OwnedPart {
+  const database = getDb();
+  const now = input.createdAt;
+  database
+    .prepare(
+      `INSERT INTO owned_parts (id, userId, partId, category, obtainedFrom, purchaseDate, note, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(
+      input.id,
+      input.userId,
+      input.partId,
+      input.category,
+      input.obtainedFrom ?? null,
+      input.purchaseDate ?? null,
+      input.note ?? null,
+      now,
+      now
+    );
+  return getOwnedPartById(input.userId, input.id)!;
+}
+
+export function updateOwnedPart(
+  userId: string,
+  id: string,
+  input: {
+    partId?: string;
+    category?: PartCategory;
+    obtainedFrom?: string | null;
+    purchaseDate?: string | null;
+    note?: string | null;
+  }
+): OwnedPart | undefined {
+  const database = getDb();
+  const existing = getOwnedPartById(userId, id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare(
+      `UPDATE owned_parts SET
+        partId = ?, category = ?, obtainedFrom = ?, purchaseDate = ?, note = ?, updatedAt = ?
+       WHERE userId = ? AND id = ?`
+    )
+    .run(
+      input.partId ?? existing.partId,
+      input.category ?? existing.category,
+      input.obtainedFrom !== undefined ? input.obtainedFrom : existing.obtainedFrom,
+      input.purchaseDate !== undefined ? input.purchaseDate : existing.purchaseDate,
+      input.note !== undefined ? input.note : existing.note,
+      now,
+      userId,
+      id
+    );
+  return getOwnedPartById(userId, id);
+}
+
+export function deleteOwnedPart(userId: string, id: string): boolean {
+  const database = getDb();
+  const result = database.prepare('DELETE FROM owned_parts WHERE userId = ? AND id = ?').run(userId, id);
+  return result.changes > 0;
+}
+
+export function listBuilds(userId: string, opts?: { includePublic?: boolean }): Build[] {
+  const database = getDb();
+  if (opts?.includePublic) {
+    return database
+      .prepare('SELECT * FROM builds WHERE userId = ? OR isPublic = 1 ORDER BY updatedAt DESC')
+      .all(userId) as Build[];
+  }
+  return database.prepare('SELECT * FROM builds WHERE userId = ? ORDER BY updatedAt DESC').all(userId) as Build[];
+}
+
+export function getBuildById(userId: string, id: string): Build | undefined {
+  const database = getDb();
+  return database
+    .prepare('SELECT * FROM builds WHERE id = ? AND (userId = ? OR isPublic = 1)')
+    .get(id, userId) as Build | undefined;
+}
+
+export function createBuild(input: {
+  id: string;
+  userId: string;
+  name: string;
+  note?: string | null;
+  bladeId: string;
+  assistBladeId?: string | null;
+  ratchetId: string;
+  bitId: string;
+  isPublic?: boolean;
+  createdAt: string;
+}): Build {
+  const database = getDb();
+  const now = input.createdAt;
+  database
+    .prepare(
+      `INSERT INTO builds (id, userId, name, note, bladeId, assistBladeId, ratchetId, bitId, isPublic, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(
+      input.id,
+      input.userId,
+      input.name,
+      input.note ?? null,
+      input.bladeId,
+      input.assistBladeId ?? null,
+      input.ratchetId,
+      input.bitId,
+      input.isPublic ? 1 : 0,
+      now,
+      now
+    );
+  return getBuildById(input.userId, input.id)!;
+}
+
+export function updateBuild(
+  userId: string,
+  id: string,
+  input: {
+    name?: string;
+    note?: string | null;
+    bladeId?: string;
+    assistBladeId?: string | null;
+    ratchetId?: string;
+    bitId?: string;
+    isPublic?: boolean;
+  }
+): Build | undefined {
+  const database = getDb();
+  const existing = database.prepare('SELECT * FROM builds WHERE userId = ? AND id = ?').get(userId, id) as Build | undefined;
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare(
+      `UPDATE builds SET
+        name = ?, note = ?, bladeId = ?, assistBladeId = ?, ratchetId = ?, bitId = ?, isPublic = ?, updatedAt = ?
+       WHERE userId = ? AND id = ?`
+    )
+    .run(
+      input.name ?? existing.name,
+      input.note !== undefined ? input.note : existing.note,
+      input.bladeId ?? existing.bladeId,
+      input.assistBladeId !== undefined ? input.assistBladeId : existing.assistBladeId,
+      input.ratchetId ?? existing.ratchetId,
+      input.bitId ?? existing.bitId,
+      input.isPublic !== undefined ? (input.isPublic ? 1 : 0) : existing.isPublic,
+      now,
+      userId,
+      id
+    );
+  return getBuildById(userId, id);
+}
+
+export function deleteBuild(userId: string, id: string): boolean {
+  const database = getDb();
+  const result = database.prepare('DELETE FROM builds WHERE userId = ? AND id = ?').run(userId, id);
+  return result.changes > 0;
+}
+
+function matchCountsInStats(role: Role): number {
+  return role === 'Blader' || role === 'Referee' || role === 'Council' ? 1 : 0;
+}
+
+export function listMatches(userId: string): Match[] {
+  const database = getDb();
+  return database.prepare('SELECT * FROM matches WHERE userId = ? ORDER BY date DESC, createdAt DESC').all(userId) as Match[];
+}
+
+export function getMatchById(userId: string, id: string): Match | undefined {
+  const database = getDb();
+  return database.prepare('SELECT * FROM matches WHERE userId = ? AND id = ?').get(userId, id) as Match | undefined;
+}
+
+export function createMatch(
+  input: {
+    id: string;
+    userId: string;
+    date: string;
+    myBeySource: 'bey' | 'ownedBey' | 'build';
+    myBeyId: string;
+    opponentName: string;
+    opponentBeyId?: string | null;
+    opponentCombo?: string | null;
+    result: 'win' | 'loss';
+    finishType?: FinishType | null;
+    note?: string | null;
+    createdAt: string;
+  },
+  role: Role
+): Match {
+  const database = getDb();
+  const now = input.createdAt;
+  const countsInStats = matchCountsInStats(role);
+  database
+    .prepare(
+      `INSERT INTO matches (id, userId, date, myBeySource, myBeyId, opponentName, opponentBeyId, opponentCombo, result, finishType, note, countsInStats, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(
+      input.id,
+      input.userId,
+      input.date,
+      input.myBeySource,
+      input.myBeyId,
+      input.opponentName,
+      input.opponentBeyId ?? null,
+      input.opponentCombo ?? null,
+      input.result,
+      input.finishType ?? null,
+      input.note ?? null,
+      countsInStats,
+      now,
+      now
+    );
+  return getMatchById(input.userId, input.id)!;
+}
+
+export function updateMatch(
+  userId: string,
+  id: string,
+  input: {
+    date?: string;
+    myBeySource?: 'bey' | 'ownedBey' | 'build';
+    myBeyId?: string;
+    opponentName?: string;
+    opponentBeyId?: string | null;
+    opponentCombo?: string | null;
+    result?: 'win' | 'loss';
+    finishType?: FinishType | null;
+    note?: string | null;
+  },
+  role: Role
+): Match | undefined {
+  const database = getDb();
+  const existing = getMatchById(userId, id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  const countsInStats = matchCountsInStats(role);
+  database
+    .prepare(
+      `UPDATE matches SET
+        date = ?, myBeySource = ?, myBeyId = ?, opponentName = ?, opponentBeyId = ?, opponentCombo = ?, result = ?, finishType = ?, note = ?, countsInStats = ?, updatedAt = ?
+       WHERE userId = ? AND id = ?`
+    )
+    .run(
+      input.date ?? existing.date,
+      input.myBeySource ?? existing.myBeySource,
+      input.myBeyId ?? existing.myBeyId,
+      input.opponentName ?? existing.opponentName,
+      input.opponentBeyId !== undefined ? input.opponentBeyId : existing.opponentBeyId,
+      input.opponentCombo !== undefined ? input.opponentCombo : existing.opponentCombo,
+      input.result ?? existing.result,
+      input.finishType !== undefined ? input.finishType : existing.finishType,
+      input.note !== undefined ? input.note : existing.note,
+      countsInStats,
+      now,
+      userId,
+      id
+    );
+  return getMatchById(userId, id);
+}
+
+export function deleteMatch(userId: string, id: string): boolean {
+  const database = getDb();
+  const result = database.prepare('DELETE FROM matches WHERE userId = ? AND id = ?').run(userId, id);
+  return result.changes > 0;
 }

@@ -15,6 +15,9 @@ import authRoutes from './routes/auth.js';
 import adminRoutes from './routes/admin.js';
 import catalogRoutes from './routes/catalog.js';
 import scanRoutes from './routes/scan.js';
+import collectionRoutes from './routes/collection.js';
+import buildsRoutes from './routes/builds.js';
+import matchesRoutes from './routes/matches.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -52,6 +55,9 @@ export function createApp(): express.Application {
   app.use('/api/admin', adminRoutes);
   app.use('/api', catalogRoutes);
   app.use('/api/scan', scanRoutes);
+  app.use('/api/collection', collectionRoutes);
+  app.use('/api/builds', buildsRoutes);
+  app.use('/api/matches', matchesRoutes);
 
   const distPath = join(__dirname, '../../dist');
   if (existsSync(distPath)) {
