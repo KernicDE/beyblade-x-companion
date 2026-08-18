@@ -36,6 +36,7 @@ const ownedBeySchema = z.object({
   shop: z.string().max(200).nullable().optional(),
   priceEur: z.number().nullable().optional(),
   priceChf: z.number().nullable().optional(),
+  priceUsd: z.number().nullable().optional(),
   setName: z.string().max(200).nullable().optional(),
   note: z.string().max(2000).nullable().optional(),
 });

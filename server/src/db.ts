@@ -412,6 +412,7 @@ export function createOwnedBey(input: {
   shop?: string | null;
   priceEur?: number | null;
   priceChf?: number | null;
+  priceUsd?: number | null;
   setName?: string | null;
   note?: string | null;
   createdAt: string;
@@ -420,8 +421,8 @@ export function createOwnedBey(input: {
   const now = input.createdAt;
   database
     .prepare(
-      `INSERT INTO owned_beys (id, userId, beyId, purchaseDate, shop, priceEur, priceChf, setName, note, createdAt, updatedAt)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      `INSERT INTO owned_beys (id, userId, beyId, purchaseDate, shop, priceEur, priceChf, priceUsd, setName, note, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
     )
     .run(
       input.id,
@@ -431,6 +432,7 @@ export function createOwnedBey(input: {
       input.shop ?? null,
       input.priceEur ?? null,
       input.priceChf ?? null,
+      input.priceUsd ?? null,
       input.setName ?? null,
       input.note ?? null,
       now,
@@ -448,6 +450,7 @@ export function updateOwnedBey(
     shop?: string | null;
     priceEur?: number | null;
     priceChf?: number | null;
+    priceUsd?: number | null;
     setName?: string | null;
     note?: string | null;
   }
@@ -459,7 +462,7 @@ export function updateOwnedBey(
   database
     .prepare(
       `UPDATE owned_beys SET
-        beyId = ?, purchaseDate = ?, shop = ?, priceEur = ?, priceChf = ?, setName = ?, note = ?, updatedAt = ?
+        beyId = ?, purchaseDate = ?, shop = ?, priceEur = ?, priceChf = ?, priceUsd = ?, setName = ?, note = ?, updatedAt = ?
        WHERE userId = ? AND id = ?`
     )
     .run(
@@ -468,6 +471,7 @@ export function updateOwnedBey(
       input.shop !== undefined ? input.shop : existing.shop,
       input.priceEur !== undefined ? input.priceEur : existing.priceEur,
       input.priceChf !== undefined ? input.priceChf : existing.priceChf,
+      input.priceUsd !== undefined ? input.priceUsd : existing.priceUsd,
       input.setName !== undefined ? input.setName : existing.setName,
       input.note !== undefined ? input.note : existing.note,
       now,

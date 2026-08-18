@@ -170,6 +170,7 @@ export interface OwnedBey {
   shop: string | null;
   priceEur: number | null;
   priceChf: number | null;
+  priceUsd: number | null;
   setName: string | null;
   note: string | null;
   createdAt: string;

@@ -8,28 +8,51 @@ import { PartIcon } from '../components/PartIcon';
 import { inputClass } from '../components/formStyles';
 import type { Bey, PartCategory } from '../types';
 
-function formatPrice(owned: { priceEur?: number | null; priceChf?: number | null }): string {
-  if (owned.priceEur === undefined || owned.priceEur === null) return '';
-  const eur = `€${owned.priceEur.toFixed(2)}`;
-  return owned.priceChf !== undefined && owned.priceChf !== null
-    ? `${eur} (CHF ${owned.priceChf.toFixed(2)})`
-    : eur;
+function formatPrice(owned: { priceEur?: number | null; priceChf?: number | null; priceUsd?: number | null }): string {
+  if (owned.priceEur !== undefined && owned.priceEur !== null) {
+    return `€${owned.priceEur.toFixed(2)}`;
+  }
+  if (owned.priceChf !== undefined && owned.priceChf !== null) {
+    return `CHF ${owned.priceChf.toFixed(2)}`;
+  }
+  if (owned.priceUsd !== undefined && owned.priceUsd !== null) {
+    return `$${owned.priceUsd.toFixed(2)}`;
+  }
+  return '';
 }
+
+type Currency = 'EUR' | 'CHF' | 'USD';
 
 interface BeyFormProps {
   beys: Bey[];
-  initial?: { beyId?: string; purchaseDate?: string | null; shop?: string | null; priceEur?: number | null; priceChf?: number | null; setName?: string | null; note?: string | null };
-  onSave: (values: { beyId: string; purchaseDate?: string | null; shop?: string | null; priceEur?: number | null; priceChf?: number | null; setName?: string | null; note?: string | null }) => void;
+  initial?: { beyId?: string; purchaseDate?: string | null; shop?: string | null; priceEur?: number | null; priceChf?: number | null; priceUsd?: number | null; setName?: string | null; note?: string | null };
+  onSave: (values: { beyId: string; purchaseDate?: string | null; shop?: string | null; priceEur?: number | null; priceChf?: number | null; priceUsd?: number | null; setName?: string | null; note?: string | null }) => void;
   onCancel: () => void;
 }
 
 function BeyForm({ beys, initial, onSave, onCancel }: BeyFormProps) {
   const { t } = useTranslation();
+
+  const initialCurrency: Currency =
+    initial?.priceChf !== undefined && initial.priceChf !== null
+      ? 'CHF'
+      : initial?.priceUsd !== undefined && initial.priceUsd !== null
+        ? 'USD'
+        : 'EUR';
+  const initialAmount =
+    initial?.priceChf !== undefined && initial.priceChf !== null
+      ? initial.priceChf.toString()
+      : initial?.priceUsd !== undefined && initial.priceUsd !== null
+        ? initial.priceUsd.toString()
+        : initial?.priceEur !== undefined && initial.priceEur !== null
+          ? initial.priceEur.toString()
+          : '';
+
   const [beyId, setBeyId] = useState(initial?.beyId ?? '');
   const [purchaseDate, setPurchaseDate] = useState(initial?.purchaseDate ?? '');
   const [shop, setShop] = useState(initial?.shop ?? '');
-  const [priceEur, setPriceEur] = useState(initial?.priceEur?.toString() ?? '');
-  const [priceChf, setPriceChf] = useState(initial?.priceChf?.toString() ?? '');
+  const [amount, setAmount] = useState(initialAmount);
+  const [currency, setCurrency] = useState<Currency>(initialCurrency);
   const [setName, setSetName] = useState(initial?.setName ?? '');
   const [note, setNote] = useState(initial?.note ?? '');
 
@@ -38,14 +61,15 @@ function BeyForm({ beys, initial, onSave, onCancel }: BeyFormProps) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!beyId) return;
-    const eur = parseFloat(priceEur);
-    const chf = parseFloat(priceChf);
+    const value = parseFloat(amount);
+    const price = Number.isFinite(value) && value >= 0 ? value : null;
     onSave({
       beyId,
       purchaseDate: purchaseDate || null,
       shop: shop.trim() || null,
-      priceEur: Number.isFinite(eur) ? eur : null,
-      priceChf: Number.isFinite(chf) ? chf : null,
+      priceEur: currency === 'EUR' ? price : null,
+      priceChf: currency === 'CHF' ? price : null,
+      priceUsd: currency === 'USD' ? price : null,
       setName: setName.trim() || null,
       note: note.trim() || null,
     });
@@ -72,12 +96,16 @@ function BeyForm({ beys, initial, onSave, onCancel }: BeyFormProps) {
           <input type="text" value={shop} onChange={(e) => setShop(e.target.value)} className={inputClass} />
         </div>
         <div>
-          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.form.priceEur')}</label>
-          <input type="number" min="0" step="0.01" value={priceEur} onChange={(e) => setPriceEur(e.target.value)} className={inputClass} />
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.form.priceAmount')}</label>
+          <input type="number" min="0" step="0.01" value={amount} onChange={(e) => setAmount(e.target.value)} className={inputClass} />
         </div>
         <div>
-          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.form.priceChf')}</label>
-          <input type="number" min="0" step="0.01" value={priceChf} onChange={(e) => setPriceChf(e.target.value)} className={inputClass} />
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.form.priceCurrency')}</label>
+          <select value={currency} onChange={(e) => setCurrency(e.target.value as Currency)} className={inputClass}>
+            {(['EUR', 'CHF', 'USD'] as Currency[]).map((c) => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
         </div>
       </div>
       <div>

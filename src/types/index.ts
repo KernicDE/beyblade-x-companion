@@ -109,10 +109,12 @@ export interface OwnedBey {
   beyId: string;
   purchaseDate?: string | null;
   shop?: string | null;
-  /** Canonical price in EUR. CHF purchases are converted at the purchase-date rate on data entry. */
+  /** Canonical price in EUR. */
   priceEur?: number | null;
   /** Original CHF amount, kept for transparency when the purchase was made in CHF. */
   priceChf?: number | null;
+  /** Original USD amount. */
+  priceUsd?: number | null;
   setName?: string | null;
   note?: string | null;
 }

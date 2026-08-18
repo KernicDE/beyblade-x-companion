@@ -103,8 +103,8 @@
     "form": {
       "bey": "Bey",
       "selectBey": "Bey auswählen …",
-      "priceEur": "Preis (EUR)",
-      "priceChf": "Preis (CHF)"
+      "priceAmount": "Betrag",
+      "priceCurrency": "Währung"
     }
   },
   "beySource": {
