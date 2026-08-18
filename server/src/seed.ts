@@ -11,7 +11,23 @@ interface SeedPart extends Omit<Part, 'baselineRatings' | 'ratingsSource'> {
 }
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const dataDir = join(__dirname, '../../public/data');
+
+function resolveDataDir(): string {
+  const envDir = process.env.CATALOG_DATA_DIR;
+  if (envDir) return envDir;
+  const candidates = [
+    join(__dirname, '../../public/data'),
+    join(__dirname, '../../dist/data'),
+    join(__dirname, '../public/data'),
+    join(__dirname, '../dist/data'),
+  ];
+  for (const dir of candidates) {
+    if (existsSync(dir)) return dir;
+  }
+  return candidates[0];
+}
+
+const dataDir = resolveDataDir();
 
 function readJson<T>(name: string): T | undefined {
   const path = join(dataDir, name);
