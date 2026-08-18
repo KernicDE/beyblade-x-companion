@@ -146,6 +146,7 @@ export interface Match {
   result: 'win' | 'loss';
   finishType?: FinishType;
   note?: string;
+  countsInStats?: number;
 }
 
 export interface OwnedLauncher {

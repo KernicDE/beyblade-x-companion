@@ -7,6 +7,7 @@ import type {
   OwnedPart,
   Ratings,
   PublicUser,
+  FinishType,
 } from '../types';
 
 const API_BASE = '/api';
@@ -182,22 +183,87 @@ export async function deleteBuild(id: string): Promise<void> {
   await request(`/builds/${id}`, { method: 'DELETE' });
 }
 
+interface BackendMatch {
+  id: string;
+  date: string;
+  myBeySource: 'bey' | 'ownedBey' | 'build';
+  myBeyId: string;
+  opponentName: string;
+  opponentBeyId: string | null;
+  opponentCombo: string | null;
+  result: 'win' | 'loss';
+  finishType: FinishType | null;
+  note: string | null;
+  countsInStats: number;
+}
+
+function backendToMatch(m: BackendMatch): Match {
+  const myBey: Match['myBey'] =
+    m.myBeySource === 'bey'
+      ? { source: 'bey', beyId: m.myBeyId }
+      : m.myBeySource === 'ownedBey'
+        ? { source: 'ownedBey', ownedBeyId: m.myBeyId }
+        : { source: 'creation', creationId: m.myBeyId };
+  const opponent: Match['opponent'] = {
+    name: m.opponentName,
+    ...(m.opponentBeyId ? { beyId: m.opponentBeyId } : {}),
+    ...(m.opponentCombo ? { combo: JSON.parse(m.opponentCombo) as Match['opponent']['combo'] } : {}),
+  };
+  return {
+    id: m.id,
+    date: m.date,
+    myBey,
+    opponent,
+    result: m.result,
+    finishType: m.finishType ?? undefined,
+    note: m.note ?? undefined,
+    countsInStats: m.countsInStats,
+  };
+}
+
+function matchToBackend(input: Partial<Match>): Partial<BackendMatch> {
+  const out: Partial<BackendMatch> = {
+    date: input.date,
+    result: input.result,
+    finishType: input.finishType ?? null,
+    note: input.note ?? null,
+  };
+  if (input.myBey) {
+    out.myBeySource = input.myBey.source === 'creation' ? 'build' : input.myBey.source;
+    out.myBeyId =
+      input.myBey.source === 'bey'
+        ? input.myBey.beyId
+        : input.myBey.source === 'ownedBey'
+          ? input.myBey.ownedBeyId
+          : input.myBey.creationId;
+  }
+  if (input.opponent) {
+    out.opponentName = input.opponent.name;
+    out.opponentBeyId = input.opponent.beyId ?? null;
+    out.opponentCombo = input.opponent.combo ? JSON.stringify(input.opponent.combo) : null;
+  }
+  return out;
+}
+
 export async function getMatches(): Promise<{ matches: Match[] }> {
-  return request('/matches');
+  const data = await request<{ matches: BackendMatch[] }>('/matches');
+  return { matches: data.matches.map(backendToMatch) };
 }
 
-export async function createMatch(input: Omit<Match, 'id' | 'userId' | 'createdAt' | 'updatedAt' | 'countsInStats'>): Promise<{ match: Match }> {
-  return request('/matches', {
+export async function createMatch(input: Omit<Match, 'id' | 'countsInStats'>): Promise<{ match: Match }> {
+  const data = await request<{ match: BackendMatch }>('/matches', {
     method: 'POST',
-    body: JSON.stringify(input),
+    body: JSON.stringify(matchToBackend(input)),
   });
+  return { match: backendToMatch(data.match) };
 }
 
-export async function updateMatch(id: string, input: Partial<Omit<Match, 'id' | 'userId' | 'createdAt' | 'updatedAt' | 'countsInStats'>>): Promise<{ match: Match }> {
-  return request(`/matches/${id}`, {
+export async function updateMatch(id: string, input: Partial<Omit<Match, 'id' | 'countsInStats'>>): Promise<{ match: Match }> {
+  const data = await request<{ match: BackendMatch }>(`/matches/${id}`, {
     method: 'PATCH',
-    body: JSON.stringify(input),
+    body: JSON.stringify(matchToBackend(input as Partial<Match>)),
   });
+  return { match: backendToMatch(data.match) };
 }
 
 export async function deleteMatch(id: string): Promise<void> {

@@ -1,554 +1,243 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { useProfileStore } from '../stores/profile';
-import { useBuildsStore } from '../stores/builds';
-import { UnlockGate } from '../components/UnlockGate';
-import { MyBeySelect } from '../components/MyBeySelect';
+import { useAuthStore } from '../stores/auth';
+import { useMatchesStore } from '../stores/matches';
 import { useTranslation } from '../i18n';
 import { inputClass } from '../components/formStyles';
-import {
-  allBuilds,
-  currentStreak,
-  finishDistribution,
-  myBeyRefValue,
-  opponentStats,
-  overallRecord,
-  parseMyBeyRefValue,
-  recordsByMyBey,
-  resolveMyBeyName,
-  sortByDateDesc,
-} from '../utils/matches';
-import type { Database } from '../utils/data';
-import type { FinishType, Match } from '../types';
+import type { Match, FinishType } from '../types';
 
 const FINISH_TYPES: FinishType[] = ['xtreme', 'over', 'burst', 'spin'];
 
-function today(): string {
-  return new Date().toISOString().slice(0, 10);
-}
-
 interface MatchFormProps {
-  database: Database;
-  initial?: Match;
-  initialMyBey?: string;
-  onSave: (input: Omit<Match, 'id'>) => void;
+  beys: { id: string; name: string }[];
+  initial?: Partial<Match>;
+  onSave: (values: Omit<Match, 'id' | 'countsInStats'>) => void;
   onCancel: () => void;
 }
 
-function MatchForm({ database, initial, initialMyBey, onSave, onCancel }: MatchFormProps) {
+function MatchForm({ beys, initial, onSave, onCancel }: MatchFormProps) {
   const { t } = useTranslation();
-  const [myBey, setMyBey] = useState(initial ? myBeyRefValue(initial.myBey) : initialMyBey ?? '');
-  const [date, setDate] = useState(initial?.date ?? today());
-  const [opponentBeyId, setOpponentBeyId] = useState(initial?.opponent.beyId ?? '');
-  const [opponentName, setOpponentName] = useState(initial?.opponent.name ?? '');
+  const [date, setDate] = useState(initial?.date ?? new Date().toISOString().slice(0, 10));
+  const [myBeyId, setMyBeyId] = useState(initial?.myBey?.source === 'bey' ? initial.myBey.beyId : '');
+  const [opponentName, setOpponentName] = useState(initial?.opponent?.name ?? '');
+  const [opponentBeyId, setOpponentBeyId] = useState(initial?.opponent?.beyId ?? '');
   const [result, setResult] = useState<'win' | 'loss'>(initial?.result ?? 'win');
   const [finishType, setFinishType] = useState<FinishType | ''>(initial?.finishType ?? '');
   const [note, setNote] = useState(initial?.note ?? '');
 
-  const sortedBeys = useMemo(
-    () => [...database.beys].sort((a, b) => a.name.localeCompare(b.name)),
-    [database]
-  );
+  const sortedBeys = useMemo(() => [...beys].sort((a, b) => a.name.localeCompare(b.name)), [beys]);
 
-  const canSave = parseMyBeyRefValue(myBey) !== null && date !== '' && opponentName.trim() !== '';
-
-  const submit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const ref = parseMyBeyRefValue(myBey);
-    if (!ref || !date || opponentName.trim() === '') return;
+    if (!myBeyId || !opponentName.trim()) return;
     onSave({
       date,
-      myBey: ref,
+      myBey: { source: 'bey', beyId: myBeyId },
       opponent: {
         name: opponentName.trim(),
         ...(opponentBeyId ? { beyId: opponentBeyId } : {}),
       },
       result,
-      ...(finishType ? { finishType } : {}),
-      ...(note.trim() ? { note: note.trim() } : {}),
+      finishType: finishType || undefined,
+      note: note.trim() || undefined,
     });
   };
 
   return (
-    <form onSubmit={submit} className="space-y-3">
-      <div className="grid gap-3 sm:grid-cols-2">
+    <form onSubmit={handleSubmit} className="space-y-3 rounded-lg bg-[var(--surface)] p-4 shadow-sm">
+      <div className="grid grid-cols-2 gap-3">
         <div>
-          <label htmlFor="match-my-bey" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-            {t('matches.myBey')}
-          </label>
-          <MyBeySelect
-            id="match-my-bey"
-            database={database}
-            value={myBey}
-            onChange={setMyBey}
-            placeholder={t('matches.selectMyBey')}
-          />
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.date')}</label>
+          <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required className={inputClass} />
         </div>
         <div>
-          <label htmlFor="match-date" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-            {t('matches.date')}
-          </label>
-          <input
-            id="match-date"
-            type="date"
-            value={date}
-            onChange={(e) => setDate(e.target.value)}
-            className={inputClass}
-          />
-        </div>
-      </div>
-      <div className="grid gap-3 sm:grid-cols-2">
-        <div>
-          <label htmlFor="match-opponent-bey" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-            {t('matches.opponentCatalog')}
-          </label>
-          <select
-            id="match-opponent-bey"
-            value={opponentBeyId}
-            onChange={(e) => {
-              const beyId = e.target.value;
-              setOpponentBeyId(beyId);
-              if (beyId) {
-                setOpponentName(database.beys.find((b) => b.id === beyId)?.name ?? '');
-              }
-            }}
-            className={inputClass}
-          >
-            <option value="">{t('matches.noCatalogBey')}</option>
-            {sortedBeys.map((bey) => (
-              <option key={bey.id} value={bey.id}>{bey.name}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="match-opponent-name" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-            {t('matches.opponentName')}
-          </label>
-          <input
-            id="match-opponent-name"
-            type="text"
-            value={opponentName}
-            onChange={(e) => setOpponentName(e.target.value)}
-            className={inputClass}
-          />
-        </div>
-      </div>
-      <div className="grid gap-3 sm:grid-cols-2">
-        <div>
-          <label htmlFor="match-result" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-            {t('matches.result')}
-          </label>
-          <select
-            id="match-result"
-            value={result}
-            onChange={(e) => setResult(e.target.value as 'win' | 'loss')}
-            className={inputClass}
-          >
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.result')}</label>
+          <select value={result} onChange={(e) => setResult(e.target.value as 'win' | 'loss')} className={inputClass}>
             <option value="win">{t('matches.win')}</option>
             <option value="loss">{t('matches.loss')}</option>
           </select>
         </div>
+      </div>
+      <div>
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.myBey')}</label>
+        <select value={myBeyId} onChange={(e) => setMyBeyId(e.target.value)} required className={inputClass}>
+          <option value="" disabled>{t('collection.form.selectBey')}</option>
+          {sortedBeys.map((b) => (
+            <option key={b.id} value={b.id}>{b.name}</option>
+          ))}
+        </select>
+      </div>
+      <div className="grid grid-cols-2 gap-3">
         <div>
-          <label htmlFor="match-finish" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-            {t('matches.finishType')}
-          </label>
-          <select
-            id="match-finish"
-            value={finishType}
-            onChange={(e) => setFinishType(e.target.value as FinishType | '')}
-            className={inputClass}
-          >
-            <option value="">{t('matches.noFinish')}</option>
-            {FINISH_TYPES.map((finish) => (
-              <option key={finish} value={finish}>{t(`matches.finish.${finish}`)}</option>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.opponent')}</label>
+          <input type="text" value={opponentName} onChange={(e) => setOpponentName(e.target.value)} required className={inputClass} />
+        </div>
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.opponentBey')}</label>
+          <select value={opponentBeyId} onChange={(e) => setOpponentBeyId(e.target.value)} className={inputClass}>
+            <option value="">{t('matches.unknown')}</option>
+            {sortedBeys.map((b) => (
+              <option key={b.id} value={b.id}>{b.name}</option>
             ))}
           </select>
         </div>
       </div>
       <div>
-        <label htmlFor="match-note" className="mb-1 block text-xs font-medium text-[var(--muted)]">
-          {t('matches.note')}
-        </label>
-        <input
-          id="match-note"
-          type="text"
-          value={note}
-          onChange={(e) => setNote(e.target.value)}
-          className={inputClass}
-        />
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.finish')}</label>
+        <select value={finishType} onChange={(e) => setFinishType(e.target.value as FinishType | '')} className={inputClass}>
+          <option value="">{t('matches.noFinish')}</option>
+          {FINISH_TYPES.map((f) => (
+            <option key={f} value={f}>{t(`matches.${f}`)}</option>
+          ))}
+        </select>
+      </div>
+      <div>
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.note')}</label>
+        <input type="text" value={note} onChange={(e) => setNote(e.target.value)} className={inputClass} />
       </div>
       <div className="flex gap-2">
-        <button
-          type="submit"
-          disabled={!canSave}
-          className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
-        >
-          {initial ? t('matches.update') : t('matches.save')}
-        </button>
-        <button
-          type="button"
-          onClick={onCancel}
-          className="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
-        >
-          {t('matches.cancel')}
-        </button>
+        <button type="submit" className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700">{t('collection.save')}</button>
+        <button type="button" onClick={onCancel} className="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600">{t('collection.cancel')}</button>
       </div>
     </form>
   );
 }
 
-function FinishBar({ label, count, total, color }: { label: string; count: number; total: number; color: string }) {
-  return (
-    <div>
-      <div className="mb-1 flex items-center justify-between text-sm">
-        <span>{label}</span>
-        <span className="text-[var(--muted)]">{count}</span>
-      </div>
-      <div className="h-2 w-full rounded-full bg-[var(--muted)]/10">
-        <div
-          className={`h-2 rounded-full ${color}`}
-          style={{ width: `${total > 0 ? (count / total) * 100 : 0}%` }}
-        />
-      </div>
-    </div>
-  );
-}
-
-function MatchesContent() {
+export function Matches() {
   const { t } = useTranslation();
-  const { database, loading, error } = useData();
-  const { profile, addMatch, updateMatch, removeMatch } = useProfileStore();
-  const localBuilds = useBuildsStore((s) => s.builds);
+  const { user } = useAuthStore();
+  const { database, loading: dbLoading, error: dbError } = useData();
+  const { matches, loading, error, fetch, add, update, remove } = useMatchesStore();
   const [adding, setAdding] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
-  const [confirmRemoveId, setConfirmRemoveId] = useState<string | null>(null);
-  const [exportMessage, setExportMessage] = useState('');
 
-  const builds = useMemo(
-    () => allBuilds(profile, localBuilds),
-    [profile, localBuilds]
-  );
+  useEffect(() => {
+    if (user) fetch();
+  }, [user, fetch]);
 
-  if (loading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
-  if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
-  if (!profile) return null;
+  if (dbLoading) return <p className="text-[var(--muted)]">{t('errors.loadingDatabase')}</p>;
+  if (dbError || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
 
-  const matches = profile.matches;
-  const beyName = (beyId: string) => database.beys.find((b) => b.id === beyId)?.name;
-  const myBeyName = (ref: Parameters<typeof resolveMyBeyName>[0]) =>
-    resolveMyBeyName(ref, beyName, builds, profile.ownedBeys);
-
-  const overall = overallRecord(matches);
-  const streak = currentStreak(matches);
-  const byBey = recordsByMyBey(matches, profile.ownedBeys);
-  const opponents = opponentStats(matches);
-  const wonFinishes = finishDistribution(matches, 'win');
-  const lostFinishes = finishDistribution(matches, 'loss');
-  const wonTotal = FINISH_TYPES.reduce((s, f) => s + wonFinishes[f], 0);
-  const lostTotal = FINISH_TYPES.reduce((s, f) => s + lostFinishes[f], 0);
-  const sorted = sortByDateDesc(matches);
-  const nemesis = opponents.filter((o) => o.losses > 0).sort((a, b) => a.winRate - b.winRate || b.matches - a.matches)[0];
-
-  const handleExport = async () => {
-    const rows = sortByDateDesc(matches).map((match) => ({
-      date: match.date,
-      myBey: myBeyName(match.myBey),
-      opponent: match.opponent.name,
-      opponentBey: match.opponent.beyId ? beyName(match.opponent.beyId) ?? match.opponent.beyId : '',
-      result: match.result,
-      finish: match.finishType ? t(`matches.finish.${match.finishType}`) : '',
-      note: match.note ?? '',
-    }));
-    const header = ['Datum', 'Eigener Bey', 'Gegner', 'Gegner-Bey', 'Ergebnis', 'Finish', 'Notiz'].join('\t');
-    const lines = rows.map((r) =>
-      [r.date, r.myBey, r.opponent, r.opponentBey, r.result, r.finish, r.note].join('\t')
-    );
-    const text = [header, ...lines].join('\n');
-    try {
-      await navigator.clipboard.writeText(text);
-      setExportMessage(t('matches.exportCopied'));
-    } catch {
-      setExportMessage(t('matches.exportFailed'));
+  const handleSave = async (values: Omit<Match, 'id' | 'countsInStats'>) => {
+    if (editingId) {
+      await update(editingId, values);
+      setEditingId(null);
+    } else {
+      await add(values);
     }
-    setTimeout(() => setExportMessage(''), 3000);
+    setAdding(false);
   };
 
-  const editingMatch = editingId ? matches.find((m) => m.id === editingId) : undefined;
+  const stats = useMemo(() => {
+    const total = matches.length;
+    const wins = matches.filter((m) => m.result === 'win').length;
+    const losses = total - wins;
+    const finishCounts = FINISH_TYPES.reduce((acc, f) => {
+      acc[f] = matches.filter((m) => m.finishType === f).length;
+      return acc;
+    }, {} as Record<FinishType, number>);
+    return { total, wins, losses, winRate: total > 0 ? Math.round((wins / total) * 100) : 0, finishCounts };
+  }, [matches]);
+
+  if (!user) {
+    return (
+      <div className="rounded-xl bg-[var(--surface)] p-6 text-center shadow-sm">
+        <p className="text-[var(--muted)]">{t('collection.loginRequired')}</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="space-y-8">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <h1 className="text-2xl font-bold">{t('matches.title')}</h1>
-        <div className="flex flex-wrap items-center gap-2">
-          {!adding && (
-            <button
-              type="button"
-              onClick={() => {
-                setAdding(true);
-                setEditingId(null);
-              }}
-              className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
-            >
-              {t('matches.addMatch')}
-            </button>
-          )}
-          <button
-            type="button"
-            onClick={handleExport}
-            className="rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
-          >
-            {t('matches.exportAi')}
-          </button>
-          {exportMessage && (
-            <span className="text-sm text-green-600">{exportMessage}</span>
-          )}
+    <div className="space-y-6">
+      <div className="flex items-center justify-between">
+        <h1 className="text-2xl font-bold">{t('nav.matches')}</h1>
+        <button
+          type="button"
+          onClick={() => { setAdding(true); setEditingId(null); }}
+          className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          {t('matches.add')}
+        </button>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-4">
+        <div className="rounded-lg bg-[var(--surface)] p-4 text-center shadow-sm">
+          <p className="text-2xl font-bold">{stats.total}</p>
+          <p className="text-xs text-[var(--muted)]">{t('matches.total')}</p>
+        </div>
+        <div className="rounded-lg bg-[var(--surface)] p-4 text-center shadow-sm">
+          <p className="text-2xl font-bold text-green-600">{stats.wins}</p>
+          <p className="text-xs text-[var(--muted)]">{t('matches.wins')}</p>
+        </div>
+        <div className="rounded-lg bg-[var(--surface)] p-4 text-center shadow-sm">
+          <p className="text-2xl font-bold text-red-600">{stats.losses}</p>
+          <p className="text-xs text-[var(--muted)]">{t('matches.losses')}</p>
+        </div>
+        <div className="rounded-lg bg-[var(--surface)] p-4 text-center shadow-sm">
+          <p className="text-2xl font-bold">{stats.winRate}%</p>
+          <p className="text-xs text-[var(--muted)]">{t('matches.winRate')}</p>
         </div>
       </div>
 
-      <p className="text-sm text-[var(--muted)]">{t('matches.localEditsHint')}</p>
+      <div className="flex flex-wrap gap-2">
+        {FINISH_TYPES.map((f) => (
+          <span key={f} className="rounded-full bg-[var(--muted)]/10 px-3 py-1 text-xs">
+            {t(`matches.${f}`)}: {stats.finishCounts[f]}
+          </span>
+        ))}
+      </div>
 
-      {adding && (
-        <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-          <h2 className="mb-3 font-semibold">{t('matches.addMatch')}</h2>
-          <MatchForm
-            database={database}
-            initialMyBey={
-              profile.ownedBeys.length > 0
-                ? myBeyRefValue({
-                    source: 'ownedBey',
-                    ownedBeyId: profile.ownedBeys[profile.ownedBeys.length - 1].id,
-                  })
-                : ''
-            }
-            onSave={(input) => {
-              addMatch(input);
-              setAdding(false);
-            }}
-            onCancel={() => setAdding(false)}
-          />
-        </div>
+      {adding && <MatchForm beys={database.beys} onSave={handleSave} onCancel={() => setAdding(false)} />}
+      {editingId && (
+        <MatchForm
+          beys={database.beys}
+          initial={matches.find((m) => m.id === editingId)}
+          onSave={handleSave}
+          onCancel={() => setEditingId(null)}
+        />
       )}
 
-      {editingMatch && (
-        <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-          <h2 className="mb-3 font-semibold">{t('matches.editMatch')}</h2>
-          <MatchForm
-            database={database}
-            initial={editingMatch}
-            onSave={(input) => {
-              updateMatch(editingMatch.id, input);
-              setEditingId(null);
-            }}
-            onCancel={() => setEditingId(null)}
-          />
-        </div>
-      )}
+      {error && <p className="text-sm text-red-600">{error}</p>}
+      {loading && <p className="text-[var(--muted)]">{t('errors.loading')}</p>}
 
-      {matches.length === 0 && !adding ? (
-        <p className="text-[var(--muted)]">{t('matches.empty')}</p>
-      ) : (
-        <>
-          <section>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-                <p className="text-sm text-[var(--muted)]">{t('matches.overall')}</p>
-                <p className="text-2xl font-bold">{overall.wins}-{overall.losses}</p>
-                <p className="text-xs text-[var(--muted)]">{overall.matches} {t('matches.battles')}</p>
-              </div>
-              <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-                <p className="text-sm text-[var(--muted)]">{t('matches.winRate')}</p>
-                <p className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
-                  {Math.round(overall.winRate * 100)}%
-                </p>
-              </div>
-              <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-                <p className="text-sm text-[var(--muted)]">{t('matches.streak')}</p>
-                <p className="text-2xl font-bold">
-                  {streak.type === 'none' ? '-' : `${streak.count}${streak.type === 'win' ? 'W' : 'L'}`}
-                </p>
-              </div>
-              <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-                <p className="text-sm text-[var(--muted)]">{t('matches.nemesis')}</p>
-                <p className="truncate text-lg font-bold text-amber-600 dark:text-amber-400">
-                  {nemesis ? nemesis.name : '-'}
-                </p>
-                {nemesis && (
-                  <p className="text-xs text-[var(--muted)]">{nemesis.wins}-{nemesis.losses}</p>
-                )}
-              </div>
-            </div>
-          </section>
-
-          <section className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-              <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-[var(--muted)]">
-                {t('matches.finishWon')}
-              </h2>
-              <div className="space-y-2">
-                {FINISH_TYPES.map((finish) => (
-                  <FinishBar
-                    key={finish}
-                    label={t(`matches.finish.${finish}`)}
-                    count={wonFinishes[finish]}
-                    total={wonTotal}
-                    color="bg-emerald-500"
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-              <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-[var(--muted)]">
-                {t('matches.finishLost')}
-              </h2>
-              <div className="space-y-2">
-                {FINISH_TYPES.map((finish) => (
-                  <FinishBar
-                    key={finish}
-                    label={t(`matches.finish.${finish}`)}
-                    count={lostFinishes[finish]}
-                    total={lostTotal}
-                    color="bg-red-500"
-                  />
-                ))}
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="mb-4 text-lg font-semibold">{t('matches.byBey')}</h2>
-            <div className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-              <div className="space-y-3">
-                {byBey.map((entry) => (
-                  <div key={entry.key} className="flex items-center gap-3">
-                    <span className="min-w-0 flex-1 truncate text-sm font-medium">
-                      {entry.ref.source === 'bey' ? (
-                        <Link to={`/beys/${entry.ref.beyId}`} className="hover:text-blue-600 dark:hover:text-blue-400">
-                          {myBeyName(entry.ref)}
-                        </Link>
-                      ) : (
-                        myBeyName(entry.ref)
-                      )}
-                    </span>
-                    <span className="text-sm text-[var(--muted)]">{entry.wins}-{entry.losses}</span>
-                    <div className="h-2 w-24 rounded-full bg-[var(--muted)]/10">
-                      <div
-                        className="h-2 rounded-full bg-blue-500"
-                        style={{ width: `${entry.winRate * 100}%` }}
-                      />
-                    </div>
-                    <span className="w-10 text-right text-sm text-[var(--muted)]">
-                      {Math.round(entry.winRate * 100)}%
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="mb-4 text-lg font-semibold">{t('matches.opponents')}</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {opponents.map((opponent) => (
-                <div key={opponent.beyId ?? opponent.name} className="rounded-xl bg-[var(--surface)] p-4 shadow-sm">
-                  {opponent.beyId ? (
-                    <Link to={`/beys/${opponent.beyId}`} className="font-semibold hover:text-blue-600 dark:hover:text-blue-400">
-                      {opponent.name}
-                    </Link>
-                  ) : (
-                    <p className="font-semibold">{opponent.name}</p>
-                  )}
-                  <p className="mt-1 text-sm text-[var(--muted)]">
-                    {opponent.wins}-{opponent.losses} · {Math.round(opponent.winRate * 100)}% {t('matches.winRate')}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section>
-            <h2 className="mb-4 text-lg font-semibold">{t('matches.history')}</h2>
-            <div className="space-y-2">
-              {sorted.map((match) => (
-                <div
-                  key={match.id}
-                  className="flex flex-wrap items-center gap-2 rounded-xl bg-[var(--surface)] p-3 shadow-sm text-sm"
-                >
-                  <span className="text-[var(--muted)]">{match.date}</span>
-                  <span
-                    className={`rounded-full px-2 py-0.5 text-xs font-bold ${
-                      match.result === 'win'
-                        ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300'
-                        : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300'
-                    }`}
-                  >
-                    {match.result === 'win' ? t('matches.win') : t('matches.loss')}
+      <div className="space-y-3">
+        {matches.map((m) => {
+          const myBey = database.beys.find((b) => b.id === (m.myBey.source === 'bey' ? m.myBey.beyId : undefined));
+          const opponentBey = m.opponent.beyId ? database.beys.find((b) => b.id === m.opponent.beyId) : null;
+          return (
+            <div key={m.id} className="flex items-center justify-between rounded-lg bg-[var(--surface)] p-4 shadow-sm">
+              <div className="flex-1">
+                <div className="flex items-center gap-2 text-sm">
+                  <span className="text-[var(--muted)]">{m.date}</span>
+                  <span className={`font-semibold ${m.result === 'win' ? 'text-green-600' : 'text-red-600'}`}>
+                    {m.result === 'win' ? t('matches.win') : t('matches.loss')}
                   </span>
-                  <span className="font-medium">{myBeyName(match.myBey)}</span>
-                  <span className="text-[var(--muted)]">{t('matches.vs')}</span>
-                  <span className="font-medium">{match.opponent.name}</span>
-                  {match.finishType && (
-                    <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-700 dark:bg-gray-700 dark:text-gray-200">
-                      {t(`matches.finish.${match.finishType}`)}
-                    </span>
-                  )}
-                  {match.note && <span className="text-xs text-[var(--muted)]">— {match.note}</span>}
-                  {confirmRemoveId === match.id ? (
-                    <>
-                      <span className="text-xs text-[var(--muted)]">{t('matches.removeConfirm')}</span>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          removeMatch(match.id);
-                          setConfirmRemoveId(null);
-                        }}
-                        className="rounded-md bg-red-600 px-2 py-1 text-xs font-medium text-white hover:bg-red-700"
-                      >
-                        {t('matches.confirm')}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => setConfirmRemoveId(null)}
-                        className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
-                      >
-                        {t('matches.cancel')}
-                      </button>
-                    </>
-                  ) : (
-                    <>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setEditingId(match.id);
-                          setAdding(false);
-                        }}
-                        className="ml-auto rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
-                      >
-                        {t('matches.edit')}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => setConfirmRemoveId(match.id)}
-                        className="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-red-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-red-400 dark:hover:bg-gray-600"
-                      >
-                        {t('matches.remove')}
-                      </button>
-                    </>
-                  )}
+                  {m.finishType && <span className="text-xs text-[var(--muted)]">({t(`matches.${m.finishType}`)})</span>}
                 </div>
-              ))}
+                <p className="font-medium">
+                  {myBey ? (
+                    <Link to={`/beys/${myBey.id}`} className="text-blue-600 hover:underline dark:text-blue-400">{myBey.name}</Link>
+                  ) : (
+                    '?'
+                  )}
+                  {' vs '}
+                  {opponentBey ? (
+                    <Link to={`/beys/${opponentBey.id}`} className="text-blue-600 hover:underline dark:text-blue-400">{opponentBey.name}</Link>
+                  ) : (
+                    m.opponent.name
+                  )}
+                </p>
+                {m.note && <p className="text-xs text-[var(--muted)]">{m.note}</p>}
+              </div>
+              <div className="flex gap-2">
+                <button type="button" onClick={() => setEditingId(m.id)} className="text-xs text-blue-600 hover:underline">{t('collection.edit')}</button>
+                <button type="button" onClick={() => remove(m.id)} className="text-xs text-red-600 hover:underline">{t('collection.remove')}</button>
+              </div>
             </div>
-          </section>
-        </>
-      )}
+          );
+        })}
+      </div>
     </div>
-  );
-}
-
-export function Matches() {
-  return (
-    <UnlockGate>
-      <MatchesContent />
-    </UnlockGate>
   );
 }
