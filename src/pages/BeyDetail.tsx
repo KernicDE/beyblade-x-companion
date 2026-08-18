@@ -250,12 +250,12 @@ export function BeyDetail() {
                   <dd>{owned.shop}</dd>
                 </div>
               )}
-              {owned.priceEur !== undefined && (
+              {owned.priceEur != null && (
                 <div className="flex justify-between">
                   <dt className="text-[var(--muted)]">{t('collection.price')}</dt>
                   <dd>
                     €{owned.priceEur.toFixed(2)}
-                    {owned.priceChf !== undefined && ` (CHF ${owned.priceChf.toFixed(2)})`}
+                    {owned.priceChf != null && ` (CHF ${owned.priceChf.toFixed(2)})`}
                   </dd>
                 </div>
               )}

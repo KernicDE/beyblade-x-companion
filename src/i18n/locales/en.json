@@ -85,12 +85,20 @@
     "obtainedFrom": "Obtained from",
     "winRate": "win rate",
     "addBey": "Add bey",
+    "add": "Add",
     "edit": "Edit",
     "remove": "Remove",
+    "beys": "Beys",
+    "loginRequired": "Please log in to view your collection.",
     "removeConfirm": "Remove this copy?",
     "confirm": "Confirm",
     "cancel": "Cancel",
     "save": "Save",
+    "parts": {
+      "title": "Parts",
+      "category": "Category",
+      "part": "Part"
+    },
     "form": {
       "bey": "Bey",
       "selectBey": "Select a bey …",
@@ -341,6 +349,7 @@
     "communityRatings": "Community Ratings"
   },
   "errors": {
+    "loading": "Loading…",
     "loadingDatabase": "Loading database…",
     "failedDatabase": "Failed to load database."
   },

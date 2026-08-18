@@ -106,22 +106,23 @@ export interface OwnedBey {
   /** Unique id of this owned copy (a bey can be owned multiple times). */
   id: string;
   beyId: string;
-  purchaseDate?: string;
-  shop?: string;
+  purchaseDate?: string | null;
+  shop?: string | null;
   /** Canonical price in EUR. CHF purchases are converted at the purchase-date rate on data entry. */
-  priceEur?: number;
+  priceEur?: number | null;
   /** Original CHF amount, kept for transparency when the purchase was made in CHF. */
-  priceChf?: number;
-  setName?: string;
-  note?: string;
+  priceChf?: number | null;
+  setName?: string | null;
+  note?: string | null;
 }
 
 export interface OwnedPart {
+  id?: string;
   partId: string;
   category: PartCategory;
-  obtainedFrom?: string;
-  purchaseDate?: string;
-  note?: string;
+  obtainedFrom?: string | null;
+  purchaseDate?: string | null;
+  note?: string | null;
 }
 
 export type MyBeyRef =

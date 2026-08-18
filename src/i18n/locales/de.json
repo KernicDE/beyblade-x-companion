@@ -85,12 +85,20 @@
     "obtainedFrom": "Erhalten aus",
     "winRate": "Winrate",
     "addBey": "Bey hinzufügen",
+    "add": "Hinzufügen",
     "edit": "Bearbeiten",
     "remove": "Entfernen",
+    "beys": "Beys",
+    "loginRequired": "Bitte melde dich an, um deine Sammlung zu sehen.",
     "removeConfirm": "Dieses Exemplar entfernen?",
     "confirm": "Bestätigen",
     "cancel": "Abbrechen",
     "save": "Speichern",
+    "parts": {
+      "title": "Teile",
+      "category": "Kategorie",
+      "part": "Teil"
+    },
     "form": {
       "bey": "Bey",
       "selectBey": "Bey auswählen …",
@@ -341,6 +349,7 @@
     "communityRatings": "Community-Bewertungen"
   },
   "errors": {
+    "loading": "Wird geladen…",
     "loadingDatabase": "Datenbank wird geladen…",
     "failedDatabase": "Datenbank konnte nicht geladen werden."
   },
