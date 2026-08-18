@@ -6,6 +6,7 @@ import { useAuthStore } from '../stores/auth';
 import { useTranslation } from '../i18n';
 import { PartIcon } from '../components/PartIcon';
 import { inputClass } from '../components/formStyles';
+import { scanBarcode } from '../api/client';
 import type { Bey, PartCategory } from '../types';
 
 function formatPrice(owned: { priceEur?: number | null; priceChf?: number | null; priceUsd?: number | null }): string {
@@ -55,8 +56,32 @@ function BeyForm({ beys, initial, onSave, onCancel }: BeyFormProps) {
   const [currency, setCurrency] = useState<Currency>(initialCurrency);
   const [setName, setSetName] = useState(initial?.setName ?? '');
   const [note, setNote] = useState(initial?.note ?? '');
+  const [mode, setMode] = useState<'select' | 'scan'>(initial?.beyId ? 'select' : 'select');
+  const [barcode, setBarcode] = useState('');
+  const [scanLoading, setScanLoading] = useState(false);
+  const [scanError, setScanError] = useState<string | null>(null);
 
   const sortedBeys = useMemo(() => [...beys].sort((a, b) => a.name.localeCompare(b.name)), [beys]);
+
+  const handleScan = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!barcode.trim()) return;
+    setScanLoading(true);
+    setScanError(null);
+    try {
+      const { barcode: result } = await scanBarcode(barcode.trim());
+      if (result.bey) {
+        setBeyId(result.bey.id);
+        setMode('select');
+      } else {
+        setScanError(t('scan.noBeyLinked'));
+      }
+    } catch (err) {
+      setScanError(err instanceof Error ? err.message : t('scan.notFound'));
+    } finally {
+      setScanLoading(false);
+    }
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -77,15 +102,56 @@ function BeyForm({ beys, initial, onSave, onCancel }: BeyFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-3 rounded-lg bg-[var(--surface)] p-4 shadow-sm">
-      <div>
-        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.form.bey')}</label>
-        <select value={beyId} onChange={(e) => setBeyId(e.target.value)} required className={inputClass}>
-          <option value="" disabled>{t('collection.form.selectBey')}</option>
-          {sortedBeys.map((b) => (
-            <option key={b.id} value={b.id}>{b.name}</option>
-          ))}
-        </select>
+      <div className="flex gap-2">
+        <button
+          type="button"
+          onClick={() => setMode('select')}
+          className={`rounded-md px-3 py-1 text-xs font-medium ${mode === 'select' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200'}`}
+        >
+          {t('collection.form.bey')}
+        </button>
+        <button
+          type="button"
+          onClick={() => setMode('scan')}
+          className={`rounded-md px-3 py-1 text-xs font-medium ${mode === 'scan' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200'}`}
+        >
+          {t('nav.scan')}
+        </button>
       </div>
+
+      {mode === 'select' ? (
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.form.bey')}</label>
+          <select value={beyId} onChange={(e) => setBeyId(e.target.value)} required className={inputClass}>
+            <option value="" disabled>{t('collection.form.selectBey')}</option>
+            {sortedBeys.map((b) => (
+              <option key={b.id} value={b.id}>{b.name}</option>
+            ))}
+          </select>
+        </div>
+      ) : (
+        <div>
+          <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('scan.placeholder')}</label>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={barcode}
+              onChange={(e) => setBarcode(e.target.value)}
+              placeholder={t('scan.placeholder')}
+              className={inputClass}
+            />
+            <button
+              type="button"
+              onClick={handleScan}
+              disabled={scanLoading || !barcode.trim()}
+              className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+            >
+              {scanLoading ? '…' : t('scan.lookup')}
+            </button>
+          </div>
+          {scanError && <p className="mt-1 text-xs text-red-600">{scanError}</p>}
+        </div>
+      )}
       <div className="grid grid-cols-2 gap-3">
         <div>
           <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('collection.purchaseDate')}</label>
