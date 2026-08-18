@@ -13,7 +13,7 @@ services:
     volumes:
       - ./data:/app/data
     networks:
-      - traefik
+      - proxy
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.beycom.rule=Host(`bey.dlivr.it`)"
@@ -25,5 +25,5 @@ services:
       - "127.0.0.1:3000:3000"
 
 networks:
-  traefik:
+  proxy:
     external: true
