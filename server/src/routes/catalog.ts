@@ -14,6 +14,7 @@ import {
   upsertPartRating,
   listComments,
   createComment,
+  getBeyMarketPrices,
 } from '../db.js';
 import { requireAuth } from '../middleware/requireAuth.js';
 import { requireRole } from '../middleware/requireRole.js';
@@ -42,6 +43,20 @@ router.get('/beys/:id', (req, res) => {
   const ratings = getBeyRatingSummary(id);
   const userRating = req.user ? getUserBeyRating(req.user.id, id) : undefined;
   res.json({ bey, ratings, userRating });
+});
+
+router.get('/beys/:id/market-price', (req, res) => {
+  const id = req.params.id as string;
+  if (!getBeyById(id)) {
+    res.status(404).json({ error: 'Bey not found' });
+    return;
+  }
+  const prices = getBeyMarketPrices('priceEur', 3);
+  res.json({ beyId: id, averagePriceEur: prices[id] ?? null });
+});
+
+router.get('/market-prices', (_req, res) => {
+  res.json({ prices: getBeyMarketPrices('priceEur', 3) });
 });
 
 router.get('/parts', (req, res) => {

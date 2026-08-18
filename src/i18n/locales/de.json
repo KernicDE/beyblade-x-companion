@@ -59,6 +59,8 @@
     "greeting": "Hallo, {{name}}",
     "ownedBeys": "Beys im Besitz",
     "ownedParts": "Teile im Besitz",
+    "totalSpent": "Ausgegeben",
+    "currentValue": "Aktueller Wert",
     "recentlyAdded": "Zuletzt hinzugefügt",
     "recentMatches": "Letzte Matches",
     "links": {

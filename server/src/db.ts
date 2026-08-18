@@ -487,6 +487,25 @@ export function deleteOwnedBey(userId: string, id: string): boolean {
   return result.changes > 0;
 }
 
+export function getBeyMarketPrices(currency: 'priceEur' | 'priceChf' | 'priceUsd' = 'priceEur', months = 3): Record<string, number> {
+  const database = getDb();
+  const since = new Date();
+  since.setMonth(since.getMonth() - months);
+  const sinceIso = since.toISOString().slice(0, 10);
+  const rows = database
+    .prepare(
+      `SELECT beyId, AVG(${currency}) AS average
+       FROM owned_beys
+       WHERE ${currency} IS NOT NULL AND purchaseDate IS NOT NULL AND purchaseDate >= ?
+       GROUP BY beyId`
+    )
+    .all(sinceIso) as { beyId: string; average: number }[];
+  return rows.reduce((acc, row) => {
+    acc[row.beyId] = Math.round(row.average * 100) / 100;
+    return acc;
+  }, {} as Record<string, number>);
+}
+
 export function listOwnedParts(userId: string): OwnedPart[] {
   const database = getDb();
   return database.prepare('SELECT * FROM owned_parts WHERE userId = ? ORDER BY createdAt DESC').all(userId) as OwnedPart[];

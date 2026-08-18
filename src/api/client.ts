@@ -98,6 +98,14 @@ export async function ratePart(category: string, id: string, ratings: Ratings): 
   });
 }
 
+export async function getBeyMarketPrice(id: string): Promise<{ beyId: string; averagePriceEur: number | null }> {
+  return request(`/beys/${id}/market-price`);
+}
+
+export async function getMarketPrices(): Promise<{ prices: Record<string, number> }> {
+  return request('/market-prices');
+}
+
 export interface ScanResponse {
   barcode: {
     id: string;

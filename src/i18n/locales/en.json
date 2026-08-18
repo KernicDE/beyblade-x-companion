@@ -59,6 +59,8 @@
     "greeting": "Hello, {{name}}",
     "ownedBeys": "Owned Beys",
     "ownedParts": "Owned parts",
+    "totalSpent": "Total spent",
+    "currentValue": "Current value",
     "recentlyAdded": "Recently added",
     "recentMatches": "Recent matches",
     "links": {
