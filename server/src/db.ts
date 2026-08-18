@@ -116,3 +116,39 @@ export function promoteRatingsForUser(userId: string): void {
   database.prepare('UPDATE part_ratings SET countsInAverage = 1, updatedAt = ? WHERE userId = ?').run(now, userId);
   database.prepare('UPDATE bey_ratings SET countsInAverage = 1, updatedAt = ? WHERE userId = ?').run(now, userId);
 }
+
+export function countUserContributions(userId: string): number {
+  const database = getDb();
+  const ratings = database
+    .prepare("SELECT COUNT(*) AS count FROM part_ratings WHERE userId = ? UNION ALL SELECT COUNT(*) FROM bey_ratings WHERE userId = ?")
+    .all(userId, userId) as { count: number }[];
+  const comments = database
+    .prepare('SELECT COUNT(*) AS count FROM comments WHERE userId = ? AND deletedAt IS NULL')
+    .get(userId) as { count: number };
+  return ratings.reduce((sum, row) => sum + row.count, 0) + comments.count;
+}
+
+export function createAuditLog(input: {
+  id: string;
+  actorId: string;
+  action: string;
+  targetType?: string;
+  targetId?: string;
+  meta?: Record<string, unknown>;
+  createdAt: string;
+}): void {
+  const database = getDb();
+  database
+    .prepare(
+      'INSERT INTO audit_log (id, actorId, action, targetType, targetId, meta, createdAt) VALUES (?, ?, ?, ?, ?, ?, ?)'
+    )
+    .run(
+      input.id,
+      input.actorId,
+      input.action,
+      input.targetType ?? null,
+      input.targetId ?? null,
+      input.meta ? JSON.stringify(input.meta) : null,
+      input.createdAt
+    );
+}

@@ -12,6 +12,7 @@ import {
 } from './config.js';
 import { getDb } from './db.js';
 import authRoutes from './routes/auth.js';
+import adminRoutes from './routes/admin.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -46,6 +47,7 @@ export function createApp(): express.Application {
 
   app.use('/uploads', express.static(UPLOADS_DIR));
   app.use('/api/auth', authRoutes);
+  app.use('/api/admin', adminRoutes);
 
   const distPath = join(__dirname, '../../dist');
   if (existsSync(distPath)) {

@@ -31,3 +31,4 @@ server/data/
 *.njsproj
 *.sln
 *.sw?
+server/tsconfig.tsbuildinfo
