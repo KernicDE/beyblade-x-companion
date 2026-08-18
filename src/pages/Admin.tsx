@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from '../i18n';
 import { useAuthStore } from '../stores/auth';
+import { AdminCatalogEditor } from '../components/AdminCatalogEditor';
 import * as api from '../api/client';
 import type { PublicUser, Part, Bey } from '../types';
 
@@ -12,7 +13,7 @@ export function Admin() {
   const [pendingBeys, setPendingBeys] = useState<Bey[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<'users' | 'catalog'>('users');
+  const [activeTab, setActiveTab] = useState<'users' | 'catalog' | 'editCatalog'>('users');
 
   const isCouncil = user?.role === 'Council';
   const isModerator = isCouncil || user?.role === 'Referee';
@@ -119,13 +120,14 @@ export function Admin() {
         {[
           { key: 'users', label: t('admin.users') },
           { key: 'catalog', label: t('admin.catalog') },
+          { key: 'editCatalog', label: t('admin.editCatalog') },
         ].map((tab) => (
           <button
             key={tab.key}
             type="button"
             role="tab"
             aria-selected={activeTab === tab.key}
-            onClick={() => setActiveTab(tab.key as 'users' | 'catalog')}
+            onClick={() => setActiveTab(tab.key as 'users' | 'catalog' | 'editCatalog')}
             className={`-mb-px border-b-2 px-4 py-2 text-sm font-medium transition-colors ${
               activeTab === tab.key
                 ? 'border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400'
@@ -290,6 +292,8 @@ export function Admin() {
           </section>
         </div>
       )}
+
+      {activeTab === 'editCatalog' && <AdminCatalogEditor />}
     </div>
   );
 }

@@ -435,6 +435,13 @@ export async function editBey(id: string, input: Partial<Bey>): Promise<{ bey: B
   });
 }
 
+export async function createBarcode(input: { code: string; beyId: string; format?: string; manufacturer?: string; source?: string }): Promise<{ barcode: { id: string; code: string; beyId: string } }> {
+  return request('/scan/barcodes', {
+    method: 'POST',
+    body: JSON.stringify(input),
+  });
+}
+
 // TOTP
 export async function getTotpStatus(): Promise<{ enabled: boolean }> {
   return request('/auth/totp/status');

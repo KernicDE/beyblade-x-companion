@@ -5,6 +5,13 @@ import { requireAuth } from '../middleware/requireAuth.js';
 import { requireRole } from '../middleware/requireRole.js';
 import { validateBody } from '../middleware/validate.js';
 import { generateId } from '../utils/id.js';
+import type { User } from '../types/index.js';
+
+function canManageBarcodes(user: User, beyId: string): boolean {
+  if (user.role === 'Council' || user.role === 'Referee') return true;
+  const bey = getBeyById(beyId);
+  return !!bey && bey.suggestedBy === user.id;
+}
 
 const router = Router();
 
@@ -39,13 +46,16 @@ const createBarcodeSchema = z.object({
 router.post(
   '/barcodes',
   requireAuth,
-  requireRole('Referee', 'Council'),
   validateBody(createBarcodeSchema),
   (req, res, next) => {
     try {
       const { code, format, manufacturer, beyId, source } = req.body as z.infer<typeof createBarcodeSchema>;
       if (!getBeyById(beyId)) {
         res.status(404).json({ error: 'Bey not found' });
+        return;
+      }
+      if (!canManageBarcodes(req.user!, beyId)) {
+        res.status(403).json({ error: 'Not authorized to manage barcodes for this Bey' });
         return;
       }
       const existing = getBarcodeByCode(code.trim());
