@@ -129,11 +129,11 @@ export function BeyDetail() {
     <div className="space-y-6">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-4 rounded-xl bg-[var(--surface)] p-6 shadow-sm transition-colors">
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col items-center gap-4 sm:flex-row">
             {bey.imageUrl ? (
-              <img src={bey.imageUrl} alt="" className="h-24 w-24 rounded-xl object-contain" />
+              <img src={bey.imageUrl} alt="" className="h-48 w-48 rounded-xl object-contain" />
             ) : (
-              <PartIcon category="bey" size={96} />
+              <PartIcon category="bey" size={192} />
             )}
             <div>
               <div className="flex items-center gap-2">

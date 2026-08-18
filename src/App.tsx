@@ -13,6 +13,7 @@ import { Builder } from './pages/Builder';
 import { Builds } from './pages/Builds';
 import { Simulator } from './pages/Simulator';
 import { Profile } from './pages/Profile';
+import { Settings } from './pages/Settings';
 import { Import } from './pages/Import';
 import { View } from './pages/View';
 import { Scan } from './pages/Scan';
@@ -40,6 +41,7 @@ function App() {
             <Route path="/deck" element={<Navigate to="/builder?tab=deck" replace />} />
             <Route path="/simulator" element={<Simulator />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/settings" element={<Settings />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/import" element={<Import />} />
             <Route path="/view/:compressed" element={<View />} />

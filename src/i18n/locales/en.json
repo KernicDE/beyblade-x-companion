@@ -12,6 +12,7 @@
     "simulator": "Simulator",
     "scan": "Scan",
     "profile": "Profile",
+    "settings": "Settings",
     "admin": "Admin"
   },
   "theme": {
@@ -350,6 +351,12 @@
     "tie": "Tie",
     "advantage": "Advantage",
     "matchupHint": "Select two Beys for a rule-based prediction."
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "language": "Language"
   },
   "profile": {
     "title": "Profile",

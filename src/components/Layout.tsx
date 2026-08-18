@@ -4,6 +4,7 @@ import type { ReactNode } from 'react';
 import { useThemeStore, initThemeListener } from '../stores/theme';
 import { useTranslation } from '../i18n';
 import { AuthBar } from './AuthBar';
+import { UserMenu } from './UserMenu';
 import { useAuthStore } from '../stores/auth';
 
 export function Layout({ children }: { children: ReactNode }) {
@@ -37,8 +38,6 @@ export function Layout({ children }: { children: ReactNode }) {
 
   const themeLabel = t(`theme.${theme === 'system' ? 'auto' : theme}`);
 
-  const isModerator = user?.role === 'Council' || user?.role === 'Referee';
-
   const nav = [
     { to: '/', label: t('nav.home') },
     { to: '/collection', label: t('nav.collection') },
@@ -47,8 +46,6 @@ export function Layout({ children }: { children: ReactNode }) {
     { to: '/matches', label: t('nav.matches') },
     { to: '/simulator', label: t('nav.simulator') },
     { to: '/scan', label: t('nav.scan') },
-    ...(isModerator ? [{ to: '/admin', label: t('nav.admin') }] : []),
-    { to: '/profile', label: t('nav.profile') },
   ];
 
   return (
@@ -73,23 +70,7 @@ export function Layout({ children }: { children: ReactNode }) {
                   {item.label}
                 </Link>
               ))}
-              <button
-                type="button"
-                onClick={cycleTheme}
-                className="rounded-full border border-gray-300 dark:border-slate-600 px-3 py-1 text-xs font-medium text-[var(--muted)] hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
-                title="Toggle theme"
-              >
-                {themeLabel}
-              </button>
-              <button
-                type="button"
-                onClick={toggleLocale}
-                className="rounded-full border border-gray-300 dark:border-slate-600 px-3 py-1 text-xs font-medium text-[var(--muted)] hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
-                title="Toggle language"
-              >
-                {locale.toUpperCase()}
-              </button>
-              <AuthBar />
+              {user ? <UserMenu /> : <AuthBar />}
             </nav>
           </div>
         </div>
@@ -98,8 +79,28 @@ export function Layout({ children }: { children: ReactNode }) {
       <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
 
       <footer className="border-t border-gray-200 dark:border-slate-700 bg-[var(--surface)] transition-colors">
-        <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-[var(--muted)]">
-          {t('footer')}
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-[var(--muted)] sm:flex-row sm:items-center sm:justify-between">
+          <span>{t('footer')}</span>
+          {!user && (
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={cycleTheme}
+                className="rounded-full border border-gray-300 dark:border-slate-600 px-3 py-1 text-xs font-medium text-[var(--muted)] hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
+                title={t('settings.theme')}
+              >
+                {themeLabel}
+              </button>
+              <button
+                type="button"
+                onClick={toggleLocale}
+                className="rounded-full border border-gray-300 dark:border-slate-600 px-3 py-1 text-xs font-medium text-[var(--muted)] hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
+                title={t('settings.language')}
+              >
+                {locale.toUpperCase()}
+              </button>
+            </div>
+          )}
         </div>
       </footer>
     </div>

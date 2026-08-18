@@ -4,7 +4,7 @@ import { useTranslation } from '../i18n';
 
 export function AuthBar() {
   const { t } = useTranslation();
-  const { user, loading, login, register, logout, error, clearError } = useAuthStore();
+  const { user, loading, login, register, error, clearError } = useAuthStore();
   const [mode, setMode] = useState<'login' | 'register'>('login');
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState('');
@@ -14,23 +14,8 @@ export function AuthBar() {
   const [totpStep, setTotpStep] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  if (loading) {
-    return <span className="text-xs text-[var(--muted)]">…</span>;
-  }
-
-  if (user) {
-    return (
-      <div className="flex items-center gap-3">
-        <span className="text-sm text-[var(--muted)]">{user.username}</span>
-        <button
-          type="button"
-          onClick={() => logout()}
-          className="rounded-full border border-gray-300 dark:border-slate-600 px-3 py-1 text-xs font-medium text-[var(--muted)] hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
-        >
-          {t('auth.logout')}
-        </button>
-      </div>
-    );
+  if (loading || user) {
+    return null;
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -69,7 +54,7 @@ export function AuthBar() {
           setTotpCode('');
           clearError();
         }}
-        className="rounded-full bg-blue-600 px-3 py-1 text-xs font-medium text-white hover:bg-blue-700 transition-colors"
+        className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-400"
       >
         {t('auth.login')}
       </button>

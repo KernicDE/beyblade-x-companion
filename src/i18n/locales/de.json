@@ -12,6 +12,7 @@
     "simulator": "Simulator",
     "scan": "Scan",
     "profile": "Profil",
+    "settings": "Einstellungen",
     "admin": "Admin"
   },
   "theme": {
@@ -350,6 +351,12 @@
     "tie": "Unentschieden",
     "advantage": "Vorteil",
     "matchupHint": "Wähle zwei Beys für eine regelbasierte Prognose."
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "appearance": "Erscheinungsbild",
+    "theme": "Design",
+    "language": "Sprache"
   },
   "profile": {
     "title": "Profil",
