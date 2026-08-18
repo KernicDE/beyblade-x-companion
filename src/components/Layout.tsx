@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import type { ReactNode } from 'react';
 import { useThemeStore, initThemeListener } from '../stores/theme';
 import { useTranslation } from '../i18n';
+import { AuthBar } from './AuthBar';
 
 export function Layout({ children }: { children: ReactNode }) {
   const location = useLocation();
@@ -82,6 +83,7 @@ export function Layout({ children }: { children: ReactNode }) {
               >
                 {locale.toUpperCase()}
               </button>
+              <AuthBar />
             </nav>
           </div>
         </div>
