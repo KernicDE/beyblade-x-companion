@@ -10,6 +10,8 @@ import type {
   ComboParts,
   Ratings,
   Tier,
+  LocalizedString,
+  OfficialStats,
 } from '../types';
 
 export interface MetaCombo {
@@ -61,7 +63,40 @@ async function loadJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-export async function loadDatabase(): Promise<Database> {
+function defaultLocalized(fallback = ''): LocalizedString {
+  return { en: fallback, de: fallback };
+}
+
+function defaultStats(): OfficialStats {
+  return {};
+}
+
+function normalizePart<T extends Part>(part: T): T {
+  return {
+    ...part,
+    description: part.description || defaultLocalized(),
+    assessment: part.assessment || defaultLocalized(),
+    officialStats: part.officialStats || defaultStats(),
+    ratings: part.ratings || { attack: 0, defense: 0, stamina: 0, balance: 0 },
+    ratingsDisclaimer: (part as Part & { ratingsDisclaimer?: true }).ratingsDisclaimer ?? true,
+    ratingsSource: part.ratingsSource || 'estimated',
+    imageUrl: part.imageUrl || '',
+    releaseDate: part.releaseDate || '',
+    releaseWave: part.releaseWave || '',
+  } as T;
+}
+
+function normalizeBey(bey: Bey): Bey {
+  return {
+    ...bey,
+    assessment: bey.assessment || defaultLocalized(),
+    imageUrl: bey.imageUrl || '',
+    releaseDate: bey.releaseDate || '',
+    releaseWave: bey.releaseWave || '',
+  };
+}
+
+async function loadStaticDatabase(): Promise<Database> {
   const base = import.meta.env.BASE_URL;
   const [blades, assistBlades, ratchets, bits, launchers, beys, prices, meta] = await Promise.all([
     loadJson<Blade[]>(`${base}data/blades.json`),
@@ -90,6 +125,49 @@ export async function loadDatabase(): Promise<Database> {
   });
 
   return { blades, assistBlades, ratchets, bits, launchers, beys: beysWithPrices, meta };
+}
+
+export async function loadDatabase(): Promise<Database> {
+  try {
+    const response = await fetch('/api/catalog', { credentials: 'same-origin' });
+    if (!response.ok) throw new Error('Backend catalog unavailable');
+    const { parts, beys } = (await response.json()) as { parts: Part[]; beys: Bey[] };
+
+    const blades: Blade[] = [];
+    const assistBlades: AssistBlade[] = [];
+    const ratchets: Ratchet[] = [];
+    const bits: Bit[] = [];
+
+    for (const part of parts) {
+      const normalized = normalizePart(part);
+      switch (normalized.category) {
+        case 'blade':
+          blades.push(normalized as Blade);
+          break;
+        case 'assistBlade':
+          assistBlades.push(normalized as AssistBlade);
+          break;
+        case 'ratchet':
+          ratchets.push(normalized as Ratchet);
+          break;
+        case 'bit':
+          bits.push(normalized as Bit);
+          break;
+      }
+    }
+
+    return {
+      blades,
+      assistBlades,
+      ratchets,
+      bits,
+      launchers: [],
+      beys: beys.map(normalizeBey),
+      meta: { topCombos: [], metaParts: [], recommendedPurchases: [] },
+    };
+  } catch {
+    return loadStaticDatabase();
+  }
 }
 
 export function getPartById(

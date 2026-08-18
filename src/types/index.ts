@@ -175,3 +175,19 @@ export interface ComboParts {
   ratchetId: string;
   bitId: string;
 }
+
+export type Role = 'Council' | 'Referee' | 'Blader' | 'Rookie Blader';
+
+export interface PublicUser {
+  id: string;
+  username: string;
+  email: string | null;
+  role: Role;
+  isBanned: number;
+  banReason: string | null;
+  bannedAt: string | null;
+  bannedBy: string | null;
+  totpEnabled: number;
+  createdAt: string;
+  updatedAt: string;
+}
