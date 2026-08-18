@@ -9,8 +9,8 @@ import { ManufacturerBadge } from '../components/ManufacturerBadge';
 import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
-import { useProfileStore } from '../stores/profile';
 import { useAuthStore } from '../stores/auth';
+import { useCollectionStore } from '../stores/collection';
 import { getPart, ratePart } from '../api/client';
 import { Comments } from '../components/Comments';
 import type { PartCategory, LocalizedString, Ratings } from '../types';
@@ -32,8 +32,8 @@ export function PartDetail() {
   const { t, locale } = useTranslation();
   const { category, id } = useParams<{ category: string; id: string }>();
   const { database, loading, error } = useData();
-  const { profile } = useProfileStore();
   const { user } = useAuthStore();
+  const { ownedParts, fetch: fetchCollection } = useCollectionStore();
   const [backendRatings, setBackendRatings] = useState<Ratings & { count: number } | null>(null);
   const [userRating, setUserRating] = useState<Ratings | null>(null);
   const [ratingError, setRatingError] = useState<string | null>(null);
@@ -93,6 +93,10 @@ export function PartDetail() {
       .catch(() => {});
   }, [category, id]);
 
+  useEffect(() => {
+    if (user) void fetchCollection();
+  }, [user, fetchCollection]);
+
   const displayRatings = backendRatings && backendRatings.count > 0
     ? { attack: backendRatings.attack, defense: backendRatings.defense, stamina: backendRatings.stamina, balance: backendRatings.balance }
     : part.ratings;
@@ -117,7 +121,7 @@ export function PartDetail() {
     }
   };
 
-  const owned = profile?.ownedParts.find((p) => p.partId === part.id);
+  const owned = ownedParts.find((p) => p.partId === part.id);
   const obtainedFromBey = owned?.obtainedFrom
     ? database.beys.find((b) => b.id === owned.obtainedFrom)
     : undefined;

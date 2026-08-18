@@ -16,8 +16,9 @@ import { SpinBadge } from '../components/SpinBadge';
 import { TierBadge } from '../components/TierBadge';
 import { useTranslation } from '../i18n';
 import type { LocalizedString, PartCategory } from '../types';
-import { useProfileStore } from '../stores/profile';
 import { useAuthStore } from '../stores/auth';
+import { useCollectionStore } from '../stores/collection';
+import { useMatchesStore } from '../stores/matches';
 import { getBey, rateBey } from '../api/client';
 import { recordAgainstBey, recordWithBey } from '../utils/matches';
 import { Comments } from '../components/Comments';
@@ -35,8 +36,9 @@ export function BeyDetail() {
   const { t, locale } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const { database, loading, error } = useData();
-  const { profile } = useProfileStore();
   const { user } = useAuthStore();
+  const { ownedBeys, fetch: fetchCollection } = useCollectionStore();
+  const { matches, fetch: fetchMatches } = useMatchesStore();
   const [backendRatings, setBackendRatings] = useState<Ratings & { count: number } | null>(null);
   const [userRating, setUserRating] = useState<Ratings | null>(null);
   const [ratingError, setRatingError] = useState<string | null>(null);
@@ -52,6 +54,13 @@ export function BeyDetail() {
         // Backend ratings are optional; fall back to calculated ratings.
       });
   }, [id]);
+
+  useEffect(() => {
+    if (user) {
+      void fetchCollection();
+      void fetchMatches();
+    }
+  }, [user, fetchCollection, fetchMatches]);
 
   if (loading) return <p className="text-[var(--muted)]">{t('partDetail.loading')}</p>;
   if (error || !database) return <p className="text-red-600">{t('errors.failedDatabase')}</p>;
@@ -70,9 +79,9 @@ export function BeyDetail() {
   const estimated = isComboEstimated(database, parts);
   const tier = calculateTier(ratings, blade?.officialStats.typeTag);
 
-  const owned = profile?.ownedBeys.find((b) => b.beyId === bey.id);
-  const recordWith = profile ? recordWithBey(profile.matches, bey.id, profile.ownedBeys) : null;
-  const recordAgainst = profile ? recordAgainstBey(profile.matches, bey.id) : null;
+  const owned = ownedBeys.find((b) => b.beyId === bey.id);
+  const recordWith = recordWithBey(matches, bey.id, ownedBeys);
+  const recordAgainst = recordAgainstBey(matches, bey.id);
 
   const partLink = (category: string, partId: string | undefined, label: string) => {
     if (!partId) return null;
