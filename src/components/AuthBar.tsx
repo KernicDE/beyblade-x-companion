@@ -10,6 +10,8 @@ export function AuthBar() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
+  const [totpCode, setTotpCode] = useState('');
+  const [totpStep, setTotpStep] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
   if (loading) {
@@ -37,7 +39,7 @@ export function AuthBar() {
     clearError();
     try {
       if (mode === 'login') {
-        await login(username, password);
+        await login(username, password, totpStep ? totpCode : undefined);
       } else {
         await register(username, password, email || null);
       }
@@ -45,6 +47,13 @@ export function AuthBar() {
       setUsername('');
       setPassword('');
       setEmail('');
+      setTotpCode('');
+      setTotpStep(false);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : '';
+      if (!totpStep && message.toLowerCase().includes('totp')) {
+        setTotpStep(true);
+      }
     } finally {
       setSubmitting(false);
     }
@@ -56,6 +65,8 @@ export function AuthBar() {
         type="button"
         onClick={() => {
           setOpen(true);
+          setTotpStep(false);
+          setTotpCode('');
           clearError();
         }}
         className="rounded-full bg-blue-600 px-3 py-1 text-xs font-medium text-white hover:bg-blue-700 transition-colors"
@@ -92,6 +103,22 @@ export function AuthBar() {
                   minLength={8}
                 />
               </div>
+              {totpStep && (
+                <div>
+                  <label className="block text-sm font-medium">{t('auth.totpCode')}</label>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    pattern="[0-9]{6}"
+                    value={totpCode}
+                    onChange={(e) => setTotpCode(e.target.value)}
+                    className="mt-1 w-full rounded border border-gray-300 dark:border-slate-600 bg-[var(--bg)] px-3 py-2 text-sm"
+                    required
+                    autoFocus
+                    maxLength={6}
+                  />
+                </div>
+              )}
               {mode === 'register' && (
                 <div>
                   <label className="block text-sm font-medium">{t('auth.email')}</label>
@@ -118,7 +145,12 @@ export function AuthBar() {
                 <div className="flex gap-2">
                   <button
                     type="button"
-                    onClick={() => setOpen(false)}
+                    onClick={() => {
+                      setOpen(false);
+                      setTotpStep(false);
+                      setTotpCode('');
+                      clearError();
+                    }}
                     className="rounded border border-gray-300 dark:border-slate-600 px-3 py-1.5 text-xs font-medium"
                   >
                     {t('auth.cancel')}

@@ -352,6 +352,16 @@
   "profile": {
     "title": "Profile",
     "role": "Role",
+    "totp": "Two-factor authentication (TOTP)",
+    "totpEnabled": "TOTP is enabled.",
+    "totpDisabled": "TOTP is not enabled.",
+    "totpSetup": "Set up TOTP",
+    "totpVerify": "Activate",
+    "totpDisable": "Disable",
+    "totpSecret": "Secret key",
+    "totpUri": "Authenticator URI",
+    "totpRecoveryCodes": "Recovery codes",
+    "totpSaveCodes": "Save these recovery codes securely — they will not be shown again.",
     "exportProfile": "Export builds",
     "exportCopied": "Export link copied to clipboard.",
     "shareCopied": "Share link copied to clipboard.",
@@ -407,7 +417,8 @@
     "cancel": "Cancel",
     "createAccount": "Create account",
     "alreadyHaveAccount": "Already have an account?",
-    "submit": "Submit"
+    "submit": "Submit",
+    "totpCode": "TOTP code"
   },
   "scan": {
     "title": "Scan",

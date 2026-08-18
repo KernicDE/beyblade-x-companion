@@ -40,10 +40,10 @@ export async function register(username: string, password: string, email?: strin
   });
 }
 
-export async function login(username: string, password: string): Promise<AuthResponse> {
+export async function login(username: string, password: string, totpCode?: string): Promise<AuthResponse> {
   return request('/auth/login', {
     method: 'POST',
-    body: JSON.stringify({ username, password }),
+    body: JSON.stringify({ username, password, totpCode }),
   });
 }
 
@@ -424,5 +424,28 @@ export async function editBey(id: string, input: Partial<Bey>): Promise<{ bey: B
   return request(`/admin/catalog/beys/${id}`, {
     method: 'PATCH',
     body: JSON.stringify(input),
+  });
+}
+
+// TOTP
+export async function getTotpStatus(): Promise<{ enabled: boolean }> {
+  return request('/auth/totp/status');
+}
+
+export async function setupTotp(): Promise<{ secret: string; uri: string; recoveryCodes: string[] }> {
+  return request('/auth/totp/setup', { method: 'POST' });
+}
+
+export async function verifyTotpSetup(code: string): Promise<{ ok: boolean }> {
+  return request('/auth/totp/verify', {
+    method: 'POST',
+    body: JSON.stringify({ code }),
+  });
+}
+
+export async function disableTotp(password: string): Promise<{ ok: boolean }> {
+  return request('/auth/totp/disable', {
+    method: 'POST',
+    body: JSON.stringify({ password }),
   });
 }

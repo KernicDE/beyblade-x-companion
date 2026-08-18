@@ -109,6 +109,32 @@ export function updatePassword(userId: string, passwordHash: string): void {
   database.prepare('UPDATE users SET passwordHash = ?, updatedAt = ? WHERE id = ?').run(passwordHash, now, userId);
 }
 
+export function setTotpSecret(
+  userId: string,
+  secret: string,
+  recoveryCodes: string[]
+): void {
+  const database = getDb();
+  const now = new Date().toISOString();
+  database
+    .prepare('UPDATE users SET totpSecret = ?, totpRecoveryCodes = ?, totpEnabled = 0, updatedAt = ? WHERE id = ?')
+    .run(secret, JSON.stringify(recoveryCodes), now, userId);
+}
+
+export function enableTotp(userId: string): void {
+  const database = getDb();
+  const now = new Date().toISOString();
+  database.prepare('UPDATE users SET totpEnabled = 1, updatedAt = ? WHERE id = ?').run(now, userId);
+}
+
+export function disableTotp(userId: string): void {
+  const database = getDb();
+  const now = new Date().toISOString();
+  database
+    .prepare('UPDATE users SET totpSecret = NULL, totpEnabled = 0, totpRecoveryCodes = NULL, updatedAt = ? WHERE id = ?')
+    .run(now, userId);
+}
+
 export function listUsers(): User[] {
   const database = getDb();
   return database.prepare('SELECT * FROM users ORDER BY createdAt DESC').all() as User[];

@@ -1,6 +1,13 @@
 import { Router } from 'express';
 import { z } from 'zod';
-import { createUser, getUserByUsername, updatePassword } from '../db.js';
+import {
+  createUser,
+  getUserByUsername,
+  updatePassword,
+  setTotpSecret,
+  enableTotp,
+  disableTotp,
+} from '../db.js';
 import { hashPassword, verifyPassword } from '../utils/password.js';
 import { toPublicUser } from '../utils/user.js';
 import { generateId } from '../utils/id.js';
@@ -8,6 +15,7 @@ import { validateBody } from '../middleware/validate.js';
 import { requireAuth } from '../middleware/requireAuth.js';
 import { rateLimit } from '../middleware/rateLimit.js';
 import { createAuditLog } from '../db.js';
+import { generateSecret, generateRecoveryCodes, getAuthenticatorUri, verifyTotp } from '../utils/totp.js';
 
 const authRateLimit = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -65,11 +73,12 @@ router.post('/register', authRateLimit, validateBody(registerSchema), async (req
 const loginSchema = z.object({
   username: z.string().trim().min(1),
   password: z.string().min(1),
+  totpCode: z.string().length(6).optional(),
 });
 
 router.post('/login', authRateLimit, validateBody(loginSchema), async (req, res, next) => {
   try {
-    const { username, password } = req.body as z.infer<typeof loginSchema>;
+    const { username, password, totpCode } = req.body as z.infer<typeof loginSchema>;
 
     const user = getUserByUsername(username);
     if (!user) {
@@ -86,6 +95,13 @@ router.post('/login', authRateLimit, validateBody(loginSchema), async (req, res,
     if (!valid) {
       res.status(401).json({ error: 'Invalid credentials' });
       return;
+    }
+
+    if (user.totpEnabled) {
+      if (!totpCode || !user.totpSecret || !verifyTotp(user.totpSecret, totpCode)) {
+        res.status(401).json({ error: 'Invalid or missing TOTP code' });
+        return;
+      }
     }
 
     req.session.userId = user.id;
@@ -146,3 +162,90 @@ router.post('/password', requireAuth, validateBody(passwordSchema), async (req, 
 });
 
 export default router;
+
+const totpCodeSchema = z.object({
+  code: z.string().length(6),
+});
+
+router.get('/totp/status', requireAuth, (req, res) => {
+  res.json({ enabled: req.user!.totpEnabled === 1 });
+});
+
+router.post('/totp/setup', requireAuth, (req, res, next) => {
+  try {
+    const user = req.user!;
+    const secret = generateSecret();
+    const recoveryCodes = generateRecoveryCodes();
+    setTotpSecret(user.id, secret, recoveryCodes);
+    createAuditLog({
+      id: generateId(),
+      actorId: user.id,
+      action: 'totp_setup',
+      targetType: 'user',
+      targetId: user.id,
+      createdAt: new Date().toISOString(),
+    });
+    res.json({
+      secret,
+      uri: getAuthenticatorUri(user.username, secret),
+      recoveryCodes,
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
+router.post('/totp/verify', requireAuth, validateBody(totpCodeSchema), (req, res, next) => {
+  try {
+    const user = req.user!;
+    const { code } = req.body as z.infer<typeof totpCodeSchema>;
+    if (!user.totpSecret) {
+      res.status(400).json({ error: 'TOTP not set up' });
+      return;
+    }
+    if (!verifyTotp(user.totpSecret, code)) {
+      res.status(400).json({ error: 'Invalid TOTP code' });
+      return;
+    }
+    enableTotp(user.id);
+    createAuditLog({
+      id: generateId(),
+      actorId: user.id,
+      action: 'totp_enable',
+      targetType: 'user',
+      targetId: user.id,
+      createdAt: new Date().toISOString(),
+    });
+    res.json({ ok: true });
+  } catch (err) {
+    next(err);
+  }
+});
+
+const disableTotpSchema = z.object({
+  password: z.string().min(1),
+});
+
+router.post('/totp/disable', requireAuth, validateBody(disableTotpSchema), async (req, res, next) => {
+  try {
+    const user = req.user!;
+    const { password } = req.body as z.infer<typeof disableTotpSchema>;
+    const valid = await verifyPassword(password, user.passwordHash);
+    if (!valid) {
+      res.status(401).json({ error: 'Current password incorrect' });
+      return;
+    }
+    disableTotp(user.id);
+    createAuditLog({
+      id: generateId(),
+      actorId: user.id,
+      action: 'totp_disable',
+      targetType: 'user',
+      targetId: user.id,
+      createdAt: new Date().toISOString(),
+    });
+    res.json({ ok: true });
+  } catch (err) {
+    next(err);
+  }
+});
