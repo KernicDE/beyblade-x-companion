@@ -4,7 +4,6 @@ import { useData } from '../hooks/useData';
 import { useCollectionStore } from '../stores/collection';
 import { useBuildsStore } from '../stores/builds';
 import { useTranslation } from '../i18n';
-import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
 import { RatingBars } from '../components/RatingBars';
 import { TierBadge } from '../components/TierBadge';
@@ -94,7 +93,7 @@ function PartTile({
   return <div className={className}>{content}</div>;
 }
 
-function DeckBuilderContent() {
+export function DeckBuilder() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
   const { ownedParts, fetch: fetchCollection } = useCollectionStore();
@@ -277,13 +276,5 @@ function DeckBuilderContent() {
         ))}
       </div>
     </div>
-  );
-}
-
-export function DeckBuilder() {
-  return (
-    <UnlockGate>
-      <DeckBuilderContent />
-    </UnlockGate>
   );
 }
