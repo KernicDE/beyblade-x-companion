@@ -12,11 +12,14 @@ import {
   getPartRatingSummary,
   upsertBeyRating,
   upsertPartRating,
+  listComments,
+  createComment,
 } from '../db.js';
 import { requireAuth } from '../middleware/requireAuth.js';
 import { requireRole } from '../middleware/requireRole.js';
 import { validateBody } from '../middleware/validate.js';
 import { maybeAutoPromote } from './admin.js';
+import { generateId } from '../utils/id.js';
 
 const router = Router();
 
@@ -114,3 +117,88 @@ router.post(
 );
 
 export default router;
+
+
+const commentSchema = z.object({
+  text: z.string().min(1).max(2000),
+});
+
+router.get('/beys/:id/comments', (req, res) => {
+  const beyId = req.params.id as string;
+  if (!getBeyById(beyId)) {
+    res.status(404).json({ error: 'Bey not found' });
+    return;
+  }
+  res.json({ comments: listComments('bey', beyId) });
+});
+
+router.post(
+  '/beys/:id/comments',
+  requireAuth,
+  requireRole('Blader', 'Referee', 'Council', 'Rookie Blader'),
+  validateBody(commentSchema),
+  (req, res, next) => {
+    try {
+      const beyId = req.params.id as string;
+      const user = req.user!;
+      const { text } = req.body as z.infer<typeof commentSchema>;
+      if (!getBeyById(beyId)) {
+        res.status(404).json({ error: 'Bey not found' });
+        return;
+      }
+      const comment = createComment({
+        id: generateId(),
+        userId: user.id,
+        targetType: 'bey',
+        targetId: beyId,
+        text,
+        createdAt: new Date().toISOString(),
+      });
+      const promotion = maybeAutoPromote(user.id);
+      res.json({ comment, promotion });
+    } catch (err) {
+      next(err);
+    }
+  }
+);
+
+router.get('/parts/:category/:id/comments', (req, res) => {
+  const category = req.params.category as string;
+  const partId = req.params.id as string;
+  if (!getPartById(category, partId)) {
+    res.status(404).json({ error: 'Part not found' });
+    return;
+  }
+  res.json({ comments: listComments('part', partId) });
+});
+
+router.post(
+  '/parts/:category/:id/comments',
+  requireAuth,
+  requireRole('Blader', 'Referee', 'Council', 'Rookie Blader'),
+  validateBody(commentSchema),
+  (req, res, next) => {
+    try {
+      const category = req.params.category as string;
+      const partId = req.params.id as string;
+      const user = req.user!;
+      const { text } = req.body as z.infer<typeof commentSchema>;
+      if (!getPartById(category, partId)) {
+        res.status(404).json({ error: 'Part not found' });
+        return;
+      }
+      const comment = createComment({
+        id: generateId(),
+        userId: user.id,
+        targetType: 'part',
+        targetId: partId,
+        text,
+        createdAt: new Date().toISOString(),
+      });
+      const promotion = maybeAutoPromote(user.id);
+      res.json({ comment, promotion });
+    } catch (err) {
+      next(err);
+    }
+  }
+);

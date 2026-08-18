@@ -16,6 +16,7 @@ import { Profile } from './pages/Profile';
 import { Import } from './pages/Import';
 import { View } from './pages/View';
 import { Scan } from './pages/Scan';
+import { Admin } from './pages/Admin';
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
             <Route path="/deck" element={<Navigate to="/builder?tab=deck" replace />} />
             <Route path="/simulator" element={<Simulator />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/admin" element={<Admin />} />
             <Route path="/import" element={<Import />} />
             <Route path="/view/:compressed" element={<View />} />
             <Route path="/scan" element={<Scan />} />

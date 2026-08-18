@@ -1,0 +1,4 @@
+ALTER TABLE parts ADD COLUMN approvedBy TEXT;
+ALTER TABLE parts ADD COLUMN approvedAt TEXT;
+ALTER TABLE beys ADD COLUMN approvedBy TEXT;
+ALTER TABLE beys ADD COLUMN approvedAt TEXT;

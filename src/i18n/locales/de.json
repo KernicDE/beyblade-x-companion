@@ -11,7 +11,8 @@
     "dashboard": "Dashboard",
     "simulator": "Simulator",
     "scan": "Scan",
-    "profile": "Profil"
+    "profile": "Profil",
+    "admin": "Admin"
   },
   "theme": {
     "auto": "Auto",
@@ -307,6 +308,32 @@
     "confirm": "Bestätigen",
     "shareCopied": "Teilen-Link kopiert.",
     "parts": "Teile"
+  },
+  "comments": {
+    "title": "Kommentare",
+    "placeholder": "Schreibe einen Kommentar…",
+    "submit": "Kommentar senden",
+    "delete": "Löschen",
+    "empty": "Noch keine Kommentare.",
+    "promoted": "Du wurdest zum Blader befördert!"
+  },
+  "admin": {
+    "title": "Administration",
+    "forbidden": "Keine Berechtigung.",
+    "users": "User",
+    "catalog": "Katalog",
+    "status": "Status",
+    "actions": "Aktionen",
+    "promote": "Befördern",
+    "ban": "Sperren",
+    "unban": "Entsperren",
+    "banned": "Gesperrt",
+    "active": "Aktiv",
+    "banReason": "Grund für die Sperre",
+    "approve": "Freigeben",
+    "reject": "Ablehnen",
+    "noPendingParts": "Keine ausstehenden Teile.",
+    "noPendingBeys": "Keine ausstehenden Beys."
   },
   "simulator": {
     "title": "Simulator",

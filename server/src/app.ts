@@ -14,6 +14,7 @@ import { getDb } from './db.js';
 import authRoutes from './routes/auth.js';
 import adminRoutes from './routes/admin.js';
 import catalogRoutes from './routes/catalog.js';
+import commentsRoutes from './routes/comments.js';
 import scanRoutes from './routes/scan.js';
 import collectionRoutes from './routes/collection.js';
 import buildsRoutes from './routes/builds.js';
@@ -69,6 +70,7 @@ export function createApp(): express.Application {
   app.use('/api/auth', authRoutes);
   app.use('/api/admin', adminRoutes);
   app.use('/api', catalogRoutes);
+  app.use('/api/comments', commentsRoutes);
   app.use('/api/scan', scanRoutes);
   app.use('/api/collection', collectionRoutes);
   app.use('/api/builds', buildsRoutes);

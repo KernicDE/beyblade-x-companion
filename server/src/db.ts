@@ -17,6 +17,11 @@ import type {
   Match,
   PartCategory,
   FinishType,
+  Comment,
+  LocalizedString,
+  OfficialStats,
+  Ratings,
+  BeyHighlights,
 } from './types/index.js';
 
 export type { User, Role };
@@ -736,4 +741,340 @@ export function deleteMatch(userId: string, id: string): boolean {
   const database = getDb();
   const result = database.prepare('DELETE FROM matches WHERE userId = ? AND id = ?').run(userId, id);
   return result.changes > 0;
+}
+
+
+export function listComments(targetType: 'bey' | 'part', targetId: string): (Comment & { username: string })[] {
+  const database = getDb();
+  const rows = database
+    .prepare(
+      `SELECT c.*, u.username
+       FROM comments c
+       JOIN users u ON u.id = c.userId
+       WHERE c.targetType = ? AND c.targetId = ? AND c.deletedAt IS NULL
+       ORDER BY c.createdAt DESC`
+    )
+    .all(targetType, targetId) as (Comment & { username: string })[];
+  return rows;
+}
+
+function getCommentWithUsername(id: string): (Comment & { username: string }) | undefined {
+  const database = getDb();
+  return database
+    .prepare(
+      `SELECT c.*, u.username
+       FROM comments c
+       JOIN users u ON u.id = c.userId
+       WHERE c.id = ?`
+    )
+    .get(id) as (Comment & { username: string }) | undefined;
+}
+
+export function createComment(input: {
+  id: string;
+  userId: string;
+  targetType: 'bey' | 'part';
+  targetId: string;
+  text: string;
+  createdAt: string;
+}): Comment & { username: string } {
+  const database = getDb();
+  const now = input.createdAt;
+  database
+    .prepare(
+      `INSERT INTO comments (id, userId, targetType, targetId, text, createdAt, updatedAt)
+       VALUES (?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(input.id, input.userId, input.targetType, input.targetId, input.text, now, now);
+  return getCommentWithUsername(input.id)!;
+}
+
+export function deleteComment(id: string, deletedBy: string): boolean {
+  const database = getDb();
+  const now = new Date().toISOString();
+  const result = database
+    .prepare('UPDATE comments SET deletedAt = ?, deletedBy = ?, updatedAt = ? WHERE id = ? AND deletedAt IS NULL')
+    .run(now, deletedBy, now, id);
+  return result.changes > 0;
+}
+
+export function getCommentById(id: string): Comment | undefined {
+  const database = getDb();
+  return database.prepare('SELECT * FROM comments WHERE id = ?').get(id) as Comment | undefined;
+}
+
+function getRawPartById(id: string): Part | undefined {
+  const database = getDb();
+  const row = database.prepare('SELECT * FROM parts WHERE id = ?').get(id);
+  if (!row) return undefined;
+  return parsePart(row as Record<string, unknown>);
+}
+
+function getRawBeyById(id: string): Bey | undefined {
+  const database = getDb();
+  const row = database.prepare('SELECT * FROM beys WHERE id = ?').get(id);
+  if (!row) return undefined;
+  return parseBey(row as Record<string, unknown>);
+}
+
+export function createPartSuggestion(input: {
+  id: string;
+  category: PartCategory;
+  name: string;
+  manufacturer?: 'Takara Tomy' | 'Hasbro' | null;
+  imageUrl?: string | null;
+  releaseDate?: string | null;
+  releaseWave?: string | null;
+  description?: LocalizedString | null;
+  assessment?: LocalizedString | null;
+  officialStats?: OfficialStats | null;
+  baselineRatings?: Ratings | null;
+  customLine?: number;
+  suggestedBy: string;
+  createdAt: string;
+}): Part {
+  const database = getDb();
+  const now = input.createdAt;
+  database
+    .prepare(
+      `INSERT INTO parts (
+        id, category, name, manufacturer, imageUrl, releaseDate, releaseWave,
+        description, assessment, officialStats, ratingsSource, tier, customLine,
+        baselineRatings, status, suggestedBy, moderatorNote, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(
+      input.id,
+      input.category,
+      input.name,
+      input.manufacturer ?? null,
+      input.imageUrl ?? null,
+      input.releaseDate ?? null,
+      input.releaseWave ?? null,
+      input.description ? JSON.stringify(input.description) : null,
+      input.assessment ? JSON.stringify(input.assessment) : null,
+      input.officialStats ? JSON.stringify(input.officialStats) : null,
+      null,
+      null,
+      input.customLine ?? 0,
+      input.baselineRatings ? JSON.stringify(input.baselineRatings) : null,
+      'pending',
+      input.suggestedBy,
+      null,
+      now,
+      now
+    );
+  return getRawPartById(input.id)!;
+}
+
+export function createBeySuggestion(input: {
+  id: string;
+  name: string;
+  manufacturer?: 'Takara Tomy' | 'Hasbro' | null;
+  imageUrl?: string | null;
+  releaseDate?: string | null;
+  releaseWave?: string | null;
+  priceJpy?: number | null;
+  priceUsd?: number | null;
+  priceEur?: number | null;
+  bladeId: string;
+  assistBladeId?: string | null;
+  ratchetId: string;
+  bitId: string;
+  assessment?: LocalizedString | null;
+  highlights?: BeyHighlights | null;
+  suggestedBy: string;
+  createdAt: string;
+}): Bey {
+  const database = getDb();
+  const now = input.createdAt;
+  database
+    .prepare(
+      `INSERT INTO beys (
+        id, name, manufacturer, imageUrl, releaseDate, releaseWave,
+        priceJpy, priceUsd, priceEur, bladeId, assistBladeId, ratchetId, bitId,
+        assessment, highlights, status, suggestedBy, moderatorNote, createdAt, updatedAt
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    )
+    .run(
+      input.id,
+      input.name,
+      input.manufacturer ?? null,
+      input.imageUrl ?? null,
+      input.releaseDate ?? null,
+      input.releaseWave ?? null,
+      input.priceJpy ?? null,
+      input.priceUsd ?? null,
+      input.priceEur ?? null,
+      input.bladeId,
+      input.assistBladeId ?? null,
+      input.ratchetId,
+      input.bitId,
+      input.assessment ? JSON.stringify(input.assessment) : null,
+      input.highlights ? JSON.stringify(input.highlights) : null,
+      'pending',
+      input.suggestedBy,
+      null,
+      now,
+      now
+    );
+  return getRawBeyById(input.id)!;
+}
+
+export function listPendingParts(): Part[] {
+  const database = getDb();
+  const rows = database.prepare("SELECT * FROM parts WHERE status = 'pending' ORDER BY createdAt DESC").all();
+  return rows.map(parsePart);
+}
+
+export function listPendingBeys(): Bey[] {
+  const database = getDb();
+  const rows = database.prepare("SELECT * FROM beys WHERE status = 'pending' ORDER BY createdAt DESC").all();
+  return rows.map(parseBey);
+}
+
+export function approvePart(
+  id: string,
+  moderatorNote?: string | null,
+  approvedBy?: string | null,
+  approvedAt?: string | null
+): Part | undefined {
+  const database = getDb();
+  const existing = getRawPartById(id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare('UPDATE parts SET status = ?, moderatorNote = ?, approvedBy = ?, approvedAt = ?, updatedAt = ? WHERE id = ?')
+    .run('approved', moderatorNote ?? null, approvedBy ?? null, approvedAt ?? now, now, id);
+  return getRawPartById(id);
+}
+
+export function rejectPart(id: string, moderatorNote?: string | null): Part | undefined {
+  const database = getDb();
+  const existing = getRawPartById(id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare('UPDATE parts SET status = ?, moderatorNote = ?, updatedAt = ? WHERE id = ?')
+    .run('rejected', moderatorNote ?? null, now, id);
+  return getRawPartById(id);
+}
+
+export function approveBey(
+  id: string,
+  moderatorNote?: string | null,
+  approvedBy?: string | null,
+  approvedAt?: string | null
+): Bey | undefined {
+  const database = getDb();
+  const existing = getRawBeyById(id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare('UPDATE beys SET status = ?, moderatorNote = ?, approvedBy = ?, approvedAt = ?, updatedAt = ? WHERE id = ?')
+    .run('approved', moderatorNote ?? null, approvedBy ?? null, approvedAt ?? now, now, id);
+  return getRawBeyById(id);
+}
+
+export function rejectBey(id: string, moderatorNote?: string | null): Bey | undefined {
+  const database = getDb();
+  const existing = getRawBeyById(id);
+  if (!existing) return undefined;
+  const now = new Date().toISOString();
+  database
+    .prepare('UPDATE beys SET status = ?, moderatorNote = ?, updatedAt = ? WHERE id = ?')
+    .run('rejected', moderatorNote ?? null, now, id);
+  return getRawBeyById(id);
+}
+
+export function updatePart(
+  category: string,
+  id: string,
+  input: Partial<Omit<Part, 'id' | 'createdAt' | 'updatedAt'>>
+): Part | undefined {
+  const database = getDb();
+  const existing = getRawPartById(id);
+  if (!existing || existing.category !== category) return undefined;
+
+  const allowedColumns = new Set([
+    'category',
+    'name',
+    'manufacturer',
+    'imageUrl',
+    'releaseDate',
+    'releaseWave',
+    'description',
+    'assessment',
+    'officialStats',
+    'ratingsSource',
+    'tier',
+    'customLine',
+    'baselineRatings',
+    'status',
+    'suggestedBy',
+    'moderatorNote',
+  ]);
+  const jsonFields = new Set(['description', 'assessment', 'officialStats', 'baselineRatings']);
+
+  const entries = Object.entries(input).filter(([key]) => allowedColumns.has(key));
+  if (entries.length === 0) return existing;
+
+  const columns: string[] = [];
+  const values: unknown[] = [];
+  for (const [key, value] of entries) {
+    columns.push(key);
+    values.push(jsonFields.has(key) ? (value ? JSON.stringify(value) : null) : value);
+  }
+
+  const now = new Date().toISOString();
+  database
+    .prepare(`UPDATE parts SET ${columns.map((c) => `${c} = ?`).join(', ')}, updatedAt = ? WHERE id = ?`)
+    .run(...values, now, id);
+  return getRawPartById(id);
+}
+
+export function updateBey(
+  id: string,
+  input: Partial<Omit<Bey, 'id' | 'createdAt' | 'updatedAt'>>
+): Bey | undefined {
+  const database = getDb();
+  const existing = getRawBeyById(id);
+  if (!existing) return undefined;
+
+  const allowedColumns = new Set([
+    'name',
+    'manufacturer',
+    'imageUrl',
+    'releaseDate',
+    'releaseWave',
+    'priceJpy',
+    'priceUsd',
+    'priceEur',
+    'bladeId',
+    'assistBladeId',
+    'ratchetId',
+    'bitId',
+    'assessment',
+    'highlights',
+    'status',
+    'suggestedBy',
+    'moderatorNote',
+  ]);
+  const jsonFields = new Set(['assessment', 'highlights']);
+
+  const entries = Object.entries(input).filter(([key]) => allowedColumns.has(key));
+  if (entries.length === 0) return existing;
+
+  const columns: string[] = [];
+  const values: unknown[] = [];
+  for (const [key, value] of entries) {
+    columns.push(key);
+    values.push(jsonFields.has(key) ? (value ? JSON.stringify(value) : null) : value);
+  }
+
+  const now = new Date().toISOString();
+  database
+    .prepare(`UPDATE beys SET ${columns.map((c) => `${c} = ?`).join(', ')}, updatedAt = ? WHERE id = ?`)
+    .run(...values, now, id);
+  return getRawBeyById(id);
 }

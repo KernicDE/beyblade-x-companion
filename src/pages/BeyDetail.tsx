@@ -20,6 +20,7 @@ import { useProfileStore } from '../stores/profile';
 import { useAuthStore } from '../stores/auth';
 import { getBey, rateBey } from '../api/client';
 import { recordAgainstBey, recordWithBey } from '../utils/matches';
+import { Comments } from '../components/Comments';
 import type { Ratings } from '../types';
 
 function localized(text: LocalizedString, locale: string) {
@@ -301,6 +302,8 @@ export function BeyDetail() {
           </div>
         </section>
       )}
+
+      {bey && <Comments targetType="bey" targetId={bey.id} />}
     </div>
   );
 }

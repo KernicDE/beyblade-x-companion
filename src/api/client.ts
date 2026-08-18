@@ -8,6 +8,7 @@ import type {
   Ratings,
   PublicUser,
   FinishType,
+  Comment,
 } from '../types';
 
 const API_BASE = '/api';
@@ -313,4 +314,115 @@ export async function updateMatch(id: string, input: Partial<Omit<Match, 'id' | 
 
 export async function deleteMatch(id: string): Promise<void> {
   await request(`/matches/${id}`, { method: 'DELETE' });
+}
+
+// Comments
+export async function getBeyComments(id: string): Promise<{ comments: Comment[] }> {
+  return request(`/beys/${id}/comments`);
+}
+
+export async function postBeyComment(id: string, text: string): Promise<{ comment: Comment; promotion?: { promoted: boolean; role?: string } }> {
+  return request(`/beys/${id}/comments`, {
+    method: 'POST',
+    body: JSON.stringify({ text }),
+  });
+}
+
+export async function getPartComments(category: string, id: string): Promise<{ comments: Comment[] }> {
+  return request(`/parts/${category}/${id}/comments`);
+}
+
+export async function postPartComment(category: string, id: string, text: string): Promise<{ comment: Comment; promotion?: { promoted: boolean; role?: string } }> {
+  return request(`/parts/${category}/${id}/comments`, {
+    method: 'POST',
+    body: JSON.stringify({ text }),
+  });
+}
+
+export async function deleteComment(id: string): Promise<void> {
+  await request(`/comments/${id}`, { method: 'DELETE' });
+}
+
+// Admin user management
+export async function listUsers(): Promise<{ users: PublicUser[] }> {
+  return request('/admin/users');
+}
+
+export async function setUserRole(id: string, role: PublicUser['role']): Promise<{ user: PublicUser }> {
+  return request(`/admin/users/${id}/role`, {
+    method: 'PATCH',
+    body: JSON.stringify({ role }),
+  });
+}
+
+export async function banUser(id: string, reason: string): Promise<{ user: PublicUser }> {
+  return request(`/admin/users/${id}/ban`, {
+    method: 'POST',
+    body: JSON.stringify({ reason }),
+  });
+}
+
+export async function unbanUser(id: string): Promise<{ user: PublicUser }> {
+  return request(`/admin/users/${id}/unban`, { method: 'POST' });
+}
+
+export async function promoteUser(id: string): Promise<{ user: PublicUser }> {
+  return request(`/admin/users/${id}/promote`, { method: 'POST' });
+}
+
+// Catalog moderation
+export interface PendingCatalogResponse {
+  parts: Part[];
+  beys: Bey[];
+}
+
+export async function getPendingCatalog(): Promise<PendingCatalogResponse> {
+  return request('/admin/catalog/pending');
+}
+
+export async function suggestPart(input: Omit<Part, 'id' | 'status' | 'suggestedBy' | 'moderatorNote' | 'createdAt' | 'updatedAt'>): Promise<{ part: Part }> {
+  return request('/admin/catalog/parts/suggest', {
+    method: 'POST',
+    body: JSON.stringify(input),
+  });
+}
+
+export async function suggestBey(input: Omit<Bey, 'id' | 'status' | 'suggestedBy' | 'moderatorNote' | 'createdAt' | 'updatedAt'>): Promise<{ bey: Bey }> {
+  return request('/admin/catalog/beys/suggest', {
+    method: 'POST',
+    body: JSON.stringify(input),
+  });
+}
+
+export async function updatePartStatus(
+  category: string,
+  id: string,
+  status: 'approved' | 'rejected',
+  moderatorNote?: string
+): Promise<{ part: Part }> {
+  return request(`/admin/catalog/parts/${category}/${id}/status`, {
+    method: 'PATCH',
+    body: JSON.stringify({ status, moderatorNote }),
+  });
+}
+
+export async function updateBeyStatus(id: string, status: 'approved' | 'rejected', moderatorNote?: string): Promise<{ bey: Bey }> {
+  return request(`/admin/catalog/beys/${id}/status`, {
+    method: 'PATCH',
+    body: JSON.stringify({ status, moderatorNote }),
+  });
+}
+
+export async function editPart(category: string, id: string, input: Partial<Part>): Promise<{ part: Part }> {
+  return request(`/admin/catalog/parts/${category}/${id}`, {
+    method: 'PATCH',
+    body: JSON.stringify(input),
+  });
+}
+
+export async function editBey(id: string, input: Partial<Bey>): Promise<{ bey: Bey }> {
+  return request(`/admin/catalog/beys/${id}`, {
+    method: 'PATCH',
+    body: JSON.stringify(input),
+  });
 }

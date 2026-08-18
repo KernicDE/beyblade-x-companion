@@ -12,6 +12,7 @@ import { useTranslation } from '../i18n';
 import { useProfileStore } from '../stores/profile';
 import { useAuthStore } from '../stores/auth';
 import { getPart, ratePart } from '../api/client';
+import { Comments } from '../components/Comments';
 import type { PartCategory, LocalizedString, Ratings } from '../types';
 import { calculateTier } from '../utils/data';
 
@@ -286,6 +287,8 @@ export function PartDetail() {
           </div>
         </section>
       )}
+
+      <Comments targetType="part" targetId={part.id} category={part.category} />
     </div>
   );
 }

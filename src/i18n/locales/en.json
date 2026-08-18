@@ -11,7 +11,8 @@
     "dashboard": "Dashboard",
     "simulator": "Simulator",
     "scan": "Scan",
-    "profile": "Profile"
+    "profile": "Profile",
+    "admin": "Admin"
   },
   "theme": {
     "auto": "Auto",
@@ -307,6 +308,32 @@
     "confirm": "Confirm",
     "shareCopied": "Share link copied.",
     "parts": "Parts"
+  },
+  "comments": {
+    "title": "Comments",
+    "placeholder": "Write a comment…",
+    "submit": "Post comment",
+    "delete": "Delete",
+    "empty": "No comments yet.",
+    "promoted": "You have been promoted to Blader!"
+  },
+  "admin": {
+    "title": "Administration",
+    "forbidden": "Not authorized.",
+    "users": "Users",
+    "catalog": "Catalog",
+    "status": "Status",
+    "actions": "Actions",
+    "promote": "Promote",
+    "ban": "Ban",
+    "unban": "Unban",
+    "banned": "Banned",
+    "active": "Active",
+    "banReason": "Ban reason",
+    "approve": "Approve",
+    "reject": "Reject",
+    "noPendingParts": "No pending parts.",
+    "noPendingBeys": "No pending beys."
   },
   "simulator": {
     "title": "Simulator",

@@ -179,6 +179,19 @@ export interface ComboParts {
   bitId: string;
 }
 
+export interface Comment {
+  id: string;
+  userId: string;
+  targetType: 'bey' | 'part';
+  targetId: string;
+  text: string;
+  username?: string;
+  deletedAt?: string | null;
+  deletedBy?: string | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
 export type Role = 'Council' | 'Referee' | 'Blader' | 'Rookie Blader';
 
 export interface PublicUser {

@@ -4,11 +4,13 @@ import type { ReactNode } from 'react';
 import { useThemeStore, initThemeListener } from '../stores/theme';
 import { useTranslation } from '../i18n';
 import { AuthBar } from './AuthBar';
+import { useAuthStore } from '../stores/auth';
 
 export function Layout({ children }: { children: ReactNode }) {
   const location = useLocation();
   const { t, locale, setLocale } = useTranslation();
   const { theme, resolved, setTheme } = useThemeStore();
+  const { user } = useAuthStore();
 
   useEffect(() => {
     const cleanup = initThemeListener();
@@ -35,6 +37,8 @@ export function Layout({ children }: { children: ReactNode }) {
 
   const themeLabel = t(`theme.${theme === 'system' ? 'auto' : theme}`);
 
+  const isModerator = user?.role === 'Council' || user?.role === 'Referee';
+
   const nav = [
     { to: '/', label: t('nav.home') },
     { to: '/collection', label: t('nav.collection') },
@@ -43,6 +47,7 @@ export function Layout({ children }: { children: ReactNode }) {
     { to: '/matches', label: t('nav.matches') },
     { to: '/simulator', label: t('nav.simulator') },
     { to: '/scan', label: t('nav.scan') },
+    ...(isModerator ? [{ to: '/admin', label: t('nav.admin') }] : []),
     { to: '/profile', label: t('nav.profile') },
   ];
 
