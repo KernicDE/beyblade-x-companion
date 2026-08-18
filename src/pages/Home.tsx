@@ -1,36 +1,41 @@
-import { useMemo } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { useProfileStore } from '../stores/profile';
+import { useAuthStore } from '../stores/auth';
+import { useCollectionStore } from '../stores/collection';
+import { useMatchesStore } from '../stores/matches';
 import { useBuildsStore } from '../stores/builds';
-import { UnlockGate } from '../components/UnlockGate';
 import { PartIcon } from '../components/PartIcon';
 import { useTranslation } from '../i18n';
 import {
-  allBuilds,
   currentStreak,
   overallRecord,
   resolveMyBeyName,
   sortByDateDesc,
 } from '../utils/matches';
 
-function HomeContent() {
+export function Home() {
   const { t } = useTranslation();
   const { database } = useData();
-  const { profile } = useProfileStore();
-  const localBuilds = useBuildsStore((s) => s.builds);
+  const { user } = useAuthStore();
+  const { ownedBeys, ownedParts, fetch: fetchCollection } = useCollectionStore();
+  const { matches, fetch: fetchMatches } = useMatchesStore();
+  const { builds, fetch: fetchBuilds } = useBuildsStore();
 
-  const builds = useMemo(
-    () => allBuilds(profile, localBuilds),
-    [profile, localBuilds]
-  );
+  useEffect(() => {
+    if (user) {
+      void fetchCollection();
+      void fetchMatches();
+      void fetchBuilds();
+    }
+  }, [user, fetchCollection, fetchMatches, fetchBuilds]);
 
-  if (!profile || !database) return null;
+  if (!database) return null;
 
-  const overall = overallRecord(profile.matches);
-  const streak = currentStreak(profile.matches);
-  const recentMatches = sortByDateDesc(profile.matches).slice(0, 5);
-  const recentBeys = [...profile.ownedBeys]
+  const overall = overallRecord(matches);
+  const streak = currentStreak(matches);
+  const recentMatches = sortByDateDesc(matches).slice(0, 5);
+  const recentBeys = [...ownedBeys]
     .sort((a, b) => (b.purchaseDate ?? '').localeCompare(a.purchaseDate ?? ''))
     .slice(0, 4);
   const beyName = (beyId: string) => database.beys.find((b) => b.id === beyId)?.name;
@@ -46,17 +51,15 @@ function HomeContent() {
 
   return (
     <div className="space-y-8">
-      <section className="rounded-2xl bg-[var(--surface)] p-8 shadow-sm">
-        <h1 className="text-3xl font-bold">
-          {profile.username ? t('home.greeting', { name: profile.username }) : t('app.title')}
-        </h1>
-        <p className="mt-2 text-[var(--muted)]">{t('home.tagline')}</p>
+      <section className="rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-700 p-8 text-white shadow-sm">
+        <h1 className="text-3xl font-bold">{user ? t('home.greeting', { name: user.username }) : t('app.title')}</h1>
+        <p className="mt-2 text-blue-100">{t('home.tagline')}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           {quickLinks.map((link) => (
             <Link
               key={link.to}
               to={link.to}
-              className="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+              className="rounded-md bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur hover:bg-white/20"
             >
               {link.label}
             </Link>
@@ -68,11 +71,11 @@ function HomeContent() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Link to="/collection" className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md">
             <p className="text-sm text-[var(--muted)]">{t('home.ownedBeys')}</p>
-            <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">{profile.ownedBeys.length}</p>
+            <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">{ownedBeys.length}</p>
           </Link>
           <Link to="/collection" className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md">
             <p className="text-sm text-[var(--muted)]">{t('home.ownedParts')}</p>
-            <p className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">{profile.ownedParts.length}</p>
+            <p className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">{ownedParts.length}</p>
           </Link>
           <Link to="/matches" className="rounded-xl bg-[var(--surface)] p-4 shadow-sm transition hover:shadow-md">
             <p className="text-sm text-[var(--muted)]">{t('matches.overall')}</p>
@@ -118,7 +121,7 @@ function HomeContent() {
                     )}
                   </div>
                 );
-              })}
+      })}
             </div>
           )}
         </section>
@@ -143,7 +146,7 @@ function HomeContent() {
                     {match.result === 'win' ? 'W' : 'L'}
                   </span>
                   <span className="min-w-0 flex-1 truncate">
-                    {resolveMyBeyName(match.myBey, beyName, builds, profile.ownedBeys)}
+                    {resolveMyBeyName(match.myBey, beyName, builds, ownedBeys)}
                     <span className="text-[var(--muted)]"> {t('matches.vs')} </span>
                     {match.opponent.name}
                   </span>
@@ -155,13 +158,5 @@ function HomeContent() {
         </section>
       </div>
     </div>
-  );
-}
-
-export function Home() {
-  return (
-    <UnlockGate>
-      <HomeContent />
-    </UnlockGate>
   );
 }
