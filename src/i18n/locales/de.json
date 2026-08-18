@@ -124,12 +124,14 @@
     "nemesis": "Nemesis",
     "finishWon": "So gewinnst du",
     "finishLost": "So verlierst du",
-    "finish": {
+    "finishTypeLabel": "Finish-Typ",
+    "finishNames": {
       "xtreme": "Xtreme Finish",
       "over": "Over Finish",
       "burst": "Burst Finish",
       "spin": "Spin Finish"
     },
+    "opponentBeyUnknown": "Unbekannt",
     "byBey": "Bilanz pro Bey",
     "opponents": "Gegner",
     "history": "Match-Verlauf",

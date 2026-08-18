@@ -76,7 +76,7 @@ function MatchForm({ beys, initial, onSave, onCancel }: MatchFormProps) {
         <div>
           <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.opponentBey')}</label>
           <select value={opponentBeyId} onChange={(e) => setOpponentBeyId(e.target.value)} className={inputClass}>
-            <option value="">{t('matches.unknown')}</option>
+            <option value="">{t('matches.opponentBeyUnknown')}</option>
             {sortedBeys.map((b) => (
               <option key={b.id} value={b.id}>{b.name}</option>
             ))}
@@ -84,11 +84,11 @@ function MatchForm({ beys, initial, onSave, onCancel }: MatchFormProps) {
         </div>
       </div>
       <div>
-        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.finish')}</label>
+        <label className="mb-1 block text-xs font-medium text-[var(--muted)]">{t('matches.finishTypeLabel')}</label>
         <select value={finishType} onChange={(e) => setFinishType(e.target.value as FinishType | '')} className={inputClass}>
           <option value="">{t('matches.noFinish')}</option>
           {FINISH_TYPES.map((f) => (
-            <option key={f} value={f}>{t(`matches.${f}`)}</option>
+            <option key={f} value={f}>{t(`matches.finishNames.${f}`)}</option>
           ))}
         </select>
       </div>
@@ -183,7 +183,7 @@ export function Matches() {
       <div className="flex flex-wrap gap-2">
         {FINISH_TYPES.map((f) => (
           <span key={f} className="rounded-full bg-[var(--muted)]/10 px-3 py-1 text-xs">
-            {t(`matches.${f}`)}: {stats.finishCounts[f]}
+            {t(`matches.finishNames.${f}`)}: {stats.finishCounts[f]}
           </span>
         ))}
       </div>
@@ -213,7 +213,7 @@ export function Matches() {
                   <span className={`font-semibold ${m.result === 'win' ? 'text-green-600' : 'text-red-600'}`}>
                     {m.result === 'win' ? t('matches.win') : t('matches.loss')}
                   </span>
-                  {m.finishType && <span className="text-xs text-[var(--muted)]">({t(`matches.${m.finishType}`)})</span>}
+                  {m.finishType && <span className="text-xs text-[var(--muted)]">({t(`matches.finishNames.${m.finishType}`)})</span>}
                 </div>
                 <p className="font-medium">
                   {myBey ? (
