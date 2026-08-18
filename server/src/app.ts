@@ -28,6 +28,11 @@ const SqliteStore = createSqliteStore(session);
 export function createApp(): express.Application {
   const app = express();
 
+  // The app runs behind Traefik (HTTPS -> HTTP), so we trust the proxy to
+  // determine the original protocol. This lets express-session set secure
+  // cookies correctly.
+  app.set('trust proxy', 1);
+
   app.use((req, res, next) => {
     res.setHeader(
       'Content-Security-Policy',
