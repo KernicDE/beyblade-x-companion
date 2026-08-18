@@ -6,7 +6,7 @@ import { PartIcon } from '../components/PartIcon';
 import { RadarChart } from '../components/RadarChart';
 import { RatingBars } from '../components/RatingBars';
 import { useConfiguratorStore } from '../stores/configurator';
-import { useProfileStore } from '../stores/profile';
+import { useCollectionStore } from '../stores/collection';
 import { useBuildsStore } from '../stores/builds';
 import { calculateComboRatings, findBeysContainingPart, isComboEstimated } from '../utils/data';
 import { useTranslation } from '../i18n';
@@ -70,12 +70,16 @@ function BuilderTab() {
     setBit,
     loadCombo,
   } = useConfiguratorStore();
-  const { addBuild, updateBuild, builds } = useBuildsStore();
-  const { profile } = useProfileStore();
+  const { add, update, builds } = useBuildsStore();
+  const { ownedParts, fetch: fetchCollection } = useCollectionStore();
   const ownedPartIds = useMemo(
-    () => profile?.ownedParts.map((p) => p.partId) ?? [],
-    [profile]
+    () => ownedParts.map((p) => p.partId),
+    [ownedParts]
   );
+
+  useEffect(() => {
+    void fetchCollection();
+  }, [fetchCollection]);
 
   const [saveName, setSaveName] = useState('');
   const [savedMessage, setSavedMessage] = useState('');
@@ -168,7 +172,7 @@ function BuilderTab() {
     }
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (!canSave) return;
     const data = {
       name: saveName.trim(),
@@ -178,16 +182,19 @@ function BuilderTab() {
       bitId,
     };
 
-    if (editingBuild) {
-      updateBuild(editingBuild.id, data);
-      setSavedMessage(t('configurator.buildUpdated'));
-    } else {
-      const build = addBuild(data);
-      setSearchParams({ edit: build.id });
-      setSavedMessage(t('configurator.buildSaved'));
+    try {
+      if (editingBuild) {
+        await update(editingBuild.id, data);
+        setSavedMessage(t('configurator.buildUpdated'));
+      } else {
+        const build = await add(data);
+        setSearchParams({ edit: build.id });
+        setSavedMessage(t('configurator.buildSaved'));
+      }
+      setTimeout(() => setSavedMessage(''), 3000);
+    } catch {
+      setSavedMessage(t('errors.loading'));
     }
-
-    setTimeout(() => setSavedMessage(''), 3000);
   };
 
   return (

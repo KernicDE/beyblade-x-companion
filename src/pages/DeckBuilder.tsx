@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
-import { useProfileStore } from '../stores/profile';
+import { useCollectionStore } from '../stores/collection';
 import { useBuildsStore } from '../stores/builds';
 import { useTranslation } from '../i18n';
 import { UnlockGate } from '../components/UnlockGate';
@@ -97,11 +97,15 @@ function PartTile({
 function DeckBuilderContent() {
   const { t } = useTranslation();
   const { database, loading, error } = useData();
-  const { profile } = useProfileStore();
-  const { addBuild } = useBuildsStore();
+  const { ownedParts, fetch: fetchCollection } = useCollectionStore();
+  const { add } = useBuildsStore();
   // Keyed by deck content fingerprint, so the "saved" mark never points at a
   // different deck after focus/profile/database changes.
   const [savedDecks, setSavedDecks] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    void fetchCollection();
+  }, [fetchCollection]);
   const [slotFocuses, setSlotFocuses] = useState<[DeckFocus, DeckFocus, DeckFocus]>([
     'auto',
     'auto',
@@ -141,13 +145,13 @@ function DeckBuilderContent() {
   }, [database]);
 
   const decks = useMemo(() => {
-    if (!database || !profile) return [];
-    return buildDecks(database, profile.ownedParts, slotFocuses, 3, 100);
-  }, [database, profile, slotFocuses]);
+    if (!database) return [];
+    return buildDecks(database, ownedParts, slotFocuses, 3, 100);
+  }, [database, ownedParts, slotFocuses]);
 
   const handleSaveDeck = (deck: Deck, index: number) => {
     deck.beys.forEach((bey) => {
-      addBuild({
+      void add({
         name: `${t('deckBuilder.deckName', { n: index + 1 })} – ${bey.bladeName}`,
         bladeId: bey.combo.bladeId,
         assistBladeId: bey.combo.assistBladeId,

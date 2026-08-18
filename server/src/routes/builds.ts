@@ -31,6 +31,8 @@ router.get('/:id', (req, res) => {
   res.json({ build });
 });
 
+const boolish = z.union([z.boolean(), z.number().int().min(0).max(1)]);
+
 const buildSchema = z.object({
   name: z.string().min(1).max(200),
   note: z.string().max(2000).nullable().optional(),
@@ -38,10 +40,15 @@ const buildSchema = z.object({
   assistBladeId: z.string().min(1).nullable().optional(),
   ratchetId: z.string().min(1),
   bitId: z.string().min(1),
-  isPublic: z.boolean().optional(),
+  isPublic: boolish.optional(),
 });
 
 router.use(requireAuth);
+
+function coercePublic(value: boolean | number | undefined): boolean | undefined {
+  if (value === undefined) return undefined;
+  return value === true || value === 1;
+}
 
 router.post('/', validateBody(buildSchema), (req, res, next) => {
   try {
@@ -50,7 +57,13 @@ router.post('/', validateBody(buildSchema), (req, res, next) => {
     const build = createBuild({
       id: generateId(),
       userId: user.id,
-      ...body,
+      name: body.name,
+      note: body.note,
+      bladeId: body.bladeId,
+      assistBladeId: body.assistBladeId,
+      ratchetId: body.ratchetId,
+      bitId: body.bitId,
+      isPublic: coercePublic(body.isPublic),
       createdAt: new Date().toISOString(),
     });
     res.status(201).json({ build });
@@ -63,7 +76,15 @@ router.patch('/:id', validateBody(buildSchema.partial()), (req, res, next) => {
   try {
     const id = req.params.id as string;
     const body = req.body as z.infer<typeof buildSchema>;
-    const build = updateBuild(req.user!.id, id, body);
+    const build = updateBuild(req.user!.id, id, {
+      name: body.name,
+      note: body.note,
+      bladeId: body.bladeId,
+      assistBladeId: body.assistBladeId,
+      ratchetId: body.ratchetId,
+      bitId: body.bitId,
+      isPublic: coercePublic(body.isPublic),
+    });
     if (!build) {
       res.status(404).json({ error: 'Build not found' });
       return;

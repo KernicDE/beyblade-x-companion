@@ -96,6 +96,7 @@ export interface Build {
   assistBladeId?: string;
   ratchetId: string;
   bitId: string;
+  isPublic?: boolean;
   createdAt: string;
   updatedAt: string;
 }

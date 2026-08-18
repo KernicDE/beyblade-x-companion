@@ -291,12 +291,22 @@
   },
   "builds": {
     "title": "Builds",
-    "viewAll": "Alle Builds anzeigen",
-    "profileBuilds": "Aus dem Profil",
-    "profileHint": "Im verschlüsselten Profil gespeichert — zentral gepflegt und schreibgeschützt. Bearbeiten und Duplizieren legen einen lokalen Entwurf an.",
-    "unlockHint": "Profil entsperren, um Profil-Builds zu sehen.",
-    "localBuilds": "Lokale Entwürfe",
-    "copiedToDrafts": "Als lokaler Entwurf kopiert."
+    "loginRequired": "Bitte melde dich an, um deine Builds zu verwalten.",
+    "empty": "Noch keine Builds.",
+    "add": "Build hinzufügen",
+    "newBuild": "Neuer Build",
+    "editBuild": "Build bearbeiten",
+    "name": "Name",
+    "note": "Notiz (optional)",
+    "public": "Öffentlich",
+    "private": "Privat",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "deleteConfirm": "\"{{name}}\" löschen?",
+    "confirm": "Bestätigen",
+    "shareCopied": "Teilen-Link kopiert.",
+    "parts": "Teile"
   },
   "simulator": {
     "title": "Simulator",
@@ -314,6 +324,7 @@
   },
   "profile": {
     "title": "Profil",
+    "role": "Rolle",
     "exportProfile": "Builds exportieren",
     "exportCopied": "Export-Link in die Zwischenablage kopiert.",
     "shareCopied": "Teilen-Link in die Zwischenablage kopiert.",

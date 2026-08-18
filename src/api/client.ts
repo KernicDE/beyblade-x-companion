@@ -157,26 +157,71 @@ export async function deleteOwnedPart(id: string): Promise<void> {
   await request(`/collection/parts/${id}`, { method: 'DELETE' });
 }
 
+interface BackendBuild {
+  id: string;
+  name: string;
+  note: string | null;
+  bladeId: string;
+  assistBladeId: string | null;
+  ratchetId: string;
+  bitId: string;
+  isPublic: number;
+  userId: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+function backendToBuild(b: BackendBuild): Build {
+  return {
+    id: b.id,
+    name: b.name,
+    note: b.note ?? undefined,
+    bladeId: b.bladeId,
+    assistBladeId: b.assistBladeId ?? undefined,
+    ratchetId: b.ratchetId,
+    bitId: b.bitId,
+    isPublic: b.isPublic === 1,
+    createdAt: b.createdAt,
+    updatedAt: b.updatedAt,
+  };
+}
+
+function buildToBackend(input: Partial<Omit<Build, 'id' | 'userId' | 'createdAt' | 'updatedAt'>>): Partial<BackendBuild> {
+  const out: Partial<BackendBuild> = {};
+  if (input.name !== undefined) out.name = input.name;
+  if (input.note !== undefined) out.note = input.note ?? null;
+  if (input.bladeId !== undefined) out.bladeId = input.bladeId;
+  if (input.assistBladeId !== undefined) out.assistBladeId = input.assistBladeId ?? null;
+  if (input.ratchetId !== undefined) out.ratchetId = input.ratchetId;
+  if (input.bitId !== undefined) out.bitId = input.bitId;
+  if (input.isPublic !== undefined) out.isPublic = input.isPublic ? 1 : 0;
+  return out;
+}
+
 export async function getBuilds(): Promise<{ builds: Build[] }> {
-  return request('/builds');
+  const data = await request<{ builds: BackendBuild[] }>('/builds');
+  return { builds: data.builds.map(backendToBuild) };
 }
 
 export async function getMyBuilds(): Promise<{ builds: Build[] }> {
-  return request('/builds/mine');
+  const data = await request<{ builds: BackendBuild[] }>('/builds/mine');
+  return { builds: data.builds.map(backendToBuild) };
 }
 
 export async function createBuild(input: Omit<Build, 'id' | 'userId' | 'createdAt' | 'updatedAt'>): Promise<{ build: Build }> {
-  return request('/builds', {
+  const data = await request<{ build: BackendBuild }>('/builds', {
     method: 'POST',
-    body: JSON.stringify(input),
+    body: JSON.stringify(buildToBackend(input)),
   });
+  return { build: backendToBuild(data.build) };
 }
 
 export async function updateBuild(id: string, input: Partial<Omit<Build, 'id' | 'userId' | 'createdAt' | 'updatedAt'>>): Promise<{ build: Build }> {
-  return request(`/builds/${id}`, {
+  const data = await request<{ build: BackendBuild }>(`/builds/${id}`, {
     method: 'PATCH',
-    body: JSON.stringify(input),
+    body: JSON.stringify(buildToBackend(input)),
   });
+  return { build: backendToBuild(data.build) };
 }
 
 export async function deleteBuild(id: string): Promise<void> {
