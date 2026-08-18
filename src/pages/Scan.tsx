@@ -45,7 +45,7 @@ export function Scan() {
       await addOwnedBey({ beyId: bey.id });
       setAdded(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to add');
+      setError(err instanceof Error ? err.message : t('scan.addFailed'));
     } finally {
       setAdding(false);
     }
@@ -94,7 +94,7 @@ export function Scan() {
                   to={`/beys/${bey.id}`}
                   className="text-sm text-blue-600 hover:underline"
                 >
-                  View details →
+                  {t('scan.viewDetails')}
                 </Link>
                 {user && !added && (
                   <button

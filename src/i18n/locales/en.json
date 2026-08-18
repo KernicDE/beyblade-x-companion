@@ -428,7 +428,9 @@
     "notFound": "Barcode not found.",
     "noBeyLinked": "Barcode found, but no Bey linked.",
     "addToCollection": "Add to collection",
-    "added": "Added"
+    "added": "Added",
+    "addFailed": "Failed to add.",
+    "viewDetails": "View details →"
   },
   "ratings": {
     "community": "Community ratings",
