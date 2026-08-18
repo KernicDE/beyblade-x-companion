@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { DataProvider } from './components/DataProvider';
 import { Layout } from './components/Layout';
-import { useProfileStore } from './stores/profile';
 import { useAuthStore } from './stores/auth';
 import { Home } from './pages/Home';
 import { Collection } from './pages/Collection';
@@ -20,7 +19,6 @@ import { Scan } from './pages/Scan';
 
 function App() {
   useEffect(() => {
-    void useProfileStore.getState().init();
     void useAuthStore.getState().init();
   }, []);
 

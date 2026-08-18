@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { isPersonalProfile, migrateProfile, useProfileStore } from './profile';
+import { isPersonalProfile, migrateProfile, useProfileStore, emptyProfile } from './profile';
 import type { PersonalProfile } from '../types';
 
 function testProfile(): PersonalProfile {
@@ -36,9 +36,11 @@ describe('owned bey store operations', () => {
     expect(ownedBeys[2]).toMatchObject({ beyId: 'bey-a', priceEur: 12.99 });
   });
 
-  it('addOwnedBey returns null without an unlocked profile', () => {
-    useProfileStore.setState({ profile: null, status: 'locked' });
-    expect(useProfileStore.getState().addOwnedBey({ beyId: 'bey-a' })).toBeNull();
+  it('addOwnedBey works with the default empty profile', () => {
+    useProfileStore.setState({ profile: emptyProfile(), status: 'unlocked', remembered: false });
+    const created = useProfileStore.getState().addOwnedBey({ beyId: 'bey-a' });
+    expect(created).not.toBeNull();
+    expect(useProfileStore.getState().profile.ownedBeys).toHaveLength(1);
   });
 
   it('updateOwnedBey patches a single copy by id and keeps its id', () => {
@@ -67,28 +69,6 @@ describe('owned bey store operations', () => {
     const { ownedBeys } = useProfileStore.getState().profile!;
     expect(ownedBeys).toHaveLength(1);
     expect(ownedBeys[0].id).toBe('owned-2');
-  });
-
-  it('syncs profile updates into the remembered localStorage copy', () => {
-    localStorage.setItem(
-      'bx-remembered-profile',
-      JSON.stringify({ profile: testProfile(), payloadHash: 'hash-abc' })
-    );
-    useProfileStore.setState({ profile: testProfile(), status: 'unlocked', remembered: true });
-
-    const created = useProfileStore.getState().addOwnedBey({ beyId: 'bey-b', priceEur: 9.99 });
-
-    const remembered = JSON.parse(localStorage.getItem('bx-remembered-profile')!) as {
-      profile: PersonalProfile;
-      payloadHash: string;
-    };
-    expect(remembered.payloadHash).toBe('hash-abc');
-    expect(remembered.profile.ownedBeys).toHaveLength(3);
-    expect(remembered.profile.ownedBeys[2]).toMatchObject({
-      id: created!.id,
-      beyId: 'bey-b',
-      priceEur: 9.99,
-    });
   });
 
   it('leaves the remembered copy untouched when not remembered', () => {
@@ -190,15 +170,15 @@ describe('match store operations', () => {
     });
   });
 
-  it('addMatch returns null without an unlocked profile', () => {
-    useProfileStore.setState({ profile: null, status: 'locked' });
-    expect(
-      useProfileStore.getState().addMatch({
-        date: '2026-02-01',
-        myBey: { source: 'bey', beyId: 'bey-a' },
-        opponent: { name: 'Foe' },
-        result: 'loss',
-      })
-    ).toBeNull();
+  it('addMatch works with the default empty profile', () => {
+    useProfileStore.setState({ profile: emptyProfile(), status: 'unlocked', remembered: false });
+    const created = useProfileStore.getState().addMatch({
+      date: '2026-02-01',
+      myBey: { source: 'bey', beyId: 'bey-a' },
+      opponent: { name: 'Foe' },
+      result: 'loss',
+    });
+    expect(created).not.toBeNull();
+    expect(useProfileStore.getState().profile.matches).toHaveLength(1);
   });
 });
