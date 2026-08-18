@@ -6,7 +6,7 @@
     "home": "Start",
     "collection": "Sammlung",
     "matches": "Matches",
-    "parts": "Teile",
+    "parts": "Katalog",
     "builder": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
@@ -177,13 +177,16 @@
     }
   },
   "partsDatabase": {
-    "title": "Teile-Datenbank",
+    "title": "Katalog",
+    "beys": "Beys",
+    "parts": "Teile",
     "blades": "Blades",
     "assistBlades": "Assist Blades",
     "ratchets": "Ratchets",
     "bits": "Bits",
     "launchers": "Launcher",
-    "spin": "Spin"
+    "spin": "Spin",
+    "avgPrice": "Ø Preis (3M)"
   },
   "partDetail": {
     "loading": "Laden…",

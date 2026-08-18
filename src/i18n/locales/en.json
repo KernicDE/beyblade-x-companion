@@ -6,7 +6,7 @@
     "home": "Home",
     "collection": "Collection",
     "matches": "Matches",
-    "parts": "Parts",
+    "parts": "Catalog",
     "builder": "Builder",
     "dashboard": "Dashboard",
     "simulator": "Simulator",
@@ -177,13 +177,16 @@
     }
   },
   "partsDatabase": {
-    "title": "Parts Database",
+    "title": "Catalog",
+    "beys": "Beys",
+    "parts": "Parts",
     "blades": "Blades",
     "assistBlades": "Assist Blades",
     "ratchets": "Ratchets",
     "bits": "Bits",
     "launchers": "Launchers",
-    "spin": "spin"
+    "spin": "spin",
+    "avgPrice": "avg. price (3M)"
   },
   "partDetail": {
     "loading": "Loading…",
