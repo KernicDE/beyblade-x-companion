@@ -446,6 +446,11 @@
     "bit": "Bit",
     "communityRatings": "Community Ratings"
   },
+  "reloadPrompt": {
+    "title": "Update available",
+    "description": "A new version is ready. Please reload the page.",
+    "reload": "Reload"
+  },
   "errors": {
     "loading": "Loading…",
     "loadingDatabase": "Loading database…",

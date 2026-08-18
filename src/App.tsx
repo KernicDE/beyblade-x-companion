@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { DataProvider } from './components/DataProvider';
 import { Layout } from './components/Layout';
+import { ReloadPrompt } from './components/ReloadPrompt';
 import { useAuthStore } from './stores/auth';
 import { Home } from './pages/Home';
 import { Collection } from './pages/Collection';
@@ -27,6 +28,7 @@ function App() {
   return (
     <BrowserRouter>
       <DataProvider>
+        <ReloadPrompt />
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
